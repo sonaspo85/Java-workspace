@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.ast.protean.ma.um_en_2020pdf">
+    <require plugin="org.dita.pdf2"/>
+	<require plugin="org.dita.pdf2.axf"/>
+    <!-- <transtype name="com.antennahouse.pdf.ml" extends="pdf">
+        <param name="ahf.font.config.env" desc="Specifies AH Formatter font-config.xml environment variable." type="string"/>
+        <param name="ahf.font.config.file" desc="Specifies AH Formatter font-config file path." type="string"/>
+    </transtype> -->
+    <feature extension="dita.conductor.transtype.check" value="protean_ma_um_en_2020pdf"/>
+    <feature extension="dita.transtype.print" value="protean_ma_um_en_2020pdf"/>
+    <feature extension="dita.conductor.target.relative" file="build.xml"/>
+    <feature extension="dita.xsl.strings" file="cfg/common/vars/ast-strings.xml"/>
+    <feature extension="dita.xsl.strings" file="cfg/common/vars/common/common-strings.xml"/>
+    <feature extension="dita.xsl.strings" file="cfg/common/vars/font/ast-font-strings.xml"/>
+    <feature extension="dita.xsl.xslfo" file="cfg/fo/xsl/ast-pagebreak.xsl" type="file" />
+</plugin>

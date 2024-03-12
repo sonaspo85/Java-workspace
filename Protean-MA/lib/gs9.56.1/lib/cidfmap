@@ -1,0 +1,49 @@
+%!
+% cidfmap generated automatically by mkcidfm.ps from fonts found in
+%   C:/WINDOWS/Fonts
+
+% Substitutions
+/MalgunGothicRegular << /Path (C:/WINDOWS/Fonts/malgun.ttf) /FileType /TrueType /CSI [(Korea1) 3] /SubfontID 0 >> ;
+/MS-UI-Gothic << /Path (C:/WINDOWS/Fonts/msgothic.ttc) /FileType /TrueType /CSI [(Japan1) 3] /SubfontID 2 >> ;
+/ArialUnicodeMS-GB << /Path (C:/WINDOWS/Fonts/arialuni.ttf) /FileType /TrueType /CSI [(GB1) 2] /SubfontID 0 >> ;
+/GulimChe << /Path (C:/WINDOWS/Fonts/gulim.ttc) /FileType /TrueType /CSI [(Korea1) 3] /SubfontID 1 >> ;
+/NewGulim << /Path (C:/WINDOWS/Fonts/ngulim.ttf) /FileType /TrueType /CSI [(Korea1) 3] /SubfontID 0 >> ;
+/GungsuhChe << /Path (C:/WINDOWS/Fonts/batang.ttc) /FileType /TrueType /CSI [(Korea1) 3] /SubfontID 3 >> ;
+/MS-Gothic << /Path (C:/WINDOWS/Fonts/msgothic.ttc) /FileType /TrueType /CSI [(Japan1) 3] /SubfontID 0 >> ;
+/Gungsuh << /Path (C:/WINDOWS/Fonts/batang.ttc) /FileType /TrueType /CSI [(Korea1) 3] /SubfontID 2 >> ;
+/ArialUnicodeMS-KR << /Path (C:/WINDOWS/Fonts/arialuni.ttf) /FileType /TrueType /CSI [(Korea1) 3] /SubfontID 0 >> ;
+/MS-PGothic << /Path (C:/WINDOWS/Fonts/msgothic.ttc) /FileType /TrueType /CSI [(Japan1) 3] /SubfontID 1 >> ;
+/DotumChe << /Path (C:/WINDOWS/Fonts/gulim.ttc) /FileType /TrueType /CSI [(Korea1) 3] /SubfontID 3 >> ;
+/NSimSun << /Path (C:/WINDOWS/Fonts/simsun.ttc) /FileType /TrueType /CSI [(GB1) 2] /SubfontID 1 >> ;
+/Gulim << /Path (C:/WINDOWS/Fonts/gulim.ttc) /FileType /TrueType /CSI [(Korea1) 3] /SubfontID 0 >> ;
+/SimHei << /Path (C:/WINDOWS/Fonts/simhei.ttf) /FileType /TrueType /CSI [(GB1) 2] /SubfontID 0 >> ;
+/ArialUnicodeMS-CNS << /Path (C:/WINDOWS/Fonts/arialuni.ttf) /FileType /TrueType /CSI [(CNS1) 2] /SubfontID 0 >> ;
+/Batang << /Path (C:/WINDOWS/Fonts/batang.ttc) /FileType /TrueType /CSI [(Korea1) 3] /SubfontID 0 >> ;
+/BatangChe << /Path (C:/WINDOWS/Fonts/batang.ttc) /FileType /TrueType /CSI [(Korea1) 3] /SubfontID 1 >> ;
+/Dotum << /Path (C:/WINDOWS/Fonts/gulim.ttc) /FileType /TrueType /CSI [(Korea1) 3] /SubfontID 2 >> ;
+/SimSun << /Path (C:/WINDOWS/Fonts/simsun.ttc) /FileType /TrueType /CSI [(GB1) 2] /SubfontID 0 >> ;
+/ArialUnicodeMS-JP << /Path (C:/WINDOWS/Fonts/arialuni.ttf) /FileType /TrueType /CSI [(Japan1) 3] /SubfontID 0 >> ;
+/MalgunGothicBold << /Path (C:/WINDOWS/Fonts/malgunbd.ttf) /FileType /TrueType /CSI [(Korea1) 3] /SubfontID 0 >> ;
+
+% Aliases
+/AdobeMingStd-Light /ArialUnicodeMS-CNS ;
+/HYGoThic-Medium /Dotum ;
+/KozMinPr6N-Regular /ArialUnicodeMS-JP ;
+/Ryumin-Medium /ArialUnicodeMS-JP ;
+/MKai-Medium /ArialUnicodeMS-CNS ;
+/HeiseiKakuGo-W5 /MS-Gothic ;
+/AdobeHeitiStd-Regular /SimHei ;
+/STHeiti-Regular /SimHei ;
+/STSong-Light /SimSun ;
+/STKaiti-Regular /SimHei ;
+/STFangsong-Light /SimSun ;
+/MSung-Medium /ArialUnicodeMS-CNS ;
+/AdobeMyungjoStd-Medium /Batang ;
+/HYSMyeongJo-Medium /Batang ;
+/HeiseiMin-W3 /ArialUnicodeMS-JP ;
+/Ryumin-Light /ArialUnicodeMS-JP ;
+/GothicBBB-Medium /MS-Gothic ;
+/MHei-Medium /ArialUnicodeMS-CNS ;
+/HYRGoThic-Medium /Gulim ;
+/AdobeSongStd-Light /SimSun ;
+/MSung-Light /ArialUnicodeMS-CNS ;

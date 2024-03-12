@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="144.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="28.0" layoutY="28.0" text="저장 디렉토리를 입력해 주세요" />
+      <Button id="saveBt" fx:id="saveBt" layoutX="304.0" layoutY="94.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="79.0" text="OK" />
+      <TextField id="saveTF" fx:id="saveTF" layoutX="28.0" layoutY="54.0" prefHeight="22.0" prefWidth="353.0" />
+   </children>
+</AnchorPane>

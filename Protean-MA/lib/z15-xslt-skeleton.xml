@@ -1,0 +1,11 @@
+<root>
+    <path
+        in="final-lang.dita"
+        out="preview.dita"
+        xslt="htmlPreview\preview.xsl"/>
+
+    <path
+        in="preview.dita"
+        out="skeleton.xml"
+        xslt="htmlPreview\make-skeleton.xsl" />
+</root>

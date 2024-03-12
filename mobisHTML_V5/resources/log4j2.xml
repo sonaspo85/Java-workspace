@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<configuration status="WARN">  <!-- status="INFO" 로 로그를 어느 수준부터 보여 줄것인지 지정 -->
+ 
+    <Appenders>
+        <!-- 콜솔 -->
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd hh:mm:ss} %5p [%c] %m%n"/>
+        </Console>
+        
+        
+        <!-- 파일  -->
+        <!-- <RollingFile name ="RollingFile">
+            <FileName>C:\Users\DESK-02 4756\Desktop\IMAGE\mylog.txt</FileName>
+            <FilePattern>C:\Users\DESK-02 4756\Desktop\IMAGE\%d{yyyy-MM-dd-hh-mm}\mylog.zip</FilePattern>
+            <PatternLayout charset="UTF-8">
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %5p [%c] %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile> -->
+        
+        <RollingFile name ="RollingFileError">
+            <!-- <FileName>C:\Users\DESK-02 4756\Desktop\IMAGE\mylog_error.txt</FileName> -->
+            <!-- <FilePattern>C:\Users\DESK-02 4756\Desktop\IMAGE\%d{yyyy-MM-dd-hh-mm}-mylog_error.txt</FilePattern> -->
+            
+            <FilePattern>${sys:logFilename}%d{yyyy-MM-dd-hh-mm}-mylog_error.txt</FilePattern>
+            <PatternLayout charset="UTF-8">
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %5p [%c] %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile>
+        
+    </Appenders>
+    
+    <loggers>
+        <root level="WARN" additivity="true">
+            <AppenderRef ref="console" level="WARN"/>
+            <!-- <AppenderRef ref="RollingFile"/> -->
+            <AppenderRef ref="RollingFileError" level="ERROR"/>
+        </root>
+    </loggers>
+    
+</configuration> 

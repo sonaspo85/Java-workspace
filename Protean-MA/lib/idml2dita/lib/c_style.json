@@ -1,0 +1,23 @@
+{
+	"C_CrossReference": "cross",
+	"C_SingleStep": "ph outputclass='fillarrow'",
+	"C_FontChange": "ph outputclass='preserve'",
+	"C_FontChange-Semi": "b outputclass='preserve'",
+	"C_H1-Small": "ph outputclass='small'",
+	"C_H1-Small_FontChange": "ph outputclass='smallpreserve'",
+	"C_Intuitive-H1": "ph outputclass='intuitive1'",
+	"C_Intuitive-H2": "ph outputclass='intuitive2'",
+	"C_Intuitive-H3": "ph outputclass='intuitive3'",
+	"C_Image": "img",
+	"C_Important": "b",
+	"C_Important-Line": "b outputclass='underline'",
+	"C_Important-Semi": "b outputclass='semi'",
+	"C_Italic": "ph outputclass='italic'",
+	"C_NoBreak": "ph outputclass='nobreak'",
+	"C_Superscript": "ph outputclass='superscript'",
+	"C_Superscript-R-TM": "tm",
+	"C_URL": "html",
+	"C_URL-Important": "htmlb",
+	"MMI": "cmdname",
+	"MMI_NoBold": "cmdname outputclass='nobold'"
+}

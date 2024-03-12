@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<div id="top">
+        <div class="top_wrap">
+            <a class="logo" href="#">&#xFEFF;</a>
+            <div class="head_tit">&#xFEFF;</div>
+            <div id="toolbar">&#xFEFF;</div>
+        </div>
+    </div>
+
+    <div id="scroll_nav">
+        <div id="scrollmask">
+            <div id="home_area">
+                <a class="home2" href="javascript:history.back(-1);">&#xFEFF;</a>
+            </div>
+            <span id="chapter">&#xFEFF;</span>
+        </div>
+    </div>
+
+    <div id="search_wrap">
+        <div id="search_top">
+            <span id="chapter_text">&#xFEFF;</span>
+            <div id="id_searchwrap">
+                <input type="text" id="id_search" value="" placeholder="" autofocus="autofocus" />
+                <img src="../images/h_search_icon.png" id="id_search_button" />
+            </div>
+        </div>
+    </div>
+
+    <div id="no_results">
+        <div>
+            <span class="no_results_en">NOT FOUND!</span>
+            <br/>
+            <span class="no_results_text">&#xFEFF;</span>
+        </div>
+    </div>
+    
+    <div id="id_results">&#xFEFF;</div>
+    <div id="id_results2">&#xFEFF;</div>
+</root>

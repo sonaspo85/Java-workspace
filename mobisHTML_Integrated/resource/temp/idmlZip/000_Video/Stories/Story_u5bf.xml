@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="18.0">
+	<Story Self="u5bf" AppliedTOCStyle="n" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Image%3aEmpty_1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Table Self="u5bfi624" HeaderRowCount="0" FooterRowCount="0" TextTopInset="1.4173228346456694" TextLeftInset="1.4173228346456694" TextBottomInset="1.4173228346456694" TextRightInset="1.4173228346456694" ClipContentToTextCell="false" BodyRowCount="1" ColumnCount="1" AppliedTableStyle="TableStyle/Table_Product" TableDirection="LeftToRightDirection">
+					<Row Self="u5bfi624Row0" Name="0" TextTopInset="1.4173228346456694" TextLeftInset="1.4173228346456694" TextBottomInset="1.4173228346456694" TextRightInset="1.4173228346456694" ClipContentToTextCell="false" SingleRowHeight="93.5432485745648" MinimumHeight="58.752049844096035" />
+					<Column Self="u5bfi624Column0" Name="0" TextTopInset="1.4173228346456694" TextLeftInset="1.4173228346456694" TextBottomInset="1.4173228346456694" TextRightInset="1.4173228346456694" ClipContentToTextCell="false" SingleColumnWidth="243.7795275589645" />
+					<Cell Self="u5bfi624i0" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="1.4173228346456694" TextLeftInset="1.4173228346456694" TextBottomInset="1.4173228346456694" TextRightInset="1.4173228346456694" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="2" ClipContentToCell="false">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Image%3aImg-Center">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Rectangle Self="u62e" ContentType="GraphicType" StoryTitle="$ID/" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 297.6375122070312 85.7575073242187">
+									<Properties>
+										<PathGeometry>
+											<GeometryPathType PathOpen="false">
+												<PathPointArray>
+													<PathPointType Anchor="-297.63780975341797 -209.763727494444" LeftDirection="-297.63780975341797 -209.763727494444" RightDirection="-297.63780975341797 -209.763727494444" />
+													<PathPointType Anchor="-297.63780975341797 -119.05512458917055" LeftDirection="-297.63780975341797 -119.05512458917055" RightDirection="-297.63780975341797 -119.05512458917055" />
+													<PathPointType Anchor="-156.03281402587885 -119.05512458917055" LeftDirection="-156.03281402587885 -119.05512458917055" RightDirection="-156.03281402587885 -119.05512458917055" />
+													<PathPointType Anchor="-156.03281402587885 -209.763727494444" LeftDirection="-156.03281402587885 -209.763727494444" RightDirection="-156.03281402587885 -209.763727494444" />
+												</PathPointArray>
+											</GeometryPathType>
+										</PathGeometry>
+									</Properties>
+									<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+										<Properties>
+											<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+										</Properties>
+										<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+									</TextWrapPreference>
+									<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+									<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+										<Properties>
+											<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+											<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+										</Properties>
+									</ObjectExportOption>
+									<PDF Self="u782" GrayVectorPolicy="IgnoreAll" RGBVectorPolicy="HonorAllProfiles" CMYKVectorPolicy="IgnoreAll" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$ID/Adobe Portable Document Format (PDF)" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="1 0 0 1 -297.6378097534179 -209.763727494444" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" Visible="true" Name="$ID/">
+										<Properties>
+											<GraphicBounds Left="0" Top="0" Right="141.60499572753906" Bottom="90.70860290527344" />
+										</Properties>
+										<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+											<Properties>
+												<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+											</Properties>
+											<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+										</TextWrapPreference>
+										<PDFAttribute PageNumber="1" PDFCrop="CropArt" TransparentBackground="true" />
+										<MetadataPacketPreference>
+											<Properties>
+												<Contents><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c000 79.cca54b0, 2022/11/26-09:29:55        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/"
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">E-chcover_movie</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <xmp:MetadataDate>2023-07-19T10:12:41+09:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2023-07-19T10:12:41+09:00</xmp:ModifyDate>
+         <xmp:CreateDate>2023-07-19T10:12:41+10:00</xmp:CreateDate>
+         <xmp:CreatorTool>Adobe Illustrator 27.7 (Windows)</xmp:CreatorTool>
+         <xmp:Thumbnails>
+            <rdf:Alt>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpGImg:width>204</xmpGImg:width>
+                  <xmpGImg:height>256</xmpGImg:height>
+                  <xmpGImg:format>JPEG</xmpGImg:format>
+                  <xmpGImg:image>/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA&#xA;AQBIAAAAAQAB/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoK&#xA;DBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8f&#xA;Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgBAADMAwER&#xA;AAIRAQMRAf/EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA&#xA;AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB&#xA;UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE&#xA;1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ&#xA;qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy&#xA;obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp&#xA;0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo&#xA;+DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8A9U4q7FXYq7FXYq7FXYq7&#xA;FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7F&#xA;XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX&#xA;Yq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXY&#xA;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&#xA;7/Uv9WL9b4peh4q7FXYq7FX/2Q==</xmpGImg:image>
+               </rdf:li>
+            </rdf:Alt>
+         </xmp:Thumbnails>
+         <xmpMM:InstanceID>uuid:958a4cd2-5aaa-46ab-87f6-a3a70546236f</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:D0003C355A2BE911AC4EC70B8127349B</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>uuid:5D20892493BFDB11914A8590D31508C8</xmpMM:OriginalDocumentID>
+         <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:CF003C355A2BE911AC4EC70B8127349B</stRef:instanceID>
+            <stRef:documentID>xmp.did:CF003C355A2BE911AC4EC70B8127349B</stRef:documentID>
+            <stRef:originalDocumentID>uuid:5D20892493BFDB11914A8590D31508C8</stRef:originalDocumentID>
+            <stRef:renditionClass>proof:pdf</stRef:renditionClass>
+         </xmpMM:DerivedFrom>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2FF07476B262E711AE38CEEE43F8A27E</stEvt:instanceID>
+                  <stEvt:when>2017-07-07T10:20:28+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:CF003C355A2BE911AC4EC70B8127349B</stEvt:instanceID>
+                  <stEvt:when>2019-02-08T13:30:05+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:D0003C355A2BE911AC4EC70B8127349B</stEvt:instanceID>
+                  <stEvt:when>2019-02-08T13:30:42+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <illustrator:Type>Document</illustrator:Type>
+         <illustrator:StartupProfile>Print</illustrator:StartupProfile>
+         <illustrator:CreatorSubTool>AIRobin</illustrator:CreatorSubTool>
+         <xmpTPg:HasVisibleOverprint>False</xmpTPg:HasVisibleOverprint>
+         <xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
+         <xmpTPg:NPages>1</xmpTPg:NPages>
+         <xmpTPg:MaxPageSize rdf:parseType="Resource">
+            <stDim:w>49.955131</stDim:w>
+            <stDim:h>31.999978</stDim:h>
+            <stDim:unit>Millimeters</stDim:unit>
+         </xmpTPg:MaxPageSize>
+         <xmpTPg:PlateNames>
+            <rdf:Seq>
+               <rdf:li>Black</rdf:li>
+            </rdf:Seq>
+         </xmpTPg:PlateNames>
+         <xmpTPg:SwatchGroups>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>기본 견본 그룹</xmpG:groupName>
+                  <xmpG:groupType>0</xmpG:groupType>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:SwatchGroups>
+         <pdf:Producer>Adobe PDF library 17.00</pdf:Producer>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>]]></Contents>
+											</Properties>
+										</MetadataPacketPreference>
+										<Link Self="u632" AssetURL="$ID/" AssetID="$ID/" RenditionData="Actual" LinkResourceURI="file:D:/Work/MOBIS/%5BccNC%5D/%EC%9C%A0%EB%9F%BD%28EEC%29/K_MQ4/K_MQ4%2023PE_ccNC%5BEEC%5D_NAMO024/QRG%EB%A7%A4%EB%89%B4%EC%96%BC/PDF/2%EC%B0%A8/000_Video_%EA%B3%B5%ED%86%B5_EE_%EA%B8%B0%EC%95%84_231207/Links/E-chcover_movie.ai" LinkResourceFormat="$ID/Adobe Portable Document Format (PDF)" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 133342027620000000 892459" LinkImportModificationTime="2023-07-19T10:12:42" LinkImportTime="2023-11-21T14:25:29" LinkResourceSize="0~d9e2b" />
+										<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$ID/" Index="-1" />
+										<GraphicLayerOption UpdateLinkOption="KeepOverrides">
+											<GraphicLayer Self="u782GraphicLayerOption1i23" Name="$ID/레이어 1" OriginalVisibility="true" CurrentVisibility="true" SeparatorLayer="false" AdjustmentLayer="false" FXLayer="false" Locked="false" HasViewState="false" ViewState="false" HasExportState="false" ExportState="false" HasPrintState="false" PrintState="false" Id="35" />
+										</GraphicLayerOption>
+									</PDF>
+								</Rectangle>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+				</Table>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" ParagraphBreakType="NextColumn">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aChapter">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Video manual</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" ParagraphBreakType="NextColumn">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Heading%3aHeading1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Kia ccNC infotainment system</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Description%3aDescription_1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Shows visually how to use the main navigation functions (Reference video).</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caution_Note_Warning%3aUL1_1-Note">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>The description may be different from the actual functions and/or services provided in the vehicle.</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Image%3aEmpty_1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Table Self="u5bfi63a" HeaderRowCount="0" FooterRowCount="0" TextTopInset="1.4173228346456694" TextLeftInset="1.4173228346456694" TextBottomInset="1.4173228346456694" TextRightInset="1.4173228346456694" ClipContentToTextCell="false" BodyRowCount="1" ColumnCount="1" AppliedTableStyle="TableStyle/video_manual" TableDirection="LeftToRightDirection">
+					<Row Self="u5bfi63aRow0" Name="0" TextTopInset="11.338582677165356" TextLeftInset="1.4173228346456694" TextBottomInset="11.338582677165356" TextRightInset="1.4173228346456694" ClipContentToTextCell="false" SingleRowHeight="163.66573129113266" />
+					<Column Self="u5bfi63aColumn0" Name="0" TextTopInset="11.338582677165356" TextLeftInset="1.4173228346456694" TextBottomInset="11.338582677165356" TextRightInset="1.4173228346456694" ClipContentToTextCell="false" SingleColumnWidth="345.82677165354335" />
+					<Cell Self="u5bfi63ai0" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="11.338582677165356" TextLeftInset="1.4173228346456694" TextBottomInset="11.338582677165356" TextRightInset="1.4173228346456694" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="2" LeftInset="1.4173228346456694" RightInset="1.4173228346456694" ClipContentToCell="false">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Heading%3aHeading2-Continue">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>Overview</Content>
+								<Note Collapsed="false" CreationDate="2019-04-02T16:23:59" ModificationDate="2023-12-07T08:46:58" UserName="알 수 없는 사용자 이름" AppliedDocumentUser="dDocumentUser0">
+									<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+										<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" KerningMethod="$ID/Metrics - Roman Only" AppliedLanguage="$ID/Korean">
+											<Content>@after</Content>
+											<Br />
+											<Content>@filename: http://webmanual.kia.com/ccNC/AVNT/VIDEO/English/KMC_ccNC_Manual_Overview_ENG.mp4</Content>
+										</CharacterStyleRange>
+									</ParagraphStyleRange>
+								</Note>
+								<Br />
+								<Content>Navigation</Content>
+								<Note Collapsed="false" CreationDate="2019-04-02T16:23:59" ModificationDate="2023-12-07T08:47:10" UserName="알 수 없는 사용자 이름" AppliedDocumentUser="dDocumentUser0">
+									<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+										<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" KerningMethod="$ID/Metrics - Roman Only" AppliedLanguage="$ID/Korean">
+											<Content>@after</Content>
+											<Br />
+											<Content>@filename: http://webmanual.kia.com/ccNC/AVNT/VIDEO/English/KMC_ccNC_Manual_Navigation_ENG.mp4</Content>
+										</CharacterStyleRange>
+									</ParagraphStyleRange>
+								</Note>
+								<Br />
+								<Content>Fingerprint</Content>
+								<Note Collapsed="false" CreationDate="2019-04-02T16:23:59" ModificationDate="2023-12-07T08:47:19" UserName="알 수 없는 사용자 이름" AppliedDocumentUser="dDocumentUser0">
+									<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+										<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" KerningMethod="$ID/Metrics - Roman Only" AppliedLanguage="$ID/Korean">
+											<Content>@after</Content>
+											<Br />
+											<Content>@filename: http://webmanual.kia.com/ccNC/AVNT/VIDEO/English/KMC_ccNC_Manual_Fingerprint_ENG.mp4</Content>
+										</CharacterStyleRange>
+									</ParagraphStyleRange>
+								</Note>
+								<Br />
+								<Content>Voice Recognition</Content>
+								<Note Collapsed="false" CreationDate="2019-04-02T16:23:59" ModificationDate="2023-12-07T08:47:29" UserName="알 수 없는 사용자 이름" AppliedDocumentUser="dDocumentUser0">
+									<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+										<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" KerningMethod="$ID/Metrics - Roman Only" AppliedLanguage="$ID/Korean">
+											<Content>@after</Content>
+											<Br />
+											<Content>@filename: http://webmanual.kia.com/ccNC/AVNT/VIDEO/English/KMC_ccNC_Manual_Voice_Recognition_ENG.mp4</Content>
+										</CharacterStyleRange>
+									</ParagraphStyleRange>
+								</Note>
+								<Br />
+								<Content>Media</Content>
+								<Note Collapsed="false" CreationDate="2019-04-02T16:23:59" ModificationDate="2023-12-07T08:47:39" UserName="알 수 없는 사용자 이름" AppliedDocumentUser="dDocumentUser0">
+									<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]">
+										<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" KerningMethod="$ID/Metrics - Roman Only" AppliedLanguage="$ID/Korean">
+											<Content>@after</Content>
+											<Br />
+											<Content>@filename: http://webmanual.kia.com/ccNC/AVNT/VIDEO/English/KMC_ccNC_Manual_Media_ENG.mp4</Content>
+										</CharacterStyleRange>
+									</ParagraphStyleRange>
+								</Note>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+				</Table>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

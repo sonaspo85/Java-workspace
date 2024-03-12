@@ -1,0 +1,194 @@
+<root>
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/lib/dummy.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/00-line-feed.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/00-line-feed.xsl"
+        var0="H:/GitProject/Java/java-workspace/testson/resources/AOI 2.8.0.0_Release Notes_Attachments_Internal_KOR.htm"
+        var1="TESTfolder" />
+    
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/00-line-feed.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/01-orginal-source.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/01-extract-attr.xsl" />
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/01-extract-attr.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/02-create-attr.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/02-create-attr.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/02-create-attr.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/03-space-between-quot.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/03-space-between-quot.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/03-space-between-quot.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/04-self-closing_IDpos.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/04-self-closing_IDpos.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/01-orginal-source.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/05-groupid-source.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/05-groupid-source.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/05-groupid-source.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/06-createXML-structure.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/06-createXML-structure.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/06-createXML-structure.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/07-trash-tagClean.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/07-trash-tagClean.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/07-extract-styleInfo.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/08-make-styleinfo.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/08-make-styleinfo.xsl"
+        />
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/08-make-styleinfo.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/09-clear-styleinfo.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/09-clear-styleinfo.xsl"
+        />
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/07-trash-tagClean.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/10-attrname-define.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/10-attrname-define.xsl"
+        />
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/10-attrname-define.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/11-trash-tagClean.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/11-trash-tagClean.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/11-trash-tagClean.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/12-grouping-inlineText.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/12-grouping-inlineText.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/12-grouping-inlineText.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/13-insert-destinationkeys.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/13-insert-destinationkeys.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/13-insert-destinationkeys.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/14-image-grouping.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/14-image-grouping.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/14-image-grouping.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/14-nest-image.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/14-nest-image.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/14-nest-image.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/15-grouping-SubList.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/15-grouping-SubList.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/15-grouping-SubList.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/16-grouping-ULLlist.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/16-grouping-ULLlist.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/16-grouping-ULLlist.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/17-grouping-OLLlist.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/17-grouping-OLLlist.xsl"/>
+
+        <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/17-grouping-OLLlist.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/18-change-OLULtagName.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/18-change-OLULtagName.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/18-change-OLULtagName.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/19-nested-OLUL.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/19-nested-OLUL.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/19-nested-OLUL.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/20-grouping-ULOL.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/20-grouping-ULOL.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/20-grouping-ULOL.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/21-delete-OLUL-umbering.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/21-delete-OLUL-umbering.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/21-delete-OLUL-umbering.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/22-tableControl.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/22-tableControl.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/22-tableControl.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/23-tableControl.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/23-tableControl.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/23-tableControl.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/24-grouping-note.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/24-grouping-note.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/24-grouping-note.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/25-grouping-noteList.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/25-grouping-noteList.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/25-grouping-noteList.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/26-grouping-ULOL.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/26-grouping-ULOL.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/26-grouping-ULOL.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/27-tagName-define.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/27-tagName-define.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/27-tagName-define.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/28-grouping-para.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/28-grouping-para.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/28-grouping-para.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/29-topicalize.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/29-topicalize.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/29-topicalize.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/30-grouping-midtitle.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/30-grouping-midtitle.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/30-grouping-midtitle.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/31-href-connection.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/31-href-connection.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/31-href-connection.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/32-final-cleaner.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/32-final-cleaner.xsl"
+        var0="C:/Users/sonas/Desktop/Image/230603/ko/bat/Word2HTML/out"/>
+
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/32-final-cleaner.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/dummy.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/33-search_js.xsl"/>
+
+     <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/32-final-cleaner.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/dummy.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/34-search-html.xsl"/>
+
+    <path
+        in="H:/GitProject/Java/java-workspace/testson/temp/32-final-cleaner.xml"
+        out="H:/GitProject/Java/java-workspace/testson/temp/dummy.xml"
+        xslt="H:/GitProject/Java/java-workspace/testson/xsls/35-split-html.xsl"/>
+
+</root>

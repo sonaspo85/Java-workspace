@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.0">
+	<Story Self="u264" AppliedTOCStyle="TOCStyle/QRcode" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Description_Tab1_SamsungOne">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u284" Name=".50327" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Scanne zum Zugreifen auf das Benutzerhandbuch den QR-Code.</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u287" Name=".50334" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Pour accéder au mode d’emploi, scannez le code QR.</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u288" Name=".50339" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Para acceder al manual de usuario, escanee el código QR.</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u289" Name=".50344" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Voor toegang tot de gebruiksaanwijzing scant u de QR-code.</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u28a" Name=".50349" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Para aceder ao manual do utilizador, faça a leitura do código QR.</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u28b" Name=".50354" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Du kommer åt bruksanvisningen genom att skanna QR-koden.</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u28c" Name=".50359" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Voit käyttää käyttöopasta skannaamalla QR-koodin.</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u28d" Name=".50364" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>For at få adgang til brugervejledningen skal du scanne QR-koden.</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u28e" Name=".50373" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Hvis du vil få tilgang til brukerhåndboken, skanner du QR-koden.</Content>
+				</HyperlinkTextSource>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'SamsungSharpSans-Medium';
+    src: url('../fonts/SamsungSharpSans-Medium.eot');
+    src: url('../fonts/SamsungSharpSans-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/SamsungSharpSans-Medium.woff') format('woff'), url('../fonts/SamsungSharpSans-Medium.ttf') format('truetype'), url('../fonts/SamsungSharpSans-Medium.svg#samsungonelatin400') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'samsungonelatin300';
+    src: url('../fonts/samsungonelatin-300.eot');
+    src: url('../fonts/samsungonelatin-300.eot?#iefix') format('embedded-opentype'), url('../fonts/samsungonelatin-300.woff2') format('woff2'), url('../fonts/samsungonelatin-300.woff') format('woff'), url('../fonts/samsungonelatin-300.ttf') format('truetype'), url('../fonts/samsungonelatin-300.svg#samsungonelatin300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'samsungonelatin400';
+    src: url('../fonts/samsungonelatin-400.eot');
+    src: url('../fonts/samsungonelatin-400.eot?#iefix') format('embedded-opentype'), url('../fonts/samsungonelatin-400.woff2') format('woff2'), url('../fonts/samsungonelatin-400.woff') format('woff'), url('../fonts/samsungonelatin-400.ttf') format('truetype'), url('../fonts/samsungonelatin-400.svg#samsungonelatin400') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungSharpSans-Bold';
+    src: url('../fonts/SamsungSharpSans-Bold.eot');
+    src: url('../fonts/SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/SamsungSharpSans-Bold.woff') format('woff'), url('../fonts/SamsungSharpSans-Bold.ttf') format('truetype'), url('../fonts/SamsungSharpSans-Bold.svg#samsungonelatin800') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img, fieldset, button, input{border:0; vertical-align:middle;}
+
+* {margin: 0;padding: 0;}
+html {
+font-family: 'samsungonelatin400';
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+body { color: #000;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {display: block;}
+a{text-decoration:none;}
+/* etc */
+.hidden {display: none;}

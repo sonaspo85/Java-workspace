@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<language region="EU" name="English-EU" code="en-GB" icon="11" frontname="English" lvname="en_GB" filename="Eng" site="www.samsung.com" data-lgs="English" />
+    <language region="LTN" name="English-LTN" code="en-GB" icon="32" frontname="English (LTN)" lvname="en_US" filename="EngL" site="www.samsung.com" data-lgs="English" />
+    <language region="CHN" name="English-CN" code="en-GB" icon="6" frontname="English (CHN)" lvname="en_GB" filename="Cen" site="www.samsung.com/cn" data-lgs="English" />
+    <language region="HK" name="English-HK" code="en-GB" icon="19" frontname="English (HK)" lvname="en_GB" filename="Hen" site="www.samsung.com/hk" data-lgs="English" />
+    <language region="TC" name="English-TC" code="en-GB" icon="" frontname="English" lvname="en_GB" filename="Ten" site="www.samsung.com/tc" data-lgs="English" />
+    <language region="TC" name="English-TW" code="en-GB" icon="53" frontname="English" lvname="en_GB" filename="Ten" site="www.samsung.com/tw" data-lgs="English" />
+    <language region="KOR" name="English-KR" code="en-KR" icon="29" frontname="English" lvname="en_GB" filename="Ken" site="www.samsung.com/sec" data-lgs="English" />
+    <language region="MEA" name="English-MEA" code="en-GB" icon="34" frontname="English (MEA)" lvname="en_GB" filename="Eng" site="www.samsung.com" data-lgs="English" />
+    <language region="SEA" name="English-SEA" code="en-GB" icon="45" frontname="English" lvname="en_GB" filename="Eng" site="www.samsung.com" data-lgs="English" />
+    <language region="USA" name="English-USA" code="en-GB" icon="" frontname="English (USA)" lvname="en_GB" filename="Eng" site="www.samsung.com" data-lgs="English" />
+    <language region="KOR" name="Korean" code="ko-KR" icon="29" frontname="Korean" lvname="ko_KR" filename="Kor" site="www.samsung.com/sec" data-lgs="Korean" />
+    <language region="EU" name="Albanian" code="sq-AL" icon="48" frontname="Albanian" lvname="sq_AL" filename="Alb" site="www.samsung.com" data-lgs="Albanian" />
+	<language region="MEA" name="Arabic" code="ar-SA" icon="0" frontname="Arabic" lvname="ar_AE" filename="Ara" site="www.samsung.com" data-lgs="Arabic" />
+    <language region="CIS" name="Armenian" code="hy-AM" icon="22" frontname="Armenian" lvname="hy_AM" filename="Arm" site="www.samsung.com" data-lgs="Armenian" />
+    <language region="CIS" name="Azerbaijani" code="az-latn-AZ" icon="1" frontname="Azerbaijani" lvname="az_AZ" filename="Aze" site="www.samsung.com" data-lgs="Azerbaijani" />
+    <language region="SWA" name="Bengali" code="bn-IN" icon="3" frontname="Bengali" lvname="bn_BD" filename="Ben" site="www.samsung.com" data-lgs="Bengali" />
+    <language region="EU" name="Bulgarian" code="bg-BG" icon="2" frontname="Bulgarian" lvname="bg_BG" filename="Bul" site="www.samsung.com" data-lgs="Bulgarian" />
+    <language region="CHN" name="Chinese" code="zh-CN" icon="6" frontname="中文" lvname="zh_CN" filename="Chi" site="www.samsung.com/cn" data-lgs="PRC_Chinese" />
+    <language region="HK" name="Chinese-HK" code="zh-HK" icon="19" frontname="HongKong China" lvname="zh_HK" filename="Hch" site="www.samsung.com/hk" data-lgs="HongKong" />
+    <language region="SEA" name="Chinese-SG" code="zh-SG" icon="58" frontname="Chinese" lvname="zh_CN" filename="Sch" site="www.samsung.com" data-lgs="Singapore_Chinese" />
+    <language region="Taiwan" name="Chinese-TW" code="zh-TW" icon="53" frontname="Taiwan" lvname="zh_TW" filename="Tch" site="www.samsung.com/tw" data-lgs="Taiwan" />
+    <language region="EU" name="Croatian" code="hr-HR" icon="20" frontname="Croatian" lvname="hr_HR" filename="Hrv" site="www.samsung.com" data-lgs="Croatian" />
+    <language region="EU" name="Czech" code="cs-CZ" icon="7" frontname="Czech" lvname="cs_CZ" filename="Cze" site="www.samsung.com" data-lgs="Czech" />
+    <language region="EU" name="Danish" code="da-DK" icon="8" frontname="Danish" lvname="da_DK" filename="Dan" site="www.samsung.com" data-lgs="Danish" />
+    <language region="EU" name="Dutch" code="nl-NL" icon="39" frontname="Dutch" lvname="nl_BE" filename="Dut" site="www.samsung.com" data-lgs="Dutch" />
+    <language region="EU" name="Estonian" code="et-EE" icon="13" frontname="Estonian" lvname="et_EE" filename="Est" site="www.samsung.com" data-lgs="Estonian" />
+    <language region="MEA" name="Farsi" code="fa-IR" icon="14" frontname="Farsi" lvname="ur_PK" filename="Far" site="www.samsung.com" data-lgs="Farsi" />
+    <language region="EU" name="Finnish" code="fi-FI" icon="15" frontname="Finnish" lvname="fi_FI" filename="Fin" site="www.samsung.com" data-lgs="Finnish" />
+    <language region="EU" name="French" code="fr-FR" icon="16" frontname="French" lvname="fr_FR" filename="Fre" site="www.samsung.com" data-lgs="French" />
+    <language region="LTN" name="French-LTN" code="fr-CA" icon="32" frontname="French-LTN" lvname="fr_CA" filename="FreL" site="www.samsung.com" data-lgs="French_LA" />
+    <language region="MEA" name="French-MEA" code="fr-FR" icon="34" frontname="French (MEA)" lvname="fr_FR" filename="FreM" site="www.samsung.com" data-lgs="French_MEA" />
+    <language region="CIS" name="Georgian" code="ka-GE" icon="26" frontname="Georgian" lvname="ka_GE" filename="Geo" site="www.samsung.com" data-lgs="Georgian" />
+    <language region="EU" name="German" code="de-DE" icon="9" frontname="German" lvname="de_DE" filename="Ger" site="www.samsung.com" data-lgs="German" />
+    <language region="EU" name="Greek" code="el-GR" icon="10" frontname="Greek" lvname="el_GR" filename="Gre" site="www.samsung.com" data-lgs="Greek" />
+    <language region="MEA" name="Hebrew" code="he-IL" icon="17" frontname="Hebrew" lvname="iw_IL" filename="Heb" site="www.samsung.com" data-lgs="Hebrew" />
+    <language region="SWA" name="Hindi" code="hi-IN" icon="18" frontname="Hindi" lvname="hi_IN" filename="Hin" site="www.samsung.com" data-lgs="Hindi" />
+    <language region="EU" name="Hungarian" code="hu-HU" icon="21" frontname="Hungarian" lvname="hu_HU" filename="Hun" site="www.samsung.com" data-lgs="Hungarian" />
+    <language region="SEA" name="Indonesian" code="id-ID" icon="23" frontname="Indonesian" lvname="in_ID" filename="Ind" site="www.samsung.com" data-lgs="Indonesian" />
+    <language region="EU" name="Italian" code="it-IT" icon="24" frontname="Italian" lvname="it_IT" filename="Ita" site="www.samsung.com" data-lgs="Italian" />
+    <language region="JPN" name="Japanese" code="ja-JP" icon="25" frontname="Japanese" lvname="ja_JP" filename="Jpn" site="www.samsung.com" data-lgs="Japanese" />
+    <language region="CIS" name="Kazakh" code="kk-KZ" icon="27" frontname="Kazakh" lvname="kk_KZ" filename="Kaz" site="www.samsung.com" data-lgs="Kazakh" />
+    <language region="SEA" name="Khmer" code="km-KH" icon="28" frontname="Khmer" lvname="km_KH" filename="Khm" site="www.samsung.com" data-lgs="Cambodian" />
+    <language region="SEA" name="Lao" code="lo-LA" icon="30" frontname="Lao" lvname="lo_LA" filename="Lao" site="www.samsung.com" data-lgs="Laothian" />
+    <language region="EU" name="Latvian" code="lv-LV" icon="33" frontname="Latvian" lvname="lv_LV" filename="Lav" site="www.samsung.com" data-lgs="Latvian" />
+    <language region="EU" name="Lithuanian" code="lt-LT" icon="31" frontname="Lithuanian" lvname="lt_LT" filename="Lit" site="www.samsung.com" data-lgs="Lithuanian" />
+    <language region="EU" name="Macedonian" code="mk-MK" icon="36" frontname="Macedonian" lvname="mk_MK" filename="Mac" site="www.samsung.com" data-lgs="Macedonian" />
+    <language region="CIS" name="Mongolian" code="mn-MN" icon="37" frontname="Mongolian" lvname="mn_MN" filename="Mon" site="www.samsung.com" data-lgs="Mongolian" />
+    <language region="SEA" name="Myanmar" code="my-MM" icon="38" frontname="Myanmar" lvname="my-MM" filename="Mya" site="www.samsung.com" data-lgs="Myanmar" />
+    <language region="EU" name="Norwegian" code="nn-NO" icon="40" frontname="Norwegian" lvname="nb_NO" filename="Nor" site="www.samsung.com" data-lgs="Norwegian" />
+    <language region="EU" name="Polish" code="pl-PL" icon="41" frontname="Polish" lvname="pl_PL" filename="Pol" site="www.samsung.pl&#x2028;www.samsung.com" data-lgs="Polish" />
+    <language region="EU" name="Portuguese" code="pt-PT" icon="42" frontname="Portuguese" lvname="pt_PT" filename="Por" site="www.samsung.com" data-lgs="Portuguese" />
+    <language region="MEA" name="Portuguese-MEA" code="pt-PT" icon="34" frontname="Portuguese (MEA)" lvname="pt_PT" filename="PorM" site="www.samsung.com" data-lgs="Portuguese_MEA" />
+    <language region="BRA" name="Portuguese-BRA" code="pt-PT" icon="4" frontname="Portuguese (BRA)" lvname="pt_PT" filename="PorB" site="www.samsung.com" data-lgs="Portuguese_BRA" />
+    <language region="EU" name="Romanian" code="ro-RO" icon="43" frontname="Romanian" lvname="ro_RO" filename="Rum" site="www.samsung.com" data-lgs="Romanian" />
+    <language region="CIS" name="Romanian-CIS" code="ro-RO" icon="5" frontname="Romanian (CIS)" lvname="ro_RO" filename="RumC" site="www.samsung.com" data-lgs="Romanian_CIS" />
+    <language region="CIS" name="Russian" code="ru-RU" icon="44" frontname="Russian" lvname="ru_RU" filename="Rus" site="www.samsung.com" data-lgs="Russian" />
+    <language region="EU" name="Serbian" code="sr-latn-RS" icon="49" frontname="Serbian" lvname="sr_RS" filename="Ser" site="www.samsung.com" data-lgs="Serbian" />
+    <language region="EU" name="Slovak" code="sk-SK" icon="46" frontname="Slovak" lvname="sk_SK" filename="Slk" site="www.samsung.com" data-lgs="Slovak" />
+    <language region="EU" name="Slovenian" code="sl-SI" icon="47" frontname="Slovenian" lvname="sl_SI" filename="Sln" site="www.samsung.com" data-lgs="Slovenian" />
+    <language region="EU" name="Spanish" code="es-ES" icon="12" frontname="Spanish" lvname="es_ES" filename="Spa" site="www.samsung.com" data-lgs="Spanish" />
+    <language region="LTN" name="Spanish-LTN" code="es-MX" icon="32" frontname="Spanish (LTN)" lvname="es_AR" filename="SpaL" site="www.samsung.com" data-lgs="Spanish_LA" />
+    <language region="EU" name="Swedish" code="sv-SE" icon="50" frontname="Swedish" lvname="sv_SE" filename="Swe" site="www.samsung.com" data-lgs="Swedish" />
+    <language region="SEA" name="Thai" code="th-TH" icon="51" frontname="Thai" lvname="th_TH" filename="Tha" site="www.samsung.com" data-lgs="Thai" />
+    <language region="MEA" name="Turkish" code="tr-TR" icon="52" frontname="Turkish" lvname="tr_TR" filename="Tur" site="www.samsung.com" data-lgs="Turkish" />
+    <language region="CIS" name="Ukrainian" code="uk-UA" icon="54" frontname="Ukrainian" lvname="uk_UA" filename="Ukr" site="www.samsung.com" data-lgs="Ukrainian" />
+    <language region="MEA" name="Urdu" code="ur-PK" icon="55" frontname="Urdu" lvname="ur_PK" filename="Urd" site="www.samsung.com" data-lgs="Urdu" />
+    <language region="CIS" name="Uzbek" code="uz-latn-UZ" icon="56" frontname="Uzbek" lvname="uz_UZ" filename="Uzb" site="www.samsung.com" data-lgs="Uzbek" />
+    <language region="SEA" name="Vietnamese" code="vi-VN" icon="57" frontname="Vietnamese" lvname="vi_VN" filename="Vie" site="www.samsung.com" data-lgs="Vietnamese" />
+</root>

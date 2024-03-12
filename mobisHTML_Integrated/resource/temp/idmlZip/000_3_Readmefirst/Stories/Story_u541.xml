@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="18.0">
+	<Story Self="u541" AppliedTOCStyle="TOCStyle/Content" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u17fa" Name=".6138" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	System overview</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1801" Name=".6145" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Component names and functions</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1806" Name=".6150" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Using the touch screen</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u180b" Name=".6155" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Using the home screen</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1811" Name=".6161" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Using quick control</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1818" Name=".6168" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Using split screen</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u181d" Name=".6173" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="검색 사용하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Using search</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1823" Name=".6179" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Manual</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1829" Name=".6185" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Viewing the online manual</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u182f" Name=".6191" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	User profile</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1834" Name=".6196" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="사용자 프로필 등록하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Registering user profile settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u183c" Name=".6204" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Voice recognition</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u1841" Name=".6209" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Voice recognition </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1846" Name=".6214" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="음성 명령어 목록" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>List of voice commands</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u184e" Name=".6222" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Kia Connect</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u1856" Name=".6230" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="블루링크 서비스" TocEntryPageNumberString="" TocEntryLevel="2" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Kia Connect service </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u185c" Name=".6236" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="서비스 가입하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Subscribing to the service </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u1861" Name=".6241" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="길 안내 서비스" TocEntryPageNumberString="" TocEntryLevel="2" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Route guidance service </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1867" Name=".6247" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="지도" TocEntryPageNumberString="" TocEntryLevel="1" />
+					</Properties>
+					<Content>	Map</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u186d" Name=".6253" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Using the navigation functions</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1872" Name=".6258" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="간편하게 길 찾기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Finding a route easily</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1877" Name=".6263" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="최근 목적지 검색하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Searching for a previous destination</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u187c" Name=".6268" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="주변 시설 검색하기 1" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Searching for nearby points of interest</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1881" Name=".6273" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="등록 지점 사용하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Using saved favourite places</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1886" Name=".6278" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="경로 탐색 옵션 변경하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Changing the route search option</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u188f" Name=".6287" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="경로 편집하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Editing the route</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1897" Name=".6295" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="Viewing traffic" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Viewing traffic</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u189d" Name=".6301" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>END USER LICENCE AGREEMENT</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u18a3" Name=".6307" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Media</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u18a8" Name=".6312" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Using media</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u18ae" Name=".6318" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Turning on the FM radio</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u18b4" Name=".6324" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Turning on the AM radio</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u18b9" Name=".6329" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="블루투스로 음악 듣기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Playing music via Bluetooth</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u18be" Name=".6334" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Playing sounds of nature</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u18c3" Name=".6339" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Playing music from a USB device</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u18c8" Name=".6344" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Playing video from a USB device</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u18d0" Name=".6352" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Phone</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u18d8" Name=".6360" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="블루투스로 전화 사용하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Using a phone via Bluetooth</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u18de" Name=".6366" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="블루투스 기기 연결하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Connecting a Bluetooth device</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u18e3" Name=".6371" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Dialling from the recent call list</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u18e8" Name=".6376" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="연락처를 사용해 전화 걸기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Dialling from the contacts</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u18ee" Name=".6382" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Dialling using the dial pad</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u18f3" Name=".6387" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Checking new messages over Bluetooth</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u18f8" Name=".6392" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Answering a call</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u18fe" Name=".6398" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Phone projection</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1903" Name=".6403" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="폰 프로젝션 사용하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Using the phone projection function</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1908" Name=".6408" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Using Android Auto wirelessly</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u190f" Name=".6415" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="무선으로 Apple CarPlay 사용하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Using Apple CarPlay wirelessly</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1918" Name=".6424" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="USB 케이블로 Android Auto 사용하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Using Android Auto with a USB cable</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u191e" Name=".6430" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="USB 케이블로 Apple CarPlay 사용하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Using Apple CarPlay with a USB cable</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1923" Name=".6435" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="Resolving a phone projection connection error" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Resolving a phone projection connection error</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1929" Name=".6441" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Electric vehicle</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u192f" Name=".6447" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Using the electric vehicle menu </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(EV only)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1936" Name=".6454" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Hybrid</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u193b" Name=".6459" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Using the hybrid menu </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(HEV only)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1941" Name=".6465" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Voice memo</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1946" Name=".6470" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Running the voice memo</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u194c" Name=".6476" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Climate</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u1953" Name=".6483" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Using the climate control </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u195b" Name=".6491" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Using the rear-seat climate control </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1965" Name=".6501" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Seat</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u196b" Name=".6507" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Adjusting a seat </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1973" Name=".6515" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Passenger view</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u1979" Name=".6521" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Using the passenger view mode </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u197f" Name=".6527" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Car wash mode</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u1984" Name=".6532" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Using the car wash mode </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u198a" Name=".6538" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Vehicle diagnostics</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u198f" Name=".6543" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="차량 진단하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Diagnosing the vehicle </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1995" Name=".6549" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Weather</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u199c" Name=".6556" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Weather forecast </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u19a5" Name=".6565" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Calendar</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u19ab" Name=".6571" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Schedule check </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u19b1" Name=".6577" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Sports</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u19b6" Name=".6582" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="스포츠 경기 정보 확인하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Checking sports event updates </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u19bd" Name=".6589" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Valet mode</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u19c2" Name=".6594" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Using the valet mode </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u19c9" Name=".6601" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Passenger talk</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u19ce" Name=".6606" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="Using the passenger talk (if equipped)" TocEntryPageNumberString="" TocEntryLevel="2" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Using the passenger talk </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u19d4" Name=".6612" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Quiet Mode</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u19d9" Name=".6617" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Using the quiet mode</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u19e1" Name=".6625" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Parking assistance screen</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u19e9" Name=".6633" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Viewing the parking assistance screen</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u19ef" Name=".6639" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Rear View Monitor</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u19f4" Name=".6644" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Surround View Monitor </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u19f9" Name=".6649" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="카메라 설정하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Configuring the camera</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1a02" Name=".6658" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Notification</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u1a07" Name=".6663" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Viewing notifications </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1a0f" Name=".6671" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1a14" Name=".6676" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Configuring the system settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1a19" Name=".6681" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Configuring the vehicle settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+			<HyperlinkTextSource Self="u1a1e" Name=".6686" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Configuring the electric vehicle settings </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1a27" Name=".6695" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="내비게이션 설정하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Configuring the navigation settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1a2f" Name=".6703" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Configuring the sound settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1a35" Name=".6709" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Configuring the phone connections settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1a3a" Name=".6714" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="사용자 프로필 설정하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Configuring the user profile settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+			<HyperlinkTextSource Self="u1a3f" Name=".6719" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Configuring the voice recognition settings </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1a45" Name=".6725" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="화면구성 설정하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Configuring the screen layout settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1a4a" Name=".6730" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Configuring the display settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1a4f" Name=".6735" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="버튼 설정하기" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Configuring the button settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1a54" Name=".6740" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Configuring the cluster/head-up display settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+			<HyperlinkTextSource Self="u1a59" Name=".6745" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>Configuring the Kia Connect settings </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1a60" Name=".6752" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Configuring the general settings</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1a68" Name=".6760" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	OTA update</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<HyperlinkTextSource Self="u1a70" Name=".6768" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="무선 업데이트" TocEntryPageNumberString="" TocEntryLevel="2" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>OTA update </Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+					<Content>(if equipped)</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Below_Heading">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1a77" Name=".6775" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>	Appendix</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u1a7c" Name=".6780" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="증상별 원인과 해결 방법" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>Troubleshooting guide</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1a81" Name=".6785" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="시스템 상태 표시 아이콘" TocEntryPageNumberString="" TocEntryLevel="2" />
+					</Properties>
+					<Content>System status indicator icons</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1a88" Name=".6792" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>FAQ</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1a8d" Name=".6797" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Product specifications</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1a92" Name=".6802" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Trademarks</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u1a97" Name=".6807" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Open source information</Content>
+				</HyperlinkTextSource>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

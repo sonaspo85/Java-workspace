@@ -1,0 +1,523 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"space",
+				"space-after"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"parS",
+				"parStep"
+			],
+			[
+				"Head",
+				"Heading3"
+			],
+			[
+				"preT",
+				"preTitle"
+			],
+			[
+				"Heading",
+				"Heading3"
+			],
+			[
+				"head",
+				"Heading3"
+			],
+			[
+				"he",
+				"Heading1-APPLINK"
+			],
+			[
+				"pa",
+				"pagebreak"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"font-s",
+				"font-stretch"
+			],
+			[
+				"blo",
+				"block-container"
+			],
+			[
+				"font",
+				"font-stretch"
+			],
+			[
+				"Hea",
+				"Heading2-APPLINK"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"h",
+				"Heading2"
+			],
+			[
+				"pre",
+				"preNote"
+			],
+			[
+				"hea",
+				"Heading3-APPLINK"
+			],
+			[
+				"st",
+				"steps"
+			],
+			[
+				"con",
+				"contains"
+			],
+			[
+				"paren",
+				"parent"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"de",
+				"depth"
+			],
+			[
+				"ancs",
+				"ancesSteps"
+			],
+			[
+				"inlne",
+				"inline"
+			],
+			[
+				"Lchi",
+				"LchiInfo"
+			],
+			[
+				"pu",
+				"upsp"
+			],
+			[
+				"block",
+				"block-container"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"border",
+				"border-after-color"
+			],
+			[
+				"chose",
+				"choose"
+			],
+			[
+				"ancesSte",
+				"ancesSteps"
+			],
+			[
+				"par",
+				"parResult"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"ans",
+				"ancesStep"
+			],
+			[
+				"an",
+				"ancesStep"
+			],
+			[
+				"val",
+				"value-of"
+			],
+			[
+				"var",
+				"variable"
+			],
+			[
+				"te",
+				"test"
+			],
+			[
+				"appl",
+				"apply"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bookmark",
+				"SublimeBookmarks: Remove All Bookmarks (Clear Bookmarks)"
+			],
+			[
+				"book",
+				"SublimeBookmarks: Remove All Bookmarks (Clear Bookmarks)"
+			],
+			[
+				"hig",
+				"Text Marker: Highlight Selection Color (aqua)"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"text mark",
+				"Text Marker: Disable Live Highlight"
+			],
+			[
+				"mark",
+				"Text Marker: Highlight Selection Color (aqua)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"BOOKMARK",
+				"SublimeBookmarks: Show Bookmarks Only In Current File "
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/DITA-OT-Mobile/integrator.xml",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/attrs/ast-tables-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/attrs/ast-lists-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/attrs/ast-topic-attr.xsl",
+		"/E/Dev_tool/langSeparate/xsls/002.xsl",
+		"/E/Dev_tool/langSeparate/xsls/001.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/xsl/ast-lists.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/xsl/ast-topic.xsl",
+		"/C/Protean/mobile-source-test/out/1_PDF/topic_dla.fo",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/attrs/ast-font-attr.xsl",
+		"/C/Protean/mobile-source-test/out/1_PDF/ddd.fo",
+		"/E/손융은/TR_Paragraph_Variable_ASIA_201215.0_ENG.xml",
+		"/E/손융은/Paragraph_Variable.xml",
+		"/E/Dev_tool/PVdata_convert/xsls/001.xsl",
+		"/E/Dev_tool/PVdata_convert/output.xml",
+		"/E/Dev_tool/PVdata_convert/output2.xml",
+		"/C/Users/DESK-0~1/AppData/Local/Temp/BNZ.617125d520fffd8/en.xml",
+		"/E/Dev_tool/[Mobile]PV-inlineTag-Escape/output2.xml",
+		"/E/Dev_tool/[Mobile]PV-inlineTag-Escape/xsls/001.xsl",
+		"/E/Dev_tool/[Mobile]PV-inlineTag-Escape/output.xml",
+		"/E/Dev_tool/[Mobile]PV-inlineTag-Escape/Paragraph_Variable.xml",
+		"/C/Protean/mobile-source-test/PROJECT.ditamap",
+		"/C/Protean/mobile-source-test/out/1_PDF/topic.fo",
+		"/C/Protean/mobile-source-test/PROJECT_MERGED.xml",
+		"/C/Protean/mobile-source-test/BASIC/settings.ditamap",
+		"/C/Protean/mobile-source-test/BASIC/002_apps_and_features/sharing_content/sharing_content_with_nearby_devices.dita",
+		"/C/Protean/mobile-source-test/BASIC/apps_and_features.ditamap",
+		"/C/Protean/mobile-source-test/z3-pdf-draft.bat",
+		"/C/Protean/mobile-source-test/z1-dita-merge.bat",
+		"/E/WORK/WORK/Mobis/Mobis_templates_svn/IDMLtoHTML_Converter/Resources/Quickguide/Hyundai/quickguide002.html",
+		"/E/WORK/WORK/Mobis/Mobis_templates_svn/IDMLtoHTML_Converter/Resources/Quickguide/Hyundai/quickguide001.html",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/attrs/ast-task-elements-attr.xsl",
+		"/C/Protean/mobile-source-test/out/1_PDF/topic-211015.fo",
+		"/C/Protean/mobile-source-test/out/1_PDF/topic-211008.fo",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/xsl/ast-task-elements.xsl",
+		"/E/손융은/cleaned.xml",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/xsl/ast-links.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/xsl/ast-tables.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/xsl/ast-commons.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/xsl/ast-pagebreak.xsl",
+		"/C/Users/DESK-02 4756/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/DESK-02 4756/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/C/Users/DESK-02 4756/Desktop/IMAGE/English/js/04_contents.js",
+		"/C/Protean/mobile-source-test/out/1_PDF/topic-211005.fo",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/xsl/ast-toc.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/xsl/ast-front-matter.xsl",
+		"/C/Protean/mobile-source-test/xsls/master.xsl",
+		"/C/Protean/mobile-source-test/out/master - 복사본 (2).dita",
+		"/C/Users/DESK-02 4756/AppData/Local/Temp/ast-topic-attr.xsl-rev388.svn000.tmp.xsl",
+		"/C/Protean/mobile-source-test/out/1_PDF/topic-ddd.fo",
+		"/E/WORK/WORK/Mobis/Mobis_bat/Bat_task/zzz.bat",
+		"/E/WORK/WORK/Mobis/Mobis_bat/Bat_task/resource/html-base.xml",
+		"/E/WORK/WORK/Mobis/Mobis_bat/Bat_task/output/008_VR_voicerec.html",
+		"/E/WORK/WORK/Mobis/WORK/211005/mergedXML.xml",
+		"/C/Protean/mobile-source-test/var.xml",
+		"/C/DITA-OT-Mobile/plugins/org.dita.pdf2/build.xml",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/xsl/custom.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/xsl/ast-flagging-preprocess.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/attrs/ast-layout-masters-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/attrs/ast-basic-settings.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/attrs/ast-commons-attr.xsl",
+		"/C/Users/DESK-02 4756/AppData/Local/Temp/BNZ.6154212e2a343fb/Readme.txt",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-commons.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-topic.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-font-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-topic-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-tables.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-front-matter.xsl",
+		"/C/DITA-OT-Mobile/plugins/org.dita.base/xsl/common/common-strings.xml",
+		"/C/DITA-OT-Mobile/plugins/org.dita.base/build.xml",
+		"/C/DITA-OT-Mobile/plugins/com.oxygenxml.merged/astkeyword.xsl",
+		"/C/DITA-OT-Mobile/plugins/org.dita.pdf2/build_template.xml",
+		"/C/DITA-OT-Mobile/plugins/org.dita.pdf2/xsl/fo/tables.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-toc.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-tables-attr.xsl",
+		"/C/Protean/mobile-source/backup/WORK/210725/S21_Eng_TCS6/BASIC/003_settings/connections/options.dita",
+		"/C/Protean/mobile-source/backup/WORK/210725/S21_Eng_TCS6/BASIC/003_settings/display/changing_the_screen_mode_or_adjusting_the_display_colour.dita",
+		"/C/Protean/mobile-source/xsls/master.xsl",
+		"/C/Protean/mobile-source/PROJECT_MERGED.xml",
+		"/C/Protean/mobile-source/z1-dita-merge.bat",
+		"/C/Protean/mobile-source/z0-DITA-OT-3.4.bat",
+		"/C/Protean/mobile-source/PROJECT.ditamap",
+		"/C/Protean/mobile-source/out/PROJECT - 복사본.xml",
+		"/C/Protean/mobile-source/z2-dita-prepare.bat",
+		"/C/Protean/mobile-source/backup/WORK/210929/Source2/T86X_LTN/BASIC/appendix.ditamap",
+		"/C/Protean/mobile-source/BASIC/001_basics/read_me_first/weee_german.dita",
+		"/C/Protean/mobile-source/backup/WORK/210929/Source2/T86X_LTN/BASIC/004_appendix/electric_spec_mexico/spec_mexico_table.dita",
+		"/C/Protean/mobile-source/backup/WORK/210929/Source2/T86X_LTN/BASIC/004_appendix/electric_spec_mexico/spec_mexico.dita",
+		"/C/Protean/mobile-source/backup/WORK/210929/Source2/T86X_LTN/BASIC/settings.ditamap",
+		"/C/Protean/mobile-source/backup/WORK/210929/Source2/T86X_LTN/BASIC/spec_mexico_table.dita",
+		"/C/Protean/mobile-source/backup/WORK/210929/Source2/T86X_LTN/BASIC/basics.ditamap",
+		"/C/Protean/mobile-source/backup/WORK/210929/Source2/T86X_LTN/PROJECT.ditamap",
+		"/C/Protean/mobile-source/BASIC/basics.ditamap",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/common/vars/font/de-DE.xml",
+		"/C/Protean/mobile-source/z3-pdf-draft.bat",
+		"/C/Protean/mobile-source/out/PROJECT.xml",
+		"/C/Protean/mobile-source/BASIC/appendix_removing_the_battery",
+		"/C/Protean/mobile-source/BASIC/appendix_troubleshooting",
+		"/C/Protean/mobile-source-test/out/master - 복사본.dita",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/zzz.bat",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/06-createXML-structure.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/07-trash-tagClean.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/07-extract-styleInfo.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/10-attrname-define.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/09-clear-styleinfo.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/08-make-styleinfo.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/14-nest-image.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/14-image-grouping.xml",
+		"/E/WORK/WORK/kohyoung/WORK/WORK/210928/format error_KOR_test.htm",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/TESTfolder/KOR/chapter01_KOR.html",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/TESTfolder/KOR/chapter00_heading01_KOR.html",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/32-final-cleaner.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/25-grouping-noteList.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/13-insert-destinationkeys.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/12-grouping-inlineText.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/11-trash-tagClean.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/15-grouping-SubList.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/24-grouping-note.xml",
+		"/E/WORK/WORK/kohyoung/Kohyoung_Bat/temp/23-tableControl.xml",
+		"/C/Protean/mobile-source-test/out/1_PDF/topic_orignal.fo",
+		"/C/Protean/mobile-source-test/out/multi-export.xml",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf_TEST/cfg/fo/attrs/ast-front-matter-attr.xsl",
+		"/C/Users/DESK-02 4756/Desktop/IMAGE/IDM_UltraCompare_Professional_21.10.0.46_x64_Downloadly.ir/IDM UltraCompare Professional 21.10.0.46 x64/Crack/Readme.txt",
+		"/C/Users/DESK-02 4756/Desktop/IMAGE/IDM_UltraEdit_28.10.0.154_x64_Downloadly.ir/IDM UltraEdit 28.10.0.154 x64/Crack/Readme.txt",
+		"/C/Protean/mobile-source-test/out/final-en-GB.dita",
+		"/C/Protean/mobile-source/z8-html5-package.bat",
+		"/E/WORK/WORK/Mobis/Mobis_bat/Bat_task/temp/01-simplified.xml",
+		"/C/Users/DESK-02 4756/Desktop/IMAGE/xsl.uew"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"__all",
+			"jobFile",
+			"job",
+			"jobFile",
+			"job",
+			".jab",
+			"line-height-shift-adjustment=\"disregard-shifts\"",
+			"\"tm",
+			"\"tm\"",
+			"e",
+			"registered trademark of Bluetooth SIG",
+			"11mm"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "build.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

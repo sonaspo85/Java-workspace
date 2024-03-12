@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'CubeR';
+    src: url('CubeBetaR.eot');
+    src: url('CubeBetaR.eot?#iefix') format('embedded-opentype'),
+        url('CubeBetaR.woff2') format('woff2'),
+        url('CubeBetaR.woff') format('woff'),
+        url('CubeBetaR.ttf') format('truetype'),
+        url('CubeBetaR.svg#CubeBetaR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

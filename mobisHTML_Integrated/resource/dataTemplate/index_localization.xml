@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <language lang="Korean" localization="한국어" indexSubTitle="웹 매뉴얼" />
+    <language lang="English" localization="ENGLISH" indexSubTitle="ccNC" />
+    <language lang="French" localization="FRANÇAIS" indexSubTitle="" />
+    <language lang="Spanish" localization="ESPAÑOL" indexSubTitle="" />
+    <language lang="Arabic" localization="العربية" indexSubTitle="" />
+    <language lang="Portuguese" localization="PORTUGUÊS" indexSubTitle="" />
+    <language lang="Japanese" localization="日本語" indexSubTitle="" />
+    <language lang="Hindi" localization="हिंदी" indexSubTitle="" />
+    <language lang="Bengali" localization="বাংলা" indexSubTitle="" />
+    <language lang="Marathi" localization="मराठी" indexSubTitle="" />
+    <language lang="Telugu" localization="తెలుగు" indexSubTitle="" />
+    <language lang="Tamil" localization="தமிழ்" indexSubTitle="" />
+    <language lang="Gujarati" localization="ગુજરાતી" indexSubTitle="" />
+    <language lang="Kannada" localization="ಕನ್ನಡ" indexSubTitle="" />
+    <language lang="Odia" localization="ଓଡ଼ିଆ" indexSubTitle="" />
+    <language lang="Malayalam" localization="മലയാളം" indexSubTitle="" />
+    <language lang="Punjabi" localization="ਪੰਜਾਬੀ" indexSubTitle="" />
+    <language lang="Hebrew" localization="עברית" indexSubTitle="" />
+    <language lang="Czech" localization="ČESKY" indexSubTitle="" />
+    <language lang="Danish" localization="DANSK" indexSubTitle="" />
+    <language lang="German" localization="DEUTSCH" indexSubTitle="" />
+    <language lang="Italian" localization="ITALIANO" indexSubTitle="" />
+    <language lang="Hungarian" localization="MAGYAR" indexSubTitle="" />
+    <language lang="Dutch" localization="NEDERLANDS" indexSubTitle="" />
+    <language lang="Norwegian" localization="NORSK" indexSubTitle="" />
+    <language lang="Russian" localization="РУССКИЙ" indexSubTitle="" />
+    <language lang="Slovak" localization="SLOVENČINA" indexSubTitle="" />
+    <language lang="Finnish" localization="SUOMI" indexSubTitle="" />
+    <language lang="Swedish" localization="SVENSKA" indexSubTitle="" />
+    <language lang="Turkish" localization="TÜRKÇE" indexSubTitle="" />
+    <language lang="Ukrainian" localization="УКРАЇНСЬКА" indexSubTitle="" />
+    <language lang="Slovene" localization="SLOVENŠČINA" indexSubTitle="" />
+    <language lang="Greek" localization="ΕΛΛΗΝΙΚΆ" indexSubTitle="" />
+    <language lang="Croatian" localization="HRVATSKI" indexSubTitle="" />
+    <language lang="Romanian" localization="ROMÂNĂ" indexSubTitle="" />
+    <language lang="Bulgarian" localization="БЪЛГАРСКИ" indexSubTitle="" />
+    <language lang="Estonian" localization="EESTI" indexSubTitle="" />
+    <language lang="Latvian" localization="Latviešu" indexSubTitle="" />
+    <language lang="Lithuanian" localization="Lietuvių kalba" indexSubTitle="" />
+    <language lang="Polish" localization="POLSKI" indexSubTitle="" />
+    <language lang="TraditionalChinese" localization="繁體中文" indexSubTitle="" />
+    <language lang="SimplifiedChinese" localization="中文" indexSubTitle="" />
+    <language lang="Indonesian" localization="BAHASA INDONESIA" indexSubTitle="" />
+</root>

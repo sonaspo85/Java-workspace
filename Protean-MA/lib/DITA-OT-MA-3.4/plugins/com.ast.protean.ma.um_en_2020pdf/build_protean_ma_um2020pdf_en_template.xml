@@ -1,0 +1,39 @@
+<project name="com.ast.protean.ma.um_en_2020pdf" xmlns:if="ant:if" xmlns:unless="ant:unless">
+    <property name="transtype" value="protean_ma_um_en_2020pdf" />
+    <property name="clean.temp" value="false" />
+    <property name="dita.temp.dir" location="${output.dir}\temp" />
+    
+    <!-- <property name="env.AXF_OPT" value="C:\Program Files (x86)\Antenna House\AHFormatterV71\pdf-settings.xml" /> -->
+    <!-- <property name="args.debug" value="yes"/> -->
+    <property name="args.draft" value="no" />
+    <target name="dita2protean_ma_um_en_2020pdf" depends="protean_ma_um_en_2020pdf_main" />
+    <target name="protean_ma_um_en_2020pdf_main" xmlns:dita="http://dita-ot.sourceforge.net" dita:extension="depends org.dita.dost.platform.InsertDependsAction" depends="clean_samples_pdf">
+        <!-- <condition property="ahf.font.config.env" value="AHF70_64_FONT_CONFIGFILE">
+            <not>
+                <isset property="ahf.font.config.env" />
+            </not>
+            <param xmlns:if="ant:if">
+                <env key="${ahf.font.config.env}" value="${ahf.font.config.file}" if:set="ahf.font.config.file"/>
+            </param>
+        </condition> -->
+        <property name="customization.dir" location="${dita.plugin.com.ast.protean.ma.um_en_2020pdf.dir}${file.separator}cfg" />
+        <basename property="outputname" file="${args.input}" suffix=".dita" />
+        <property name="pdf.formatter" value="ah" />
+        <property name="axf.path" value="z:" />
+        <!-- <property name="axf.path" value="C:\Antenna-House\AHFormatterV71" /> -->
+        <!-- <property name="axf.path" value="C:\Antenna-House\AHFormatterV63" /> -->
+        <property name="images.dir" location="${output.dir}${file.separator}..${file.separator}images" />
+        <property name="pdf2.i18n.skip" value="false" />
+        <antcall target="dita2pdf2" />
+        <!-- <move file="${output.dir}\${outputname}.pdf" todir="${output.dir}\1_PDF" overwrite="yes" />
+        <copy todir="${output.dir}\1_PDF" overwrite="yes">
+            <fileset dir="${dita.temp.dir}" includes="topic.fo" />
+        </copy> -->
+    </target>
+    <target name="clean_samples_pdf" description="remove the sample PDF output">
+        <!-- <delete dir="${output.dir}${file.separator}1_PDF"/> -->
+        <!-- <mkdir dir="${output.dir}${file.separator}1_PDF" /> -->
+        <!-- <echo message="dita2protean_ma_um2020pdf_en" /> -->
+        <!-- <echo message="dita2protean_ma_um_en_2020pdf_${lgs}" /> -->
+    </target>
+</project>

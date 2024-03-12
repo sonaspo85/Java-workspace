@@ -1,0 +1,62 @@
+@echo off
+echo Just a moment, please!
+echo I'm processing...
+
+set SAXON_DIR=C:\Saxonica\
+set _JAVA_OPTIONS=-Xmx2024m -Xms2024m
+
+set CLASSPATH=%SAXON_DIR%lib;%CLASSPATH%
+set CLASSPATH=%SAXON_DIR%lib\saxon-he-10.3.jar;%CLASSPATH%
+
+set transform=net.sf.saxon.Transform
+
+set srcDirs="D:/WORK/_MA/QSG-Spec-Check/WORK/240201/Mobile/test2"
+set specXMLF=%srcDirs%/temp/Validation.xml
+set langXMLF=%srcDirs%/temp/languages.xml
+
+rem rem rem rem  **********************************
+rem java %transform%  -s:%srcDirs%\temp\idmlMergedXML.xml  -o:%srcDirs%\temp\compare\01-filterDoc.xml  -xsl:compare\common\filterDoc.xsl  specXML=%specXML%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\02-model-name.xml  -xsl:compare\common\model-name.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\03-packages-compare.xml  -xsl:compare\common\packages-compare.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\04-green-compare.xml  -xsl:compare\common\green-compare.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\05-fingerprint.xml  -xsl:compare\mobileNtable-compare-xsls\05-fingerprint.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\06-sar.xml  -xsl:compare\common\sar.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\07-distance.xml  -xsl:compare\mobileNtable-compare-xsls\07-distance.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\08-limbsar.xml  -xsl:compare\mobileNtable-compare-xsls\08-limbsar.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\09-bandmode.xml  -xsl:compare\common\bandmode.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\09-bandmode.xml  -o:%srcDirs%\temp\compare\09-bandmode2.xml  -xsl:compare\common\bandmode2.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\09-bandmode3.xml  -xsl:compare\common\bandmode3.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\09-bandmode2.xml  -o:%srcDirs%\temp\compare\09-bandmode4.xml  -xsl:compare\common\bandmode4.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%  srcDirs=%srcDirs%
+rem java %transform%  -s:%srcDirs%\temp\compare\09-bandmode4.xml  -o:%srcDirs%\temp\compare\10-bandmode-bool.xml  -xsl:compare\common\bandmode-bool.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\10-bandmode-bool.xml  -o:%srcDirs%\temp\compare\10-bandmode-bool2.xml  -xsl:compare\common\bandmode-bool2.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\11-edoc.xml  -xsl:compare\common\edoc.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\11-edoc2.xml  -xsl:compare\common\edoc2.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\12-Looseleaf.xml  -xsl:compare\common\Looseleaf.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\14-turgaranty.xml  -xsl:compare\common\turgaranty.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\15-registration.xml  -xsl:compare\mobileNtable-compare-xsls\15-registration.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\16-modelname-coverid.xml  -xsl:compare\common\modelname-coverid.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\17-indiabis.xml  -xsl:compare\common\indiabis.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+
+rem rem rem rem rem 추가 기능 시작 ****************
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\18-usbcablesupport.xml  -xsl:compare\common\usbcablesupport.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\19-powerclass.xml  -xsl:compare\common\powerclass.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\20-pobox.xml  -xsl:compare\common\pobox.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\21-maxichargesupport.xml  -xsl:compare\common\maxichargesupport.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\22-safetyinfo.xml  -xsl:compare\common\safetyinfo.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\23-wifi-frequency.xml  -xsl:compare\common\wifi-frequency.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem rem rem rem 추가 기능 끝 ****************
+
+
+rem rem rem rem rem rem rem ************************
+rem java %transform%  -s:dummy.xml  -o:%srcDirs%\temp\final-merged01.xml  -xsl:compare\common\final-merged01.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%  srcDirs=%srcDirs%
+rem java %transform%  -s:%srcDirs%\temp\final-merged01.xml  -o:%srcDirs%\temp\resultDoc.xml  -xsl:compare\common\final-merged02.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+
+
+
+
+
+rem rem rem rem java %transform%  -s:%srcDirs%\temp\compare\01-filterDoc.xml  -o:%srcDirs%\temp\compare\13-productspec.xml  -xsl:compare\common\productspec.xsl  specXMLF=%specXMLF%  langXMLF=%langXMLF%
+rem pause
+

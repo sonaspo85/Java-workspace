@@ -1,0 +1,1915 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="document" readerVersion="6.0" featureSet="257" product="18.1(51)" ?>
+<Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="18.0" Self="d" StoryList="u6ed u32d u359 u36f u385 u39b u3e8 u3fe u440 u456 u477 u48d u4cf u4e5 u507 u51d u533 u549 u55f u575 u58b u5a1 u5e1 u5f7 u639 u64f u670 u69c u6b2 ucb" Name="040_Settings.indd" ZeroPoint="0 0" ActiveLayer="uee" CMYKProfile="U.S. Web Coated (SWOP) v2" RGBProfile="sRGB IEC61966-2.1" SolidColorIntent="UseColorSettings" AfterBlendingIntent="UseColorSettings" DefaultImageIntent="UseColorSettings" RGBPolicy="PreserveEmbeddedProfiles" CMYKPolicy="CombinationOfPreserveAndSafeCmyk" AccurateLABSpots="false">
+	<Properties>
+		<Label>
+			<KeyValuePair Key="kAdobeDPS_Version" Value="2" />
+		</Label>
+	</Properties>
+	<Language Self="Language/$ID/English%3a UK" Name="$ID/English: UK" SingleQuotes="‘’" DoubleQuotes="“”" PrimaryLanguageName="$ID/English" SublanguageName="$ID/UK" Id="525" HyphenationVendor="Hunspell" SpellingVendor="Hunspell" />
+	<Language Self="Language/$ID/English%3a USA" Name="$ID/English: USA" SingleQuotes="‘’" DoubleQuotes="“”" PrimaryLanguageName="$ID/English" SublanguageName="$ID/USA" Id="269" HyphenationVendor="Hunspell" SpellingVendor="Hunspell" />
+	<Language Self="Language/$ID/Korean" Name="$ID/Korean" SingleQuotes="‘’" DoubleQuotes="“”" PrimaryLanguageName="$ID/Korean" SublanguageName="$ID/" Id="283" HyphenationVendor="$ID/" SpellingVendor="$ID/" />
+	<idPkg:Graphic src="Resources/Graphic.xml" />
+	<idPkg:Fonts src="Resources/Fonts.xml" />
+	<KinsokuTable Self="KinsokuTable/$ID/kHardKinsokuName" Name="$ID/kHardKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kSoftKinsokuName" Name="$ID/kSoftKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kKoreanKinsokuName" Name="$ID/kKoreanKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kSimpChineseKinsokuName" Name="$ID/kSimpChineseKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kTradChineseKinsokuName" Name="$ID/kTradChineseKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/Xref header should be two integers." Name="Xref header should be two integers." CantBeginLineChars="       ^{|}~갂갃갅갆갋갌갍갎갏갧갨갩갪갲갽갿걂걄걆걈걊걎걐걒걕걖걗걙걚걛걝걞걟" CantEndLineChars=" 갻갾걁걃걅걇걉걌걏걑걓걦걧걨걩걮" HangingPunctuationChars="" CantBeSeparatedChars="" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName1" Name="$ID/kMojikumiDefaultName1" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName2" Name="$ID/kMojikumiDefaultName2" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName3" Name="$ID/kMojikumiDefaultName3" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName4" Name="$ID/kMojikumiDefaultName4" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName5" Name="$ID/kMojikumiDefaultName5" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName6" Name="$ID/kMojikumiDefaultName6" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName7" Name="$ID/kMojikumiDefaultName7" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName8" Name="$ID/kMojikumiDefaultName8" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName9" Name="$ID/kMojikumiDefaultName9" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName10" Name="$ID/kMojikumiDefaultName10" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName11" Name="$ID/kMojikumiDefaultName11" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName12" Name="$ID/kMojikumiDefaultName12" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName13" Name="$ID/kMojikumiDefaultName13" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName14" Name="$ID/kMojikumiDefaultName14" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName15" Name="$ID/kMojikumiDefaultName15" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName16" Name="$ID/kMojikumiDefaultName16" />
+	<idPkg:Styles src="Resources/Styles.xml" />
+	<NumberingList Self="NumberingList/$ID/[Default]" Name="$ID/[Default]" ContinueNumbersAcrossStories="false" ContinueNumbersAcrossDocuments="false" />
+	<NamedGrid Self="NamedGrid/$ID/[Page Grid]" Name="$ID/[Page Grid]">
+		<GridDataInformation FontStyle="M" PointSize="12" CharacterAki="0" LineAki="9" HorizontalScale="100" VerticalScale="100" LineAlignment="LeftOrTopLineJustify" GridAlignment="AlignEmCenter" CharacterAlignment="AlignEmCenter">
+			<Properties>
+				<AppliedFont type="string">Adobe 명조 Std</AppliedFont>
+			</Properties>
+		</GridDataInformation>
+	</NamedGrid>
+	<Condition Self="Condition/MMI-0003" Name="MMI-0003" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0011" Name="MMI-0011" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0012" Name="MMI-0012" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0016" Name="MMI-0016" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0027" Name="MMI-0027" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0035" Name="MMI-0035" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0050" Name="MMI-0050" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0051" Name="MMI-0051" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0055" Name="MMI-0055" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0100" Name="MMI-0100" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0109" Name="MMI-0109" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0110" Name="MMI-0110" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0111" Name="MMI-0111" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0186" Name="MMI-0186" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0190" Name="MMI-0190" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0193" Name="MMI-0193" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0196" Name="MMI-0196" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0198" Name="MMI-0198" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0203" Name="MMI-0203" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0206" Name="MMI-0206" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0209" Name="MMI-0209" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0211" Name="MMI-0211" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0214" Name="MMI-0214" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0216" Name="MMI-0216" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0219" Name="MMI-0219" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0223" Name="MMI-0223" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0226" Name="MMI-0226" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0233" Name="MMI-0233" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0245" Name="MMI-0245" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0251" Name="MMI-0251" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0254" Name="MMI-0254" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0259" Name="MMI-0259" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0262" Name="MMI-0262" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0265" Name="MMI-0265" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0272" Name="MMI-0272" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0273" Name="MMI-0273" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0281" Name="MMI-0281" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0287" Name="MMI-0287" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0289" Name="MMI-0289" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0308" Name="MMI-0308" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0311" Name="MMI-0311" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0312" Name="MMI-0312" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0317" Name="MMI-0317" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0321" Name="MMI-0321" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0327" Name="MMI-0327" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0340" Name="MMI-0340" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0347" Name="MMI-0347" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0348" Name="MMI-0348" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0349" Name="MMI-0349" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0350" Name="MMI-0350" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0351" Name="MMI-0351" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0352" Name="MMI-0352" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0353" Name="MMI-0353" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0354" Name="MMI-0354" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0355" Name="MMI-0355" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0358" Name="MMI-0358" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0363" Name="MMI-0363" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0367" Name="MMI-0367" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0373" Name="MMI-0373" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0376" Name="MMI-0376" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0378" Name="MMI-0378" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0382" Name="MMI-0382" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0383" Name="MMI-0383" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0384" Name="MMI-0384" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0386" Name="MMI-0386" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0387" Name="MMI-0387" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0404" Name="MMI-0404" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0405" Name="MMI-0405" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0407" Name="MMI-0407" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0410" Name="MMI-0410" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0411" Name="MMI-0411" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0418" Name="MMI-0418" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0427" Name="MMI-0427" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0429" Name="MMI-0429" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0432" Name="MMI-0432" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0434" Name="MMI-0434" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0435" Name="MMI-0435" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0436" Name="MMI-0436" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0449" Name="MMI-0449" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0463" Name="MMI-0463" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0465" Name="MMI-0465" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0469" Name="MMI-0469" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0470" Name="MMI-0470" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0471" Name="MMI-0471" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0509" Name="MMI-0509" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0510" Name="MMI-0510" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0514" Name="MMI-0514" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0515" Name="MMI-0515" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0519" Name="MMI-0519" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0520" Name="MMI-0520" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0525" Name="MMI-0525" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0526" Name="MMI-0526" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0598" Name="MMI-0598" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0599" Name="MMI-0599" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0682" Name="MMI-0682" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0686" Name="MMI-0686" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0687" Name="MMI-0687" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0690" Name="MMI-0690" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0693" Name="MMI-0693" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0709" Name="MMI-0709" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0712" Name="MMI-0712" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0717" Name="MMI-0717" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0719" Name="MMI-0719" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0726" Name="MMI-0726" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0733" Name="MMI-0733" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0736" Name="MMI-0736" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0740" Name="MMI-0740" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0752" Name="MMI-0752" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0753" Name="MMI-0753" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0754" Name="MMI-0754" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0763" Name="MMI-0763" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0771" Name="MMI-0771" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0772" Name="MMI-0772" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0787" Name="MMI-0787" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0801" Name="MMI-0801" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0811" Name="MMI-0811" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0823" Name="MMI-0823" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0836" Name="MMI-0836" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0838" Name="MMI-0838" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0847" Name="MMI-0847" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0849" Name="MMI-0849" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0858" Name="MMI-0858" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0869" Name="MMI-0869" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0880" Name="MMI-0880" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0884" Name="MMI-0884" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0949" Name="MMI-0949" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0968" Name="MMI-0968" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0969" Name="MMI-0969" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0973" Name="MMI-0973" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0975" Name="MMI-0975" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0976" Name="MMI-0976" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0979" Name="MMI-0979" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0982" Name="MMI-0982" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0983" Name="MMI-0983" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0993" Name="MMI-0993" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1004" Name="MMI-1004" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1005" Name="MMI-1005" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1013" Name="MMI-1013" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1014" Name="MMI-1014" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1015" Name="MMI-1015" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1016" Name="MMI-1016" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1019" Name="MMI-1019" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1025" Name="MMI-1025" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1028" Name="MMI-1028" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1031" Name="MMI-1031" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1032" Name="MMI-1032" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1034" Name="MMI-1034" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1036" Name="MMI-1036" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1039" Name="MMI-1039" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1040" Name="MMI-1040" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1041" Name="MMI-1041" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1042" Name="MMI-1042" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1044" Name="MMI-1044" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1049" Name="MMI-1049" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1050" Name="MMI-1050" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1051" Name="MMI-1051" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1053" Name="MMI-1053" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1054" Name="MMI-1054" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1055" Name="MMI-1055" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1057" Name="MMI-1057" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1063" Name="MMI-1063" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1064" Name="MMI-1064" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1065" Name="MMI-1065" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1068" Name="MMI-1068" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1069" Name="MMI-1069" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1070" Name="MMI-1070" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1071" Name="MMI-1071" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1072" Name="MMI-1072" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1075" Name="MMI-1075" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1076" Name="MMI-1076" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1077" Name="MMI-1077" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1080" Name="MMI-1080" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1083" Name="MMI-1083" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1087" Name="MMI-1087" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1100" Name="MMI-1100" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1102" Name="MMI-1102" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1109" Name="MMI-1109" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1110" Name="MMI-1110" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1113" Name="MMI-1113" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1114" Name="MMI-1114" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1115" Name="MMI-1115" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1116" Name="MMI-1116" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1117" Name="MMI-1117" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1119" Name="MMI-1119" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1122" Name="MMI-1122" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1125" Name="MMI-1125" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1127" Name="MMI-1127" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1133" Name="MMI-1133" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1136" Name="MMI-1136" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1137" Name="MMI-1137" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1138" Name="MMI-1138" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1139" Name="MMI-1139" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1140" Name="MMI-1140" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1141" Name="MMI-1141" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1142" Name="MMI-1142" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1145" Name="MMI-1145" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1146" Name="MMI-1146" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1147" Name="MMI-1147" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1148" Name="MMI-1148" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1149" Name="MMI-1149" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1150" Name="MMI-1150" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1151" Name="MMI-1151" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1152" Name="MMI-1152" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1154" Name="MMI-1154" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1156" Name="MMI-1156" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1159" Name="MMI-1159" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1161" Name="MMI-1161" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1162" Name="MMI-1162" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1164" Name="MMI-1164" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1173" Name="MMI-1173" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1174" Name="MMI-1174" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1175" Name="MMI-1175" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1176" Name="MMI-1176" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1180" Name="MMI-1180" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1181" Name="MMI-1181" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1182" Name="MMI-1182" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1188" Name="MMI-1188" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1206" Name="MMI-1206" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1207" Name="MMI-1207" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1208" Name="MMI-1208" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1209" Name="MMI-1209" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1211" Name="MMI-1211" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1218" Name="MMI-1218" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1229" Name="MMI-1229" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1230" Name="MMI-1230" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1234" Name="MMI-1234" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1237" Name="MMI-1237" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1239" Name="MMI-1239" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1240" Name="MMI-1240" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1258" Name="MMI-1258" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1259" Name="MMI-1259" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1260" Name="MMI-1260" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1273" Name="MMI-1273" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1274" Name="MMI-1274" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1290" Name="MMI-1290" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1294" Name="MMI-1294" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1298" Name="MMI-1298" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1299" Name="MMI-1299" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1301" Name="MMI-1301" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1302" Name="MMI-1302" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1303" Name="MMI-1303" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1304" Name="MMI-1304" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1309" Name="MMI-1309" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1316" Name="MMI-1316" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1323" Name="MMI-1323" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1325" Name="MMI-1325" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1326" Name="MMI-1326" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1340" Name="MMI-1340" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1342" Name="MMI-1342" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1344" Name="MMI-1344" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1366" Name="MMI-1366" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1367" Name="MMI-1367" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1368" Name="MMI-1368" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1369" Name="MMI-1369" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1374" Name="MMI-1374" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1378" Name="MMI-1378" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1382" Name="MMI-1382" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1383" Name="MMI-1383" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1401" Name="MMI-1401" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1405" Name="MMI-1405" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1406" Name="MMI-1406" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1407" Name="MMI-1407" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1419" Name="MMI-1419" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1420" Name="MMI-1420" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1421" Name="MMI-1421" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1422" Name="MMI-1422" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1423" Name="MMI-1423" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1424" Name="MMI-1424" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1430" Name="MMI-1430" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1436" Name="MMI-1436" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1439" Name="MMI-1439" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1440" Name="MMI-1440" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1444" Name="MMI-1444" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1445" Name="MMI-1445" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1446" Name="MMI-1446" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1452" Name="MMI-1452" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1459" Name="MMI-1459" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1460" Name="MMI-1460" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1461" Name="MMI-1461" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1465" Name="MMI-1465" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1471" Name="MMI-1471" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1473" Name="MMI-1473" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1476" Name="MMI-1476" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1481" Name="MMI-1481" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1486" Name="MMI-1486" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1487" Name="MMI-1487" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1490" Name="MMI-1490" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1491" Name="MMI-1491" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1492" Name="MMI-1492" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1498" Name="MMI-1498" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1499" Name="MMI-1499" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1500" Name="MMI-1500" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<idPkg:Preferences src="Resources/Preferences.xml" />
+	<AdjustLayoutPreference EnableAdjustLayout="false" AllowLockedObjectsToAdjust="true" AllowFontSizeAndLeadingAdjustment="false" ImposeFontSizeRestriction="false" MinimumFontSize="6" MaximumFontSize="324" EnableAutoAdjustMargins="false" />
+	<HTMLFXLExportPreference EpubPageRange="" EpubPageRangeFormat="ExportAllPages" />
+	<PublishExportPreference PublishCover="FirstPage" CoverImageFile="" PublishPageRange="" PublishPageRangeFormat="ExportAllPages" ImageConversion="Automatic" ImageExportResolution="Ppi96" PublishDescription="" PublishFileName="" PublishFormat="PublishByPages" CoverPage="$ID/" GIFOptionsPalette="AdaptivePalette" JPEGOptionsQuality="High" PublishPdf="false" />
+	<EndnoteOption EndnoteTitle="미주" EndnoteTitleStyle="ParagraphStyle/$ID/NormalParagraphStyle" StartEndnoteNumberAt="1" EndnoteMarkerStyle="CharacterStyle/$ID/[No character style]" EndnoteTextStyle="ParagraphStyle/$ID/NormalParagraphStyle" EndnoteSeparatorText="　" EndnotePrefix="" EndnoteSuffix="">
+		<Properties>
+			<EndnoteNumberingStyle type="enumeration">Arabic</EndnoteNumberingStyle>
+			<RestartEndnoteNumbering type="enumeration">Continuous</RestartEndnoteNumbering>
+			<EndnoteMarkerPositioning type="enumeration">SuperscriptMarker</EndnoteMarkerPositioning>
+			<ScopeValue type="enumeration">EndnoteDocumentScope</ScopeValue>
+			<FrameCreateOption type="enumeration">NewPage</FrameCreateOption>
+			<ShowEndnotePrefixSuffix type="enumeration">NoPrefixSuffix</ShowEndnotePrefixSuffix>
+		</Properties>
+	</EndnoteOption>
+	<TextFrameFootnoteOptionsObject EnableOverrides="false" SpanFootnotesAcross="false" MinimumSpacingOption="12" SpaceBetweenFootnotes="6" />
+	<LinkedStoryOption UpdateWhileSaving="false" WarnOnUpdateOfEditedStory="true" RemoveForcedLineBreaks="false" ApplyStyleMappings="false" />
+	<LinkedPageItemOption UpdateLinkWhileSaving="false" WarnOnUpdateOfEditedPageItem="true" PreserveSizeAndShape="false" PreserveAppearance="false" PreserveInteractivity="false" PreserveFrameContent="false" PreserveOthers="false" />
+	<TaggedPDFPreference StructureOrder="UseXMLStructure" />
+	<WatermarkPreference WatermarkVisibility="false" WatermarkDoPrint="false" WatermarkDrawInBack="true" WatermarkText="" WatermarkFontFamily="Minion Pro" WatermarkFontStyle="Regular" WatermarkFontPointSize="48" WatermarkOpacity="50" WatermarkRotation="0" WatermarkHorizontalPosition="WatermarkHCenter" WatermarkHorizontalOffset="0" WatermarkVerticalPosition="WatermarkVCenter" WatermarkVerticalOffset="0">
+		<Properties>
+			<WatermarkFontColor type="enumeration">Black</WatermarkFontColor>
+		</Properties>
+	</WatermarkPreference>
+	<ConditionalTextPreference ShowConditionIndicators="ShowIndicators" ActiveConditionSet="n" />
+	<TextVariable Self="dTextVariablen&lt;?AID 001b?&gt;TV XRefChapterNumber" Name="&lt;?AID 001b?&gt;TV XRefChapterNumber" VariableType="XrefChapterNumberType" />
+	<TextVariable Self="dTextVariablen&lt;?AID 001b?&gt;TV XRefPageNumber" Name="&lt;?AID 001b?&gt;TV XRefPageNumber" VariableType="XrefPageNumberType" />
+	<TextVariable Self="dTextVariablenChapter" Name="Chapter" VariableType="MatchParagraphStyleType">
+		<MatchParagraphStylePreference TextBefore="" TextAfter="" AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aChapter" SearchStrategy="FirstOnPage" ChangeCase="None" DeleteEndPunctuation="false" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenChapter_No_contents" Name="Chapter_No_contents" VariableType="MatchParagraphStyleType">
+		<MatchParagraphStylePreference TextBefore="" TextAfter="" AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aChapter-NoTOC" SearchStrategy="FirstOnPage" ChangeCase="None" DeleteEndPunctuation="false" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenChapter_NoTOC" Name="Chapter_NoTOC" VariableType="MatchParagraphStyleType">
+		<MatchParagraphStylePreference TextBefore="" TextAfter="" AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aChapter-NoTOC" SearchStrategy="FirstOnPage" ChangeCase="None" DeleteEndPunctuation="false" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen마지막 페이지 번호" Name="마지막 페이지 번호" VariableType="LastPageNumberType">
+		<PageNumberVariablePreference TextBefore="" Format="Current" TextAfter="" Scope="SectionScope" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen만든 날짜" Name="만든 날짜" VariableType="CreationDateType">
+		<DateVariablePreference TextBefore="" Format="yy/MM/dd" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen머리글 실행 중" Name="머리글 실행 중" VariableType="MatchParagraphStyleType">
+		<MatchParagraphStylePreference TextBefore="" TextAfter="" AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" SearchStrategy="FirstOnPage" ChangeCase="None" DeleteEndPunctuation="false" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen수정 날짜" Name="수정 날짜" VariableType="ModificationDateType">
+		<DateVariablePreference TextBefore="" Format="yyyy-MM-d aa h:mm" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen이미지 이름" Name="이미지 이름" VariableType="LiveCaptionType">
+		<CaptionMetadataVariablePreference TextBefore="" MetadataProviderName="$ID/#LinkInfoNameStr" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen장 번호" Name="장 번호" VariableType="ChapterNumberType">
+		<ChapterNumberVariablePreference TextBefore="" Format="Current" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen출력 날짜" Name="출력 날짜" VariableType="OutputDateType">
+		<DateVariablePreference TextBefore="" Format="yy/MM/dd" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen파일 이름" Name="파일 이름" VariableType="FileNameType">
+		<FileNameVariablePreference TextBefore="" IncludePath="false" IncludeExtension="false" TextAfter="" />
+	</TextVariable>
+	<idPkg:Tags src="XML/Tags.xml" />
+	<Layer Self="uee" Name="#레이어1" Visible="true" Locked="false" IgnoreWrap="false" ShowGuides="true" LockGuides="false" UI="true" Expendable="true" Printable="true">
+		<Properties>
+			<LayerColor type="enumeration">LightBlue</LayerColor>
+		</Properties>
+	</Layer>
+	<Layer Self="u322" Name="1차" Visible="true" Locked="false" IgnoreWrap="false" ShowGuides="true" LockGuides="false" UI="true" Expendable="true" Printable="true">
+		<Properties>
+			<LayerColor type="enumeration">Red</LayerColor>
+		</Properties>
+	</Layer>
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_uef.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u3b0.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u46b.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u4fa.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u5b6.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u5d5.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u664.xml" />
+	<idPkg:Spread src="Spreads/Spread_u6c7.xml" />
+	<idPkg:Spread src="Spreads/Spread_u719.xml" />
+	<idPkg:Spread src="Spreads/Spread_u751.xml" />
+	<idPkg:Spread src="Spreads/Spread_u789.xml" />
+	<idPkg:Spread src="Spreads/Spread_u7c2.xml" />
+	<idPkg:Spread src="Spreads/Spread_u7fe.xml" />
+	<idPkg:Spread src="Spreads/Spread_u839.xml" />
+	<idPkg:Spread src="Spreads/Spread_u871.xml" />
+	<idPkg:Spread src="Spreads/Spread_u8ac.xml" />
+	<idPkg:Spread src="Spreads/Spread_u8e3.xml" />
+	<idPkg:Spread src="Spreads/Spread_u91a.xml" />
+	<idPkg:Spread src="Spreads/Spread_u951.xml" />
+	<idPkg:Spread src="Spreads/Spread_u989.xml" />
+	<idPkg:Spread src="Spreads/Spread_u9c0.xml" />
+	<idPkg:Spread src="Spreads/Spread_u9f8.xml" />
+	<idPkg:Spread src="Spreads/Spread_ua31.xml" />
+	<idPkg:Spread src="Spreads/Spread_ua70.xml" />
+	<idPkg:Spread src="Spreads/Spread_uaab.xml" />
+	<idPkg:Spread src="Spreads/Spread_uae2.xml" />
+	<idPkg:Spread src="Spreads/Spread_ub19.xml" />
+	<idPkg:Spread src="Spreads/Spread_ub51.xml" />
+	<idPkg:Spread src="Spreads/Spread_ub89.xml" />
+	<idPkg:Spread src="Spreads/Spread_ubc1.xml" />
+	<idPkg:Spread src="Spreads/Spread_ubf9.xml" />
+	<idPkg:Spread src="Spreads/Spread_uc30.xml" />
+	<idPkg:Spread src="Spreads/Spread_uc69.xml" />
+	<Section Self="ue7" Length="51" AlternateLayoutLength="51" AlternateLayout="A5 H" Name="" ContinueNumbering="true" IncludeSectionPrefix="true" Marker="" PageStart="u6d0" SectionPrefix="">
+		<Properties>
+			<PageNumberStyle type="enumeration">Arabic</PageNumberStyle>
+		</Properties>
+	</Section>
+	<DocumentUser Self="dDocumentUser0" UserName="$ID/Unknown User Name">
+		<Properties>
+			<UserColor type="enumeration">Gold</UserColor>
+		</Properties>
+	</DocumentUser>
+	<CrossReferenceFormat Self="uca0" Name="전체 단락 및 페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uca0BuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uca0BuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" 페이지의 &quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uca0BuildingBlock2" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uca0BuildingBlock3" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uca1" Name="전체 단락" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uca1BuildingBlock0" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uca2" Name="단락 텍스트 및 페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uca2BuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uca2BuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" 페이지의 &quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uca2BuildingBlock2" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uca2BuildingBlock3" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uca3" Name="단락 텍스트" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uca3BuildingBlock0" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uca4" Name="단락 번호 및 페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uca4BuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uca4BuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" 페이지: " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uca4BuildingBlock2" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uca5" Name="단락 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uca5BuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uca6" Name="텍스트 앵커 이름 및 페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uca6BuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uca6BuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="페이지의 ^Q" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uca6BuildingBlock2" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uca6BuildingBlock3" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="^Q" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uca7" Name="텍스트앵커" AppliedCharacterStyle="CharacterStyle/C_CrossReference">
+		<BuildingBlock Self="uca7BuildingBlock0" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uca8" Name="페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uca8BuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<Index Self="uca9" />
+	<idPkg:BackingStory src="XML/BackingStory.xml" />
+	<idPkg:Story src="Stories/Story_u6b2.xml" />
+	<idPkg:Story src="Stories/Story_u69c.xml" />
+	<idPkg:Story src="Stories/Story_u670.xml" />
+	<idPkg:Story src="Stories/Story_u64f.xml" />
+	<idPkg:Story src="Stories/Story_u639.xml" />
+	<idPkg:Story src="Stories/Story_u5f7.xml" />
+	<idPkg:Story src="Stories/Story_u5e1.xml" />
+	<idPkg:Story src="Stories/Story_u5a1.xml" />
+	<idPkg:Story src="Stories/Story_u58b.xml" />
+	<idPkg:Story src="Stories/Story_u575.xml" />
+	<idPkg:Story src="Stories/Story_u55f.xml" />
+	<idPkg:Story src="Stories/Story_u549.xml" />
+	<idPkg:Story src="Stories/Story_u533.xml" />
+	<idPkg:Story src="Stories/Story_u51d.xml" />
+	<idPkg:Story src="Stories/Story_u507.xml" />
+	<idPkg:Story src="Stories/Story_u4e5.xml" />
+	<idPkg:Story src="Stories/Story_u4cf.xml" />
+	<idPkg:Story src="Stories/Story_u48d.xml" />
+	<idPkg:Story src="Stories/Story_u477.xml" />
+	<idPkg:Story src="Stories/Story_u456.xml" />
+	<idPkg:Story src="Stories/Story_u440.xml" />
+	<idPkg:Story src="Stories/Story_u3fe.xml" />
+	<idPkg:Story src="Stories/Story_u3e8.xml" />
+	<idPkg:Story src="Stories/Story_u39b.xml" />
+	<idPkg:Story src="Stories/Story_u385.xml" />
+	<idPkg:Story src="Stories/Story_u36f.xml" />
+	<idPkg:Story src="Stories/Story_u359.xml" />
+	<idPkg:Story src="Stories/Story_u32d.xml" />
+	<idPkg:Story src="Stories/Story_u6ed.xml" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//update.hyundai.com/KR/KO/updateGuide" DestinationUniqueKey="3001" Name="https://update.hyundai.com/KR/KO/updateGuide" DestinationURL="https://update.hyundai.com/KR/KO/updateGuide" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.hyundai.com" DestinationUniqueKey="3002" Name="https://www.hyundai.com" DestinationURL="https://www.hyundai.com" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//update.hyundai.com/ME/EN/Main" DestinationUniqueKey="3004" Name="https://update.hyundai.com/ME/EN/Main" DestinationURL="https://update.hyundai.com/ME/EN/Main" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//update.hyundai.com/EU/E1/navigationUpdate" DestinationUniqueKey="3005" Name="https://update.hyundai.com/EU/E1/navigationUpdate" DestinationURL="https://update.hyundai.com/EU/E1/navigationUpdate" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//update.kia.com/RU/EN/navigationUpdate" DestinationUniqueKey="3006" Name="https://update.kia.com/RU/EN/navigationUpdate" DestinationURL="https://update.kia.com/RU/EN/navigationUpdate" Hidden="false" />
+	<Hyperlink Self="u13d7" Name="상호 참조 2" Source="u10de" Visible="false" Highlight="Invert" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="1900">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="list">
+				<ListItem type="string">D:\Work\MOBIS\[ccNC]\러시아(RUS)\K_KA4\K_KA4 23PE_ccNC[RUS]_NAMO123\WEB매뉴얼\English\SOURCE\K_NAMO123_KA4 23PE_ccNC[RUS_EE]R0MS9F600000_240123_패키지\011_Phoneprojection.indd</ListItem>
+				<ListItem type="string"></ListItem>
+				<ListItem type="long">0</ListItem>
+				<ListItem type="long">35841</ListItem>
+				<ListItem type="long">2142</ListItem>
+			</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u13db" Name="상호 참조 3" Source="u10df" Visible="false" Highlight="Invert" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="1901">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="list">
+				<ListItem type="string">D:\Work\MOBIS\[ccNC]\러시아(RUS)\K_KA4\K_KA4 23PE_ccNC[RUS]_NAMO123\WEB매뉴얼\English\SOURCE\K_NAMO123_KA4 23PE_ccNC[RUS_EE]R0MS9F600000_240123_패키지\011_Phoneprojection.indd</ListItem>
+				<ListItem type="string"></ListItem>
+				<ListItem type="long">0</ListItem>
+				<ListItem type="long">35841</ListItem>
+				<ListItem type="long">2180</ListItem>
+			</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u13de" Name="상호 참조 4" Source="u10e4" Visible="false" Highlight="Invert" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="2228">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="list">
+				<ListItem type="string">D:\Work\MOBIS\[ccNC]\러시아(RUS)\K_KA4\K_KA4 23PE_ccNC[RUS]_NAMO123\WEB매뉴얼\English\SOURCE\K_NAMO123_KA4 23PE_ccNC[RUS_EE]R0MS9F600000_240123_패키지\003_Userprofile.indd</ListItem>
+				<ListItem type="string"></ListItem>
+				<ListItem type="long">0</ListItem>
+				<ListItem type="long">35841</ListItem>
+				<ListItem type="long">1646</ListItem>
+			</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u13e2" Name="Navigation Update site" Source="u133f" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="3006">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkURLDestination/https%3a//update.kia.com/RU/EN/navigationUpdate</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u13e3" Name="Map" Source="ue8a" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="1905">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="list">
+				<ListItem type="string">D:\Work\MOBIS\[ccNC]\러시아(RUS)\K_KA4\K_KA4 23PE_ccNC[RUS]_NAMO123\WEB매뉴얼\English\SOURCE\K_NAMO123_KA4 23PE_ccNC[RUS_EE]R0MS9F600000_240123_패키지\006_Map.indd</ListItem>
+				<ListItem type="string"></ListItem>
+				<ListItem type="long">0</ListItem>
+				<ListItem type="long">35841</ListItem>
+				<ListItem type="long">2154</ListItem>
+			</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u13e7" Name="Subscribing to the service" Source="u1106" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="2228">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="list">
+				<ListItem type="string">D:\Work\MOBIS\[ccNC]\러시아(RUS)\K_KA4\K_KA4 23PE_ccNC[RUS]_NAMO123\WEB매뉴얼\English\SOURCE\K_NAMO123_KA4 23PE_ccNC[RUS_EE]R0MS9F600000_240123_패키지\005_Connectedservice.indd</ListItem>
+				<ListItem type="string"></ListItem>
+				<ListItem type="long">0</ListItem>
+				<ListItem type="long">35841</ListItem>
+				<ListItem type="long">1657</ListItem>
+			</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u13eb" Name="Subscribing to the service 1" Source="u1130" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="2228">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="list">
+				<ListItem type="string">D:\Work\MOBIS\[ccNC]\러시아(RUS)\K_KA4\K_KA4 23PE_ccNC[RUS]_NAMO123\WEB매뉴얼\English\SOURCE\K_NAMO123_KA4 23PE_ccNC[RUS_EE]R0MS9F600000_240123_패키지\005_Connectedservice.indd</ListItem>
+				<ListItem type="string"></ListItem>
+				<ListItem type="long">0</ListItem>
+				<ListItem type="long">35841</ListItem>
+				<ListItem type="long">1657</ListItem>
+			</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u13ee" Name="상호 참조 9" Source="u1341" Visible="false" Highlight="Invert" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="2336">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="list">
+				<ListItem type="string">D:\Work\MOBIS\[ccNC]\러시아(RUS)\K_KA4\K_KA4 23PE_ccNC[RUS]_NAMO123\WEB매뉴얼\English\SOURCE\K_NAMO123_KA4 23PE_ccNC[RUS_EE]R0MS9F600000_240123_패키지\041_OTA.indd</ListItem>
+				<ListItem type="string"></ListItem>
+				<ListItem type="long">0</ListItem>
+				<ListItem type="long">35841</ListItem>
+				<ListItem type="long">1611</ListItem>
+			</Destination>
+		</Properties>
+	</Hyperlink>
+	<idPkg:Mapping src="XML/Mapping.xml" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Symbol" Name="$ID/kIndexGroup_Symbol" Include="true" Priority="0" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Numeric" Name="$ID/kIndexGroup_Numeric" Include="true" Priority="1" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Alphabet" Name="$ID/kIndexGroup_Alphabet" Include="true" Priority="2" HeaderType="BasicLatin" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Korean" Name="$ID/kIndexGroup_Korean" Include="true" Priority="3" HeaderType="KoreanConsonant" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Kana" Name="$ID/kIndexGroup_Kana" Include="false" Priority="4" HeaderType="HiraganaAll" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Chinese" Name="$ID/kIndexGroup_Chinese" Include="false" Priority="5" HeaderType="ChinesePinyin" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_CyrillicAlphabet" Name="$ID/kWRIndexGroup_CyrillicAlphabet" Include="false" Priority="6" HeaderType="Russian" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_GreekAlphabet" Name="$ID/kWRIndexGroup_GreekAlphabet" Include="false" Priority="7" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_ArabicAlphabet" Name="$ID/kWRIndexGroup_ArabicAlphabet" Include="false" Priority="8" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_HebrewAlphabet" Name="$ID/kWRIndexGroup_HebrewAlphabet" Include="false" Priority="9" HeaderType="Nothing" />
+	<ColorGroup Self="ColorGroup/[Root Color Group]" Name="[Root Color Group]" IsRootColorGroup="true">
+		<ColorGroupSwatch Self="u12ColorGroupSwatch0" SwatchItemRef="Swatch/None" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch1" SwatchItemRef="Color/Registration" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch2" SwatchItemRef="Color/Paper" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch3" SwatchItemRef="Color/Black" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch4" SwatchItemRef="Color/1차" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch5" SwatchItemRef="Color/C=0 M=0 Y=100 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch6" SwatchItemRef="Color/C=0 M=100 Y=0 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch7" SwatchItemRef="Color/C=0 M=100 Y=100 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch8" SwatchItemRef="Color/C=0 M=20 Y=100 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch9" SwatchItemRef="Color/C=100 M=0 Y=0 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatcha" SwatchItemRef="Color/HMC_KMC" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatchb" SwatchItemRef="Color/KMC" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatchc" SwatchItemRef="Color/SDL" />
+	</ColorGroup>
+	<ABullet Self="dABullet0" CharacterType="UnicodeOnly" CharacterValue="8226">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet1" CharacterType="UnicodeOnly" CharacterValue="42">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet2" CharacterType="UnicodeWithFont" CharacterValue="187">
+		<Properties>
+			<BulletsFont type="string">Myriad Pro</BulletsFont>
+			<BulletsFontStyle type="string">$ID/Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet3" CharacterType="GlyphWithFont" CharacterValue="503">
+		<Properties>
+			<BulletsFont type="string">Minion Pro</BulletsFont>
+			<BulletsFontStyle type="string">$ID/Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet4" CharacterType="UnicodeOnly" CharacterValue="12539">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet5" CharacterType="UnicodeOnly" CharacterValue="65290">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet6" CharacterType="UnicodeOnly" CharacterValue="8251">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet7" CharacterType="UnicodeOnly" CharacterValue="9674">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet8" CharacterType="UnicodeWithFont" CharacterValue="173">
+		<Properties>
+			<BulletsFont type="string">Noto Sans CJK KR</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet9" CharacterType="UnicodeWithFont" CharacterValue="45">
+		<Properties>
+			<BulletsFont type="string">Arial</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABulleta" CharacterType="UnicodeWithFont" CharacterValue="8226">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABulletb" CharacterType="UnicodeWithFont" CharacterValue="45">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABulletc" CharacterType="UnicodeWithFont" CharacterValue="91">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABulletd" CharacterType="UnicodeWithFont" CharacterValue="35">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullete" CharacterType="UnicodeWithFont" CharacterValue="219">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABulletf" CharacterType="UnicodeWithFont" CharacterValue="221">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet10" CharacterType="UnicodeWithFont" CharacterValue="220">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<Assignment Self="ufd" Name="$ID/UnassignedInCopy" UserName="$ID/" ExportOptions="AssignedSpreads" IncludeLinksWhenPackage="true" FilePath="$ID/">
+		<Properties>
+			<FrameColor type="enumeration">Nothing</FrameColor>
+		</Properties>
+	</Assignment>
+</Document>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<footer>
+        <div class="footer_wrap">
+            <div class="footer_img">&#xFEFF;</div>
+            <p>
+                <span class="line1">&#xFEFF;</span> <span class="line2">&#xFEFF;</span>
+            </p>
+        </div>
+    </footer>
+
+    <div id="top_kind_toc">
+        <div class="toc_close">&#xFEFF;</div>
+        <div class="toc_search">&#xFEFF;</div>
+    </div>
+
+    <div id="view_toc">
+        <div id="view_container">&#xFEFF;</div>
+    </div>
+
+    <div id="gototop">
+        <img src="../images/go_to_top.png" />
+    </div>
+</root>

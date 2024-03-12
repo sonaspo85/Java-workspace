@@ -1,0 +1,167 @@
+/* 22-convert.html */
+
+html, body,
+ul, li, ol {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+table, thead, tbody,
+th, td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+
+body {
+    padding: 30px 50px;
+}
+
+table {
+    margin-bottom: 30px;
+    border: 2px solid #333;
+    text-align: center;
+    width: 80%;
+}
+
+th, td {
+    padding: 0.5rem 2rem;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+td {
+    border: 1px dotted #333;
+}
+
+.color {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+}
+
+
+/* tab 메뉴 실행 */
+#tabMenu {
+    margin-top: 50px;
+}
+
+#tabMenu ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tabMenu ul li{
+    padding: 1rem 2rem;
+    background-color: #cccccc;
+    color: #333;
+    margin: 1rem 1rem 1rem 1rem;
+    position: relative;
+}
+
+#tabMenu ul li::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    border-bottom: 5px solid rgb(255, 145, 0);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: transform 300ms;
+}
+
+#tabMenu ul li h2{
+    text-align: center;
+}
+
+#tabMenu ul li:hover h2{
+    font-weight: bold;
+}
+
+#tabMenu ul li:hover:after {
+    transform: scaleX(1);
+}
+
+#tabMenu ul li.onClick{
+    background-color: #333;
+}
+
+#tabMenu ul li.onClick:after {
+    transform: scaleX(1);
+}
+
+
+#tabMenu ul li.onClick h2{
+    color: #fff;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+}
+
+
+/* contents설정 */
+
+#contents ul li {
+    display: none;
+    padding: 100px 1rem 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.contents_Inner h2 {
+    display: none;
+}
+
+.contents_Inner table {
+    margin-bottom: 30px;
+}
+
+.contents_Inner div {
+    margin-bottom: 100px;
+}
+
+h3 {
+    margin: 0 0 30px 0;
+}
+
+@media (max-width: 1240px) {
+    table {
+        width: 100%;
+    }
+}
+
+@media (max-width: 740px) {
+    #tabMenu ul {
+        display: block;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 0.5rem;
+    }
+}

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Noto Sans Med';
+    src: url('hinted-NotoSans-Medium.eot');
+    src: url('hinted-NotoSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('hinted-NotoSans-Medium.woff2') format('woff2'),
+        url('hinted-NotoSans-Medium.woff') format('woff'),
+        url('hinted-NotoSans-Medium.ttf') format('truetype'),
+        url('hinted-NotoSans-Medium.svg#NotoSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

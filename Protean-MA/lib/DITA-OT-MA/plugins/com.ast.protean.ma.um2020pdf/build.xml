@@ -1,0 +1,3 @@
+<project>
+    <import file="build_protean_ma_um2020pdf_template.xml"/>
+</project>

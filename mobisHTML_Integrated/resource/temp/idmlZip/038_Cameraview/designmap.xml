@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="document" readerVersion="6.0" featureSet="257" product="18.1(51)" ?>
+<Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="18.0" Self="d" StoryList="u5c1 u213 u23f u255 u26b u281 u2cc u2e2 u324 u33a u359 u36f u3b1 u3c7 u3e7 u3fd u413 u429 u43f u455 u46b u481 u4bd u4d3 u515 u52b u54a u576 u58c ucb" Name="038_Cameraview.indd" ZeroPoint="0 0" ActiveLayer="uee" CMYKProfile="U.S. Web Coated (SWOP) v2" RGBProfile="sRGB IEC61966-2.1" SolidColorIntent="UseColorSettings" AfterBlendingIntent="UseColorSettings" DefaultImageIntent="UseColorSettings" RGBPolicy="PreserveEmbeddedProfiles" CMYKPolicy="CombinationOfPreserveAndSafeCmyk" AccurateLABSpots="false">
+	<Properties>
+		<Label>
+			<KeyValuePair Key="kAdobeDPS_Version" Value="2" />
+		</Label>
+	</Properties>
+	<Language Self="Language/$ID/English%3a UK" Name="$ID/English: UK" SingleQuotes="‘’" DoubleQuotes="“”" PrimaryLanguageName="$ID/English" SublanguageName="$ID/UK" Id="525" HyphenationVendor="Hunspell" SpellingVendor="Hunspell" />
+	<Language Self="Language/$ID/English%3a USA" Name="$ID/English: USA" SingleQuotes="‘’" DoubleQuotes="“”" PrimaryLanguageName="$ID/English" SublanguageName="$ID/USA" Id="269" HyphenationVendor="Hunspell" SpellingVendor="Hunspell" />
+	<Language Self="Language/$ID/Korean" Name="$ID/Korean" SingleQuotes="‘’" DoubleQuotes="“”" PrimaryLanguageName="$ID/Korean" SublanguageName="$ID/" Id="283" HyphenationVendor="$ID/" SpellingVendor="$ID/" />
+	<idPkg:Graphic src="Resources/Graphic.xml" />
+	<idPkg:Fonts src="Resources/Fonts.xml" />
+	<KinsokuTable Self="KinsokuTable/$ID/kHardKinsokuName" Name="$ID/kHardKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kSoftKinsokuName" Name="$ID/kSoftKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kKoreanKinsokuName" Name="$ID/kKoreanKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kSimpChineseKinsokuName" Name="$ID/kSimpChineseKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kTradChineseKinsokuName" Name="$ID/kTradChineseKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/Xref header should be two integers." Name="Xref header should be two integers." CantBeginLineChars="       ^{|}~갂갃갅갆갋갌갍갎갏갧갨갩갪갲갽갿걂걄걆걈걊걎걐걒걕걖걗걙걚걛걝걞걟" CantEndLineChars=" 갻갾걁걃걅걇걉걌걏걑걓걦걧걨걩걮" HangingPunctuationChars="" CantBeSeparatedChars="" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName1" Name="$ID/kMojikumiDefaultName1" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName2" Name="$ID/kMojikumiDefaultName2" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName3" Name="$ID/kMojikumiDefaultName3" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName4" Name="$ID/kMojikumiDefaultName4" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName5" Name="$ID/kMojikumiDefaultName5" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName6" Name="$ID/kMojikumiDefaultName6" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName7" Name="$ID/kMojikumiDefaultName7" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName8" Name="$ID/kMojikumiDefaultName8" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName9" Name="$ID/kMojikumiDefaultName9" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName10" Name="$ID/kMojikumiDefaultName10" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName11" Name="$ID/kMojikumiDefaultName11" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName12" Name="$ID/kMojikumiDefaultName12" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName13" Name="$ID/kMojikumiDefaultName13" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName14" Name="$ID/kMojikumiDefaultName14" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName15" Name="$ID/kMojikumiDefaultName15" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName16" Name="$ID/kMojikumiDefaultName16" />
+	<idPkg:Styles src="Resources/Styles.xml" />
+	<NumberingList Self="NumberingList/$ID/[Default]" Name="$ID/[Default]" ContinueNumbersAcrossStories="false" ContinueNumbersAcrossDocuments="false" />
+	<NamedGrid Self="NamedGrid/$ID/[Page Grid]" Name="$ID/[Page Grid]">
+		<GridDataInformation FontStyle="M" PointSize="12" CharacterAki="0" LineAki="9" HorizontalScale="100" VerticalScale="100" LineAlignment="LeftOrTopLineJustify" GridAlignment="AlignEmCenter" CharacterAlignment="AlignEmCenter">
+			<Properties>
+				<AppliedFont type="string">Adobe 명조 Std</AppliedFont>
+			</Properties>
+		</GridDataInformation>
+	</NamedGrid>
+	<Condition Self="Condition/MMI-0193" Name="MMI-0193" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0226" Name="MMI-0226" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0449" Name="MMI-0449" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-0509" Name="MMI-0509" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1028" Name="MMI-1028" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1154" Name="MMI-1154" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1156" Name="MMI-1156" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1239" Name="MMI-1239" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1367" Name="MMI-1367" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1368" Name="MMI-1368" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<Condition Self="Condition/MMI-1430" Name="MMI-1430" IndicatorMethod="UseHighlight" UnderlineIndicatorAppearance="Wavy" Visible="true">
+		<Properties>
+			<IndicatorColor type="enumeration">GridGreen</IndicatorColor>
+		</Properties>
+	</Condition>
+	<idPkg:Preferences src="Resources/Preferences.xml" />
+	<AdjustLayoutPreference EnableAdjustLayout="false" AllowLockedObjectsToAdjust="true" AllowFontSizeAndLeadingAdjustment="false" ImposeFontSizeRestriction="false" MinimumFontSize="6" MaximumFontSize="324" EnableAutoAdjustMargins="false" />
+	<HTMLFXLExportPreference EpubPageRange="" EpubPageRangeFormat="ExportAllPages" />
+	<PublishExportPreference PublishCover="FirstPage" CoverImageFile="" PublishPageRange="" PublishPageRangeFormat="ExportAllPages" ImageConversion="Automatic" ImageExportResolution="Ppi96" PublishDescription="" PublishFileName="" PublishFormat="PublishByPages" CoverPage="$ID/" GIFOptionsPalette="AdaptivePalette" JPEGOptionsQuality="High" PublishPdf="false" />
+	<EndnoteOption EndnoteTitle="미주" EndnoteTitleStyle="ParagraphStyle/$ID/NormalParagraphStyle" StartEndnoteNumberAt="1" EndnoteMarkerStyle="CharacterStyle/$ID/[No character style]" EndnoteTextStyle="ParagraphStyle/$ID/NormalParagraphStyle" EndnoteSeparatorText="　" EndnotePrefix="" EndnoteSuffix="">
+		<Properties>
+			<EndnoteNumberingStyle type="enumeration">Arabic</EndnoteNumberingStyle>
+			<RestartEndnoteNumbering type="enumeration">Continuous</RestartEndnoteNumbering>
+			<EndnoteMarkerPositioning type="enumeration">SuperscriptMarker</EndnoteMarkerPositioning>
+			<ScopeValue type="enumeration">EndnoteDocumentScope</ScopeValue>
+			<FrameCreateOption type="enumeration">NewPage</FrameCreateOption>
+			<ShowEndnotePrefixSuffix type="enumeration">NoPrefixSuffix</ShowEndnotePrefixSuffix>
+		</Properties>
+	</EndnoteOption>
+	<TextFrameFootnoteOptionsObject EnableOverrides="false" SpanFootnotesAcross="false" MinimumSpacingOption="12" SpaceBetweenFootnotes="6" />
+	<LinkedStoryOption UpdateWhileSaving="false" WarnOnUpdateOfEditedStory="true" RemoveForcedLineBreaks="false" ApplyStyleMappings="false" />
+	<LinkedPageItemOption UpdateLinkWhileSaving="false" WarnOnUpdateOfEditedPageItem="true" PreserveSizeAndShape="false" PreserveAppearance="false" PreserveInteractivity="false" PreserveFrameContent="false" PreserveOthers="false" />
+	<TaggedPDFPreference StructureOrder="UseXMLStructure" />
+	<WatermarkPreference WatermarkVisibility="false" WatermarkDoPrint="false" WatermarkDrawInBack="true" WatermarkText="" WatermarkFontFamily="Minion Pro" WatermarkFontStyle="Regular" WatermarkFontPointSize="48" WatermarkOpacity="50" WatermarkRotation="0" WatermarkHorizontalPosition="WatermarkHCenter" WatermarkHorizontalOffset="0" WatermarkVerticalPosition="WatermarkVCenter" WatermarkVerticalOffset="0">
+		<Properties>
+			<WatermarkFontColor type="enumeration">Black</WatermarkFontColor>
+		</Properties>
+	</WatermarkPreference>
+	<ConditionalTextPreference ShowConditionIndicators="ShowIndicators" ActiveConditionSet="n" />
+	<TextVariable Self="dTextVariablen&lt;?AID 001b?&gt;TV XRefChapterNumber" Name="&lt;?AID 001b?&gt;TV XRefChapterNumber" VariableType="XrefChapterNumberType" />
+	<TextVariable Self="dTextVariablen&lt;?AID 001b?&gt;TV XRefPageNumber" Name="&lt;?AID 001b?&gt;TV XRefPageNumber" VariableType="XrefPageNumberType" />
+	<TextVariable Self="dTextVariablenChapter" Name="Chapter" VariableType="MatchParagraphStyleType">
+		<MatchParagraphStylePreference TextBefore="" TextAfter="" AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aChapter" SearchStrategy="FirstOnPage" ChangeCase="None" DeleteEndPunctuation="false" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenChapter_No_contents" Name="Chapter_No_contents" VariableType="MatchParagraphStyleType">
+		<MatchParagraphStylePreference TextBefore="" TextAfter="" AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aChapter-NoTOC" SearchStrategy="FirstOnPage" ChangeCase="None" DeleteEndPunctuation="false" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenChapter_NoTOC" Name="Chapter_NoTOC" VariableType="MatchParagraphStyleType">
+		<MatchParagraphStylePreference TextBefore="" TextAfter="" AppliedParagraphStyle="ParagraphStyle/Chapter_Index_TOC%3aChapter-NoTOC" SearchStrategy="FirstOnPage" ChangeCase="None" DeleteEndPunctuation="false" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen마지막 페이지 번호" Name="마지막 페이지 번호" VariableType="LastPageNumberType">
+		<PageNumberVariablePreference TextBefore="" Format="Current" TextAfter="" Scope="SectionScope" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen만든 날짜" Name="만든 날짜" VariableType="CreationDateType">
+		<DateVariablePreference TextBefore="" Format="yy/MM/dd" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen머리글 실행 중" Name="머리글 실행 중" VariableType="MatchParagraphStyleType">
+		<MatchParagraphStylePreference TextBefore="" TextAfter="" AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" SearchStrategy="FirstOnPage" ChangeCase="None" DeleteEndPunctuation="false" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen수정 날짜" Name="수정 날짜" VariableType="ModificationDateType">
+		<DateVariablePreference TextBefore="" Format="yyyy-MM-d aa h:mm" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen이미지 이름" Name="이미지 이름" VariableType="LiveCaptionType">
+		<CaptionMetadataVariablePreference TextBefore="" MetadataProviderName="$ID/#LinkInfoNameStr" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen장 번호" Name="장 번호" VariableType="ChapterNumberType">
+		<ChapterNumberVariablePreference TextBefore="" Format="Current" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen출력 날짜" Name="출력 날짜" VariableType="OutputDateType">
+		<DateVariablePreference TextBefore="" Format="yy/MM/dd" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen파일 이름" Name="파일 이름" VariableType="FileNameType">
+		<FileNameVariablePreference TextBefore="" IncludePath="false" IncludeExtension="false" TextAfter="" />
+	</TextVariable>
+	<idPkg:Tags src="XML/Tags.xml" />
+	<Layer Self="uee" Name="#레이어1" Visible="true" Locked="false" IgnoreWrap="false" ShowGuides="true" LockGuides="false" UI="true" Expendable="true" Printable="true">
+		<Properties>
+			<LayerColor type="enumeration">LightBlue</LayerColor>
+		</Properties>
+	</Layer>
+	<Layer Self="u20d" Name="1차" Visible="true" Locked="false" IgnoreWrap="false" ShowGuides="true" LockGuides="false" UI="true" Expendable="true" Printable="true">
+		<Properties>
+			<LayerColor type="enumeration">Red</LayerColor>
+		</Properties>
+	</Layer>
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_uef.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u296.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u34f.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u3dc.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u496.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u4b3.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u540.xml" />
+	<idPkg:Spread src="Spreads/Spread_u5a1.xml" />
+	<idPkg:Spread src="Spreads/Spread_u5ec.xml" />
+	<idPkg:Spread src="Spreads/Spread_u621.xml" />
+	<idPkg:Spread src="Spreads/Spread_u902.xml" />
+	<Section Self="ue7" Length="6" AlternateLayoutLength="6" AlternateLayout="A5 H" Name="" ContinueNumbering="true" IncludeSectionPrefix="true" Marker="" PageStart="u5a8" SectionPrefix="">
+		<Properties>
+			<PageNumberStyle type="enumeration">Arabic</PageNumberStyle>
+		</Properties>
+	</Section>
+	<DocumentUser Self="dDocumentUser0" UserName="$ID/Unknown User Name">
+		<Properties>
+			<UserColor type="enumeration">Gold</UserColor>
+		</Properties>
+	</DocumentUser>
+	<CrossReferenceFormat Self="u656" Name="전체 단락 및 페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u656BuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u656BuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" 페이지의 &quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u656BuildingBlock2" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u656BuildingBlock3" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u657" Name="전체 단락" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u657BuildingBlock0" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u658" Name="단락 텍스트 및 페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u658BuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u658BuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" 페이지의 &quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u658BuildingBlock2" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u658BuildingBlock3" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u659" Name="단락 텍스트" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u659BuildingBlock0" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u65a" Name="단락 번호 및 페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u65aBuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u65aBuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" 페이지: " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u65aBuildingBlock2" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u65b" Name="단락 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u65bBuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u65c" Name="텍스트 앵커 이름 및 페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u65cBuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u65cBuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="페이지의 ^Q" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u65cBuildingBlock2" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u65cBuildingBlock3" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="^Q" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u65d" Name="텍스트앵커" AppliedCharacterStyle="CharacterStyle/C_CrossReference">
+		<BuildingBlock Self="u65dBuildingBlock0" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u65e" Name="페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u65eBuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<Index Self="u65f" />
+	<idPkg:BackingStory src="XML/BackingStory.xml" />
+	<idPkg:Story src="Stories/Story_u58c.xml" />
+	<idPkg:Story src="Stories/Story_u576.xml" />
+	<idPkg:Story src="Stories/Story_u54a.xml" />
+	<idPkg:Story src="Stories/Story_u52b.xml" />
+	<idPkg:Story src="Stories/Story_u515.xml" />
+	<idPkg:Story src="Stories/Story_u4d3.xml" />
+	<idPkg:Story src="Stories/Story_u4bd.xml" />
+	<idPkg:Story src="Stories/Story_u481.xml" />
+	<idPkg:Story src="Stories/Story_u46b.xml" />
+	<idPkg:Story src="Stories/Story_u455.xml" />
+	<idPkg:Story src="Stories/Story_u43f.xml" />
+	<idPkg:Story src="Stories/Story_u429.xml" />
+	<idPkg:Story src="Stories/Story_u413.xml" />
+	<idPkg:Story src="Stories/Story_u3fd.xml" />
+	<idPkg:Story src="Stories/Story_u3e7.xml" />
+	<idPkg:Story src="Stories/Story_u3c7.xml" />
+	<idPkg:Story src="Stories/Story_u3b1.xml" />
+	<idPkg:Story src="Stories/Story_u36f.xml" />
+	<idPkg:Story src="Stories/Story_u359.xml" />
+	<idPkg:Story src="Stories/Story_u33a.xml" />
+	<idPkg:Story src="Stories/Story_u324.xml" />
+	<idPkg:Story src="Stories/Story_u2e2.xml" />
+	<idPkg:Story src="Stories/Story_u2cc.xml" />
+	<idPkg:Story src="Stories/Story_u281.xml" />
+	<idPkg:Story src="Stories/Story_u26b.xml" />
+	<idPkg:Story src="Stories/Story_u255.xml" />
+	<idPkg:Story src="Stories/Story_u23f.xml" />
+	<idPkg:Story src="Stories/Story_u213.xml" />
+	<idPkg:Story src="Stories/Story_u5c1.xml" />
+	<Hyperlink Self="u868" Name="상호 참조 2" Source="u73c" Visible="false" Highlight="Invert" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="1888">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkTextDestination/카메라 설정하기</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u869" Name="상호 참조 3" Source="u845" Visible="false" Highlight="Invert" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="1888">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkTextDestination/카메라 설정하기</Destination>
+		</Properties>
+	</Hyperlink>
+	<idPkg:Mapping src="XML/Mapping.xml" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Symbol" Name="$ID/kIndexGroup_Symbol" Include="true" Priority="0" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Numeric" Name="$ID/kIndexGroup_Numeric" Include="true" Priority="1" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Alphabet" Name="$ID/kIndexGroup_Alphabet" Include="true" Priority="2" HeaderType="BasicLatin" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Korean" Name="$ID/kIndexGroup_Korean" Include="true" Priority="3" HeaderType="KoreanConsonant" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Kana" Name="$ID/kIndexGroup_Kana" Include="false" Priority="4" HeaderType="HiraganaAll" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Chinese" Name="$ID/kIndexGroup_Chinese" Include="false" Priority="5" HeaderType="ChinesePinyin" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_CyrillicAlphabet" Name="$ID/kWRIndexGroup_CyrillicAlphabet" Include="false" Priority="6" HeaderType="Russian" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_GreekAlphabet" Name="$ID/kWRIndexGroup_GreekAlphabet" Include="false" Priority="7" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_ArabicAlphabet" Name="$ID/kWRIndexGroup_ArabicAlphabet" Include="false" Priority="8" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_HebrewAlphabet" Name="$ID/kWRIndexGroup_HebrewAlphabet" Include="false" Priority="9" HeaderType="Nothing" />
+	<ColorGroup Self="ColorGroup/[Root Color Group]" Name="[Root Color Group]" IsRootColorGroup="true">
+		<ColorGroupSwatch Self="u12ColorGroupSwatch0" SwatchItemRef="Swatch/None" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch1" SwatchItemRef="Color/Registration" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch2" SwatchItemRef="Color/Paper" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch3" SwatchItemRef="Color/Black" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch4" SwatchItemRef="Color/1차" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch5" SwatchItemRef="Color/C=0 M=0 Y=100 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch6" SwatchItemRef="Color/C=0 M=100 Y=0 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch7" SwatchItemRef="Color/C=0 M=100 Y=100 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch8" SwatchItemRef="Color/C=0 M=20 Y=100 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch9" SwatchItemRef="Color/C=100 M=0 Y=0 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatcha" SwatchItemRef="Color/HMC_KMC" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatchb" SwatchItemRef="Color/KMC" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatchc" SwatchItemRef="Color/SDL" />
+	</ColorGroup>
+	<ABullet Self="dABullet0" CharacterType="UnicodeOnly" CharacterValue="8226">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet1" CharacterType="UnicodeOnly" CharacterValue="42">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet2" CharacterType="UnicodeWithFont" CharacterValue="187">
+		<Properties>
+			<BulletsFont type="string">Myriad Pro</BulletsFont>
+			<BulletsFontStyle type="string">$ID/Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet3" CharacterType="GlyphWithFont" CharacterValue="503">
+		<Properties>
+			<BulletsFont type="string">Minion Pro</BulletsFont>
+			<BulletsFontStyle type="string">$ID/Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet4" CharacterType="UnicodeOnly" CharacterValue="12539">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet5" CharacterType="UnicodeOnly" CharacterValue="65290">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet6" CharacterType="UnicodeOnly" CharacterValue="8251">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet7" CharacterType="UnicodeOnly" CharacterValue="9674">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet8" CharacterType="UnicodeWithFont" CharacterValue="173">
+		<Properties>
+			<BulletsFont type="string">Noto Sans CJK KR</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet9" CharacterType="UnicodeWithFont" CharacterValue="45">
+		<Properties>
+			<BulletsFont type="string">Arial</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABulleta" CharacterType="UnicodeWithFont" CharacterValue="8226">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABulletb" CharacterType="UnicodeWithFont" CharacterValue="45">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABulletc" CharacterType="UnicodeWithFont" CharacterValue="91">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABulletd" CharacterType="UnicodeWithFont" CharacterValue="35">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullete" CharacterType="UnicodeWithFont" CharacterValue="219">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABulletf" CharacterType="UnicodeWithFont" CharacterValue="221">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet10" CharacterType="UnicodeWithFont" CharacterValue="220">
+		<Properties>
+			<BulletsFont type="string">Mobis_Symbol_ENG</BulletsFont>
+			<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<Assignment Self="ufd" Name="$ID/UnassignedInCopy" UserName="$ID/" ExportOptions="AssignedSpreads" IncludeLinksWhenPackage="true" FilePath="$ID/">
+		<Properties>
+			<FrameColor type="enumeration">Nothing</FrameColor>
+		</Properties>
+	</Assignment>
+</Document>

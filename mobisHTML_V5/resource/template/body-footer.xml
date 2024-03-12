@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <div class="popup_img">
+        <div class="box">
+            <div class="pop_close"><img src="images/setting_close_icon.png" /></div>
+            <div class="image_area"> &#xFEFF;</div>
+            <div class="zoom_in_out"><img src="images/popup_size_small.png" class="zoom_icon1" /><input name="zoom_sd" id="zoom_sd" class="zoom_sd" type="range" step="0.05" min="100" max="200" value="100" onchange="img_size_change(value);" /><img src="images/popup_size_big.png" class="zoom_icon2" alrt="" /></div>
+        </div>
+    </div>
+    <div id="nav">
+        <div class="btn_prev2"><img src="images/swipe_left.png" /></div>
+        <div class="btn_next2"><img src="images/swipe_right.png" /></div>
+    </div>
+    <div class="btn_area">
+        <div id="count">&#xFEFF;&#x20;</div>
+    </div>
+    <div id="top_kind_toc">
+        <div class="toc_close">&#xFEFF;</div>
+        <div class="toc_search">&#xFEFF;</div>
+    </div>
+    <div id="view_toc">
+        <div id="view_container">&#xFEFF;</div>
+    </div>
+    <div id="gototop"><img src="images/go_to_top.png" /></div>
+    <script type="text/javascript" src="js/video-play.js">&#xFEFF;</script>
+</root>

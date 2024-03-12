@@ -1,0 +1,383 @@
+2021-05-06 -- S21_Eng
+========================================================================================================================
+Table styles: 11
+01	Table_Box			<note outputclass="roundbox">
+02	Table_Button		<table outputclass="Table_Button">, cols="2" 또는 cols="3", thead 있음
+						Case 1:
+							head col1: semi-bold, left align, grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+							head col2: semi-bold, left align, no-background, 단 semi-bold 처리는 character style에 의해 이루어짐
+							body col1: semi-bold, left align, light-grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+							body col2: no-bold, left align, no-background
+							표 테두리: 위/아래 있음, 왼쪽/오른쪽 없음
+							행 구분 라인: 있음
+							열 구분 라인: 없음
+						Case 2:
+							head col1-col2 merged: semi-bold, left align, grey background
+							head col3: semi-bold, left align, no-background, 단 semi-bold 처리는 character style에 의해 이루어짐
+							body col1: semi-bold, center align, light-grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+							body col2: semi-bold, left align, light-grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+							body col3: no-bold, left align, no-background
+							표 테두리: 위/아래 있음, 왼쪽/오른쪽 없음
+							행 구분 라인: 있음
+							열 구분 라인: 없음
+03	Table_CallOut-Text	<p outputclass="callout-image"><image align="center" href="../../images/image_file_name.pdf" placement="break" /></p>
+04	Table_Icon			<table outputclass="Table_Icon">, cols="2", thead 있음
+						head col1: semi-bold, center align, grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+						head col2: semi-bold, left align, no-background, 단 semi-bold 처리는 character style에 의해 이루어짐
+						body col1: semi-bold, center align, light-grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+						body col2: no-bold, left align, no-background
+						표 테두리: 위/아래 있음, 왼쪽/오른쪽 없음
+						행 구분 라인: 있음
+						열 구분 라인: 없음
+05	Table_Key-Features	<table outputclass="Table_Key-Features">, cols="2", thead 없음
+						body col1: no-bold, left align, no-background
+						body col2: no-bold, left align, no-background
+						표 테두리: 위/아래 없음, 왼쪽/오른쪽 없음
+						행 구분 라인: 없음
+						열 구분 라인: 없음
+06	Table_Motion		<p><image align="center" href="../../images/image_file_name.pdf" placement="break" /></p>
+07	Table_Notice		<note type="warning">, <note type="caution">, <note type="notice">
+08	Table_Product		<p><image align="center" href="../../images/image_file_name.pdf" placement="break" /></p>
+09	Table_Screen		<p><image align="center" href="../../images/image_file_name.pdf" placement="break" /></p>
+10	Table_Text			<table outputclass="Table_Text">, cols="4", thead 없음
+						body col1: no-bold, left align, no-background
+						body col2: no-bold, left align, no-background
+						body col3: no-bold, left align, no-background
+						body col4: no-bold, left align, no-background
+						표 테두리: 위/아래 없음, 왼쪽/오른쪽 없음
+						행 구분 라인: 없음
+						열 구분 라인: 없음
+11	Table_Trademark		<p><image align="left" href="../../images/image_file_name.pdf" placement="break" /></p>
+
+
+========================================================================================================================
+Table styles: 11                      상세 정보
+========================================================================================================================
+01	Table_Box	<note outputclass="roundbox">
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 2회
+
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Box.png
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:7
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:1335
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\device_overheating_situations_and_solutions\when_the_device_heats_up_while_charging_the_battery.dita:10
+	<note outputclass="roundbox">
+		<p outputclass="Heading3">Do the following when the device heats up:</p>
+		<ul>
+			<li>Disconnect the charger from the device and close any running apps. Wait for the device to cool down and then begin charging the device again.</li>
+			<li>If the lower part of the device overheats, it could be because the connected USB cable is damaged. Replace the damaged USB cable with a new Samsung-approved one.</li>
+			<li>When using a wireless charger, do not place foreign materials, such as metal objects, magnets, and magnetic stripe cards, between the device and the wireless charger.</li>
+		</ul>
+	</note>
+
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:8
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:2125
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\device_overheating_situations_and_solutions\when_the_device_heats_up_during_use.dita:41
+	<note outputclass="roundbox">
+		<p outputclass="Heading3">Do the following when the device heats up:</p>
+		<ul>
+			<li>Keep the device updated with the latest software.</li>
+			<li>Conflicts between running apps may cause the device to heat up. Restart the device.</li>
+			<li>Deactivate the <ph outputclass="nobreak">Wi-Fi</ph>, GPS, and Bluetooth features when not using them.</li>
+			<li>Close apps that increase battery consumption or that run in the background when not in use.</li>
+			<li>Delete unnecessary files or unused apps.</li>
+			<li>Decrease the screen brightness.</li>
+			<li>If the device overheats or feels hot for a prolonged period, do not use it for a while. If the device continues to overheat, contact a Samsung Service Centre.</li>
+		</ul>
+	</note>
+========================================================================================================================
+02	Table_Button	<table outputclass="Table_Button">, cols="2" 또는 cols="3", thead 있음
+					Case 1:
+						head col1: semi-bold, left align, grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+						head col2: semi-bold, left align, no-background, 단 semi-bold 처리는 character style에 의해 이루어짐
+						body col1: semi-bold, left align, light-grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+						body col2: no-bold, left align, no-background
+						표 테두리: 위/아래 있음, 왼쪽/오른쪽 없음
+						행 구분 라인: 있음
+						열 구분 라인: 없음
+					Case 2:
+						head col1-col2 merged: semi-bold, left align, grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+						head col3: semi-bold, left align, no-background, 단 semi-bold 처리는 character style에 의해 이루어짐
+						body col1: semi-bold, center align, light-grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+						body col2: semi-bold, left align, light-grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+						body col3: no-bold, left align, no-background
+						표 테두리: 위/아래 있음, 왼쪽/오른쪽 없음
+						행 구분 라인: 있음
+						열 구분 라인: 없음
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 2회
+
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Button.png
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:16
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:8742
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\device_layout_and_functions\hard_keys.dita:7
+	<table outputclass="Table_Button">
+		<tgroup cols="2">
+			<colspec colname="col1" colwidth="22.47191011236762*"/>
+			<colspec colname="col2" colwidth="77.528089887632376*"/>
+			<thead>
+				<row>
+					<entry>
+						<p><b outputclass="semi">Key</b></p>
+					</entry>
+					<entry>
+						<p><b outputclass="semi">Function</b></p>
+					</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry>
+						<p><b outputclass="semi">Side key</b></p>
+					</entry>
+					<entry>
+						<ul>
+							<li>When the device is off, press and hold to turn it on.</li>
+							<li>Press to turn on or lock the screen.</li>
+							<li>Press and hold to start a conversation with Bixby. Refer to <xref href="../../002_apps_and_features/bixby/using_bixby.dita"/> for more information.</li>
+							<li>Press twice or press and hold to launch the app or feature you set.</li>
+						</ul>
+					</entry>
+				</row>
+
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Button2.png
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:28
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:28869
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\understanding_the_screen\navigation_bar_soft_buttons.dita:11
+	<table outputclass="Table_Button">
+		<tgroup cols="3">
+			<colspec colname="col1" colwidth="12.921348314611381*"/>
+			<colspec colname="col2" colwidth="20.224719101130855*"/>
+			<colspec colname="col3" colwidth="66.853932584257763*"/>
+			<thead>
+				<row>
+					<entry namest="col1" nameend="col2">
+						<p><b outputclass="semi">Button</b></p>
+					</entry>
+					<entry>
+						<p><b outputclass="semi">Function</b></p>
+					</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry>
+						<p><image align="center" href="../../images/I-recents.png"/></p>
+					</entry>
+					<entry>
+						<p><b outputclass="semi">Recents</b></p>
+					</entry>
+					<entry>
+						<ul>
+							<li>Tap to open the list of recent apps.</li>
+						</ul>
+					</entry>
+				</row>
+========================================================================================================================
+03	Table_CallOut-Text	<p outputclass="callout-image"><image align="center" href="../../images/image_file_name.pdf" placement="break" /></p>
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 47회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_CallOut-Text.png
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:12
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:3659
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\device_layout_and_functions\device_layout.dita:21
+	<p outputclass="callout-image"><image align="center" href="../../images/S-open_p3.pdf" placement="break"/></p>
+========================================================================================================================
+04	Table_Icon	<table outputclass="Table_Icon">, cols="2", thead 있음
+				head col1: semi-bold, center align, grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+				head col2: semi-bold, left align, no-background, 단 semi-bold 처리는 character style에 의해 이루어짐
+				body col1: semi-bold, center align, light-grey background, 단 semi-bold 처리는 character style에 의해 이루어짐
+				body col2: no-bold, left align, no-background
+				표 테두리: 위/아래 있음, 왼쪽/오른쪽 없음
+				행 구분 라인: 있음
+				열 구분 라인: 없음
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 1회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Icon.png
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:33
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:34700
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\understanding_the_screen\indicator_icons.dita:10
+	<table outputclass="Table_Icon">
+		<tgroup cols="2">
+			<colspec colname="col1" colwidth="16.85393258425578*"/>
+			<colspec colname="col2" colwidth="83.146067415744213*"/>
+			<thead>
+				<row>
+					<entry align="center">
+						<p><b outputclass="semi">Icon</b></p>
+					</entry>
+					<entry>
+						<p><b outputclass="semi">Meaning</b></p>
+					</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry>
+						<p><image align="center" href="../../images/I-top_signal_no.png"/></p>
+					</entry>
+					<entry>
+						<p>No signal</p>
+					</entry>
+				</row>
+========================================================================================================================
+05	Table_Key-Features	<table outputclass="Table_Key-Features">, cols="2", thead 없음
+						body col1: no-bold, left align, no-background
+						body col2: no-bold, left align, no-background
+						표 테두리: 위/아래 없음, 왼쪽/오른쪽 없음
+						행 구분 라인: 없음
+						열 구분 라인: 없음
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 1회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Key-Features.png
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:10
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:2225
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\key_features\key_features.dita:7
+	<table outputclass="Table_Key-Features">
+			<tgroup cols="2">
+				<colspec colname="col1" colwidth="50*"/>
+				<colspec colname="col2" colwidth="50*"/>
+				<tbody>
+					<row>
+						<entry>
+							<p><image align="left" href="../../images/S-keyfeatures_camera.png"/></p>
+							<p outputclass="Heading3"><cmdname outputclass="nobold">Camera</cmdname></p>
+							<p>Take clear close-up pictures of your subject. You can also view each camera’s scenes through the thumbnail and change the scene while recording a video in director’s view mode. Refer to <xref href="../../002_apps_and_features/camera/camera.dita"/> for more information.</p>
+						</entry>
+						<entry>
+							<p><image align="left" href="../../images/S-keyfeatures_xcloud.png"/></p>
+							<p outputclass="Heading3">xCloud</p>
+							<p>Enjoy high-quality gaming on your mobile device with the xCloud service.</p>
+						</entry>
+					</row>
+========================================================================================================================
+06	Table_Motion	<p><image align="center" href="../../images/image_file_name.pdf" placement="break" /></p>
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 2회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Motion.png
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:84
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\004_Applications\Stories\Story_u36a.xml:57435
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\002_apps_and_features\samsung_pay\making_payments.dita:10
+	<p><image align="center" href="../../images/S-samsung_pay_register.pdf" placement="break"/></p>
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Motion2.png
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:109
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\004_Applications\Stories\Story_u36a.xml:92494
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\002_apps_and_features\s_pen_galaxy_s21_ultra_5g\pen_select.dita:8
+	<p><image align="center" href="../../images/S-spen_penselect.pdf" placement="break"/></p>
+========================================================================================================================
+07	Table_Notice	<note type="warning">, <note type="caution">, <note type="notice">
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 157회
+	
+	이미지 "M-warning.ai"가 사용된 경우: <note type="warning">
+		C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Notice_warning.png
+		C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:6
+		C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:289
+		C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\read_me_first\instructional_icons.dita:7
+		<note type="warning"><b outputclass="semi">Warning</b>: situations that could cause injury to yourself or others</note>
+
+	이미지 "M-caution.ai"가 사용된 경우: <note type="caution">
+		C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Notice_caution.png
+		C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:15
+		C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:7845
+		C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\device_layout_and_functions\device_layout.dita:52
+		<note type="caution">
+			<ul>
+				<li>When using the speakers, such as when playing media files or using speakerphone, do not place the device close to your ears.</li>
+				<li>Be careful not to expose the camera lens to a strong light source, such as direct sunlight. If the camera lens is exposed to a strong light source, such as direct sunlight, the camera image sensor may be damaged. A damaged image sensor is irreparable and will cause dots or spots in pictures.</li>
+				<li>If you use the device with its glass or acrylic body broken, there may be a risk of injury. Use the device only after it has been repaired at a Samsung Service Centre.</li>
+				<li>If dust or foreign materials enter the microphone, speaker, or receiver, the device’s sound may become quiet or certain features may not work. If you attempt to remove the dust or foreign materials with a sharp object, the device may be damaged and its appearance may be affected.</li>
+			</ul>
+		</note>
+	
+	이미지 "M-notice.ai"가 사용된 경우: <note type="notice">
+		C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Notice_notice.png
+		C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:11
+		C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:2937
+		C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\device_layout_and_functions\package_contents.dita:8
+		<note type="notice">
+			<ul>
+				<li>The items supplied with the device and any available accessories may vary depending on the region or service provider.</li>
+				<li>The supplied items are designed only for this device and may not be compatible with other devices.</li>
+				<li>Appearances and specifications are subject to change without prior notice.</li>
+				<li>You can purchase additional accessories from your local Samsung retailer. Make sure they are compatible with the device before purchase.</li>
+				<li>Use only Samsung-approved accessories. Using unapproved accessories may cause the performance problems and malfunctions that are not covered by the warranty.</li>
+				<li>Availability of all accessories is subject to change depending entirely on manufacturing companies. For more information about available accessories, refer to the Samsung website.</li>
+				<li>The earphones (USB Type-C) that support digital output can be used with the device. However, the device may not be compatible with earphones that use a different audio output method or were made by a different manufacturer.</li>
+			</ul>
+		</note>
+========================================================================================================================
+08	Table_Product	<p><image align="center" href="../../images/image_file_name.pdf" placement="break" /></p>
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 7회
+
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Product.png
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:17
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:10620
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\charging_the_battery\wired_charging.dita:8
+	<p><image align="center" href="../../images/S-battery4.pdf" placement="break"/></p>
+========================================================================================================================
+09	Table_Screen	<p><image align="center" href="../../images/image_file_name.pdf" placement="break" /></p>
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 8회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Screen.png
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:31
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:32401
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\understanding_the_screen\creating_folders.dita:14
+	<p><image align="center" href="../../images/S-createfolder.pdf" placement="break"/></p>
+========================================================================================================================
+10	Table_Text	<table outputclass="Table_Text">, cols="4", thead 없음
+				body col1: no-bold, left align, no-background
+				body col2: no-bold, left align, no-background
+				body col3: no-bold, left align, no-background
+				body col4: no-bold, left align, no-background
+				표 테두리: 위/아래 없음, 왼쪽/오른쪽 없음
+				행 구분 라인: 없음
+				열 구분 라인: 없음
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 1회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Text.png
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:27
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:23205
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\understanding_the_screen\controlling_the_touchscreen.dita:7
+	<table outputclass="Table_Text">
+		<tgroup cols="4">
+			<colspec colname="col1" colwidth="23.595505617977526*"/>
+			<colspec colname="col2" colwidth="26.404494382022474*"/>
+			<colspec colname="col3" colwidth="23.595505617977526*"/>
+			<colspec colname="col4" colwidth="26.404494382022474*"/>
+			<tbody>
+				<row>
+					<entry>
+						<p><b outputclass="semi">Tapping</b></p>
+						<p>Tap the screen.</p>
+					</entry>
+					<entry>
+						<p><image align="left" href="../../images/S-gesture_tap.pdf" placement="break"/></p>
+					</entry>
+					<entry>
+						<p><b outputclass="semi">Tapping and holding</b></p>
+						<p>Tap and hold the screen for approximately <ph outputclass="nobreak">2 seconds</ph>.</p>
+					</entry>
+					<entry>
+						<p><image align="left" href="../../images/S-gesture_tapandhold.pdf" placement="break"/></p>
+					</entry>
+				</row>
+========================================================================================================================
+11	Table_Trademark		<p><image align="left" href="../../images/image_file_name.pdf" placement="break" /></p>
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 1회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\table\Table_Trademark.png
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:168
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\007_Copyright\Stories\Story_u36f.xml:94
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\004_appendix\trademarks\trademarks.dita:14
+	<p><image align="left" href="../../images/M-HEVC.pdf" placement="break"/></p>
+========================================================================================================================

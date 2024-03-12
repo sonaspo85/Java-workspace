@@ -1,0 +1,821 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"foll",
+				"following-sibling"
+			],
+			[
+				"call",
+				"callout-image"
+			],
+			[
+				"follow",
+				"following-sibling"
+			],
+			[
+				"pret",
+				"preTitle"
+			],
+			[
+				"parT",
+				"parTopic"
+			],
+			[
+				"ances",
+				"ancesStep"
+			],
+			[
+				"va",
+				"val\tvalue-of"
+			],
+			[
+				"Lchi",
+				"LchiInfo"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"lch",
+				"LchiNote"
+			],
+			[
+				"s",
+				"space-before"
+			],
+			[
+				"prece",
+				"preceding-sibling"
+			],
+			[
+				"preced",
+				"preceding-sibling"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"copy",
+				"copyof\tcopy-of"
+			],
+			[
+				"for",
+				"foreach\tforEach"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "ul.li__label__content\nname=\"ul.li\">\nsteps.step\"\nast.step.number\"\n14 17 22 23 30\n",
+			"settings":
+			{
+				"buffer_size": 80,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAFQAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABUAAAAAAAAAFQAAAAAAAAD////////vfw"
+				],
+				[
+					8,
+					1,
+					"paste",
+					null,
+					"AQAAABcAAAAAAAAAJAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABcAAAAAAAAAFwAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					45,
+					1,
+					"left_delete",
+					null,
+					"AQAAABUAAAAAAAAAFQAAAAAAAAABAAAACg",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABYAAAAAAAAAFgAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAACMAAAAAAAAAJAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACMAAAAAAAAAIwAAAAAAAAD////////vfw"
+				],
+				[
+					51,
+					1,
+					"paste",
+					null,
+					"AQAAACQAAAAAAAAALwAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACQAAAAAAAAAJAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					66,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAC8AAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAxAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC8AAAAAAAAALwAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					68,
+					1,
+					"paste",
+					null,
+					"AQAAADAAAAAAAAAAQAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					157,
+					1,
+					"insert",
+					{
+						"characters": "\n23"
+					},
+					"AwAAAEAAAAAAAAAAQQAAAAAAAAAAAAAAQQAAAAAAAABCAAAAAAAAAAAAAABCAAAAAAAAAEMAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					158,
+					1,
+					"insert",
+					{
+						"characters": " 30"
+					},
+					"AwAAAEMAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABFAAAAAAAAAAAAAABFAAAAAAAAAEYAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEMAAAAAAAAAQwAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					170,
+					1,
+					"insert",
+					{
+						"characters": "14"
+					},
+					"AgAAAEEAAAAAAAAAQgAAAAAAAAAAAAAAQgAAAAAAAABDAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEEAAAAAAAAAQQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					171,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAEMAAAAAAAAARAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEMAAAAAAAAAQwAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					174,
+					1,
+					"insert",
+					{
+						"characters": " 22"
+					},
+					"AwAAAEMAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABFAAAAAAAAAAAAAABFAAAAAAAAAEYAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEMAAAAAAAAAQwAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					177,
+					1,
+					"insert",
+					{
+						"characters": " 17"
+					},
+					"AwAAAEMAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABFAAAAAAAAAAAAAABFAAAAAAAAAEYAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEMAAAAAAAAAQwAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					322,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAE8AAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABRAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAE8AAAAAAAAATwAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					323,
+					1,
+					"paste",
+					null,
+					"AQAAAFEAAAAAAAAAawAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFEAAAAAAAAAUQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					330,
+					1,
+					"paste",
+					null,
+					"AgAAAFEAAAAAAAAAPAEAAAAAAAAAAAAAPAEAAAAAAAA8AQAAAAAAADIAAABb7J6s7YOd6re866y0XSBTU0wtVlBOIOyEpOy5mCDrsI8g7KCR7IaNIOqwgOydtOuTnA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGsAAAAAAAAAUQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					340,
+					2,
+					"left_delete",
+					null,
+					"AgAAAFAAAAAAAAAAUAAAAAAAAADsAAAACjx4c2w6d2hlbiB0ZXN0PSIqW2NvbnRhaW5zKEBjbGFzcywgJ3Rhc2svaW5mbyAnKV0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLypbbGFzdCgpXVtuYW1lKCk9J3VsJ10iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHNsOnZhbHVlLW9mIHNlbGVjdD0iJzJtbSciIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC94c2w6d2hlbj5PAAAAAAAAAE8AAAAAAAAAAQAAAAo",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADwBAAAAAAAAUAAAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bookmark",
+				"SublimeBookmarks: Remove All Bookmarks (Clear Bookmarks)"
+			],
+			[
+				"ecoding",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"sni",
+				"Snippet: XML Stylesheet"
+			],
+			[
+				"xpath",
+				"XPath: Goto parent element"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"url",
+				"Open URL (Skip Menu)"
+			],
+			[
+				"uri",
+				"Open URL (Use Input)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"open",
+				"OpenFilesLister"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"search",
+				"File: Search Files"
+			],
+			[
+				"file sear",
+				"File: Search Files"
+			],
+			[
+				"file open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"file",
+				"File: Search Files"
+			],
+			[
+				"ter",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"term",
+				"Terminus: Reset"
+			],
+			[
+				"terminu",
+				"Terminus: Close All"
+			],
+			[
+				"termi",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"command",
+				"Preferences: Terminus Command Palette"
+			],
+			[
+				"cmd",
+				"Preferences: Terminus Command Palette"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"remoce",
+				"Package Control: Remove Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"xpat",
+				"XPath: Goto parent element"
+			],
+			[
+				"termu",
+				"Terminus: Close"
+			],
+			[
+				"t",
+				"Terminus: Close"
+			],
+			[
+				"terminus",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"comm",
+				"Preferences: Terminus Command Palette"
+			],
+			[
+				"project",
+				"Project: Add Folder"
+			],
+			[
+				"parent",
+				"XPath: Goto parent element"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"mark",
+				"Bookmarks: Clear All"
+			],
+			[
+				"snippet",
+				"Snippet: XML Stylesheet"
+			],
+			[
+				"snip",
+				"Snippet: XML Stylesheet"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/attrs/ast-task-elements-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/xsl/ast-task-elements.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/attrs/ast-tables-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/xsl/ast-tables.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/xsl/ast-lists.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/attrs/ast-lists-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/xsl/ast-topic.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/attrs/ast-topic-attr.xsl",
+		"/H/Batch/Mobis/IDML2HTML/Bat/Bat_task/resource/dataTemplate/index_localization.xml",
+		"/H/Batch/Mobis/IDML2HTML/Bat/Bat_task/resource/dataTemplate/codes.xml",
+		"/H/DITA/Mobile/Bat/mobile-source/out/1_PDF/master.pdf",
+		"/H/DITA/Mobile/Bat/mobile-source/out/1_PDF/topic.fo",
+		"/H/Batch/Mobis/IDML2HTML/Bat/Bat_task/resource/dataTemplate/StyleApplier.xml",
+		"/H/JAVA/java-workspace/mobisHTML_Integrated/resource/varExract.xml",
+		"/H/Batch/Mobis/IDML2HTML/Bat/Bat_task/resource/varExract.xml",
+		"/H/DITA/Mobile/Bat/mobile-source/out/1_PDF/topic.pdf",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/attrs/ast-layout-masters-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/attrs/ast-basic-settings.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-task-elements-attr.xsl",
+		"/H/DITA/Mobile/Bat/mobile-source/setLanguage.xml",
+		"/C/Users/SMC/Desktop/IMAGE/PDF 프로그램/PDF 프로그램/isky PDF/Serial key.xml",
+		"/H/DITA/Mobile/Bat/mobile-source/PROJECT.ditamap",
+		"/C/Users/SMC/Desktop/IMAGE/PDF 프로그램/PDF 프로그램/Wondershare PDFelement Professional 9.2.1.2007 Multilingual/Crack/Readme.txt",
+		"/H/DITA/Mobile/Bat/mobile-source/PROJECT_MERGED.xml",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-basic-settings.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-tables-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-tables.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-lists-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-topic.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-topic-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-lists.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-layout-masters-attr.xsl",
+		"/C/Users/SMC/Desktop/IMAGE/bbb/com.ast.protean.ma.um2020pdf/cfg/fo/attrs/ast-lists-attr.xsl",
+		"/C/Users/SMC/AppData/Local/Temp/MicrosoftEdgeDownloads/88cadbb1-e957-422c-8be9-119436cbce53/방주자원 연말 정산시 필요한 자료.xml",
+		"/C/Users/SMC/AppData/Local/Temp/MicrosoftEdgeDownloads/c0af0a88-78e7-4fbd-a881-6e284360a90a/방주자원 연말 정산시 필요한 자료.xml",
+		"/C/Users/SMC/AppData/Local/Temp/MicrosoftEdgeDownloads/14687b21-ad1f-4eca-82dc-6c66cbde4b7b/연말정산 하는법.xml",
+		"/C/Users/SMC/Desktop/IMAGE/230115/ko-KR.xml",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/common/vars/ar-SA.xml",
+		"/C/Users/SMC/AppData/Local/Temp/MicrosoftEdgeDownloads/b3d87946-f993-48c9-be41-0ac79af1a547/방주자원 연말 정산시 필요한 자료.xml",
+		"/C/Users/SMC/AppData/Local/Temp/MicrosoftEdgeDownloads/b6373702-1410-4803-9b35-345a0ebfd3eb/방주자원 연말 정산시 필요한 자료.xml",
+		"/C/Users/SMC/AppData/Local/Temp/MicrosoftEdgeDownloads/9491b93e-9bb8-4f5c-8cb6-a1c005ecf66c/연말정산 하는법.xml",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/attrs/ast-toc-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/attrs/ast-front-matter-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/xsl/ast-static-content.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/attrs/ast-static-content-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um2020pdf/cfg/fo/xsl/ast-root-processing.xsl",
+		"/H/DITA/Mobile/Bat/mobile-source/out/master - 복사본.dita",
+		"/H/DITA/Mobile/Bat/mobile-source/backup/2023/230113/ko-KR.xml",
+		"/H/DITA/Mobile/Bat/mobile-source/backup/2023/230113/en-GB.xml",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-font-attr.xsl",
+		"/H/DITA/Mobile/Bat/idmlTdita/zzz.bat",
+		"/C/Users/SMC/Desktop/IMAGE/Kor_idml/xml/newMerged.xml",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-task-elements.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-front-matter.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/ast-layout-masters.xsl",
+		"/H/Batch/Mobis/IDML2HTML/Bat/Bat_task/allcontents.xml",
+		"/C/Users/SMC/Documents/ast-global/Logs/Project Manager_20221226.log",
+		"/C/Users/SMC/Desktop/IMAGE/httpd-mpm.conf",
+		"/C/Users/SMC/Desktop/IMAGE/rubyinstaller-3.2.0-1-x64/rubyinstaller-3.2.0-1-x64/LICENSE.txt",
+		"/C/Users/SMC/Desktop/IMAGE/자격 요건.txt",
+		"/C/Users/SMC/AppData/Roaming/Sublime Text/Packages/User/Snippets/choose.sublime-snippet",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-static-content-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/org.dita.pdf2/cfg/fo/attrs/basic-settings.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-front-matter-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-flagging-preprocess.xsl",
+		"/C/Protean-UI/functions/idml2dita/lib/c_style.json",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-static-content.xsl",
+		"/C/Protean-UI/functions/idml2dita/lib/p_style.json",
+		"/C/Protean-UI/functions/idml2dita/lib/p_style.json.xml",
+		"/C/Protean-UI/functions/idml2dita/lib/HeadingTable.xml",
+		"/C/Protean-UI/functions/idml2dita/lib/c_style.json.xml",
+		"/H/DITA/Mobile/Bat/mobile-source/xsls/master.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/xsl/ast-toc.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/fo/attrs/ast-toc-attr.xsl",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/common/vars/font/en-GB.xml",
+		"/H/DITA/Mobile/Bat/idmlTdita/BASIC/appendix.ditamap",
+		"/C/Users/SMC/Desktop/IMAGE/Pass_55551-TXD84_NewFileV10/Readme.txt",
+		"/C/Users/SMC/Desktop/IMAGE/오피스2016-x64/X64/프로젝트설치.cmd",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/004_usage_notices/device_overheating_situations_and_solutions/when_the_device_heats_up_during_use.dita",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/004_usage_notices/precautions_for_using_the_device/instructional_icons.dita",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/usage_notices.ditamap",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/002_apps_and_features/radio_sm-a146b/radio_sm-a146b.dita",
+		"/H/DITA/Mobile/Bat/idmlTdita/BASIC/005_appendix/appendix.dita",
+		"/H/DITA/Mobile/Bat/idmlTdita/BASIC/005_appendix/troubleshooting/the_home_button_does_not_appear.dita",
+		"/C/DITA-OT-Mobile/plugins/com.ast.protean.ma.um_en_2020pdf/cfg/common/vars/en-GB.xml",
+		"/D/WORK/MA/Mobile/DITA/언어코드,서체,폰트/221123-폰트 관련/Rev.1.0_221220/IDML/변환결과_완료.txt",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/appendix.ditamap",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/005_appendix/trademarks/trademarks.dita",
+		"/H/DITA/Mobile/Bat/idmlTdita/temp/01-clearAttr.xml",
+		"/H/DITA/Mobile/Bat/idmlTdita/temp/22-AbstractinBody.xml",
+		"/H/DITA/Mobile/Bat/idmlTdita/temp/34-indent.xml",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/apps_and_features.ditamap",
+		"/H/DITA/Mobile/Bat/idmlTdita/BASIC/002_apps_and_features/multi_window_using_multiple_apps_at_once/multi_window_using_multiple_apps_at_once.dita",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/002_apps_and_features/multi_window_using_multiple_apps_at_once/multi_window_using_multiple_apps_at_once.dita",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/001_getting_started/memory_card_microsd_card/memory_card_microsd_card.dita",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/001_getting_started/memory_card_microsd_card/removing_the_memory_card.dita",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/001_getting_started/memory_card_microsd_card/installing_a_memory_card.dita",
+		"/H/DITA/Mobile/Bat/idmlTdita/temp/21-getPagebreak.xml",
+		"/H/DITA/Mobile/Bat/idmlTdita/resource/xml/newMerged.xml",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/getting_started.ditamap",
+		"/H/DITA/Mobile/Bat/idmlTdita/BASIC/apps_and_features.ditamap",
+		"/H/DITA/Mobile/Bat/mobile-source/BASIC/001_getting_started/getting_started.dita",
+		"/H/DITA/Mobile/Bat/mobile-source/z01-dita-merge.bat",
+		"/H/DITA/Mobile/Bat/idmlTdita/temp/00-skeleton.xml",
+		"/H/DITA/Mobile/Bat/idmlTdita/temp/05-stirpPagebreak.xml",
+		"/H/DITA/Mobile/Bat/idmlTdita/temp/06-setCoverAttr.xml",
+		"/H/DITA/Mobile/Bat/idmlTdita/temp/30-stripSpanTag.xml",
+		"/H/DITA/Mobile/Bat/idmlTdita/temp/dMap.xml",
+		"/D/WORK/MA/Mobile/DITA/언어코드,서체,폰트/221123-폰트 관련/Rev.1.0_221220/새 폴더/xml/newMerged.xml",
+		"/H/Batch/Mobile/OneClickAssist/resource/004_applications_19.html",
+		"/H/Batch/Mobile/OneClickAssist/zzz.bat",
+		"/D/WORK/MA/Mobile/DITA/221201-U-OS_삼성원폰트/D02/IDML/BASIC/001_getting_started/charging_the_battery/battery_charging_tips_and_precautions.dita",
+		"/D/WORK/MA/Mobile/DITA/221201-U-OS_삼성원폰트/D02/IDML/BASIC/getting_started.ditamap",
+		"/D/WORK/MA/Mobile/DITA/221201-U-OS_삼성원폰트/D02/IDML/BASIC/settings.ditamap",
+		"/D/WORK/MA/Mobile/DITA/221201-U-OS_삼성원폰트/D02/IDML/PROJECT.ditamap",
+		"/D/WORK/MA/Mobile/DITA/221201-U-OS_삼성원폰트/D02/IDML/변환결과_완료.txt",
+		"/H/DITA/Mobile/Bat/mobile-source/MigrateTMX/resourceList.xml",
+		"/H/DITA/Mobile/Bat/mobile-source/MigrateTMX/xsls/00-commonVar.xsl",
+		"/H/DITA/Mobile/Bat/mobile-source/z11-migrate-tmxTdita.bat",
+		"/D/TCS/XSLT-with-Java/XSLTProcessor-master/README.md",
+		"/C/Protean-UI/idmlModule/xsls/00-commonVar.xsl",
+		"/H/DITA/Mobile/Bat/mobile-source/idmlModule/xsls/03-setImgWidthHeight.xsl",
+		"/C/Protean-UI/idmlModule/aa.xml",
+		"/H/DITA/Mobile/Bat/mobile-source/z02-dita-prepare.bat",
+		"/H/DITA/Mobile/Bat/mobile-source/z08-html5-package.bat",
+		"/H/Batch/Mobile/OneClickAssist/resource/out/start_here.html",
+		"/H/Batch/Mobile/OneClickAssist/resource/out/003_getting-started_3.html",
+		"/H/Batch/Mobile/OneClickAssist/resource/out/search/search.html"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 163.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"2.5",
+			"1.2",
+			"0m",
+			"3m",
+			"steps.step\"",
+			"steps.step\"\n",
+			"2.5",
+			"ul.li__label__content",
+			"name=\"ul.li\">",
+			"\"info\"",
+			"1.2",
+			"-onestep",
+			"$ancesStepCnt02 = 'oneste",
+			"parSection.preStep",
+			"4.7",
+			"1.1",
+			"1.7",
+			"0.8mm",
+			"table_button",
+			"ul.li__label__content",
+			"dept",
+			"name=\"ul.li\">",
+			"1m",
+			"0.3",
+			"steps.step\"",
+			"1.3",
+			"4m",
+			"steps.step\"",
+			"name=\"ul.li\">",
+			"ast.step.number",
+			"ast.step.number\"",
+			"name=\"ul.li\">",
+			"ul.li__label__content",
+			"name=\"ul.li\">",
+			"table_button",
+			"name=\"ul.li\">",
+			"\"ul\"",
+			"ul.li__label__content",
+			"list-item ",
+			"name=\"ul.li\">",
+			"ul.li__label__content",
+			"ast.step.number\"",
+			"10.4",
+			"ast.step.number\"",
+			"steps.step\"",
+			"st.step.number",
+			"steps.step\"",
+			"-0.35mm",
+			"steps.step",
+			"note__image__entry",
+			"table-cel",
+			"name=\"ul.li\">",
+			"ul.li",
+			"label",
+			"ul.li",
+			"o:list-item-body ",
+			"list-item ",
+			"list-item",
+			"topic/image"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 80,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"VZWC_is_dirty": true,
+							"VZWC_last_update_timestamp": 0,
+							"default_dir": "C:\\DITA-OT-Mobile\\plugins\\com.ast.protean.ma.um2020pdf\\cfg\\fo\\attrs",
+							"is_init_dirty_state": true,
+							"syntax": "Packages/XSL/XSL.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 57.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.839193381593,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 106.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 96.0
+	},
+	"output.find_results":
+	{
+		"height": 156.0
+	},
+	"pinned_build_system": "",
+	"project": "ma.um2020pdf.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

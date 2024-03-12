@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:MasterSpread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.0">
+	<MasterSpread Self="uef" ItemTransform="1 0 0 1 0 0" OverriddenPageItemProps="" Name="A-FrontCover" NamePrefix="A" BaseName="FrontCover" ShowMasterItems="true" PageCount="1" PrimaryTextFrame="n">
+		<Properties>
+			<PageColor type="enumeration">UseMasterColor</PageColor>
+		</Properties>
+		<Page Self="uf4" AppliedAlternateLayout="n" LayoutRule="Off" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" GeometricBounds="18.42519685039366 12.755905511811022 372.755905511811 174.3307086614173" ItemTransform="1 0 0 1 -93.54330708661418 -195.59055118110237" Name="A" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" OverrideList="" AppliedMaster="n" MasterPageTransform="1 0 0 1 0 0" TabOrder="" GridStartingPoint="TopOutside" UseMasterGrid="true">
+			<Properties>
+				<PageColor type="enumeration">UseMasterColor</PageColor>
+			</Properties>
+			<MarginPreference ColumnCount="1" ColumnGutter="14.173228346456694" Top="14.173228346456694" Bottom="14.173228346456694" Left="14.173228346456694" Right="14.173228346456694" ColumnDirection="Horizontal" ColumnsPositions="0 133.22834645669295" />
+			<GridDataInformation FontStyle="M" PointSize="12" CharacterAki="0" LineAki="9" HorizontalScale="100" VerticalScale="100" LineAlignment="LeftOrTopLineJustify" GridAlignment="AlignEmCenter" CharacterAlignment="AlignEmCenter">
+				<Properties>
+					<AppliedFont type="string">Adobe 명조 Std</AppliedFont>
+				</Properties>
+			</GridDataInformation>
+		</Page>
+		<Rectangle Self="u1ae" ContentType="GraphicType" StoryTitle="$ID/" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" AllowOverrides="true" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="uee" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 10.228829090989493 -168.09452619177154">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="-76.84300231933595 5.102400207519537" LeftDirection="-76.84300231933595 5.102400207519537" RightDirection="-76.84300231933595 5.102400207519537" />
+							<PathPointType Anchor="-76.84300231933595 13.915681457519538" LeftDirection="-76.84300231933595 13.915681457519538" RightDirection="-76.84300231933595 13.915681457519538" />
+							<PathPointType Anchor="-19.2998016357422 13.915681457519538" LeftDirection="-19.2998016357422 13.915681457519538" RightDirection="-19.2998016357422 13.915681457519538" />
+							<PathPointType Anchor="-19.2998016357422 5.102400207519537" LeftDirection="-19.2998016357422 5.102400207519537" RightDirection="-19.2998016357422 5.102400207519537" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+				<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+			</TextWrapPreference>
+			<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+			<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+			<PDF Self="u35a" GrayVectorPolicy="IgnoreAll" RGBVectorPolicy="HonorAllProfiles" CMYKVectorPolicy="IgnoreAll" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$ID/Adobe Portable Document Format (PDF)" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.4 0 0 0.4 -76.84300231933595 5.102400207519537" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" Visible="true" Name="$ID/">
+				<Properties>
+					<GraphicBounds Left="0" Top="0" Right="143.85800170898438" Bottom="22.033203125" />
+				</Properties>
+				<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+					<Properties>
+						<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+					</Properties>
+					<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+				</TextWrapPreference>
+				<PDFAttribute PageNumber="1" PDFCrop="CropArt" TransparentBackground="true" />
+				<MetadataPacketPreference>
+					<Properties>
+						<Contents><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 6.0-c002 79.164488, 2020/07/10-22:06:53        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/"
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">M-samsung_logo_K60</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <xmp:CreatorTool>Adobe Illustrator CS5.1</xmp:CreatorTool>
+         <xmp:CreateDate>2015-01-25T13:35:48+10:00</xmp:CreateDate>
+         <xmp:ModifyDate>2018-11-30T14:01:38+09:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2018-11-30T14:01:38+09:00</xmp:MetadataDate>
+         <xmp:Thumbnails>
+            <rdf:Alt>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpGImg:width>256</xmpGImg:width>
+                  <xmpGImg:height>40</xmpGImg:height>
+                  <xmpGImg:format>JPEG</xmpGImg:format>
+                  <xmpGImg:image>/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA&#xA;AQBIAAAAAQAB/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoK&#xA;DBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8f&#xA;Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAKAEAAwER&#xA;AAIRAQMRAf/EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA&#xA;AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB&#xA;UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE&#xA;1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ&#xA;qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy&#xA;obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp&#xA;0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo&#xA;+DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8AJPzv/PrzTrHmS/0TQL+X&#xA;TNAsJXtg1q5jluWjYq8jyoQ3AsDxUGnHrvkSWyMXnWl/l5+YHmHSbjzBp+j3eoafGWM16o5lin2+&#xA;NTzkp34g4KTYCv5J/NXzv5OvoLjSdTmNrER6mmzO0lrIg6o0RPEbbcloR2OIKmNvu3yp5htvMflr&#xA;TNdtlMcOpW0dysTGpQuoJQkd1NRk2pIfzl8wT+X/AMsPMWp28721ylqYbeeIlZEluWWBGRl+JWDS&#xA;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</xmpGImg:image>
+               </rdf:li>
+            </rdf:Alt>
+         </xmp:Thumbnails>
+         <xmpMM:DocumentID>xmp.did:06E580A14BA4E411BC6DB935010FEA52</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:6b4118ff-c451-44f8-a423-a6419ec7f6ff</xmpMM:InstanceID>
+         <xmpMM:OriginalDocumentID>uuid:4BC0F79E67BEE111B0A1B1EC9FF096D3</xmpMM:OriginalDocumentID>
+         <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>uuid:2071de5f-1d6e-4789-9f28-937dbe23c153</stRef:instanceID>
+            <stRef:documentID>xmp.did:4713E7A07F92E411A0B6F4A4844BACBD</stRef:documentID>
+            <stRef:originalDocumentID>uuid:4BC0F79E67BEE111B0A1B1EC9FF096D3</stRef:originalDocumentID>
+            <stRef:renditionClass>proof:pdf</stRef:renditionClass>
+         </xmpMM:DerivedFrom>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:BE0980C13FE7E111B098DFC1712D8A5E</stEvt:instanceID>
+                  <stEvt:when>2012-08-16T10:15:32+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4713E7A07F92E411A0B6F4A4844BACBD</stEvt:instanceID>
+                  <stEvt:when>2015-01-02T22:02:38+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:06E580A14BA4E411BC6DB935010FEA52</stEvt:instanceID>
+                  <stEvt:when>2015-01-25T13:35:46+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <illustrator:Type>Document</illustrator:Type>
+         <xmpTPg:NPages>1</xmpTPg:NPages>
+         <xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
+         <xmpTPg:HasVisibleOverprint>False</xmpTPg:HasVisibleOverprint>
+         <xmpTPg:MaxPageSize rdf:parseType="Resource">
+            <stDim:w>143.858398</stDim:w>
+            <stDim:h>22.033203</stDim:h>
+            <stDim:unit>Points</stDim:unit>
+         </xmpTPg:MaxPageSize>
+         <xmpTPg:PlateNames>
+            <rdf:Seq>
+               <rdf:li>Black</rdf:li>
+            </rdf:Seq>
+         </xmpTPg:PlateNames>
+         <xmpTPg:SwatchGroups>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>기본 견본 그룹</xmpG:groupName>
+                  <xmpG:groupType>0</xmpG:groupType>
+                  <xmpG:Colorants>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>K=0</xmpG:swatchName>
+                           <xmpG:mode>GRAY</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:gray>0</xmpG:gray>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>PANTONE 286 C</xmpG:swatchName>
+                           <xmpG:type>SPOT</xmpG:type>
+                           <xmpG:tint>100.000000</xmpG:tint>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:cyan>100.000000</xmpG:cyan>
+                           <xmpG:magenta>65.999997</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>2.000000</xmpG:black>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </xmpG:Colorants>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:SwatchGroups>
+         <pdf:Producer>Adobe PDF library 9.90</pdf:Producer>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>]]></Contents>
+					</Properties>
+				</MetadataPacketPreference>
+				<Link Self="u1b3" AssetURL="$ID/" AssetID="$ID/" RenditionData="Actual" LinkResourceURI="file:D:/WORK/MA/Mobile/QRCheck/230518/TSS%204th%20EUB/D01/X01/3-Source/SM-X916B_QSG_Open_TSS_4th_EUB_D01_230511_INDD/Links/M-samsung_logo_K100.ai" LinkResourceFormat="$ID/Adobe Portable Document Format (PDF)" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 131880277000000000 898722" LinkImportModificationTime="2018-11-30T14:01:40" LinkImportTime="2023-05-11T13:43:35" LinkResourceSize="0~db6a2" />
+				<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$ID/" Index="-1" />
+				<GraphicLayerOption UpdateLinkOption="KeepOverrides">
+					<GraphicLayer Self="u35aGraphicLayerOption1i66" Name="$ID/Layer 1" OriginalVisibility="true" CurrentVisibility="true" SeparatorLayer="false" AdjustmentLayer="false" FXLayer="false" Locked="false" HasViewState="false" ViewState="false" HasExportState="false" ExportState="false" HasPrintState="false" PrintState="false" Id="102" />
+				</GraphicLayerOption>
+			</PDF>
+		</Rectangle>
+	</MasterSpread>
+</idPkg:MasterSpread>

@@ -1,0 +1,56 @@
+<root>
+    <path
+        in="preview.html"
+        out="html-temp\01-heading-grouping.html"
+        xslt="html-convert\01-heading-grouping.xsl"/>
+
+    <path
+        in="html-temp\01-heading-grouping.html"
+        out="html-temp\02-insert-subArti-into-h1.html"
+        xslt="html-convert\02-insert-subArti-into-h1.xsl"/>
+
+    <path
+        in="html-temp\02-insert-subArti-into-h1.html"
+        out="html-temp\03-attr-clean.html"
+        xslt="html-convert\03-attr-clean.xsl"/>
+
+    <path
+        in="html-temp\03-attr-clean.html"
+        out="html-temp\04-id-modified.html"
+        xslt="html-convert\04-id-modify.xsl"/>
+
+    <path
+        in="html-temp\04-id-modified.html"
+        out="html-temp\dummy.xml"
+        xslt="html-convert\05-make-toc1.xsl"/>
+
+    <path
+        in="html-temp\04-id-modified.html"
+        out="html-temp\dummy.xml"
+        xslt="html-convert\06-package.xsl"/>
+
+    <path
+        in="html-temp\04-id-modified.html"
+        out="html-temp\dummy.xml"
+        xslt="html-convert\07-start-here.xsl"/>
+
+    <path
+        in="html-temp\04-id-modified.html"
+        out="html-temp\dummy.xml"
+        xslt="html-convert\08-make-jsons.xsl"/>
+
+    <path
+        in="html-temp\04-id-modified.html"
+        out="html-temp\dummy.xml"
+        xslt="html-convert\09-make-search.xsl"/>
+
+    <path
+        in="html-temp\04-id-modified.html"
+        out="html-temp\dummy.xml"
+        xslt="html-convert\10-make-bookmark.xsl"/>
+
+    <path
+        in="html-temp\04-id-modified.html"
+        out="html-temp\dummy.xml"
+        xslt="html-convert\11-make-app.xsl"/>
+</root>

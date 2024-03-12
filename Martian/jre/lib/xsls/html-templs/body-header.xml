@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<div class="body">
+	    <head>
+			<title>&#xFEFF;</title>
+			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+			<link rel="stylesheet" href="./contents/fonts/samsungOneKorea/fonts.css" />
+			<link rel="stylesheet" href="./contents/lib/fontAwesome/css/font-awesome.min.css" />
+			<link rel="stylesheet" href="./contents/css/common.css" />
+			<link rel="stylesheet" href="./contents/css/contents.css" />
+			<script src="./js/jquery.js">&#xFEFF;</script>
+			<script src="./contents/lib/jQuery/jquery-1.12.4.min.js">&#xFEFF;</script>
+			<script src="./contents/lib/touchSwipe/jquery.touchSwipe.min.js">&#xFEFF;</script>
+			<script src="./contents/lib/cookie/jquery.cookie.js">&#xFEFF;</script>
+			<script src="./js/ui_text.js">&#xFEFF;</script>
+		</head>
+	</div>
+
+	<div class="start">
+	    <head>
+			<title>&#xFEFF;</title>
+			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+			<link rel="stylesheet" href="./contents/fonts/samsungOneKorea/fonts.css" />
+		    <link rel="stylesheet" href="./contents/lib/fontAwesome/css/font-awesome.min.css" />
+    		<link rel="stylesheet" href="./contents/css/common.css" />
+			<link rel="stylesheet" href="./contents/css/start.css" />
+			<script src="./js/jquery.js">&#xFEFF;</script>
+			<script src="./contents/lib/jQuery/jquery-1.12.4.min.js">&#xFEFF;</script>
+			<script src="./contents/lib/touchSwipe/jquery.touchSwipe.min.js">&#xFEFF;</script>
+			<script src="./contents/lib/cookie/jquery.cookie.js">&#xFEFF;</script>
+			<script src="./js/ui_text.js">&#xFEFF;</script>
+		</head>
+	</div>
+
+	<div class="search">
+	    <head>
+			<title>&#xFEFF;</title>
+			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+			<link rel="stylesheet" href="../contents/fonts/samsungOneKorea/fonts.css" />
+			<link rel="stylesheet" href="../contents/lib/fontAwesome/css/font-awesome.min.css" />
+			<link rel="stylesheet" href="../contents/css/common.css" />
+			<link rel="stylesheet" href="../contents/css/contents.css" />
+			<script src="../js/jquery.js">&#xFEFF;</script>
+			<script src="../contents/lib/jQuery/jquery-1.12.4.min.js">&#xFEFF;</script>
+			<script src="../contents/lib/touchSwipe/jquery.touchSwipe.min.js">&#xFEFF;</script>
+			<script src="../contents/lib/cookie/jquery.cookie.js">&#xFEFF;</script>
+			<script src="./jsons/search_db.js">&#xFEFF;</script>
+			<script src="../js/ui_text.js">&#xFEFF;</script>
+		</head>
+	</div>
+</root>

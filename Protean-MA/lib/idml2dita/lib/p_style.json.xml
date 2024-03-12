@@ -1,0 +1,974 @@
+2021-05-06 -- S21_Eng
+========================================================================================================================
+Paragraph styles: 60
+Used in S21_Eng: 48
+Defined but unused in S21_Eng: 8
+Undefined in S21_Eng: 4
+------------------------------------------------------------------------------------------------------------------------
+01	$ID/NormalParagraphStyle
+02	Chapter
+03	Chapter-NoTOC
+04	Description
+05	Description-Cell
+06	Description-Center-Cell
+07	Description-Cover
+08	Description-Chapter					Undefined in S21_Eng
+09	Description-Img						Defined but unused in S21_Eng
+10	Description-NoHTML
+11	Description-Heading3				Undefined in S21_Eng
+12	Description-Semi
+13	Description-UpSp
+14	Empty
+15	Empty-Indent
+16	Heading1
+17	Heading1-Chapter					Undefined in S21_Eng
+18	Heading1-APPLINK
+19	Heading1-APPLINK-Nosub
+20	Heading1-APPLINK-Nosub-Intro
+21	Heading1-H2							Defined but unused in S21_Eng
+22	Heading1-H3
+23	Heading1-H4							Defined but unused in S21_Eng
+24	Heading1-Intro
+25	Heading1-Intro-Self
+26	Heading1-TroubleShooting			Defined but unused in S21_Eng
+27	Heading2
+28	Heading2-APPLINK
+29	Heading2-APPLINK-TOC
+30	Heading3
+31	Heading3-APPLINK
+32	Heading3-Key_Features
+33	Heading3-TroubleShooting
+34	Heading4
+35	Heading4-TroubleShooting
+36	Img-Center
+37	Img-Left
+38	Img-Right							Defined but unused in S21_Eng
+39	ModelName-Cover
+40	ModelName-Cover-Left
+41	Navigation
+42	OrderList1_1
+43	OrderList1_1-Child
+44	OrderList2_1
+45	OrderList2_1-10over					Defined but unused in S21_Eng
+46	OrderList2_1-Child
+47	PageNumber
+48	TOC1
+49	TOC2
+50	TOC3
+51	UnorderList_1
+52	UnorderList_1_2
+53	UnorderList_1-Cell
+54	UnorderList_1-Cell-Child			Defined but unused in S21_Eng
+55	UnorderList_1-Child
+56	UnorderList_2
+57	UnorderList_2-Cell
+58	UnorderList_2-Child					Defined but unused in S21_Eng
+59	UserManual-Cover
+60	End									Undefined in S21_Eng
+
+
+========================================================================================================================
+Paragraph styles: 60                      상세 정보
+Used in S21_Eng: 48
+Defined but unused in S21_Eng: 9
+Undefined in S21_Eng: 3
+========================================================================================================================
+01	$ID/NormalParagraphStyle	dita 코드 없음
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 7회
+
+	pdf에서 확인 불가
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Resources\Styles.xml:221
+		<ParagraphStyle Self="ParagraphStyle/$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle" Imported="false" NextStyle="ParagraphStyle/$ID/NormalParagraphStyle" SplitDocument="false" EmitCss="true" StyleUniqueId="0d0be3c1-49cc-4c81-9599-17be7d15fcd4" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="false" KeyboardShortcut="0 0" 
+						FontStyle="Regular" PointSize="14" HorizontalScale="95" Ligatures="false" Tracking="-10" Composer="HL Composer" 
+						AppliedLanguage="$ID/English: UK" Hyphenation="false" Justification="LeftAlign">
+			<Properties>
+				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="unit">18</Leading>
+				<AppliedFont type="string">Myriad Pro</AppliedFont>
+				<AllGREPStyles type="list">
+					<ListItem type="record">
+						<AppliedCharacterStyle type="object">CharacterStyle/C_NoBreak</AppliedCharacterStyle>
+						<GrepExpression type="string">~a(\۔|\、|\。|\။|\၊|\.|\,|\s\:|\s\;|\:|\;|\។)|\(~a\)|\w+(?:\-\w+)</GrepExpression>
+					</ListItem>
+				</AllGREPStyles>
+			</Properties>
+		</ParagraphStyle>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Resources\Styles.xml:176
+		<ParagraphStyle Self="ParagraphStyle/$ID/[No paragraph style]" Name="$ID/[No paragraph style]" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="$ID/" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" 
+						FillColor="Color/Black" FontStyle="M" PointSize="12" HorizontalScale="100" KerningMethod="$ID/Metrics - Roman Only" Ligatures="true" 
+						PageNumberType="AutoPageNumber" StrokeWeight="0.7086614173228347" Tracking="0" Composer="HL Composer J" DropCapCharacters="0" DropCapLines="0" 
+						BaselineShift="0" Capitalization="Normal" StrokeColor="Swatch/None" HyphenateLadderLimit="3" VerticalScale="100" 
+						LeftIndent="0" RightIndent="0" FirstLineIndent="0" AutoLeading="120" 
+						AppliedLanguage="$ID/Korean" Hyphenation="true" HyphenateAfterFirst="2" HyphenateBeforeLast="2" HyphenateCapitalizedWords="true" HyphenateWordsLongerThan="5" NoBreak="false" HyphenationZone="28.34645669291339" 
+						SpaceBefore="0" SpaceAfter="0" Underline="false" OTFFigureStyle="Default" DesiredWordSpacing="100" MaximumWordSpacing="133" MinimumWordSpacing="80" DesiredLetterSpacing="0" MaximumLetterSpacing="0" MinimumLetterSpacing="0" DesiredGlyphScaling="100" MaximumGlyphScaling="100" MinimumGlyphScaling="100" StartParagraph="Anywhere" 
+						KeepAllLinesTogether="false" KeepWithNext="0" KeepFirstLines="2" KeepLastLines="2" Position="Normal" StrikeThru="false" CharacterAlignment="AlignEmCenter" KeepLinesTogether="false" StrokeTint="-1" FillTint="-1" OverprintStroke="false" OverprintFill="false" 
+						GradientStrokeAngle="0" GradientFillAngle="0" GradientStrokeLength="-1" GradientFillLength="-1" GradientStrokeStart="0 0" GradientFillStart="0 0" 
+						Skew="0" RuleAboveLineWeight="0.7086614173228347" RuleAboveTint="-1" RuleAboveOffset="0" RuleAboveLeftIndent="0" RuleAboveRightIndent="0" RuleAboveWidth="ColumnWidth" RuleBelowLineWeight="0.7086614173228347" RuleBelowTint="-1" RuleBelowOffset="0" RuleBelowLeftIndent="0" RuleBelowRightIndent="0" RuleBelowWidth="ColumnWidth" RuleAboveOverprint="false" RuleBelowOverprint="false" RuleAbove="false" RuleBelow="false" 
+						LastLineIndent="0" HyphenateLastWord="true" ParagraphBreakType="Anywhere" SingleWordJustification="FullyJustified" OTFOrdinal="false" OTFFraction="false" OTFDiscretionaryLigature="false" OTFTitling="false" RuleAboveGapTint="-1" RuleAboveGapOverprint="false" RuleBelowGapTint="-1" RuleBelowGapOverprint="false" 
+						Justification="LeftJustified" DropcapDetail="0" PositionalForm="None" OTFMark="true" HyphenWeight="5" OTFLocale="true" HyphenateAcrossColumns="true" KeepRuleAboveInFrame="false" IgnoreEdgeAlignment="false" OTFSlashedZero="false" OTFStylisticSets="0" OTFHistorical="false" OTFContextualAlternate="true" 
+						UnderlineGapOverprint="false" UnderlineGapTint="-1" UnderlineOffset="-9999" UnderlineOverprint="false" UnderlineTint="-1" UnderlineWeight="-9999" StrikeThroughGapOverprint="false" StrikeThroughGapTint="-1" StrikeThroughOffset="-9999" StrikeThroughOverprint="false" StrikeThroughTint="-1" StrikeThroughWeight="-9999" MiterLimit="4" StrokeAlignment="OutsideAlignment" EndJoin="MiterEndJoin" SpanColumnType="SingleColumn" SplitColumnInsideGutter="6" SplitColumnOutsideGutter="0" 
+						KeepWithPrevious="false" SpanColumnMinSpaceBefore="0" SpanColumnMinSpaceAfter="0" OTFSwash="false" 
+						ParagraphShadingTint="20" ParagraphShadingOverprint="false" ParagraphShadingWidth="ColumnWidth" ParagraphShadingOn="false" ParagraphShadingClipToFrame="false" ParagraphShadingSuppressPrinting="false" ParagraphShadingLeftOffset="0" ParagraphShadingRightOffset="0" ParagraphShadingTopOffset="0" ParagraphShadingBottomOffset="0" ParagraphShadingTopOrigin="EmBoxTopOrigin" ParagraphShadingBottomOrigin="EmBoxBottomOrigin" 
+						ParagraphBorderTint="-1" ParagraphBorderOverprint="false" ParagraphBorderOn="false" ParagraphBorderGapTint="-1" ParagraphBorderGapOverprint="false" Tsume="0" LeadingAki="-1" TrailingAki="-1" KinsokuType="KinsokuPushInFirst" KinsokuHangType="None" BunriKinshi="true" 
+						RubyOpenTypePro="true" RubyFontSize="-1" RubyAlignment="RubyJIS" RubyType="PerCharacterRuby" RubyParentSpacing="RubyParent121Aki" RubyXScale="100" RubyYScale="100" RubyXOffset="0" RubyYOffset="0" RubyPosition="AboveRight" RubyAutoAlign="true" RubyParentOverhangAmount="RubyOverhangOneRuby" RubyOverhang="false" RubyAutoScaling="false" RubyParentScalingPercent="66" RubyTint="-1" RubyOverprintFill="Auto" RubyStrokeTint="-1" RubyOverprintStroke="Auto" RubyWeight="-1" 
+						KentenKind="None" KentenFontSize="-1" KentenXScale="100" KentenYScale="100" KentenPlacement="0" KentenAlignment="AlignKentenCenter" KentenPosition="AboveRight" KentenCustomCharacter="" KentenCharacterSet="CharacterInput" KentenTint="-1" KentenOverprintFill="Auto" KentenStrokeTint="-1" KentenOverprintStroke="Auto" KentenWeight="-1" 
+						Tatechuyoko="false" TatechuyokoXOffset="0" TatechuyokoYOffset="0" AutoTcy="0" AutoTcyIncludeRoman="false" Jidori="0" GridGyoudori="0" GridAlignFirstLineOnly="false" GridAlignment="None" CharacterRotation="0" RotateSingleByteCharacters="false" Rensuuji="true" ShataiMagnification="0" ShataiDegreeAngle="4500" ShataiAdjustTsume="true" ShataiAdjustRotation="false" 
+						Warichu="false" WarichuLines="2" WarichuSize="50" WarichuLineSpacing="0" WarichuAlignment="Auto" WarichuCharsBeforeBreak="2" WarichuCharsAfterBreak="2" OTFHVKana="false" OTFProportionalMetrics="false" OTFRomanItalics="false" LeadingModel="LeadingModelAkiBelow" ScaleAffectsLineHeight="false" ParagraphGyoudori="false" CjkGridTracking="false" GlyphForm="None" RubyAutoTcyDigits="0" RubyAutoTcyIncludeRoman="false" RubyAutoTcyAutoScale="true" TreatIdeographicSpaceAsSpace="false" AllowArbitraryHyphenation="false" 
+						BulletsAndNumberingListType="NoList" NumberingStartAt="1" NumberingLevel="1" NumberingContinue="true" NumberingApplyRestartPolicy="true" BulletsAlignment="LeftAlign" NumberingAlignment="LeftAlign" NumberingExpression="^#.^t" BulletsTextAfter="^t" 
+						ParagraphBorderLeftOffset="0" ParagraphBorderRightOffset="0" ParagraphBorderTopOffset="0" ParagraphBorderBottomOffset="0" ParagraphBorderStrokeEndJoin="MiterEndJoin" ParagraphBorderTopLeftCornerOption="None" ParagraphBorderTopRightCornerOption="None" ParagraphBorderBottomLeftCornerOption="None" ParagraphBorderBottomRightCornerOption="None" ParagraphBorderTopLeftCornerRadius="1" ParagraphBorderTopRightCornerRadius="1" ParagraphBorderBottomLeftCornerRadius="1" ParagraphBorderBottomRightCornerRadius="1" 
+						ParagraphShadingTopLeftCornerOption="None" ParagraphShadingTopRightCornerOption="None" ParagraphShadingBottomLeftCornerOption="None" ParagraphShadingBottomRightCornerOption="None" ParagraphShadingTopLeftCornerRadius="1" ParagraphShadingTopRightCornerRadius="1" ParagraphShadingBottomLeftCornerRadius="1" ParagraphShadingBottomRightCornerRadius="1" 
+						ParagraphBorderStrokeEndCap="ButtEndCap" ParagraphBorderWidth="ColumnWidth" ParagraphBorderTopOrigin="EmBoxTopOrigin" ParagraphBorderBottomOrigin="EmBoxBottomOrigin" ParagraphBorderTopLineWeight="1" ParagraphBorderBottomLineWeight="1" ParagraphBorderLeftLineWeight="1" ParagraphBorderRightLineWeight="1" ParagraphBorderDisplayIfSplits="false" MergeConsecutiveParaBorders="true" 
+						ProviderHyphenationStyle="HyphAll" DigitsType="DefaultDigits" Kashidas="DefaultKashidas" DiacriticPosition="OpentypePosition" 
+						CharacterDirection="DefaultDirection" ParagraphDirection="LeftToRightDirection" 
+						ParagraphJustification="DefaultJustification" ParagraphKashidaWidth="2" XOffsetDiacritic="0" YOffsetDiacritic="0" OTFOverlapSwash="false" OTFStylisticAlternate="false" OTFJustificationAlternate="false" OTFStretchedAlternate="false" KeyboardDirection="DefaultDirection">
+			<Properties>
+				<Leading type="enumeration">Auto</Leading>
+				<TabList type="list">
+				</TabList>
+				<AppliedFont type="string">Adobe 명조 Std</AppliedFont>
+				<RuleAboveColor type="string">Text Color</RuleAboveColor>
+				<RuleBelowColor type="string">Text Color</RuleBelowColor>
+				<RuleAboveType type="object">StrokeStyle/$ID/Solid</RuleAboveType>
+				<RuleBelowType type="object">StrokeStyle/$ID/Solid</RuleBelowType>
+				<BalanceRaggedLines type="enumeration">NoBalancing</BalanceRaggedLines>
+				<RuleAboveGapColor type="object">Swatch/None</RuleAboveGapColor>
+				<RuleBelowGapColor type="object">Swatch/None</RuleBelowGapColor>
+				<UnderlineColor type="string">Text Color</UnderlineColor>
+				<UnderlineGapColor type="object">Swatch/None</UnderlineGapColor>
+				<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
+				<StrikeThroughColor type="string">Text Color</StrikeThroughColor>
+				<StrikeThroughGapColor type="object">Swatch/None</StrikeThroughGapColor>
+				<StrikeThroughType type="object">StrokeStyle/$ID/Solid</StrikeThroughType>
+				<SpanSplitColumnCount type="enumeration">All</SpanSplitColumnCount>
+				<ParagraphShadingColor type="object">Color/Black</ParagraphShadingColor>
+				<ParagraphBorderColor type="object">Color/Black</ParagraphBorderColor>
+				<ParagraphBorderGapColor type="object">Swatch/None</ParagraphBorderGapColor>
+				<ParagraphBorderType type="object">StrokeStyle/$ID/Solid</ParagraphBorderType>
+				<Mojikumi type="enumeration">Nothing</Mojikumi>
+				<KinsokuSet type="enumeration">KoreanKinsoku</KinsokuSet>
+				<RubyFont type="string">$ID/</RubyFont>
+				<RubyFontStyle type="enumeration">Nothing</RubyFontStyle>
+				<RubyFill type="string">Text Color</RubyFill>
+				<RubyStroke type="string">Text Color</RubyStroke>
+				<KentenFont type="string">$ID/</KentenFont>
+				<KentenFontStyle type="enumeration">Nothing</KentenFontStyle>
+				<KentenFillColor type="string">Text Color</KentenFillColor>
+				<KentenStrokeColor type="string">Text Color</KentenStrokeColor>
+				<BulletChar BulletCharacterType="UnicodeOnly" BulletCharacterValue="8226" />
+				<NumberingFormat type="string">1, 2, 3, 4...</NumberingFormat>
+				<BulletsFont type="string">$ID/</BulletsFont>
+				<BulletsFontStyle type="enumeration">Nothing</BulletsFontStyle>
+				<AppliedNumberingList type="object">NumberingList/$ID/[Default]</AppliedNumberingList>
+				<NumberingRestartPolicies RestartPolicy="AnyPreviousLevel" LowerLevel="0" UpperLevel="0" />
+				<BulletsCharacterStyle type="object">CharacterStyle/$ID/[No character style]</BulletsCharacterStyle>
+				<NumberingCharacterStyle type="object">CharacterStyle/$ID/[No character style]</NumberingCharacterStyle>
+				<SameParaStyleSpacing type="enumeration">SetIgnore</SameParaStyleSpacing>
+			</Properties>
+		</ParagraphStyle>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\001_Cover\Stories\Story_u1036.xml:6
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+		</ParagraphStyleRange>
+	dita에서 생성되는 코드 없음
+========================================================================================================================
+02	Chapter		<topicref href="topic_file_path.dita" base="0"> 및 <title>
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 4회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:4
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:6
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Basics</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\basics.ditamap:4
+		<topicref href="001_basics/basics.dita" base="0">
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\basics.dita:4
+		<title>Basics</title>
+========================================================================================================================
+03	Chapter-NoTOC		엔진에서 자동 처리
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 1회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:2
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\002_TOC\Stories\Story_u36a.xml:6
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter-NoTOC">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Table of Contents</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	dita에서 생성되는 코드 없음: 퍼블리싱 엔진에서 자동으로 처리함
+========================================================================================================================
+04	Description		텍스트, <p>
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 414회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:4
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Resources\Styles.xml:256
+		<ParagraphStyle Self="ParagraphStyle/Description" Name="Description" Imported="false" NextStyle="ParagraphStyle/Description" SplitDocument="false" EmitCss="true" StyleUniqueId="1aa4cac5-b8ec-4765-bb21-bbf4af985aea" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="false" KeyboardShortcut="0 0" KerningMethod="$ID/Metrics" 
+						StrokeWeight="1" HyphenationZone="36" 
+						SpaceBefore="1.4173228346456694" SpaceAfter="2.834645669291339" RuleAboveLineWeight="1" RuleBelowLineWeight="1" DropcapDetail="1">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">11.338582677165356</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+		</ParagraphStyle>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:18
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Description">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Please read this manual before using the device to ensure safe and proper use.</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\read_me_first\read_me_first.dita:6
+		<p>Please read this manual before using the device to ensure safe and proper use.</p>
+========================================================================================================================
+05	Description-Cell	텍스트, <p>
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 146회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:7
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Resources\Styles.xml:270
+		<ParagraphStyle Self="ParagraphStyle/Description-Cell" Name="Description-Cell" Imported="false" NextStyle="ParagraphStyle/Description-Cell" SplitDocument="false" EmitCss="true" StyleUniqueId="$ID/" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="false" KeyboardShortcut="0 0">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Description</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:2032
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Description-Cell">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>The wireless charging or fast charging feature is only available on supported models.</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\device_overheating_situations_and_solutions\when_the_device_heats_up_while_charging_the_battery.dita:18
+		The wireless charging or fast charging feature is only available on supported models.
+
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:7
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:2352
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Description-Cell">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Take clear close-up pictures of your subject. You can also view each camera’s scenes through the thumbnail and change the scene while recording a video in director’s view mode. Refer to </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_CrossReference">
+				<CrossReferenceSource Self="u2f7bf" AppliedFormat="ua83" Name="하이퍼링크 17" Hidden="false" AppliedCharacterStyle="n">
+					<Content>Camera</Content>
+				</CrossReferenceSource>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content> for more information.</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\key_features\key_features.dita:16
+		<p>Take clear close-up pictures of your subject. You can also view each camera’s scenes through the thumbnail and change the scene while recording a video in director’s view mode. Refer to <xref href="../../002_apps_and_features/camera/camera.dita"/> for more information.</p>
+========================================================================================================================
+06	Description-Center-Cell		<entry align="center"><p>TEXT</p></entry>
+#TODO: <entry align="center">가 필요한지 확인할 것
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 1회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:7
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Resources\Styles.xml:276
+		<ParagraphStyle Self="ParagraphStyle/Description-Center-Cell" Name="Description-Center-Cell" Imported="false" NextStyle="ParagraphStyle/Description-Center-Cell" SplitDocument="false" EmitCss="true" StyleUniqueId="$ID/" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="false" KeyboardShortcut="0 0" 
+						Justification="CenterAlign">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Description</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:34727
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Description-Center-Cell">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_Important-Semi">
+				<Content>Icon</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\understanding_the_screen\indicator_icons.dita:10
+		<table outputclass="Table_Icon">
+			<tgroup cols="2">
+				<colspec colname="col1" colwidth="16.85393258425578*"/>
+				<colspec colname="col2" colwidth="83.146067415744213*"/>
+				<thead>
+					<row>
+						<entry align="center">
+							<p><b outputclass="semi">Icon</b></p>
+						</entry>
+						<entry>
+							<p><b outputclass="semi">Meaning</b></p>
+						</entry>
+					</row>
+				</thead>
+========================================================================================================================
+07	Description-Cover		엔진에서 자동 처리
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 8회
+	(idml에서 발견 회수는 8회이지만 실제 텍스트가 있는 경우는 앞표지에서의 www.samsung.com 링크뿐이다.)
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:1
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Resources\Styles.xml:282
+		<ParagraphStyle Self="ParagraphStyle/Description-Cover" Name="Description-Cover" Imported="false" NextStyle="ParagraphStyle/Description-Cover" SplitDocument="false" EmitCss="true" StyleUniqueId="$ID/" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="false" KeyboardShortcut="0 0" Justification="RightAlign">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Description</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\001_Cover\Stories\Story_u36b.xml:6
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Description-Cover">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ce" Name="하이퍼링크 1" Hidden="false" AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<Content>www.samsung.com</Content>
+				</HyperlinkTextSource>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	dita에서 생성되는 코드 없음: 퍼블리싱 엔진에서 자동으로 처리함
+========================================================================================================================
+08	Description-Chapter					Undefined in S21_Eng
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 0회
+	
+	pdf에서 확인 불가
+========================================================================================================================
+09	Description-Img						Defined but unused in S21_Eng
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 0회
+	
+	pdf에서 확인 불가
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Resources\Styles.xml:288
+		<ParagraphStyle Self="ParagraphStyle/Description-Img" Name="Description-Img" Imported="false" NextStyle="ParagraphStyle/Description-Img" SplitDocument="false" EmitCss="true" StyleUniqueId="$ID/" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="false" KeyboardShortcut="0 0" BaselineShift="-3" SpaceBefore="28.34645669291339">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Heading3</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+
+========================================================================================================================
+10	Description-NoHTML		<topicref href="topic_file_path.dita" base="1"> 및 <title>
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 1회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Resources\Styles.xml:294
+		<ParagraphStyle Self="ParagraphStyle/Description-NoHTML" Name="Description-NoHTML" Imported="false" NextStyle="ParagraphStyle/Description-NoHTML" SplitDocument="false" EmitCss="true" StyleUniqueId="$ID/" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="false" KeyboardShortcut="0 0" SpaceBefore="22.67716535433071">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Heading1-H3</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\007_Copyright\Stories\Story_u36f.xml:22
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Description-NoHTML">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Trademarks</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\appendix.ditamap:102
+		<topicref href="004_appendix/trademarks/trademarks.dita" base="1"/>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\004_appendix\trademarks\trademarks.dita:4
+		<title>Trademarks</title>
+========================================================================================================================
+11	Description-Heading3				Undefined in S21_Eng
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 0회
+	
+	pdf에서 확인 불가
+========================================================================================================================
+12	Description-Semi	<p><b outputclass="semi">TEXT</b></p>
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 1회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:49
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Resources\Styles.xml:300
+		<ParagraphStyle Self="ParagraphStyle/Description-Semi" Name="Description-Semi" Imported="false" NextStyle="ParagraphStyle/Description-Semi" SplitDocument="false" EmitCss="true" StyleUniqueId="$ID/" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="false" KeyboardShortcut="0 0" 
+						FontStyle="Semibold">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Description</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\004_Applications\Stories\Story_u36a.xml:12198
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Description-Semi">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Camera etiquette</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\002_apps_and_features\camera\introduction.dita:10
+			<p><b outputclass="semi">Camera etiquette</b></p>
+========================================================================================================================
+13	Description-UpSp	<p outputclass="upsp">TEXT</p>
+#TODO: SpaceBefore, SpaceAfter 값을 fo의 값과 비교할 것
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 27회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:7
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Resources\Styles.xml:306
+		<ParagraphStyle Self="ParagraphStyle/Description-UpSp" Name="Description-UpSp" Imported="false" NextStyle="ParagraphStyle/Description-UpSp" SplitDocument="false" EmitCss="true" StyleUniqueId="d2f7284b-586c-4e7c-9072-13d7c6cb5a52" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="false" KeyboardShortcut="0 0" 
+						SpaceBefore="8.503937007874017" SpaceAfter="4.251968503937007">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Description</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:2054
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Description-UpSp">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>The following are examples of situations in which the device may overheat. Depending on the functions and apps you use, these examples may not apply to your model.</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\device_overheating_situations_and_solutions\when_the_device_heats_up_during_use.dita:10
+		<p outputclass="upsp">The following are examples of situations in which the device may overheat. Depending on the functions and apps you use, these examples may not apply to your model.</p>
+========================================================================================================================
+14	Empty		인덴트 없이 note/table을 넣는데 사용하므로 직접적으로 해당되는 dita 코드 없음
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 187회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:6
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Resources\Styles.xml:312
+		<ParagraphStyle Self="ParagraphStyle/Empty" Name="Empty" Imported="false" NextStyle="ParagraphStyle/Empty" SplitDocument="false" EmitCss="true" StyleUniqueId="45c5af80-f76f-4c80-bbe7-0f0a49ed05fc" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="false" KeyboardShortcut="0 0" KerningMethod="$ID/Metrics" 
+						StrokeWeight="1" HyphenationZone="36" 
+						SpaceBefore="7.086614173228347" SpaceAfter="4.251968503937008" FillTint="100" RuleAboveLineWeight="1" RuleBelowLineWeight="1" DropcapDetail="1">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">11.338582677165356</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+		</ParagraphStyle>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:287
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Empty">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Table Self="u36diaab" HeaderRowCount="0" FooterRowCount="0" TextTopInset="1.4173228346456694" TextLeftInset="1.4173228346456694" TextBottomInset="1.4173228346456694" TextRightInset="1.4173228346456694" ClipContentToTextCell="false" BodyRowCount="1" ColumnCount="2" AppliedTableStyle="TableStyle/Table_Notice" TableDirection="LeftToRightDirection">
+					<Row Self="u36diaabRow0" Name="0" TextTopInset="0" TextLeftInset="0" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" SingleRowHeight="15.403900146484375" MinimumHeight="11.338582677165356" />
+					<Column Self="u36diaabColumn0" Name="0" TextTopInset="0" TextLeftInset="0" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" SingleColumnWidth="22.67716535433071" />
+					<Column Self="u36diaabColumn1" Name="1" TextTopInset="0" TextLeftInset="8.503937007874017" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" SingleColumnWidth="481.8897637795276" />
+					<Cell Self="u36diaabi0" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" FillColor="n" LeftEdgeStrokePriority="3" RightEdgeStrokePriority="3" TopEdgeStrokePriority="3" BottomEdgeStrokePriority="3">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Img-Left">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Rectangle Self="uab4" ContentType="GraphicType" StoryTitle="$ID/" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 12.894500732421875 -11.678550720214844">
+									<Properties>
+										<PathGeometry>
+											<GeometryPathType PathOpen="false">
+												<PathPointArray>
+													<PathPointType Anchor="-14.881996154785076 -13.559486537972468" LeftDirection="-14.881996154785076 -13.559486537972468" RightDirection="-14.881996154785076 -13.559486537972468" />
+													<PathPointType Anchor="-14.881996154785076 1.844413608511907" LeftDirection="-14.881996154785076 1.844413608511907" RightDirection="-14.881996154785076 1.844413608511907" />
+													<PathPointType Anchor="2.1250076293946076 1.844413608511907" LeftDirection="2.1250076293946076 1.844413608511907" RightDirection="2.1250076293946076 1.844413608511907" />
+													<PathPointType Anchor="2.1250076293946076 -13.559486537972468" LeftDirection="2.1250076293946076 -13.559486537972468" RightDirection="2.1250076293946076 -13.559486537972468" />
+												</PathPointArray>
+											</GeometryPathType>
+										</PathGeometry>
+									</Properties>
+									<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+										<Properties>
+											<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+										</Properties>
+										<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+									</TextWrapPreference>
+									<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+									<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMPDescription" ActualTextSourceType="SourceXMPDescription" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+										<Properties>
+											<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+											<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+										</Properties>
+									</ObjectExportOption>
+									<PDF Self="u305a0" GrayVectorPolicy="IgnoreAll" RGBVectorPolicy="HonorAllProfiles" CMYKVectorPolicy="IgnoreAll" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$ID/Adobe Portable Document Format (PDF)" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="1 0 0 1 -14.881996154785078 -13.559486537972468" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" Visible="true" Name="$ID/">
+										<Properties>
+											<GraphicBounds Left="0" Top="0" Right="17.007003784179688" Bottom="15.403900146484375" />
+										</Properties>
+										<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+											<Properties>
+												<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+											</Properties>
+											<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+										</TextWrapPreference>
+										<PDFAttribute PageNumber="1" PDFCrop="CropContentVisibleLayers" TransparentBackground="true" />
+										<MetadataPacketPreference>
+											<Properties>
+												<Contents><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<?xpacket end="r"?>]]></Contents>
+											</Properties>
+										</MetadataPacketPreference>
+										<Link Self="uab8" AssetURL="$ID/" AssetID="$ID/" RenditionData="Actual" LinkResourceURI="file:C:/Temp/S21_Eng/Reference/SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_INDD/G99X_UM_EU_RR_Links/M-warning.ai" LinkResourceFormat="$ID/Adobe Portable Document Format (PDF)" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 132352104540000000 50763" LinkImportModificationTime="2020-05-29T16:20:54" LinkImportTime="2021-01-12T13:52:02" LinkResourceSize="0~c64b" />
+										<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$ID/" Index="-1" />
+										<GraphicLayerOption UpdateLinkOption="KeepOverrides">
+											<GraphicLayer Self="u305a0GraphicLayerOption1i19" Name="$ID/레이어 1" OriginalVisibility="true" CurrentVisibility="true" SeparatorLayer="false" AdjustmentLayer="false" FXLayer="false" Locked="false" HasViewState="false" ViewState="false" HasExportState="false" ExportState="false" HasPrintState="false" PrintState="false" Id="25" />
+										</GraphicLayerOption>
+									</PDF>
+								</Rectangle>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\read_me_first\instructional_icons.dita:7
+		<note type="warning"><b outputclass="semi">Warning</b>: situations that could cause injury to yourself or others</note>
+		Empty 스타일은 note/table을 넣는데 사용하므로 직접적으로 해당되는 dita 코드 없음
+========================================================================================================================
+15	Empty-Indent		인덴트 있으면서 note/table을 넣는데 사용하므로 직접적으로 해당되는 dita 코드 없음
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 10회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:64
+	C:\Protean\Mobile_Project\S21_Eng_TCS\styles2\para\Empty-Indent.xml:326
+		<ParagraphStyle Self="ParagraphStyle/Empty-Indent" Name="Empty-Indent" Imported="false" NextStyle="ParagraphStyle/Empty-Indent" SplitDocument="false" EmitCss="true" StyleUniqueId="b1153b06-0e10-49a9-ad16-f4ea20e6d625" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="false" KeyboardShortcut="0 0" KerningMethod="$ID/Metrics" 
+						StrokeWeight="1" LeftIndent="22.67716535433071" HyphenationZone="36" 
+						SpaceBefore="7.086614173228347" SpaceAfter="2.834645669291339" FillTint="100" RuleAboveLineWeight="1" RuleBelowLineWeight="1" DropcapDetail="1">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">11.338582677165356</Position>
+					</ListItem>
+				</TabList>
+			</Properties>
+		</ParagraphStyle>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\004_Applications\Stories\Story_u36a.xml:35944
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Empty-Indent">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Table Self="u36ai83420" HeaderRowCount="0" FooterRowCount="0" TextTopInset="1.4173228346456694" TextLeftInset="1.4173228346456694" TextBottomInset="1.4173228346456694" TextRightInset="1.4173228346456694" ClipContentToTextCell="false" BodyRowCount="1" ColumnCount="2" AppliedTableStyle="TableStyle/Table_Notice" TableDirection="LeftToRightDirection">
+					<Row Self="u36ai83420Row0" Name="0" TextTopInset="0" TextLeftInset="0" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" SingleRowHeight="73.00393700787401" MinimumHeight="11.338582677165356" />
+					<Column Self="u36ai83420Column0" Name="0" TextTopInset="0" TextLeftInset="0" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" SingleColumnWidth="22.67716535433071" />
+					<Column Self="u36ai83420Column1" Name="1" TextTopInset="0" TextLeftInset="8.503937007874017" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" SingleColumnWidth="459.21259842501564" />
+					<Cell Self="u36ai83420i0" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="0" FillColor="n" LeftEdgeStrokePriority="2" RightEdgeStrokePriority="3" TopEdgeStrokePriority="2" BottomEdgeStrokePriority="2">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Img-Left">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Rectangle Self="u83429" ContentType="GraphicType" StoryTitle="$ID/" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 11.697853088378906 -11.698455810546875">
+									<Properties>
+										<PathGeometry>
+											<GeometryPathType PathOpen="false">
+												<PathPointArray>
+													<PathPointType Anchor="-14.172805786132809 -14.173235349017999" LeftDirection="-14.172805786132809 -14.173235349017999" RightDirection="-14.172805786132809 -14.173235349017999" />
+													<PathPointType Anchor="-14.172805786132809 2.835767336528873" LeftDirection="-14.172805786132809 2.835767336528873" RightDirection="-14.172805786132809 2.835767336528873" />
+													<PathPointType Anchor="2.8349914550781268 2.835767336528873" LeftDirection="2.8349914550781268 2.835767336528873" RightDirection="2.8349914550781268 2.835767336528873" />
+													<PathPointType Anchor="2.8349914550781268 -14.173235349017999" LeftDirection="2.8349914550781268 -14.173235349017999" RightDirection="2.8349914550781268 -14.173235349017999" />
+												</PathPointArray>
+											</GeometryPathType>
+										</PathGeometry>
+									</Properties>
+									<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+										<Properties>
+											<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+										</Properties>
+										<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+									</TextWrapPreference>
+									<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+									<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMPDescription" ActualTextSourceType="SourceXMPDescription" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+										<Properties>
+											<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+											<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+										</Properties>
+									</ObjectExportOption>
+									<PDF Self="u8a0c6" GrayVectorPolicy="IgnoreAll" RGBVectorPolicy="HonorAllProfiles" CMYKVectorPolicy="IgnoreAll" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$ID/Adobe Portable Document Format (PDF)" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="1 0 0 1 -14.172912597656248 -14.173235349017999" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" Visible="true" Name="$ID/">
+										<Properties>
+											<GraphicBounds Left="0.0001068115234375" Top="0" Right="17.007904052734375" Bottom="17.009002685546875" />
+										</Properties>
+										<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+											<Properties>
+												<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+											</Properties>
+											<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+										</TextWrapPreference>
+										<PDFAttribute PageNumber="1" PDFCrop="CropContentVisibleLayers" TransparentBackground="true" />
+										<MetadataPacketPreference>
+											<Properties>
+												<Contents><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<?xpacket end="r"?>]]></Contents>
+											</Properties>
+										</MetadataPacketPreference>
+										<Link Self="u8342d" AssetURL="$ID/" AssetID="$ID/" RenditionData="Actual" LinkResourceURI="file:C:/Temp/S21_Eng/Reference/SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_INDD/G99X_UM_EU_RR_Links/M-notice.ai" LinkResourceFormat="$ID/Adobe Portable Document Format (PDF)" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 132352103960000000 353132" LinkImportModificationTime="2020-05-29T16:19:56" LinkImportTime="2021-01-12T13:51:55" LinkResourceSize="0~5636c" />
+										<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$ID/" Index="-1" />
+										<GraphicLayerOption UpdateLinkOption="KeepOverrides">
+											<GraphicLayer Self="u8a0c6GraphicLayerOption1i1d" Name="$ID/레이어 1" OriginalVisibility="true" CurrentVisibility="true" SeparatorLayer="false" AdjustmentLayer="false" FXLayer="false" Locked="false" HasViewState="false" ViewState="false" HasExportState="false" ExportState="false" HasPrintState="false" PrintState="false" Id="29" />
+										</GraphicLayerOption>
+									</PDF>
+								</Rectangle>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\002_apps_and_features\camera\customising_camera_settings.dita:44
+		<p outputclass="upsp"><cmdname>Videos</cmdname></p>
+		<ul>
+			<li>
+				<p><cmdname>Advanced recording options</cmdname>: Set the device to use an advanced recording option.</p>
+				<ul>
+					<li><cmdname>High efficiency videos</cmdname>: You can record videos in the High Efficiency Video Codec (HEVC) format. Your HEVC videos will be saved as compressed files to conserve the device’s memory.</li>
+					<li><cmdname>HDR10+ videos</cmdname>: You can record videos in which each scene’s contrast and colour are optimised.</li>
+					<li>
+						<p><cmdname>Zoom-in mic</cmdname>: While recording a video, you can record sound from the zoomed-in direction at a higher volume.</p>
+						<note type="notice">
+							<ul>
+								<li>You cannot play the HEVC videos on other devices or share them online.</li>
+								<li>Super slow motion and slow motion videos cannot be recorded in the HEVC format.</li>
+								<li>To play the <ph outputclass="preserve">HDR10+</ph> video properly, the device must support <ph outputclass="preserve">HDR10+.</ph></li>
+							</ul>
+						</note>
+					</li>
+				</ul>
+			</li>
+			<li><cmdname>Video stabilisation</cmdname>: Activate anti-shake to reduce or eliminate blurry image resulting from camera shake while recording a video.</li>
+		</ul>
+========================================================================================================================
+16	Heading1		<topicref href="001_basics/read_me_first/read_me_first.dita" props="basics_read_me_first" base="1"> 및 <title>Read me first</title>
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 16회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:4
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:340
+		<ParagraphStyle Self="ParagraphStyle/Heading1" Name="Heading1" Imported="false" NextStyle="ParagraphStyle/Heading1" SplitDocument="false" EmitCss="true" StyleUniqueId="$ID/" IncludeClass="true" ExtendedKeyboardShortcut="0 0 0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="false" KeyboardShortcut="0 0" 
+						FillColor="Color/C=65 M=30 Y=0 K=0" FontStyle="Semibold" PointSize="26" KerningMethod="$ID/Metrics" 
+						StrokeWeight="1" HyphenationZone="36" SpaceBefore="28.34645669291339" SpaceAfter="8.503937007874015" 
+						RuleAboveLineWeight="14" RuleAboveOffset="-3.543307086614173" 
+						RuleAboveLeftIndent="-1.4173228346456692" RuleAboveRightIndent="-1.4173228346456692" RuleAboveWidth="TextWidth" RuleBelowLineWeight="1" 
+						DropcapDetail="1" UnderlineOffset="-4" UnderlineWeight="15">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="unit">30</Leading>
+				<RuleAboveColor type="object">Color/C=65 M=30 Y=0 K=0</RuleAboveColor>
+				<UnderlineColor type="object">Color/C=65 M=30 Y=0 K=0</UnderlineColor>
+			</Properties>
+		</ParagraphStyle>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:12
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Heading1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Read me first</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\basics.ditamap:5
+		<topicref href="001_basics/read_me_first/read_me_first.dita" props="basics_read_me_first" base="1">
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\read_me_first\read_me_first.dita:4
+		<title>Read me first</title>
+========================================================================================================================
+17	Heading1-Chapter				Undefined in S21_Eng
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 0회
+	
+	pdf에서 확인 불가
+========================================================================================================================
+18	Heading1-APPLINK		<topicref href="topic_file_path.dita" base="1"> 및 <title>
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 4회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:4
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119_IDML\003_Basics\Stories\Story_u36d.xml:6
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chapter">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>Basics</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\basics.ditamap:4
+		<topicref href="001_basics/basics.dita" base="0">
+	C:\Protean\Mobile_Project\S21_Eng_TCS\BASIC\001_basics\basics.dita:4
+		<title>Basics</title>
+========================================================================================================================
+19	Heading1-APPLINK-Nosub
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+20	Heading1-APPLINK-Nosub-Intro
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+21	Heading1-H2							Defined but unused in S21_Eng
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+22	Heading1-H3
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+23	Heading1-H4							Defined but unused in S21_Eng
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+24	Heading1-Intro
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+25	Heading1-Intro-Self
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+26	Heading1-TroubleShooting			Defined but unused in S21_Eng
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+27	Heading2
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+28	Heading2-APPLINK
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+29	Heading2-APPLINK-TOC
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+30	Heading3
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+31	Heading3-APPLINK
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+32	Heading3-Key_Features
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+33	Heading3-TroubleShooting
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+34	Heading4
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+35	Heading4-TroubleShooting
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+36	Img-Center
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+37	Img-Left
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+38	Img-Right							Defined but unused in S21_Eng
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+39	ModelName-Cover
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+40	ModelName-Cover-Left
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+41	Navigation
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+42	OrderList1_1
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+43	OrderList1_1-Child
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+44	OrderList2_1
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+45	OrderList2_1-10over					Defined but unused in S21_Eng
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+46	OrderList2_1-Child
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+47	PageNumber
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+48	TOC1
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+49	TOC2
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+50	TOC3
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+51	UnorderList_1
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+52	UnorderList_1_2
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+53	UnorderList_1-Cell
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+54	UnorderList_1-Cell-Child			Defined but unused in S21_Eng
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+55	UnorderList_1-Child
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+56	UnorderList_2
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+57	UnorderList_2-Cell
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+58	UnorderList_2-Child					Defined but unused in S21_Eng
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+59	UserManual-Cover
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 회
+	
+	C:\Protean\Mobile_Project\S21_Eng_TCS\reference\SM-G99X_UM_EU_RR_Eng_Rev.1.0_210119.pdf:
+
+========================================================================================================================
+60	End									Undefined in S21_Eng
+------------------------------------------------------------------------------------------------------------------------
+	S21_Eng에서 0회
+	
+	pdf에서 확인 불가
+========================================================================================================================

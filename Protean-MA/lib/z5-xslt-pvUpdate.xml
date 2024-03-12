@@ -1,0 +1,26 @@
+<root>
+    <path
+        in="dummy.xml"
+        out="pv-update00.xml"
+        xslt="pv-update/pv-update00.xsl"/>
+
+    <path
+        in="pv-update00.xml"
+        out="pv-update01.xml"
+        xslt="pv-update/pv-update01.xsl"/>
+
+    <path
+        in="pv-update01.xml"
+        out="pv-update02.xml"
+        xslt="pv-update/pv-update02.xsl"/>
+
+    <path
+        in="pvPath.xml"
+        out="pv-update03.xml"
+        xslt="pv-update/pv-update03.xsl"/>
+
+    <path
+        in="pv-update03.xml"
+        out=""
+        xslt="depth-indent.xsl"/>
+</root>

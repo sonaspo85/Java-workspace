@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.ast.protean.ma.um2020html">
+	<require plugin="org.dita.html5"/>
+	<transtype name="maHTML5" extends="html5" desc="MA Protean HTML5"/>
+	<feature extension="ant.import" file="integrator.xml"/>
+    <feature extension="dita.xsl.strings" file="../com.ast.protean.ma.um_en_2020pdf/cfg/common/vars/ast-strings-html.xml"/>
+</plugin>

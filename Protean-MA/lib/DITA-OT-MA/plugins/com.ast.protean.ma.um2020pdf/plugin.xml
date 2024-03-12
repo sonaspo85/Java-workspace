@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.ast.protean.ma.um2020pdf">
+    <require plugin="org.dita.pdf2"/>
+	<require plugin="org.dita.pdf2.axf"/>
+    <feature extension="dita.conductor.transtype.check" value="protean_ma_um2020pdf"/>
+    <feature extension="dita.transtype.print" value="protean_ma_um2020pdf"/>
+    <feature extension="dita.conductor.target.relative" file="build.xml"/>
+    <!-- <feature extension="dita.xsl.strings" file="cfg/common/vars/ast-strings.xml"/> -->
+    <feature extension="dita.xsl.strings" file="../com.ast.protean.ma.um_en_2020pdf/cfg/common/vars/ast-strings.xml"/>
+    <feature extension="dita.xsl.xslfo" file="cfg/fo/xsl/ast-pagebreak.xsl" type="file" />
+</plugin>

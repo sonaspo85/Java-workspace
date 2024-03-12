@@ -1,0 +1,8 @@
+<!-- 210506 추가 -->
+"C_Superscript": <ph outputclass="superscript"></ph> : 기준선만 2pt 올림
+
+<!-- 210428 추가 -->
+"C_FontChange": <ph outputclass="preserve"></ph> : notrans(번역 제외) 속성  + nobreak (줄바꿈 제한) 속성 적용
+"C_FontChange-Semi": <b outputclass="preserve"></b> : b outputclass="semi"와 동일한 서식 + notrans(번역 제외) 속성  + nobreak (줄바꿈 제한) 속성 적용
+"C_H1-Small": <ph outputclass="small"></ph> : ditamap의 base 값이 1인 토픽의 title에 작은 글꼴 크기를 적용
+"C_H1-Small_FontChange": <ph outputclass="smallpreserve"></ph> : ph outputclass="small" 과 동일한 서식 + notrans(번역 제외) 속성  + nobreak (줄바꿈 제한) 속성 적용

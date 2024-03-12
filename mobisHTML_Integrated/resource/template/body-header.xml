@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<div class="index">
+	    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700" rel="stylesheet" />
+	    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&amp;display=swap" rel="stylesheet" />
+	    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
+	    <link rel="stylesheet" href="./styles/fonts/notoSansKr/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/notoSans/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/notoSansAr/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/notoSansInd/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/noto_med/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/genesis/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/NotoSansHebrew/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/HyundaiSansTextKRRegular/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/NotoSansCJKjp/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/notoSansTC/stylesheet.css" />
+	    <link type="text/css" rel="stylesheet" href="./contents/styles/font_style.css" />
+	    <link type="text/css" rel="stylesheet" href="./contents/styles/all_style.css" />
+	    <link type="text/css" rel="stylesheet" href="styles/index_style.css" />
+	    <script type="text/javascript" src="js/id_db.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="js/update_link.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="js/00_jquery-1.9.1.min.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="js/02_ui_text.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="js/00_start.js">&#xFEFF;</script>
+    </div>
+    
+    <div class="minitoc,contents">
+	    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700" rel="stylesheet" />
+	    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&amp;display=swap" rel="stylesheet" />
+	    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
+	    <link rel="stylesheet" href="./styles/fonts/notoSansKr/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/notoSans/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/notoSansAr/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/notoSansInd/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/noto_med/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/genesis/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/NotoSansHebrew/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/NotoSansCJKjp/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/notoSansTC/stylesheet.css" />
+	    <link type="text/css" rel="stylesheet" href="./contents/styles/font_style.css" />
+	    <link type="text/css" rel="stylesheet" href="./contents/styles/all_style.css" />
+	    <link type="text/css" rel="stylesheet" href="./contents/styles/contents_style.css" />
+    	<link type="text/css" rel="stylesheet" href="./contents/styles/quick_menu.css" />
+	    <script type="text/javascript" src="js/id_db.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="js/update_link.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="js/00_jquery-1.9.1.min.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="js/01_jquery.event.drag-1.5.min.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="js/02_ui_text.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="js/04_contents.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="js/00_start.js">&#xFEFF;</script>
+    </div>
+    
+    <div class="search">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&amp;display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
+	    <link rel="stylesheet" href="../styles/fonts/notoSansKr/stylesheet.css" />
+	    <link rel="stylesheet" href="../styles/fonts/notoSans/stylesheet.css" />
+	    <link rel="stylesheet" href="../styles/fonts/notoSansAr/stylesheet.css" />
+	    <link rel="stylesheet" href="../styles/fonts/notoSansInd/stylesheet.css" />
+	    <link rel="stylesheet" href="../styles/fonts/noto_med/stylesheet.css" />
+	    <link rel="stylesheet" href="../styles/fonts/genesis/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/NotoSansHebrew/stylesheet.css" />
+	    <link rel="stylesheet" href="../styles/fonts/NotoSansCJKjp/stylesheet.css" />
+	    <link rel="stylesheet" href="./styles/fonts/notoSansTC/stylesheet.css" />
+	    <link type="text/css" rel="stylesheet" href="../contents/styles/font_style.css" />
+	    <link type="text/css" rel="stylesheet" href="../contents/styles/all_style.css" />
+	    <link id="searchStyle" type="text/css" rel="stylesheet" href="../styles/search_style.css" />
+	    <link id="searchStyle" type="text/css" rel="stylesheet" href="../contents/styles/quick_menu.css" />
+	    <script type="text/javascript" src="../js/id_db.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="../js/update_link.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="./jsons/search_db.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="../js/00_jquery-1.9.1.min.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="../js/02_ui_text.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="../js/04_contents.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="../js/00_start.js">&#xFEFF;</script>
+	    <script type="text/javascript" src="../js/07_search.js">&#xFEFF;</script>
+    </div>
+</root>

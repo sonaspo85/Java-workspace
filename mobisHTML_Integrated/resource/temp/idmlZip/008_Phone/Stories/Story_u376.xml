@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="18.0">
+	<Story Self="u376" AppliedTOCStyle="n" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Hyphenation="false" SpaceBefore="2.834645669291339" SpaceAfter="2.834645669291339" Justification="LeftAlign">
+			<Properties>
+				<AllGREPStyles type="list">
+					<ListItem type="record">
+						<AppliedCharacterStyle type="object">CharacterStyle/$ID/[No character style]</AppliedCharacterStyle>
+						<GrepExpression type="string">\[\w+\]|\[\w+\s.\]|\[~a\s\w+\]|\[\w+\s~a\]|\[~a\/~a\]|\(~a\/~a\)|\[~a\]|\(~a\)|\[~a\s.\/\a\s.\]|\(~a\s.\/~a\s.\)</GrepExpression>
+					</ListItem>
+				</AllGREPStyles>
+				<ParagraphShadingColor type="object">Color/C=0 M=20 Y=100 K=0</ParagraphShadingColor>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Regular" PointSize="8.5" HorizontalScale="98" KerningMethod="$ID/Metrics - Roman Only" Tracking="-25" AppliedLanguage="$ID/Korean" CharacterAlignment="AlignBaseline" CjkGridTracking="true">
+				<Properties>
+					<Leading type="unit">11.5</Leading>
+					<AppliedFont type="string">Noto Sans CJK KR</AppliedFont>
+				</Properties>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

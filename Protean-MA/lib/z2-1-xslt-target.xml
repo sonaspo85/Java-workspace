@@ -1,0 +1,6 @@
+<root>
+    <path
+        in="master-final.dita"
+        out="lang.dita"
+        xslt="target.xsl"/>
+</root>

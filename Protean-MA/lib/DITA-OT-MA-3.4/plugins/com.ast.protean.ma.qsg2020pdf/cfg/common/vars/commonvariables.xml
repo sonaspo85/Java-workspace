@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+	<variable id="Step Number"><param ref-name="number"/> </variable>
+	<variable id="arrow">► </variable>
+</vars>

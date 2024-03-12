@@ -1,0 +1,37 @@
+<root>
+    <path
+        in="recommend.xml"
+        out="tagsXml\01-groupingHeading1.xml"
+        xslt="tagsXml\01-groupingHeading1.xsl"/>
+
+    <path
+        in="tagsXml\01-groupingHeading1.xml"
+        out="tagsXml\02-pickupRecommend.xml"
+        xslt="tagsXml\02-pickupRecommend.xsl"/>
+
+    <path
+        in="tagsXml\02-pickupRecommend.xml"
+        out="tagsXml\03-splitNewListitem.xml"
+        xslt="tagsXml\03-splitNewListitem.xsl"/>
+
+    <path
+        in="tagsXml\03-splitNewListitem.xml"
+        out="tagsXml\04-groupRecommend.xml"
+        xslt="tagsXml\04-groupRecommend.xsl"/>
+
+    <path
+        in="tagsXml\04-groupRecommend.xml"
+        out="tagsXml\05-removeHeadingCheck.xml"
+        xslt="tagsXml\05-removeHeadingCheck.xsl"/>
+
+
+    <path
+        in="tagsXml\05-removeHeadingCheck.xml"
+        out="tagsXml\06-createTagsF.xml"
+        xslt="tagsXml\06-createTagsF.xsl"/>
+
+    <path
+        in="tagsXml\06-createTagsF.xml"
+        out="tagsXml\dummy.xml"
+        xslt="tagsXml\07-sortTags.xsl"/>
+</root>

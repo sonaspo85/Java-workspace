@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <dataLanguage value="kia_English"/>
+   <language value="English"/>
+   <ISOCode value="EG,EU,EC,EA,EE"/>
+   <company value="kia"/>
+   <lgsRegion value="English(RUS)"/>
+   <linkedIdFileName value="Kia_ID_KA4_6th_RUS_EE.xlsx"/>
+   <carName value="KA4"/>
+   <uiTxtFileName value="Kia_UI_RUS_10inch.xlsx"/>
+   <version value="6th"/>
+   <ccncVer value="ccnc"/>
+   <region value="RUS"/>
+   <inch value="10inch"/>
+</root>

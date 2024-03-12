@@ -1,0 +1,17 @@
+<root>
+    <path
+        in="dummy.xml"
+        out="unique-segment.xml"
+        xslt="MMIupdate/03-groupingHash.xsl"/>
+
+    <path
+        in="unique-segment.xml"
+        out="unique-segment02.xml"
+        xslt="MMIupdate/04-export-uniqueSeg.xsl"/>
+
+    <path
+        in="pv.xml"
+        out=""
+        xslt="MMIupdate/05-pv-mmi-update.xsl"/>
+
+</root>

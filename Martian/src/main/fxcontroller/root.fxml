@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="270.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.fxcontroller.RC">
+   <children>
+      <Pane layoutX="6.0" layoutY="69.0" prefHeight="144.0" prefWidth="520.0" style="-fx-border-style: solid; -fx-border-color: black;">
+         <children>
+            <Label layoutX="14.0" layoutY="56.0" prefHeight="30.0" prefWidth="60.0" text="소스 : ">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="13.0" prefHeight="30.0" prefWidth="60.0" text="타입 : ">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="cb1" layoutX="65.0" layoutY="13.0" prefHeight="30.0" prefWidth="150.0" />
+            <TextField fx:id="tf1" layoutX="65.0" layoutY="56.0" prefHeight="30.0" prefWidth="322.0" />
+            <RadioButton fx:id="rb1" layoutX="395.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" text="on">
+               <toggleGroup>
+                  <ToggleGroup fx:id="videoGroup" />
+               </toggleGroup>
+               <font>
+                  <Font name="Candara" size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="rb2" layoutX="456.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" text="off" toggleGroup="$videoGroup">
+               <font>
+                  <Font name="Candara" size="15.0" />
+               </font></RadioButton>
+            <Label layoutX="296.0" layoutY="14.0" prefHeight="30.0" prefWidth="83.0" text="영상 추가 : ">
+               <font>
+                  <Font name="Candara Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="bt1" layoutX="409.0" layoutY="99.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="변환 시작" />
+            <Button fx:id="bt2" layoutX="287.0" layoutY="99.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="언어 선택" />
+            <Button fx:id="bt3" layoutX="409.0" layoutY="57.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="폴더 선택" />
+            <Button fx:id="bt4" layoutX="165.0" layoutY="99.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="Video Ecel DB">
+               <contextMenu>
+                  <ContextMenu fx:id="cm1">
+                    <items>
+                      <MenuItem fx:id="mi1" mnemonicParsing="false" text="template1 업로드" />
+                      <MenuItem fx:id="mi2" mnemonicParsing="false" text="language 업로드" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu></Button>
+            <Label layoutX="14.0" layoutY="99.0" prefHeight="30.0" text="코드 : ">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf2" layoutX="65.0" layoutY="99.0" prefHeight="30.0" prefWidth="74.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="6.0" layoutY="5.0" prefHeight="59.0" prefWidth="520.0" style="-fx-border-style: solid; -fx-border-color: black;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="6.0" prefHeight="43.0" prefWidth="493.0" text="Martian" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="Candara Bold" size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="6.0" layoutY="217.0" prefHeight="43.0" prefWidth="520.0" style="-fx-border-style: solid; -fx-border-color: black;">
+         <children>
+            <ProgressBar fx:id="pbar1" layoutX="7.0" layoutY="7.0" prefHeight="30.0" prefWidth="445.0" progress="0.0" />
+            <Text fx:id="pbart1" layoutX="462.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="RIGHT" wrappingWidth="41.3671875">
+               <font>
+                  <Font name="Candara Bold" size="15.0" />
+               </font></Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'New HD2.1';
+    src: url('NewHD21.eot');
+    src: url('NewHD21.eot?#iefix') format('embedded-opentype'),
+        url('NewHD21.woff2') format('woff2'),
+        url('NewHD21.woff') format('woff'),
+        url('NewHD21.ttf') format('truetype'),
+        url('NewHD21.svg#NewHD21') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'New HD2.1 Medium';
+    src: url('NewHD21-Medium.eot');
+    src: url('NewHD21-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NewHD21-Medium.woff2') format('woff2'),
+        url('NewHD21-Medium.woff') format('woff'),
+        url('NewHD21-Medium.ttf') format('truetype'),
+        url('NewHD21-Medium.svg#NewHD21-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

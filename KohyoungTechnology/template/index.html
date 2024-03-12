@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <script src="_jscss\jquery-3.0.0.js" type="text/javascript"></script> 
+  <script src="_jscss\ui_text.js" type="text/javascript"></script> 
+  <script src="_jscss\index.js" type="text/javascript"></script> 
+  <script src="_jscss\common.js" type="text/javascript"></script> 
+  <script src="_db\search_db.js" type="text/javascript"></script> 
+  <link type="text/css" rel="stylesheet" href="_jscss/main.css"> 
+  <title>User Manual</title> 
+ </head> 
+ <body> 
+  <header> <!-- 고영테크놀러지 --> 
+   <div class="logo"></div> 
+   <div class="main_title">
+     User Guide 
+   </div> 
+   <div class="language"> <label for="lang"></label> <select id="languages" onchange="changeLanguage(this.value)"> <!-- $languaelist$ --><option value="CHN">中文(简体)</option><option value="JPN">日本語</option><option value="TWN">中文(繁體)</option><option value="ENG">English</option><option value="KOR">한국어</option></select> 
+   </div> 
+  </header> 
+  <nav> <!-- 문서 이동 메뉴 --> 
+  </nav> 
+  <section> <!-- 검색  --> 
+   <div class="form"> <label> <input type="text" maxlength="255" placeholder="검색할 키워드를 입력하세요" autocomlete="off" id="id_main_search" onkeydown="fncSearchKeyDown(event.keyCode, this.value);"> </label> 
+   </div> 
+  </section> 
+  <article> <!-- 문서 이동 메뉴 --> 
+   <div id="container"></div> 
+  </article> <!-- <footer>
+		<div class="copyright">
+			<p>Copyright © 2021 Koh Young Technology Inc. All Rights Reserved.</p>
+			<p>Homepage: <a href="https://www.kohyoung.com" target="_blank">www.kohyoung.com/</a> Helpdesk: <a
+					href="https://help.kohyoung.com" target="_blank">help.kohyoung.com/</a></p>
+		</div>
+	</footer> -->  
+ </body>
+</html>

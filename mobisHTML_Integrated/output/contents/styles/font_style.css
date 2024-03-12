@@ -1,0 +1,608 @@
+@charset "utf-8";
+
+/* language version.kor*/
+
+
+/* variable:color, size, font  */
+
+
+/* 
+* color: 
+      - primary : kia :#bb162b / hy:
+      - header Title : #000;
+      - Sub Title : #333333;
+      - Paragraph Text 1 : #454545;
+      - Paragraph Text 2 : #666666;
+      - Paragraph Text 3 : #999999;
+
+ *background-color:
+      - basic : #f6f6f6;   
+      - Sub 1 : #58595B;   
+      - Sub 2 : #7E8083;   
+      - Sub 3 : #AEAEAE;   
+* 인쇄의 경우는 기준의 폰트크기는 : 9pt, 
+* 웹의 경우는 12pt를 권장 => 영문, 그래픽이미지일경우
+      - primary : 16px;  == 1rem;
+      - h1 :  24pt ==> 32px ==> 2rem;
+      - h2 :  20pt ==> 26px ==> 1.625rem;
+      - h3 :  14pt ==> 19px ==> 1.2rem;
+      - h4 :  24px ==> 1.5rem;
+      - h5 :  22px ==> 1.375rem;
+      - h6 :  20px ==> 1.25rem;
+      - big1 : 30pt ==> 2.5rem
+      - big2 : 27pt ==> 2.25rem
+      - narmal : 12pt ==> 1rem
+      - step-title : 10.5pt ==> 18px ==> 1.125rem
+    
+* font:
+      - basic : NotoSans
+      - main icon : notoSans(500)
+      - bold : NotoSans(bold)
+      - hyundai : New HD2.1
+      - kia : cubeB
+* border:
+      - thin :  border:1px solid #333
+      - normal: border: 2px solid #777
+      - bold :  border: 4px solid #d07
+
+*/
+
+html,
+body {
+    font-family: "Noto Sans", "Noto Sans KR", "Noto Sans Hebrew", sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    color: #333;
+    /* line-height: 100%; */
+}
+html[data-language*="(INDIA)"] body {
+	font-family: "Noto Sans Bengali", "Noto Sans Gujarati", "Noto Sans Gurmukhi", "Noto Sans Kannada", "Noto Sans Tamil", "Nirmala UI", "Noto Sans", "Noto Sans KR", sans-serif;
+}
+html[data-language*="(INDIA)"][lang="en"] body {
+	font-family: "Noto Sans", "Noto Sans KR", sans-serif;
+}
+
+:lang(jp) body {
+	font-family: "NotoSansCJKjp";
+}
+:lang(tw) body {
+	font-family: "Noto Sans TC", "Noto Sans KR", sans-serif;
+}
+:lang(bn) body {
+	font-family: "Noto Sans Bengali";
+}
+:lang(hi) body {
+	font-family: "Nirmala UI";
+}
+:lang(mr) body {
+	font-family: "Nirmala UI";
+}
+:lang(te) body {
+	font-family: "Nirmala UI";
+}
+:lang(ta) body {
+	font-family: "Noto Sans Tamil";
+}
+:lang(gu) body {
+	font-family: "Noto Sans Gujarati";
+}
+:lang(kn) body {
+	font-family: "Noto Sans Kannada";
+}
+:lang(or) body {
+	font-family: "Nirmala UI";
+}
+:lang(ml) body {
+	font-family: "Nirmala UI";
+}
+:lang(pa) body {
+	font-family: "Noto Sans Gurmukhi";
+}
+:lang(sc) body {
+	font-family: "Noto Sans SC", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+div,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select,
+a,
+img,
+figcaption,
+figure {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    /* line-height: 100%; */
+}
+
+br {
+    width: 0;
+    height: 0;
+    font-size: 0;
+}
+
+h1, .Heading2-APPLINK > .c_change_colorh1 {
+    font-size: 32px;
+    font-size: 2rem;
+    color: #666;
+    font-weight: normal;
+}
+
+.c_change_colorh1 {
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h2 {
+    /* font-size: 26px;
+    font-size: 1.625rem; */
+    font-size: 24px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+h3 {
+    font-size: 19px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+
+/* h5 {
+    font-size: 22px;
+    font-size: 1.375rem;
+}
+
+h6 {
+    font-size: 20px;
+    font-size: 1.25rem;
+} */
+
+.header_wrap h1,
+.head_tit {
+    font-size: 22px;
+    font-size: 1.375rem;
+}
+
+.language_btn button,
+.all_contents button {
+    font-size: 16px;
+    font-size: 1rem;
+    font-family: "Noto Sans";
+}
+
+html[lang="jp"] .language_btn button,
+html[lang="jp"] .all_contents button {
+    font-family: "NotoSansCJKjp", "Noto Sans";
+}
+
+/* .language_list{
+    font-weight: bold;
+} */
+
+html[data-language*="(INDIA)"] .language_list {
+	font-family: "Noto Sans Bengali", "Noto Sans Devanagari", "Noto Sans Gujarati", "Noto Sans Gurmukhi", "Noto Sans Kannada", "Noto Sans Tamil", "Noto Sans Telugu", "Nirmala UI", "Noto Sans", "Noto Sans KR", sans-serif;
+}
+
+#chapter,
+.chapter_text2 {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.toc-chap > a > .chapter_text2 {
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+
+.chapter_text2 {
+    /* font-family: "Noto Sans KR", "Noto Sans Med"; */
+    line-height: 140%;
+}
+
+:lang(jp) .chapter_text2 {
+	font-family: "NotoSansCJKjp", "Noto Sans Med";
+}
+:lang(bn) .chapter_text2 {
+	font-family: "Noto Sans Bengali", "Noto Sans Med";
+}
+:lang(hi) .chapter_text2 {
+	font-family: "Noto Sans Med", "Nirmala UI";
+}
+:lang(mr) .chapter_text2 {
+	font-family: "Noto Sans Med", "Nirmala UI";
+}
+:lang(te) .chapter_text2 {
+	font-family: "Noto Sans Med", "Nirmala UI";
+}
+:lang(ta) .chapter_text2 {
+	font-family: "Noto Sans Tamil", "Noto Sans Med";
+    line-height: 130%;
+}
+:lang(gu) .chapter_text2 {
+	font-family: "Noto Sans Gujarati", "Noto Sans Med";
+}
+:lang(kn) .chapter_text2 {
+	font-family: "Noto Sans Kannada", "Noto Sans Med";
+    line-height: 130%;
+}
+:lang(or) .chapter_text2 {
+	font-family: "Noto Sans Med", "Nirmala UI";
+}
+:lang(ml) .chapter_text2 {
+	font-family: "Noto Sans Med", "Nirmala UI";
+    line-height: 130%;
+}
+:lang(pa) .chapter_text2 {
+	font-family: "Noto Sans Gurmukhi", "Noto Sans Med";
+}
+
+.caution_txt {
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+.footer_wrap {
+    font-size: 12px;
+    font-size: 0.75rem;
+}
+
+
+/* 메인 */
+
+/* .cover_list li {
+    height: 150px;
+} */
+.cover_list li {
+    /* height: 100px; */
+    height: 110px;
+}
+
+.cover .model {
+    font-size: 35px;
+    font-size: 2.2rem;
+}
+
+
+/* 본문영역 */
+
+.c_important {
+    font-weight: bold;
+}
+
+div.line_mit p {
+    font-weight: bold;
+    font-size: 19px;
+    font-size: 1.1875rem;
+}
+
+.color>li:before {
+    font-family: "Mobis_Symbol_ENG";
+    font-weight: bold;
+}
+
+.bullet,
+.ul2_2-note>li:before,
+.step-ul2_2-note>li:before,
+.ul2_1-note>li::before,
+.ul1-note li li:before,
+.step-ul2-note>li:before,
+.ul2-caution-warning>li:before {
+    vertical-align: 1px;
+}
+
+[class*="c_mmi"],
+.c_symbol_basic {
+    font-weight: bold;
+}
+
+[class*="NoBold"],
+[class*="nobold"],
+[class*="nobold"] {
+    font-weight: normal;
+}
+
+.c_mmi_no{
+    font-weight: normal;
+}
+
+.c_crossreference-symbol {
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+.c_crossreference,
+.c_crossreference+a {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+:lang(jp) .c_mmi,
+:lang(jp) .c_important,
+:lang(jp) .c_web_app {
+    font-family: "New HD2.1 Medium";
+    font-weight: normal;
+}
+
+:lang(jp) .c_mmi_nobold,
+:lang(jp) .c_crossreference,
+:lang(jp) .c_vr,
+:lang(jp) .c_web_app_nobold {
+    font-family: "New HD2.1";
+}
+
+.description-option {
+    font-size: 26px;
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+
+.c_button,
+.c_web_app {
+    font-weight: bold;
+}
+
+[class*="step-cmd"],
+.step P[class*="step-cmd-description"],
+.description-safety {
+    /* font-size: 18px; */
+    font-size: 1.125rem;
+}
+
+.ul1-safety {
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+[class*="step-cmd"]>.c_mmi {
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.c_below_description {
+    /* font-size: 12px;
+    font-size: 0.75rem; */
+    font-weight: bold;
+    color: #666;
+}
+
+.step ul,
+.step ol,
+.step P {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.description-caution-warning {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.step>li:before {
+    font-size: 26px;
+    font-size: 1.625rem;
+    top: -6px;
+}
+
+.color>li:before {
+    font-size: 16px;
+    font-size: 1rem;
+    top: 5px;
+}
+
+p.heading2-appendix {
+    font-weight: bold;
+}
+
+.description-faq {
+    font-size: 26px;
+    font-size: 1.625rem;
+}
+
+.Heading1-Below,
+.c_below_heading {
+    font-size: 19px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #666;
+}
+
+.sect .c_below_heading {
+    font-size: 16px;
+    font-size: 1rem;
+    color: inherit;
+    display: none;
+}
+
+.heading3 .c_below_heading {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.table_symbol-vertical .c_sign {
+    font-family: 'Noto Sans Med';
+    font-weight: 500;
+    font-size: 24px;
+}
+:lang(jp) .table_symbol-vertical .c_sign {
+    font-family: "NotoSansCJKjp-Medium";
+}
+:lang(bn) .table_symbol-vertical .c_sign {
+	font-family: "Noto Sans Bengali";
+}
+:lang(hi) .table_symbol-vertical .c_sign {
+	font-family: "Nirmala UI";
+}
+:lang(mr) .table_symbol-vertical .c_sign {
+	font-family: "Nirmala UI";
+}
+:lang(te) .table_symbol-vertical .c_sign {
+	font-family: "Nirmala UI";
+}
+:lang(ta) .table_symbol-vertical .c_sign {
+	font-family: "Noto Sans Tamil";
+}
+:lang(gu) .table_symbol-vertical .c_sign {
+	font-family: "Noto Sans Gujarati";
+}
+:lang(kn) .table_symbol-vertical .c_sign {
+	font-family: "Noto Sans Kannada";
+}
+:lang(or) .table_symbol-vertical .c_sign {
+	font-family: "Nirmala UI";
+}
+:lang(ml) .table_symbol-vertical .c_sign {
+	font-family: "Nirmala UI";
+}
+:lang(pa) .table_symbol-vertical .c_sign {
+	font-family: "Noto Sans Gurmukhi";
+}
+
+.table_symbol .c_sign {
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+.table_icon-heading .heading2-appendix {
+    font-size: 22px;
+    font-size: 1.375rem;
+}
+
+@media screen and (max-width:767px) {
+    .header_wrap h1,
+    .head_tit {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+    .description-option {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .cover_list li {
+        /* height: 12.468057vw; */
+        height: 17.468057vw;
+    }
+
+    html[lang="es"] .cover_list li {
+        height: 20.468057vw;
+    }
+
+    html[lang="ru"] .cover_list li,
+    html[lang="ro"] .cover_list li {
+        height: 21.468057vw;
+    }
+
+    .cover .model {
+        font-size: 28px;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    h1, .Heading2-APPLINK > .c_change_colorh1 {
+        font-size: 30px;
+        font-size: 1.875rem;
+    }
+
+    h2 {
+        font-size: 22px;
+        font-size: 1.375rem;
+    }
+
+    .cover .model {
+        font-size: 25px;
+        font-size: 1.6rem;
+    }
+    .cover_list li {
+        height: 35.65vw;
+        margin: 0 3% 3% 0;
+        width: 48.5%;
+    }
+
+    #view_toc .chapter_text2 {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+    .caution_txt {
+        line-height: 130%;
+        font-size: 12px;
+        font-size: 0.75rem;
+    }
+    .footer_wrap {
+        font-size: 11px;
+        font-size: 0.6875rem;
+    }
+    #gototop {
+        width: 40h 40px;
+    }
+
+    html[lang="ru"] .cover_list li,
+    html[lang="ro"] .cover_list li,
+    html[lang="it"] .cover_list li, 
+    html[lang="sk"] .cover_list li, 
+    html[lang="cz"] .cover_list li {
+        height: 40.65vw;
+    }
+
+    html[lang="el"] .cover_list li {
+        height: 42.65vw;
+    }
+
+
+}
+
+@media screen and (max-width: 360px){
+    .cover .model {
+        font-size: 20px;
+        font-size: 1.3rem;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    html[lang="sk"] .cover_list li, 
+    html[lang="el"] .cover_list li {
+        height: 44.65vw;
+    }
+
+    html[lang="ru"] .cover_list li,
+    html[lang="ro"] .cover_list li,
+    html[lang="cz"] .cover_list li {
+        height: 42.65vw;
+    }
+}

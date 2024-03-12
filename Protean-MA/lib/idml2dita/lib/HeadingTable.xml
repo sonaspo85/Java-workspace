@@ -1,0 +1,1102 @@
+<root>
+	<item chapter="Key features" en="Key features" ko="주요 기능"/>
+	<item chapter="Getting started" en="Getting started" ko="시작하기"/>
+	<item chapter="Getting started" en="Read me first" ko="사용하기 전에"/>
+	<item chapter="Getting started" en="Maintaining water and dust resistance" ko="생활방수 및 방진 기능 주의 사항"/>
+	<item chapter="Getting started" en="Instructional icons" ko="표기된 기호 설명"/>
+	<item chapter="Getting started" en="Device overheating situations and solutions" ko="제품에서 열이 나는 경우와 조치 방법"/>
+	<item chapter="Getting started" en="When the device heats up while charging the battery" ko="배터리 충전 중 열이 나는 경우"/>
+	<item chapter="Getting started" en="When the device heats up during use" ko="제품 사용 중 열이 나는 경우"/>
+	<item chapter="Getting started" en="Precautions for device overheating" ko="제품 과열에 관한 주의 사항"/>
+	<item chapter="Getting started" en="Precautions for operating environment" ko="제품 사용 환경 주의 사항"/>
+	<item chapter="Getting started" en="About personal information and device loss" ko="개인 정보 및 제품 분실 시 피해 방지 설정"/>
+	<item chapter="Getting started" en="Securing the personal information and data" ko="개인 정보 및 데이터 보호"/>
+	<item chapter="Getting started" en="Backing up the data periodically" ko="주기적으로 데이터 백업하기"/>
+	<item chapter="Getting started" en="Setting Find My Device" ko="내 디바이스 찾기 서비스 설정하기"/>
+	<item chapter="Getting started" en="Setting Find My Device" ko="내 기기 찾기 서비스 설정하기"/>
+	<item chapter="Getting started" en="Setting SmartThings Find" ko="SmartThings Find 서비스 설정하기"/>
+	<item chapter="Getting started" en="Device layout and functions" ko="각 부분의 이름과 역할"/>
+	<item chapter="Getting started" en="Package contents" ko="구성품"/>
+	<item chapter="Getting started" en="Device layout" ko="각 부분의 이름"/>
+	<item chapter="Getting started" en="Hard keys" ko="하드웨어 버튼"/>
+	<item chapter="Getting started" en="Setting the Side key" ko="측면 버튼 설정하기"/>
+	<item chapter="Getting started" en="Soft buttons" ko="소프트웨어 버튼"/>
+	<item chapter="Getting started" en="S Pen" ko="S펜"/>
+	<item chapter="Getting started" en="Introduction" ko="S펜 소개"/>
+	<item chapter="Getting started" en="Air command" ko="에어 커맨드"/>
+	<item chapter="Getting started" en="Air command icon" ko="에어 커맨드 아이콘"/>
+	<item chapter="Getting started" en="Battery" ko="배터리"/>
+	<item chapter="Getting started" en="Installing the battery" ko="배터리 분리형 모델"/>
+	<item chapter="Getting started" en="Removing the battery" ko="배터리 분리하기"/>
+	<item chapter="Getting started" en="Charging the battery" ko="배터리 충전하기"/>
+	<item chapter="Getting started" en="Charging other devices" ko="다른 기기 충전하기"/>
+	<item chapter="Getting started" en="Reducing the battery consumption" ko="배터리 사용 시간을 늘리려면"/>
+	<item chapter="Getting started" en="Battery charging tips and precautions" ko="배터리 충전 시 알아두기"/>
+	<item chapter="Getting started" en="Fast charging" ko="고속 충전하기"/>
+	<item chapter="Getting started" en="Advanced charging" ko="가속 충전하기"/>
+	<item chapter="Getting started" en="Increasing the charging speed" ko="충전 속도 높이기"/>
+	<item chapter="Getting started" en="Super fast charging" ko="초고속 충전하기"/>
+	<item chapter="Getting started" en="Wireless charging" ko="무선 충전하기"/>
+	<item chapter="Getting started" en="Fast wireless charging" ko="고속 무선 충전"/>
+	<item chapter="Getting started" en="Charging the battery" ko="배터리 충전하기"/>
+	<item chapter="Getting started" en="Wireless PowerShare" ko="무선 배터리 공유하기"/>
+	<item chapter="Getting started" en="Setting the limit for power sharing" ko="배터리 공유 중지 한도 설정하기"/>
+	<item chapter="Getting started" en="SIM or USIM card (nano-SIM card)" ko="Nano-SIM 카드"/>
+	<item chapter="Getting started" en="Nano-SIM card and eSIM" ko="Nano-SIM 카드 및 eSIM"/>
+	<item chapter="Getting started" en="Installing the SIM or USIM card" ko="Nano-SIM 카드 삽입하기"/>
+	<item chapter="Getting started" en="Correct card installation" ko="올바른 카드 삽입 위치"/>
+	<item chapter="Getting started" en="Removing the SIM or USIM card" ko="Nano-SIM 카드 분리하기"/>
+	<item chapter="Getting started" en="Activating an eSIM" ko="eSIM 활성화하기"/>
+	<item chapter="Getting started" en="SIM manager" ko="SIM 관리자"/>
+	<item chapter="Getting started" en="Using dual SIM or USIM cards" ko="듀얼 SIM 사용하기"/>
+	<item chapter="Getting started" en="About using Nano-SIM cards" ko="Nano-SIM 카드 사용에 관하여"/>
+	<item chapter="Getting started" en="Activating SIM or USIM cards" ko="SIM 카드 사용하기"/>
+	<item chapter="Getting started" en="Customising SIM or USIM cards" ko="SIM 카드 설정하기"/>
+	<item chapter="Getting started" en="Setting preferred SIM or USIM cards" ko="SIM 카드 우선 순위 설정하기"/>
+	<item chapter="Getting started" en="Memory card (microSD card)" ko="메모리 카드(microSD 카드)"/>
+	<item chapter="Getting started" en="Installing a memory card" ko="메모리 카드 삽입하기"/>
+	<item chapter="Getting started" en="Removing the memory card" ko="메모리 카드 분리하기"/>
+	<item chapter="Getting started" en="Formatting the memory card" ko="메모리 카드 포맷하기"/>
+	<item chapter="Getting started" en="Turning the device on and off" ko="전원 켜기/끄기"/>
+	<item chapter="Getting started" en="Turning the device on" ko="전원 켜기"/>
+	<item chapter="Getting started" en="Turning the device off" ko="전원 끄기"/>
+	<item chapter="Getting started" en="Forcing restart" ko="강제로 제품 다시 시작하기"/>
+	<item chapter="Getting started" en="Emergency mode" ko="긴급 모드"/>
+	<item chapter="Getting started" en="Emergency call" ko="긴급전화"/>
+	<item chapter="Getting started" en="Activating emergency mode" ko="긴급 모드 실행하기"/>
+	<item chapter="Getting started" en="Deactivating emergency mode" ko="긴급 모드 해제하기"/>
+	<item chapter="Getting started" en="Initial setup" ko="제품 초기 설정"/>
+	<item chapter="Getting started" en="Samsung account" ko="삼성 계정"/>
+	<item chapter="Getting started" en="Creating a Samsung account" ko="삼성 계정 만들기"/>
+	<item chapter="Getting started" en="Signing in to your Samsung account" ko="삼성 계정으로 로그인하기"/>
+	<item chapter="Getting started" en="Finding your ID and resetting your password" ko="아이디 찾기 및 비밀번호 재설정하기"/>
+	<item chapter="Getting started" en="Removing your Samsung account" ko="삼성 계정 삭제하기"/>
+	<item chapter="Getting started" en="Transferring data from your previous device (Smart Switch)" ko="이전 기기의 데이터 가져오기(Smart Switch)"/>
+	<item chapter="Getting started" en="Transferring data using a USB cable" ko="USB 케이블로 연결해 데이터 가져오기"/>
+	<item chapter="Getting started" en="Transferring data using a USB connector (USB Type-C)" ko="USB 커넥터(USB Type-C)로 연결해 데이터 가져오기"/>
+	<item chapter="Getting started" en="Transferring data wirelessly" ko="무선으로 연결해 데이터 가져오기"/>
+	<item chapter="Getting started" en="Backing up and restoring data using external storage" ko="외장 메모리에 데이터 백업, 복원하기"/>
+	<item chapter="Getting started" en="Transferring backup data from a computer" ko="컴퓨터와 연결해 백업 데이터 가져오기"/>
+	<item chapter="Getting started" en="Viewing imported data" ko="이전 기기에서 가져온 데이터 확인하기"/>
+	<item chapter="Getting started" en="Understanding the screen" ko="화면 알아두기"/>
+	<item chapter="Getting started" en="Controlling the touchscreen" ko="터치 화면 조작하기"/>
+	<item chapter="Getting started" en="Tapping" ko="누르기"/>
+	<item chapter="Getting started" en="Tapping and holding" ko="길게 누르기"/>
+	<item chapter="Getting started" en="Dragging" ko="드래그하기"/>
+	<item chapter="Getting started" en="Double-tapping" ko="두 번 누르기"/>
+	<item chapter="Getting started" en="Swiping" ko="스크롤하기"/>
+	<item chapter="Getting started" en="Spreading and pinching" ko="오므리고 펼치기"/>
+	<item chapter="Getting started" en="Navigation bar (soft buttons)" ko="내비게이션 바(소프트웨어 버튼)"/>
+	<item chapter="Getting started" en="Hiding the navigation bar" ko="내비게이션 바 숨기기"/>
+	<item chapter="Getting started" en="Turning on the screen using the Home button" ko="홈 버튼 눌러 화면 켜기"/>
+	<item chapter="Getting started" en="Setting the navigation bar" ko="내비게이션 바 설정하기"/>
+	<item chapter="Getting started" en="Home screen and Apps screen" ko="홈 화면과 앱스 화면"/>
+	<item chapter="Getting started" en="Home screen" ko="홈 화면"/>
+	<item chapter="Getting started" en="Switching between Home and Apps screens" ko="홈 화면과 앱스 화면 간 전환하기"/>
+	<item chapter="Getting started" en="Launching Finder" ko="파인더 실행하기"/>
+	<item chapter="Getting started" en="Displaying the screen in landscape mode" ko="가로 모드로 사용하기"/>
+	<item chapter="Getting started" en="Moving items" ko="앱 또는 폴더 이동하기"/>
+	<item chapter="Getting started" en="Creating folders" ko="폴더 추가하기"/>
+	<item chapter="Getting started" en="Editing the Home screen" ko="홈 화면 편집하기"/>
+	<item chapter="Getting started" en="Displaying all apps on the Home screen" ko="홈 화면에 모든 앱 표시하기"/>
+	<item chapter="Getting started" en="Indicator icons" ko="상태 아이콘"/>
+	<item chapter="Getting started" en="Lock screen" ko="잠금 화면"/>
+	<item chapter="Getting started" en="Changing the screen lock method" ko="화면 잠금 방식 변경하기"/>
+	<item chapter="Getting started" en="Screen capture" ko="화면 캡처"/>
+	<item chapter="Getting started" en="How to capture a screenshot" ko="화면 캡처 방법"/>
+	<item chapter="Getting started" en="Notification panel" ko="알림창"/>
+	<item chapter="Getting started" en="Using quick setting buttons" ko="빠른 설정 버튼 사용하기"/>
+	<item chapter="Getting started" en="Controlling media playback" ko="미디어 파일 재생 제어하기"/>
+	<item chapter="Getting started" en="Controlling nearby devices" ko="주변 기기 제어하기"/>
+	<item chapter="Getting started" en="Screen capture and screen record" ko="화면 캡처 및 화면 녹화"/>
+	<item chapter="Getting started" en="Screen capture" ko="화면 캡처"/>
+	<item chapter="Getting started" en="Screen record" ko="화면 녹화"/>
+	<item chapter="Getting started" en="Entering text" ko="문자 입력"/>
+	<item chapter="Getting started" en="Keyboard layout" ko="키보드 화면 살펴보기"/>
+	<item chapter="Getting started" en="Changing the input language" ko="입력 언어 변경하기"/>
+	<item chapter="Getting started" en="Changing the keyboard" ko="키보드 변경하기"/>
+	<item chapter="Getting started" en="Additional keyboard functions" ko="키보드 추가 기능 사용하기"/>
+	<item chapter="Getting started" en="Copying and pasting" ko="텍스트 복사 및 붙여 넣기"/>
+	<item chapter="Getting started" en="Dictionary" ko="사전 기능 사용하기"/>
+	<item chapter="Getting started" en="Signing out of your Samsung account" ko="삼성 계정 로그아웃하기"/>
+	<item chapter="Getting started" en="Wired charging" ko="유선 충전하기"/>
+	<item chapter="Getting started" en="Quick charging" ko="빠르게 충전하기"/>
+	<item chapter="Getting started" en="Setting the limit for power sharing" ko="배터리 공유 한도 설정하기"/>
+	<item chapter="Getting started" en="Edge panel" ko="Edge 패널"/>
+	<item chapter="Getting started" en="Using the S Pen" ko="S펜 사용하기"/>
+	<item chapter="Getting started" en="Charging the S Pen" ko="S펜 충전하기"/>
+	<item chapter="Getting started" en="Portrait mode" ko="인물 사진 모드"/>
+	<item chapter="Getting started" en="Replacing the S Pen nib" ko="펜촉 교체하기"/>
+	<item chapter="Getting started" en="Folded" ko="접어서 보기"/>
+	<item chapter="Getting started" en="Unfolded" ko="펼쳐서 보기"/>
+	<item chapter="Getting started" en="Using the device when folded" ko="접어서 사용하기"/>
+	<item chapter="Getting started" en="Cover screen and Main screen" ko="메인 화면과 커버 화면"/>
+	<item chapter="Getting started" en="Mirroring the Cover screen" ko="커버 화면 미러링하기"/>
+	<item chapter="Getting started" en="Continuing apps on the Cover screen" ko="커버 화면에서 앱 이어서 사용하기"/>
+	<item chapter="Getting started" en="Using your device with one hand" ko="한 손으로 편리하게 사용하기"/>
+
+
+	
+	<item chapter="Applications" en="Apps and features" ko="앱과 기능"/>
+	<item chapter="Applications" en="Applications" ko="애플리케이션"/>
+	<item chapter="Applications" en="Installing or uninstalling apps" ko="앱 설치 및 관리"/>
+	<item chapter="Applications" en="Galaxy Store" ko="Galaxy Store에서 앱 내려받기"/>
+	<item chapter="Applications" en="Galaxy Store" ko="Galaxy Store에서 앱 설치하기"/>
+	<item chapter="Applications" en="Installing apps" ko="앱 내려받기"/>
+	<item chapter="Applications" en="Play Store" ko="Play 스토어에서 앱 내려받기"/>
+	<item chapter="Applications" en="Play Store" ko="Play 스토어에서 앱 설치하기"/>
+	<item chapter="Applications" en="Installing apps" ko="앱 내려받기"/>
+	<item chapter="Applications" en="Managing apps" ko="앱 관리하기"/>
+	<item chapter="Applications" en="Uninstalling or disabling apps" ko="앱 삭제 또는 사용 중지하기"/>
+	<item chapter="Applications" en="Enabling apps" ko="사용 중지한 앱 다시 표시하기"/>
+	<item chapter="Applications" en="Setting app permissions" ko="앱 권한 설정하기"/>
+	<item chapter="Applications" en="S Pen features" ko="S펜 활용"/>
+	<item chapter="Applications" en="Bixby" ko="빅스비"/>
+	<item chapter="Applications" en="Introduction" ko="빅스비 소개"/>
+	<item chapter="Applications" en="Starting Bixby" ko="빅스비 처음 시작하기"/>
+	<item chapter="Applications" en="Starting Bixby" ko="빅스비 시작하기"/>
+	<item chapter="Applications" en="Changing how the Bixby screen is opened" ko="빅스비 화면 실행 방법 변경하기"/>
+	<item chapter="Applications" en="Waking up Bixby using the Power key" ko="전원 버튼으로 빅스비 호출하기"/>
+	<item chapter="Applications" en="Using Bixby" ko="빅스비 사용하기"/>
+	<item chapter="Applications" en="Waking up Bixby using your voice" ko="목소리로 빅스비 호출하기"/>
+	<item chapter="Applications" en="Communicating by typing text" ko="텍스트로 입력하여 대화하기"/>
+	<item chapter="Applications" en="Bixby usages" ko="빅스비 활용 사례"/>
+	<item chapter="Applications" en="Launching apps or services" ko="앱 또는 서비스 실행하기"/>
+	<item chapter="Applications" en="Viewing more ways to use Bixby" ko="더 다양한 활용 방법 보기"/>
+	<item chapter="Applications" en="Bixby Vision" ko="빅스비 비전"/>
+	<item chapter="Applications" en="Introduction" ko="빅스비 비전 소개"/>
+	<item chapter="Applications" en="Launching Bixby Vision" ko="빅스비 비전 실행하기"/>
+	<item chapter="Applications" en="Using Bixby Vision" ko="빅스비 비전 사용하기"/>
+	<item chapter="Applications" en="Searching for wine information" ko="와인 정보 검색하기"/>
+	<item chapter="Applications" en="Translating or extracting text" ko="텍스트 번역 및 추출하기"/>
+	<item chapter="Applications" en="Searching for similar images and related information" ko="유사 이미지 및 관련 정보 검색하기"/>
+	<item chapter="Applications" en="Searching for similar images" ko="유사 이미지 검색하기"/>
+	<item chapter="Applications" en="Searching for shopping information" ko="상품 정보 검색하기"/>
+	<item chapter="Applications" en="Reading QR codes" ko="QR 코드 인식하기"/>
+	<item chapter="Applications" en="Searching for places" ko="장소 검색하기"/>
+	<item chapter="Applications" en="Experiencing various AR features" ko="다양한 AR 기능 체험하기"/>
+	<item chapter="Applications" en="Bixby Home" ko="빅스비 홈"/>
+	<item chapter="Applications" en="Activating Bixby Home" ko="빅스비 홈 활성화하기"/>
+	<item chapter="Applications" en="Opening Bixby Home" ko="빅스비 홈 실행하기"/>
+	<item chapter="Applications" en="Using recommended content on Bixby Home" ko="빅스비 홈에서 추천 콘텐츠 확인하기"/>
+	<item chapter="Applications" en="Editing cards list" ko="카드 목록 편집하기"/>
+	<item chapter="Applications" en="Selecting apps to show as cards" ko="카드로 표시할 앱 선택하기"/>
+	<item chapter="Applications" en="Customising the Bixby Home settings" ko="빅스비 홈 설정하기"/>
+	<item chapter="Applications" en="Bixby Routines" ko="빅스비 루틴"/>
+	<item chapter="Applications" en="Introduction" ko="빅스비 루틴 소개"/>
+	<item chapter="Applications" en="Adding routines" ko="루틴 추가하기"/>
+	<item chapter="Applications" en="Adding recommended routines" ko="자동으로 추천되는 루틴 추가하기"/>
+	<item chapter="Applications" en="Adding routines from the recommendation list" ko="추천 목록에서 루틴 추가하기"/>
+	<item chapter="Applications" en="Adding your own routines" ko="나만의 루틴 추가하기"/>
+	<item chapter="Applications" en="Using routines" ko="루틴 사용하기"/>
+	<item chapter="Applications" en="Running auto routines" ko="자동 루틴 실행하기"/>
+	<item chapter="Applications" en="Running manual routines" ko="수동 루틴 실행하기"/>
+	<item chapter="Applications" en="Viewing running routines" ko="실행 중인 루틴 확인하기"/>
+	<item chapter="Applications" en="Stopping running routines" ko="실행 중인 루틴 중지하기"/>
+	<item chapter="Applications" en="Managing routines" ko="루틴 관리하기"/>
+	<item chapter="Applications" en="Phone" ko="전화"/>
+	<item chapter="Applications" en="Introduction" ko="전화 소개"/>
+	<item chapter="Applications" en="Making calls" ko="전화 걸기"/>
+	<item chapter="Applications" en="Making calls from call logs or contacts list" ko="연락처 및 통화 기록 이용해 전화 걸기"/>
+	<item chapter="Applications" en="Using speed dial" ko="단축 번호로 전화 걸기"/>
+	<item chapter="Applications" en="Making calls from the locked screen" ko="잠금 화면에서 전화 걸기"/>
+	<item chapter="Applications" en="Making calls by searching for nearby places" ko="주변 장소 검색해 전화 걸기"/>
+	<item chapter="Applications" en="Making calls using Yellow Pages" ko="Yellow Pages 이용해 전화 걸기"/>
+	<item chapter="Applications" en="Making an international call" ko="국제전화 걸기"/>
+	<item chapter="Applications" en="Receiving calls" ko="전화 받기"/>
+	<item chapter="Applications" en="Answering a call" ko="전화 받기"/>
+	<item chapter="Applications" en="Rejecting a call" ko="전화 거절하기"/>
+	<item chapter="Applications" en="Missed calls" ko="부재중 전화 확인하기"/>
+	<item chapter="Applications" en="Blocking phone numbers" ko="전화번호 차단하기"/>
+	<item chapter="Applications" en="Viewing caller ID and registered spammer" ko="발신자 및 스팸 번호 확인하기"/>
+	<item chapter="Applications" en="Options during calls" ko="통화 중 기능"/>
+	<item chapter="Applications" en="During a voice call" ko="음성 통화 중 기능 사용하기"/>
+	<item chapter="Applications" en="During a video call" ko="영상 통화 중 기능 사용하기"/>
+	<item chapter="Applications" en="Adding a phone number to Contacts" ko="연락처에 번호 추가하기"/>
+	<item chapter="Applications" en="Adding a phone number to Contacts from the keypad" ko="키패드에서 번호 추가하기"/>
+	<item chapter="Applications" en="Adding a phone number to Contacts from the calls list" ko="최근 통화 목록에서 번호 추가하기"/>
+	<item chapter="Applications" en="Adding a tag to a phone number" ko="전화번호에 태그 추가하기"/>
+	<item chapter="Applications" en="Contacts" ko="연락처"/>
+	<item chapter="Applications" en="Introduction" ko="연락처 소개"/>
+	<item chapter="Applications" en="Adding contacts" ko="연락처 추가하기"/>
+	<item chapter="Applications" en="Creating a new contact" ko="새 연락처 만들기"/>
+	<item chapter="Applications" en="Importing contacts" ko="연락처 가져오기"/>
+	<item chapter="Applications" en="Syncing contacts with your web accounts" ko="계정에 저장된 연락처 동기화하기"/>
+	<item chapter="Applications" en="Creating contacts from Yellow Pages" ko="Yellow Pages에서 연락처 추가하기"/>
+	<item chapter="Applications" en="Searching for contacts" ko="연락처 검색 및 활용하기"/>
+	<item chapter="Applications" en="Sharing contacts" ko="연락처 공유하기"/>
+	<item chapter="Applications" en="Saving and sharing profile" ko="프로필 저장 및 공유하기"/>
+	<item chapter="Applications" en="Creating groups" ko="그룹 추가하기"/>
+	<item chapter="Applications" en="Sending a group message" ko="그룹 메시지 보내기"/>
+	<item chapter="Applications" en="Merging duplicate contacts" ko="중복된 연락처 통합하기"/>
+	<item chapter="Applications" en="Deleting contacts" ko="연락처 삭제하기"/>
+	<item chapter="Applications" en="Messages" ko="메시지"/>
+	<item chapter="Applications" en="Introduction" ko="메시지 소개"/>
+	<item chapter="Applications" en="Sending messages" ko="메시지 보내기"/>
+	<item chapter="Applications" en="Viewing messages" ko="메시지 확인하기"/>
+	<item chapter="Applications" en="Sorting messages" ko="메시지 분류하기"/>
+	<item chapter="Applications" en="Blocking unwanted messages" ko="스팸 번호 차단하기"/>
+	<item chapter="Applications" en="Setting the message notification" ko="메시지 알림 설정하기"/>
+	<item chapter="Applications" en="Setting a message reminder" ko="다시 알림 설정하기"/>
+	<item chapter="Applications" en="Deleting messages" ko="메시지 삭제하기"/>
+	<item chapter="Applications" en="Changing message settings" ko="메시지 설정하기"/>
+	<item chapter="Applications" en="Using chatting plus" ko="채팅+ 사용하기"/>
+	<item chapter="Applications" en="Internet" ko="인터넷"/>
+	<item chapter="Applications" en="Samsung Internet" ko="삼성 인터넷"/>
+	<item chapter="Applications" en="Introduction" ko="인터넷 소개"/>
+	<item chapter="Applications" en="Browsing webpages" ko="인터넷 실행하기"/>
+	<item chapter="Applications" en="Using secret mode" ko="비밀 모드 사용하기"/>
+	<item chapter="Applications" en="Activating secret mode" ko="비밀 모드 실행하기"/>
+	<item chapter="Applications" en="Changing security settings" ko="보안 설정 변경하기"/>
+	<item chapter="Applications" en="Deactivating secret mode" ko="비밀 모드 해제하기"/>
+	<item chapter="Applications" en="Email" ko="이메일"/>
+	<item chapter="Applications" en="Setting up email accounts" ko="이메일 계정 등록하기"/>
+	<item chapter="Applications" en="Sending emails" ko="이메일 보내기"/>
+	<item chapter="Applications" en="Reading emails" ko="이메일 확인하기"/>
+	<item chapter="Applications" en="Camera" ko="카메라"/>
+	<item chapter="Applications" en="Introduction" ko="카메라 소개"/>
+	<item chapter="Applications" en="Launching Camera" ko="카메라 실행하기"/>
+	<item chapter="Applications" en="Taking photos" ko="촬영하기"/>
+	<item chapter="Applications" en="Using zoom features" ko="줌 기능 사용하기"/>
+	<item chapter="Applications" en="Using the camera button" ko="촬영 버튼 활용하기"/>
+	<item chapter="Applications" en="Options for current shooting mode" ko="모드별 촬영 옵션"/>
+	<item chapter="Applications" en="Options for current shooting mode" ko="촬영 옵션"/>
+	<item chapter="Applications" en="Locking the focus (AF) and exposure (AE)" ko="초점(AF) 및 노출(AE) 고정하기"/>
+	<item chapter="Applications" en="Changing shooting modes" ko="촬영 모드 변경하기"/>
+	<item chapter="Applications" en="Selecting a camera for shooting" ko="촬영할 카메라 선택하기"/>
+	<item chapter="Applications" en="Photo mode (Intelligent camera)" ko="사진 모드(인텔리전트 카메라)"/>
+	<item chapter="Applications" en="Photo mode" ko="사진 모드"/>
+	<item chapter="Applications" en="Taking high-resolution photos" ko="고해상도로 사진 촬영하기"/>
+	<item chapter="Applications" en="Scene optimiser" ko="장면별 최적 촬영"/>
+	<item chapter="Applications" en="Bright night" ko="나이트 샷"/>
+	<item chapter="Applications" en="Shot suggestions" ko="촬영 구도 가이드"/>
+	<item chapter="Applications" en="Shot suggestions" ko="촬영 구도 추천"/>
+	<item chapter="Applications" en="Taking selfies" ko="셀프 샷 촬영하기"/>
+	<item chapter="Applications" en="Taking selfies" ko="셀피 촬영하기"/>
+	<item chapter="Applications" en="Taking clear close-up pictures" ko="가까운 거리에서 선명하게 촬영하기"/>
+	<item chapter="Applications" en="Applying filter and beauty effects" ko="필터 및 뷰티 효과 적용하기"/>
+	<item chapter="Applications" en="Applying filter and beauty effects" ko="필터 및 얼굴 리터칭 효과 적용하기"/>
+	<item chapter="Applications" en="Creating filters" ko="나만의 필터 만들기"/>
+	<item chapter="Applications" en="Locking the focus (AF) and exposure (AE)" ko="초점(AF) 및 노출(AE) 고정하기"/>
+	<item chapter="Applications" en="Video mode" ko="동영상 모드"/>
+	<item chapter="Applications" en="Recording high-resolution videos" ko="고화질로 동영상 촬영하기"/>
+	<item chapter="Applications" en="Stabilising videos (Super steady)" ko="흔들림 보정하기(슈퍼스테디)"/>
+	<item chapter="Applications" en="Director’s view mode" ko="디렉터스뷰 모드"/>
+	<item chapter="Applications" en="Controlling the picture-in-picture window while playing the video" ko="재생 시 화면 속 화면 창 제어하기"/>
+	<item chapter="Applications" en="Changing the screen ratio for a video" ko="동영상 비율 설정하기"/>
+	<item chapter="Applications" en="Single take mode" ko="싱글테이크 모드"/>
+	<item chapter="Applications" en="Fun mode" ko="FUN 모드"/>
+	<item chapter="Applications" en="Pro mode" ko="프로 모드"/>
+	<item chapter="Applications" en="Pro mode / Pro video mode" ko="프로 모드/프로 동영상 모드"/>
+	<item chapter="Applications" en="Available options" ko="설정할 수 있는 옵션"/>
+	<item chapter="Applications" en="Recording high-resolution pro videos" ko="고화질로 프로 동영상 촬영하기"/>
+	<item chapter="Applications" en="Separating the focus area and the exposure area" ko="초점(AF) 영역과 노출(AE) 영역 분리하기"/>
+	<item chapter="Applications" en="Panorama mode" ko="파노라마 모드"/>
+	<item chapter="Applications" en="Food mode" ko="음식 모드"/>
+	<item chapter="Applications" en="Night mode" ko="야간 모드"/>
+	<item chapter="Applications" en="Live focus mode" ko="라이브 포커스 모드"/>
+	<item chapter="Applications" en="Live focus mode / Live focus video mode" ko="라이브 포커스 모드/라이브 포커스 동영상 모드"/>
+	<item chapter="Applications" en="Portrait mode / Portrait video mode" ko="인물 사진/인물 동영상 모드"/>
+	<item chapter="Applications" en="Highlighting subjects using the Live focus feature" ko="라이브 포커스로 인물이 돋보이게 찍기"/>
+	<item chapter="Applications" en="Editing the background of the Live focus photos" ko="배경 효과 변경하기"/>
+	<item chapter="Applications" en="배경 흐리기 효과 조절하기" ko="SW 라이브 포커스도 MMI가 동일하기 때문에 헤딩명은 변수 관리하지 않겠음"/>
+	<item chapter="Applications" en="Live focus video mode" ko="라이브 포커스 동영상 모드"/>
+	<item chapter="Applications" en="Super Slow-mo mode" ko="슈퍼 슬로우 모션 모드"/>
+	<item chapter="Applications" en="Recording super slow motion videos" ko="슈퍼 슬로우 모션 동영상 촬영하기"/>
+	<item chapter="Applications" en="Recording super slow motion videos automatically" ko="슈퍼 슬로우 모션 동영상 자동으로 촬영하기"/>
+	<item chapter="Applications" en="Playing super slow motion videos" ko="슈퍼 슬로우 모션 동영상 재생하기"/>
+	<item chapter="Applications" en="Editing super slow motion videos" ko="슈퍼 슬로우 모션 동영상 편집하기"/>
+	<item chapter="Applications" en="Slow motion mode" ko="슬로우 모션 모드"/>
+	<item chapter="Applications" en="Macro mode" ko="접사 모드"/>
+	<item chapter="Applications" en="Hyperlapse mode" ko="하이퍼랩스 모드"/>
+	<item chapter="Applications" en="HDR mode" ko="HDR 모드"/>
+	<item chapter="Applications" en="Stickers mode" ko="스티커 모드"/>
+	<item chapter="Applications" en="Continuous shot mode" ko="연속 촬영 모드"/>
+	<item chapter="Applications" en="Sports mode" ko="스포츠 모드"/>
+	<item chapter="Applications" en="Wide selfie mode" ko="와이드 셀프 샷 모드"/>
+	<item chapter="Applications" en="Customising camera settings" ko="카메라 설정하기"/>
+	<item chapter="Applications" en="Camera settings" ko="카메라 설정"/>
+	<item chapter="Applications" en="Intelligent features" ko="인텔리전트 기능"/>
+	<item chapter="Applications" en="Pictures" ko="사진"/>
+	<item chapter="Applications" en="Videos" ko="동영상"/>
+	<item chapter="Applications" en="Useful features" ko="유용한 기능"/>
+	<item chapter="Applications" en="Gallery" ko="갤러리"/>
+	<item chapter="Applications" en="Introduction" ko="갤러리 소개"/>
+	<item chapter="Applications" en="Using Gallery" ko="갤러리 사용하기"/>
+	<item chapter="Applications" en="Grouping similar images" ko="유사한 이미지 모아 보기"/>
+	<item chapter="Applications" en="Grouping similar images" ko="비슷한 이미지 모아 보기"/>
+	<item chapter="Applications" en="Grouping similar images" ko="비슷한 이미지 모으기"/>
+	<item chapter="Applications" en="Creating movies" ko="영화 만들기"/>
+	<item chapter="Applications" en="Searching for images" ko="사진 검색하기"/>
+	<item chapter="Applications" en="Viewing images" ko="사진 보기"/>
+	<item chapter="Applications" en="Cropping images by enlarging an area" ko="확대 이미지 자르기"/>
+	<item chapter="Applications" en="Cropping enlarged images" ko="확대한 이미지 자르기"/>
+	<item chapter="Applications" en="Editing the background of Live focus photos" ko="라이브 포커스 사진 배경 효과 변경하기"/>
+	<item chapter="Applications" en="Editing the background blur level of Live focus photos" ko="라이브 포커스 배경 흐림 조절하기"/>
+	<item chapter="Applications" en="Sending a live message" ko="라이브 메시지 보내기"/>
+	<item chapter="Applications" en="Viewing videos" ko="동영상 보기"/>
+	<item chapter="Applications" en="Viewing brighter and clearer videos" ko="동영상 밝고 선명하게 보기"/>
+	<item chapter="Applications" en="Using the Video enhancer feature" ko="동영상 향상 기능 사용하기"/>
+	<item chapter="Applications" en="Viewing the details of images and videos" ko="사진 및 동영상 상세 정보 확인하기"/>
+	<item chapter="Applications" en="Viewing photos or videos by category" ko="사진 및 동영상 유형별로 확인하기"/>
+	<item chapter="Applications" en="Viewing albums" ko="앨범 보기"/>
+	<item chapter="Applications" en="Albums" ko="앨범"/>
+	<item chapter="Applications" en="Hiding albums" ko="앨범 숨기기"/>
+	<item chapter="Applications" en="Creating albums" ko="앨범 만들기"/>
+	<item chapter="Applications" en="Moving photos and videos to albums" ko="앨범으로 사진 및 동영상 이동하기"/>
+	<item chapter="Applications" en="Deleting albums" ko="앨범 삭제하기"/>
+	<item chapter="Applications" en="Creating album groups" ko="앨범 그룹 만들기"/>
+	<item chapter="Applications" en="Viewing stories" ko="스토리 보기"/>
+	<item chapter="Applications" en="Stories" ko="스토리"/>
+	<item chapter="Applications" en="Creating stories" ko="스토리 만들기"/>
+	<item chapter="Applications" en="Editing stories" ko="스토리 편집하기"/>
+	<item chapter="Applications" en="Deleting stories" ko="스토리 삭제하기"/>
+	<item chapter="Applications" en="Syncing images and videos" ko="사진 및 동영상 동기화하기"/>
+	<item chapter="Applications" en="Deleting images or videos" ko="사진 및 동영상 삭제하기"/>
+	<item chapter="Applications" en="Using the recycle bin feature" ko="휴지통 사용하기"/>
+	<item chapter="Applications" en="AR Zone" ko="AR 존"/>
+	<item chapter="Applications" en="Introduction" ko="AR 존 소개"/>
+	<item chapter="Applications" en="Launching AR Zone" ko="AR 존 실행하기"/>
+	<item chapter="Applications" en="Creating AR Emoji" ko="AR 이모지 만들기"/>
+	<item chapter="Applications" en="Creating an emoji" ko="이모지 만들기"/>
+	<item chapter="Applications" en="Deleting an emoji" ko="이모지 삭제하기"/>
+	<item chapter="Applications" en="AR Emoji Camera" ko="AR 이모지 카메라"/>
+	<item chapter="Applications" en="Capturing photos or videos with your emojis" ko="이모지로 촬영하기"/>
+	<item chapter="Applications" en="Capturing photos or videos with character emojis" ko="캐릭터 이모지로 촬영하기"/>
+	<item chapter="Applications" en="AR Emoji Stickers" ko="AR 이모지 스티커"/>
+	<item chapter="Applications" en="Creating your own stickers" ko="나만의 스티커 만들기"/>
+	<item chapter="Applications" en="Using your emoji stickers in chats" ko="이모지 스티커로 대화하기"/>
+	<item chapter="Applications" en="Deleting emoji stickers" ko="이모지 스티커 삭제하기"/>
+	<item chapter="Applications" en="AR Emoji Studio" ko="AR 이모지 스튜디오"/>
+	<item chapter="Applications" en="Designing your emoji's clothes" ko="이모지 의상 디자인하기"/>
+	<item chapter="Applications" en="AR Doodle" ko="AR 두들"/>
+	<item chapter="Applications" en="AR Doodle" ko="AR 두들 모드"/>
+	<item chapter="Applications" en="Deco Pic" ko="데코픽"/>
+	<item chapter="Applications" en="Make up" ko="메이크업"/>
+	<item chapter="Applications" en="Styling" ko="스타일링"/>
+	<item chapter="Applications" en="Quick Measure" ko="간편 측정"/>
+	<item chapter="Applications" en="Measuring manually" ko="수동으로 측정하기"/>
+	<item chapter="Applications" en="Always on display" ko="Always On Display(올웨이즈 온 디스플레이, 꺼진 화면에 정보 표시)"/>
+	<item chapter="Applications" en="Setting how to display the Always On Display" ko="Always On Display 화면 표시 방식 설정하기"/>
+	<item chapter="Applications" en="Opening notifications on the Always On Display" ko="Always On Display 화면에서 알림 확인하기"/>
+	<item chapter="Applications" en="Controlling music playback on the Always On Display" ko="Always On Display 화면에서 음악 제어하기"/>
+	<item chapter="Applications" en="Displaying an image to the Always On Display" ko="Always On Display 화면에 이미지 추가하기"/>
+	<item chapter="Applications" en="Deactivating the Always On Display feature" ko="Always On Display 기능 끄기"/>
+	<item chapter="Applications" en="Pinning a memo on the Always On Display" ko="Always On Display 화면에 메모 고정하기"/>
+	<item chapter="Applications" en="Edge screen" ko="Edge screen(엣지 스크린)"/>
+	<item chapter="Applications" en="Introduction" ko="Edge screen 소개"/>
+	<item chapter="Applications" en="Using the Edge panels" ko="Edge 패널 사용하기"/>
+	<item chapter="Applications" en="Editing the Edge panels" ko="Edge 패널 설정하기"/>
+	<item chapter="Applications" en="Setting the Edge panel handle" ko="Edge 패널 핸들 설정하기"/>
+	<item chapter="Applications" en="Apps edge" ko="Apps edge(앱스 엣지)"/>
+	<item chapter="Applications" en="Editing the Apps edge panel" ko="Apps edge 패널 편집하기"/>
+	<item chapter="Applications" en="Adding app pairs" ko="App pair 설정하기"/>
+	<item chapter="Applications" en="Edge lighting" ko="Edge lighting(엣지 라이팅)"/>
+	<item chapter="Applications" en="Managing notifications to display as the edge lighting" ko="Edge lighting으로 알림 받을 앱 설정하기"/>
+	<item chapter="Applications" en="Viewing notifications via the pop-up window" ko="팝업 창으로 알림 확인하기"/>
+	<item chapter="Applications" en="Multi window" ko="멀티윈도우"/>
+	<item chapter="Applications" en="Multi window (Using multiple apps at once)" ko="멀티윈도우(여러 앱 동시에 사용하기)"/>
+	<item chapter="Applications" en="Introduction" ko="멀티윈도우 소개"/>
+	<item chapter="Applications" en="Split screen view" ko="분할 화면 보기"/>
+	<item chapter="Applications" en="Split screen view" ko="분할 화면으로 열기"/>
+	<item chapter="Applications" en="Launching apps from the Edge panel" ko="Edge 패널에서 실행하기"/>
+	<item chapter="Applications" en="Adding app pairs" ko="앱 조합 추가하기"/>
+	<item chapter="Applications" en="Using the Multi window tray" ko="멀티윈도우 트레이 사용하기"/>
+	<item chapter="Applications" en="Editing the Multi window tray" ko="멀티윈도우 트레이 편집하기"/>
+	<item chapter="Applications" en="Adjusting the window size" ko="창 크기 조절하기"/>
+	<item chapter="Applications" en="Adding app combos" ko="앱 콤보 설정하기"/>
+	<item chapter="Applications" en="Pop-up view" ko="팝업 화면 보기"/>
+	<item chapter="Applications" en="Pop-up view" ko="팝업 화면으로 열기"/>
+	<item chapter="Applications" en="Moving pop-up windows" ko="팝업 창 위치 이동하기"/>
+	<item chapter="Applications" en="Samsung Daily" ko="Samsung Daily(삼성 데일리)"/>
+	<item chapter="Applications" en="Smart Manager" ko="글로벌은 설정 하위 Device care로 제공 > 설정쪽에 문장 정리되었습니다."/>
+	<item chapter="Applications" en="Samsung Wallet" ko="Samsung Wallet(삼성 월렛)"/>
+	<item chapter="Applications" en="Samsung Pay" ko="Samsung Pay(삼성 페이)"/>
+	<item chapter="Applications" en="Introduction" ko="Samsung Pay 소개"/>
+	<item chapter="Applications" en="Introduction" ko="Samsung Pay 사용하기"/>
+	<item chapter="Applications" en="Setting up Samsung Pay" ko="초기 설정하기"/>
+	<item chapter="Applications" en="Registering cards" ko="카드 등록하기"/>
+	<item chapter="Applications" en="Registering cards" ko="카드 추가하기"/>
+	<item chapter="Applications" en="Making payments" ko="결제하기"/>
+	<item chapter="Applications" en="Cancelling payments" ko="결제 취소하기"/>
+	<item chapter="Applications" en="Verifying identity" ko="본인 인증하기"/>
+	<item chapter="Applications" en="Using tickets" ko="티켓 사용하기"/>
+	<item chapter="Applications" en="Changing the Samsung Pay settings" ko="사용 환경 설정하기"/>
+	<item chapter="Applications" en="Samsung Pay Mini" ko="Samsung Pay 미니"/>
+	<item chapter="Applications" en="Samsung Health" ko="Samsung Health(삼성 헬스)"/>
+	<item chapter="Applications" en="Introduction" ko="삼성 헬스 소개"/>
+	<item chapter="Applications" en="Using Samsung Health" ko="삼성 헬스 사용하기"/>
+	<item chapter="Applications" en="Together" ko="투게더"/>
+	<item chapter="Applications" en="Steps" ko="걸음 수"/>
+	<item chapter="Applications" en="Heart rate" ko="심박수"/>
+	<item chapter="Applications" en="Additional information" ko="기타 안내"/>
+	<item chapter="Applications" en="Samsung Members" ko="Samsung Members(삼성 멤버스)"/>
+	<item chapter="Applications" en="Samsung Notes" ko="Samsung Notes(삼성 노트)"/>
+	<item chapter="Applications" en="Introduction" ko="Samsung Notes 소개"/>
+	<item chapter="Applications" en="Creating notes" ko="노트 작성하기"/>
+	<item chapter="Applications" en="Deleting notes" ko="노트 삭제하기"/>
+	<item chapter="Applications" en="Composing notes with handwriting" ko="손글씨 입력하기"/>
+	<item chapter="Applications" en="Using the eraser" ko="지우개 사용하기"/>
+	<item chapter="Applications" en="Recording voice to notes" ko="노트에 음성 녹음하기"/>
+	<item chapter="Applications" en="Adding memos to PDF files" ko="PDF 파일 위에 메모하기"/>
+	<item chapter="Applications" en="Clipping content" ko="콘텐츠 스크랩하기"/>
+	<item chapter="Applications" en="PENUP" ko="PENUP(펜업)"/>
+	<item chapter="Applications" en="Galaxy Wearable" ko="Galaxy Wearable(갤럭시 웨어러블)"/>
+	<item chapter="Applications" en="Calendar" ko="캘린더"/>
+	<item chapter="Applications" en="Creating events" ko="일정 등록하기"/>
+	<item chapter="Applications" en="Creating events" ko="일정 추가하기"/>
+	<item chapter="Applications" en="Creating reminders" ko="리마인더 등록하기"/>
+	<item chapter="Applications" en="Syncing events with your accounts" ko="일정 동기화하기"/>
+	<item chapter="Applications" en="Reminder" ko="리마인더"/>
+	<item chapter="Applications" en="Reminder (Receiving notifications for to-do items)" ko="리마인더(할 일 알림 받기)"/>
+	<item chapter="Applications" en="Starting Reminder" ko="리마인더 시작하기"/>
+	<item chapter="Applications" en="Starting Reminder from Bixby Home" ko="빅스비 홈에서 리마인더 시작하기"/>
+	<item chapter="Applications" en="Starting Reminder from Calendar" ko="캘린더에서 리마인더 시작하기"/>
+	<item chapter="Applications" en="Creating reminders" ko="리마인더 만들기"/>
+	<item chapter="Applications" en="Checking reminder notifications" ko="리마인더 알림 받기"/>
+	<item chapter="Applications" en="Viewing the reminders list" ko="리마인더 목록 확인하기"/>
+	<item chapter="Applications" en="Editing reminder details" ko="리마인더 내용 편집하기"/>
+	<item chapter="Applications" en="Completing reminders" ko="리마인더 완료하기"/>
+	<item chapter="Applications" en="Restoring reminders" ko="완료된 리마인더 복원하기"/>
+	<item chapter="Applications" en="Deleting reminders" ko="리마인더 삭제하기"/>
+	<item chapter="Applications" en="Samsung Flow" ko="Samsung Flow"/>
+	<item chapter="Applications" en="Introduction" ko="Samsung Flow 소개"/>
+	<item chapter="Applications" en="Connecting your tablet and smartphone" ko="태블릿과 스마트폰 연결하기"/>
+	<item chapter="Applications" en="Sharing mobile data connection" ko="모바일 데이터 공유"/>
+	<item chapter="Applications" en="Checking notifications on your tablet" ko="태블릿에서 스마트폰 알림 확인하기"/>
+	<item chapter="Applications" en="Sharing contents" ko="기기 간 콘텐츠 공유하기"/>
+	<item chapter="Applications" en="Viewing assistant cards" ko="알림 카드 확인하기"/>
+	<item chapter="Applications" en="Samsung Video" ko="Samsung Video"/>
+	<item chapter="Applications" en="DMB" ko="DMB"/>
+	<item chapter="Applications" en="Playing through the speaker" ko="스피커로 소리 듣기"/>
+	<item chapter="Applications" en="Radio" ko="라디오"/>
+	<item chapter="Applications" en="Listening to the FM radio" ko="FM 라디오 듣기"/>
+	<item chapter="Applications" en="Playing through the speaker" ko="스피커로 소리 듣기"/>
+	<item chapter="Applications" en="Scanning radio stations" ko="방송 검색하기"/>
+	<item chapter="Applications" en="Voice Recorder" ko="음성 녹음"/>
+	<item chapter="Applications" en="Introduction" ko="음성 녹음 소개"/>
+	<item chapter="Applications" en="Making voice recordings" ko="녹음하기"/>
+	<item chapter="Applications" en="Changing the recording mode" ko="녹음 모드 변경하기"/>
+	<item chapter="Applications" en="Playing selected voice recordings" ko="녹음 파일 선택적으로 재생하기"/>
+	<item chapter="Applications" en="My Files" ko="내 파일"/>
+	<item chapter="Applications" en="My Files (Checking and managing the files)" ko="내 파일(파일 확인 및 관리하기)"/>
+	<item chapter="Applications" en="Clock" ko="시계"/>
+	<item chapter="Applications" en="Introduction" ko="시계 소개"/>
+	<item chapter="Applications" en="Alarm" ko="알람"/>
+	<item chapter="Applications" en="Setting alarms" ko="알람 설정하기"/>
+	<item chapter="Applications" en="Stopping alarms" ko="알람 해제하기"/>
+	<item chapter="Applications" en="Deleting alarms" ko="알람 삭제하기"/>
+	<item chapter="Applications" en="World clock" ko="세계시각"/>
+	<item chapter="Applications" en="Creating clocks" ko="세계시각 추가하기"/>
+	<item chapter="Applications" en="Deleting clocks" ko="세계시각 삭제하기"/>
+	<item chapter="Applications" en="Stopwatch" ko="스톱워치"/>
+	<item chapter="Applications" en="Timer" ko="타이머"/>
+	<item chapter="Applications" en="Calculator" ko="계산기"/>
+	<item chapter="Applications" en="Purchasing and reserving data packages" ko="데이터 패키지 구매 및 예약하기"/>
+	<item chapter="Applications" en="Activating data packages" ko="데이터 패키지 켜기"/>
+	<item chapter="Applications" en="Deactivating data packages" ko="데이터 패키지 끄기"/>
+	<item chapter="Applications" en="Game Launcher" ko="게임런처"/>
+	<item chapter="Applications" en="Introduction" ko="게임런처 소개"/>
+	<item chapter="Applications" en="Using Game Launcher" ko="게임런처 사용하기"/>
+	<item chapter="Applications" en="Removing a game from Game Launcher" ko="게임런처에서 게임 삭제하기"/>
+	<item chapter="Applications" en="Changing the performance mode" ko="게임 성능 조정하기"/>
+	<item chapter="Applications" en="Game Booster" ko="게임 부스터"/>
+	<item chapter="Applications" en="Game Booster (Configuring your gaming environment)" ko="게임 부스터(게임 환경 설정하기)"/>
+	<item chapter="Applications" en="Introduction" ko="게임 부스터 소개"/>
+	<item chapter="Applications" en="Using Game Booster" ko="게임 부스터 사용하기"/>
+	<item chapter="Applications" en="Setting how to display incoming calls and notifications during games" ko="게임 중 전화 및 알림 표시 설정하기"/>
+	<item chapter="Applications" en="Launching apps in pop-up windows while playing games" ko="게임 중 팝업 창으로 앱 실행하기"/>
+	<item chapter="Applications" en="Samsung Kids" ko="Samsung Kids(삼성 키즈)"/>
+	<item chapter="Applications" en="Introduction" ko="Samsung Kids 소개"/>
+	<item chapter="Applications" en="Starting Kids Home" ko="키즈 홈 시작하기"/>
+	<item chapter="Applications" en="Using Samsung Kids" ko="Samsung Kids 사용하기"/>
+	<item chapter="Applications" en="Using parental control features" ko="Samsung Kids 아이보호 기능 사용하기"/>
+	<item chapter="Applications" en="Closing Samsung Kids" ko="Samsung Kids 종료하기"/>
+	<item chapter="Applications" en="SmartThings" ko="SmartThings(스마트 싱스)"/>
+	<item chapter="Applications" en="SmartThings" ko="SmartThings"/>
+	<item chapter="Applications" en="Introduction" ko="SmartThings 소개"/>
+	<item chapter="Applications" en="Connecting to nearby devices" ko="주변 기기와 연결하기"/>
+	<item chapter="Applications" en="Using home appliances, TVs, and IoT products" ko="스마트 가전, TV, IoT 기기 사용하기"/>
+	<item chapter="Applications" en="Connecting devices" ko="기기 연결하기"/>
+	<item chapter="Applications" en="Viewing and controlling connected devices" ko="연결된 기기 확인 및 제어하기"/>
+	<item chapter="Applications" en="Adding devices and scenes by locations" ko="장소별로 기기 및 모드 추가하기"/>
+	<item chapter="Applications" en="Adding locations" ko="장소 추가하기"/>
+	<item chapter="Applications" en="Adding scenes" ko="모드 추가하기"/>
+	<item chapter="Applications" en="Adding automations" ko="자동 실행 규칙 추가하기"/>
+	<item chapter="Applications" en="Receiving notifications" ko="연결된 기기의 알림 받기"/>
+	<item chapter="Applications" en="Sharing content" ko="콘텐츠(파일) 공유하기"/>
+	<item chapter="Applications" en="Using additional features" ko="추가 기능 사용하기"/>
+	<item chapter="Applications" en="Quick Share" ko="Quick Share(퀵 쉐어)"/>
+	<item chapter="Applications" en="Sharing content with nearby devices" ko="주변 기기와 콘텐츠 공유하기"/>
+	<item chapter="Applications" en="Pointing to share" ko="대상 빠르게 찾아 공유하기"/>
+	<item chapter="Applications" en="Pointing to share" ko="대상 찾아 공유하기"/>
+	<item chapter="Applications" en="Setting who can find your device" ko="검색 허용 범위 설정하기"/>
+	<item chapter="Applications" en="Sharing through Web link" ko="웹 링크로 공유하기"/>
+	<item chapter="Applications" en="Smart View" ko="Smart View"/>
+	<item chapter="Applications" en="Smart View" ko="Smart View(스마트 뷰)"/>
+	<item chapter="Applications" en="Smart View (Mirroring on a TV screen)" ko="Smart View (TV 화면으로 보기)"/>
+	<item chapter="Applications" en="Link to Windows (Using the device through a computer connection)" ko="Windows와 연결(컴퓨터와 연결해 사용하기)"/>
+	<item chapter="Applications" en="Link Sharing" ko="링크 공유"/>
+	<item chapter="Applications" en="Shared album" ko="공유 앨범"/>
+	<item chapter="Applications" en="Music Share" ko="Music Share(뮤직 쉐어)"/>
+	<item chapter="Applications" en="Introduction" ko="Music Share 소개"/>
+	<item chapter="Applications" en="Sharing a Bluetooth speaker" ko="블루투스 스피커 공유하기"/>
+	<item chapter="Applications" en="Listening to music together with Galaxy Buds" ko="갤럭시 버즈로 음악 같이 듣기"/>
+	<item chapter="Applications" en="Daily Board" ko="데일리 보드"/>
+	<item chapter="Applications" en="Introduction" ko="데일리 보드 소개"/>
+	<item chapter="Applications" en="Launching Daily Board" ko="데일리 보드 실행하기"/>
+	<item chapter="Applications" en="Setting the information view mode of the Daily Board main screen" ko="데일리 보드 메인 화면의 정보 보기 모드 설정하기"/>
+	<item chapter="Applications" en="Using Daily Board" ko="데일리 보드 사용하기"/>
+	<item chapter="Applications" en="Playing the slide show" ko="슬라이드 쇼 재생하기"/>
+	<item chapter="Applications" en="Making a note on Daily Board" ko="데일리 보드에 메모 작성하기"/>
+	<item chapter="Applications" en="Controlling the music" ko="데일리 보드에서 음악 제어하기"/>
+	<item chapter="Applications" en="Configuring settings for Daily Board" ko="데일리 보드 사용 환경 설정하기"/>
+	<item chapter="Applications" en="Closing Daily Board" ko="데일리 보드 종료하기"/>
+	<item chapter="Applications" en="Connecting to an external display" ko="외부 디스플레이 연결"/>
+	<item chapter="Applications" en="Using a digital key" ko="디지털 키 사용하기"/>
+	<item chapter="Applications" en="Using a digital key with the NFC feature" ko="NFC 기능으로 디지털 키 사용하기"/>
+	<item chapter="Applications" en="Using a digital key with ultra-wideband (UWB)" ko="초광대역(UWB)으로 디지털 키 사용하기"/>
+	<item chapter="Applications" en="Deleting the digital key" ko="디지털 키 삭제하기"/>
+	<item chapter="Applications" en="Samsung DeX" ko="Samsung DeX(삼성 덱스)"/>
+	<item chapter="Applications" en="Introduction" ko="Samsung DeX 소개"/>
+	<item chapter="Applications" en="Connecting devices and starting Samsung DeX" ko="연결 및 시작하기"/>
+	<item chapter="Applications" en="Connecting to the Keyboard Cover" ko="키보드 커버와 연결하기"/>
+	<item chapter="Applications" en="Connecting to an external display" ko="외부 디스플레이와 연결하기"/>
+	<item chapter="Applications" en="Wired connections to external displays" ko="외부 디스플레이와 유선으로 연결하기"/>
+	<item chapter="Applications" en="Connecting to a computer" ko="컴퓨터와 연결하기"/>
+	<item chapter="Applications" en="Wired connections to computers" ko="컴퓨터와 유선으로 연결하기"/>
+	<item chapter="Applications" en="Wireless connections" ko="무선으로 연결하기"/>
+	<item chapter="Applications" en="Controlling the Samsung DeX screen" ko="Samsung DeX 화면 조작하기"/>
+	<item chapter="Applications" en="Controlling on an external display" ko="외부 디스플레이에서 조작하기"/>
+	<item chapter="Applications" en="Controlling with Keyboard Cover’s touchpad and keyboard" ko="키보드 커버의 터치 패드 및 키보드로 조작하기"/>
+	<item chapter="Applications" en="Controlling with an external keyboard and mouse" ko="외부 키보드 및 마우스로 조작하기"/>
+	<item chapter="Applications" en="Using your smartphone as a touchpad" ko="스마트폰을 터치 패드로 사용하기"/>
+	<item chapter="Applications" en="Orienting the touchpad" ko="터치 패드 화면 방향 전환하기"/>
+	<item chapter="Applications" en="Using your smartphone while using the touchpad" ko="터치 패드 사용 중 스마트폰 사용하기"/>
+	<item chapter="Applications" en="Using the screen keyboard" ko="스크린 키보드 사용하기"/>
+	<item chapter="Applications" en="Controlling on a computer" ko="컴퓨터에서 조작하기"/>
+	<item chapter="Applications" en="Using Samsung DeX" ko="Samsung DeX 사용하기"/>
+	<item chapter="Applications" en="Using Samsung DeX and smartphone simultaneously" ko="Samsung DeX와 스마트폰 동시에 사용하기"/>
+	<item chapter="Applications" en="Using the external display and tablet simultaneously" ko="외부 디스플레이와 태블릿 동시에 사용하기"/>
+	<item chapter="Applications" en="Using Samsung DeX and phone simultaneously" ko="Samsung DeX와 휴대전화 동시에 사용하기"/>
+	<item chapter="Applications" en="Locking the Samsung DeX screen" ko="Samsung DeX 화면 잠그기"/>
+	<item chapter="Applications" en="Enjoying games vividly on a large screen" ko="큰 화면으로 실감나게 게임하기"/>
+	<item chapter="Applications" en="Transferring data with a computer" ko="컴퓨터와 콘텐츠 주고받기"/>
+	<item chapter="Applications" en="Copying files" ko="파일 복사하기"/>
+	<item chapter="Applications" en="Copying and pasting text" ko="텍스트 복사 및 붙여 넣기"/>
+	<item chapter="Applications" en="Using your phone as a touchpad" ko="휴대전화를 터치 패드로 사용하기"/>
+	<item chapter="Applications" en="Ending Samsung DeX" ko="Samsung DeX 종료하기"/>
+	<item chapter="Applications" en="Link to Windows" ko="Windows와 연결"/>
+	<item chapter="Applications" en="Introduction" ko="Windows와 연결 소개"/>
+	<item chapter="Applications" en="Connecting to a computer" ko="컴퓨터와 연결하기"/>
+	<item chapter="Applications" en="Viewing data and notifications from your device on the computer" ko="컴퓨터에서 내 제품의 데이터 및 알림 확인하기"/>
+	<item chapter="Applications" en="Samsung Global Goals" ko="Samsung Global Goals(삼성 글로벌 골)"/>
+	<item chapter="Applications" en="Samsung TV Plus" ko="Samsung TV Plus(삼성 TV 플러스)"/>
+	<item chapter="Applications" en="Galaxy Shop" ko="Galaxy Shop(갤럭시 샵)"/>
+	<item chapter="Applications" en="Samsung Main" ko="삼성닷컴"/>
+	<item chapter="Applications" en="Google apps" ko="Google(구글) 앱"/>
+	<item chapter="Applications" en="Chrome" ko="Chrome"/>
+	<item chapter="Applications" en="Gmail" ko="Gmail"/>
+	<item chapter="Applications" en="Maps" ko="지도"/>
+	<item chapter="Applications" en="YT Music" ko="YT Music"/>
+	<item chapter="Applications" en="Play Music" ko="Play 뮤직"/>
+	<item chapter="Applications" en="Play Movies &amp; TV" ko="Play 무비"/>
+	<item chapter="Applications" en="Drive" ko="드라이브"/>
+	<item chapter="Applications" en="YouTube" ko="YouTube"/>
+	<item chapter="Applications" en="Photos" ko="포토"/>
+	<item chapter="Applications" en="Google" ko="Google"/>
+	<item chapter="Applications" en="Duo" ko="Duo"/>
+	<item chapter="Applications" en="Service provider apps" ko="통신사 앱"/>
+	<item chapter="Applications" en="Service provider apps" ko="이동통신 사업자 앱"/>
+	<item chapter="Applications" en="Setting the service provider apps" ko="이동통신 사업자 설정"/>
+	<item chapter="Applications" en="KT" ko="KT"/>
+	<item chapter="Applications" en="KT-OneStore" ko="원스토어"/>
+	<item chapter="Applications" en="KT-My KT" ko="마이 케이티"/>
+	<item chapter="Applications" en="KT-PASS" ko="PASS"/>
+	<item chapter="Applications" en="KT-AlyakM" ko="알약M"/>
+	<item chapter="Applications" en="KT-WhoWho" ko="후후"/>
+	<item chapter="Applications" en="KT-membership" ko="KT 멤버십"/>
+	<item chapter="Applications" en="KT-YBox" ko="Y박스"/>
+	<item chapter="Applications" en="KT-FamilyBox" ko="KT 패밀리박스"/>
+	<item chapter="Applications" en="KT-Smart bill" ko="스마트명세서"/>
+	<item chapter="Applications" en="KT-GiftBox" ko="KT 기프트박스"/>
+	<item chapter="Applications" en="KT-Narl" ko="나를"/>
+	<item chapter="Applications" en="KT-Real360" ko="리얼 360"/>
+	<item chapter="Applications" en="KT-eSports Live" ko="e스포츠 라이브"/>
+	<item chapter="Applications" en="KT-Seezn" ko="Seezn"/>
+	<item chapter="Applications" en="KT-Geenie Music" ko="지니 뮤직"/>
+	<item chapter="Applications" en="KT-Media Pack" ko="미디어팩"/>
+	<item chapter="Applications" en="KT-Ktoon" ko="케이툰 (완전판)"/>
+	<item chapter="Applications" en="KT-One Navigation" ko="원내비"/>
+	<item chapter="Applications" en="KT-Streaming game" ko="스트리밍 게임"/>
+	<item chapter="Applications" en="KT-K Bank" ko="케이뱅크"/>
+	<item chapter="Applications" en="KT-CLiP" ko="CLiP"/>
+	<item chapter="Applications" en="KT-Gmarket" ko="G마켓"/>
+	<item chapter="Applications" en="KT-AirMapKorea" ko="AirMapKorea"/>
+	<item chapter="Applications" en="KT-GiftiShow" ko="기프티쇼"/>
+	<item chapter="Applications" en="KT-ShowME" ko="KT 쇼미"/>
+	<item chapter="Applications" en="KT-KShopping" ko="K쇼핑"/>
+	<item chapter="Applications" en="KT-Smart bellring" ko="스마트벨링"/>
+	<item chapter="Applications" en="KT-Shop" ko="KT Shop"/>
+	<item chapter="Applications" en="KT-ISP Paybook" ko="ISP/페이북"/>
+	<item chapter="Applications" en="KT-Olleh TV Mobile" ko="올레 tv 모바일"/>
+	<item chapter="Applications" en="LG U+" ko="LG U+"/>
+	<item chapter="Applications" en="LG-OneStore" ko="원스토어"/>
+	<item chapter="Applications" en="LG-CS" ko="U+ 고객센터"/>
+	<item chapter="Applications" en="LG-MobileTV" ko="U+모바일tv"/>
+	<item chapter="Applications" en="LG-Pro Baseball" ko="U+프로야구"/>
+	<item chapter="Applications" en="LG-Golf" ko="U+골프"/>
+	<item chapter="Applications" en="LG-GameLive" ko="U+게임Live"/>
+	<item chapter="Applications" en="LG-Members" ko="U+멤버스"/>
+	<item chapter="Applications" en="LG-U+AR" ko="U+AR"/>
+	<item chapter="Applications" en="LG-U+VR" ko="U+VR"/>
+	<item chapter="Applications" en="LG-GeForce NOW" ko="GeForce NOW"/>
+	<item chapter="Applications" en="LG-Idol" ko="U+아이돌 Live"/>
+	<item chapter="Applications" en="LG-Kakao Navigation" ko="U+ 카카오내비"/>
+	<item chapter="Applications" en="LG-Genie Music" ko="지니 뮤직"/>
+	<item chapter="Applications" en="LG-PASS" ko="PASS"/>
+	<item chapter="Applications" en="LG-Box" ko="U+Box (클라우드)"/>
+	<item chapter="Applications" en="LG-Smart Home" ko="U+스마트홈 (IoT@home)"/>
+	<item chapter="Applications" en="LG-Music Bellring" ko="뮤직벨링"/>
+	<item chapter="Applications" en="LG-Smart Home Training" ko="스마트홈트"/>
+	<item chapter="Applications" en="LG-AR shopping" ko="U+AR쇼핑"/>
+	<item chapter="Applications" en="LG-Call Assistant" ko="U+ 통화도우미"/>
+	<item chapter="Applications" en="LG-Data Charging Station" ko="U+데이터 충전소"/>
+	<item chapter="Applications" en="LG-WhoWho" ko="후후-유플러스"/>
+	<item chapter="Applications" en="LG-MAPPY" ko="MAPPY"/>
+	<item chapter="Applications" en="LG-5G Widget" ko="U+ 5G위젯"/>
+	<item chapter="Applications" en="LG-Idol library" ko="U+아이들 생생도서관"/>
+	<item chapter="Applications" en="LG-AlyakM" ko="알약M"/>
+	<item chapter="Applications" en="LG-My Fridge" ko="나만의냉장고"/>
+	<item chapter="Applications" en="LG-Paynow" ko="Paynow"/>
+	<item chapter="Applications" en="LG-Page" ko="U+Page"/>
+	<item chapter="Applications" en="LG-Mobile Tmoney" ko="모바일티머니"/>
+	<item chapter="Applications" en="LG-Video Portal" ko="비디오포털"/>
+	<item chapter="Applications" en="SK Telecom" ko="SK Telecom"/>
+	<item chapter="Applications" en="SK-Roaming" ko="T 로밍 &amp; 서비스"/>
+	<item chapter="Applications" en="SK-OneStore" ko="원스토어"/>
+	<item chapter="Applications" en="SK-Tphone" ko="T전화"/>
+	<item chapter="Applications" en="SK-T world" ko="T world"/>
+	<item chapter="Applications" en="SK-T membership" ko="T멤버십"/>
+	<item chapter="Applications" en="SK-wavve" ko="wavve"/>
+	<item chapter="Applications" en="SK-FLO" ko="FLO"/>
+	<item chapter="Applications" en="SK-T map" ko="T map"/>
+	<item chapter="Applications" en="SK-11st" ko="11번가"/>
+	<item chapter="Applications" en="SK-Jump AR" ko="Jump AR"/>
+	<item chapter="Applications" en="SK-Jump VR" ko="Jump VR"/>
+	<item chapter="Applications" en="SK-pay" ko="SK pay"/>
+	<item chapter="Applications" en="SK-T map taxi" ko="T map 택시"/>
+	<item chapter="Applications" en="SK-Syrup wallet" ko="Syrup 월렛"/>
+	<item chapter="Applications" en="SK-Pinc" ko="핀크"/>
+	<item chapter="Applications" en="SK-GiftiCon" ko="기프티콘"/>
+	<item chapter="Applications" en="SK-Nate" ko="네이트"/>
+	<item chapter="Applications" en="SK-OK Cashbag" ko="OK Cashbag"/>
+	<item chapter="Applications" en="SK-Where are we go now" ko="어디가지또"/>
+	<item chapter="Applications" en="SK-T map Public" ko="T map 대중교통"/>
+	<item chapter="Applications" en="SK-Bill Letter" ko="Bill Letter"/>
+	<item chapter="Applications" en="SK-Cloud Berry" ko="클라우드베리"/>
+	<item chapter="Applications" en="SK-T call manager" ko="T통화매니저"/>
+	<item chapter="Applications" en="SK-initial" ko="initial"/>
+	<item chapter="Applications" en="SK-T guard" ko="T 가드"/>
+	<item chapter="Applications" en="SK-NUGU" ko="NUGU"/>
+	<item chapter="Applications" en="SK-T id" ko="T아이디"/>
+	<item chapter="Applications" en="SK-Nate On" ko="네이트온"/>
+	<item chapter="Applications" en="SK-POOQ" ko="POOQ"/>
+	<item chapter="Applications" en="SK-Contact" ko="T연락처"/>
+	<item chapter="Applications" en="SK-PASS" ko="PASS"/>
+	<item chapter="Applications" en="SK-Smart Home" ko="SKT 스마트홈"/>
+	<item chapter="Applications" en="SK-ZEM" ko="ZEM"/>
+	<item chapter="Applications" en="SK-oksusu" ko="oksusu"/>
+	<item chapter="Applications" en="SK-Data Coupon" ko="T데이터쿠폰"/>
+	<item chapter="Applications" en="Smart select" ko="스마트 셀렉트"/>
+	<item chapter="Applications" en="Screen write" ko="캡처 후 쓰기"/>
+	<item chapter="Applications" en="Live messages" ko="라이브 메시지"/>
+	<item chapter="Applications" en="S Pen to text" ko="S펜으로 텍스트 입력"/>
+	<item chapter="Applications" en="Trademarks" ko="번역기"/>
+	<item chapter="Applications" en="Glance" ko="글랜스"/>
+	<item chapter="Applications" en="Write on calendar" ko="캘린더 손글씨"/>
+	<item chapter="Applications" en="Air view" ko="에어 뷰"/>
+	<item chapter="Applications" en="Pen Select" ko="펜 셀렉트"/>
+	<item chapter="Applications" en="Screen off memo" ko="꺼진 화면 메모"/>
+	<item chapter="Applications" en="Taking photos with the S Pen" ko="S펜 버튼으로 사진 찍기"/>
+	<item chapter="Applications" en="Resetting your S Pen" ko="S펜 초기화하기"/>
+	<item chapter="Applications" en="Detaching the S Pen" ko="S펜 분리하기"/>
+	<item chapter="Applications" en="Unlocking the screen using the S Pen" ko="S펜으로 화면 잠금 해제하기"/>
+	<item chapter="Applications" en="Connecting to a TV wirelessly" ko="TV와 무선으로 연결하기"/>
+	<item chapter="Applications" en="Using the easy writing pad" ko="간편 입력 창 사용하기"/>
+	<item chapter="Applications" en="Automatically fixing shapes" ko="도형 자동 보정하기"/>
+	<item chapter="Applications" en="Capturing an area from a video" ko="동영상에서 원하는 영역 캡처하기"/>
+	<item chapter="Applications" en="Editing handwritten notes" ko="손글씨로 작성한 노트 편집하기"/>
+	<item chapter="Applications" en="Converting handwriting to text" ko="손글씨를 텍스트로 변환하기"/>
+	<item chapter="Applications" en="Straightening content horizontally" ko="수평 맞추기"/>
+	<item chapter="Applications" en="Changing styles" ko="스타일 변경하기"/>
+	<item chapter="Applications" en="Changing apps or features to use" ko="실행할 앱 및 동작 변경하기"/>
+	<item chapter="Applications" en="Introduction" ko="앱과 기능 소개"/>
+	<item chapter="Applications" en="Air actions" ko="에어 액션"/>
+	<item chapter="Applications" en="Using your tablet as a touchpad" ko="태블릿을 터치 패드로 사용하기"/>
+	<item chapter="Applications" en="Pinning a note to the Home screen" ko="홈 화면에 노트 고정하기"/>
+	<item chapter="Applications" en="Apps and features" ko="앱과 기능 알아보기"/>
+	<item chapter="Applications" en="Creating your contact profile with an AR emoji" ko="AR 이모지로 연락처 프로필 만들기"/>
+	<item chapter="Applications" en="Creating an AR emoji short video and decorating your device with it" ko="AR 이모지로 짧은 동영상 만들어 제품 꾸미기"/>
+	<item chapter="Applications" en="Selecting an AR emoji to use" ko="사용할 AR 이모지 선택하기"/>
+	<item chapter="Applications" en="Using dual preview screens" ko="듀얼 미리 보기 사용하기"/>
+	<item chapter="Applications" en="Portrait mode / Portrait video mode" ko="인물 사진 모드/인물 동영상 모드"/>
+	<item chapter="Applications" en="Using the auto framing feature" ko="자동 프레이밍 기능 사용하기"/>
+	<item chapter="Applications" en="Using the camera with the device folded" ko="접어서 촬영하기"/>
+	<item chapter="Applications" en="Using the camera with the device fully folded" ko="제품 완전히 접어서 촬영하기"/>
+	<item chapter="Applications" en="Using the Cover screen" ko="커버 화면 활용하기"/>
+	<item chapter="Applications" en="Taking selfies using the rear camera" ko="후면 카메라로 셀프 샷 촬영하기"/>
+
+
+
+
+	<item chapter="Settings" en="Settings" ko="설정"/>
+	<item chapter="Settings" en="Introduction" ko="설정 소개"/>
+	<item chapter="Settings" en="Samsung account" ko="삼성 계정"/>
+	<item chapter="Settings" en="Connections" ko="연결"/>
+	<item chapter="Settings" en="Options" ko="메뉴 보기"/>
+	<item chapter="Settings" en="Wi-Fi" ko="Wi-Fi"/>
+	<item chapter="Settings" en="Connecting to a Wi-Fi network" ko="Wi-Fi 네트워크 연결하기"/>
+	<item chapter="Settings" en="Viewing the Wi-Fi network quality information" ko="Wi-Fi 네트워크 품질 정보 확인하기"/>
+	<item chapter="Settings" en="Sharing Wi-Fi network passwords" ko="Wi-Fi 네트워크 비밀번호 공유하기"/>
+	<item chapter="Settings" en="Wi-Fi Direct" ko="Wi-Fi 다이렉트"/>
+	<item chapter="Settings" en="Sending and receiving data" ko="데이터 주고받기"/>
+	<item chapter="Settings" en="Ending the device connection" ko="연결 해제하기"/>
+	<item chapter="Settings" en="Bluetooth" ko="블루투스"/>
+	<item chapter="Settings" en="Pairing with other Bluetooth devices" ko="블루투스 기기와 페어링(연결)하기"/>
+	<item chapter="Settings" en="Sending and receiving data" ko="데이터 주고받기"/>
+	<item chapter="Settings" en="Dual audio" ko="듀얼 오디오"/>
+	<item chapter="Settings" en="Unpairing Bluetooth devices" ko="블루투스 페어링(연결) 해제하기"/>
+	<item chapter="Settings" en="NFC and payment" ko="NFC 및 결제"/>
+	<item chapter="Settings" en="NFC and contactless payments" ko="NFC 및 비접촉 결제"/>
+	<item chapter="Settings" en="NFC and payment (NFC-enabled models)" ko="NFC 및 결제 (NFC 지원 모델)"/>
+	<item chapter="Settings" en="Reading information from NFC tags" ko="NFC 태그 정보 확인하기"/>
+	<item chapter="Settings" en="Making payments with the NFC feature" ko="NFC 기능으로 결제하기"/>
+	<item chapter="Settings" en="Sending data with the NFC feature" ko="NFC 기능으로 데이터 전송하기"/>
+	<item chapter="Settings" en="Show network status" ko="네트워크 상태 표시"/>
+	<item chapter="Settings" en="Data saver" ko="데이터 절약 모드"/>
+	<item chapter="Settings" en="Mobile data only apps" ko="모바일 데이터만 사용하는 앱"/>
+	<item chapter="Settings" en="SIM card manager" ko="SIM 카드 관리자"/>
+	<item chapter="Settings" en="Mobile hotspot and tethering" ko="모바일 핫스팟 및 테더링"/>
+	<item chapter="Settings" en="Mobile hotspot" ko="모바일 핫스팟"/>
+	<item chapter="Settings" en="Using the mobile hotspot" ko="모바일 핫스팟 사용하기"/>
+	<item chapter="Settings" en="Auto Hotspot" ko="핫스팟 자동 실행"/>
+	<item chapter="Settings" en="More connection settings" ko="기타 연결 설정"/>
+	<item chapter="Settings" en="Connected devices" ko="기기 간 연결"/>
+	<item chapter="Settings" en="Modes and Routines" ko="모드 및 루틴"/>
+	<item chapter="Settings" en="Introduction" ko="모드 및 루틴 소개"/>
+	<item chapter="Settings" en="Using modes" ko="모드 사용하기"/>
+	<item chapter="Settings" en="Adding modes" ko="모드 추가하기"/>
+	<item chapter="Settings" en="Running modes" ko="모드 실행하기"/>
+	<item chapter="Settings" en="Using routines" ko="루틴 사용하기"/>
+	<item chapter="Settings" en="Adding routines" ko="루틴 추가하기"/>
+	<item chapter="Settings" en="Running routines" ko="루틴 실행하기"/>
+	<item chapter="Settings" en="Printing" ko="인쇄"/>
+	<item chapter="Settings" en="Adding printer plug-ins" ko="프린터 플러그인 설치하기"/>
+	<item chapter="Settings" en="Printing content" ko="콘텐츠 인쇄하기"/>
+	<item chapter="Settings" en="MirrorLink" ko="MirrorLink"/>
+	<item chapter="Settings" en="Connecting your device to a vehicle via MirrorLink" ko="MirrorLink로 제품과 자동차 연결하기"/>
+	<item chapter="Settings" en="Ending the MirrorLink connection" ko="MirrorLink 연결 해제하기"/>
+	<item chapter="Settings" en="Download booster" ko="다운로드 부스터"/>
+	<item chapter="Settings" en="Sounds and vibration" ko="소리 및 진동"/>
+	<item chapter="Settings" en="Options" ko="메뉴 보기"/>
+	<item chapter="Settings" en="Options" ko="메뉴"/>
+	<item chapter="Settings" en="Dolby Atmos (surround sound)" ko="Dolby Atmos(돌비 애트모스, 서라운드 효과)"/>
+	<item chapter="Settings" en="Sound quality and effects" ko="음질 및 음향 효과"/>
+	<item chapter="Settings" en="Separate app sound" ko="앱 소리 분리 재생"/>
+	<item chapter="Settings" en="Notifications" ko="알림"/>
+	<item chapter="Settings" en="Options" ko="메뉴 보기"/>
+	<item chapter="Settings" en="App icon badges" ko="앱 아이콘 배지"/>
+	<item chapter="Settings" en="Display" ko="디스플레이"/>
+	<item chapter="Settings" en="Options" ko="메뉴 보기"/>
+	<item chapter="Settings" en="Dark mode settings" ko="다크 모드 설정"/>
+	<item chapter="Settings" en="Motion smoothness" ko="부드러운 모션 및 화면 전환"/>
+	<item chapter="Settings" en="Blue light filter" ko="블루라이트 필터"/>
+	<item chapter="Settings" en="Changing the screen mode or adjusting the display colour" ko="화면 모드 변경 및 색상 조절"/>
+	<item chapter="Settings" en="Changing the screen mode" ko="화면 모드 설정하기"/>
+	<item chapter="Settings" en="Optimising the full screen colour balance" ko="전체 화면 색상 최적화하기"/>
+	<item chapter="Settings" en="Adjusting the screen tone by colour value" ko="화면 색상 값별로 조절하기"/>
+	<item chapter="Settings" en="Screen resolution" ko="화면 해상도"/>
+	<item chapter="Settings" en="Font size and style" ko="글자 크기와 스타일"/>
+	<item chapter="Settings" en="Screensaver" ko="화면보호기"/>
+	<item chapter="Settings" en="Wallpaper" ko="배경화면"/>
+	<item chapter="Settings" en="Themes" ko="테마"/>
+	<item chapter="Settings" en="Wallpapers and themes" ko="배경화면 및 테마"/>
+	<item chapter="Settings" en="Wallpaper and style" ko="배경화면 및 스타일"/>
+	<item chapter="Settings" en="Home screen" ko="홈 화면"/>
+	<item chapter="Settings" en="Lock screen" ko="잠금화면"/>
+	<item chapter="Settings" en="Options" ko="메뉴 보기"/>
+	<item chapter="Settings" en="Smart Lock" ko="Smart Lock(스마트 락)"/>
+	<item chapter="Settings" en="Always On Display (Displaying information when the screen is turned off)" ko="Always On Display(올웨이즈 온 디스플레이)(꺼진 화면에 정보 표시하기)"/>
+	<item chapter="Settings" en="Always On Display (Displaying information when the screen is turned off)" ko="Always On Display (꺼진 화면에 정보 표시하기)"/>
+	<item chapter="Settings" en="Biometrics and security" ko="생체 인식 및 보안"/>
+	<item chapter="Settings" en="Options" ko="메뉴 보기"/>
+	<item chapter="Settings" en="Intelligent Scan" ko="인텔리전트 스캔(얼굴-홍채 복합 인증)"/>
+	<item chapter="Settings" en="For better face and iris recognition" ko="얼굴 및 홍채 인식률을 높이려면"/>
+	<item chapter="Settings" en="Registering irises and face" ko="얼굴-홍채 등록하기"/>
+	<item chapter="Settings" en="Deleting registered face and iris data" ko="등록한 얼굴-홍채 삭제하기"/>
+	<item chapter="Settings" en="Unlocking the screen using Intelligent Scan" ko="인텔리전트 스캔으로 화면 잠금 해제하기"/>
+	<item chapter="Settings" en="Face recognition" ko="얼굴 인식"/>
+	<item chapter="Settings" en="Precautions for using face recognition" ko="얼굴 인식에 대한 주의 사항"/>
+	<item chapter="Settings" en="For better face recognition" ko="얼굴 인식률을 높이려면"/>
+	<item chapter="Settings" en="Registering your face" ko="얼굴 등록하기"/>
+	<item chapter="Settings" en="Deleting the registered face data" ko="등록한 얼굴 삭제하기"/>
+	<item chapter="Settings" en="Unlocking the screen with your face" ko="얼굴로 화면 잠금 해제하기"/>
+	<item chapter="Settings" en="Iris recognition" ko="홍채 인식"/>
+	<item chapter="Settings" en="For better iris recognition" ko="홍채 인식률을 높이려면"/>
+	<item chapter="Settings" en="Registering irises" ko="홍채 등록하기"/>
+	<item chapter="Settings" en="Deleting registered iris data" ko="등록한 홍채 삭제하기"/>
+	<item chapter="Settings" en="Unlocking the screen with your irises" ko="홍채로 화면 잠금 해제하기"/>
+	<item chapter="Settings" en="Fingerprint recognition" ko="지문 인식"/>
+	<item chapter="Settings" en="For better fingerprint recognition" ko="지문 인식률을 높이려면"/>
+	<item chapter="Settings" en="Registering fingerprints" ko="지문 등록하기"/>
+	<item chapter="Settings" en="Checking registered fingerprints" ko="등록한 지문 확인하기"/>
+	<item chapter="Settings" en="Deleting registered fingerprints" ko="등록한 지문 삭제하기"/>
+	<item chapter="Settings" en="Unlocking the screen with your fingerprints" ko="지문으로 화면 잠금 해제하기"/>
+	<item chapter="Settings" en="Changing the fingerprint recognition icon setting" ko="지문 인식 아이콘 표시 설정하기"/>
+	<item chapter="Settings" en="Samsung Pass" ko="Samsung Pass(삼성 패스)"/>
+	<item chapter="Settings" en="Registering Samsung Pass" ko="Samsung Pass 등록하기"/>
+	<item chapter="Settings" en="Verifying the Samsung account password" ko="삼성 계정 인증하기"/>
+	<item chapter="Settings" en="Using Samsung Pass to sign in to websites" ko="Samsung Pass로 웹 사이트에 로그인하기"/>
+	<item chapter="Settings" en="Using Samsung Pass to sign in to apps" ko="Samsung Pass로 앱에 로그인하기"/>
+	<item chapter="Settings" en="Managing sign-in information" ko="로그인 정보 관리하기"/>
+	<item chapter="Settings" en="Using Samsung Pass with websites and apps" ko="Samsung Pass로 연동된 웹 사이트 및 앱 이용하기"/>
+	<item chapter="Settings" en="Entering your personal information automatically" ko="개인 정보 자동으로 입력하기"/>
+	<item chapter="Settings" en="Issuing your digital signature" ko="전자 서명 인증서 발급 받기"/>
+	<item chapter="Settings" en="Issuing your digital signature" ko="전자 서명 인증서 발급받기"/>
+	<item chapter="Settings" en="Deleting your Samsung Pass data" ko="Samsung Pass 데이터 삭제하기"/>
+	<item chapter="Settings" en="Secure Folder" ko="보안 폴더"/>
+	<item chapter="Settings" en="Setting up Secure Folder" ko="보안 폴더 처음 시작하기"/>
+	<item chapter="Settings" en="Setting auto lock for Secure Folder" ko="보안 폴더 자동 잠금 설정하기"/>
+	<item chapter="Settings" en="Setting an auto lock condition for Secure Folder" ko="보안 폴더 자동 잠금 조건 설정하기"/>
+	<item chapter="Settings" en="Moving content to Secure Folder" ko="보안 폴더로 콘텐츠 이동하기"/>
+	<item chapter="Settings" en="Moving content from Secure Folder" ko="보안 폴더에서 콘텐츠 내보내기"/>
+	<item chapter="Settings" en="Adding apps" ko="앱 추가하기"/>
+	<item chapter="Settings" en="Removing apps from Secure Folder" ko="앱 삭제하기"/>
+	<item chapter="Settings" en="Adding accounts" ko="계정 추가하기"/>
+	<item chapter="Settings" en="Hiding Secure Folder" ko="보안 폴더 숨기기"/>
+	<item chapter="Settings" en="Backing up and restoring Secure Folder" ko="보안 폴더 백업 및 복원하기"/>
+	<item chapter="Settings" en="Backing up data" ko="백업하기"/>
+	<item chapter="Settings" en="Restoring data" ko="복원하기"/>
+	<item chapter="Settings" en="Uninstalling Secure Folder" ko="보안 폴더 삭제하기"/>
+	<item chapter="Settings" en="Secure Wi-Fi" ko="보안 Wi-Fi"/>
+	<item chapter="Settings" en="Selecting apps to protect using Secure Wi-Fi" ko="보안 Wi-Fi로 보호할 앱 선택하기"/>
+	<item chapter="Settings" en="Purchasing protection plan" ko="보호 프로그램 구매하기"/>
+	<item chapter="Settings" en="Privacy" ko="개인정보 보호"/>
+	<item chapter="Settings" en="Location" ko="위치"/>
+	<item chapter="Settings" en="Safety and emergency" ko="안전 및 긴급"/>
+	<item chapter="Settings" en="Accounts and backup" ko="계정 및 백업"/>
+	<item chapter="Settings" en="Options" ko="메뉴 보기"/>
+	<item chapter="Settings" en="Users" ko="사용자"/>
+	<item chapter="Settings" en="Adding users" ko="사용자 계정 추가하기"/>
+	<item chapter="Settings" en="Adding restricted profiles" ko="제한된 프로필 계정 추가하기"/>
+	<item chapter="Settings" en="Switching users" ko="사용자 계정 전환하기"/>
+	<item chapter="Settings" en="Managing users" ko="사용자 계정 관리하기"/>
+	<item chapter="Settings" en="Samsung Cloud" ko="삼성 클라우드"/>
+	<item chapter="Settings" en="Syncing data" ko="데이터 동기화하기"/>
+	<item chapter="Settings" en="Backing up data" ko="데이터 백업하기"/>
+	<item chapter="Settings" en="Restoring data" ko="데이터 복원하기"/>
+	<item chapter="Settings" en="Google" ko="Google(구글)"/>
+	<item chapter="Settings" en="Advanced features" ko="유용한 기능"/>
+	<item chapter="Settings" en="Options" ko="메뉴 보기"/>
+	<item chapter="Settings" en="Motions and gestures" ko="모션 및 제스처"/>
+	<item chapter="Settings" en="Video call effects" ko="영상통화 효과"/>
+	<item chapter="Settings" en="Using video call effects" ko="영상통화 효과 사용하기"/>
+	<item chapter="Settings" en="Dual Messenger" ko="듀얼 메신저"/>
+	<item chapter="Settings" en="Uninstalling a second app" ko="두 번째 앱 삭제하기"/>
+	<item chapter="Settings" en="Digital Wellbeing and parental controls" ko="디지털 웰빙 및 자녀 보호 기능"/>
+	<item chapter="Settings" en="Options" ko="메뉴 보기"/>
+	<item chapter="Settings" en="Digital wellbeing" ko="디지털 웰빙"/>
+	<item chapter="Settings" en="Setting your goals" ko="내 목표 설정하기"/>
+	<item chapter="Settings" en="Setting timers for apps" ko="앱별 타이머 설정하기"/>
+	<item chapter="Settings" en="Using focus mode" ko="집중 모드 사용하기"/>
+	<item chapter="Settings" en="Activating wind down mode" ko="수면 준비 모드 실행하기"/>
+	<item chapter="Settings" en="Device care" ko="디바이스 케어"/>
+	<item chapter="Settings" en="Battery and device care" ko="배터리 및 디바이스 케어"/>
+	<item chapter="Settings" en="Introduction" ko="디바이스 케어 소개"/>
+	<item chapter="Settings" en="Introduction" ko="배터리 및 디바이스 케어 소개"/>
+	<item chapter="Settings" en="Optimising your device" ko="디바이스 최적화하기"/>
+	<item chapter="Settings" en="Using the auto optimisation feature" ko="자동 최적화 설정하기"/>
+	<item chapter="Settings" en="Auto optimisation" ko="자동 최적화"/>
+	<item chapter="Settings" en="Battery" ko="배터리"/>
+	<item chapter="Settings" en="Power mode" ko="배터리 관리 모드"/>
+	<item chapter="Settings" en="Adaptive power saving" ko="자동 절전 모드"/>
+	<item chapter="Settings" en="Putting apps to sleep" ko="사용하지 않는 앱 절전 상태로 전환하기"/>
+	<item chapter="Settings" en="Storage" ko="저장공간"/>
+	<item chapter="Settings" en="Managing the memory" ko="저장 공간 관리하기"/>
+	<item chapter="Settings" en="Memory" ko="RAM"/>
+	<item chapter="Settings" en="Memory" ko="메모리"/>
+	<item chapter="Settings" en="Security" ko="보안"/>
+	<item chapter="Settings" en="Security and privacy" ko="보안 및 개인정보 보호"/>
+	<item chapter="Settings" en="Device protection" ko="디바이스 보호"/>
+	<item chapter="Settings" en="Ultra data saving" ko="데이터 초절약 모드 켜기"/>
+	<item chapter="Settings" en="Apps" ko="애플리케이션"/>
+	<item chapter="Settings" en="General management" ko="일반"/>
+	<item chapter="Settings" en="Adding device languages" ko="언어 추가하기"/>
+	<item chapter="Settings" en="Accessibility" ko="접근성"/>
+	<item chapter="Settings" en="Introduction" ko="접근성 소개"/>
+	<item chapter="Settings" en="Software update" ko="소프트웨어 업데이트"/>
+	<item chapter="Settings" en="Diagnostics" ko="자가 진단"/>
+	<item chapter="Settings" en="Maintenance mode" ko="수리 모드"/>
+	<item chapter="Settings" en="Maintenance mode" ko="수리 모드"/>
+	<item chapter="Settings" en="Security updates information" ko="보안 업데이트 안내"/>
+	<item chapter="Settings" en="User manual" ko="사용설명서"/>
+	<item chapter="Settings" en="Remote support" ko="원격 지원 서비스"/>
+	<item chapter="Settings" en="About phone" ko="휴대전화 정보"/>
+	<item chapter="Settings" en="About tablet" ko="태블릿 정보"/>
+	<item chapter="Settings" en="Carrier settings" ko="통신사 설정"/>
+	<item chapter="Settings" en="Roaming" ko="해외 로밍"/>
+	<item chapter="Settings" en="KT-Special Services" ko="고객 특화 서비스"/>
+	<item chapter="Settings" en="KT-Ring to you" ko="링투유"/>
+	<item chapter="Settings" en="Roaming" ko="해외 로밍"/>
+	<item chapter="Settings" en="LG-Convenient Services" ko="U+ 편의기능"/>
+	<item chapter="Settings" en="LG-Feel ring" ko="필링"/>
+	<item chapter="Settings" en="LG-Music bellring" ko="뮤직벨링"/>
+	<item chapter="Settings" en="LG-V coloring" ko="V 컬러링"/>
+	<item chapter="Settings" en="SK-Hybrid WiFi" ko="Hybrid WiFi"/>
+	<item chapter="Settings" en="SK-Roaming" ko="T 로밍"/>
+	<item chapter="Settings" en="SK-Coloring" ko="T 컬러링"/>
+	<item chapter="Settings" en="SK-T Security" ko="T 안심"/>
+	<item chapter="Settings" en="SK-T Service" ko="T 서비스"/>
+	<item chapter="Settings" en="Settings" ko="설정 알아보기"/>
+	<item chapter="Settings" en="Registering your digital key to Samsung Pass" ko="Samsung Pass에 디지털 키 등록하기"/>
+	<item chapter="Settings" en="Precautions for using Bluetooth" ko="블루투스 사용 시 주의 사항"/>
+	<item chapter="Settings" en="Screen layout and zoom" ko="화면 레이아웃 및 크기"/>
+	<item chapter="Settings" en="Wallpaper and style" ko="배경화면 및 스타일"/>
+	
+	
+	
+	<item chapter="Usage notices" en="Usage notices" ko="제품 사용 시 알아두기"/>
+	<item chapter="Usage notices" en="Precautions for using the device" ko="제품 사용 시 주의 사항"/>
+	<item chapter="Usage notices" en="Notes on package contents and accessories" ko="구성품 및 별매품 안내 사항"/>
+	<item chapter="Usage notices" en="Maintaining water resistance" ko="생활방수 기능 주의 사항"/>
+	<item chapter="Usage notices" en="Maintaining water and dust resistance" ko="제품 방수 및 방진 기능 주의 사항"/>
+	<item chapter="Usage notices" en="Device overheating situations and solutions" ko="제품에서 열이 발생하는 경우 및 조치 방법"/>
+	<item chapter="Usage notices" en="When the device heats up while charging the battery" ko="배터리 충전 중 열이 감지되는 경우"/>
+	<item chapter="Usage notices" en="When the device heats up during use" ko="제품 사용 중 열이 감지되는 경우"/>
+	<item chapter="Usage notices" en="Privacy and find my mobile settings" ko="개인 정보 및 제품 분실 시 피해 방지 설정"/>
+
+
+
+	<item chapter="Appendix" en="Appendix" ko="부록"/>
+	<item chapter="Appendix" en="TalkBack (Voice feedback)" ko="TalkBack(음성 피드백)"/>
+	<item chapter="Appendix" en="Activating or deactivating TalkBack" ko="TalkBack 켜기/끄기"/>
+	<item chapter="Appendix" en="Controlling the screen with finger gestures" ko="손가락 동작으로 화면 조작하기"/>
+	<item chapter="Appendix" en="Using the reading menu" ko="읽기 메뉴 사용하기"/>
+	<item chapter="Appendix" en="Adding and managing image labels" ko="이미지 라벨 추가 및 관리하기"/>
+	<item chapter="Appendix" en="Configuring settings for TalkBack" ko="TalkBack 옵션 설정하기"/>
+	<item chapter="Appendix" en="Entering text using the keyboard" ko="키보드로 텍스트 입력하기"/>
+	<item chapter="Appendix" en="Entering additional characters" ko="추가 문자 입력하기"/>
+	<item chapter="Appendix" en="Visibility enhancements" ko="시인성 향상"/>
+	<item chapter="Appendix" en="Using the high contrast theme" ko="고대비 테마 사용하기"/>
+	<item chapter="Appendix" en="Using the high contrast font" ko="고대비 글자 사용하기"/>
+	<item chapter="Appendix" en="Using the high contrast keyboard" ko="고대비 키보드 사용하기"/>
+	<item chapter="Appendix" en="Displaying button shapes" ko="버튼을 강조하여 표시하기"/>
+	<item chapter="Appendix" en="Reversing the display colours" ko="색상 반전하기"/>
+	<item chapter="Appendix" en="Colour adjustment" ko="색상 조정하기"/>
+	<item chapter="Appendix" en="Add colour filter" ko="색상 변경하기"/>
+	<item chapter="Appendix" en="Reducing screen motion effects" ko="화면 모션 효과 줄이기"/>
+	<item chapter="Appendix" en="Using a magnifier" ko="돋보기 사용하기"/>
+	<item chapter="Appendix" en="Magnifying the screen" ko="화면 확대하기"/>
+	<item chapter="Appendix" en="Enlarging mouse or touchpad pointers" ko="마우스 및 터치 패드 포인터 확대하기"/>
+	<item chapter="Appendix" en="Changing font" ko="글자 설정하기"/>
+	<item chapter="Appendix" en="Changing screen zoom" ko="화면 보기 설정하기"/>
+	<item chapter="Appendix" en="Hearing enhancements" ko="청각 보조"/>
+	<item chapter="Appendix" en="Hearing aid support" ko="보청기 호환성"/>
+	<item chapter="Appendix" en="Amplify ambient sound" ko="주변 소리 키우기"/>
+	<item chapter="Appendix" en="Adapt sound" ko="음질 최적화"/>
+	<item chapter="Appendix" en="Adjusting the sound balance" ko="소리 균형 조절하기"/>
+	<item chapter="Appendix" en="Mono audio" ko="모노 오디오"/>
+	<item chapter="Appendix" en="Turning off all sounds" ko="모든 소리 끄기"/>
+	<item chapter="Appendix" en="Live Transcribe" ko="음성 자막 변환"/>
+	<item chapter="Appendix" en="Live Caption" ko="실시간 자막"/>
+	<item chapter="Appendix" en="Caption settings" ko="자막 설정하기"/>
+	<item chapter="Appendix" en="Sound Notifications" ko="소리 알림"/>
+	<item chapter="Appendix" en="Interaction and dexterity" ko="입력 및 동작"/>
+	<item chapter="Appendix" en="Universal switch" ko="삼성 스위치 제어"/>
+	<item chapter="Appendix" en="Assistant menu" ko="보조메뉴"/>
+	<item chapter="Appendix" en="Displaying the assistive shortcut icon" ko="보조 메뉴 아이콘 나타내기"/>
+	<item chapter="Appendix" en="Accessing assistive menus" ko="보조 메뉴 사용하기"/>
+	<item chapter="Appendix" en="Using the cursor" ko="커서 사용하기"/>
+	<item chapter="Appendix" en="Using enhanced assistive menus" ko="강화된 보조 메뉴 사용하기"/>
+	<item chapter="Appendix" en="Answering or ending calls" ko="전화 받기/종료 방법 설정"/>
+	<item chapter="Appendix" en="Interaction control" ko="입력 제어"/>
+	<item chapter="Appendix" en="Touch and hold delay" ko="길게 누르기 반응 시간"/>
+	<item chapter="Appendix" en="Tap duration" ko="누르기 시간"/>
+	<item chapter="Appendix" en="Ignore repeated touches" ko="반복 터치 무시"/>
+	<item chapter="Appendix" en="Auto click after pointer stops" ko="포인터가 멈춘 후 자동 누르기"/>
+	<item chapter="Appendix" en="Sticky keys" ko="고정 키"/>
+	<item chapter="Appendix" en="Slow keys" ko="느린 키 입력"/>
+	<item chapter="Appendix" en="Bounce keys" ko="반복 키 입력 방지"/>
+	<item chapter="Appendix" en="Advanced settings" ko="고급 설정"/>
+	<item chapter="Appendix" en="Launching accessibility features quickly" ko="접근성 기능 빠르게 실행하기"/>
+	<item chapter="Appendix" en="Setting light notification" ko="불빛으로 알림 설정하기"/>
+	<item chapter="Appendix" en="Time to take action" ko="액션 취하기 전 대기 시간"/>
+	<item chapter="Appendix" en="Speak keyboard input aloud" ko="키보드 입력 읽어주기"/>
+	<item chapter="Appendix" en="Bixby Vision for accessibility" ko="빅스비 비전 접근성"/>
+	<item chapter="Appendix" en="Adding voice recordings to voice labels" ko="음성을 보이스 라벨에 등록하기"/>
+	<item chapter="Appendix" en="Installed services" ko="설치된 서비스"/>
+	<item chapter="Appendix" en="Troubleshooting" ko="서비스를 요청하기 전에 확인할 사항"/>
+	<item chapter="Appendix" en="When you turn on your device or while you are using the device, it prompts you to enter one of the following codes:" ko="제품의 전원을 켰을 때나 사용 중에 다음 항목을 입력하라는 메시지가 나타납니다."/>
+	<item chapter="Appendix" en="When you turn on your device or while you are using the device, it prompts you to enter one of the following codes:" ko="제품의 전원을 켜거나 사용 중에 다음 항목을 입력하라는 메시지가 나타납니다."/>
+	<item chapter="Appendix" en="Your device displays network or service error messages" ko="화면에 네트워크 및 서비스 오류 표시가 나타납니다."/>
+	<item chapter="Appendix" en="Your device does not turn on" ko="제품이 켜지지 않습니다."/>
+	<item chapter="Appendix" en="The touchscreen responds slowly or improperly" ko="터치 화면 반응이 느리거나 잘못 인식됩니다."/>
+	<item chapter="Appendix" en="Your device freezes or encounters a fatal error" ko="제품 사용 중 버튼 입력이 되지 않거나 제품이 자주 멈추고 치명적인 오류가 생깁니다."/>
+	<item chapter="Appendix" en="Restarting the device" ko="제품 다시 시작하기"/>
+	<item chapter="Appendix" en="Forcing restart" ko="강제로 제품 다시 시작하기"/>
+	<item chapter="Appendix" en="Resetting the device" ko="제품 초기화"/>
+	<item chapter="Appendix" en="Calls are not connected" ko="전화 수/발신이 되지 않습니다."/>
+	<item chapter="Appendix" en="Others cannot hear you speaking on a call" ko="통화 중에 상대방이 내 목소리를 듣지 못합니다."/>
+	<item chapter="Appendix" en="Sound echoes during a call" ko="통화 중에 음성이 울립니다."/>
+	<item chapter="Appendix" en="A cellular network or the Internet is often disconnected or audio quality is poor" ko="통화/인터넷 접속이 자주 끊어지거나 통화 음질이 떨어집니다."/>
+	<item chapter="Appendix" en="The Internet is often disconnected" ko="인터넷 접속이 자주 끊어집니다."/>
+	<item chapter="Appendix" en="The battery icon is empty" ko="배터리 아이콘이 비어 있는 상태로 나타납니다."/>
+	<item chapter="Appendix" en="The battery does not charge properly (For Samsung-approved chargers)" ko="배터리 충전이 잘 안됩니다.(삼성 정품 충전기 기준)"/>
+	<item chapter="Appendix" en="The battery depletes faster than when first purchased" ko="배터리 사용 시간(대기 시간)이 구입 시보다 짧아졌습니다."/>
+	<item chapter="Appendix" en="Error messages appear when launching the camera" ko="카메라를 실행할 때 오류 메시지가 나타납니다."/>
+	<item chapter="Appendix" en="Photo quality is poorer than the preview" ko="촬영한 사진 상태가 프리뷰 화면 상태보다 나쁩니다."/>
+	<item chapter="Appendix" en="Error messages appear when opening multimedia files" ko="멀티미디어 파일을 재생할 때 오류 메시지가 나타납니다."/>
+	<item chapter="Appendix" en="Bluetooth is not working well" ko="블루투스 기능 사용이 원활하지 않습니다."/>
+	<item chapter="Appendix" en="A connection is not established when you connect the device to a computer" ko="제품을 컴퓨터에 연결해도 인식되지 않습니다."/>
+	<item chapter="Appendix" en="Your device cannot find your current location" ko="내 위치를 찾을 수 없습니다."/>
+	<item chapter="Appendix" en="Data stored in the device has been lost" ko="제품에 있는 데이터가 지워졌습니다."/>
+	<item chapter="Appendix" en="A small gap appears around the outside of the device case" ko="제품 외관에 틈이 있어요."/>
+	<item chapter="Appendix" en="There is not enough space in the device’s storage" ko="제품의 저장 공간이 부족합니다."/>
+	<item chapter="Appendix" en="The Apps button does not appear on the Home screen" ko="홈 화면에서 앱스 버튼을 찾을 수 없습니다."/>
+	<item chapter="Appendix" en="The Home button does not appear" ko="홈 버튼이 나타나지 않습니다."/>
+	<item chapter="Appendix" en="Bixby does not respond" ko="빅스비가 응답하지 않습니다."/>
+	<item chapter="Appendix" en="The screen brightness adjustment bar does not appear on the notification panel" ko="알림창에 밝기 조절 바가 나타나지 않습니다."/>
+	<item chapter="Appendix" en="The screen brightness adjustment bar does not appear on the notification panel" ko="알림창에 밝기 조절 바가 나타나지 않습니다"/>
+	<item chapter="Appendix" en="Samsung Cloud does not work" ko="삼성 클라우드가 동작하지 않습니다."/>
+	<item chapter="Appendix" en="The device does not recognise my irises from the locked screen" ko="잠금 화면에서 홍채 인식으로 화면 잠금을 해제할 수 없습니다."/>
+	<item chapter="Appendix" en="When Nano-SIM card and PIN error occurs" ko="Nano-SIM 카드 및 PIN 오류가 나타나는 경우"/>
+	<item chapter="Appendix" en="When Nano-SIM card and PIN error occurs" ko="Nano-SIM 카드 및 PIN 오류가 나타납니다."/>
+	<item chapter="Appendix" en="Removing the battery" ko="배터리 분리하기"/>
+	<item chapter="Appendix" en="Specifications" ko="규격 및 특성"/>
+	<item chapter="Appendix" en="Device" ko="제품"/>
+	<item chapter="Appendix" en="Wlan" ko="무선랜"/>
+	<item chapter="Appendix" en="NFC" ko="NFC"/>
+	<item chapter="Appendix" en="MST" ko="MST"/>
+	<item chapter="Appendix" en="UWB" ko="UWB"/>
+	<item chapter="Appendix" en="Service reservation" ko="서비스 예약"/>
+	<item chapter="Appendix" en="Contact information" ko="제품 A/S 관련 문의"/>
+	<item chapter="Appendix" en="Service provider contact information for SKT" ko="SK Telecom 고객 문의처"/>
+	<item chapter="Appendix" en="Service provider contact information for KT" ko="KT 고객 문의처"/>
+	<item chapter="Appendix" en="Service provider contact information for LGU+" ko="LG U+ 고객 문의처"/>
+	<item chapter="Appendix" en="Service provider contact information" ko="이동통신 사업자 고객 문의처"/>
+	<item chapter="Appendix" en="ANT" ko="ANT"/>
+	<item chapter="Appendix" en="ANT+" ko="ANT+"/>
+	<item chapter="Appendix" en="SVC" ko="SVC"/>
+	<item chapter="Appendix" en="SAR" ko="전자파 흡수율"/>
+	<item chapter="Appendix" en="Copyright" ko="저작권"/>
+	<item chapter="Appendix" en="Trademarks" ko="등록상표권"/>
+	<item chapter="Appendix" en="Reducing transparency and blur effects" ko="비주얼 효과 줄이기"/>
+	<item chapter="Appendix" en="Installed apps" ko="설치된 앱"/>
+	<item chapter="Appendix" en="Auto action after pointer stops" ko="포인터가 멈춘 후 자동 동작"/>
+	<item chapter="Appendix" en="Visibility enhancements" ko="시인성 향상"/>
+	<item chapter="Appendix" en="Display mode" ko="화면 모드"/>
+	<item chapter="Appendix" en="Dimming the screen" ko="화면을 어둡게 하기"/>
+	<item chapter="Appendix" en="Voice Access" ko="Voice Access"/>
+	<item chapter="Appendix" en="There is not enough space in the device’s storage" ko="제품의 저장공간이 부족합니다."/>
+</root>

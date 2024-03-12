@@ -1,0 +1,76 @@
+parameters {		
+		string(name: 'version', defaultValue: '19.9.0', description: 'version of sdk')	
+		string(name: 'StartFromStep', defaultValue: '0', description: 'start step')	
+		string(name: 'testServerUrl', defaultValue: 'https://api-qa.aspose.cloud', description: 'server url')
+		string(name: 'credentialsId', defaultValue: '6839cbe8-39fa-40c0-86ce-90706f0bae5d', description: 'credentials id')
+		string(name: 'releaseCredentialsId', defaultValue: 'f0c4f9b6-8ffe-4ea8-8981-e99263fdb788', description: 'release credentials id')
+		string(name: 'serverToDeploy', defaultValue: '-DuseStageRepo=true', description: 'possible values are -DuseStageRepo=true or false')
+}
+node('words-linux') {         
+    try {
+		stage('0:Merge master to release'){
+			if (params.StartFromStep.toInteger() < 1) {
+                checkout([$class: 'GitSCM', branches: [[name: '*/release']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'LocalBranch', localBranch: "**"]], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '361885ba-9425-4230-950e-0af201d90547', url: 'https://git.auckland.dynabic.com/words-cloud/words-cloud-java.git']]])
+                sh "git config user.email 'jenkins.aspose@gmail.com'"
+                sh "git config user.name 'jenkins'"
+                sh "git checkout --merge release"
+                sh "git reset --hard origin/release"
+                sh "git merge --no-ff --allow-unrelated-histories origin/master"
+                sh "git diff --name-status"			
+                sh 'git commit -am "Merged master branch to release" || exit 0'
+                withCredentials([usernamePassword(credentialsId: '361885ba-9425-4230-950e-0af201d90547', passwordVariable: 'gitPass', usernameVariable: 'gitUsername')]) {
+                    sh "git push https://$gitUsername:$gitPass@git.auckland.dynabic.com/words-cloud/words-cloud-java.git release"
+                }
+			}
+        }
+       stage('1:checkout'){
+		if (params.StartFromStep.toInteger() < 2) {
+        	checkout([$class: 'GitSCM', branches: [[name: '*/release']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'LocalBranch', localBranch: "**"]], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '361885ba-9425-4230-950e-0af201d90547', url: 'https://git.auckland.dynabic.com/words-cloud/words-cloud-java.git']]])
+            withCredentials([usernamePassword(credentialsId: params.credentialsId, passwordVariable: 'ClientSecret', usernameVariable: 'ClientId')]) {
+			  sh 'git checkout release'
+              sh 'mkdir -p Settings'
+              sh 'echo "{\\"ClientId\\": \\"$ClientId\\",\\"ClientSecret\\": \\"$ClientSecret\\", \\"BaseUrl\\": \\"https://auckland-words-cloud-staging.dynabic.com\\"}" > Settings/servercreds.json'
+			  sh "git config user.email \"jenkins.aspose@gmail.com\""
+			  sh "git config user.name \"jenkins\""
+           }
+		   	withCredentials([usernamePassword(credentialsId: params.releaseCredentialsId, passwordVariable: 'mavenPass', usernameVariable: 'mavenUser')]) {
+					sh 'echo "<settings xmlns=\\"http://maven.apache.org/SETTINGS/1.0.0\\" \\n xmlns:xsi=\\"http://www.w3.org/2001/XMLSchema-instance\\" \\n xsi:schemaLocation=\\"http://maven.apache.org/SETTINGS/1.0.0\\"> \\n<servers> \\n <server> \\n<id>params.serverToDeploy</id>\\n<username>${mavenUser}</username>\\n<password>${mavenPass}</password>\\n</server>\\n</servers>\\n</settings>" > wordsSettings.xml'
+				}
+			}
+		}
+	   
+	   stage('2:release'){
+		if (params.StartFromStep.toInteger() < 3) {
+			withCredentials([usernamePassword(credentialsId: '361885ba-9425-4230-950e-0af201d90547', passwordVariable: 'gitPass', usernameVariable: 'gitUsername')]) {
+					docker.image('maven:3.6.2-jdk-8').inside{
+						stage('deploy'){
+							withCredentials([usernamePassword(credentialsId: params.credentialsId, passwordVariable: 'ClientSecret', usernameVariable: 'ClientId')]) {
+								sh 'mkdir -p Settings'
+								sh 'echo "{\\"ClientId\\": \\"$ClientId\\",\\"ClientSecret\\": \\"$ClientSecret\\", \\"BaseUrl\\": \\"$testServerUrl\\"}" > Settings/servercreds.json'
+							}
+							sh 'cat wordsSettings.xml'
+							sh "mvn --settings wordsSettings.xml deploy -Dmaven.javadoc.skip=true -DcheckModificationExcludeList=wordsSettings.xml,Settings/servercreds.json -DuseStageRepo=true"
+						}
+					}
+				}
+			}
+	   }
+
+		stage('3:add version tag'){
+			if (params.StartFromStep.toInteger() < 4) {
+				checkout([$class: 'GitSCM', branches: [[name: '*/release']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'LocalBranch', localBranch: "**"]], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '361885ba-9425-4230-950e-0af201d90547', url: 'https://git.auckland.dynabic.com/words-cloud/words-cloud-java.git']]])
+						
+				sh "git config user.email \"jenkins.aspose@gmail.com\""
+				sh "git config user.name \"jenkins\""
+				sh "git tag -a ${version} -m 'version ${version}' | exit 0"
+				
+				withCredentials([usernamePassword(credentialsId: '361885ba-9425-4230-950e-0af201d90547', passwordVariable: 'gitPass', usernameVariable: 'gitUsername')]) {
+					sh "git push https://$gitUsername:$gitPass@git.auckland.dynabic.com/words-cloud/words-cloud-java.git ${version}"
+				}
+			}
+		}           
+		    			                
+    } finally {                       
+        deleteDir()
+    }
+}   

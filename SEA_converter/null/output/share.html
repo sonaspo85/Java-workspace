@@ -1,0 +1,36 @@
+<div class="btn-area">
+    <!-- <span class="btn-prev"><a href="#"><img src="common/images/btn-prev.png" alt="prev button"></a></span> -->
+    <!-- <span class="btn-next"><a href="#"><img src="common/images/btn-next.png" alt="next button"></a></span> -->
+    <span class="btn-set" onclick="jsSetting()"><img src="common/images/btn-set.png" alt="set button"></span>
+</div>
+<div class="text_s">
+    <div class="box">
+        <div class="text_title">﻿﻿﻿</div>
+        <div class="pop_close" onclick="jsSettingClose()"><img src="common/images/setting_close_icon.png"></div>
+        <div class="sizer_text">﻿﻿﻿</div>
+        <div id="sizer">
+            <a class="decrease" href="#" title="Decrease text size"><img src="common/images/text_small_icon.png" alt=""></a>
+            <input type="range" id="slider-1" class="text_size" min="1" max="3" value="1" onchange="text_size_change(this.value);"/>
+            <a class="increase" href="#" title="Increase text size"><img src="common/images/text_big_icon.png" alt=""></a>
+        </div>
+        <div class="lssizer_text">﻿﻿﻿</div>
+        <div id="lssizer">
+            <a class="lsdecrease" href="#" title="Decrease text size"><img src="common/images/line_h.png" alt="" border="0"></a>
+            <input type="range" id="slider-2" class="line_height" min="1" max="3" value="1" onchange="line_height_change(this.value);"/>
+            <a class="lsincrease" href="#" title="Increase text size"><img src="common/images/line_h2.png" alt=""></a>
+        </div>
+    </div>
+</div>
+<div class="popup_img">
+    <div class="box">
+        <div class="pop_close" onclick="jsSettingClose()"><img src="common/images/setting_close_icon.png"></div>
+        <div class="image_area">﻿﻿﻿</div>
+        <div class="zoom_in_out">
+            <img src="common/images/popup_size_small.png" class="zoom_icon1"/>
+            <input type="range" id="zoom_sd" class="zoom_sd" min="100" max="200" value="100" onchange="img_size_change(this.value);"/>
+            <img src="common/images/popup_size_big.png" class="zoom_icon2"/>
+        </div>
+    </div>
+</div>
+<div class="cover">﻿﻿﻿</div>
+<div class="go-top"><img src="common/images/btn_top.svg" alt="top"/></div>

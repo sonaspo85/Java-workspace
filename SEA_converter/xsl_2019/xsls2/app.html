@@ -1,0 +1,46 @@
+<dummy><![CDATA[<!DOCTYPE HTML>
+<html data-language="language-code">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, target-densitydpi=medium-dpi">
+	<title>User Manual</title>
+	<link rel="apple-touch-icon" href="common/images/favicon.png">
+	<link rel="apple-touch-icon-precomposed" href="common/images/favicon.png">
+	<link rel="icon" href="common/images/favicon.ico">
+	<link rel="shortcut icon" href="common/images/favicon.png">
+	<script type="text/javascript" src="common/js/message.js"></script>
+	<script type="text/javascript" src="common/js/jquery.js"></script>
+	<script type="text/javascript" src="common/js/alertbox.js"></script>
+	<link id="searchStyle" type="text/css" rel="stylesheet" href="common/css/search_style.css" />
+</head>
+
+<script>
+	function decode(value) {
+		var encoded = value;
+		return decodeURIComponent(encoded.replace(/\+/g,  " "));
+	}
+
+	var deep_link = location.href.split("#");
+	var language = $("html").attr("data-language");
+
+
+	var find_err = message[language].find_err;
+	link_key = deep_link[1];
+	deep_txt = decode(link_key);
+	m_type = deep_link[2];
+
+	if(m_type=="find"){
+		$.cookie("speak",null, { path : '/'  });
+		location.href = "search/search.html?StrSearch="+deep_txt+"&pos=find";
+	}else if(m_type=="speak"){
+		$.cookie("speak", "speak", { path : '/'  });
+		location.href = "search/search.html?StrSearch="+deep_txt+"&pos=speak";
+	}else{
+		$.cookie("speak",null, { path : '/'  });
+		document.write("<script type='text/javascript' src='common/js/deeplink.js'><\/script>");
+	}
+</script>
+
+<body>
+</body>
+</html>]]></dummy>

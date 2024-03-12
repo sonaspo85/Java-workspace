@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+    <!-- ******************************************************************** -->
+    <!-- default -->
+    <variable id="Default Size">12pt</variable>
+    <variable id="Default Common FontFamily">SamsungOneThai 300</variable>
+    <variable id="Default Common LineHeight">18pt</variable>
+    <variable id="Default Common FontStretch">100%</variable>
+    <variable id="Default Common LetterSpacing">0pt</variable>
+    <!-- Frontmatter -->
+    <variable id="Frontmatter Title Size">60pt</variable>
+    <variable id="Frontmatter Title FontFamily">SamsungOneThai 300</variable>
+    <variable id="Frontmatter Title LineHeight">60pt</variable>
+    <variable id="Frontmatter Title FontStretch">100%</variable>
+    <variable id="Frontmatter Title LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="Frontmatter Model Size">14pt</variable>
+    <variable id="Frontmatter Model FontFamily">SamsungOneThai 300</variable>
+    <variable id="Frontmatter Model LineHeight">17pt</variable>
+    <variable id="Frontmatter Model FontStretch">100%</variable>
+    <variable id="Frontmatter Model LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="Frontmatter LangDateVer Size">12pt</variable>
+    <variable id="Frontmatter LangDateVer FontFamily">SamsungOneThai 300</variable>
+    <variable id="Frontmatter LangDateVer LineHeight">18pt</variable>
+    <variable id="Frontmatter LangDateVer FontStretch">100%</variable>
+    <variable id="Frontmatter LangDateVer LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="Frontmatter Url Size">12pt</variable>
+    <variable id="Frontmatter Url FontFamily">SamsungOneThai 300</variable>
+    <variable id="Frontmatter Url LineHeight">18pt</variable>
+    <variable id="Frontmatter Url FontStretch">100%</variable>
+    <variable id="Frontmatter Url LetterSpacing">0pt</variable>
+    <!-- TOC -->
+    <variable id="TOC header Size">38pt</variable>
+    <variable id="TOC PageTitle FontFamily">SamsungOneThai 700</variable>
+    <variable id="TOC PageTitle LineHeight">44pt</variable>
+    <variable id="TOC PageTitle FontStretch">100%</variable>
+    <variable id="TOC PageTitle LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="TOC depth Size 1">19pt</variable>
+    <variable id="TOC Heading1 FontFamily">SamsungOneThai 700</variable>
+    <variable id="TOC Heading1 LineHeight">25pt</variable>
+    <variable id="TOC Heading1 LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="TOC depth Size 2">12pt</variable>
+    <variable id="TOC depth Size 3">12pt</variable>
+    <variable id="TOC SubHeading FontFamily">SamsungOneThai 300</variable>
+    <variable id="TOC SubHeading LineHeight">18pt</variable>
+    <variable id="TOC ListNumber FontFamily">SamsungOneThai 300</variable>
+    <variable id="TOC SubHeading LetterSpacing">0pt</variable>
+    <!-- Chapter -->
+    <variable id="Chapter Upgrade Size 1">38pt</variable>
+    <variable id="Chapter Normal Size 1">38pt</variable>
+    <variable id="Chapter FontFamily 1">SamsungOneThai 700</variable>
+    <variable id="Chapter LineHeight">44pt</variable>
+    <variable id="Chapter FontStretch">100%</variable>
+    <variable id="Chapter LetterSpacing">0pt</variable>
+    <!-- Heading1 -->
+    <variable id="Heading Common FontFamily">SamsungOneThai 700</variable>
+    <variable id="Heading1 Size">24pt</variable>
+    <variable id="Heading1 FontFamily">SamsungOneThai 700</variable>
+    <variable id="Heading1 LineHeight">30pt</variable>
+    <variable id="Heading1 FontStretch">100%</variable>
+    <variable id="Heading1 LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="Heading1-H3 Size">15pt</variable>
+    <variable id="Heading1-H3 LineHeight">21pt</variable>
+    <variable id="Heading1-H3 LetterSpacing">0pt</variable>
+    <!-- Heading2 -->
+    <variable id="Heading2 Size">18pt</variable>
+    <variable id="Heading2 FontFamily">SamsungOneThai 700</variable>
+    <variable id="Heading2 LineHeight">24pt</variable>
+    <variable id="Heading2 FontStretch">100%</variable>
+    <variable id="Heading2 LetterSpacing">0pt</variable>
+    <!-- Heading3 -->
+    <variable id="Heading3 Size">15pt</variable>
+    <variable id="Heading3 FontFamily">SamsungOneThai 700</variable>
+    <variable id="Heading3 LineHeight">21pt</variable>
+    <variable id="Heading3 FontStretch">100%</variable>
+    <variable id="Heading3 LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="Heading3-TroubleShooting Size">16pt</variable>
+    <variable id="Heading3-TroubleShooting FontFamily">SamsungOneThai 700</variable>
+    <variable id="Heading3-TroubleShooting LineHeight">22pt</variable>
+    <variable id="Heading3-TroubleShooting LetterSpacing">0pt</variable>
+    <variable id="Heading3-APPLINK Size">15pt</variable>
+    <variable id="outputclass=Heading3) topic/p roundbox Size">15pt</variable>
+    <variable id="outputclass=Heading3) topic/p Size">15pt</variable>
+    <variable id="outputclass=Heading3) topic/p-table Size">15pt</variable>
+    <!-- Heading4 -->
+    <variable id="Heading4 Size">13pt</variable>
+    <variable id="Heading4 FontFamily">SamsungOneThai 700</variable>
+    <variable id="Heading4 LineHeight">19pt</variable>
+    <variable id="Heading4 FontStretch">100%</variable>
+    <variable id="Heading4 LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="Heading4-TroubleShooting Size">15pt</variable>
+    <variable id="Heading4-TroubleShooting FontFamily">SamsungOneThai 700</variable>
+    <variable id="Heading4-TroubleShooting LineHeight">21pt</variable>
+    <variable id="Heading4-TroubleShooting LetterSpacing">0pt</variable>
+    <!-- C_Superscript-R-TM | C_Superscript-R-TM -->
+    <variable id="tmtype=tm) topic/tm Size">11pt</variable>
+    <variable id="tmtype=tm) topic/tm FontFamily">SamsungOneThai 300</variable>
+    <variable id="tmtype=tm) topic/tm LineHeight">18pt</variable>
+    <variable id="tmtype=tm) topic/tm FontStretch">100%</variable>
+    <!-- <variable id="tmtype=tm) topic/tm FontStretch">115%</variable> -->
+    <variable id="tmtype=tm) topic/tm LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="tmtype=reg) topic/tm Size">11pt</variable>
+    <variable id="tmtype=reg) topic/tm FontFamily">SamsungOneThai 300</variable>
+    <variable id="tmtype=reg) topic/tm LineHeight">18pt</variable>
+    <variable id="tmtype=reg) topic/tm FontStretch">100%</variable>
+    <!-- <variable id="tmtype=reg) topic/tm FontStretch">115%</variable> -->
+    <variable id="tmtype=reg) topic/tm LetterSpacing">0pt</variable>
+    <!-- C_H1-Small  Heading1 -->
+    <variable id="outputclass=small) topic/ph Size">18pt</variable>
+    <variable id="outputclass=small) topic/ph FontFamily">SamsungOneThai 700</variable>
+    <variable id="outputclass=small) topic/ph LineHeight">30pt</variable>
+    <variable id="outputclass=small) topic/ph FontStretch">100%</variable>
+    <variable id="outputclass=small) topic/ph LetterSpacing">0pt</variable>
+    <!-- C_FontChange  Heading2 -->
+    <variable id="outputclass=preserve) topic/ph FontFamily">inherit</variable><!-- C_FontChange -->
+    <!-- <variable id="outputclass=preserve) hi-d/b FontFamily">inherit</variable> --><!-- C_FontChange-Semi -->
+    <variable id="outputclass=preserve) hi-d/b FontFamily">SamsungOneThai 700</variable><!-- C_FontChange-Semi -->
+    <!-- intuitive1  Heading1-->
+    <variable id="outputclass=intuitive1) topic/ph Size">18pt</variable>
+    <variable id="outputclass=intuitive1) topic/ph FontFamily">SamsungOneThai 700</variable>
+    <variable id="outputclass=intuitive1) topic/ph LineHeight">24pt</variable>
+    <variable id="outputclass=intuitive1) topic/ph FontStretch">100%</variable>
+    <variable id="outputclass=intuitive1) topic/ph LetterSpacing">0pt</variable>
+    <!-- intuitive2  Heading1-->
+    <variable id="outputclass=intuitive2) topic/ph Size">14pt</variable>
+    <variable id="outputclass=intuitive2) topic/ph FontFamily">SamsungOneThai 700</variable>
+    <variable id="outputclass=intuitive2) topic/ph LineHeight">20pt</variable>
+    <variable id="outputclass=intuitive2) topic/ph FontStretch">100%</variable>
+    <variable id="outputclass=intuitive2) topic/ph LetterSpacing">0pt</variable>
+    <!-- intuitive3 -->
+    <variable id="outputclass=intuitive3) topic/ph Size">12pt</variable>
+    <variable id="outputclass=intuitive3) topic/ph FontFamily">SamsungOneThai 700</variable>
+    <variable id="outputclass=intuitive3) topic/ph LineHeight">18pt</variable>
+    <variable id="outputclass=intuitive3) topic/ph FontStretch">100%</variable>
+    <variable id="outputclass=intuitive3) topic/ph LetterSpacing">0pt</variable>
+    <!-- C_Important -->
+    <variable id="default) hi-d/b FontFamily">SamsungOneThai 700</variable><!-- C_Important -->
+    <variable id="outputclass=semi) hi-d/b FontFamily">SamsungOneThai 700</variable><!-- C_Important-Semi -->
+    <variable id="hi-d/b FontFamily">SamsungOneThai 700</variable><!-- C_Important -->
+    <!-- steps -->
+    <variable id="step-Number) task/step Size">16pt</variable><!--ast.step.number-->
+    <variable id="step-Number) task/step FontFamily">SamsungOne-600</variable><!--ast.step.number-->
+    <variable id="task/step FontStretch">100%</variable>
+    <variable id="task/step LetterSpacing">0pt</variable>
+    <!-- <variable id="OS_Upgrade) task/step FontFamily"></variable> -->
+    <!-- ul -->
+    <variable id="li-Bullet) topic/li FontFamily">SamsungOne-400</variable><!--li__label-->
+    <variable id="parTag=table_appendix-standard) topic/li LineHeight">18pt</variable>
+    <variable id="topic/li FontStretch">100%</variable>
+    <variable id="topic/li LetterSpacing">0pt</variable>
+    <!-- topic/p -->
+    <variable id="OS_Upgrade) topic/p FontFamily">SamsungOne-600</variable>
+    <variable id="topic/p FontStretch">100%</variable>
+    <!-- sw-d/cmdname -->
+    <variable id="default) cmdname FontFamily">SamsungOneThai 700</variable>
+    <variable id="sw-d/cmdname LineHeight">18pt</variable>
+    <variable id="sw-d/cmdname FontStretch">100%</variable>
+    <variable id="sw-d/cmdname LetterSpacing">0pt</variable>
+    <!-- header | footer. -->
+    <variable id="HeaderHeading FontFamily">SamsungOneThai 300</variable>
+    <variable id="HeaderHeading LineHeight">18pt</variable>
+    <variable id="HeaderHeading Size">12pt</variable>
+    <variable id="FooterPageNum FontFamily">SamsungOne-400</variable>
+    <variable id="FooterPageNum LineHeight">18pt</variable>
+    <variable id="FooterPageNum Size">14pt</variable>
+</vars>

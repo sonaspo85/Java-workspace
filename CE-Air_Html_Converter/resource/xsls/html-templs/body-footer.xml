@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <footer id="footer">
+        <div class="wrap">
+            <div class="container">
+                <div id="goTop">
+                    <a href="#body" class="top_btn">
+                        <i class="fa fa-angle-up" aria-hidden="true">&#xFEFF;</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="selectLanguage" class="modal">
+        <div class="modal_bg">&#xFEFF;</div>
+        <div class="modal_wrap">
+            <div class="modal_container">
+                <div class="modal_header">
+                    <h4 class="modal_title">Select Language</h4>
+                    <button type="button" class="close_btn">
+                        <i class="line">&#xFEFF;</i>
+                        <i class="line">&#xFEFF;</i>
+                    </button>
+                </div>
+                <div class="modal_body">&#xFEFF;</div>
+            </div>
+        </div>
+    </div>
+</root>

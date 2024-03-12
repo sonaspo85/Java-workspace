@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+	<variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/notice.svg</variable>
+	<variable id="warning Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+	<variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/caution.svg</variable>
+	<variable id="service Note Image Path">Customization/OpenTopic/common/artwork/M-service.ai</variable>
+	<variable id="recycle Note Image Path">Customization/OpenTopic/common/artwork/M-recycle.ai</variable>
+	<variable id="basics Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_getting.ai</variable>
+	<variable id="apps_and_features Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_apps.ai</variable>
+	<variable id="settings Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_settings.ai</variable>
+	<variable id="usage_notices Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_usage.ai</variable>
+	<variable id="appendix Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_appendix.ai</variable>
+	<variable id="admonition note">Note</variable>
+	<variable id="admonition warning">Warning</variable>
+	<variable id="Unordered List bullet">•</variable>
+	<variable id="Unordered List bullet 1">•</variable>
+	<variable id="Unordered List bullet 2">‒</variable>
+	<variable id="On the page"/>
+	<variable id="frontmatter-title">MANUALUL UTILIZATORULUI</variable>
+	<variable id="frontmatter-language">Romanian</variable>
+	<variable id="frontmatter-toc-contents">Cuprins</variable>
+	<variable id="Preface odd header"><param ref-name="prodname"/> | <variable id="Preface title"/>
+	 | <param ref-name="pagenum"/></variable>
+	<variable id="Preface even header"><param ref-name="pagenum"/> | <variable id="Preface title"/>
+	 | <param ref-name="prodname"/></variable>
+	<variable id="Table of Contents">Cuprins</variable>
+	<variable id="Index Continued String">continuare</variable>
+	<variable id="Index See String">, Vezi </variable>
+	<variable id="Index See Also String">Vezi și </variable>
+	<variable id="Table of Contents Chapter">Cap. <param ref-name="number"/>. </variable>
+	<variable id="Table of Contents Appendix">Anexa <param ref-name="number"/>. </variable>
+	<variable id="Table of Contents Part">Parte <param ref-name="number"/>. </variable>
+	<variable id="Table of Contents Preface">Prefață: </variable>
+	<variable id="Preface title">Prefață</variable>
+	<variable id="Notices title"><!--TODO:Notice--></variable>
+	<variable id="Mini Toc"><!--TODO:Topics: --></variable>
+	<variable id="Notice"><!--TODO:Notice--></variable>
+	<variable id="Figure.title">Fig. <param ref-name="number"/>. <param ref-name="title"/></variable>
+	<variable id="Figure Number">Fig. <param ref-name="number"/></variable>
+	<variable id="Table.title">Tabel <param ref-name="number"/>. <param ref-name="title"/></variable>
+	<variable id="Table Number">Tabel <param ref-name="number"/></variable>
+	<variable id="Related Links"><!--TODO:Related Links--></variable>
+	<variable id="Cross-Reference"/>
+	<variable id="Content-Reference"/>
+	<variable id="List item"><!--TODO:List item.--></variable>
+	<variable id="Foot note"><!--TODO:Footnote.--></variable>
+	<variable id="Navigation title"><!--TODO:Navigation title--></variable>
+	<variable id="Search title"><!--TODO:Search title--></variable>
+	<variable id="Chapter with number">Cap. <param ref-name="number"/></variable>
+	<variable id="Appendix with number">Anexa <param ref-name="number"/></variable>
+	<variable id="Part with number">Parte <param ref-name="number"/></variable>
+	<variable id="Required-Cleanup"><!--TODO:[Required-Cleanup]--></variable>
+	<variable id="Page"><!--TODO: page <param ref-name="pagenum"/>--></variable>
+	<variable id="This link"/>
+	<variable id="Child topics"/>
+	<variable id="Related references">Referinţe înrudite</variable>
+	<variable id="Optional Step">Opţional:</variable>
+	<variable id="Required Step">Necesar:</variable>
+	<variable id="Task Prereq"/>
+	<variable id="Task Context"/>
+	<variable id="Task Steps"/>
+	<variable id="#steps-unordered-label"/>
+	<variable id="Task Result"/>
+	<variable id="Task Example"/>
+	<variable id="Task Postreq"/>
+	<variable id="Glossary">Glosar</variable>
+	<variable id="List of Tables">Listă de tabele</variable>
+	<variable id="List of Figures">Listă de figuri</variable>
+</vars>

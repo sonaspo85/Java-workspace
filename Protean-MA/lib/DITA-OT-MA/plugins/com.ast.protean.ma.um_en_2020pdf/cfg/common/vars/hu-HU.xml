@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+	<variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/notice.svg</variable>
+	<variable id="warning Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+	<variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/caution.svg</variable>
+	<variable id="service Note Image Path">Customization/OpenTopic/common/artwork/M-service.ai</variable>
+	<variable id="recycle Note Image Path">Customization/OpenTopic/common/artwork/M-recycle.ai</variable>
+	<variable id="basics Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_getting.ai</variable>
+	<variable id="apps_and_features Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_apps.ai</variable>
+	<variable id="settings Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_settings.ai</variable>
+	<variable id="usage_notices Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_usage.ai</variable>
+	<variable id="appendix Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_appendix.ai</variable>
+	<variable id="admonition note">Note</variable>
+	<variable id="admonition warning">Warning</variable>
+	<variable id="Unordered List bullet">•</variable>
+	<variable id="Unordered List bullet 1">•</variable>
+	<variable id="Unordered List bullet 2">‒</variable>
+	<variable id="On the page"/>
+	<variable id="frontmatter-title">FELHASZNÁLÓI KÉZIKÖNYV</variable>
+	<variable id="frontmatter-language">Hungarian</variable>
+	<variable id="frontmatter-toc-contents">Tartalom</variable>
+	<variable id="Preface odd header"><param ref-name="prodname"/> | Bevezető | <param ref-name="pagenum"/></variable>
+	<variable id="Preface even header"><param ref-name="pagenum"/> | Bevezető | <param ref-name="prodname"/></variable>
+	<variable id="Table of Contents">Tartalom</variable>
+	<variable id="Index Continued String">folytatás</variable>
+	<variable id="Index See String">, Lásd </variable>
+	<variable id="Index See Also String">Lásd még </variable>
+	<variable id="Table of Contents Chapter"><param ref-name="number"/>. fejezet: </variable>
+	<variable id="Table of Contents Appendix"><param ref-name="number"/>. függelék: </variable>
+	<variable id="Table of Contents Part">Rész <param ref-name="number"/>: </variable>
+	<variable id="Table of Contents Preface">Bevezető: </variable>
+	<variable id="Preface title">Bevezető</variable>
+	<variable id="Notices title">Notice</variable>
+	<variable id="Mini Toc">Tartalom: </variable>
+	<variable id="Notice">Notice</variable>
+	<variable id="Figure.title">ábra <param ref-name="number"/>: <param ref-name="title"/></variable>
+	<variable id="Figure Number">ábra <param ref-name="number"/></variable>
+	<variable id="Table.title">táblázat <param ref-name="number"/>: <param ref-name="title"/></variable>
+	<variable id="Table Number">táblázat <param ref-name="number"/></variable>
+	<variable id="Related Links">Kapcsolódó tájékoztatás</variable>
+	<variable id="Cross-Reference">Cross-Reference to:</variable>
+	<variable id="Content-Reference">Unresolved content reference to:</variable>
+	<variable id="List item">List item.</variable>
+	<variable id="Foot note">Footnote.</variable>
+	<variable id="Navigation title">Navigation title</variable>
+	<variable id="Search title">Search title</variable>
+	<variable id="Chapter with number"><param ref-name="number"/>. fejezet</variable>
+	<variable id="Appendix with number"><param ref-name="number"/>. függelék</variable>
+	<variable id="Part with number">Rész <param ref-name="number"/></variable>
+	<variable id="Required-Cleanup">[Tisztázandó]</variable>
+	<variable id="Page"> oldal <param ref-name="pagenum"/></variable>
+	<variable id="This link"/>
+	<variable id="Child topics"/>
+	<variable id="Related references"/>
+	<variable id="Optional Step">Választható:</variable>
+	<variable id="Required Step">Kötelező:</variable>
+	<variable id="Task Prereq"/>
+	<variable id="Task Context"/>
+	<variable id="Task Steps"/>
+	<variable id="#steps-unordered-label"/>
+	<variable id="Task Result"/>
+	<variable id="Task Example"/>
+	<variable id="Task Postreq"/>
+	<variable id="Glossary">Fogalomtár</variable>
+	<variable id="List of Tables">Táblázatok</variable>
+	<variable id="List of Figures">Ábrák</variable>
+</vars>

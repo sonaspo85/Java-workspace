@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="400.0" style="-fx-background-color: ANTIQUEWHITE;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView id="imm" fitHeight="50.0" fitWidth="50.0" layoutX="15.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@src-template/complete.png" />
+         </image>
+      </ImageView>
+      <Button id="bt1" layoutX="336.0" layoutY="104.0" mnemonicParsing="false" text="확인" />
+      <Label id="txtTitle" layoutX="87.0" layoutY="33.0" prefHeight="15.0" prefWidth="290.0" text="작업이 완료 되었습니다." />
+      <Label layoutX="87.0" layoutY="68.0" text="작업 소요 시간 : " />
+      <Label id="durationTime" layoutX="185.0" layoutY="68.0" prefHeight="15.0" prefWidth="62.0" />
+   </children>
+</AnchorPane>

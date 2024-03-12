@@ -1,0 +1,29 @@
+<root>
+    <region region="CIS,CIS_Ukr">
+        <type value="Ukr" outRegion="Ukr" />
+        <type value="COMMON" outRegion="CIS" />
+    </region>
+    <region region="UKRAINE_ONLY" outRegion="UKRAINE_ONLY" />
+    <region region="TURKEY" outRegion="TURKEY" />
+    <region region="VIETNAM" outRegion="VIETNAM" />
+    <region region="ISRAEL,MIDDLE,MEA,SAUDI_ARABIA,HHP_ISRAEL_ONLY,HHP_MIDDLE_EAST_TYPE_A,MEA_Tur,MIDDLE_EAST_AFRICA">
+        <type value="MEA_B_TYPE" outRegion="AFRICA" />
+        <type value="HHP_AFRICA_TYPE_B" outRegion="AFRICA" />
+        <type value="AFRICA_TYPE_A" outRegion="AFRICA" />
+        <type value="SAUDI_ARABIA" outRegion="SAUDI_ARABIA" />
+        <type value="COMMON" outRegion="MEA" />
+    </region>
+    <region region="EUB,EUROPE_TYPE_B" outRegion="EUB" />
+    <region region="EUE,EUROPE_TYPE_E" outRegion="EUE" />
+    <region region="EUC,EU_Eng,EUROPE,SEAD_COMMON,EUROPE_TYPE_C" outRegion="EUC" />
+    <region region="EUA,EUH" outRegion="EUA-EUH" />
+    <region region="LTN,LATIN" outRegion="LTN" />
+    <region region="SEA,ASIA,MALAYSIA,INDONESIA" outRegion="SEA" />
+    <region region="SWA" outRegion="SWA" />
+    <region region="India" outRegion="India" />
+    <region region="Taiwan" outRegion="Taiwan" />
+    <region region="China" outRegion="China" />
+    <region region="HongKong" outRegion="HongKong" />
+    <region region="Kor" outRegion="Korea" />
+    <region region="Open" outRegion="EU-alone" />
+</root>

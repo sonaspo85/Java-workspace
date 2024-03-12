@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <language lang="Korean" localization="한국어" />
+    <language lang="English" localization="ENGLISH" />
+    <language lang="French" localization="FRANÇAIS" />
+    <language lang="Spanish" localization="ESPAÑOL" />
+    <language lang="Arabic" localization="العربية" />
+    <language lang="Portuguese" localization="PORTUGUÊS" />
+    <language lang="Japanese" localization="日本語" />
+    <language lang="Hindi" localization="हिन्दी" />
+    <language lang="Bengali" localization="বাংলা" />
+    <language lang="Marathi" localization="मराठी" />
+    <language lang="Telugu" localization="తెలుగు" />
+    <language lang="Tamil" localization="தமிழ்" />
+    <language lang="Gujarati" localization="ગુજરાતી" />
+    <language lang="Kannada" localization="ಕನ್ನಡ" />
+    <language lang="Odia" localization="ଓଡ଼ିଆ" />
+    <language lang="Malayalam" localization="മലയാളം" />
+    <language lang="Punjabi" localization="ਪੰਜਾਬੀ" />
+</root>

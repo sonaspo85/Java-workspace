@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root filename="language.xlsx">
+   <listitem>
+      <Albanian class="4:2">Arabic</Albanian>
+      <SQ class="4:3">AR</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="5:2">Argentine Spanish</Albanian>
+      <SQ class="5:3">AES</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="6:2">Brazilian Portuguese</Albanian>
+      <SQ class="6:3">BPT</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="7:2">Bulgarian</Albanian>
+      <SQ class="7:3">BG</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="8:2">Canadian French</Albanian>
+      <SQ class="8:3">CFR</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="9:2">Chinese</Albanian>
+      <SQ class="9:3">ZH_CN</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="10:2">Croatian</Albanian>
+      <SQ class="10:3">HR</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="11:2">Czech</Albanian>
+      <SQ class="11:3">CS</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="12:2">Danish</Albanian>
+      <SQ class="12:3">DA</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="13:2">Dutch</Albanian>
+      <SQ class="13:3">NL</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="14:2">Estonian</Albanian>
+      <SQ class="14:3">ET</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="15:2">English</Albanian>
+      <SQ class="15:3">EN</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="16:2">Farsi</Albanian>
+      <SQ class="16:3">FA</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="17:2">Finnish</Albanian>
+      <SQ class="17:3">FI</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="18:2">French</Albanian>
+      <SQ class="18:3">FR</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="19:2">Germany</Albanian>
+      <SQ class="19:3">DE</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="20:2">Greek</Albanian>
+      <SQ class="20:3">EL</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="21:2">Hebrew</Albanian>
+      <SQ class="21:3">HE</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="22:2">Hongkong Chinese</Albanian>
+      <SQ class="22:3">ZH_HK</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="23:2">Hungarian</Albanian>
+      <SQ class="23:3">HU</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="24:2">Iceland</Albanian>
+      <SQ class="24:3">IS</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="25:2">Indonesian</Albanian>
+      <SQ class="25:3">ID</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="26:2">Italian</Albanian>
+      <SQ class="26:3">IT</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="27:2">Kazakh</Albanian>
+      <SQ class="27:3">KK</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="28:2">Korean</Albanian>
+      <SQ class="28:3">KO</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="29:2">Latvian</Albanian>
+      <SQ class="29:3">LV</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="30:2">Lithuanian</Albanian>
+      <SQ class="30:3">LT</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="31:2">Macedonian</Albanian>
+      <SQ class="31:3">MK</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="32:2">Maltese</Albanian>
+      <SQ class="32:3">MT</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="33:2">Mexican Spanish</Albanian>
+      <SQ class="33:3">MES</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="34:2">Mongolian</Albanian>
+      <SQ class="34:3">MN</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="35:2">Norwegian</Albanian>
+      <SQ class="35:3">NO</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="36:2">Polish</Albanian>
+      <SQ class="36:3">PL</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="37:2">Portuguese</Albanian>
+      <SQ class="37:3">PT</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="38:2">Romanian</Albanian>
+      <SQ class="38:3">RO</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="39:2">Russian</Albanian>
+      <SQ class="39:3">RU</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="40:2">Serbian</Albanian>
+      <SQ class="40:3">SR</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="41:2">Slovakian</Albanian>
+      <SQ class="41:3">SK</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="42:2">Slovenian</Albanian>
+      <SQ class="42:3">SL</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="43:2">Spanish</Albanian>
+      <SQ class="43:3">ES</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="44:2">Swedish</Albanian>
+      <SQ class="44:3">SV</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="45:2">Taiwan Chinese</Albanian>
+      <SQ class="45:3">ZH_TW</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="46:2">Thai</Albanian>
+      <SQ class="46:3">TH</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="47:2">Turkish</Albanian>
+      <SQ class="47:3">TR</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="48:2">Ukrainian</Albanian>
+      <SQ class="48:3">UK</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="49:2">Uzbek</Albanian>
+      <SQ class="49:3">UZ</SQ>
+   </listitem>
+   <listitem>
+      <Albanian class="50:2">Vietnamese</Albanian>
+      <SQ class="50:3">VI</SQ>
+   </listitem>
+</root>

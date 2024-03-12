@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+    <!-- ******************************************************************** -->
+    <!-- default -->
+    <variable id="Default Size"></variable>
+    <variable id="Default Common FontFamily"></variable>
+    <variable id="Default Common LineHeight"></variable>
+    <variable id="Default Common FontStretch"></variable>
+    <variable id="Default Common LetterSpacing">0pt</variable>
+    <!-- Frontmatter -->
+    <variable id="Frontmatter Title Size"></variable>
+    <variable id="Frontmatter Title FontFamily"></variable>
+    <variable id="Frontmatter Title LineHeight"></variable>
+    <variable id="Frontmatter Title FontStretch"></variable>
+    <variable id="Frontmatter Title LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="Frontmatter Model Size"></variable>
+    <variable id="Frontmatter Model FontFamily"></variable>
+    <variable id="Frontmatter Model LineHeight"></variable>
+    <variable id="Frontmatter Model FontStretch"></variable>
+    <variable id="Frontmatter Model LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="Frontmatter LangDateVer Size"></variable>
+    <variable id="Frontmatter LangDateVer FontFamily"></variable>
+    <variable id="Frontmatter LangDateVer LineHeight"></variable>
+    <variable id="Frontmatter LangDateVer FontStretch"></variable>
+    <variable id="Frontmatter LangDateVer LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="Frontmatter Url Size"></variable>
+    <variable id="Frontmatter Url FontFamily"></variable>
+    <variable id="Frontmatter Url LineHeight"></variable>
+    <variable id="Frontmatter Url FontStretch"></variable>
+    <variable id="Frontmatter Url LetterSpacing">0pt</variable>
+    <!-- TOC -->
+    <variable id="TOC header Size"></variable>
+    <variable id="TOC PageTitle FontFamily"></variable>
+    <variable id="TOC PageTitle LineHeight"></variable>
+    <variable id="TOC PageTitle FontStretch"></variable>
+    <variable id="TOC PageTitle LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="TOC depth Size 1"></variable>
+    <variable id="TOC Heading1 FontFamily"></variable>
+    <variable id="TOC Heading1 LineHeight"></variable>
+    <variable id="TOC Heading1 LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="TOC depth Size 2"></variable>
+    <variable id="TOC depth Size 3"></variable>
+    <variable id="TOC SubHeading FontFamily"></variable>
+    <variable id="TOC SubHeading LineHeight"></variable>
+    <variable id="TOC ListNumber FontFamily"></variable>
+    <variable id="TOC SubHeading LetterSpacing">0pt</variable>
+    <!-- Chapter -->
+    <variable id="Chapter Upgrade Size 1"></variable>
+    <variable id="Chapter Normal Size 1"></variable>
+    <variable id="Chapter FontFamily 1"></variable>
+    <variable id="Chapter LineHeight"></variable>
+    <variable id="Chapter FontStretch"></variable>
+    <variable id="Chapter LetterSpacing">0pt</variable>
+    <!-- Heading1 -->
+    <variable id="Heading Common FontFamily"></variable>
+    <variable id="Heading1 Size"></variable>
+    <variable id="Heading1 FontFamily"></variable>
+    <variable id="Heading1 LineHeight"></variable>
+    <variable id="Heading1 FontStretch"></variable>
+    <variable id="Heading1 LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="Heading1-H3 Size"></variable>
+    <variable id="Heading1-H3 LineHeight"></variable>
+    <variable id="Heading1-H3 LetterSpacing">0pt</variable>
+    <!-- Heading2 -->
+    <variable id="Heading2 Size"></variable>
+    <variable id="Heading2 FontFamily"></variable>
+    <variable id="Heading2 LineHeight"></variable>
+    <variable id="Heading2 FontStretch"></variable>
+    <variable id="Heading2 LetterSpacing">0pt</variable>
+    <!-- Heading3 -->
+    <variable id="Heading3 Size"></variable>
+    <variable id="Heading3 FontFamily"></variable>
+    <variable id="Heading3 LineHeight"></variable>
+    <variable id="Heading3 FontStretch"></variable>
+    <variable id="Heading3 LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="Heading3-TroubleShooting Size"></variable>
+    <variable id="Heading3-TroubleShooting FontFamily"></variable>
+    <variable id="Heading3-TroubleShooting LineHeight"></variable>
+    <variable id="Heading3-TroubleShooting LetterSpacing">0pt</variable>
+    <variable id="Heading3-APPLINK Size"></variable>
+    <variable id="outputclass=Heading3) topic/p roundbox Size"></variable>
+    <variable id="outputclass=Heading3) topic/p Size"></variable>
+    <variable id="outputclass=Heading3) topic/p-table Size"></variable>
+    <!-- Heading4 -->
+    <variable id="Heading4 Size"></variable>
+    <variable id="Heading4 FontFamily"></variable>
+    <variable id="Heading4 LineHeight"></variable>
+    <variable id="Heading4 FontStretch"></variable>
+    <variable id="Heading4 LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="Heading4-TroubleShooting Size"></variable>
+    <variable id="Heading4-TroubleShooting FontFamily"></variable>
+    <variable id="Heading4-TroubleShooting LineHeight"></variable>
+    <variable id="Heading4-TroubleShooting LetterSpacing">0pt</variable>
+    <!-- C_Superscript-R-TM | C_Superscript-R-TM -->
+    <variable id="tmtype=tm) topic/tm Size"></variable>
+    <variable id="tmtype=tm) topic/tm FontFamily"></variable>
+    <variable id="tmtype=tm) topic/tm LineHeight"></variable>
+    <variable id="tmtype=tm) topic/tm FontStretch"></variable>
+    <variable id="tmtype=tm) topic/tm LetterSpacing">0pt</variable>
+    <!--  -->
+    <variable id="tmtype=reg) topic/tm Size"></variable>
+    <variable id="tmtype=reg) topic/tm FontFamily"></variable>
+    <variable id="tmtype=reg) topic/tm LineHeight"></variable>
+    <variable id="tmtype=reg) topic/tm FontStretch"></variable>
+    <variable id="tmtype=reg) topic/tm LetterSpacing">0pt</variable>
+    <!-- C_H1-Small  Heading1 -->
+    <variable id="outputclass=small) topic/ph Size"></variable>
+    <variable id="outputclass=small) topic/ph FontFamily"></variable>
+    <variable id="outputclass=small) topic/ph LineHeight"></variable>
+    <variable id="outputclass=small) topic/ph FontStretch"></variable>
+    <variable id="outputclass=small) topic/ph LetterSpacing">0pt</variable>
+    <!-- C_FontChange  Heading2 -->
+    <variable id="outputclass=preserve) topic/ph FontFamily">inherit</variable><!-- C_FontChange -->
+    <variable id="outputclass=preserve) hi-d/b FontFamily"></variable><!-- C_FontChange-Semi -->
+    <!-- intuitive1 Heading1-->
+    <variable id="outputclass=intuitive1) topic/ph Size"></variable>
+    <variable id="outputclass=intuitive1) topic/ph FontFamily"></variable>
+    <variable id="outputclass=intuitive1) topic/ph LineHeight"></variable>
+    <variable id="outputclass=intuitive1) topic/ph FontStretch"></variable>
+    <variable id="outputclass=intuitive1) topic/ph LetterSpacing">0pt</variable>
+    <!-- intuitive2 Heading2-->
+    <variable id="outputclass=intuitive2) topic/ph Size"></variable>
+    <variable id="outputclass=intuitive2) topic/ph FontFamily"></variable>
+    <variable id="outputclass=intuitive2) topic/ph LineHeight"></variable>
+    <variable id="outputclass=intuitive2) topic/ph FontStretch"></variable>
+    <variable id="outputclass=intuitive2) topic/ph LetterSpacing">0pt</variable>
+    <!-- C_Important -->
+    <variable id="default) hi-d/b FontFamily"></variable><!-- C_Important -->
+    <variable id="outputclass=semi) hi-d/b FontFamily"></variable><!-- C_Important-Semi -->
+    <variable id="hi-d/b FontFamily"></variable><!-- C_Important -->
+    <!-- steps -->
+    <variable id="step-Number) task/step Size">16pt</variable><!--ast.step.number-->
+    <variable id="step-Number) task/step FontFamily">SamsungOne-600</variable><!--ast.step.number-->
+    <variable id="task/step FontStretch"></variable>
+    <variable id="task/step LetterSpacing">0pt</variable>
+    <!-- <variable id="OS_Upgrade) task/step FontFamily"></variable> -->
+    <!-- ul -->
+    <variable id="li-Bullet) topic/li FontFamily">SamsungOne-400</variable><!--li__label-->
+    <variable id="parTag=table_appendix-standard) topic/li LineHeight"></variable>
+    <variable id="topic/li FontStretch"></variable>
+    <variable id="topic/li LetterSpacing">0pt</variable>
+    <!-- topic/p -->
+    <variable id="OS_Upgrade) topic/p FontFamily">SamsungOne-600</variable>
+    <variable id="topic/p FontStretch"></variable>
+    <!-- sw-d/cmdname -->
+    <variable id="default) cmdname FontFamily"></variable>
+    <variable id="sw-d/cmdname LineHeight"></variable>
+    <variable id="sw-d/cmdname FontStretch"></variable>
+    <variable id="sw-d/cmdname LetterSpacing">0pt</variable>
+    <!-- header | footer. -->
+    <variable id="HeaderHeading FontFamily"></variable>
+    <variable id="HeaderHeading LineHeight"></variable>
+    <variable id="FooterPageNum FontFamily"></variable>
+    <variable id="FooterPageNum LineHeight"></variable>
+</vars>

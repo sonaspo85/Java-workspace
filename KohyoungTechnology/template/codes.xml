@@ -1,0 +1,13 @@
+<codes TotalLang="ENG, JPN, CHN">
+	<option lang="KOR" value="Korean" abbr="ko" CoverTitle="문서 정보">한국어</option>
+  	<option lang="ENG" value="English" abbr="en" CoverTitle="About This Document">English</option>
+	<option lang="JPN" value="Jpanese" abbr="jpn" CoverTitle="文書情報">日本語</option>
+	<option lang="CHN" value="Chinese" abbr="chn" CoverTitle="文档信息">中文(简体)</option>
+	<option lang="TWN" value="Taiwan" abbr="twn" CoverTitle="文件資訊">中文(繁體)</option>
+	<option lang="VNM" value="Vietnam" abbr="vnm" CoverTitle="Về tài liệu này">Tiếng Việt</option>
+	<option lang="DEU" value="Deutsch" abbr="deu" CoverTitle="Über dieses Dokument">Deutsch</option>
+	<option lang="HUM" value="Magyar" abbr="hun" CoverTitle="A dokumentumról">Magyar</option>
+	<option lang="ROM" value="Română" abbr="rom" CoverTitle="Despre acest document">Română</option>
+	<option lang="FRA" value="Français" abbr="fra" CoverTitle="À propos de ce document">français</option>
+	<option lang="ESP" value="Español" abbr="esp" CoverTitle="Acerca de este documento">Español</option>
+</codes>

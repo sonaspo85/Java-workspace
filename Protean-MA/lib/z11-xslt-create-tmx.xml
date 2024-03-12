@@ -1,0 +1,22 @@
+<root>
+    <path
+        in="final-lang.dita"
+        out="convertTMX\dummy.xml"
+        xslt="convertTMX\01-extractSrcTar.xsl"/>
+
+    <path
+        in="convertTMX\01-extractSrcTar.xml"
+        out="convertTMX\02-distinctValue.xml"
+        xslt="convertTMX\02-distinctValue.xsl"/>
+
+    <path
+        in="convertTMX\02-distinctValue.xml"
+        out="convertTMX\03-matchingSrcTar.xml"
+        xslt="convertTMX\03-matchingSrcTar.xsl"/>
+
+    <path
+        in="convertTMX\03-matchingSrcTar.xml"
+        out="04-reviewed-TMX.tmx"
+        xslt="convertTMX\04-reviewed-TMX.xsl"/>
+
+</root>

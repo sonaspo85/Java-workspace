@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+    <variable id="Preface odd header">
+        <param ref-name="prodname" /> | Introduction | 
+        <param ref-name="pagenum" />
+    </variable>
+    <variable id="Preface even header">
+        <param ref-name="pagenum" /> | Introduction | 
+        <param ref-name="prodname" />
+    </variable>
+    <variable id="Table of Contents">Contents</variable>
+    <variable id="Index Continued String">continued</variable>
+    <variable id="Index See String">, See </variable>
+    <variable id="Index See Also String">See also </variable>
+    <variable id="Table of Contents Chapter">Chapter 
+        <param ref-name="number" />: </variable>
+    <variable id="Table of Contents Appendix">Appendix 
+        <param ref-name="number" />: </variable>
+    <variable id="Table of Contents Part">Part 
+        <param ref-name="number" />: </variable>
+    <variable id="Table of Contents Preface">Preface: </variable>
+    <variable id="Preface title">Preface</variable>
+    <variable id="Notices title">Notice</variable>
+    <variable id="Mini Toc">Topics: </variable>
+    <variable id="Notice">Notice</variable>
+    <variable id="Figure.title">Figure
+        <param ref-name="number" />:
+        <param ref-name="title" />
+    </variable>
+    <variable id="Figure Number">Figure
+        <param ref-name="number" />
+    </variable>
+    <variable id="Table.title">Table
+        <param ref-name="number" />:
+        <param ref-name="title" />
+    </variable>
+    <variable id="Table Number">Table
+        <param ref-name="number" />
+    </variable>
+    <variable id="Related Links">Related Links</variable>
+    <variable id="Cross-Reference">Cross-Reference to:</variable>
+    <variable id="Content-Reference">Unresolved content reference to:</variable>
+    <variable id="List item">List item.</variable>
+    <variable id="Foot note">Footnote.</variable>
+    <variable id="Navigation title">Navigation title</variable>
+    <variable id="Search title">Search title</variable>
+    <variable id="Chapter with number">Chapter
+        <param ref-name="number" />
+    </variable>
+    <variable id="Appendix with number">Appendix
+        <param ref-name="number" />
+    </variable>
+    <variable id="Part with number">Part
+        <param ref-name="number" />
+    </variable>
+    <variable id="Required-Cleanup">[Required-Cleanup]</variable>
+    <variable id="On the page"> on page
+        <param ref-name="pagenum" />
+    </variable>
+    <variable id="Page"> page
+        <param ref-name="pagenum" />
+    </variable>
+    <variable id="This link">this link</variable>
+    <variable id="Child topics">Child Topics</variable>
+    <variable id="Related references">Related References</variable>
+    <variable id="Optional Step">Optional:</variable>
+    <variable id="Required Step">Required:</variable>
+    <variable id="Task Prereq" />
+    <variable id="Task Context" />
+    <variable id="Task Steps" />
+    <variable id="#steps-unordered-label" />
+    <variable id="Task Result" />
+    <variable id="Task Example" />
+    <variable id="Task Postreq" />
+    <variable id="Glossary">Glossary</variable>
+    <variable id="List of Tables">List of Tables</variable>
+    <variable id="List of Figures">List of Figures</variable>
+    <variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/notice.svg</variable>
+    <variable id="warning Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+    <variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/caution.svg</variable>
+    <variable id="service Note Image Path">Customization/OpenTopic/common/artwork/M-service.ai</variable>
+    <variable id="recycle Note Image Path">Customization/OpenTopic/common/artwork/M-recycle.ai</variable>
+    <variable id="basics Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_getting.ai</variable>
+    <variable id="apps_and_features Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_apps.ai</variable>
+    <variable id="settings Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_settings.ai</variable>
+	<variable id="usage_notices Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_usage.ai</variable>
+    <variable id="appendix Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_appendix.ai</variable>
+    <variable id="admonition note">Note</variable>
+    <variable id="admonition warning">Warning</variable>
+    <variable id="Unordered List bullet">•</variable>
+    <variable id="Unordered List bullet 1">•</variable>
+    <variable id="Unordered List bullet 2">‒</variable>
+    <variable id="frontmatter-title">USER MANUAL</variable>
+    <variable id="frontmatter-language">English</variable>
+    <variable id="frontmatter-toc-contents">Table of Contents</variable>
+    <variable id="frontmatter-infomation">部分内容可能会与实际设备有所不同。若要了解有关使用设备的更准确信息，&#xA;请将简体中文设置为默认语言，然后参阅用户手册。</variable>
+</vars>

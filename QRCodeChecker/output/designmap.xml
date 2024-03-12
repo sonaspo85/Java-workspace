@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="document" readerVersion="6.0" featureSet="257" product="16.0(77)" ?>
+<Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.0" Self="d" StoryList="u1e2 u1f9 u1c2 u21e u235 u24d u264 ucb" Name="000_Cover.indd" ZeroPoint="0 0" ActiveLayer="uee" CMYKProfile="Japan Color 2001 Coated" RGBProfile="sRGB IEC61966-2.1" SolidColorIntent="UseColorSettings" AfterBlendingIntent="UseColorSettings" DefaultImageIntent="UseColorSettings" RGBPolicy="PreserveEmbeddedProfiles" CMYKPolicy="CombinationOfPreserveAndSafeCmyk" AccurateLABSpots="false">
+	<Properties>
+		<Label>
+			<KeyValuePair Key="kAdobeDPS_Version" Value="2" />
+		</Label>
+	</Properties>
+	<Language Self="Language/$ID/[No Language]" Name="$ID/[No Language]" SingleQuotes="&apos;&apos;" DoubleQuotes="&quot;&quot;" PrimaryLanguageName="$ID/[No Language]" SublanguageName="$ID/[No Language]" Id="0" HyphenationVendor="$ID/" SpellingVendor="$ID/" />
+	<Language Self="Language/$ID/bn_IN" Name="$ID/bn_IN" SingleQuotes="&apos;&apos;" DoubleQuotes="&quot;&quot;" PrimaryLanguageName="$ID/" SublanguageName="$ID/" Id="348" HyphenationVendor="Hunspell" SpellingVendor="Hunspell" />
+	<Language Self="Language/$ID/English%3a UK" Name="$ID/English: UK" SingleQuotes="‘’" DoubleQuotes="“”" PrimaryLanguageName="$ID/English" SublanguageName="$ID/UK" Id="525" HyphenationVendor="Proximity" SpellingVendor="Proximity" />
+	<Language Self="Language/$ID/Arabic" Name="$ID/Arabic" SingleQuotes="‹›" DoubleQuotes="«»" PrimaryLanguageName="$ID/Arabic" SublanguageName="$ID/" Id="257" HyphenationVendor="$ID/" SpellingVendor="Hunspell" />
+	<Language Self="Language/$ID/Chinese%3a Traditional" Name="$ID/Chinese: Traditional" SingleQuotes="&apos;&apos;" DoubleQuotes="&quot;&quot;" PrimaryLanguageName="$ID/Chinese" SublanguageName="$ID/Traditional" Id="264" HyphenationVendor="$ID/" SpellingVendor="$ID/" />
+	<Language Self="Language/$ID/Chinese%3a Simplified" Name="$ID/Chinese: Simplified" SingleQuotes="&apos;&apos;" DoubleQuotes="&quot;&quot;" PrimaryLanguageName="$ID/Chinese" SublanguageName="$ID/Simplified" Id="520" HyphenationVendor="$ID/" SpellingVendor="$ID/" />
+	<Language Self="Language/$ID/Chinese%3a Hong Kong" Name="$ID/Chinese: Hong Kong" SingleQuotes="&apos;&apos;" DoubleQuotes="&quot;&quot;" PrimaryLanguageName="$ID/Chinese" SublanguageName="$ID/Hong Kong" Id="776" HyphenationVendor="$ID/" SpellingVendor="$ID/" />
+	<Language Self="Language/$ID/Korean" Name="$ID/Korean" SingleQuotes="&apos;&apos;" DoubleQuotes="&quot;&quot;" PrimaryLanguageName="$ID/Korean" SublanguageName="$ID/" Id="283" HyphenationVendor="$ID/" SpellingVendor="$ID/" />
+	<idPkg:Graphic src="Resources/Graphic.xml" />
+	<idPkg:Fonts src="Resources/Fonts.xml" />
+	<KinsokuTable Self="KinsokuTable/$ID/kHardKinsokuName" Name="$ID/kHardKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kSoftKinsokuName" Name="$ID/kSoftKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kKoreanKinsokuName" Name="$ID/kKoreanKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kSimpChineseKinsokuName" Name="$ID/kSimpChineseKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kTradChineseKinsokuName" Name="$ID/kTradChineseKinsokuName" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName1" Name="$ID/kMojikumiDefaultName1" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName2" Name="$ID/kMojikumiDefaultName2" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName3" Name="$ID/kMojikumiDefaultName3" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName4" Name="$ID/kMojikumiDefaultName4" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName5" Name="$ID/kMojikumiDefaultName5" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName6" Name="$ID/kMojikumiDefaultName6" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName7" Name="$ID/kMojikumiDefaultName7" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName8" Name="$ID/kMojikumiDefaultName8" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName9" Name="$ID/kMojikumiDefaultName9" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName10" Name="$ID/kMojikumiDefaultName10" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName11" Name="$ID/kMojikumiDefaultName11" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName12" Name="$ID/kMojikumiDefaultName12" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName13" Name="$ID/kMojikumiDefaultName13" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName14" Name="$ID/kMojikumiDefaultName14" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName15" Name="$ID/kMojikumiDefaultName15" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName16" Name="$ID/kMojikumiDefaultName16" />
+	<idPkg:Styles src="Resources/Styles.xml" />
+	<NumberingList Self="NumberingList/$ID/[Default]" Name="$ID/[Default]" ContinueNumbersAcrossStories="false" ContinueNumbersAcrossDocuments="false" />
+	<NamedGrid Self="NamedGrid/$ID/[Page Grid]" Name="$ID/[Page Grid]">
+		<GridDataInformation FontStyle="M" PointSize="12" CharacterAki="0" LineAki="9" HorizontalScale="100" VerticalScale="100" LineAlignment="LeftOrTopLineJustify" GridAlignment="AlignEmCenter" CharacterAlignment="AlignEmCenter">
+			<Properties>
+				<AppliedFont type="string">Adobe 명조 Std</AppliedFont>
+			</Properties>
+		</GridDataInformation>
+	</NamedGrid>
+	<idPkg:Preferences src="Resources/Preferences.xml" />
+	<AdjustLayoutPreference EnableAdjustLayout="false" AllowLockedObjectsToAdjust="true" AllowFontSizeAndLeadingAdjustment="false" ImposeFontSizeRestriction="false" MinimumFontSize="6" MaximumFontSize="324" EnableAutoAdjustMargins="false" />
+	<HTMLFXLExportPreference EpubPageRange="" EpubPageRangeFormat="ExportAllPages" />
+	<PublishExportPreference PublishCover="FirstPage" CoverImageFile="" PublishPageRange="" PublishPageRangeFormat="ExportAllPages" ImageConversion="Automatic" ImageExportResolution="Ppi96" PublishDescription="" PublishFileName="" PublishFormat="PublishByPages" CoverPage="$ID/" GIFOptionsPalette="AdaptivePalette" JPEGOptionsQuality="High" PublishPdf="false" />
+	<EndnoteOption EndnoteTitle="미주" EndnoteTitleStyle="ParagraphStyle/$ID/NormalParagraphStyle" StartEndnoteNumberAt="1" EndnoteMarkerStyle="CharacterStyle/$ID/[No character style]" EndnoteTextStyle="ParagraphStyle/$ID/NormalParagraphStyle" EndnoteSeparatorText="　" EndnotePrefix="" EndnoteSuffix="">
+		<Properties>
+			<EndnoteNumberingStyle type="enumeration">Arabic</EndnoteNumberingStyle>
+			<RestartEndnoteNumbering type="enumeration">Continuous</RestartEndnoteNumbering>
+			<EndnoteMarkerPositioning type="enumeration">SuperscriptMarker</EndnoteMarkerPositioning>
+			<ScopeValue type="enumeration">EndnoteDocumentScope</ScopeValue>
+			<FrameCreateOption type="enumeration">NewPage</FrameCreateOption>
+			<ShowEndnotePrefixSuffix type="enumeration">NoPrefixSuffix</ShowEndnotePrefixSuffix>
+		</Properties>
+	</EndnoteOption>
+	<TextFrameFootnoteOptionsObject EnableOverrides="false" SpanFootnotesAcross="false" MinimumSpacingOption="12" SpaceBetweenFootnotes="6" />
+	<LinkedStoryOption UpdateWhileSaving="false" WarnOnUpdateOfEditedStory="true" RemoveForcedLineBreaks="false" ApplyStyleMappings="false" />
+	<LinkedPageItemOption UpdateLinkWhileSaving="false" WarnOnUpdateOfEditedPageItem="true" PreserveSizeAndShape="false" PreserveAppearance="false" PreserveInteractivity="false" PreserveFrameContent="false" PreserveOthers="false" />
+	<TaggedPDFPreference StructureOrder="UseXMLStructure" />
+	<WatermarkPreference WatermarkVisibility="false" WatermarkDoPrint="false" WatermarkDrawInBack="true" WatermarkText="" WatermarkFontFamily="Minion Pro" WatermarkFontStyle="Regular" WatermarkFontPointSize="48" WatermarkOpacity="50" WatermarkRotation="0" WatermarkHorizontalPosition="WatermarkHCenter" WatermarkHorizontalOffset="0" WatermarkVerticalPosition="WatermarkVCenter" WatermarkVerticalOffset="0">
+		<Properties>
+			<WatermarkFontColor type="enumeration">Black</WatermarkFontColor>
+		</Properties>
+	</WatermarkPreference>
+	<ConditionalTextPreference ShowConditionIndicators="ShowIndicators" ActiveConditionSet="n" />
+	<TextVariable Self="dTextVariablen&lt;?AID 001b?&gt;TV XRefChapterNumber" Name="&lt;?AID 001b?&gt;TV XRefChapterNumber" VariableType="XrefChapterNumberType" />
+	<TextVariable Self="dTextVariablen&lt;?AID 001b?&gt;TV XRefPageNumber" Name="&lt;?AID 001b?&gt;TV XRefPageNumber" VariableType="XrefPageNumberType" />
+	<TextVariable Self="dTextVariablen#년" Name="#년" VariableType="ModificationDateType">
+		<DateVariablePreference TextBefore="" Format="yyyy" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen#월" Name="#월" VariableType="ModificationDateType">
+		<DateVariablePreference TextBefore="" Format="MM" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenIndex" Name="Index" VariableType="MatchParagraphStyleType">
+		<MatchParagraphStylePreference TextBefore="" TextAfter="" AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" SearchStrategy="FirstOnPage" ChangeCase="None" DeleteEndPunctuation="false" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablenUserManual" Name="UserManual" VariableType="MatchParagraphStyleType">
+		<MatchParagraphStylePreference TextBefore="" TextAfter="" AppliedParagraphStyle="ParagraphStyle/UserManual-Tab" SearchStrategy="FirstOnPage" ChangeCase="None" DeleteEndPunctuation="false" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen마지막 페이지 번호" Name="마지막 페이지 번호" VariableType="LastPageNumberType">
+		<PageNumberVariablePreference TextBefore="" Format="Current" TextAfter="" Scope="SectionScope" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen만든 날짜" Name="만든 날짜" VariableType="CreationDateType">
+		<DateVariablePreference TextBefore="" Format="yy/MM/dd" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen머리글 실행 중" Name="머리글 실행 중" VariableType="MatchParagraphStyleType">
+		<MatchParagraphStylePreference TextBefore="" TextAfter="" AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" SearchStrategy="FirstOnPage" ChangeCase="None" DeleteEndPunctuation="false" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen수정 날짜" Name="수정 날짜" VariableType="ModificationDateType">
+		<DateVariablePreference TextBefore="" Format="yyyy-MM-d aa h:mm" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen이미지 이름" Name="이미지 이름" VariableType="LiveCaptionType">
+		<CaptionMetadataVariablePreference TextBefore="" MetadataProviderName="$ID/#LinkInfoNameStr" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen장 번호" Name="장 번호" VariableType="ChapterNumberType">
+		<ChapterNumberVariablePreference TextBefore="" Format="Current" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen출력 날짜" Name="출력 날짜" VariableType="OutputDateType">
+		<DateVariablePreference TextBefore="" Format="yy/MM/dd" TextAfter="" />
+	</TextVariable>
+	<TextVariable Self="dTextVariablen파일 이름" Name="파일 이름" VariableType="FileNameType">
+		<FileNameVariablePreference TextBefore="" IncludePath="false" IncludeExtension="false" TextAfter="" />
+	</TextVariable>
+	<idPkg:Tags src="XML/Tags.xml" />
+	<Layer Self="uee" Name="레이어 1" Visible="true" Locked="false" IgnoreWrap="false" ShowGuides="true" LockGuides="false" UI="true" Expendable="true" Printable="true">
+		<Properties>
+			<LayerColor type="enumeration">LightBlue</LayerColor>
+		</Properties>
+	</Layer>
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_uef.xml" />
+	<idPkg:MasterSpread src="MasterSpreads/MasterSpread_u1bb.xml" />
+	<idPkg:Spread src="Spreads/Spread_u1da.xml" />
+	<Section Self="ue7" Length="2" AlternateLayoutLength="2" AlternateLayout="사용자 정의 V" Name="" ContinueNumbering="false" IncludeSectionPrefix="false" PageNumberStart="2" Marker="" PageStart="u1df" SectionPrefix="">
+		<Properties>
+			<PageNumberStyle type="enumeration">Arabic</PageNumberStyle>
+		</Properties>
+	</Section>
+	<DocumentUser Self="dDocumentUser0" UserName="$ID/Unknown User Name">
+		<Properties>
+			<UserColor type="enumeration">Gold</UserColor>
+		</Properties>
+	</DocumentUser>
+	<DocumentUser Self="dDocumentUser1" UserName="user">
+		<Properties>
+			<UserColor type="enumeration">Gold</UserColor>
+		</Properties>
+	</DocumentUser>
+	<DocumentUser Self="dDocumentUser2" UserName="sonminchan">
+		<Properties>
+			<UserColor type="enumeration">Gold</UserColor>
+		</Properties>
+	</DocumentUser>
+	<CrossReferenceFormat Self="u27a" Name="전체 단락 및 페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u27aBuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u27aBuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" 페이지의 &quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u27aBuildingBlock2" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u27aBuildingBlock3" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u27b" Name="전체 단락" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u27bBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u27bBuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u27bBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u27c" Name="단락 텍스트 및 페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u27cBuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u27cBuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" 페이지의 &quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u27cBuildingBlock2" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u27cBuildingBlock3" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u27d" Name="단락 텍스트" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u27dBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u27dBuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u27dBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u27e" Name="단락 번호 및 페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u27eBuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u27eBuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" 페이지: " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u27eBuildingBlock2" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u27f" Name="단락 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u27fBuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u280" Name="텍스트 앵커 이름 및 페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u280BuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u280BuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="페이지의 ^Q" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u280BuildingBlock2" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u280BuildingBlock3" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="^Q" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u281" Name="텍스트 앵커 이름" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u281BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="^Q" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u281BuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u281BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="^Q" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u282" Name="페이지 번호" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u282BuildingBlock0" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u282BuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" 페이지" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<idPkg:BackingStory src="XML/BackingStory.xml" />
+	<idPkg:Story src="Stories/Story_u264.xml" />
+	<idPkg:Story src="Stories/Story_u24d.xml" />
+	<idPkg:Story src="Stories/Story_u235.xml" />
+	<idPkg:Story src="Stories/Story_u21e.xml" />
+	<idPkg:Story src="Stories/Story_u1c2.xml" />
+	<idPkg:Story src="Stories/Story_u1f9.xml" />
+	<idPkg:Story src="Stories/Story_u1e2.xml" />
+	<HyperlinkExternalPageDestination Self="u2b8" DestinationUniqueKey="441" Name="002_S918B_DS_QSG_Open_TSS_4th_EUB_Ger.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\002_S918B_DS_QSG_Open_TSS_4th_EUB_Ger.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2bb" DestinationUniqueKey="442" Name="003_S918B_DS_QSG_Open_TSS_4th_EUB_Fre(EU).indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\003_S918B_DS_QSG_Open_TSS_4th_EUB_Fre(EU).indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2bf" DestinationUniqueKey="443" Name="004_S918B_DS_QSG_Open_TSS_4th_EUB_Spa.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\004_S918B_DS_QSG_Open_TSS_4th_EUB_Spa.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2c4" DestinationUniqueKey="444" Name="005_S918B_DS_QSG_Open_TSS_4th_EUB_Dut.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\005_S918B_DS_QSG_Open_TSS_4th_EUB_Dut.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2c7" DestinationUniqueKey="445" Name="006_S918B_DS_QSG_Open_TSS_4th_EUB_Por.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\006_S918B_DS_QSG_Open_TSS_4th_EUB_Por.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2ca" DestinationUniqueKey="446" Name="007_S918B_DS_QSG_Open_TSS_4th_EUB_Swe.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\007_S918B_DS_QSG_Open_TSS_4th_EUB_Swe.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2cd" DestinationUniqueKey="447" Name="008_S918B_DS_QSG_Open_TSS_4th_EUB_Fin.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\008_S918B_DS_QSG_Open_TSS_4th_EUB_Fin.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2d1" DestinationUniqueKey="448" Name="009_S918B_DS_QSG_Open_TSS_4th_EUB_Dan.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\009_S918B_DS_QSG_Open_TSS_4th_EUB_Dan.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2d9" DestinationUniqueKey="449" Name="010_S918B_DS_QSG_Open_TSS_4th_EUB_Nor.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\010_S918B_DS_QSG_Open_TSS_4th_EUB_Nor.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2dc" DestinationUniqueKey="450" Name="002_S918B_DS_QSG_Open_TSS_4th_EUB_Ger.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\002_S918B_DS_QSG_Open_TSS_4th_EUB_Ger.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2de" DestinationUniqueKey="451" Name="003_S918B_DS_QSG_Open_TSS_4th_EUB_Fre(EU).indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\003_S918B_DS_QSG_Open_TSS_4th_EUB_Fre(EU).indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2e0" DestinationUniqueKey="452" Name="004_S918B_DS_QSG_Open_TSS_4th_EUB_Spa.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\004_S918B_DS_QSG_Open_TSS_4th_EUB_Spa.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2e2" DestinationUniqueKey="453" Name="005_S918B_DS_QSG_Open_TSS_4th_EUB_Dut.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\005_S918B_DS_QSG_Open_TSS_4th_EUB_Dut.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2e4" DestinationUniqueKey="454" Name="006_S918B_DS_QSG_Open_TSS_4th_EUB_Por.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\006_S918B_DS_QSG_Open_TSS_4th_EUB_Por.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2e6" DestinationUniqueKey="455" Name="007_S918B_DS_QSG_Open_TSS_4th_EUB_Swe.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\007_S918B_DS_QSG_Open_TSS_4th_EUB_Swe.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2e8" DestinationUniqueKey="456" Name="008_S918B_DS_QSG_Open_TSS_4th_EUB_Fin.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\008_S918B_DS_QSG_Open_TSS_4th_EUB_Fin.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2ea" DestinationUniqueKey="457" Name="009_S918B_DS_QSG_Open_TSS_4th_EUB_Dan.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\009_S918B_DS_QSG_Open_TSS_4th_EUB_Dan.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<HyperlinkExternalPageDestination Self="u2ed" DestinationUniqueKey="458" Name="010_S918B_DS_QSG_Open_TSS_4th_EUB_Nor.indd - 1페이지[고정]" DocumentPath="C:\Users\Yunji\Desktop\SM-S918B_DS_QSG_Open_TSS_4th_EUB_Rev.2.0_230303_INDD\010_S918B_DS_QSG_Open_TSS_4th_EUB_Nor.indd" DestinationPageIndex="1" ViewSetting="Fixed" ViewPercentage="100" Hidden="true">
+		<Properties>
+			<ViewBounds Top="1e+256" Left="1e+256" Bottom="1e+256" Right="1e+256" />
+		</Properties>
+	</HyperlinkExternalPageDestination>
+	<Hyperlink Self="u304" Name=".50244" Source="u2ab" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="441">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2b8</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u303" Name=".50250" Source="u2ae" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="442">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2bb</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u302" Name=".50257" Source="u2af" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="443">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2bf</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u301" Name=".50263" Source="u2b0" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="444">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2c4</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u300" Name=".50269" Source="u2b1" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="445">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2c7</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2ff" Name=".50276" Source="u2b2" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="446">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2ca</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2fe" Name=".50283" Source="u2b3" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="447">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2cd</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2fd" Name=".50291" Source="u2b4" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="448">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2d1</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2fc" Name=".50299" Source="u2b5" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="449">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2d9</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2fb" Name=".50330" Source="u284" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="450">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2dc</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2fa" Name=".50335" Source="u287" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="451">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2de</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2f9" Name=".50340" Source="u288" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="452">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2e0</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2f8" Name=".50345" Source="u289" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="453">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2e2</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2f7" Name=".50350" Source="u28a" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="454">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2e4</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2f6" Name=".50355" Source="u28b" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="455">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2e6</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2f5" Name=".50360" Source="u28c" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="456">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2e8</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2f4" Name=".50365" Source="u28d" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="457">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2ea</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="u2f3" Name=".50374" Source="u28e" Visible="false" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="true" DestinationUniqueKey="458">
+		<Properties>
+			<BorderColor type="enumeration">Blue</BorderColor>
+			<Destination type="object">u2ed</Destination>
+		</Properties>
+	</Hyperlink>
+	<Bookmark Self="u305" Name="KURZANLEITUNG" Destination="u2b8" />
+	<Bookmark Self="u306" Name="GUIDE DE PRISE EN MAIN RAPIDE" Destination="u2bb" />
+	<Bookmark Self="u307" Name="GUÍA DE INICIO RÁPIDO" Destination="u2bf" />
+	<Bookmark Self="u308" Name="SNELSTARTGIDS" Destination="u2c4" />
+	<Bookmark Self="u309" Name="MANUAL DE CONSULTA RÁPIDA" Destination="u2c7" />
+	<Bookmark Self="u30a" Name="SNABBSTARTSGUIDE" Destination="u2ca" />
+	<Bookmark Self="u30b" Name="PIKAOPAS" Destination="u2cd" />
+	<Bookmark Self="u30c" Name="HURTIGSTART" Destination="u2d1" />
+	<Bookmark Self="u30d" Name="HURTIGSTARTVEILEDNING" Destination="u2d9" />
+	<Bookmark Self="u30e" Name="Scanne zum Zugreifen auf das Benutzerhandbuch den QR-Code." Destination="u2dc" />
+	<Bookmark Self="u30f" Name="Pour accéder au mode d’emploi, scannez le code QR." Destination="u2de" />
+	<Bookmark Self="u310" Name="Para acceder al manual de usuario, escanee el código QR." Destination="u2e0" />
+	<Bookmark Self="u311" Name="Voor toegang tot de gebruiksaanwijzing scant u de QR-code." Destination="u2e2" />
+	<Bookmark Self="u312" Name="Para aceder ao manual do utilizador, faça a leitura do código QR." Destination="u2e4" />
+	<Bookmark Self="u313" Name="Du kommer åt bruksanvisningen genom att skanna QR-koden." Destination="u2e6" />
+	<Bookmark Self="u314" Name="Voit käyttää käyttöopasta skannaamalla QR-koodin." Destination="u2e8" />
+	<Bookmark Self="u315" Name="For at få adgang til brugervejledningen skal du scanne QR-koden." Destination="u2ea" />
+	<Bookmark Self="u316" Name="Hvis du vil få tilgang til brukerhåndboken, skanner du QR-koden." Destination="u2ed" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Symbol" Name="$ID/kIndexGroup_Symbol" Include="true" Priority="0" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Numeric" Name="$ID/kIndexGroup_Numeric" Include="true" Priority="1" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Alphabet" Name="$ID/kIndexGroup_Alphabet" Include="true" Priority="2" HeaderType="BasicLatin" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Korean" Name="$ID/kIndexGroup_Korean" Include="true" Priority="3" HeaderType="KoreanConsonant" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Kana" Name="$ID/kIndexGroup_Kana" Include="false" Priority="4" HeaderType="HiraganaAll" />
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Chinese" Name="$ID/kIndexGroup_Chinese" Include="false" Priority="5" HeaderType="ChinesePinyin" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_CyrillicAlphabet" Name="$ID/kWRIndexGroup_CyrillicAlphabet" Include="false" Priority="6" HeaderType="Russian" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_GreekAlphabet" Name="$ID/kWRIndexGroup_GreekAlphabet" Include="false" Priority="7" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_ArabicAlphabet" Name="$ID/kWRIndexGroup_ArabicAlphabet" Include="false" Priority="8" HeaderType="Nothing" />
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_HebrewAlphabet" Name="$ID/kWRIndexGroup_HebrewAlphabet" Include="false" Priority="9" HeaderType="Nothing" />
+	<ColorGroup Self="ColorGroup/[Root Color Group]" Name="[Root Color Group]" IsRootColorGroup="true">
+		<ColorGroupSwatch Self="u12ColorGroupSwatch0" SwatchItemRef="Swatch/None" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch1" SwatchItemRef="Color/Registration" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch2" SwatchItemRef="Color/Paper" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch3" SwatchItemRef="Color/Black" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch4" SwatchItemRef="Color/C=62 M=0 Y=100 K=0" />
+		<ColorGroupSwatch Self="u12ColorGroupSwatch5" SwatchItemRef="Color/ChangedMMI" />
+	</ColorGroup>
+	<ABullet Self="dABullet0" CharacterType="UnicodeOnly" CharacterValue="8226">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet1" CharacterType="UnicodeOnly" CharacterValue="42">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet2" CharacterType="UnicodeWithFont" CharacterValue="187">
+		<Properties>
+			<BulletsFont type="string">Myriad Pro</BulletsFont>
+			<BulletsFontStyle type="string">$ID/Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet3" CharacterType="GlyphWithFont" CharacterValue="503">
+		<Properties>
+			<BulletsFont type="string">Minion Pro</BulletsFont>
+			<BulletsFontStyle type="string">$ID/Regular</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet4" CharacterType="UnicodeOnly" CharacterValue="12539">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet5" CharacterType="UnicodeOnly" CharacterValue="65290">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet6" CharacterType="UnicodeOnly" CharacterValue="8251">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<ABullet Self="dABullet7" CharacterType="UnicodeOnly" CharacterValue="9674">
+		<Properties>
+			<BulletsFont type="string">$ID/</BulletsFont>
+			<BulletsFontStyle type="string">$ID/</BulletsFontStyle>
+		</Properties>
+	</ABullet>
+	<Assignment Self="ufd" Name="$ID/UnassignedInCopy" UserName="$ID/" ExportOptions="AssignedSpreads" IncludeLinksWhenPackage="true" FilePath="$ID/">
+		<Properties>
+			<FrameColor type="enumeration">Nothing</FrameColor>
+		</Properties>
+	</Assignment>
+</Document>

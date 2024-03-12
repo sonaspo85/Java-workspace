@@ -1,0 +1,95 @@
+<root>
+    <div class="competitive_price" basepoint="5">
+        <item vals="40" />
+    </div>
+    <!-- <div class="satisfy">
+        <div id="0" cell2="2" cell3="4" cell4="6" cell5="8" cell6="10" basepoint="5">
+            <item class="verybad" min="0" max="2" vals="불량" score="2" />
+            <item class="bad" min="2" max="4" vals="부족" score="4" />
+            <item class="normal" min="4" max="6" vals="보통" score="6" />
+            <item class="good" min="6" max="8" vals="양호" score="8" />
+            <item class="great" min="8" max="11" vals="우수" score="10" />
+        </div>
+    </div> -->
+    <div class="satisfy">
+        <div id="0" basepoint="5">
+            <item class="verybad" min="0" max="9" vals="불량" score="0" result="2" />
+            <item class="bad" min="9" max="12" vals="부족" score="5" result="4" />
+            <item class="normal" min="12" max="15" vals="보통" score="10" result="6" />
+            <item class="good" min="15" max="18" vals="양호" score="15" result="8" />
+            <item class="great" min="18" max="21" vals="우수" score="20" result="10" />
+        </div>
+    </div>
+    <div class="quality">
+        <!-- <div id="0" basepoint="5">
+            <item class="great" min="0" max="1" vals="우수" score="25" />
+            <item class="good" min="1" max="2" vals="양호" score="20" />
+            <item class="normal" min="2" max="3" vals="보통" score="15" />
+            <item class="bad" min="3" max="4" vals="부족" score="10" />
+            <item class="verybad" min="4" max="6" vals="불량" score="5" />
+        </div> -->
+        <div id="0" basepoint="5">
+            <item class="great" min="0" max="2" vals="우수" score="25" />
+            <item class="good" min="2" max="3" vals="양호" score="20" />
+            <item class="normal" min="3" max="4" vals="보통" score="15" />
+            <item class="bad" min="4" max="5" vals="부족" score="10" />
+            <item class="verybad" min="5" max="100" vals="불량" score="5" />
+        </div>
+        <div id="1" basepoint="3">
+            <item class="verybad" min="2" vals="불량" score="1" />
+            <item class="bad" min="1" max="1" vals="보통" score="3" />
+            <item class="normal" min="0" max="0" vals="우수" score="5" />
+        </div>
+    </div>
+    <!-- <div class="delivery_compliance">
+        <div id="0" basepoint="5">
+            <item class="great" min="0" max="0.4" vals="우수" score="10" />
+            <item class="good" min="0.4" max="0.8" vals="양호" score="8" />
+            <item class="normal" min="0.8" max="1.2" vals="보통" score="6" />
+            <item class="bad" min="1.2" max="1.6" vals="부족" score="4" />
+            <item class="verybad" min="1.6" max="2.2" vals="불량" score="2" />
+        </div>
+    </div> -->
+    <div class="delivery_compliance">
+        <div id="0" basepoint="5">
+            <item class="great" min="0" max="2" vals="우수" score="10" />
+            <item class="good" min="2" max="3" vals="양호" score="8" />
+            <item class="normal" min="3" max="4" vals="보통" score="6" />
+            <item class="bad" min="4" max="5" vals="부족" score="4" />
+            <item class="verybad" min="5" max="100" vals="불량" score="2" />
+        </div>
+    </div>
+    <div class="automation">
+        <div id="0" basepoint="5">
+            <item class="verybad" min="0" max="10" vals="불량" score="-2" />
+            <item class="bad" min="10" max="15" vals="부족" score="-1" />
+            <item class="normal" min="15" max="20" vals="보통" score="0" />
+            <item class="good" min="20" max="25" vals="양호" score="1" />
+            <item class="great" min="25" vals="우수" score="2" />
+        </div>
+        <div id="1" basepoint="5">
+            <item class="verybad" min="0" max="0" vals="불량" score="-1" />
+            <item class="bad" min="1" max="1" vals="부족" score="0" />
+            <item class="normal" min="2" max="2" vals="보통" score="1" />
+            <item class="good" min="3" max="3" vals="양호" score="2" />
+            <item class="great" min="4" vals="우수" score="3" />
+        </div>
+    </div>
+    <div class="safety">
+        <div id="0" basepoint="3">
+            <item class="verybad" min="0" max="1" score="1" vals="불량" />
+            <item class="good" min="2" score="2" vals="양호" />
+            <item class="great" min="3" score="3" vals="우수" />
+        </div>
+        <div id="1" basepoint="3">
+            <item class="verybad" min="0" max="1" score="1" vals="불량" />
+            <item class="good" min="2" score="2" vals="양호" />
+            <item class="great" min="3" score="3" vals="우수" />
+        </div>
+        <div id="2" basepoint="3">
+            <item class="verybad" min="0" max="1" score="1" vals="불량" />
+            <item class="good" min="2" score="2" vals="양호" />
+            <item class="great" min="3" score="3" vals="우수" />
+        </div>
+    </div>
+</root>

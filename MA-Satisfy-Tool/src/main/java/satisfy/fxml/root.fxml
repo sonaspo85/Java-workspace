@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="899.0" prefWidth="1161.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.satisfy.fxml.RC">
+   <children>
+      <Pane prefHeight="45.0" prefWidth="1054.0" style="-fx-background-color: #dbdad5;">
+         <children>
+            <Label layoutX="417.0" layoutY="5.0" text="Vendor Evaluation Tool">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="25.0" />
+               </font>
+            </Label>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </Pane>
+      <Pane prefHeight="835.0" prefWidth="1161.0">
+         <children>
+            <TabPane fx:id="tabpane" layoutY="-6.0" prefHeight="859.0" prefWidth="1153.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="평가 항목">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="822.0" prefWidth="1153.0">
+                           <children>
+                              <Pane layoutX="14.0" layoutY="44.0" prefHeight="760.0" prefWidth="1133.0" style="-fx-border-color: black;">
+                                 <children>
+                                    <Pane layoutX="575.0" layoutY="31.0" prefHeight="400.0" prefWidth="546.0" style="-fx-border-color: black;">
+                                       <children>
+                                          <Pane layoutX="12.0" layoutY="44.0" prefHeight="184.0" prefWidth="521.0" style="-fx-border-color: black;">
+                                             <children>
+                                                <TableView fx:id="tv4" layoutX="14.0" layoutY="35.0" prefHeight="133.0" prefWidth="497.0">
+                                                  <columns>
+                                                      <TableColumn fx:id="t4cell1" prefWidth="265.0" resizable="false" sortable="false" text="세부 내용" />
+                                                      <TableColumn fx:id="t4cell2" prefWidth="50.0" resizable="false" sortable="false" text="가중치" />
+                                                      <TableColumn fx:id="t4cell3" prefWidth="75.0" resizable="false" sortable="false" text="직전 오류 수" />
+                                                      <TableColumn fx:id="t4cell4" prefWidth="55.0" resizable="false" sortable="false" text="진행종수" />
+                                                      <TableColumn fx:id="t4cell5" prefWidth="50.0" resizable="false" sortable="false" text="결과" />
+                                                  </columns>
+                                                </TableView>
+                                                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2d3d3" height="30.0" layoutY="-14.0" stroke="BLACK" strokeType="INSIDE" width="200.0">
+                                                </Rectangle>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="-9.0" prefHeight="14.0" prefWidth="197.0" text="결과물 품질" textAlignment="JUSTIFY">
+                                                   <font>
+                                                      <Font name="Consolas Bold" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </Pane>
+                                          <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2d3d3" height="30.0" layoutY="-14.0" stroke="BLACK" strokeType="INSIDE" width="200.0">
+                                          </Rectangle>
+                                          <Pane layoutX="12.0" layoutY="251.0" prefHeight="137.0" prefWidth="521.0" style="-fx-border-color: black;">
+                                             <children>
+                                                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2d3d3" height="30.0" layoutY="-14.0" stroke="BLACK" strokeType="INSIDE" width="200.0">
+                                                </Rectangle>
+                                                <TableView fx:id="tv5" layoutX="14.0" layoutY="36.0" prefHeight="88.0" prefWidth="497.0">
+                                                  <columns>
+                                                      <TableColumn fx:id="t5cell1" prefWidth="267.0" resizable="false" sortable="false" text="세부 내용" />
+                                                      <TableColumn fx:id="t5cell2" prefWidth="50.0" resizable="false" sortable="false" text="가중치" />
+                                                      <TableColumn fx:id="t5cell3" prefWidth="72.0" resizable="false" sortable="false" text="직전 지연 수" />
+                                                      <TableColumn fx:id="t5cell4" prefWidth="55.0" resizable="false" sortable="false" text="진행종수" />
+                                                      <TableColumn fx:id="t5cell5" prefWidth="50.0" resizable="false" sortable="false" text="결과" />
+                                                  </columns>
+                                                </TableView>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-9.0" prefHeight="14.0" prefWidth="199.0" text="납기 준수율">
+                                                   <font>
+                                                      <Font name="Consolas Bold" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </Pane>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" layoutX="9.0" layoutY="-10.0" prefHeight="14.0" prefWidth="190.0" text="수행도" textAlignment="JUSTIFY">
+                                             <font>
+                                                <Font name="Consolas Bold" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="12.0" layoutY="260.0" prefHeight="485.0" prefWidth="546.0" style="-fx-border-color: black;">
+                                       <children>
+                                          <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2d3d3" height="30.0" layoutY="-14.0" stroke="BLACK" strokeType="INSIDE" width="200.0">
+                                          </Rectangle>
+                                          <Pane layoutX="13.0" layoutY="39.0" prefHeight="169.0" prefWidth="523.0" style="-fx-border-color: black;">
+                                             <children>
+                                                <TableView fx:id="tv2" layoutX="14.0" layoutY="36.0" prefHeight="118.0" prefWidth="497.0">
+                                                  <columns>
+                                                      <TableColumn fx:id="t2cell1" prefWidth="265.0" resizable="false" sortable="false" text="세부 내용" />
+                                                      <TableColumn fx:id="t2cell2" prefWidth="55.0" resizable="false" sortable="false" text="가중치" />
+                                                      <TableColumn fx:id="t2cell3" prefWidth="62.0" resizable="false" sortable="false" text="직전 툴 수" />
+                                                      <TableColumn fx:id="t2cell4" prefWidth="62.0" resizable="false" sortable="false" text="현재 툴 수" />
+                                                      <TableColumn fx:id="t2cell5" prefWidth="50.0" resizable="false" sortable="false" text="결과" />
+                                                  </columns>
+                                                </TableView>
+                                                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2d3d3" height="30.0" layoutY="-14.0" stroke="BLACK" strokeType="INSIDE" width="200.0">
+                                                </Rectangle>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-9.0" prefHeight="19.0" prefWidth="200.0" text="자동화" textAlignment="JUSTIFY">
+                                                   <font>
+                                                      <Font name="Consolas Bold" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </Pane>
+                                          <Pane layoutX="13.0" layoutY="231.0" prefHeight="242.0" prefWidth="523.0" style="-fx-border-color: black;">
+                                             <children>
+                                                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2d3d3" height="30.0" layoutY="-14.0" stroke="BLACK" strokeType="INSIDE" width="200.0">
+                                                </Rectangle>
+                                                <TableView fx:id="tv3" layoutX="12.0" layoutY="36.0" prefHeight="194.0" prefWidth="497.0">
+                                                   <columns>
+                                                      <TableColumn fx:id="t3cell1" prefWidth="180.0" resizable="false" sortable="false" text="평가 항목" />
+                                                      <TableColumn fx:id="t3cell2" prefWidth="213.0" resizable="false" sortable="false" text="세부 내용" />
+                                                      <TableColumn fx:id="t3cell3" prefWidth="55.0" resizable="false" sortable="false" text="가중치" />
+                                                      <TableColumn fx:id="t3cell4" prefWidth="45.0" resizable="false" sortable="false" text="결과" />
+                                                   </columns>
+                                                </TableView>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-9.0" prefHeight="19.0" prefWidth="200.0" text="보안">
+                                                   <font>
+                                                      <Font name="Consolas Bold" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </Pane>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="-9.0" prefHeight="19.0" prefWidth="196.0" text="자동화 / 보안" textAlignment="JUSTIFY">
+                                             <font>
+                                                <Font name="Consolas Bold" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="12.0" layoutY="29.0" prefHeight="208.0" prefWidth="546.0" style="-fx-border-color: black;">
+                                       <children>
+                                          <Pane layoutX="13.0" layoutY="44.0" prefHeight="152.0" prefWidth="523.0" style="-fx-border-color: black;">
+                                             <children>
+                                                <TableView fx:id="tv1" layoutX="13.0" layoutY="36.0" prefHeight="100.0" prefWidth="497.0">
+                                                  <columns>
+                                                      <TableColumn fx:id="t1cell1" prefWidth="293.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="세부 내용" />
+                                                      <TableColumn fx:id="t1cell2" prefWidth="55.0" resizable="false" sortable="false" text="가중치" />
+                                                      <TableColumn fx:id="t1cell3" prefWidth="75.0" resizable="false" sortable="false" text="금액" />
+                                                      <TableColumn fx:id="t1cell4" prefWidth="70.0" resizable="false" sortable="false" text="배점" />
+                                                  </columns>
+                                                </TableView>
+                                                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2d3d3" height="30.0" layoutY="-14.0" stroke="BLACK" strokeType="INSIDE" width="200.0">
+                                                </Rectangle>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-10.0" prefHeight="19.0" prefWidth="200.0" text="Bidding 금액" textAlignment="JUSTIFY">
+                                                   <font>
+                                                      <Font name="Consolas" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </Pane>
+                                          <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2d3d3" height="30.0" layoutY="-13.0" stroke="BLACK" strokeType="INSIDE" width="200.0">
+                                          </Rectangle>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="-9.0" prefHeight="19.0" prefWidth="199.0" text="가격 경쟁력" textAlignment="JUSTIFY">
+                                             <font>
+                                                <Font name="Consolas Bold" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane fx:id="tv8pane" layoutX="575.0" layoutY="463.0" prefHeight="282.0" prefWidth="546.0" style="-fx-border-color: black;" visible="false">
+                                       <children>
+                                          <TableView fx:id="tv8" layoutX="14.0" layoutY="34.0" prefHeight="237.0" prefWidth="516.0">
+                                            <columns>
+                                                <TableColumn fx:id="t8cell1" editable="false" minWidth="350.0" prefWidth="350.0" sortable="false" text="구분" />
+                                              <TableColumn fx:id="t8cell2" editable="false" minWidth="60.0" prefWidth="50.0" sortable="false" text="배점" />
+                                              <TableColumn fx:id="t8cell3" editable="false" minWidth="100.0" prefWidth="100.0" sortable="false" text="업체 순위" />
+                                            </columns>
+                                          </TableView>
+                                          <Rectangle fx:id="tv8rec" arcHeight="5.0" arcWidth="5.0" fill="#d2d3d3" height="30.0" layoutY="-15.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                                          <Label fx:id="tv8lb" alignment="CENTER" contentDisplay="CENTER" layoutY="-9.0" prefHeight="14.0" prefWidth="199.0" text="결과" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="Consolas" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Button fx:id="exportE" layoutX="459.0" layoutY="7.0" mnemonicParsing="false" text="Excel 출력" />
+                                          <Button fx:id="exportH" layoutX="373.0" layoutY="7.0" mnemonicParsing="false" text="Html 출력" />
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </Pane>
+                              <Label layoutX="829.0" layoutY="15.0" prefHeight="18.0" prefWidth="76.0" text="업체 선택">
+                                 <font>
+                                    <Font name="Consolas" size="16.0" />
+                                 </font></Label>
+                              <ComboBox fx:id="cb" layoutX="911.0" layoutY="11.0" prefHeight="22.0" prefWidth="235.0" style="-fx-border-color: black;" />
+                              <Button fx:id="tab1bt1" layoutX="15.0" layoutY="10.0" mnemonicParsing="false" style="-fx-border-color: black;" text="엑셀 정보 열기(다중 선택 O)">
+                                 <cursor>
+                                    <Cursor fx:constant="DEFAULT" />
+                                 </cursor></Button>
+                              <Button fx:id="tab1bt4" layoutX="192.0" layoutY="10.0" mnemonicParsing="false" style="-fx-border-color: black;" text="만족도 조사 시트 열기(다중 선택 O)" />
+                              <Button fx:id="tab1bt3" layoutX="408.0" layoutY="10.0" mnemonicParsing="false" style="-fx-border-color: black;" text="업체 비교" />
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </Pane>
+   </children>
+</VBox>

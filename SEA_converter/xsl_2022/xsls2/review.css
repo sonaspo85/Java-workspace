@@ -1,0 +1,80 @@
+body { margin: 0; padding-top: 20px; padding-left: 20px; padding-right: 20px; background-color: #ddd; line-height: 1.5em; }
+
+.Headings_Cover, .Headings_Cover-Title { color: #337ab7; margin-top: 4em; padding-bottom: 20px; border-bottom: 12px solid #337ab7; font-size: 36px; font-weight: bold; }
+.Headings_Cover {color: black;}
+h1 { color: #337ab7; line-height: 1.2em; margin-top: 1.5em; font-size: 30px; padding-bottom: 10px; border-bottom: 5px solid #337ab7; font-weight: bold; }
+h1.Section-Heading {color: black; display: block; background-color: #b2cfff; padding: 1em; border-bottom: none;}
+h2 { color: #337ab7; line-height: 1.5em; margin-top: 1.5em; font-size: 24px; font-weight: bold; }
+h3 { color: #b32400; line-height: 1.5em; margin-top: 1.5em; font-size: 18px; font-weight: bold; }
+h4 { color: #055b11; line-height: 1.2em; margin-top: 1.5em; font-size: 18px; font-weight: bold; }
+p.Cover-Instructions, p.Section-Heading-Text, p.Section-Intro { color: #337ab7; line-height: 1.5em; margin-top: 1.5em; font-size: 18px; font-weight: bold; }
+p.Step-Intro { margin-top: 3em; background-color: yellow;}
+p.ProcedureIntro {}
+p.Step-Body-Heading, { color: #337ab7; font-weight: bold; }
+p.Step-Body {color: #565656; padding-left: 1em}
+p.ListHeading { color: #337ab7; font-weight: bold; padding-left: 1em; }
+/*p:before {content: "["attr(class) "] ";}*/
+a {background-color: cyan; border: 1px solid black; padding: 5px;}
+
+ul[class*='triangle'] { margin: 0.75em 0; padding: 0 1.2em; list-style: none; }
+ul[class*='triangle'] > li:before { margin-top: -.8em; content: " ";
+	border-color: transparent #111; border-style: solid; 
+	border-width: 0.35em 0 0.35em 0.7em; 
+	display: block; height: 0; width: 0; left: -1.1em; top: 1.1em; position: relative; }
+
+body > img.block { display: block; margin: auto; width: 100%; }
+img.Hardware,
+img.Photography { display: block; margin: auto; width: 80%; }
+img.screenshot { display: block; margin: 15px auto; width: 70%; }
+img.Keyboard { display: block; margin: 15px auto; width: 60%; }
+li img.block { display: block; margin: 15px auto; width: 70%; }
+td img.block { display: block; margin-top: 5px; width: 50%; }
+img:not(class) { display: inline; width: 1.2em; vertical-align:middle; }
+
+table { margin-top: 2em; }
+td { vertical-align: top; padding-top: 0.2em; padding-bottom: 0.2em}
+/*td > p { margin-top: 0.2em; }*/
+th > p.Table-Heading-1 { margin-top: 0; background-color: #337ab7; color: white; }
+td > p.Heading-2 { margin-top: 0; }
+
+body ol, ul {padding-left: 20px; margin: 20px 0; }
+li, p { margin-top: 1em; }
+p[class*="Note"] { color: #337ab7; }
+ol li ul li { list-style:disc; }
+ol li ul li ul li { list-style:none; }
+ul li ul { list-style-type: none; margin-left: 0; padding-left: 1em; }
+ul li ul li:before { display: inline-block; width: 1em; margin-left: -1em; content:"- "; }
+
+ol > li:nth-child(1) {background-color: #e3eaa7;}
+ol > li:nth-child(2) {background-color: #b5e7a0;}
+ol > li:nth-child(3) {background-color: #dac292;}
+ol > li:nth-child(4) {background-color: #bdcebe;}
+ol > li:nth-child(5) {background-color: #f7786b;}
+ol > li:nth-child(6) {background-color: #ffef96;}
+
+ul.Bullet-2 { margin-left: 1em; list-style-type: none; }
+ul.Bullet-2 > li:before { display: inline-block; content: "- "; text-indent: -1em; }
+
+ul.Sub-Bullet-1 { margin-left: 1em; }
+ul.Sub-Bullet-2 { margin-left: 2.5em; list-style-type: none; }
+ul.Sub-Bullet-2 > li:before { display: inline-block; content: "- "; text-indent: -1em}
+
+ul.Single-Step { margin: 0.75em 0; padding: 0 1.2em; list-style: none; }
+ul.Single-Step > li:before { margin-top: -.8em; content: " "; border-color: transparent #111; border-style: solid; border-width: 0.35em 0 0.35em 0.7em; display: block; height: 0; width: 0; left: -1.1em; top: 1.1em; position: relative; }
+
+/*img + b { margin-left: 5px; }*/
+
+ul[class*='triangle'] li ul { list-style-type: none; margin-left: 0; padding-left: 1em; }
+ul[class*='triangle'] li ul li { list-style-type: disc; }
+ul[class*='triangle'] li ul li ul li { list-style:none; }
+ul[class*='triangle'] li ul li ul { list-style-type: none; margin-left: 0; padding-left: 1em; }
+ul[class*='triangle'] li ul li:before { display: inline-block; width: 1em; margin-left: -1em; content:""; }
+ul[class*='triangle'] li ul li ul li:before { display: inline-block; width: 1em; margin-left: -1em; content:"- "; }
+
+ul[class*='triangle'] + p.Text_Step-Body, ul[class*='triangle'] + p.Text_Step-Body + p.Text_Step-Body, ol + p.Text_Step-Body, ol + p.Text_Step-Body + p.Text_Step-Body {margin-left: 20px;}
+
+/*img[src*='multi_window.png'], img[src*='Multi_window.png'], img[src*='Multi_window_SP.png'] {width: 35% !important;}*/
+img[src$='Multi_Window.png'] { width: 35% !important; }
+img[src$='I-More-options.png'] {height: 25px; width: auto;}
+img[src$='HEVC_vert_logo_TM_light_bg_patent-marking.png'] {width: 10% !important; height: auto; margin: initial !important;}
+img[src$='S-Choking_Hazard.png'] {width: 200px !important; height: auto !important; margin: initial !important;}

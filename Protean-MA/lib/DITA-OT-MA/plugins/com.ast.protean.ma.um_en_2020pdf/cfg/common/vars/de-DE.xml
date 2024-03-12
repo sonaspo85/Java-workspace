@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+	<variable id="Preface odd header"><param ref-name="pagenum"/> | Einleitung | <param ref-name="pagenum"/></variable>
+	<variable id="Preface even header"><param ref-name="pagenum"/> | Einleitung | <param ref-name="pagenum"/></variable>
+	<variable id="Table of Contents">Inhalt</variable>
+	<variable id="Index Continued String">Fortsetzung</variable>
+	<variable id="Index See String">, Siehe </variable>
+	<variable id="Index See Also String">Siehe auch </variable>
+	<variable id="Table of Contents Chapter">Kapitel <param ref-name="number"/>: </variable>
+	<variable id="Table of Contents Appendix">Anhang <param ref-name="number"/>: </variable>
+	<variable id="Table of Contents Part">Teil <param ref-name="number"/>: </variable>
+	<variable id="Table of Contents Preface">Einleitung </variable>
+	<variable id="Preface title">Einleitung</variable>
+	<variable id="Notices title"><!--TODO:Notices title--></variable>
+	<variable id="Mini Toc">Themen: </variable>
+	<variable id="Notice"><!--TODO:Notice--></variable>
+	<variable id="Figure.title">Abbildung  <param ref-name="number"/>: <param ref-name="title"/></variable>
+	<variable id="Figure Number">Abbildung  <param ref-name="number"/></variable>
+	<variable id="Table.title">Tabelle <param ref-name="number"/>: <param ref-name="title"/></variable>
+	<variable id="Table Number">Tabelle <param ref-name="number"/></variable>
+	<variable id="Related Links">Verwandte Links</variable>
+	<variable id="Cross-Reference">Querverweis auf: </variable>
+	<variable id="Content-Reference">Inhaltsverweis auf: </variable>
+	<variable id="List item">Listenelement.</variable>
+	<variable id="Foot note">Fußnote.</variable>
+	<variable id="Navigation title">Navigationstitel</variable>
+	<variable id="Search title">Suchtitel</variable>
+	<variable id="Chapter with number">Kapitel  <param ref-name="number"/></variable>
+	<variable id="Appendix with number">Anhang  <param ref-name="number"/></variable>
+	<variable id="Part with number">Teil <param ref-name="number"/></variable>
+	<variable id="Required-Cleanup">[Erforderliche Bereinigung]</variable>
+	<variable id="On the page"> auf Seite <param ref-name="pagenum"/></variable>
+	<variable id="Page"> Seite <param ref-name="pagenum"/></variable>
+	<variable id="This link">diese Verbindung</variable>
+	<variable id="Child topics"/>
+	<variable id="Related references"/>
+	<variable id="Optional Step">Optional:</variable>
+	<variable id="Required Step">Erforderlich:</variable>
+	<variable id="Task Prereq"/>
+	<variable id="Task Context"/>
+	<variable id="Task Steps"/>
+	<variable id="#steps-unordered-label"/>
+	<variable id="Task Result"/>
+	<variable id="Task Example"/>
+	<variable id="Task Postreq"/>
+	<variable id="Glossary">Glossar</variable>
+	<variable id="List of Tables">Tabellenverzeichnis</variable>
+	<variable id="List of Figures">Abbildungsverzeichnis</variable>
+	<variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/notice.svg</variable>
+	<variable id="warning Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+	<variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/caution.svg</variable>
+	<variable id="service Note Image Path">Customization/OpenTopic/common/artwork/M-service.ai</variable>
+	<variable id="recycle Note Image Path">Customization/OpenTopic/common/artwork/M-recycle.ai</variable>
+	<variable id="basics Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_getting.ai</variable>
+	<variable id="apps_and_features Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_apps.ai</variable>
+	<variable id="settings Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_settings.ai</variable>
+	<variable id="usage_notices Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_usage.ai</variable>
+	<variable id="appendix Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_appendix.ai</variable>
+	<variable id="admonition note">Note</variable>
+	<variable id="admonition warning">Warning</variable>
+	<variable id="Unordered List bullet">•</variable>
+	<variable id="Unordered List bullet 1">•</variable>
+	<variable id="Unordered List bullet 2">‒</variable>
+	<variable id="frontmatter-title">BENUTZERHANDBUCH</variable>
+	<variable id="frontmatter-language">German</variable>
+	<variable id="frontmatter-toc-contents">Inhalt</variable>
+</vars>

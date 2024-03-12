@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<langlist>
+    <!-- <lang xml:lang="" filename="strings-common.xml"/> -->
+    <lang xml:lang="en-GB" filename="en-GB.xml" />
+    <lang xml:lang="en-US" filename="en-US.xml" />
+    <lang xml:lang="en-CN" filename="en-CN.xml" />
+    <lang xml:lang="en-TW" filename="en-TW.xml" />
+    <lang xml:lang="th-TH" filename="th-TH.xml" />
+    <lang xml:lang="zh-CN" filename="zh-CN.xml" />
+    <lang xml:lang="zh-HK" filename="zh-HK.xml" />
+    <lang xml:lang="zh-SG" filename="zh-SG.xml" />
+    <lang xml:lang="zh-TW" filename="zh-TW.xml" />
+    <lang xml:lang="my-MM" filename="my-MM.xml" />
+    <lang xml:lang="ar-SA" filename="ar-SA.xml" />
+    <lang xml:lang="da-DK" filename="da-DK.xml" />
+    <lang xml:lang="et-EE" filename="et-EE.xml" />
+    <lang xml:lang="fi-FI" filename="fi-FI.xml" />
+    <lang xml:lang="he-IL" filename="he-IL.xml" />
+    <lang xml:lang="hr-HR" filename="hr-HR.xml" />
+    <lang xml:lang="lt-LT" filename="lt-LT.xml" />
+    <lang xml:lang="lv-LV" filename="lv-LV.xml" />
+    <lang xml:lang="nb-NO" filename="nb-NO.xml" />
+    <lang xml:lang="pt-PT" filename="pt-PT.xml" />
+    <lang xml:lang="sl-SI" filename="sl-SI.xml" />
+    <lang xml:lang="sq-AL" filename="sq-AL.xml" />
+    <lang xml:lang="sr-Latn-RS" filename="sr-Latn-RS.xml" />
+    <lang xml:lang="sv-SE" filename="sv-SE.xml" />
+    <lang xml:lang="ur-PK" filename="ur-PK.xml" />
+    <lang xml:lang="cs-CZ" filename="cs-CZ.xml" />
+    <lang xml:lang="es-ES" filename="es-ES.xml" />
+    <lang xml:lang="es-AR" filename="es-AR.xml" />
+    <lang xml:lang="fr-FR" filename="fr-FR.xml" />
+    <lang xml:lang="hu-HU" filename="hu-HU.xml" />
+    <lang xml:lang="id-ID" filename="id-ID.xml" />
+    <lang xml:lang="it-IT" filename="it-IT.xml" />
+    <lang xml:lang="nl-NL" filename="nl-NL.xml" />
+    <lang xml:lang="pl-PL" filename="pl-PL.xml" />
+    <lang xml:lang="ro-RO" filename="ro-RO.xml" />
+    <lang xml:lang="tr-TR" filename="tr-TR.xml" />
+    <lang xml:lang="uz-latn-UZ" filename="uz-latn-UZ.xml" />
+    <lang xml:lang="vi-VN" filename="vi-VN.xml" />
+    <lang xml:lang="bg-BG" filename="bg-BG.xml" />
+    <lang xml:lang="bn-IN" filename="bn-IN.xml" />
+    <lang xml:lang="de-DE" filename="de-DE.xml" />
+    <lang xml:lang="el-GR" filename="el-GR.xml" />
+    <lang xml:lang="kk-KZ" filename="kk-KZ.xml" />
+    <lang xml:lang="ko-KR" filename="ko-KR.xml" />
+    <lang xml:lang="km-KH" filename="km-KH.xml" />
+    <lang xml:lang="lo-LA" filename="lo-LA.xml" />
+    <lang xml:lang="mk-MK" filename="mk-MK.xml" />
+    <lang xml:lang="mn-MN" filename="mn-MN.xml" />
+    <lang xml:lang="ru-RU" filename="ru-RU.xml" />
+    <lang xml:lang="sk-SK" filename="sk-SK.xml" />
+    <lang xml:lang="uk-UA" filename="uk-UA.xml" />
+    <lang xml:lang="en-HK" filename="en-HK.xml" />
+    <lang xml:lang="en-AR" filename="en-AR.xml" />
+</langlist>

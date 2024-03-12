@@ -1,0 +1,31 @@
+<codes>
+    <companies>
+        <code name="Hyundai" data="Hyun_" />
+        <code name="KIA" data="Kia_" />
+        <code name="Genesis" data="Genesis_" />
+    </companies>
+    <langs>
+        <code ISO="ar-AE" Fullname="Arabic" />
+        <code ISO="en-US" Fullname="English" />
+        <code ISO="es-ES" Fullname="Spanish" />
+        <code ISO="fr-FR" Fullname="French" />
+        <code ISO="ko-KR" Fullname="Korean" />
+        <code ISO="pt-PT" Fullname="Portuguese" />
+        <code ISO="jp-JP" Fullname="Japanese" />
+        <code ISO="hi-IN" Fullname="Hindi" />
+        <code ISO="bn-IN" Fullname="Bengali" />
+        <code ISO="mr-IN" Fullname="Marathi" />
+        <code ISO="te-IN" Fullname="Telugu" />
+        <code ISO="ta-IN" Fullname="Tamil" />
+        <code ISO="gu-IN" Fullname="Gujarati" />
+        <code ISO="kn-IN" Fullname="Kannada" />
+        <code ISO="or-OR" Fullname="Odia" />
+        <code ISO="ml-ML" Fullname="Malayalam" />
+        <code ISO="pa-IN" Fullname="Punjabi" />
+        <code ISO="id-ID" Fullname="Indonesian" />
+    </langs>
+    <Inches>
+        <code name="8 inches" data="8in" />
+        <code name="10 inches" data="10in" />
+    </Inches>
+</codes>

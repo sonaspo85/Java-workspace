@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root ccncVer="ccnc" fileName="Kia_UI_RUS_10inch.xlsx" version="6th">
+   <listitem>
+      <language>Czech(RUS)</language>
+      <html_title>Webová příručka</html_title>
+      <title>Webová příručka</title>
+      <model>model_all</model>
+      <search>Vyhledat</search>
+      <keyword>Zadat klíčové slovo</keyword>
+      <result>Hledaný cíl nenalezen.</result>
+      <result_toc>Obsah</result_toc>
+      <search_short>Klíčové slovo je příliš krátké.</search_short>
+      <search_more>Více</search_more>
+      <search_less>Méně</search_less>
+      <close>Zavřít</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Funkce a služby v této příručce se mohou lišit od funkcí a služeb ve skutečném vozidle.</caution_txt>
+      <language_header>CS</language_header>
+      <error_paragraph1>Systémový software byl aktualizován.</error_paragraph1>
+      <error_paragraph2>Aktualizujte software na nejnovější verzi.</error_paragraph2>
+      <error_botton>Jak aktualizovat</error_botton>
+      <all_content>Obsah</all_content>
+      <text_size1>Nastavení</text_size1>
+      <text_size2>Velikost písma</text_size2>
+      <text_size3>Řádkování</text_size3>
+      <all_text>Vše</all_text>
+   </listitem>
+   <listitem>
+      <language>Danish(RUS)</language>
+      <html_title>Webmanual</html_title>
+      <title>Webmanual</title>
+      <model>model_all</model>
+      <search>Søg</search>
+      <keyword>Indtast søgeord</keyword>
+      <result>Ingen resultater fundet.</result>
+      <result_toc>Indhold</result_toc>
+      <search_short>Nøgleordet er for kort.</search_short>
+      <search_more>Mere</search_more>
+      <search_less>Mindre</search_less>
+      <close>Luk</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Funktioner og tjenester i denne manual kan være forskellige fra dem i det virkelige køretøj.</caution_txt>
+      <language_header>DA</language_header>
+      <error_paragraph1>Systemsoftwaren er blevet opdateret.</error_paragraph1>
+      <error_paragraph2>Opdater softwaren til den seneste version.</error_paragraph2>
+      <error_botton>Sådan foretages en opdatering</error_botton>
+      <all_content>Indhold</all_content>
+      <text_size1>Indstillinger</text_size1>
+      <text_size2>Skriftstørrelse</text_size2>
+      <text_size3>Linjeafstand</text_size3>
+      <all_text>Alle</all_text>
+   </listitem>
+   <listitem>
+      <language>German(RUS)</language>
+      <html_title>Web-Handbuch</html_title>
+      <title>Web-Handbuch</title>
+      <model>model_all</model>
+      <search>Suche</search>
+      <keyword>Such-Schlüsselwort eingeben</keyword>
+      <result>Keine Ergebnisse gefunden.</result>
+      <result_toc>Inhalte</result_toc>
+      <search_short>Schlüsselwort ist zu kurz.</search_short>
+      <search_more>Mehr</search_more>
+      <search_less>Weniger</search_less>
+      <close>Schließen</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Die Funktionen und Dienste in diesem Handbuch können sich von denen im tatsächlichen Fahrzeug unterscheiden.</caution_txt>
+      <language_header>DE</language_header>
+      <error_paragraph1>Die Systemsoftware wurde aktualisiert.</error_paragraph1>
+      <error_paragraph2>Aktualisieren Sie die Software auf die neueste Version.</error_paragraph2>
+      <error_botton>So aktualisieren Sie</error_botton>
+      <all_content>Inhalte</all_content>
+      <text_size1>Einstellungen</text_size1>
+      <text_size2>Schriftgröße</text_size2>
+      <text_size3>Zeilenabstand</text_size3>
+      <all_text>Alle</all_text>
+   </listitem>
+   <listitem>
+      <language>English(RUS)</language>
+      <html_title>Web manual</html_title>
+      <title>Web manual</title>
+      <model>model_all</model>
+      <search>Search</search>
+      <keyword>Enter search keyword</keyword>
+      <result>No results found.</result>
+      <result_toc>Contents</result_toc>
+      <search_short>Keyword is too short.</search_short>
+      <search_more>More</search_more>
+      <search_less>Less</search_less>
+      <close>Close</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>EN</language_header>
+      <error_paragraph1>System software has been updated.</error_paragraph1>
+      <error_paragraph2>Update the software to the latest version.</error_paragraph2>
+      <error_botton>How to update</error_botton>
+      <all_content>Contents</all_content>
+      <text_size1>Settings</text_size1>
+      <text_size2>Font size</text_size2>
+      <text_size3>Line spacing</text_size3>
+      <all_text>All</all_text>
+   </listitem>
+   <listitem>
+      <language>Spanish(RUS)</language>
+      <html_title>Manual del sitio web</html_title>
+      <title>Manual del sitio web</title>
+      <model>model_all</model>
+      <search>Buscar</search>
+      <keyword>Buscar por palabra clave</keyword>
+      <result>No hay resultados.</result>
+      <result_toc>Contenido</result_toc>
+      <search_short>La palabra clave es demasiado corta.</search_short>
+      <search_more>Más</search_more>
+      <search_less>Menos</search_less>
+      <close>Cerrar</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Las funciones y servicios que aparecen en este manual pueden diferir de las del vehículo real.</caution_txt>
+      <language_header>ES</language_header>
+      <error_paragraph1>El software del sistema se ha actualizado.</error_paragraph1>
+      <error_paragraph2>Actualice el software a la versión más reciente.</error_paragraph2>
+      <error_botton>Cómo realizar la actualización</error_botton>
+      <all_content>Contenido</all_content>
+      <text_size1>Ajustes</text_size1>
+      <text_size2>Tamaño de fuente</text_size2>
+      <text_size3>Interlineado</text_size3>
+      <all_text>Todo</all_text>
+   </listitem>
+   <listitem>
+      <language>French(RUS)</language>
+      <html_title>Manuel Web</html_title>
+      <title>Manuel Web</title>
+      <model>model_all</model>
+      <search>Recherche</search>
+      <keyword>Saisir le mot clé de la reche</keyword>
+      <result>Aucun résultat trouvé.</result>
+      <result_toc>Contenu</result_toc>
+      <search_short>Le mot clé est trop court.</search_short>
+      <search_more>Plus</search_more>
+      <search_less>Moins</search_less>
+      <close>Fermer</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Les fonctions et les services de ce manuel peuvent différer de ceux du véhicule réel.</caution_txt>
+      <language_header>FR</language_header>
+      <error_paragraph1>Le logiciel de système a été mis à jour.</error_paragraph1>
+      <error_paragraph2>Mettez à jour le logiciel à la dernière version.</error_paragraph2>
+      <error_botton>Comment mettre à jour</error_botton>
+      <all_content>Contenu</all_content>
+      <text_size1>Paramètres</text_size1>
+      <text_size2>Taille de la police</text_size2>
+      <text_size3>Interligne</text_size3>
+      <all_text>Tout</all_text>
+   </listitem>
+   <listitem>
+      <language>Italian(RUS)</language>
+      <html_title>Manuale Web</html_title>
+      <title>Manuale Web</title>
+      <model>model_all</model>
+      <search>Cerca</search>
+      <keyword>Inserire la chiave di ricerca</keyword>
+      <result>Nessun risultato trovato.</result>
+      <result_toc>Contenuti</result_toc>
+      <search_short>Chiave di ricerca troppo breve.</search_short>
+      <search_more>Altro</search_more>
+      <search_less>Meno</search_less>
+      <close>Chiudi</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Le funzioni e i servizi inclusi in questo manuale potrebbero non corrispondere esattamente a quelle del proprio veicolo.</caution_txt>
+      <language_header>IT</language_header>
+      <error_paragraph1>Il software di sistema è stato aggiornato.</error_paragraph1>
+      <error_paragraph2>Aggiornare il software alla versione più recente.</error_paragraph2>
+      <error_botton>Come effettuare l’aggiornamento</error_botton>
+      <all_content>Contenuti</all_content>
+      <text_size1>Impostazioni</text_size1>
+      <text_size2>Dimensioni carattere</text_size2>
+      <text_size3>Spaziatura linee</text_size3>
+      <all_text>Tutti</all_text>
+   </listitem>
+   <listitem>
+      <language>Hungarian(RUS)</language>
+      <html_title>Webes kézikönyv</html_title>
+      <title>Webes kézikönyv</title>
+      <model>model_all</model>
+      <search>Keresés</search>
+      <keyword>Üsse be a keresőszót.</keyword>
+      <result>Nincs találat.</result>
+      <result_toc>Tartalom</result_toc>
+      <search_short>A keresőszó túl rövid.</search_short>
+      <search_more>Több információ</search_more>
+      <search_less>Kevesebb információ</search_less>
+      <close>Bezárás</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>A jelen kézikönyvben szereplő funkciók és szolgáltatások eltérhetnek a tényleges járműben találhatóaktól.</caution_txt>
+      <language_header>HU</language_header>
+      <error_paragraph1>A rendszerszoftver frissítésre került.</error_paragraph1>
+      <error_paragraph2>Frissítse a szoftvert a legújabb verzióra.</error_paragraph2>
+      <error_botton>Hogyan frissítsünk?</error_botton>
+      <all_content>Tartalom</all_content>
+      <text_size1>Beállítások</text_size1>
+      <text_size2>Betűtípus-méret</text_size2>
+      <text_size3>Sortávolság</text_size3>
+      <all_text>Mind</all_text>
+   </listitem>
+   <listitem>
+      <language>Dutch(RUS)</language>
+      <html_title>Online handleiding</html_title>
+      <title>Online handleiding</title>
+      <model>model_all</model>
+      <search>Zoeken</search>
+      <keyword>Zoekterm invoeren</keyword>
+      <result>Geen resultaten gevonden.</result>
+      <result_toc>Inhoud</result_toc>
+      <search_short>Het trefwoord is te kort.</search_short>
+      <search_more>Meer</search_more>
+      <search_less>Minder</search_less>
+      <close>Sluiten</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functies en diensten in deze handleiding kunnen afwijken van degene in het eigenlijke voertuig.</caution_txt>
+      <language_header>NL</language_header>
+      <error_paragraph1>De systeemsoftware is bijgewerkt.</error_paragraph1>
+      <error_paragraph2>Werk de software naar de laatste versie bij.</error_paragraph2>
+      <error_botton>Hoe bijwerken</error_botton>
+      <all_content>Inhoud</all_content>
+      <text_size1>Instellingen</text_size1>
+      <text_size2>Tekengrootte</text_size2>
+      <text_size3>Regelafstand</text_size3>
+      <all_text>Alle</all_text>
+   </listitem>
+   <listitem>
+      <language>Norwegian(RUS)</language>
+      <html_title>Netthåndbok</html_title>
+      <title>Netthåndbok</title>
+      <model>model_all</model>
+      <search>Søk</search>
+      <keyword>Angi søkeord</keyword>
+      <result>Ingen resultater funnet.</result>
+      <result_toc>Innhold</result_toc>
+      <search_short>Søkeordet er for kort.</search_short>
+      <search_more>Mer</search_more>
+      <search_less>Mindre</search_less>
+      <close>Lukk</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Funksjoner og tjenester i denne håndboken kan avvike fra de i det faktiske kjøretøyet.</caution_txt>
+      <language_header>NO</language_header>
+      <error_paragraph1>Systemprogramvare er oppdatert.</error_paragraph1>
+      <error_paragraph2>Oppdater programvaren til den nyeste versjonen.</error_paragraph2>
+      <error_botton>Slik oppdaterer du</error_botton>
+      <all_content>Innhold</all_content>
+      <text_size1>Innstillinger</text_size1>
+      <text_size2>Skriftstørrelse</text_size2>
+      <text_size3>Linjeavstand</text_size3>
+      <all_text>Alle</all_text>
+   </listitem>
+   <listitem>
+      <language>Polish(RUS)</language>
+      <html_title>Internetowa instrukcja obsługi</html_title>
+      <title>Internetowa instrukcja obsługi</title>
+      <model>model_all</model>
+      <search>Wyszukiwanie</search>
+      <keyword>Wpisz słowo kluczowe</keyword>
+      <result>Brak wyników.</result>
+      <result_toc>Zawartość</result_toc>
+      <search_short>Słowo kluczowe jest za krótkie.</search_short>
+      <search_more>Więcej</search_more>
+      <search_less>Mniej</search_less>
+      <close>Zamknij</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Funkcje i usługi przedstawione w niniejszej instrukcji mogą się różnić od tych w rzeczywistym pojeździe.</caution_txt>
+      <language_header>PL</language_header>
+      <error_paragraph1>Oprogramowanie systemu zostało zaktualizowane.</error_paragraph1>
+      <error_paragraph2>Zaktualizuj oprogramowanie do najnowszej wersji.</error_paragraph2>
+      <error_botton>Sposób aktualizacji</error_botton>
+      <all_content>Zawartość</all_content>
+      <text_size1>Ustawienia</text_size1>
+      <text_size2>Rozmiar czcionki</text_size2>
+      <text_size3>Interlinia</text_size3>
+      <all_text>Wszystko</all_text>
+   </listitem>
+   <listitem>
+      <language>Portuguese(RUS)</language>
+      <html_title>Manual online</html_title>
+      <title>Manual online</title>
+      <model>model_all</model>
+      <search>Função de pesquisa</search>
+      <keyword>Introduza uma palavra-chave</keyword>
+      <result>Não foram encontrados resultados.</result>
+      <result_toc>Conteúdos</result_toc>
+      <search_short>A palavra-chave é demasiado curta.</search_short>
+      <search_more>Mais</search_more>
+      <search_less>Menos</search_less>
+      <close>Fechar</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>As funções e serviços incluídos neste manual podem diferir daqueles disponibilizados no veículo.</caution_txt>
+      <language_header>PT</language_header>
+      <error_paragraph1>O software do sistema foi atualizado.</error_paragraph1>
+      <error_paragraph2>Atualize o software para a versão mais recente.</error_paragraph2>
+      <error_botton>Como atualizar</error_botton>
+      <all_content>Conteúdos</all_content>
+      <text_size1>Definições</text_size1>
+      <text_size2>Tamanho da letra</text_size2>
+      <text_size3>Espaçamento entre linhas</text_size3>
+      <all_text>Tudo</all_text>
+   </listitem>
+   <listitem>
+      <language>Russian(RUS)</language>
+      <html_title>Интернет-версия руководства</html_title>
+      <title>Интернет-версия руководства</title>
+      <model>model_all</model>
+      <search>Поиск</search>
+      <keyword>Введите ключевое слово</keyword>
+      <result>Результатов не найдено.</result>
+      <result_toc>Содержимое</result_toc>
+      <search_short>Слишком короткое ключевое слово.</search_short>
+      <search_more>Показать</search_more>
+      <search_less>Скрыть</search_less>
+      <close>Закрыть</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Функции и службы, показанные в этом руководстве, могут отличаться от фактически имеющихся в автомобиле.</caution_txt>
+      <language_header>RU</language_header>
+      <error_paragraph1>Обновление ПО системы выполнено.</error_paragraph1>
+      <error_paragraph2>Обновите ПО до последней версии.</error_paragraph2>
+      <error_botton>Как выполнить обновление</error_botton>
+      <all_content>Содержимое</all_content>
+      <text_size1>Настройки</text_size1>
+      <text_size2>Размер шрифта</text_size2>
+      <text_size3>Междустрочный интервал</text_size3>
+      <all_text>Все</all_text>
+   </listitem>
+   <listitem>
+      <language>Slovak(RUS)</language>
+      <html_title>Webová príručka</html_title>
+      <title>Webová príručka</title>
+      <model>model_all</model>
+      <search>Hľadať</search>
+      <keyword>Zadať kľúčové slovo hľadania</keyword>
+      <result>Nenašli sa žiadne výsledky.</result>
+      <result_toc>Obsah</result_toc>
+      <search_short>Kľúčové slovo je príliš krátke.</search_short>
+      <search_more>Viac</search_more>
+      <search_less>Menej</search_less>
+      <close>Zavrieť</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Funkcie a služby uvedené v tomto návode sa môžu líšiť od tých, ktoré sa vyskytujú v konkrétnom vozidle.</caution_txt>
+      <language_header>SK</language_header>
+      <error_paragraph1>Systémový softvér sa aktualizoval.</error_paragraph1>
+      <error_paragraph2>Aktualizujte softvér na najnovšiu verziu.</error_paragraph2>
+      <error_botton>Postup aktualizácie</error_botton>
+      <all_content>Obsah</all_content>
+      <text_size1>Nastavenia</text_size1>
+      <text_size2>Veľkosť písma</text_size2>
+      <text_size3>Rozstup riadkov</text_size3>
+      <all_text>Všetky</all_text>
+   </listitem>
+   <listitem>
+      <language>Finnish(RUS)</language>
+      <html_title>Verkkokäyttöopas</html_title>
+      <title>Verkkokäyttöopas</title>
+      <model>model_all</model>
+      <search>Haku-toiminto</search>
+      <keyword>Haun avainsanan syöttäminen</keyword>
+      <result>Tuloksia ei löydy.</result>
+      <result_toc>Sisältö</result_toc>
+      <search_short>Avainsana on liian lyhyt.</search_short>
+      <search_more>Enemmän</search_more>
+      <search_less>Vähemmän</search_less>
+      <close>Sulje</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Tämän oppaan toiminnot ja palvelut voivat poiketa varsinaisen auton toiminnoista ja palveluista.</caution_txt>
+      <language_header>FI</language_header>
+      <error_paragraph1>Järjestelmäohjelmisto on päivitetty.</error_paragraph1>
+      <error_paragraph2>Päivitä ohjelmisto uusimpaan versioon.</error_paragraph2>
+      <error_botton>Miten päivitys tapahtuu?</error_botton>
+      <all_content>Sisältö</all_content>
+      <text_size1>Asetukset</text_size1>
+      <text_size2>Kirjasinkoko</text_size2>
+      <text_size3>Riviväli</text_size3>
+      <all_text>Kaikki</all_text>
+   </listitem>
+   <listitem>
+      <language>Swedish(RUS)</language>
+      <html_title>Webbmanual</html_title>
+      <title>Webbmanual</title>
+      <model>model_all</model>
+      <search>Sök</search>
+      <keyword>Ange söknyckelord</keyword>
+      <result>Inga resultat hittades.</result>
+      <result_toc>Innehåll</result_toc>
+      <search_short>Nyckelordet är för kort.</search_short>
+      <search_more>Mer</search_more>
+      <search_less>Mindre</search_less>
+      <close>Stäng</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Funktioner och tjänster i den här manualen kan skilja sig från de som finns i det aktuella fordonet.</caution_txt>
+      <language_header>SV</language_header>
+      <error_paragraph1>Systemprogramvaran har uppdaterats.</error_paragraph1>
+      <error_paragraph2>Uppdatera programvaran till den senaste versionen.</error_paragraph2>
+      <error_botton>Så här uppdaterar du</error_botton>
+      <all_content>Innehåll</all_content>
+      <text_size1>Inställningar</text_size1>
+      <text_size2>Teckenstorlek</text_size2>
+      <text_size3>Radavstånd</text_size3>
+      <all_text>Alla</all_text>
+   </listitem>
+   <listitem>
+      <language>Turkish(RUS)</language>
+      <html_title>Web el kitabı</html_title>
+      <title>Web el kitabı</title>
+      <model>model_all</model>
+      <search>Ara</search>
+      <keyword>Anahtar kelimeyi girin</keyword>
+      <result>Sonuç bulunamadı.</result>
+      <result_toc>İçerik</result_toc>
+      <search_short>Anahtar kelime çok kısa.</search_short>
+      <search_more>Daha fazla</search_more>
+      <search_less>Daha az</search_less>
+      <close>Kapat</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Bu el kitabındaki işlevler ve hizmetler gerçek araçtakilerden farklı olabilir.</caution_txt>
+      <language_header>TR</language_header>
+      <error_paragraph1>Sistem yazılımı güncellendi.</error_paragraph1>
+      <error_paragraph2>Yazılımı en son sürüme güncelleyin.</error_paragraph2>
+      <error_botton>Güncelleme</error_botton>
+      <all_content>İçerik</all_content>
+      <text_size1>Ayarlar</text_size1>
+      <text_size2>Yazı tipi boyutu</text_size2>
+      <text_size3>Satır aralığı</text_size3>
+      <all_text>Tümü</all_text>
+   </listitem>
+   <listitem>
+      <language>Korean(RUS)</language>
+      <html_title>웹 매뉴얼</html_title>
+      <title>웹 매뉴얼</title>
+      <model>model_all</model>
+      <search>Search</search>
+      <keyword>검색어 입력</keyword>
+      <result>검색 결과가 없습니다.</result>
+      <result_toc>목차</result_toc>
+      <search_short>검색어가 너무 짧습니다.</search_short>
+      <search_more>더보기</search_more>
+      <search_less>숨기기</search_less>
+      <close>닫기</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>이 설명서에 포함된 기능 및 서비스는 실제 차량의 기능 및 서비스와 차이가 있을 수 있습니다.</caution_txt>
+      <language_header>KO</language_header>
+      <error_paragraph1>시스템 소프트웨어가 업데이트되었습니다.</error_paragraph1>
+      <error_paragraph2>소프트웨어를 최신으로 업데이트하세요.</error_paragraph2>
+      <error_botton>업데이트 방법 보기</error_botton>
+      <all_content>Contents</all_content>
+      <text_size1>설정</text_size1>
+      <text_size2>글자 크기</text_size2>
+      <text_size3>줄 간격</text_size3>
+      <all_text>전체</all_text>
+   </listitem>
+   <listitem>
+      <language>Ukrainian(RUS)</language>
+      <html_title>Онлайн посібник</html_title>
+      <title>Онлайн посібник</title>
+      <model>model_all</model>
+      <search>Пошук</search>
+      <keyword>Введіть ключове слово</keyword>
+      <result>Результатів не знайдено.</result>
+      <result_toc>Зміст</result_toc>
+      <search_short>Ключове слово занадто коротке.</search_short>
+      <search_more>Більше</search_more>
+      <search_less>Менше</search_less>
+      <close>Закрити</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Функції та послуги, наведені в цьому посібнику, можуть відрізнятися від тих, що будуть у вашому автомобілі.</caution_txt>
+      <language_header>UK</language_header>
+      <error_paragraph1>Системне програмне забезпечення було оновлено.</error_paragraph1>
+      <error_paragraph2>Оновіть програмне забезпечення до останньої версії.</error_paragraph2>
+      <error_botton>Як оновити</error_botton>
+      <all_content>Зміст</all_content>
+      <text_size1>Налаштування</text_size1>
+      <text_size2>Розмір шрифту</text_size2>
+      <text_size3>Міжрядковий інтервал</text_size3>
+      <all_text>Все</all_text>
+   </listitem>
+   <listitem>
+      <language>Slovene(RUS)</language>
+      <html_title>Spletni priročnik</html_title>
+      <title>Spletni priročnik</title>
+      <model>model_all</model>
+      <search>Išči</search>
+      <keyword>Vnesite besedo za iskanje</keyword>
+      <result>Ni rezultatov.</result>
+      <result_toc>Vsebina</result_toc>
+      <search_short>Ključna beseda je prekratka.</search_short>
+      <search_more>Več</search_more>
+      <search_less>Manj</search_less>
+      <close>Zapri</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Funkcije in storitve v tem priročniku se lahko razlikujejo od tistih v dejanskem vozilu.</caution_txt>
+      <language_header>SL</language_header>
+      <error_paragraph1>Sistemska programska oprema je bila posodobljena.</error_paragraph1>
+      <error_paragraph2>Programsko opremo posodobite na najnovejšo različico.</error_paragraph2>
+      <error_botton>Kako posodobiti?</error_botton>
+      <all_content>Vsebina</all_content>
+      <text_size1>Nastavitve</text_size1>
+      <text_size2>Velikost pisave</text_size2>
+      <text_size3>Razmik med vrsticami</text_size3>
+      <all_text>Vse</all_text>
+   </listitem>
+   <listitem>
+      <language>Greek(RUS)</language>
+      <html_title>Διαδικτυακό εγχειρίδιο</html_title>
+      <title>Διαδικτυακό εγχειρίδιο</title>
+      <model>model_all</model>
+      <search>Αναζήτηση</search>
+      <keyword>Λέξη-κλειδί αναζήτησης</keyword>
+      <result>Δεν υπάρχουν αποτελέσματα.</result>
+      <result_toc>Περιεχόμενα</result_toc>
+      <search_short>Η λέξη κλειδί είναι πολύ μικρή.</search_short>
+      <search_more>Περισσότερα</search_more>
+      <search_less>Λιγότερα</search_less>
+      <close>Κλείσιμο</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Οι λειτουργίες και οι υπηρεσίες σε αυτό το εγχειρίδιο ενδέχεται να διαφέρουν από αυτές στο πραγματικό όχημα.</caution_txt>
+      <language_header>EL</language_header>
+      <error_paragraph1>Το λογισμικό συστήματος έχει ενημερωθεί.</error_paragraph1>
+      <error_paragraph2>Ενημερώστε το λογισμικό στην πιο πρόσφατη έκδοση.</error_paragraph2>
+      <error_botton>Πώς γίνεται η ενημέρωση</error_botton>
+      <all_content>Περιεχόμενα</all_content>
+      <text_size1>Ρυθμίσεις</text_size1>
+      <text_size2>Μέγεθος γραμματοσειράς</text_size2>
+      <text_size3>Διάστιχο</text_size3>
+      <all_text>Όλα</all_text>
+   </listitem>
+   <listitem>
+      <language>Croatian(RUS)</language>
+      <html_title>Priručnik na internetu</html_title>
+      <title>Priručnik na internetu</title>
+      <model>model_all</model>
+      <search>Pretraživanje</search>
+      <keyword>Unesite ključnu riječ pretraž.</keyword>
+      <result>Nisu pronađeni rezultati.</result>
+      <result_toc>Sadržaj</result_toc>
+      <search_short>Ključna riječ je prekratka.</search_short>
+      <search_more>Više</search_more>
+      <search_less>Manje</search_less>
+      <close>Zatvori</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Funkcije i usluge u ovom priručniku mogu se razlikovati od onih u stvarnom vozilu.</caution_txt>
+      <language_header>HR</language_header>
+      <error_paragraph1>Ažuriran je sistemski softver.</error_paragraph1>
+      <error_paragraph2>Ažurirajte softver na najnoviju verziju.</error_paragraph2>
+      <error_botton>Kako ažurirati</error_botton>
+      <all_content>Sadržaj</all_content>
+      <text_size1>Postavke</text_size1>
+      <text_size2>Veličina fonta</text_size2>
+      <text_size3>Razmak između redaka</text_size3>
+      <all_text>Sve</all_text>
+   </listitem>
+   <listitem>
+      <language>Romanian(RUS)</language>
+      <html_title>Manual online</html_title>
+      <title>Manual online</title>
+      <model>model_all</model>
+      <search>Căutare</search>
+      <keyword>Introduceți cuvântul de căutat</keyword>
+      <result>Nici un rezultat nu a fost găsit.</result>
+      <result_toc>Sumar</result_toc>
+      <search_short>Cuvântul de căutat este prea scurt.</search_short>
+      <search_more>Mai mult</search_more>
+      <search_less>Mai puțin</search_less>
+      <close>Închidere</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Funcțiile și serviciile din acest manual pot fi diferite față de cele din vehicul.</caution_txt>
+      <language_header>RO</language_header>
+      <error_paragraph1>Software-ul sistemului a fost actualizat.</error_paragraph1>
+      <error_paragraph2>Actualizați software-ul la cea mai recentă versiune.</error_paragraph2>
+      <error_botton>Cum să actualizați</error_botton>
+      <all_content>Sumar</all_content>
+      <text_size1>Setări</text_size1>
+      <text_size2>Dimensiunea font-ului</text_size2>
+      <text_size3>Spațierea dintre rânduri</text_size3>
+      <all_text>Toate</all_text>
+   </listitem>
+   <listitem>
+      <language>Bulgarian(RUS)</language>
+      <html_title>Уеб ръководство</html_title>
+      <title>Уеб ръководство</title>
+      <model>model_all</model>
+      <search>Търсене</search>
+      <keyword>Въведете дума за търсене</keyword>
+      <result>Няма открит резултат.</result>
+      <result_toc>Съдържание</result_toc>
+      <search_short>Ключовата дума е твърде кратка.</search_short>
+      <search_more>Още</search_more>
+      <search_less>По-малко</search_less>
+      <close>Затваряне</close>
+      <footer_line1>COPYRIGHT © KIA CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Функциите и услугите в ръководството може да се различават от действителните, получавани в автомобила.</caution_txt>
+      <language_header>BG</language_header>
+      <error_paragraph1>Системният софтуер е актуализиран.</error_paragraph1>
+      <error_paragraph2>Актуализирайте софтуера до най-новата версия.</error_paragraph2>
+      <error_botton>Начин на актуализиране</error_botton>
+      <all_content>Съдържание</all_content>
+      <text_size1>Настройки</text_size1>
+      <text_size2>Размер на шрифта</text_size2>
+      <text_size3>Междуредие</text_size3>
+      <all_text>Всички</all_text>
+   </listitem>
+</root>

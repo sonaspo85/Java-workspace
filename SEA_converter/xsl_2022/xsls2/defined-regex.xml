@@ -1,0 +1,6 @@
+<def>
+	<regex>
+		<from>"#add"</from>
+		<to>"#add_an_account"</to>
+	</regex>
+</def>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:MasterSpread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="18.0">
+	<MasterSpread Self="F" ItemTransform="1 0 0 1 0 0" OverriddenPageItemProps="" Name="F-Contents-Description" NamePrefix="F" BaseName="Contents-Description" ShowMasterItems="true" PageCount="1">
+		<Properties>
+			<PageColor type="enumeration">UseMasterColor</PageColor>
+		</Properties>
+		<Page Self="u253" GeometricBounds="0 0 841.889763778 595.275590551" ItemTransform="1 0 0 1 -297.6377952755 -420.944881889" Name="F" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" OverrideList="" AppliedMaster="n" MasterPageTransform="1 0 0 1 0 0" TabOrder="" GridStartingPoint="TopOutside" UseMasterGrid="true">
+			<Properties>
+				<PageColor type="enumeration">UseMasterColor</PageColor>
+			</Properties>
+			<MarginPreference ColumnCount="2" ColumnGutter="28.34645669291339" Top="70.86614173228347" Bottom="56.69291338582678" Left="45.35433070866142" Right="45.35433070866142" ColumnDirection="Horizontal" ColumnsPositions="0 238.1102362203819 266.4566929132953 504.56692913367715"/>
+			<GridDataInformation FontStyle="M" PointSize="12" CharacterAki="0" LineAki="9" HorizontalScale="100" VerticalScale="100" LineAlignment="LeftOrTopLineJustify" GridAlignment="AlignEmCenter" CharacterAlignment="AlignEmCenter">
+				<Properties>
+					<AppliedFont type="string">Adobe Myungjo Std</AppliedFont>
+				</Properties>
+			</GridDataInformation>
+		</Page>
+		<TextFrame Self="u267" ParentStory="header2" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" AllowOverrides="true" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="uc2" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -93.15410665103616 -383.381510816396">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="-159.12935791580242 -15.26692235751414" LeftDirection="-159.12935791580242 -15.26692235751414" RightDirection="-159.12935791580242 -15.26692235751414" />
+							<PathPointType Anchor="-159.12935791580242 -1.0936940110574502" LeftDirection="-159.12935791580242 -1.0936940110574502" RightDirection="-159.12935791580242 -1.0936940110574502" />
+							<PathPointType Anchor="345.4375712178745 -1.0936940110574502" LeftDirection="345.4375712178745 -1.0936940110574502" RightDirection="345.4375712178745 -1.0936940110574502" />
+							<PathPointType Anchor="345.4375712178745 -15.26692235751414" LeftDirection="345.4375712178745 -15.26692235751414" RightDirection="345.4375712178745 -15.26692235751414" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0"/>
+				</Properties>
+			</TextWrapPreference>
+		</TextFrame>
+		<GraphicLine Self="u26a" ContentType="Unassigned" LockState="None" AllowOverrides="true" GradientFillStart="203.8444881889763 -170.0787401574803" GradientFillLength="0.5" GradientFillAngle="0" GradientStrokeStart="203.8444881889763 -170.0787401574803" GradientStrokeLength="0.5" GradientStrokeAngle="0" ItemLayer="uc2" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/NaviBar" Visible="true" Name="$ID/" ItemTransform="-1 0 0 1 -59.777559055027666 -216.85039370002357">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="true">
+						<PathPointArray>
+							<PathPointType Anchor="204.0944881889763 -170.0787401574803" LeftDirection="204.0944881889763 -170.0787401574803" RightDirection="204.0944881889763 -170.0787401574803"/>
+							<PathPointType Anchor="204.0944881889763 -218.26771653543312" LeftDirection="204.0944881889763 -218.26771653543312" RightDirection="204.0944881889763 -218.26771653543312"/>
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0"/>
+				</Properties>
+			</TextWrapPreference>
+			<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" CustomImageConversion="false" ImageConversionType="JPEG" CustomImageSizeOption="SizeRelativeToPageWidth" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" CustomImageAlignment="false" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" SpaceUnit="CssEm" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/"/>
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/"/>
+				</Properties>
+			</ObjectExportOption>
+		</GraphicLine>
+		<TextFrame Self="u27e" ParentStory="folio2" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" AllowOverrides="true" StrokeWeight="0.2834645669291339" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="uc2" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -153.18897637804332 430.7480314983544">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="-99.09448818879527 -38.14960630074023" LeftDirection="-99.09448818879527 -38.14960630074023" RightDirection="-99.09448818879527 -38.14960630074023"/>
+							<PathPointType Anchor="-99.09448818879527 -9.803149609354419" LeftDirection="-99.09448818879527 -9.803149609354419" RightDirection="-99.09448818879527 -9.803149609354419"/>
+							<PathPointType Anchor="405.4724409448819 -9.803149609354419" LeftDirection="405.4724409448819 -9.803149609354419" RightDirection="405.4724409448819 -9.803149609354419"/>
+							<PathPointType Anchor="405.4724409448819 -38.14960630074023" LeftDirection="405.4724409448819 -38.14960630074023" RightDirection="405.4724409448819 -38.14960630074023"/>
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<TextFramePreference TextColumnFixedWidth="504.56692913367715"/>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0"/>
+				</Properties>
+			</TextWrapPreference>
+		</TextFrame>
+	</MasterSpread>
+</idPkg:MasterSpread>

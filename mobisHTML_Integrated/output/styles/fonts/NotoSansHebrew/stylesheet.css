@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'Noto Sans Hebrew';
+    src: url('NotoSansHebrew-Bold.eot');
+    src: url('NotoSansHebrew-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-Bold.woff2') format('woff2'),
+        url('NotoSansHebrew-Bold.woff') format('woff'),
+        url('NotoSansHebrew-Bold.ttf') format('truetype'),
+        url('NotoSansHebrew-Bold.svg#NotoSansHebrew-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew Blk';
+    src: url('NotoSansHebrew-Black.eot');
+    src: url('NotoSansHebrew-Black.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-Black.woff2') format('woff2'),
+        url('NotoSansHebrew-Black.woff') format('woff'),
+        url('NotoSansHebrew-Black.ttf') format('truetype'),
+        url('NotoSansHebrew-Black.svg#NotoSansHebrew-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew Cond';
+    src: url('NotoSansHebrew-Condensed.eot');
+    src: url('NotoSansHebrew-Condensed.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-Condensed.woff2') format('woff2'),
+        url('NotoSansHebrew-Condensed.woff') format('woff'),
+        url('NotoSansHebrew-Condensed.ttf') format('truetype'),
+        url('NotoSansHebrew-Condensed.svg#NotoSansHebrew-Condensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew Cond SemBd';
+    src: url('NotoSansHebrew-CondensedSemiBold.eot');
+    src: url('NotoSansHebrew-CondensedSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-CondensedSemiBold.woff2') format('woff2'),
+        url('NotoSansHebrew-CondensedSemiBold.woff') format('woff'),
+        url('NotoSansHebrew-CondensedSemiBold.ttf') format('truetype'),
+        url('NotoSansHebrew-CondensedSemiBold.svg#NotoSansHebrew-CondensedSemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew Cond';
+    src: url('NotoSansHebrew-CondensedBold.eot');
+    src: url('NotoSansHebrew-CondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-CondensedBold.woff2') format('woff2'),
+        url('NotoSansHebrew-CondensedBold.woff') format('woff'),
+        url('NotoSansHebrew-CondensedBold.ttf') format('truetype'),
+        url('NotoSansHebrew-CondensedBold.svg#NotoSansHebrew-CondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew ExtBd';
+    src: url('NotoSansHebrew-ExtraBold.eot');
+    src: url('NotoSansHebrew-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-ExtraBold.woff2') format('woff2'),
+        url('NotoSansHebrew-ExtraBold.woff') format('woff'),
+        url('NotoSansHebrew-ExtraBold.ttf') format('truetype'),
+        url('NotoSansHebrew-ExtraBold.svg#NotoSansHebrew-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew ExtCond';
+    src: url('NotoSansHebrew-ExtraCondensed.eot');
+    src: url('NotoSansHebrew-ExtraCondensed.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-ExtraCondensed.woff2') format('woff2'),
+        url('NotoSansHebrew-ExtraCondensed.woff') format('woff'),
+        url('NotoSansHebrew-ExtraCondensed.ttf') format('truetype'),
+        url('NotoSansHebrew-ExtraCondensed.svg#NotoSansHebrew-ExtraCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew ExtCond';
+    src: url('NotoSansHebrew-ExtraCondensedBold.eot');
+    src: url('NotoSansHebrew-ExtraCondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-ExtraCondensedBold.woff2') format('woff2'),
+        url('NotoSansHebrew-ExtraCondensedBold.woff') format('woff'),
+        url('NotoSansHebrew-ExtraCondensedBold.ttf') format('truetype'),
+        url('NotoSansHebrew-ExtraCondensedBold.svg#NotoSansHebrew-ExtraCondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew Cond';
+    src: url('NotoSansHebrew-CondensedThin.eot');
+    src: url('NotoSansHebrew-CondensedThin.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-CondensedThin.woff2') format('woff2'),
+        url('NotoSansHebrew-CondensedThin.woff') format('woff'),
+        url('NotoSansHebrew-CondensedThin.ttf') format('truetype'),
+        url('NotoSansHebrew-CondensedThin.svg#NotoSansHebrew-CondensedThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew Cond';
+    src: url('NotoSansHebrew-CondensedLight.eot');
+    src: url('NotoSansHebrew-CondensedLight.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-CondensedLight.woff2') format('woff2'),
+        url('NotoSansHebrew-CondensedLight.woff') format('woff'),
+        url('NotoSansHebrew-CondensedLight.ttf') format('truetype'),
+        url('NotoSansHebrew-CondensedLight.svg#NotoSansHebrew-CondensedLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew Cond Med';
+    src: url('NotoSansHebrew-CondensedMedium.eot');
+    src: url('NotoSansHebrew-CondensedMedium.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-CondensedMedium.woff2') format('woff2'),
+        url('NotoSansHebrew-CondensedMedium.woff') format('woff'),
+        url('NotoSansHebrew-CondensedMedium.ttf') format('truetype'),
+        url('NotoSansHebrew-CondensedMedium.svg#NotoSansHebrew-CondensedMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew Cond Blk';
+    src: url('NotoSansHebrew-CondensedBlack.eot');
+    src: url('NotoSansHebrew-CondensedBlack.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-CondensedBlack.woff2') format('woff2'),
+        url('NotoSansHebrew-CondensedBlack.woff') format('woff'),
+        url('NotoSansHebrew-CondensedBlack.ttf') format('truetype'),
+        url('NotoSansHebrew-CondensedBlack.svg#NotoSansHebrew-CondensedBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew Cond ExtBd';
+    src: url('NotoSansHebrew-CondensedExtraBold.eot');
+    src: url('NotoSansHebrew-CondensedExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-CondensedExtraBold.woff2') format('woff2'),
+        url('NotoSansHebrew-CondensedExtraBold.woff') format('woff'),
+        url('NotoSansHebrew-CondensedExtraBold.ttf') format('truetype'),
+        url('NotoSansHebrew-CondensedExtraBold.svg#NotoSansHebrew-CondensedExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew Cond ExtLt';
+    src: url('NotoSansHebrew-CondensedExtraLight.eot');
+    src: url('NotoSansHebrew-CondensedExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-CondensedExtraLight.woff2') format('woff2'),
+        url('NotoSansHebrew-CondensedExtraLight.woff') format('woff'),
+        url('NotoSansHebrew-CondensedExtraLight.ttf') format('truetype'),
+        url('NotoSansHebrew-CondensedExtraLight.svg#NotoSansHebrew-CondensedExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew ExtCond Blk';
+    src: url('NotoSansHebrew-ExtraCondensedBlack.eot');
+    src: url('NotoSansHebrew-ExtraCondensedBlack.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-ExtraCondensedBlack.woff2') format('woff2'),
+        url('NotoSansHebrew-ExtraCondensedBlack.woff') format('woff'),
+        url('NotoSansHebrew-ExtraCondensedBlack.ttf') format('truetype'),
+        url('NotoSansHebrew-ExtraCondensedBlack.svg#NotoSansHebrew-ExtraCondensedBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew';
+    src: url('NotoSansHebrew-Regular.eot');
+    src: url('NotoSansHebrew-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-Regular.woff2') format('woff2'),
+        url('NotoSansHebrew-Regular.woff') format('woff'),
+        url('NotoSansHebrew-Regular.ttf') format('truetype'),
+        url('NotoSansHebrew-Regular.svg#NotoSansHebrew-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew ExtCond Med';
+    src: url('NotoSansHebrew-ExtraCondensedMedium.eot');
+    src: url('NotoSansHebrew-ExtraCondensedMedium.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-ExtraCondensedMedium.woff2') format('woff2'),
+        url('NotoSansHebrew-ExtraCondensedMedium.woff') format('woff'),
+        url('NotoSansHebrew-ExtraCondensedMedium.ttf') format('truetype'),
+        url('NotoSansHebrew-ExtraCondensedMedium.svg#NotoSansHebrew-ExtraCondensedMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew Med';
+    src: url('NotoSansHebrew-Medium.eot');
+    src: url('NotoSansHebrew-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-Medium.woff2') format('woff2'),
+        url('NotoSansHebrew-Medium.woff') format('woff'),
+        url('NotoSansHebrew-Medium.ttf') format('truetype'),
+        url('NotoSansHebrew-Medium.svg#NotoSansHebrew-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew ExtCond';
+    src: url('NotoSansHebrew-ExtraCondensedLight.eot');
+    src: url('NotoSansHebrew-ExtraCondensedLight.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-ExtraCondensedLight.woff2') format('woff2'),
+        url('NotoSansHebrew-ExtraCondensedLight.woff') format('woff'),
+        url('NotoSansHebrew-ExtraCondensedLight.ttf') format('truetype'),
+        url('NotoSansHebrew-ExtraCondensedLight.svg#NotoSansHebrew-ExtraCondensedLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew ExtCond SemBd';
+    src: url('NotoSansHebrew-ExtraCondensedSemiBold.eot');
+    src: url('NotoSansHebrew-ExtraCondensedSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-ExtraCondensedSemiBold.woff2') format('woff2'),
+        url('NotoSansHebrew-ExtraCondensedSemiBold.woff') format('woff'),
+        url('NotoSansHebrew-ExtraCondensedSemiBold.ttf') format('truetype'),
+        url('NotoSansHebrew-ExtraCondensedSemiBold.svg#NotoSansHebrew-ExtraCondensedSemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew SemBd';
+    src: url('NotoSansHebrew-SemiBold.eot');
+    src: url('NotoSansHebrew-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-SemiBold.woff2') format('woff2'),
+        url('NotoSansHebrew-SemiBold.woff') format('woff'),
+        url('NotoSansHebrew-SemiBold.ttf') format('truetype'),
+        url('NotoSansHebrew-SemiBold.svg#NotoSansHebrew-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew ExtCond ExtLt';
+    src: url('NotoSansHebrew-ExtraCondensedExtraLight.eot');
+    src: url('NotoSansHebrew-ExtraCondensedExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-ExtraCondensedExtraLight.woff2') format('woff2'),
+        url('NotoSansHebrew-ExtraCondensedExtraLight.woff') format('woff'),
+        url('NotoSansHebrew-ExtraCondensedExtraLight.ttf') format('truetype'),
+        url('NotoSansHebrew-ExtraCondensedExtraLight.svg#NotoSansHebrew-ExtraCondensedExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew SemCond';
+    src: url('NotoSansHebrew-SemiCondensed.eot');
+    src: url('NotoSansHebrew-SemiCondensed.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-SemiCondensed.woff2') format('woff2'),
+        url('NotoSansHebrew-SemiCondensed.woff') format('woff'),
+        url('NotoSansHebrew-SemiCondensed.ttf') format('truetype'),
+        url('NotoSansHebrew-SemiCondensed.svg#NotoSansHebrew-SemiCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew ExtCond ExtBd';
+    src: url('NotoSansHebrew-ExtraCondensedExtraBold.eot');
+    src: url('NotoSansHebrew-ExtraCondensedExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-ExtraCondensedExtraBold.woff2') format('woff2'),
+        url('NotoSansHebrew-ExtraCondensedExtraBold.woff') format('woff'),
+        url('NotoSansHebrew-ExtraCondensedExtraBold.ttf') format('truetype'),
+        url('NotoSansHebrew-ExtraCondensedExtraBold.svg#NotoSansHebrew-ExtraCondensedExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew ExtLt';
+    src: url('NotoSansHebrew-ExtraLight.eot');
+    src: url('NotoSansHebrew-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-ExtraLight.woff2') format('woff2'),
+        url('NotoSansHebrew-ExtraLight.woff') format('woff'),
+        url('NotoSansHebrew-ExtraLight.ttf') format('truetype'),
+        url('NotoSansHebrew-ExtraLight.svg#NotoSansHebrew-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew ExtCond';
+    src: url('NotoSansHebrew-ExtraCondensedThin.eot');
+    src: url('NotoSansHebrew-ExtraCondensedThin.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-ExtraCondensedThin.woff2') format('woff2'),
+        url('NotoSansHebrew-ExtraCondensedThin.woff') format('woff'),
+        url('NotoSansHebrew-ExtraCondensedThin.ttf') format('truetype'),
+        url('NotoSansHebrew-ExtraCondensedThin.svg#NotoSansHebrew-ExtraCondensedThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew';
+    src: url('NotoSansHebrew-Light.eot');
+    src: url('NotoSansHebrew-Light.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-Light.woff2') format('woff2'),
+        url('NotoSansHebrew-Light.woff') format('woff'),
+        url('NotoSansHebrew-Light.ttf') format('truetype'),
+        url('NotoSansHebrew-Light.svg#NotoSansHebrew-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew SemCond';
+    src: url('NotoSansHebrew-SemiCondensedBold.eot');
+    src: url('NotoSansHebrew-SemiCondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-SemiCondensedBold.woff2') format('woff2'),
+        url('NotoSansHebrew-SemiCondensedBold.woff') format('woff'),
+        url('NotoSansHebrew-SemiCondensedBold.ttf') format('truetype'),
+        url('NotoSansHebrew-SemiCondensedBold.svg#NotoSansHebrew-SemiCondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew SemCond Blk';
+    src: url('NotoSansHebrew-SemiCondensedBlack.eot');
+    src: url('NotoSansHebrew-SemiCondensedBlack.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-SemiCondensedBlack.woff2') format('woff2'),
+        url('NotoSansHebrew-SemiCondensedBlack.woff') format('woff'),
+        url('NotoSansHebrew-SemiCondensedBlack.ttf') format('truetype'),
+        url('NotoSansHebrew-SemiCondensedBlack.svg#NotoSansHebrew-SemiCondensedBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew SemCond ExtBd';
+    src: url('NotoSansHebrew-SemiCondensedExtraBold.eot');
+    src: url('NotoSansHebrew-SemiCondensedExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansHebrew-SemiCondensedExtraBold.woff2') format('woff2'),
+        url('NotoSansHebrew-SemiCondensedExtraBold.woff') format('woff'),
+        url('NotoSansHebrew-SemiCondensedExtraBold.ttf') format('truetype'),
+        url('NotoSansHebrew-SemiCondensedExtraBold.svg#NotoSansHebrew-SemiCondensedExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" >
+<title>퀵 가이드</title>
+<link rel="stylesheet" href="quickguide/css/style.css">
+<script>
+// 모바일 PC일 경우 style_pc 로드
+var filter = "win16|win32|win64|mac|macintel"; 
+if ( navigator.platform ) { 
+	if ( filter.indexOf( navigator.platform.toLowerCase() ) > 0 ) { 
+		//pc 
+		var head  = document.getElementsByTagName('head')[0];
+		var objLink = document.createElement("link");
+		objLink.rel = "stylesheet";
+		objLink.type = "text/css";
+		objLink.href = "quickguide/css/style_pc.css";
+		head.appendChild( objLink );
+	} 
+}
+</script>
+<script type="text/JavaScript" src="quickguide/js/jquery-3.4.1.min.js"></script>
+<script type="text/JavaScript" src="quickguide/js/jquery-ui.js"></script>
+<script type="text/JavaScript" src="quickguide/js/touchSlider.js"></script>
+<script type="text/JavaScript" src="quickguide/js/jquery.scrollify.js"></script>
+<script type="text/JavaScript" src="quickguide/js/common.js"></script>
+<script type="text/JavaScript" src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+</head>
+
+<body>
+<div class="body_wrap">
+
+    <!-- MENU -->
+    <div class="shadow"></div>
+    <div class="menu_page"></div>
+    
+    
+    <!-- TOP BAR -->
+    <div class="top_bar">
+    	<div class="top_ind">
+        </div>
+        <div class="main_top">
+            <div class="logo" style="cursor: pointer;"></div>
+            
+            <div class="menu_open_btn">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+            </div>
+            <div class="menu_close_btn">
+                <div id="linex1"></div>
+                <div id="linex2"></div>
+                <div id="linex3"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- 메인화면 -->
+    <div class="wrap">
+        <div class="main_title">
+            <div class="title_line"></div>
+            <div class="title_space"></div>
+            <span class="title">
+                <span class="main_brown">기아</span><br>
+                설정을 도와드릴게요!
+            </span>
+        </div>
+        
+        <div class="main_icons">
+            <div class="line1">
+                <div class="icon_menu avail" url="quickguide002">
+                	<div class="icon_on mm01_a"></div>
+                	<div class="icon_ani"></div>
+                    <div class="icon mm01"></div>
+                    <div class="text">회원가입 (개인)</div>
+                </div>
+                
+                <div class="icon_menu avail" url="quickguide003">
+                	<div class="icon_on mm02_a"></div>
+                	<div class="icon_ani"></div>
+                    <div class="icon mm02"></div>
+                    <div class="text">회원가입 (법인)</div>
+                </div>
+                
+                <div class="icon_menu avail" url="quickguide004">
+                	<div class="icon_on mm03_a"></div>
+                	<div class="icon_ani"></div>
+                    <div class="icon mm03"></div>
+                    <div class="text">목적지 설정</div>
+                </div>
+            </div>
+            
+            <div class="line2">
+				<div class="icon_menu avail" url="quickguide005">
+                	<div class="icon_on mm04_a"></div>
+                	<div class="icon_ani"></div>
+                    <div class="icon mm04"></div>
+                    <div class="text">블루투스 연결</div>
+                </div>
+				
+                <div class="icon_menu avail" url="quickguide006">
+                	<div class="icon_on mm05_a"></div>
+                	<div class="icon_ani"></div>
+                    <div class="icon mm05"></div>
+                    <div class="text">사용자 프로필 설정 (1)</div>
+                </div>
+                
+                <div class="icon_menu avail" url="quickguide007">
+                	<div class="icon_on mm06_a"></div>
+                	<div class="icon_ani"></div>
+                    <div class="icon mm06"></div>
+                    <div class="text">사용자 프로필 설정 (2)</div>
+                </div>
+                
+                
+            </div>
+			
+			<div class="line3">
+				<div class="icon_menu avail" url="quickguide008">
+                	<div class="icon_on mm07_a"></div>
+                	<div class="icon_ani"></div>
+                    <div class="icon mm07"></div>
+                    <div class="text">지도뷰 설정</div>
+                </div>
+                
+         		<div class="icon_menu" url="">
+                </div>
+				<div class="icon_menu" url="">
+                </div>
+			</div>
+        </div>
+        <!--
+        <div class="main_bottom">
+            <button>GO TO GENESIS WEBSITE</button>
+        </div>
+		-->
+    </div>
+
+</div>
+
+<script>
+
+$(".menu_page").load("quickguide/inc/menu.html");
+
+function RandomArr(d) {
+	for(var c = d.length - 1; c > 0; c--)
+	{
+		var b = Math.floor(Math.random() * (c + 1));
+		var a = d[c]; d[c] = d[b]; d[b] = a;
+	}
+	return d
+}
+arr = [2, 3, 4, 5, 6, 7]
+arr = RandomArr(arr);
+
+setTimeout(function(){ 
+	$(".mm01").prepend("<lottie-player id='mm01' src='quickguide/json/mm01.json'  background='transparent'  speed='1'      autoplay></lottie-player>");
+},0);
+setTimeout(function(){ 
+	$(".mm0" + arr[0]).prepend("<lottie-player src='quickguide/json/mm0" + arr[0] + ".json'  background='transparent'  speed='1'      autoplay></lottie-player>");
+},1000);
+setTimeout(function(){ 
+	$(".mm0" + arr[1]).prepend("<lottie-player src='quickguide/json/mm0" + arr[1] + ".json'  background='transparent'  speed='1'      autoplay></lottie-player>");
+},2000);
+setTimeout(function(){ 
+	$(".mm0" + arr[2]).prepend("<lottie-player src='quickguide/json/mm0" + arr[2] + ".json'  background='transparent'  speed='1'      autoplay></lottie-player>");
+},3000);
+setTimeout(function(){ 
+	$(".mm0" + arr[3]).prepend("<lottie-player src='quickguide/json/mm0" + arr[3] + ".json'  background='transparent'  speed='1'      autoplay></lottie-player>");
+},4000);
+setTimeout(function(){ 
+	$(".mm0" + arr[4]).prepend("<lottie-player src='quickguide/json/mm0" + arr[4] + ".json'  background='transparent'  speed='1'      autoplay></lottie-player>");
+},5000);
+setTimeout(function(){ 
+	$(".mm0" + arr[5]).prepend("<lottie-player src='quickguide/json/mm0" + arr[5] + ".json'  background='transparent'  speed='1'      autoplay></lottie-player>");
+},6000);
+
+var mm01 = document.getElementById("mm01");
+$("#mm01 .animation").addEventListener('completed', function(){   
+    alert("!");
+});
+
+
+</script>
+
+</body>
+</html>

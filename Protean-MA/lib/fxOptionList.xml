@@ -1,0 +1,19 @@
+<root>
+    <div class="template">
+        <option vals="default" />
+        <option vals="R-OS_upgrade" />
+        <option vals="S-OS_upgrade" />
+        <option vals="T-OS_upgrade" />
+        <option vals="U-OS_upgrade" />
+    </div>
+
+    <div class="html">
+        <option vals="Q2Re-Q2NormalTablet" />
+        <option vals="Q4-Q4NormalTalbet" />
+    </div>
+
+    <div class="prodtype">
+        <option vals="smartphone" />
+        <option vals="tablet" />
+    </div>
+</root>

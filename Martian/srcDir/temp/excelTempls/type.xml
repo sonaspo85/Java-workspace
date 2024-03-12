@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root filename="language.xlsx">
+   <listitem>
+      <FAC class="4:2">ACR</FAC>
+   </listitem>
+   <listitem>
+      <FAC class="5:2">RAC</FAC>
+   </listitem>
+   <listitem>
+      <FAC class="6:2">WAC</FAC>
+   </listitem>
+   <listitem>
+      <FAC class="7:2">VCN</FAC>
+   </listitem>
+</root>

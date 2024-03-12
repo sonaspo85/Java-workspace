@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="16.0">
+	<Story Self="u24d" AppliedTOCStyle="n" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Description_QRcode">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/C_SingleStep">
+				<Content>▶</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content> To access the user manual, scan the QR code.</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Empty">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Table Self="u24di28f" HeaderRowCount="0" FooterRowCount="0" TextTopInset="1.4173228346456694" TextLeftInset="1.4173228346456694" TextBottomInset="1.4173228346456694" TextRightInset="1.4173228346456694" ClipContentToTextCell="false" BodyRowCount="1" ColumnCount="1" AppliedTableStyle="TableStyle/Table_Product" TableDirection="LeftToRightDirection" SpaceBefore="1.4173228346456694" SpaceAfter="1.4173228346456694">
+					<Row Self="u24di28fRow0" Name="0" TextTopInset="0" TextLeftInset="0" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" SingleRowHeight="45.35433070866134" MinimumHeight="11.338582677165356" />
+					<Column Self="u24di28fColumn0" Name="0" TextTopInset="0" TextLeftInset="0" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" SingleColumnWidth="133.22834645669292" />
+					<Cell Self="u24di28fi0" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell_ImgCenter" AppliedCellStylePriority="1" ClipContentToCell="false">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Img-Center">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Group Self="u299" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillAngle="0" GradientStrokeAngle="0" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -234.14173228346465 -64.62992125984249">
+									<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+										<Properties>
+											<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+										</Properties>
+									</TextWrapPreference>
+									<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+										<Properties>
+											<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+											<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+										</Properties>
+									</ObjectExportOption>
+									<Rectangle Self="u29b" ContentType="Unassigned" StoryTitle="$ID/" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" FillColor="Color/Paper" GradientFillStart="-342.1417322834646 718.8661417322835" GradientFillLength="26.929133858267733" GradientFillAngle="0" GradientStrokeStart="-342.1417322834646 718.8661417322835" GradientStrokeLength="26.929133858267733" GradientStrokeAngle="0" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 580.5354330708662 -672.6614173228346">
+										<Properties>
+											<PathGeometry>
+												<GeometryPathType PathOpen="false">
+													<PathPointArray>
+														<PathPointType Anchor="-346.3937007874016 691.9370078740158" LeftDirection="-346.3937007874016 691.9370078740158" RightDirection="-346.3937007874016 691.9370078740158" />
+														<PathPointType Anchor="-346.3937007874016 737.2913385826771" LeftDirection="-346.3937007874016 737.2913385826771" RightDirection="-346.3937007874016 737.2913385826771" />
+														<PathPointType Anchor="-301.03937007874015 737.2913385826771" LeftDirection="-301.03937007874015 737.2913385826771" RightDirection="-301.03937007874015 737.2913385826771" />
+														<PathPointType Anchor="-301.03937007874015 691.9370078740158" LeftDirection="-301.03937007874015 691.9370078740158" RightDirection="-301.03937007874015 691.9370078740158" />
+													</PathPointArray>
+												</GeometryPathType>
+											</PathGeometry>
+										</Properties>
+										<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+											<Properties>
+												<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+											</Properties>
+										</TextWrapPreference>
+										<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+										<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+											<Properties>
+												<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+												<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+											</Properties>
+										</ObjectExportOption>
+									</Rectangle>
+									<Rectangle Self="u29d" ContentType="GraphicType" StoryTitle="$ID/" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 393.8740157480316 -180.99212598425194">
+										<Properties>
+											<PathGeometry>
+												<GeometryPathType PathOpen="false">
+													<PathPointArray>
+														<PathPointType Anchor="-154.0629921259843 205.9370078740158" LeftDirection="-154.0629921259843 205.9370078740158" RightDirection="-154.0629921259843 205.9370078740158" />
+														<PathPointType Anchor="-154.0629921259843 239.95275590551185" LeftDirection="-154.0629921259843 239.95275590551185" RightDirection="-154.0629921259843 239.95275590551185" />
+														<PathPointType Anchor="-120.04724409448822 239.95275590551185" LeftDirection="-120.04724409448822 239.95275590551185" RightDirection="-120.04724409448822 239.95275590551185" />
+														<PathPointType Anchor="-120.04724409448822 205.9370078740158" LeftDirection="-120.04724409448822 205.9370078740158" RightDirection="-120.04724409448822 205.9370078740158" />
+													</PathPointArray>
+												</GeometryPathType>
+											</PathGeometry>
+										</Properties>
+										<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+											<Properties>
+												<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+											</Properties>
+											<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+										</TextWrapPreference>
+										<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+										<FrameFittingOption FittingOnEmptyFrame="ContentToFrame" FittingAlignment="CenterAnchor" />
+										<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+											<Properties>
+												<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+												<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+											</Properties>
+										</ObjectExportOption>
+										<Image Self="u34b" FillColor="Color/Black" Space="$ID/#Links_Grayscale" ActualPpi="96 96" EffectivePpi="184 184" ImageRenderingIntent="UseColorSettings" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$ID/Portable Network Graphics (PNG)" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.521241394424128 0 0 0.5212413944241278 -154.0629921259843 205.9370078740158" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" Visible="true" Name="$ID/">
+											<Properties>
+												<Profile type="string">$ID/Embedded</Profile>
+												<GraphicBounds Left="0" Top="0" Right="65.25910719173977" Bottom="65.25910719173977" />
+											</Properties>
+											<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+												<Properties>
+													<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+												</Properties>
+												<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+											</TextWrapPreference>
+											<Link Self="u2a1" AssetURL="$ID/" AssetID="$ID/" RenditionData="Actual" LinkResourceURI="file:D:/WORK/MA/Mobile/QRCheck/230518/TSS%204th%20EUB/D01/X01/3-Source/SM-X916B_QSG_Open_TSS_4th_EUB_D01_230511_INDD/Links/E-usermanual_x916b_eng.png" LinkResourceFormat="$ID/Portable Network Graphics (PNG)" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 133269457699411739 1248" LinkImportModificationTime="2023-04-26T10:22:49" LinkImportTime="2023-05-11T13:43:35" LinkResourceSize="0~4e0" />
+											<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$ID/" Index="-1" />
+											<ImageIOPreference ApplyPhotoshopClippingPath="true" AllowAutoEmbedding="true" AlphaChannelName="$ID/" />
+										</Image>
+									</Rectangle>
+								</Group>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+				</Table>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

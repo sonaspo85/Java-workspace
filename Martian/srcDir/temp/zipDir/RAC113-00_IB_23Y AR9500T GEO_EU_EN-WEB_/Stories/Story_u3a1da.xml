@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="18.5">
+	<Story Self="u3a1da" AppliedTOCStyle="TOCStyle/목차 스타일" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a1fb" Name=".238075" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Safety Information	4</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a201" Name=".238081" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Safety Information	4</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a205" Name=".238085" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>At a Glance	11</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a209" Name=".238089" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Indoor Unit Overview	11</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a20d" Name=".238093" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Display	12</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a211" Name=".238097" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Remote Control Overview	13</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a215" Name=".238101" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Charging the remote control	13</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a219" Name=".238105" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Remote Control Operation	14</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a21d" Name=".238109" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Selecting an operation mode</Content>
+				</HyperlinkTextSource>
+				<Content> • </Content>
+				<HyperlinkTextSource Self="u3a221" Name=".238113" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>To set the temperature	14</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a225" Name=".238117" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>To adjust the fan speed</Content>
+				</HyperlinkTextSource>
+				<Content> • </Content>
+				<HyperlinkTextSource Self="u3a229" Name=".238121" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>To adjust the airflow direction	15</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a22d" Name=".238125" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Smart Features	16</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a231" Name=".238129" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Power Smart Features	16</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a235" Name=".238133" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>WindFree Cooling function	16</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a239" Name=".238137" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>AI Auto mode	17</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a23d" Name=".238141" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Cool mode	18</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+			<HyperlinkTextSource Self="u3a241" Name=".238145" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+					<Content>Dry</Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+					<Content> mode</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<Content> • </Content>
+				<HyperlinkTextSource Self="u3a245" Name=".238149" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Fan mode	19</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a24a" Name=".238154" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Heat mode</Content>
+				</HyperlinkTextSource>
+				<Content> • </Content>
+				<HyperlinkTextSource Self="u3a24e" Name=".238158" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="Automatic defrost" TocEntryPageNumberString="&#x9;20" TocEntryLevel="3" />
+					</Properties>
+					<Content>Automatic defrost	20</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a252" Name=".238162" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Variety Smart Features	21</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a256" Name=".238166" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>MAX function	21</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a25a" Name=".238170" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Eco function	22</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a25e" Name=".238174" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Quiet function	23</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a262" Name=".238178" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Motion detect function	24</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a266" Name=".238182" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Beep function	26</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a26a" Name=".238186" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="Auto clean function 15" TocEntryPageNumberString="&#x9;27" TocEntryLevel="3" />
+					</Properties>
+					<Content>Auto clean function	27</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a26e" Name=".238190" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Display lighting function</Content>
+				</HyperlinkTextSource>
+				<Content> • </Content>
+			</CharacterStyleRange>
+			<HyperlinkTextSource Self="u3a273" Name=".238195" Hidden="true" AppliedCharacterStyle="n">
+				<Properties>
+					<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="Wi-Fi function (SmartThings app) 15" TocEntryPageNumberString="&#x9;29" TocEntryLevel="3" />
+				</Properties>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+					<Content>Wi-Fi function (SmartThings</Content>
+				</CharacterStyleRange>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+					<Content> app)	29</Content>
+				</CharacterStyleRange>
+			</HyperlinkTextSource>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a277" Name=".238199" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Time scheduling	30</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a27c" Name=".238204" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Timed on/ Timed off function	30</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a280" Name=".238208" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Good Sleep function	32</Content>
+				</HyperlinkTextSource>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold" ParagraphBreakType="NextColumn">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a284" Name=".238212" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Cleaning and Maintenance	33</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a288" Name=".238216" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Schedule	33</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a28c" Name=".238220" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="Cleaning" TocEntryPageNumberString="&#x9;34" TocEntryLevel="2" />
+					</Properties>
+					<Content>Cleaning	34</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a290" Name=".238224" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="Cleaning the outside of the indoor unit" TocEntryPageNumberString="&#x9;34" TocEntryLevel="3" />
+					</Properties>
+					<Content>Cleaning the outside of the indoor unit</Content>
+				</HyperlinkTextSource>
+				<Content> • </Content>
+				<HyperlinkTextSource Self="u3a294" Name=".238228" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="Cleaning the heat exchanger on the outdoor unit" TocEntryPageNumberString="&#x9;34" TocEntryLevel="3" />
+					</Properties>
+					<Content>Cleaning the heat exchanger on the outdoor unit	34</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a298" Name=".238232" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="Cleaning the filter" TocEntryPageNumberString="&#x9;35" TocEntryLevel="3" />
+					</Properties>
+					<Content>Cleaning the filter	35</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a29d" Name=".238237" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Replacing the Tri-care filter	36</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a2a1" Name=".238241" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="Cleaning the Wind-Free panel" TocEntryPageNumberString="&#x9;37" TocEntryLevel="3" />
+					</Properties>
+					<Content>Cleaning the WindFree panel	37</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a2a5" Name=".238245" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Appendix	38</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/HTML%3aTOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/HTML%3aC_Notrans-NoBold">
+				<HyperlinkTextSource Self="u3a2a9" Name=".238249" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Troubleshooting	38</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a2ad" Name=".238253" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Information about Refrigerant	40</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a2b1" Name=".238257" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>SmartThings app	41</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3a2b5" Name=".238261" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>Reference	43</Content>
+				</HyperlinkTextSource>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

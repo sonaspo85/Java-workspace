@@ -1,0 +1,8 @@
+<root>
+    <path
+        in="lang.dita"
+        out="final-lang.dita"
+        xslt="final.xsl"/>
+
+
+</root>

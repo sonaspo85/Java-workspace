@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+	<variable id="Preface odd header"><param ref-name="prodname"/> | Préface | <param ref-name="pagenum"/></variable>
+	<variable id="Preface even header"><param ref-name="pagenum"/> | Préface | <param ref-name="prodname"/></variable>
+	<variable id="Table of Contents">Table des matières</variable>
+	<variable id="Index Continued String">a continué</variable>
+	<variable id="Index See String">, Voir </variable>
+	<variable id="Index See Also String">Voir aussi </variable>
+	<variable id="Table of Contents Chapter">Chapitre <param ref-name="number"/> : </variable>
+	<variable id="Table of Contents Appendix">Annexe <param ref-name="number"/> : </variable>
+	<variable id="Table of Contents Part">Partie <param ref-name="number"/> : </variable>
+	<variable id="Table of Contents Preface">Préface </variable>
+	<variable id="Preface title">Préface</variable>
+	<variable id="Notices title"><!--TODO:Notices title--></variable>
+	<variable id="Mini Toc">Sujets :</variable>
+	<variable id="#note-separator"> : </variable>
+	<variable id="Notice"><!--TODO:Notice--></variable>
+	<variable id="Figure.title">Illustration <param ref-name="number"/> : <param ref-name="title"/></variable>
+	<variable id="Figure Number">Illustration <param ref-name="number"/></variable>
+	<variable id="Table.title">Tableau <param ref-name="number"/> : <param ref-name="title"/></variable>
+	<variable id="Table Number">Tableau <param ref-name="number"/></variable>
+	<variable id="Related Links">Liens connexes</variable>
+	<variable id="Cross-Reference">Référence croisée vers :</variable>
+	<variable id="Content-Reference">Référence de contenu vers :</variable>
+	<variable id="List item">Articles.</variable>
+	<variable id="Foot note">Note de bas de page.</variable>
+	<variable id="Navigation title">Titre de navigation</variable>
+	<variable id="Search title">Titre de recherche</variable>
+	<variable id="Chapter with number">Chapitre <param ref-name="number"/></variable>
+	<variable id="Appendix with number">Annexe <param ref-name="number"/></variable>
+	<variable id="Part with number">Partie <param ref-name="number"/></variable>
+	<variable id="Required-Cleanup">[Nettoyage obligatoire]</variable>
+	<variable id="On the page"> à la page <param ref-name="pagenum"/></variable>
+	<variable id="Page"> la page <param ref-name="pagenum"/></variable>
+	<variable id="This link">ce lien</variable>
+	<variable id="Optional Step">Facultatif :</variable>
+	<variable id="Required Step">Obligatoire :</variable>
+	<variable id="Task Prereq"/>
+	<variable id="Task Context"/>
+	<variable id="Task Steps"/>
+	<variable id="#steps-unordered-label"/>
+	<variable id="Task Result"/>
+	<variable id="Task Example"/>
+	<variable id="Task Postreq"/>
+	<variable id="Glossary">Glossaire</variable>
+	<variable id="List of Tables">Liste des tableaux</variable>
+	<variable id="List of Figures">Liste des illustrations</variable>
+	<variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/notice.svg</variable>
+	<variable id="warning Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+	<variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/caution.svg</variable>
+	<variable id="service Note Image Path">Customization/OpenTopic/common/artwork/M-service.ai</variable>
+	<variable id="recycle Note Image Path">Customization/OpenTopic/common/artwork/M-recycle.ai</variable>
+	<variable id="basics Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_getting.ai</variable>
+	<variable id="apps_and_features Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_apps.ai</variable>
+	<variable id="settings Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_settings.ai</variable>
+	<variable id="usage_notices Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_usage.ai</variable>
+	<variable id="appendix Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_appendix.ai</variable>
+	<variable id="admonition note">Note</variable>
+	<variable id="admonition warning">Warning</variable>
+	<variable id="Unordered List bullet">•</variable>
+	<variable id="Unordered List bullet 1">•</variable>
+	<variable id="Unordered List bullet 2">‒</variable>
+	<variable id="frontmatter-title">Mode d’emploi</variable>
+	<variable id="frontmatter-language">Français (CA)</variable>
+	<variable id="frontmatter-toc-contents">Table des matières</variable>
+</vars>

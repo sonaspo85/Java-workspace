@@ -1,0 +1,21 @@
+<root>
+    <path
+        in=""
+        out="01-tm-migrated.tmx"
+        xslt="MigrateTMX\01-tm-migrate.xsl"/>
+
+    <path
+        in="01-tm-migrated.tmx"
+        out="02-tm-cleaned-i-type.tmx"
+        xslt="MigrateTMX\02-tm-clean-i-type.xsl"/>
+
+    <path
+        in="02-tm-cleaned-i-type.tmx"
+        out="03-tm-fix-ept-i.tmx"
+        xslt="MigrateTMX\03-tm-fix-ept-i.xsl"/>
+
+    <path
+        in="03-tm-fix-ept-i.tmx"
+        out="dummy.xml"
+        xslt="MigrateTMX\04-tm-clean-bpt-ept.xsl"/>
+</root>

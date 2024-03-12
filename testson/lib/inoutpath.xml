@@ -1,0 +1,10 @@
+<root>
+    <path
+        in="master.dita"
+        out="master-final.dita"
+        xslt="insert-idx.xsl"
+        catalog="catalog-dita.xml" />
+    
+
+
+</root>

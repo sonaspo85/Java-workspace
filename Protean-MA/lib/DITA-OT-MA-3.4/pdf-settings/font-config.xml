@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- DOCTYPE font-config SYSTEM "font-config.dtd" -->
+<font-config>
+  <!-- add your font folder here -->
+  <acc-folder/>
+  <font-folder path="@@USERWINFONTS@@"/>
+  <font-folder path="Z:\MA-Fonts"/>
+  <font-folder path="C:\Antenna-House\AHFormatterV71\MA-Fonts"/>
+  <font-folder path="C:\Windows\Fonts"/>
+</font-config>

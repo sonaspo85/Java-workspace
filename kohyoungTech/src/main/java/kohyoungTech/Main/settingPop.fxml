@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" 
+prefHeight="133.0" prefWidth="294.0" xmlns="http://javafx.com/javafx/" 
+xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="37.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Output Folder Name">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="34.0" layoutY="52.0" id="stf1" prefHeight="22.0" prefWidth="226.0" />
+      <Button id="sbt1" layoutX="213.0" layoutY="92.0" mnemonicParsing="false" text="Apply" />
+   </children>
+</AnchorPane>

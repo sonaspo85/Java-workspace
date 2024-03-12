@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<image idx="000" src="images/E-chcover_movie.png"/>
+	<image idx="001" src="images/E-chcover_basic.png"/>
+	<image idx="002" src="images/E-chcover_webmaunal.png"/>
+	<image idx="003" src="images/E-chcover_userprofile.png"/>
+	<image idx="004" src="images/E-chcover_voicerecognition.png"/>
+	<image idx="005" src="images/E-chcover_connectedservice.png"/>
+	<image idx="006" src="images/E-chcover_navigation.png"/>
+	<image idx="007" src="images/E-chcover_media.png"/>
+	<image idx="008" src="images/E-chcover_phone.png"/>
+	<image idx="011" src="images/E-chcover_phoneprojection.png"/>
+	<image idx="012" src="images/E-chcover_ev.png"/>
+	<image idx="013" src="images/E-chcover_hev.png"/>
+	<image idx="021" src="images/E-chcover_voicememo.png"/>
+	<image idx="021-1" src="images/E-chcover_climate.png"/>
+	<image idx="022" src="images/E-chcover_seat.png"/>
+	<image idx="022-1" src="images/E-chcover_passengerview.png"/>
+	<image idx="026" src="images/E-chcover_washmode.png"/>
+	<image idx="027" src="images/E-chcover_diagnosis.png"/>
+	<image idx="029" src="images/E-chcover_weather.png"/>
+	<image idx="030" src="images/E-chcover_calendar.png"/>
+	<image idx="031" src="images/E-chcover_sports.png"/>
+	<image idx="032" src="images/E-chcover_valetmode.png"/>
+	<image idx="035" src="images/E-chcover_passengertalk.png"/>
+	<image idx="036" src="images/E-chcover_quietmode.png"/>
+	<image idx="038" src="images/E-chcover_rearview.png"/>
+	<image idx="039" src="images/E-chcover_notifications.png"/>
+	<image idx="040" src="images/E-chcover_settings.png"/>
+	<image idx="041" src="images/E-chcover_ota.png"/>
+	<image idx="042" src="images/E-chcover_appendix.png"/>
+</images>

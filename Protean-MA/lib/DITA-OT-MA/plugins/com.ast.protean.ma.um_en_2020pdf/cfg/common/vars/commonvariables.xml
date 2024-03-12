@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+    <variable id="Step Number">
+        <param ref-name="number" />
+    </variable>
+    <variable id="arrow">► </variable>
+    <variable id="star">*</variable>
+    <variable id="arrow-rtl">◄ </variable>
+    <variable id="Unordered List bullet">•</variable>
+    <variable id="Unordered List bullet 1">•</variable>
+    <variable id="Unordered List bullet 2">–</variable>
+	<variable id="cover-Logo-Path">Customization/OpenTopic/common/artwork/M-samsung_logo.ai</variable>
+	<variable id="E-cover RtL Path">Customization/OpenTopic/common/artwork/E-cover-RtL.png</variable>
+	<variable id="E-cover LtR Path">Customization/OpenTopic/common/artwork/E-cover.png</variable>
+	
+</vars>

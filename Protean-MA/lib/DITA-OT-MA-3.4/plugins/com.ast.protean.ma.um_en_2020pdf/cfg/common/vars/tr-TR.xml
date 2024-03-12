@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+    <variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/notice.svg</variable>
+    <variable id="warning Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+    <variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/caution.svg</variable>
+    <variable id="service Note Image Path">Customization/OpenTopic/common/artwork/M-service.ai</variable>
+    <variable id="recycle Note Image Path">Customization/OpenTopic/common/artwork/M-recycle.ai</variable>
+    <variable id="basics Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_getting.ai</variable>
+    <variable id="apps_and_features Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_apps.ai</variable>
+    <variable id="settings Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_settings.ai</variable>
+	<variable id="usage_notices Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_usage.ai</variable>
+    <variable id="appendix Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_appendix.ai</variable>
+    <variable id="admonition note">Note</variable>
+    <variable id="admonition warning">Warning</variable>
+    <variable id="Unordered List bullet">•</variable>
+    <variable id="Unordered List bullet 1">•</variable>
+    <variable id="Unordered List bullet 2">‒</variable>
+    <variable id="On the page" />
+    <variable id="frontmatter-title">KULLANMA &#x2028;    KILAVUZU</variable>
+    <variable id="frontmatter-petName-tablet">Mobil İnternet Cihazı</variable>
+    <variable id="frontmatter-petName-phone">Cep Telefonu</variable>
+    <variable id="frontmatter-language">Turkish</variable>
+    <variable id="frontmatter-toc-contents">İçerik</variable>
+    <variable id="Preface odd header">
+        <param ref-name="prodname" /> | Önsöz | 
+        <param ref-name="pagenum" />
+    </variable>
+    <variable id="Preface even header">
+        <param ref-name="pagenum" /> | Önsöz | 
+        <param ref-name="prodname" />
+    </variable>
+    <variable id="Table of Contents">İçindekiler</variable>
+    <variable id="Index Continued String">devamı var</variable>
+    <variable id="Index See String">, Bkz. </variable>
+    <variable id="Index See Also String">Ayrıca bkz. </variable>
+    <variable id="Table of Contents Chapter">Bölüm 
+        <param ref-name="number" />: </variable>
+    <variable id="Table of Contents Appendix">Ek 
+        <param ref-name="number" />: </variable>
+    <variable id="Table of Contents Part">Bölüm 
+        <param ref-name="number" />: </variable>
+    <variable id="Table of Contents Preface">Önsöz: </variable>
+    <variable id="Preface title">Önsöz</variable>
+    <variable id="Notices title">Notice</variable>
+    <variable id="Mini Toc">İçindekiler: </variable>
+    <variable id="Notice">Notice</variable>
+    <variable id="Figure.title">Şekil
+        <param ref-name="number" />:
+        <param ref-name="title" />
+    </variable>
+    <variable id="Figure Number">Şekil
+        <param ref-name="number" />
+    </variable>
+    <variable id="Table.title">Çizelge
+        <param ref-name="number" />:
+        <param ref-name="title" />
+    </variable>
+    <variable id="Table Number">Çizelge
+        <param ref-name="number" />
+    </variable>
+    <variable id="Related Links">İlgili bilgiler</variable>
+    <variable id="Cross-Reference">Cross-Reference to:</variable>
+    <variable id="Content-Reference">Unresolved content reference to:</variable>
+    <variable id="List item">List item.</variable>
+    <variable id="Foot note">Footnote.</variable>
+    <variable id="Navigation title">Navigation title</variable>
+    <variable id="Search title">Search title</variable>
+    <variable id="Chapter with number">Bölüm
+        <param ref-name="number" />
+    </variable>
+    <variable id="Appendix with number">Ek
+        <param ref-name="number" />
+    </variable>
+    <variable id="Part with number">Bölüm
+        <param ref-name="number" />
+    </variable>
+    <variable id="Required-Cleanup">[Düzeltilmeli]</variable>
+    <variable id="Page"> Sayfa
+        <param ref-name="pagenum" />
+    </variable>
+    <variable id="This link" />
+    <variable id="Child topics" />
+    <variable id="Related references" />
+    <variable id="Optional Step">İsteğe bağlı:</variable>
+    <variable id="Required Step">Gerekli:</variable>
+    <variable id="Task Prereq" />
+    <variable id="Task Context" />
+    <variable id="Task Steps" />
+    <variable id="#steps-unordered-label" />
+    <variable id="Task Result" />
+    <variable id="Task Example" />
+    <variable id="Task Postreq" />
+    <variable id="Glossary">Özel sözlük</variable>
+    <variable id="List of Tables">Çizelgeler</variable>
+    <variable id="List of Figures">Şekiller</variable>
+</vars>

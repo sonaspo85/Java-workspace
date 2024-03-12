@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" >
+<title>목적지 설정</title>
+<link rel="stylesheet" href="quickguide/css/style.css">
+<script>
+// 모바일 PC일 경우 style_pc 로드
+var filter = "win16|win32|win64|mac|macintel"; 
+if ( navigator.platform ) { 
+	if ( filter.indexOf( navigator.platform.toLowerCase() ) > 0 ) { 
+		//pc 
+		var head  = document.getElementsByTagName('head')[0];
+		var objLink = document.createElement("link");
+		objLink.rel = "stylesheet";
+		objLink.type = "text/css";
+		objLink.href = "quickguide/css/style_pc.css";
+		head.appendChild( objLink );
+	} 
+}
+</script>
+<script type="text/JavaScript" src="quickguide/js/jquery-3.4.1.min.js"></script>
+<script type="text/JavaScript" src="quickguide/js/jquery-ui.js"></script>
+<script type="text/JavaScript" src="quickguide/js/touchSlider.js"></script>
+<script type="text/JavaScript" src="quickguide/js/jquery.scrollify.js"></script>
+<script type="text/JavaScript" src="quickguide/js/common.js"></script>
+
+<link rel="stylesheet" href="quickguide/css/menu03.css">
+
+</head>
+
+<body>
+<div class="body_wrap">
+
+    <!-- MENU -->
+    <div class="shadow"></div>
+    <div class="menu_page"></div>
+    
+    
+    <!-- TOP BAR -->
+    <div class="top_bar">
+    	<div class="top_ind">
+        </div>
+        <div class="main_top">
+            <div class="back_btn" onClick="location.href='quickguide001.html'"></div>
+            <div class="page_title"></div>
+            
+            <div class="menu_open_btn">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+            </div>
+            <div class="menu_close_btn">
+                <div id="linex1"></div>
+                <div id="linex2"></div>
+                <div id="linex3"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="content">
+    
+<!-- content -->    
+
+<pageId>4</pageId>
+<div class="list">
+	<div class="section on once">
+    	<div class="greeting">
+            <div class="title">목적지 설정</div>
+            <div class="subtitle">
+				<div class="dash_top"></div>
+				초성만 입력해도 검색이 된다는 사실, 아시나요?
+				<div class="dash_bottom"></div>
+			</div>
+        </div>
+        
+        <div class="step m03s01_mt">
+            <div class="step_no"><div class="no01"></div></div>
+            <div class="step_text">
+				NAV 버튼 누르고,<br>
+				<span class="brown">통합 검색</span>을 선택하세요!
+			</div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask">
+                        <div class="circle screen_3_1_1">
+                        	<div class="item_3_1_1_line_box"></div>
+                        </div>
+                    </div>
+                </li>
+				<li>
+                	<div class="circle_mask round">
+                        <div class="item_3_1_2_line_box">
+                        	<div class="item_3_1_2_line1"></div>
+                            <div class="item_3_1_2_line2"></div>
+                            <div class="item_3_1_2_line3"></div>
+                            <div class="item_3_1_2_line4"></div>
+                        </div>
+                        <div class="circle screen_3_1_2"></div>
+                    </div>
+                </li>
+            </ul>
+			
+			<div class="notice_once">옆으로 넘겨보세요</div>
+        </div>
+        
+        <div class="step_notice pc_notice_1line">
+        	NAV 버튼을 길게 누르면 통합 검색으로 연결됩니다.
+        </div>
+    </div>
+    
+    
+    <div class="section off">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no02"></div></div>
+			<div class="step_text">
+				키보드로 원하는 곳의<br>
+				<span class="brown">초성 (ㅎ→ㄷ→ㅁ→ㅌ)</span>만 입력해도<br>
+				현대모터스튜디오 짜잔~
+			</div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask">
+                        <div class="circle screen_3_2_1"></div>
+                        <div class="circle screen_3_2_1a"></div>
+                        <div class="screen_3_2_1_text">
+                            <div class="screen_3_2_1_tx1"></div>
+                            <div class="screen_3_2_1_tx2"></div>
+                            <div class="screen_3_2_1_tx3"></div>
+                            <div class="screen_3_2_1_tx4"></div>
+                            <div class="screen_3_2_1_tx5"></div>
+                            <div class="screen_3_2_1_tx6"></div>
+                        </div>
+                        <div class="screen_3_2_1_cursor"></div>
+                        <div class="screen_3_2_1_box1"></div>
+                        <div class="screen_3_2_1_box2"></div>
+                        <div class="screen_3_2_1_box3"></div>
+                        <div class="screen_3_2_1_box4"></div>
+                        
+                        <div class="item_3_2_1_line_box">
+                            <div class="item_3_2_1_line1"></div>
+                            <div class="item_3_2_1_line2"></div>
+                            <div class="item_3_2_1_line3"></div>
+                            <div class="item_3_2_1_line4"></div>
+                        </div>
+                	</div>
+                </li>
+				<li>
+                	<div class="circle_mask">
+                        <div class="circle screen_3_2_2"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no" style="margin-left:22px;"><div class="noT1"></div></div>
+			<div class="step_text" style="width:calc(100% - 87px);">
+				음성인식 버튼을 누르고<br>
+				<span class="brown">"(목적지명)으로 가자"</span> 해도<br>
+				손쉽게 목적지를 설정할 수 있어요!</div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask">
+                        <div class="circle screen_3_t1_1">
+                        	<div class="item_3_t1_1_line_box"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no" style="margin-left:22px;"><div class="noT2"></div></div>
+			<div class="step_text" style="width:calc(100% - 87px);">
+            	어느 화면에서든<br>
+                <span class="brown">MAP 버튼</span>을 누르면<br>
+                지도 화면을 볼 수 있어요!
+                </div>
+        </div>
+
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask">
+                        <div class="circle screen_3_t2_1">
+                        	<div class="item_3_t2_1_line_box"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+		
+		<div class="notice_bottom">※ 제공 이미지는 일부 상이할 수 있습니다.</div>
+		<div class="main_bottom" style="position:absolute;">
+            <button class="prev">회원가입 (법인)</button>
+            <button class="next">블루투스 연결</button>
+        </div>
+    </div>
+  
+    
+    <div class="section footer">
+    	<div class="footer_logo"></div>
+        <div class="footer_text">
+        	<!-- js에서 설정 -->
+        </div>
+    </div>
+</div>
+
+<script src="quickguide/js/pageControl.js"></script>
+
+<!-- content end -->    
+
+	</div>
+</div>
+
+
+</body>
+</html>
+

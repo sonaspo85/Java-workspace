@@ -1,0 +1,291 @@
+/* quick button line css */
+
+
+/* 셀렉트 */
+
+.select_wrap {
+    max-width: 960px;
+    z-index: 1000;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.select_wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 0;
+}
+
+
+
+
+/** Custom Select **/
+
+.custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    float: right;
+}
+
+.custom-select-wrapper select {
+    display: none;
+}
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-select-bg {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.opened .custom-select-bg {
+    display: block;
+}
+
+.custom-select-trigger {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.custom-select-trigger::before {
+    content: " ";
+    display: block;
+    background-image: url("../../images/quick.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 63%;
+    height: 63%;
+    margin: 0 auto;
+}
+
+
+/* .custom-select-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0;
+}
+
+.custom-select.opened .custom-select-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%);
+} */
+
+.custom-options {
+    position: absolute;
+    display: block;
+    top: 100%;
+    right: 0;
+    min-width: 100%;
+    margin: 15px 0;
+    border: 1px solid #b5b5b5;
+    box-sizing: border-box;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .07);
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-15px);
+    overflow-y: scroll;
+}
+
+.custom-select.opened .custom-options {
+    width: 400px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+}
+
+.option-hover:before {
+    background: #f9f9f9;
+}
+
+.custom-option {
+    position: relative;
+    display: block;
+    padding: 0 22px;
+    border-bottom: 1px solid #b5b5b5;
+    color: #333;
+    line-height: 47px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    background-color: #fff;
+}
+
+.custom-option:last-of-type {
+    border-bottom: 0;
+}
+
+.custom-option:hover,
+.custom-option.selection {
+    background: #f9f9f9;
+}
+
+
+/* 본문 메인하단 회색 바 */
+
+#scroll_nav,
+.chap {
+    /* z-index: 100; */
+    /* z-index: 99;
+    position: fixed; */
+    width: 100%;
+    /* left: 0; */
+    height: 50px;
+}
+
+.chap_wrap {
+    position: relative;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+    height: 100%;
+}
+#scrollmask {
+    /* margin: 0 auto; */
+    /* max-width: 60%; */
+    max-width: calc(100% - 300px);
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.scrollmaskWrap{
+    position: relative;
+    width: 60%;
+    /* max-width: 1200px; */
+    height: 100%;
+    margin: 0 auto;
+}
+
+#chapter {
+    color: #000;
+    float: left;
+    margin-left: 40px;
+    line-height: 50px;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    /*font-weight: bold;*/
+    cursor: default;
+}
+
+.home {
+    position: absolute;
+    top: 9px;
+    left: 18px;
+    width: 22px;
+    height: auto;
+}
+
+#home_area {
+    position: absolute;
+    left: 0px;
+    width: 30px;
+    height: 100%;
+}
+
+.chap_wrap>#home_area {
+    top: 0;
+}
+
+#home_area>a {
+    display: block;
+}
+
+.home2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background: url("../../images/home_icon2.png") no-repeat;
+    background-position: center;
+    background-size: 18px auto;
+}
+
+#chapter span.caption {
+	margin-left: 10px;
+	font-size: 14px;
+	color: #777;
+	font-weight: 600;
+}
+
+/* responsive---------- */
+
+@media screen and (max-width:1024px) {
+    #scrollmask,
+    .chap_wrap {
+        /* width: 95%; */
+        width: 100%;
+    }
+
+    .home2 {
+        background-size: 16px auto;
+    }
+    #chapter {
+        margin-left: 35px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #scrollmask {
+        /* max-width: 960px; */
+        max-width: 100%;
+    }
+
+    #scrollmask .scrollmaskWrap{
+        width: 95%;
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+    #scrollmask,
+    .chap_wrap {
+        width: 90%;
+    }
+    .custom-select.opened .custom-options {
+        width: 90vw;
+        max-height: 80vh;
+    }
+    .custom-select-trigger:after {
+        right: 18px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .custom-select-trigger {
+        width: 36px;
+        height: 36px;
+    }
+}

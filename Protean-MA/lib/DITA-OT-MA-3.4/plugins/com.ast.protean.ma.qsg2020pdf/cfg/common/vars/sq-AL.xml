@@ -1,0 +1,144 @@
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+	<variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/notice.svg</variable>
+	<variable id="warning Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+	<variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/caution.svg</variable>
+	<variable id="admonition note">Note</variable>
+	<variable id="admonition warning">Warning</variable>
+	<variable id="Unordered List bullet">•</variable>
+	<variable id="Unordered List bullet 1">•</variable>
+	<!-- <variable id="Unordered List bullet 2">&#x2013;</variable> en dash -->
+	<variable id="Unordered List bullet 2">&#x2013;</variable>
+	<variable id="On the page"></variable>
+	
+	<variable id="frontmatter-title">MANUALI I PËRDORUESIT</variable>
+	<variable id="frontmatter-language">Albanian</variable>
+	<variable id="frontmatter-toc-contents">Përmbajtja</variable>
+
+	<!-- The header that appears on Preface odd-numbered pages. -->
+  <variable id="Preface odd header"><param ref-name="prodname"/> | Introduction | <param ref-name="pagenum"/></variable>
+
+  <!-- The header that appears on Preface even-numbered pages. -->
+  <variable id="Preface even header"><param ref-name="pagenum"/> | Introduction | <param ref-name="prodname"/></variable>
+
+  <!-- The heading to put at the top of the Table of Contents -->
+  <variable id="Table of Contents">Contents</variable>
+
+  <!-- Indicates when an index continues from the previous page -->
+  <variable id="Index Continued String">continued</variable>
+
+  <!-- Appears before <index-see> element content -->
+  <variable id="Index See String">, See </variable>
+
+  <!-- Appears before <index-see-also> element content -->
+  <variable id="Index See Also String">See also </variable>
+
+  <!-- Label for a chapter within the table of contents. -->
+  <variable id="Table of Contents Chapter">Chapter <param ref-name="number"/>: </variable>
+
+  <!-- Label for an appendix within the table of contents. -->
+  <variable id="Table of Contents Appendix">Appendix <param ref-name="number"/>: </variable>
+
+  <!-- Label for a part within the table of contents. -->
+  <variable id="Table of Contents Part">Part <param ref-name="number"/>: </variable>
+
+  <!-- Label for a preface within the table of contents. -->
+  <variable id="Table of Contents Preface">Preface: </variable>
+
+  <!-- Heading for a preface in body text. -->
+  <variable id="Preface title">Preface</variable>
+
+  <!-- Heading for the Notices topic in body text. -->
+  <variable id="Notices title">Notice</variable>
+
+  <!-- Heading to put at the top a chapter-level "mini-TOC" -->
+  <variable id="Mini Toc">Topics: </variable>
+
+  <!-- Text to use for 'Notice' label generated from <note> element. -->
+  <variable id="Notice">Notice</variable>
+
+  <!-- Text to use for figure titles, with title text or only figure number. -->
+  <variable id="Figure.title">Figure <param ref-name="number"/>: <param ref-name="title"/></variable>
+  <variable id="Figure Number">Figure <param ref-name="number"/></variable>
+
+  <!-- Text to use for table titles, with title text or only table number. -->
+  <variable id="Table.title">Table <param ref-name="number"/>: <param ref-name="title"/></variable>
+  <variable id="Table Number">Table <param ref-name="number"/></variable>
+
+  <!-- Text to use for related links label. -->
+  <variable id="Related Links">Related Links</variable>
+
+  <!-- UNUSED: Default cross-reference text prefix. Previously used to generate reference 
+       text in case text is unresolvable and not specified in source. -->
+  <variable id="Cross-Reference">Cross-Reference to:</variable>
+
+  <!-- UNUSED: Previously used for unresolved content reference. -->
+  <variable id="Content-Reference">Unresolved content reference to:</variable>
+
+  <!-- Default title text for references to a list item. Used when reference
+       has no specified  content, reference target is a list item, and
+       no list item number can be determined. -->
+  <variable id="List item">List item.</variable>
+
+  <!-- Default title text for referenced footnote. Used when reference has
+       no specified content, reference target is a footnote, and footnote
+       label cannot be determined. -->
+  <variable id="Foot note">Footnote.</variable>
+
+  <!-- Label for a navigation title, included when publishing draft content. -->
+  <variable id="Navigation title">Navigation title</variable>
+
+  <!-- Label for a search title, included when publishing draft content. -->
+  <variable id="Search title">Search title</variable>
+
+  <!-- Heading prefix for chapter titles.-->
+  <variable id="Chapter with number">Chapter <param ref-name="number"/></variable>
+
+  <!-- Heading prefix for appendix titles.-->
+  <variable id="Appendix with number">Appendix <param ref-name="number"/></variable>
+
+  <!-- Heading prefix for part titles.-->
+  <variable id="Part with number">Part <param ref-name="number"/></variable>
+
+  <!-- Label for content of <required-cleanup> element. -->
+  <variable id="Required-Cleanup">[Required-Cleanup]</variable>
+
+  <!-- Template for generated page number of a reference in printed manual. -->
+  <variable id="On the page"> on page <param ref-name="pagenum"/></variable>
+
+  <!-- Template for generated page number of a reference
+       in printed manual, when referenced element has no title. -->
+  <variable id="Page"> page <param ref-name="pagenum"/></variable>
+
+  <!-- UNUSED: Template for generated page number of a reference
+       in chm/html, when referenced element has no title. -->
+  <variable id="This link">this link</variable>
+
+  <!-- UNUSED: The title of links to child topics. -->
+  <variable id="Child topics">Child Topics</variable>
+
+  <!-- UNUSED: The title of links to Related references -->
+  <variable id="Related references">Related References</variable>
+
+  <!-- Labels for a step with importance="optional" or importance="required" -->
+  <variable id="Optional Step">Optional:</variable>
+  <variable id="Required Step">Required:</variable>
+
+  <!--Labels for task sections. These are kept for backwards compatibility, actual
+      labels are now stored in common strings files. -->
+  <variable id="Task Prereq"></variable>
+  <variable id="Task Context"></variable>
+  <variable id="Task Steps"></variable>
+  <variable id="#steps-unordered-label"></variable>
+  <variable id="Task Result"></variable>
+  <variable id="Task Example"></variable>
+  <variable id="Task Postreq"></variable>
+     
+  <!-- Heading for a Glossary topic -->
+  <variable id="Glossary">Glossary</variable>
+     
+  <!-- Heading for a generated List of Tables -->
+  <variable id="List of Tables">List of Tables</variable>
+     
+  <!-- Heading for a generated List of Figures -->
+  <variable id="List of Figures">List of Figures</variable>
+</vars>

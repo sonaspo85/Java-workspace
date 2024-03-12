@@ -1,0 +1,354 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" >
+<title>블루투스 연결</title>
+<link rel="stylesheet" href="quickguide/css/style.css">
+<script>
+// 모바일 PC일 경우 style_pc 로드
+var filter = "win16|win32|win64|mac|macintel"; 
+if ( navigator.platform ) { 
+	if ( filter.indexOf( navigator.platform.toLowerCase() ) > 0 ) { 
+		//pc 
+		var head  = document.getElementsByTagName('head')[0];
+		var objLink = document.createElement("link");
+		objLink.rel = "stylesheet";
+		objLink.type = "text/css";
+		objLink.href = "quickguide/css/style_pc.css";
+		head.appendChild( objLink );
+	} 
+}
+</script>
+<script type="text/JavaScript" src="quickguide/js/jquery-3.4.1.min.js"></script>
+<script type="text/JavaScript" src="quickguide/js/jquery-ui.js"></script>
+<script type="text/JavaScript" src="quickguide/js/touchSlider.js"></script>
+<script type="text/JavaScript" src="quickguide/js/jquery.scrollify.js"></script>
+<script type="text/JavaScript" src="quickguide/js/common.js"></script>
+
+<link rel="stylesheet" href="quickguide/css/menu04.css">
+
+</head>
+
+<body>
+<div class="body_wrap">
+
+    <!-- MENU -->
+    <div class="shadow"></div>
+    <div class="menu_page"></div>
+    
+    
+    <!-- TOP BAR -->
+    <div class="top_bar">
+    	<div class="top_ind">
+        </div>
+        <div class="main_top">
+            <div class="back_btn" onClick="location.href='quickguide001.html'"></div>
+            <div class="page_title"></div>
+            
+            <div class="menu_open_btn">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+            </div>
+            <div class="menu_close_btn">
+                <div id="linex1"></div>
+                <div id="linex2"></div>
+                <div id="linex3"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="content">
+    
+<!-- content -->    
+
+<pageId>5</pageId>
+<div class="list">
+	<div class="section on once">
+    	<div class="greeting">
+            <div class="title">블루투스 연결</div>
+            <div class="subtitle">
+				<div class="dash_top"></div>
+				아주 손쉬운 블루투스 연결로 전화뿐 아니라<br>
+				블루투스 스트리밍으로<br>
+				원하는 음악을 들을 수 있어요.
+				<div class="dash_bottom"></div>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step_no"><div class="no01"></div></div>
+            <div class="step_text">
+            	안전하게 주차한 후<br>
+				<span class="brown">SETUP 버튼</span>을 눌러주세요.
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask">
+                        <div class="circle screen_4_1_1">
+                        	<div class="item_4_1_1_line_box"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <div class="section off">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no02"></div></div>
+			<div class="step_text">
+            	설정 화면에서<br>
+                <span class="brown">'기기 연결'</span>을 선택해 주세요.
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask round">
+                        <div class="circle screen_4_2_1"></div>
+                        <div class="item_4_2_1_line_box">
+                            <div class="item_4_2_1_line1"></div>
+                            <div class="item_4_2_1_line2"></div>
+                            <div class="item_4_2_1_line3"></div>
+                            <div class="item_4_2_1_line4"></div>
+                        </div>
+                    </div>
+                </li>
+				<li>
+                	<div class="circle_mask">
+                        <div class="circle screen_4_2_2">
+                        	<div class="item_4_2_2_line_box">
+                                <div class="item_4_2_2_line1"></div>
+                                <div class="item_4_2_2_line2"></div>
+                                <div class="item_4_2_2_line3"></div>
+                                <div class="item_4_2_2_line4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="notice_once">옆으로 넘겨보세요</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no03"></div></div>
+			<div class="step_text" style="padding-top:11px;">
+            	<span class="brown">휴대폰</span>에서 차량 이름을 확인하세요!
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask">
+                        <div class="circle screen_4_3_1"></div>
+                    </div>
+                </li>
+				<li>
+                	<div class="circle_mask">
+                        <div class="phone_screen screen_4_3_2">
+                            <div class="item_4_3_2_line_box">
+                                <div class="item_4_3_2_line1"></div>
+                                <div class="item_4_3_2_line2"></div>
+                                <div class="item_4_3_2_line3"></div>
+                                <div class="item_4_3_2_line4"></div>
+                            </div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="step_notice pc_notice_1line">
+            시스템의 블루투스 이름은<br>
+            신규 기기 추가 알림창에서 확인하세요.
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no04"></div></div>
+			<div class="step_text">
+            	<span class="brown">휴대폰 설정에서 블루투스</span>를<br>
+                찾으세요! 내비게이션 화면에서<br>
+                보이는<span class="brown"> 차량 이름을 확인 후 연결!</span>
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li class="device1">
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_4_4_1">
+                            <div class="item_4_4_1_line_box">
+                                <div class="item_4_4_1_line1"></div>
+                                <div class="item_4_4_1_line2"></div>
+                                <div class="item_4_4_1_line3"></div>
+                                <div class="item_4_4_1_line4"></div>
+                            </div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+                <li class="device2">
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_4_4_2">
+                            <div class="item_4_4_2_line_box">
+                                <div class="item_4_4_2_line1"></div>
+                                <div class="item_4_4_2_line2"></div>
+                                <div class="item_4_4_2_line3"></div>
+                                <div class="item_4_4_2_line4"></div>
+                            </div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="step_notice_r">
+                아이폰
+            </div>
+        </div>
+        <div class="step_notice pc_notice_3line">
+        	휴대폰 기종마다 제공 화면이 상이할 수 있습니다.
+        </div>
+    </div>
+    
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no05"></div></div>
+			<div class="step_text">
+            	확인 버튼만 몇 번 선택하면  짜잔~ <br>
+                <span class="brown">블루투스 연결 완료!</span><br>
+                이제 <span class="brown">MEDIA 버튼</span>을 누르고<br>
+                블루투스 음악을 들어볼까요?
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask round">
+                        <div class="circle screen_4_5_1">
+                        	<div class="item_4_5_1_line_box">
+                                <div class="item_4_5_1_line1"></div>
+                                <div class="item_4_5_1_line2"></div>
+                                <div class="item_4_5_1_line3"></div>
+                                <div class="item_4_5_1_line4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+				<li>
+                	<div class="circle_mask">
+                        <div class="circle screen_4_5_2">
+                        	<div class="item_4_5_2_line_box"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+	
+	<div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no06"></div></div>
+			<div class="step_text">
+            	<span class="brown">MEDIA 버튼</span>을 길게 눌러<br>
+                <span class="brown">블루투스 오디오</span>를 선택하세요.
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask">
+                        <div class="circle screen_4_5_2">
+                        	<div class="item_4_5_2_line_box"></div>
+                        </div>
+                    </div>
+                </li>
+				<li>
+                	<div class="circle_mask">
+                        <div class="circle screen_4_6_2">
+                        	<div class="item_4_6_2_line_box">
+                                <div class="item_4_6_2_line1"></div>
+                                <div class="item_4_6_2_line2"></div>
+                                <div class="item_4_6_2_line3"></div>
+                                <div class="item_4_6_2_line4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+	
+	
+	<div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no07"></div></div>
+			<div class="step_text">
+            	그럼 <span class="brown">블루투스 오디오 연결까지 완료!</span><br>
+                이제 즐거운 음악을 감상할 수<br>
+                있습니다.
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask">
+                        <div class="circle screen_4_7_1"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="notice_bottom">※ 제공 이미지는 일부 상이할 수 있습니다.</div>
+        <div class="main_bottom" style="position:absolute;">
+            <button class="prev">목적지 설정</button>
+            <button class="next">사용자 프로필 설정 (1)</button>
+        </div>
+    </div>
+    
+    <div class="section footer">
+    	<div class="footer_logo"></div>
+        <div class="footer_text">
+        	<!-- js에서 설정 -->
+        </div>
+    </div>
+</div>
+
+<script src="quickguide/js/pageControl.js"></script>
+
+<!-- content end -->    
+
+	</div>
+</div>
+
+
+</body>
+</html>
+

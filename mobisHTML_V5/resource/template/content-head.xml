@@ -1,0 +1,43 @@
+<root>
+    <div type="0">
+        <head>
+            <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700" rel="stylesheet" />
+            <link rel="stylesheet" href="./styles/fonts/notoSansKr/stylesheet.css" />
+            <link rel="stylesheet" href="./styles/fonts/notoSans/stylesheet.css" />
+            <link rel="stylesheet" href="./styles/fonts/notoSansAr/stylesheet.css" />
+            <link rel="stylesheet" href="./styles/fonts/notoSansInd/stylesheet.css" />
+            <link rel="stylesheet" href="./styles/fonts/noto_med/stylesheet.css" />
+            <link rel="stylesheet" href="./styles/fonts/genesis/stylesheet.css" />
+            <link rel="stylesheet" href="./styles/fonts/NotoSansCJKjp/stylesheet.css" />
+            <link type="text/css" rel="stylesheet" href="./contents/styles/font_style.css" />
+            <link type="text/css" rel="stylesheet" href="./contents/styles/all_style.css" />
+            <link type="text/css" rel="stylesheet" href="contents/styles/quick_menu.css"/>
+            <script type="text/javascript" src="js/id_db.js">&#xFEFF;</script>
+            <script type="text/javascript" src="js/update_link.js">&#xFEFF;</script>
+            <script type="text/javascript" src="js/00_jquery-1.9.1.min.js">&#xFEFF;</script>
+            <script type="text/javascript" src="js/01_jquery.event.drag-1.5.min.js">&#xFEFF;</script>
+            <script type="text/javascript" src="js/02_ui_text.js">&#xFEFF;</script>
+            <script type="text/javascript" src="js/04_contents.js">&#xFEFF;</script>
+            <script type="text/javascript" src="js/00_start.js">&#xFEFF;</script>
+        </head>
+    </div>
+    <div type="1">
+        <head>
+            <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700" rel="stylesheet" />
+            <link rel="stylesheet" href="./styles/fonts/notoSansKr/stylesheet.css" />
+            <link rel="stylesheet" href="./styles/fonts/notoSans/stylesheet.css" />
+            <link rel="stylesheet" href="./styles/fonts/noto_med/stylesheet.css" />
+            <link type="text/css" rel="stylesheet" href="./contents/styles/font_style.css" />
+            <link type="text/css" rel="stylesheet" href="./contents/styles/all_style.css" />
+            <link type="text/css" rel="stylesheet" href="contents/styles/quick_menu.css"/>
+            <link rel="stylesheet" href="./styles/fonts/HyundaiSans/stylesheet.css" />
+            <script type="text/javascript" src="js/id_db.js">&#xFEFF;</script>
+            <script type="text/javascript" src="js/update_link.js">&#xFEFF;</script>
+            <script type="text/javascript" src="js/00_jquery-1.9.1.min.js">&#xFEFF;</script>
+            <script type="text/javascript" src="js/01_jquery.event.drag-1.5.min.js">&#xFEFF;</script>
+            <script type="text/javascript" src="js/02_ui_text.js">&#xFEFF;</script>
+            <script type="text/javascript" src="js/04_contents.js">&#xFEFF;</script>
+            <script type="text/javascript" src="js/00_start.js">&#xFEFF;</script>
+        </head>
+    </div>
+</root>

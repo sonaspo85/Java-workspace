@@ -1,0 +1,49 @@
+<project>
+    <target name="dita2maHTML5" depends="maHTML5.init, dita2html5">
+    	<basename property="basename" file="${args.input}" suffix=".dita"/>
+		<copy todir="${output.dir}">
+	      <fileset dir="${dita.plugin.com.ast.protean.ma.um2020html.dir}${file.separator}cfg${file.separator}xsl" includes="*.css"/>
+	    </copy>
+		<!--<move file="${output.dir}\out\${basename}.html" todir="${output.dir}" overwrite="yes" />-->
+		<delete dir="${output.dir}\out"/>
+    </target>
+    
+    <target name="maHTML5.init">
+		<property name="args.xsl" value="${dita.plugin.com.ast.protean.ma.um2020html.dir}${file.separator}cfg${file.separator}xsl${file.separator}custom.xsl"/>
+    </target>
+    
+    <!-- <target name="ExistForder">
+        <property name="htmlforder" value="value" />
+        <condition property="exist1">
+            <equals arg1="${htmlforder}" arg2="${htmlforder}"/>
+        </condition>
+    </target>
+
+    <target name="ForderDelCrte" if="exist1">
+        <delete>
+            <fileset dir="${output.dir}\${htmlforder}">
+                <include name="**/*.*" />
+                <exclude name="contents/images/*.*" />
+            </fileset>
+
+            <dirset dir="${output.dir}\${htmlforder}">
+                <patternset>
+                    <include name="**" />
+                    <exclude name="contents/images" />
+                </patternset>
+            </dirset>
+        </delete>
+    </target>
+
+    <target name="CopytoDir">
+        <copy todir="${output.dir}\${htmlforder}">
+            <fileset dir="${output.dir}\..\resources">
+              <include name="**/*.*" />
+              <exclude name="contents/images/*.*" />
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="ForderControls" depends="ExistForder, ForderDelCrte, CopytoDir">
+    </target> -->
+</project>

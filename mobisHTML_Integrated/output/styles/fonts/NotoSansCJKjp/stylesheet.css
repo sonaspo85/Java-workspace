@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'NotoSansCJKjp';
+    src: url('NotoSansCJKjp-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSansCJKjp-Medium';
+    src: url('NotoSansCJKjp-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSansCJKjp-Bold';
+    src: url('NotoSansCJKjp-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

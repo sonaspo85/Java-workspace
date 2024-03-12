@@ -1,0 +1,121 @@
+<root>
+    <div class="5th">
+        <div class="htmlTemplate">
+            <!-- *** 현대 *** -->
+            <var lang="English" company="Hyun" region="internal" inch="10inch" carType="EU" srcDir="/templates/V5/html_template/Hyun/internal/EU/10/English(EU)" />
+            <var lang="Korean" company="Hyun" region="internal" inch="10inch" carType="EU" srcDir="/templates/V5/html_template/Hyun/internal/EU/10/Korean(EU)" />
+            <var lang="English" company="Hyun" region="internal-8inch" inch="8inch" carType="EU" srcDir="/templates/V5/html_template/Hyun/internal/EU/8/English(EU)" />
+            <var lang="Korean" company="Hyun" region="internal-8inch" inch="8inch" carType="EU" srcDir="/templates/V5/html_template/Hyun/internal/EU/8/Korean(EU)" />
+            <var lang="English" company="Hyun" region="Common" inch="8inch,10inch" srcDir="/templates/V5/html_template/Hyun/English" />
+            <var lang="Arabic" company="Hyun" region="Common" inch="8inch,10inch" srcDir="/templates/V5/html_template/Hyun/Arabic" />
+            <var lang="English" company="Hyun" region="internal" inch="10inch" srcDir="/templates/V5/html_template/Hyun/internal/10/English" />
+            <var lang="Korean" company="Hyun" region="internal" inch="10inch" srcDir="/templates/V5/html_template/Hyun/internal/10/Korean" />
+            <var lang="English" company="Hyun" region="internal-8inch" inch="8inch" srcDir="/templates/V5/html_template/Hyun/internal/8/English" />
+            <var lang="Korean" company="Hyun" region="internal-8inch" inch="8inch" srcDir="/templates/V5/html_template/Hyun/internal/8/Korean" />
+            <!-- <var lang="Japanese" company="Hyun" region="Common" inch="8inch,10inch" srcDir="/templates/V5/html_template/Hyun/Japanese" /> -->
+            <var lang="Korean" company="Hyun" region="Common" inch="8inch,10inch" srcDir="/templates/V5/html_template/Hyun/Korean" />
+            <var lang="English" company="Hyun" region="IND" inch="10inch" srcDir="/templates/V5/html_template/Hyun/IND/10/English" />
+            <!-- *** 기아 *** -->
+            <var lang="English" company="Kia" region="internal" inch="10inch" carType="GZ" srcDir="/templates/V5/html_template/Kia/internal/GZ/10/English(GZ)" />
+            <var lang="Korean" company="Kia" region="internal" inch="10inch" carType="GZ" srcDir="/templates/V5/html_template/Kia/internal/GZ/10/Korean(GZ)" />
+            <var lang="English" company="Kia" region="internal-8inch" inch="8inch" carType="GZ" srcDir="/templates/V5/html_template/Kia/internal/GZ/8/English(GZ)" />
+            <var lang="Korean" company="Kia" region="internal-8inch" inch="8inch" carType="GZ" srcDir="/templates/V5/html_template/Kia/internal/GZ/8/Korean(GZ)" />
+            <var lang="English" company="Kia" region="Common" inch="8inch,10inch" srcDir="/templates/V5/html_template/Kia/English" />
+            <var lang="Arabic" company="Kia" region="Common" inch="8inch,10inch" srcDir="/templates/V5/html_template/Kia/Arabic" />
+            <var lang="English" company="Kia" region="internal" inch="10inch" srcDir="/templates/V5/html_template/Kia/internal/10/English" />
+            <var lang="Korean" company="Kia" region="internal" inch="10inch" srcDir="/templates/V5/html_template/Kia/internal/10/Korean" />
+            <var lang="English" company="Kia" region="internal-8inch" inch="8inch" srcDir="/templates/V5/html_template/Kia/internal/8/English" />
+            <var lang="Korean" company="Kia" region="internal-8inch" inch="8inch" srcDir="/templates/V5/html_template/Kia/internal/8/Korean" />
+            <!-- <var lang="Japanese" company="Kia" region="Common" inch="8inch,10inch" srcDir="/templates/V5/html_template/Kia/Japanese" /> -->
+            <var lang="Korean" company="Kia" region="Common" inch="8inch,10inch" srcDir="/templates/V5/html_template/Kia/Korean" />
+            <var lang="English" company="Kia" region="IND" inch="10inch" srcDir="/templates/V5/html_template/Kia/IND/10/English" />
+            <!-- *** 제네시스 *** -->
+            <var lang="Arabic" company="Genesis" region="Common" inch="8inch,10inch" srcDir="/templates/V5/html_template/Genesis/Arabic" />
+            <var lang="English" company="Genesis" region="Common" inch="8inch,10inch" srcDir="/templates/V5/html_template/Genesis/English" />
+            <var lang="English" company="Genesis" region="internal" inch="10inch" srcDir="/templates/V5/html_template/Genesis/internal/10/English" />
+            <var lang="Korean" company="Genesis" region="internal" inch="10inch" srcDir="/templates/V5/html_template/Genesis/internal/10/Korean" />
+            <var lang="Korean" company="Genesis" region="Common" inch="8inch,10inch" srcDir="/templates/V5/html_template/Genesis/Korean" />
+        </div>
+        <div class="cssUpdate">
+            <var company="Common" srcDir="/templates/V5/css_js_update/Common" />
+            <var company="Genesis" srcDir="/templates/V5/css_js_update/Genesis" />
+            <var company="Hyun" srcDir="/templates/V5/css_js_update/Hyun" />
+            <var company="Kia" srcDir="/templates/V5/css_js_update/Kia" />
+            <var except="Arabic" company="Common" srcDir="/templates/V5/css_js_update/Arabic/Common" />
+            <var except="Arabic" company="Genesis" srcDir="/templates/V5/css_js_update/Arabic/Genesis" />
+            <var except="Arabic" company="Hyun" srcDir="/templates/V5/css_js_update/Arabic/Hyun" />
+            <var except="Arabic" company="Kia" srcDir="/templates/V5/css_js_update/Arabic/Kia" />
+            <var except="Korean" company="Common" srcDir="/templates/V5/css_js_update/Korean/Common" />
+            <var carType="GZ,EU">
+                <var company="Common" srcDir="/templates/V5/css_js_update/CarType/Common" />
+                <var company="Hyun" srcDir="/templates/V5/css_js_update/CarType/EU/Hyun" />
+                <var company="Kia" srcDir="/templates/V5/css_js_update/CarType/GZ/Kia" />
+            </var>
+        </div>
+    </div>
+    <div class="6th">
+        <div class="htmlTemplate">
+            <!-- *** 현대 *** -->
+            <var lang="English" company="Hyun" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Hyun/English" />
+            <var lang="Chinese" company="Hyun" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Hyun/Chinese" />
+            <var lang="Arabic" company="Hyun" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Hyun/Arabic" />
+            <var lang="Hebrew" company="Hyun" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Hyun/Arabic" />
+            <var lang="English" company="Hyun" region="internal" inch="10inch" srcDir="/templates/V6/html_template/Hyun/internal/10/English" />
+            <var lang="Korean" company="Hyun" region="internal" inch="10inch" srcDir="/templates/V6/html_template/Hyun/internal/10/Korean" />
+            <var lang="English" company="Hyun" region="internal" inch="8inch" srcDir="/templates/V6/html_template/Hyun/internal/8/English" />
+            <var lang="Korean" company="Hyun" region="internal" inch="8inch" srcDir="/templates/V6/html_template/Hyun/internal/8/Korean" />
+            <!-- <var lang="Japanese" company="Hyun" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Hyun/Japanese" /> -->
+            <var lang="Korean" company="Hyun" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Hyun/Korean" />
+            <var lang="English" company="Hyun" region="IND" inch="10inch" srcDir="/templates/V6/html_template/Hyun/IND/10/English" />
+            <!-- *** 기아 *** -->
+            <var lang="Arabic" company="Kia" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Kia/Arabic" />
+            <var lang="English" company="Kia" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Kia/English" />
+            <var lang="Chinese" company="Kia" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Kia/Chinese" />
+            <var lang="English" company="Kia" region="internal" inch="10inch" srcDir="/templates/V6/html_template/Kia/internal/10/English" />
+            <var lang="Korean" company="Kia" region="internal" inch="10inch" srcDir="/templates/V6/html_template/Kia/internal/10/Korean" />
+            <var lang="English" company="Kia" region="internal" inch="8inch" srcDir="/templates/V6/html_template/Kia/internal/8/English" />
+            <var lang="Korean" company="Kia" region="internal" inch="8inch" srcDir="/templates/V6/html_template/Kia/internal/8/Korean" />
+            <var lang="English" company="Kia" region="IND" inch="10inch" srcDir="/templates/V6/html_template/Kia/IND/10/English" />
+            <var lang="Korean" company="Kia" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Kia/Korean" />
+            <!-- <var lang="English" company="Kia" region="internal" inch="10inch" carType="GZ" srcDir="/templates/V6/html_template/Kia/internal/CV/10/English(CV)" />
+            <var lang="Korean" company="Kia" region="internal" inch="10inch" carType="GZ" srcDir="/templates/V6/html_template/Kia/internal/CV/10/Korean(CV)" />
+            <var lang="English" company="Kia" region="internal-8inch" inch="8inch" carType="GZ" srcDir="/templates/V6/html_template/Kia/internal/CV/8/English(CV)" />
+            <var lang="Korean" company="Kia" region="internal-8inch" inch="8inch" carType="GZ" srcDir="/templates/V6/html_template/Kia/internal/CV/8/Korean(CV)" /> -->
+            <!-- *** 제네시스 *** -->
+            <var lang="Arabic" company="Genesis" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Genesis/Arabic" />
+            <var lang="English" company="Genesis" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Genesis/English" />
+            <var lang="Chinese" company="Genesis" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Genesis/Chinese" />
+            <var lang="English" company="Genesis" region="internal" inch="10inch" srcDir="/templates/V6/html_template/Genesis/internal/10/English" />
+            <var lang="Korean" company="Genesis" region="internal" inch="10inch" srcDir="/templates/V6/html_template/Genesis/internal/10/Korean" />
+            <var lang="Korean" company="Genesis" region="Common" inch="8inch,10inch" srcDir="/templates/V6/html_template/Genesis/Korean" />
+        </div>
+        <div class="cssUpdate">
+            <var company="Common" srcDir="/templates/V6/css_js_update/Common" />
+            <var company="Genesis" srcDir="/templates/V6/css_js_update/Genesis" />
+            <var company="Hyun" srcDir="/templates/V6/css_js_update/Hyun" />
+            <var company="Kia" srcDir="/templates/V6/css_js_update/Kia" />
+            <var except="Arabic" company="Common" srcDir="/templates/V6/css_js_update/Arabic/Common" />
+            <var except="Arabic" company="Genesis" srcDir="/templates/V6/css_js_update/Arabic/Genesis" />
+            <var except="Arabic" company="Hyun" srcDir="/templates/V6/css_js_update/Arabic/Hyun" />
+            <var except="Arabic" company="Kia" srcDir="/templates/V6/css_js_update/Arabic/Kia" />
+            <var except="Korean" company="Common" srcDir="/templates/V6/css_js_update/Korean/Common" />
+            <var except="Chinese" company="Common" srcDir="/templates/V6/css_js_update/Chinese/Common" />
+
+            <var except="Hebrew" company="Common" srcDir="/templates/V6/css_js_update/Arabic/Common" />
+            <var except="Hebrew" company="Genesis" srcDir="/templates/V6/css_js_update/Arabic/Genesis" />
+            <var except="Hebrew" company="Hyun" srcDir="/templates/V6/css_js_update/Arabic/Hyun" />
+            <var except="Hebrew" company="Kia" srcDir="/templates/V6/css_js_update/Arabic/Kia" />
+
+            <!-- <var except="Chinese" company="Common" srcDir="/templates/V6/css_js_update/Chinese/Common" />
+            <var except="Chinese" company="Genesis" srcDir="/templates/V6/css_js_update/Chinese/Genesis" />
+            <var except="Chinese" company="Hyun" srcDir="/templates/V6/css_js_update/Chinese/Hyun" />
+            <var except="Chinese" company="Kia" srcDir="/templates/V6/css_js_update/Chinese/Kia" /> -->
+
+            <var carType="GZ,EU">
+                <var company="Common" srcDir="/templates/V6/css_js_update/CarType/Common" />
+                <var company="Hyun" srcDir="/templates/V6/css_js_update/CarType/EU/Hyun" />
+                <var company="Kia" srcDir="/templates/V6/css_js_update/CarType/GZ/Kia" />
+            </var>
+        </div>
+    </div>
+</root>

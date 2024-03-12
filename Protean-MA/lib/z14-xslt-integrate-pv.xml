@@ -1,0 +1,21 @@
+<root>
+    <path
+        in="dummy.xml"
+        out="interateTemp\dummy.xml"
+        xslt="pvMerged\01-mergedFiles.xsl"/>
+
+    <path
+        in="interateTemp\01-mergedFiles.xml"
+        out="interateTemp\02-collectionsItems.xml"
+        xslt="pvMerged\02-collectionsItems.xsl"/>
+
+    <path
+        in="interateTemp\02-collectionsItems.xml"
+        out="interateTemp\03-groupingEng.xml"
+        xslt="pvMerged\03-groupingEng.xsl"/>
+
+    <path
+        in="interateTemp\03-groupingEng.xml"
+        out="newPvPath"
+        xslt="pvMerged\04-indent.xsl"/>
+</root>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <div class="headerWrap">
+        <div id="top">
+            <div class="top_wrap">
+                <a class="logo" href="../index.html">&#xFEFF;</a>
+                <div class="head_tit">&#xFEFF;</div>
+                <div id="toolbar">
+                    <span class="line1">&#xFEFF;</span>
+                    <span class="line2">&#xFEFF;</span>
+                    <span class="line3">&#xFEFF;</span>
+                </div>
+            </div>
+        </div>
+        <div id="scroll_nav">
+            <div class="sNav_div">&#xFEFF;</div>
+            <div id="scrollmask">
+                <div id="home_area">
+                    <a class="home2" href="javascript:history.back(-1);">&#xFEFF;</a>
+                </div>
+                <span id="chapter">&#xFEFF;</span>
+            </div>
+        </div>
+    </div>
+    <div id="search_wrap">
+        <div id="search_top">
+            <span id="chapter_text">&#xFEFF;</span>
+            <div id="id_searchwrap">
+                <input type="text" id="id_search" value="" placeholder="" autofocus="autofocus" autocomplete="off" />
+                <img src="../images/search_gray_bt.png" id="id_search_button" />
+            </div>
+        </div>
+    </div>
+    <div id="no_results">
+        <div>
+            <span class="no_results_en">NOT FOUND!</span>
+            <br />
+            <span class="no_results_text">&#xFEFF;</span>
+        </div>
+    </div>
+    <div id="id_results">&#xFEFF;</div>
+    <div id="id_results2">&#xFEFF;</div>
+</root>

@@ -1,0 +1,18 @@
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+	<variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/notice.svg</variable>
+	<variable id="warning Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+	<variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/caution.svg</variable>
+	<variable id="admonition note">Note</variable>
+	<variable id="admonition warning">Warning</variable>
+	<variable id="Unordered List bullet">•</variable>
+	<variable id="Unordered List bullet 1">•</variable>
+	<!-- <variable id="Unordered List bullet 2">&#x2013;</variable> en dash -->
+	<variable id="Unordered List bullet 2">&#x2013;</variable>
+	<variable id="On the page"></variable>
+	
+	<variable id="frontmatter-title">מדריך למשתמש</variable>
+	<variable id="frontmatter-language">Hebrew</variable>
+	<variable id="frontmatter-toc-contents">תוכן העניינים</variable>
+
+	<!-- frontmatter variables -->
+</vars>

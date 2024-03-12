@@ -1,0 +1,12 @@
+<root>
+    <path
+        in="dummy.xml"
+        out="5_MMI\temp\01-only-mmiSeg.xml"
+        xslt="MMIupdate\01-only-mmiSeg.xsl"/>
+
+    <path
+        in="5_MMI\temp\01-only-mmiSeg.xml"
+        out="dummy.xml"
+        xslt="MMIupdate\02-unique-only-mmiSeg.xsl"/>
+
+</root>

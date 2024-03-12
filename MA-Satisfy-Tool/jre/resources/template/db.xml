@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <competitive_price id="tv1" class="견적금액">
+        <items>
+            <item id="0" t1cell1="" t1cell2="100%"  t1cell3="" t1cell4="" />
+        </items>
+    </competitive_price>
+    <automation id="tv2" class="자동화">
+        <items>
+            <item id="0" t2cell1="" t2cell2="40%" t2cell3="" t2cell4="" t2cell5="" />
+            <item id="1" t2cell1="" t2cell2="60%" t2cell3="" t2cell4="" t2cell5="" />
+        </items>
+    </automation>
+    <safety id="tv3" class="보안">
+        <items>
+            <item id="0" t3cell1="" t3cell2="" t3cell3="40%" t3cell4="" />
+            <item id="1" t3cell1="" t3cell2="" t3cell3="40%" t3cell4="" />
+            <item id="2" t3cell1="" t3cell2="" t3cell3="40%" t3cell4="" />
+            <item id="3" t3cell1="" t3cell2="" t3cell3="40%" t3cell4="" />
+            <item id="4" t3cell1="" t3cell2="" t3cell3="40%" t3cell4="" />
+            <item id="5" t3cell1="" t3cell2="" t3cell3="40%" t3cell4="" />
+            <item id="6" t3cell1="" t3cell2="" t3cell3="60%" t3cell4="" />
+            <item id="7" t3cell1="" t3cell2="" t3cell3="60%" t3cell4="" />
+            <item id="8" t3cell1="" t3cell2="" t3cell3="60%" t3cell4="" />
+        </items>
+    </safety>
+    <quality id="tv4" class="결과물 품질">
+        <items>
+            <item id="0" t4cell1="직전과제 오류건 / 연간 진행 종수" t4cell2="50%" t4cell3="" t4cell4="" t4cell5="" />
+            <item id="1" t4cell1="S급 오류 개수" t4cell2="10%" t4cell3="" t4cell4="" t4cell5="" />
+        </items>
+    </quality>
+    <delivery_compliance id="tv5" class="납기 준수율">
+        <items>
+            <item id="0" t5cell1="직전과제 납기 지연건 / 연간 진행 종수" t5cell2="20%" t5cell3="" t5cell4="" t5cell5="" />
+        </items>
+    </delivery_compliance>
+    <!-- <satisfy id="tv6" class="만족도" percentage="20%">
+        <items>
+            <item id="0" t6cell1="일정 관리가 잘 되었는가?" t6cell2="" t6cell3="" t6cell4="" t6cell5="" t6cell6=""/>
+            <item id="1" t6cell1="모델 진행상황이 잘 공유되었는가?" t6cell2="" t6cell3="" t6cell4="" t6cell5="" t6cell6=""/>
+            <item id="2" t6cell1="기능에 대해 정확히 이해하고 문장을 작성하려고 하였는가?" t6cell2="" t6cell3="" t6cell4="" t6cell5="" t6cell6=""/>
+            <item id="3" t6cell1="결과물이 만족스러웠는가?" t6cell2="" t6cell3="" t6cell4="" t6cell5="" t6cell6=""/>
+            <item id="4" t6cell1="모델 관련 이력 관리를 잘 하였는가?" t6cell2="" t6cell3="" t6cell4="" t6cell5="" t6cell6=""/>
+            <item id="5" t6cell1="삼성에서 요청한 사항에서 발생할 수 있는 문제 등에 대한 의견이나 제안등을 잘 하였는가?" t6cell2="" t6cell3="" t6cell4="" t6cell5="" t6cell6=""/>
+            <item id="6" t6cell1="직원들의 마인드와 태도가 만족스러웠는가?" t6cell2="" t6cell3="" t6cell4="" t6cell5="" t6cell6=""/>
+            <item id="7" t6cell1="시료 파손, 분실 없이 잘 관리하였는가?" t6cell2="" t6cell3="" t6cell4="" t6cell5="" t6cell6=""/>
+            <item id="8" t6cell1="오류 발생 시 문제해결과 재발방지를 위해 적극적으로 대응하였는가?" t6cell2="" t6cell3="" t6cell4="" t6cell5="" t6cell6=""/>
+            <item id="9" t6cell1="업무 효율을 높이기 위한 새로운 시도나 개선사항을 적극적으로 제안하였는가?" t6cell2="" t6cell3="" t6cell4="" t6cell5="" t6cell6=""/>
+        </items>
+    </satisfy> -->
+
+</root>

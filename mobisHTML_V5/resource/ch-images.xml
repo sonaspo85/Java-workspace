@@ -1,0 +1,17 @@
+<images>
+	<image idx="015" src="images/E-chcover_movie.png"/>
+	<image idx="001" src="images/E-chcover_basic.png"/>
+	<image idx="002" src="images/E-chcover_features.png"/>
+	<image idx="003" src="images/E-chcover_radio.png"/>
+	<image idx="004" src="images/E-chcover_dmb.png"/>
+	<image idx="005" src="images/E-chcover_media.png"/>
+	<image idx="006" src="images/E-chcover_navi.png"/>
+	<image idx="007" src="images/E-chcover_bt.png"/>
+	<image idx="008" src="images/E-chcover_vr.png"/>
+	<image idx="009" src="images/E-chcover_genesis.png"/>
+	<image idx="013" src="images/E-chcover_genesiscarpay.png"/>
+	<image idx="010" src="images/E-chcover_setting.png"/>
+	<image idx="014" src="images/E-chcover_update.png"/>
+	<image idx="011" src="images/E-chcover_assistance.png"/>
+	<image idx="012" src="images/E-chcover_appendix.png"/>
+</images>

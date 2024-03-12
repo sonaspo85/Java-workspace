@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" >
+<title>지도뷰 설정</title>
+<link rel="stylesheet" href="quickguide/css/style.css">
+<script>
+// 모바일 PC일 경우 style_pc 로드
+var filter = "win16|win32|win64|mac|macintel"; 
+if ( navigator.platform ) { 
+	if ( filter.indexOf( navigator.platform.toLowerCase() ) > 0 ) { 
+		//pc 
+		var head  = document.getElementsByTagName('head')[0];
+		var objLink = document.createElement("link");
+		objLink.rel = "stylesheet";
+		objLink.type = "text/css";
+		objLink.href = "quickguide/css/style_pc.css";
+		head.appendChild( objLink );
+	} 
+}
+</script>
+<script type="text/JavaScript" src="quickguide/js/jquery-3.4.1.min.js"></script>
+<script type="text/JavaScript" src="quickguide/js/jquery-ui.js"></script>
+<script type="text/JavaScript" src="quickguide/js/touchSlider.js"></script>
+<script type="text/JavaScript" src="quickguide/js/jquery.scrollify.js"></script>
+<script type="text/JavaScript" src="quickguide/js/common.js"></script>
+
+<link rel="stylesheet" href="quickguide/css/menu07.css">
+
+</head>
+
+<body>
+<div class="body_wrap">
+
+    <!-- MENU -->
+    <div class="shadow"></div>
+    <div class="menu_page"></div>
+    
+    
+    <!-- TOP BAR -->
+    <div class="top_bar">
+    	<div class="top_ind">
+        </div>
+        <div class="main_top">
+            <div class="back_btn" onClick="location.href='quickguide001.html'"></div>
+            <div class="page_title"></div>
+            
+            <div class="menu_open_btn">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+            </div>
+            <div class="menu_close_btn">
+                <div id="linex1"></div>
+                <div id="linex2"></div>
+                <div id="linex3"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="content">
+    
+<!-- content -->    
+
+<pageId>8</pageId>
+<div class="list">
+	<div class="section on once">
+    	<div class="greeting">
+            <div class="title">지도뷰 설정</div>
+            <div class="subtitle">
+				<div class="dash_top"></div>
+				지도 화면의 다양한 기능을 알려드릴게요.
+				<div class="dash_bottom"></div>
+			</div>
+        </div>
+
+        <div class="step">
+            <div class="step_no"><div class="no01"></div></div>
+			<div class="step_text">
+				<span class="brown">지도 화면을 터치</span>해보세요.<br>
+				지도 화면의 버튼들이 보입니다.
+			</div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask round">
+                        <div class="circle screen_7_1_1"></div>
+                        <div class="circle screen_7_1_1a"></div>
+                        <div class="screen_7_1_1_cursor"></div>
+                        <div class="item_7_1_1_line_box">
+                            <div class="item_7_1_1_line1"></div>
+                            <div class="item_7_1_1_line2"></div>
+                            <div class="item_7_1_1_line3"></div>
+                            <div class="item_7_1_1_line4"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no02"></div></div>
+            <div class="step_text">
+            	지도 화면에서 <span class="brown">지도뷰 버튼</span>을 선택하면!<br>
+                <span class="brown">2D</span> 지도뷰도,<br>
+                <span class="brown">3D</span> 지도뷰로도 볼 수 있어요.
+			</div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask round">
+                    	<div class="screen_7_2_1_cursor"></div>	
+                        <div class="item_7_2_1_line_box2">
+                            <div class="item_7_2_1_line21"></div>
+                            <div class="item_7_2_1_line22"></div>
+                            <div class="item_7_2_1_line23"></div>
+                            <div class="item_7_2_1_line24"></div>
+                        </div>
+                        <div class="circle screen_7_2_1"></div>
+                        <div class="circle screen_7_2_1a"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section">
+    	<div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no03"></div></div>
+			<div class="step_text">
+            	내비게이션의 <span class="brown">안내 음성</span>과<br>
+				<span class="brown">안내 효과음</span>을<span class="brown"> 조절</span>할 수 있어요!
+			</div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask" style="border-radius: 138px; height:276px;">
+                    	<div class="screen_7_3_1_cursor"></div>	
+                    	<div class="item_7_3_1_line_box">
+                            <div class="item_7_3_1_line1"></div>
+                            <div class="item_7_3_1_line2"></div>
+                            <div class="item_7_3_1_line3"></div>
+                            <div class="item_7_3_1_line4"></div>
+                        </div>
+                        <div class="item_7_3_1_line_box2">
+                            <div class="item_7_3_1_line21"></div>
+                            <div class="item_7_3_1_line22"></div>
+                            <div class="item_7_3_1_line23"></div>
+                            <div class="item_7_3_1_line24"></div>
+                        </div>
+                        <div class="circle screen_7_3_1"></div>
+                        <div class="circle screen_7_3_1a"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no04"></div></div>
+			<div class="step_text">
+				<span class="brown">낮과 밤, 주변 밝기</span>에 따라<br>
+				자동으로 <span class="brown">지도 색상</span>이 달라집니다!
+			</div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask round">
+                        <div class="circle screen_7_4_1"></div>
+                        <div class="circle screen_7_4_1a"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="notice_bottom">※ 제공 이미지는 일부 상이할 수 있습니다.</div>
+        <div class="main_bottom" style="position:absolute;">
+            <button class="prev">사용자 프로필 설정 (2)</button>
+            <button class="next">회원가입 (개인)</button>
+        </div>
+    </div>
+    
+    
+    <div class="section footer">
+    	<div class="footer_logo"></div>
+        <div class="footer_text">
+        	<!-- js에서 설정 -->
+        </div>
+    </div>
+</div>
+
+<script src="quickguide/js/pageControl.js"></script>
+
+<!-- content end -->    
+
+	</div>
+</div>
+
+</body>
+</html>
+
+

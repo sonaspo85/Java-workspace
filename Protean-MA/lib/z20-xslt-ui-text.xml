@@ -1,0 +1,18 @@
+<root>
+    <path
+        in="Message.xml"
+        out="tagsXml\08-messageF-escape.xml"
+        xslt="tagsXml\08-messageF-escape.xsl"/>
+
+    <path
+        in="tagsXml\08-messageF-escape.xml"
+        out="tagsXml\09-lgsGrouping.xml"
+        xslt="tagsXml\09-lgsGrouping.xsl"/>
+
+    <path
+        in="tagsXml\09-lgsGrouping.xml"
+        out="tagsXml\dummy.xml"
+        xslt="tagsXml\10-createUiTxt.xsl"/>
+
+
+</root>

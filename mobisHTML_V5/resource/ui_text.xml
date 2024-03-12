@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root fileName="Genesis_ui_text(internal).xlsx">
+   <listitem>
+      <language>Korean(G-internal)</language>
+      <html_title>사용설명서</html_title>
+      <title>표준형 5W세대 내비게이션</title>
+      <model>model_all</model>
+      <search>Search</search>
+      <keyword>검색어 입력</keyword>
+      <result>검색 결과가 없습니다.</result>
+      <result_toc>목차 검색</result_toc>
+      <search_short>검색어가 너무 짧습니다.</search_short>
+      <search_more>더보기</search_more>
+      <search_less>숨기기</search_less>
+      <close>닫기</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>이 설명서에 포함된 기능 및 서비스는 실제 차량의 기능 및 서비스와 차이가 있을 수 있습니다.</caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1>시스템 소프트웨어가 업데이트되었습니다.</error_paragraph1>
+      <error_paragraph2>소프트웨어를 최신으로 업데이트하세요.</error_paragraph2>
+      <error_botton>업데이트 방법 보기</error_botton>
+   </listitem>
+   <listitem>
+      <language>English(G-internal)</language>
+      <html_title>User's Manual</html_title>
+      <title>Standard-class Gen5W Navigation</title>
+      <model>model_all</model>
+      <search>Search</search>
+      <keyword>Enter search keyword</keyword>
+      <result>No results found.</result>
+      <result_toc>Table of contents</result_toc>
+      <search_short>Keyword is too short.</search_short>
+      <search_more>More</search_more>
+      <search_less>Less</search_less>
+      <close>Close</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1>System software has been updated.</error_paragraph1>
+      <error_paragraph2>Update the software to the latest version.</error_paragraph2>
+      <error_botton>How to update</error_botton>
+   </listitem>
+   <listitem>
+      <language>Arabic(G-internal)</language>
+      <html_title>دليل المُستخدم</html_title>
+      <title>ملاحة BLUE LINK القياسية</title>
+      <model>model_all</model>
+      <search>بحث</search>
+      <keyword>إدخال كلمة أساسية للبحث</keyword>
+      <result>لم يتم العثور على نتائج.</result>
+      <result_toc>جدول المحتويات</result_toc>
+      <search_short>الكلمة الأساسية قصيرة للغاية.</search_short>
+      <search_more>المزيد</search_more>
+      <search_less>أقل</search_less>
+      <close>إغلاق</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>قد تختلف الوظائف والخدمات في هذا الدليل عن تلك التي في السيارة الفعلية.</caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Bulgarian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Търсене</search>
+      <keyword>Въведете ключова дума за търсене</keyword>
+      <result>Не са намерени резултати.</result>
+      <result_toc>Съдържание</result_toc>
+      <search_short>Ключовата дума е твърде къса.</search_short>
+      <search_more>Още</search_more>
+      <search_less>По-малко</search_less>
+      <close>Затваряне</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Croatian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Τraži</search>
+      <keyword>Unos ključne riječi za pretragu</keyword>
+      <result>Nema rezultata.</result>
+      <result_toc>Sadržaj</result_toc>
+      <search_short>Ključna riječ je prekratka.</search_short>
+      <search_more>Više</search_more>
+      <search_less>Manje</search_less>
+      <close>Zatvoriti</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Czech(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Hledat</search>
+      <keyword>Zadat klíčové slovo pro vyhledávání</keyword>
+      <result>Nenalezeny žádné výsledky.</result>
+      <result_toc>Obsah</result_toc>
+      <search_short>Klíčové slovo je příliš krátké.</search_short>
+      <search_more>Další</search_more>
+      <search_less>Méně</search_less>
+      <close>Zavřít</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Danish(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Søg</search>
+      <keyword>Indtast søgenøgleord</keyword>
+      <result>Ingen resultater blev fundet.</result>
+      <result_toc>Indholdsoversigt</result_toc>
+      <search_short>Nøgleord er for kort.</search_short>
+      <search_more>Mere</search_more>
+      <search_less>Mindre</search_less>
+      <close>Luk</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Dutch(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Zoeken</search>
+      <keyword>Zoekwoord ingeven</keyword>
+      <result>Geen resultaten gevonden.</result>
+      <result_toc>Inhoudsopgave</result_toc>
+      <search_short>Zoekwoord is te kort.</search_short>
+      <search_more>Meer</search_more>
+      <search_less>Minder</search_less>
+      <close>Sluiten</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Estonian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Otsi</search>
+      <keyword>Sisestage otsingusõna</keyword>
+      <result>Vasteid ei leitud.</result>
+      <result_toc>Sisukord</result_toc>
+      <search_short>Otsingusõna on liiga lühike.</search_short>
+      <search_more>Veel</search_more>
+      <search_less>Vähem</search_less>
+      <close>Sulgege</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Farsi(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>جستجو</search>
+      <keyword>کلیدواژه برای جستجو را وارد کنید</keyword>
+      <result>نتیجه ای یافت نشد.</result>
+      <result_toc>فهرست مطالب</result_toc>
+      <search_short>کلیدواژه بیش از اندازه کوتاه است.</search_short>
+      <search_more>بیشتر</search_more>
+      <search_less>کمتر</search_less>
+      <close>بستن</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Finnish(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Etsi</search>
+      <keyword>Anna hakusana</keyword>
+      <result>Tuloksia ei löytynyt.</result>
+      <result_toc>Sisällysluettelo</result_toc>
+      <search_short>Hakusana on liian lyhyt.</search_short>
+      <search_more>Lisää</search_more>
+      <search_less>Vähemmän</search_less>
+      <close>Sulje</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>CAN_French(G-internal)</language>
+      <html_title>Mode d'emploi</html_title>
+      <title>NAVIGATION BLUE LINK STANDARD</title>
+      <model>model_all</model>
+      <search>Rechercher</search>
+      <keyword>Entrer un mot-clé de recherche</keyword>
+      <result>Aucun résultat trouvé.</result>
+      <result_toc>Table des matières</result_toc>
+      <search_short>Le mot-clé est trop court.</search_short>
+      <search_more>Plus</search_more>
+      <search_less>Moins</search_less>
+      <close>Fermer</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Les fonctions et services décrits dans ce mode d'emploi peuvent différer de ceux du véhicule réel.</caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>French(G-internal)</language>
+      <html_title>Manuel de l'utilisateur</html_title>
+      <title>NAVIGATION BLUE LINK STANDARD</title>
+      <model>model_all</model>
+      <search>Rech.</search>
+      <keyword>Saisir le mot clé de recherche</keyword>
+      <result>Aucun résultat trouvé.</result>
+      <result_toc>Table des matières</result_toc>
+      <search_short>Le mot clé est trop court.</search_short>
+      <search_more>Plus</search_more>
+      <search_less>Moins</search_less>
+      <close>Fermer</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Les fonctions et les services de ce manuel peuvent différer de ceux du véhicule réel.</caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>German(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Suche</search>
+      <keyword>Suchbegriff eingeben</keyword>
+      <result>Keine Ergebnisse.</result>
+      <result_toc>Inhaltsverzeichnis</result_toc>
+      <search_short>Der Suchbegriff ist zu kurz.</search_short>
+      <search_more>Optionen</search_more>
+      <search_less>Weniger</search_less>
+      <close>Schließen</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Greek(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Αναζήτ.</search>
+      <keyword>Εισαγωγή λέξης αναζήτησης</keyword>
+      <result>Δεν βρέθηκαν αποτελέσματα.</result>
+      <result_toc>Πίνακας περιεχομένων</result_toc>
+      <search_short>Η λέξη κλειδί είναι πολύ μικρή.</search_short>
+      <search_more>Περισσότ.</search_more>
+      <search_less>Λιγότερα</search_less>
+      <close>Κλείσιμο</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>HongKong(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>搜尋</search>
+      <keyword>輸入搜尋關鍵字</keyword>
+      <result>找不到結果。</result>
+      <result_toc>目錄</result_toc>
+      <search_short>關鍵字太短。</search_short>
+      <search_more>更多</search_more>
+      <search_less>更少</search_less>
+      <close>關閉</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Hungarian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Keres</search>
+      <keyword>Írjon be keresési kulcsszót</keyword>
+      <result>Nincs találat.</result>
+      <result_toc>Tartalomjegyzék</result_toc>
+      <search_short>A kulcsszó túl rövid.</search_short>
+      <search_more>Egyebek</search_more>
+      <search_less>Egyebek nélkül</search_less>
+      <close>Bezárás</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Indonesian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Mencari</search>
+      <keyword>Masukkan kata kunci pencarian</keyword>
+      <result>Hasil tidak ditemukan.</result>
+      <result_toc>Daftar isi</result_toc>
+      <search_short>Kata kunci terlalu pendek.</search_short>
+      <search_more>Lainnya</search_more>
+      <search_less>Lebih sedikit</search_less>
+      <close>Tutup</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Italian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Cerca</search>
+      <keyword>Inserite la parola chiave da cercare</keyword>
+      <result>Nessun risultato trovato.</result>
+      <result_toc>Sommario</result_toc>
+      <search_short>La parola chiave è troppo breve.</search_short>
+      <search_more>Altro</search_more>
+      <search_less>Meno</search_less>
+      <close>Chiudi</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Kazakh(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Іздеу</search>
+      <keyword>Іздеу кілтсөзін енгізу</keyword>
+      <result>Нәтижелер табылмады.</result>
+      <result_toc>Мазмұны</result_toc>
+      <search_short>Кілтсөз тым қысқа.</search_short>
+      <search_more>Қосымша</search_more>
+      <search_less>Аз</search_less>
+      <close>Жабу</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Latvian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Meklēt</search>
+      <keyword>Ievadiet atslēgvārdu meklēšanai</keyword>
+      <result>Nekas netika atrasts.</result>
+      <result_toc>Saturs</result_toc>
+      <search_short>Atslēgvārds ir pārāk īss.</search_short>
+      <search_more>Citi</search_more>
+      <search_less>Mazāk</search_less>
+      <close>Aizvērt</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Lithuanian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Ieškoti</search>
+      <keyword>Įvesti paieškos raktažodį</keyword>
+      <result>Rezultatų nerasta.</result>
+      <result_toc>Turinys</result_toc>
+      <search_short>Raktažodis per trumpas.</search_short>
+      <search_more>Daugiau</search_more>
+      <search_less>Mažiau</search_less>
+      <close>Uždaryti</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Macedonian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Пребар.</search>
+      <keyword>Внесете клучен збор за пребарување</keyword>
+      <result>Нема резултати.</result>
+      <result_toc>Содржина</result_toc>
+      <search_short>Клучниот збор е премногу мал.</search_short>
+      <search_more>Повеќе</search_more>
+      <search_less>Помалку</search_less>
+      <close>Затвори</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Norwegian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Søk</search>
+      <keyword>Angi søkeord</keyword>
+      <result>Ingen resultater funnet.</result>
+      <result_toc>Innholdsfortegnelse</result_toc>
+      <search_short>Søkeordet er for kort.</search_short>
+      <search_more>Mer</search_more>
+      <search_less>Mindre</search_less>
+      <close>Lukk</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Polish(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Szukaj</search>
+      <keyword>Wprowadź słowo kluczowe wyszukiwania</keyword>
+      <result>Nie znaleziono wyników.</result>
+      <result_toc>Spis treści</result_toc>
+      <search_short>Słowo kluczowe jest zbyt krótkie.</search_short>
+      <search_more>Więcej</search_more>
+      <search_less>Mniej</search_less>
+      <close>Zamknij</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>BRA_Portuguese(G-internal)</language>
+      <html_title>Manual do usuário</html_title>
+      <title>NAVEGAÇÃO BLUE LINK PADRÃO</title>
+      <model>model_all</model>
+      <search></search>
+      <keyword></keyword>
+      <result></result>
+      <result_toc></result_toc>
+      <search_short></search_short>
+      <search_more></search_more>
+      <search_less></search_less>
+      <close></close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Portuguese(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Procurar</search>
+      <keyword>Insira palavra-chave a procurar</keyword>
+      <result>Sem resultados.</result>
+      <result_toc>Índice remissivo</result_toc>
+      <search_short>A palavra-chave é muito pequena.</search_short>
+      <search_more>Mais</search_more>
+      <search_less>Menos</search_less>
+      <close>Fechar</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>PRC Chinese(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>搜索</search>
+      <keyword>输入搜索关键字</keyword>
+      <result>未找到结果。</result>
+      <result_toc>目录</result_toc>
+      <search_short>关键字过短。</search_short>
+      <search_more>更多</search_more>
+      <search_less>更少</search_less>
+      <close>关闭</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Romanian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Căutare</search>
+      <keyword>Introduceţi cuvânt cheie de căutare</keyword>
+      <result>Niciun rezultat găsit.</result>
+      <result_toc>Cuprins</result_toc>
+      <search_short>Cuvântul cheie este prea scurt.</search_short>
+      <search_more>Mai multe</search_more>
+      <search_less>Mai puţine</search_less>
+      <close>Închidere</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Russian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Поиск</search>
+      <keyword>Введите ключевое слово для поиска</keyword>
+      <result>Результатов не найдено.</result>
+      <result_toc>Содержание</result_toc>
+      <search_short>Ключевое слово слишком короткое.</search_short>
+      <search_more>Опции</search_more>
+      <search_less>Меньше</search_less>
+      <close>Закрыть</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Serbian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Traži</search>
+      <keyword>Unesite ključnu reč pretrage</keyword>
+      <result>Nema pronađenih rezultata.</result>
+      <result_toc>Sadržaj</result_toc>
+      <search_short>Ključna reč je prekratka.</search_short>
+      <search_more>Još</search_more>
+      <search_less>Manje</search_less>
+      <close>Zatvori</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Singapore_Chinese(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>搜索</search>
+      <keyword>输入搜索关键字</keyword>
+      <result>未找到结果。</result>
+      <result_toc>目录</result_toc>
+      <search_short>关键字太短。</search_short>
+      <search_more>更多</search_more>
+      <search_less>更少</search_less>
+      <close>关闭</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Slovak(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Hľadať</search>
+      <keyword>Zadajte kľúčové slová na vyhľadanie</keyword>
+      <result>Neboli nájdené žiadne výsledky.</result>
+      <result_toc>Obsah</result_toc>
+      <search_short>Kľúčové slovo je príliš krátke.</search_short>
+      <search_more>Ďalšie</search_more>
+      <search_less>Menej</search_less>
+      <close>Zatvoriť</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Slovenian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Iskanje</search>
+      <keyword>Vnesite ključno besedo iskanja</keyword>
+      <result>Brez rezultatov.</result>
+      <result_toc>Kazalo</result_toc>
+      <search_short>Ključna beseda je prekratka.</search_short>
+      <search_more>Manj</search_more>
+      <search_less>Less</search_less>
+      <close>Zapri</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Spanish(G-internal)</language>
+      <html_title>Manual de usuario</html_title>
+      <title>NAVEGACIÓN ESTÁNDAR DE BLUE LINK</title>
+      <model>model_all</model>
+      <search>Buscar</search>
+      <keyword>Introducir palabra clave de búsqueda</keyword>
+      <result>No se encontraron resultados.</result>
+      <result_toc>Índice</result_toc>
+      <search_short>La palabra clave es demasiado corta.</search_short>
+      <search_more>Más</search_more>
+      <search_less>Menos</search_less>
+      <close>Cerrar</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Las funciones y los servicios que se incluyen en este manual pueden diferir de las funciones y los servicios del vehículo real.</caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>LTN_Spanish(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Buscar</search>
+      <keyword>Ingresar palabra clave de búsqueda</keyword>
+      <result>No se encontraron resultados.</result>
+      <result_toc>Índice</result_toc>
+      <search_short>La palabra clave es demasiado corta.</search_short>
+      <search_more>Más</search_more>
+      <search_less>Menos</search_less>
+      <close>Cerrar</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Swedish(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Sök</search>
+      <keyword>Ange sökord</keyword>
+      <result>Inga resultat hittades.</result>
+      <result_toc>Innehållsförteckning</result_toc>
+      <search_short>Sökordet är för kort.</search_short>
+      <search_more>Mer</search_more>
+      <search_less>Mindre</search_less>
+      <close>Stäng</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Taiwan(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>搜尋</search>
+      <keyword>輸入搜尋關鍵字</keyword>
+      <result>找不到結果。</result>
+      <result_toc>目錄</result_toc>
+      <search_short>關鍵字過短。</search_short>
+      <search_more>更多</search_more>
+      <search_less>較少</search_less>
+      <close>關閉</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Thai(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>ค้นหา</search>
+      <keyword>ป้อนคำสำคัญในการค้นหา</keyword>
+      <result>ไม่พบผลลัพธ์</result>
+      <result_toc>สารบัญ</result_toc>
+      <search_short>คำสำคัญสั้นเกินไป</search_short>
+      <search_more>เพิ่มเติม</search_more>
+      <search_less>น้อยลง</search_less>
+      <close>ปิด</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Turkish(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Ara</search>
+      <keyword>Aranacak anahtar kelimeyi girin</keyword>
+      <result>Sonuç bulunamadı.</result>
+      <result_toc>İçindekiler</result_toc>
+      <search_short>Anahtar kelime çok kısa.</search_short>
+      <search_more>Diğer</search_more>
+      <search_less>Daha az</search_less>
+      <close>Kapat</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Ukrainian(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Пошук</search>
+      <keyword>Введіть ключове слово пошуку</keyword>
+      <result>Жодного результату не знайдено.</result>
+      <result_toc>Зміст</result_toc>
+      <search_short>Ключове слово задовге.</search_short>
+      <search_more>Додатково</search_more>
+      <search_less>Менше</search_less>
+      <close>Закрити</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Urdu(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>سرچ</search>
+      <keyword>تلاش کا کلیدی لفظ درج کریں</keyword>
+      <result>کوئی نتائج نہیں ملے۔</result>
+      <result_toc>مشمولات کا جدول</result_toc>
+      <search_short>کلیدی لفظ بہت مختصر ہے۔</search_short>
+      <search_more>اور</search_more>
+      <search_less>کم</search_less>
+      <close>بند کریں</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Uzbek(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>Qidirish</search>
+      <keyword>Qidirish kalit so‘zini kiriting</keyword>
+      <result>Natijalar topilmadi.</result>
+      <result_toc>Mundarija</result_toc>
+      <search_short>Kalit so‘z juda qisqa.</search_short>
+      <search_more>Yana</search_more>
+      <search_less>Kamroq</search_less>
+      <close>Yopish</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Vietnamese(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>T.kiếm</search>
+      <keyword>Nhập từ khóa tìm kiếm</keyword>
+      <result>Không tìm thấy kết quả nào.</result>
+      <result_toc>Mục lục</result_toc>
+      <search_short>Từ khóa quá ngắn.</search_short>
+      <search_more>Nhiều hơn</search_more>
+      <search_less>Ít hơn</search_less>
+      <close>Đóng</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1></error_paragraph1>
+      <error_paragraph2></error_paragraph2>
+      <error_botton></error_botton>
+   </listitem>
+   <listitem>
+      <language>Hebrew(G-internal)</language>
+      <html_title></html_title>
+      <title></title>
+      <model>model_all</model>
+      <search>חיפוש</search>
+      <keyword>הקלד מילות חיפוש</keyword>
+      <result>לא נמצאו תוצאות.</result>
+      <result_toc>תוכן העניינים</result_toc>
+      <search_short>מילת חיפוש קצרה מדי.</search_short>
+      <search_more>עוד</search_more>
+      <search_less>פחות</search_less>
+      <close>סגור</close>
+      <footer_line1>COPYRIGHT © HYUNDAI MOTORS CORP.</footer_line1>
+      <footer_line2>ALL RIGHTS RESERVED.</footer_line2>
+      <caution_txt>Functions and services in this manual may differ from those in the actual vehicle. </caution_txt>
+      <language_header>LANGUAGE</language_header>
+      <error_paragraph1>LANGUAGE</error_paragraph1>
+      <error_paragraph2>LANGUAGE</error_paragraph2>
+      <error_botton>LANGUAGE</error_botton>
+   </listitem>
+</root>

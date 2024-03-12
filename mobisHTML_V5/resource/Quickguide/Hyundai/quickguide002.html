@@ -1,0 +1,504 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+<title>회원가입 (개인)</title>
+<link rel="stylesheet" href="quickguide/css/style.css">
+<script>
+// 모바일 PC일 경우 style_pc 로드
+var filter = "win16|win32|win64|mac|macintel"; 
+if ( navigator.platform ) { 
+	if ( filter.indexOf( navigator.platform.toLowerCase() ) > 0 ) { 
+		//pc 
+		var head  = document.getElementsByTagName('head')[0];
+		var objLink = document.createElement("link");
+		objLink.rel = "stylesheet";
+		objLink.type = "text/css";
+		objLink.href = "quickguide/css/style_pc.css";
+		head.appendChild( objLink );
+	} 
+}
+</script>
+<script type="text/JavaScript" src="quickguide/js/jquery-3.4.1.min.js"></script>
+<script type="text/JavaScript" src="quickguide/js/jquery-ui.js"></script>
+<script type="text/JavaScript" src="quickguide/js/touchSlider.js"></script>
+<script type="text/JavaScript" src="quickguide/js/jquery.scrollify.js"></script>
+<script type="text/JavaScript" src="quickguide/js/common.js"></script>
+
+<link rel="stylesheet" href="quickguide/css/menu01.css">
+
+</head>
+
+<body>
+<div class="body_wrap">
+
+    <!-- MENU -->
+    <div class="shadow"></div>
+    <div class="menu_page"></div>
+    
+    
+    <!-- TOP BAR -->
+    <div class="top_bar">
+    	<div class="top_ind">
+        </div>
+        <div class="main_top">
+            <div class="back_btn" onClick="location.href='quickguide001.html'"></div>
+            <div class="page_title"></div>
+            
+            <div class="menu_open_btn">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+            </div>
+            <div class="menu_close_btn">
+                <div id="linex1"></div>
+                <div id="linex2"></div>
+                <div id="linex3"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="content">
+    
+<!-- content -->    
+
+<pageId>2</pageId>
+<div class="list">
+	<div class="section on once active">
+    	<div class="greeting">
+            <div class="title">회원가입 <span class="sub">| 개인</span></div>
+            <div class="subtitle">
+				<div class="dash_top"></div>
+				실시간 교통 정보와 원격 제어를 위해<br>
+                반드시 필요한 블루링크!!<br>
+				손쉬운 가입 방법을 알려드려요!
+				<div class="dash_bottom"></div>
+			</div>
+        </div>
+
+        
+        <div class="step">
+            <div class="step_no"><div class="no01"></div></div>
+            <div class="step_text" style="padding-top:11px;">
+            	<span class="brown">'현대 블루링크' 앱</span>을 설치해 주세요.
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask">
+                        <div class="phone_screen screen_1_1_1"></div>
+                    	<div class="item_1_1_1_line_box">
+                            <div class="item_1_1_1_line1"></div>
+                            <div class="item_1_1_1_line2"></div>
+                            <div class="item_1_1_1_line3"></div>
+                            <div class="item_1_1_1_line4"></div>
+                        </div>
+                        
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <div class="section off">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no02"></div></div>
+            <div class="step_text">
+            	<span class="brown">'회원가입' 버튼을 선택</span> 후<br>
+				<span class="brown">휴대폰 본인 인증</span>을 진행해 주세요.
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="item_1_2_1_line_box">
+                        <div class="item_1_2_1_line1"></div>
+                        <div class="item_1_2_1_line2"></div>
+                        <div class="item_1_2_1_line3"></div>
+                        <div class="item_1_2_1_line4"></div>
+                    </div>
+                	<div class="circle_mask">
+                    	<div class="phone_screen screen_1_2_1"></div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_2_2"></div>
+                    	<div class="item_1_2_2_line_box">
+                            <div class="item_1_2_2_line1"></div>
+                            <div class="item_1_2_2_line2"></div>
+                            <div class="item_1_2_2_line3"></div>
+                            <div class="item_1_2_2_line4"></div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="notice_once">옆으로 넘겨보세요</div>
+        </div>
+		
+		<div class="step_notice pc_notice_2line">
+        	현대닷컴, 블루링크 (홈투카)에서<br>
+			사용하던 이메일/비밀번호 그대로 로그인하세요.
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no03"></div></div>
+            <div class="step_text">
+            	<span class="brown">약관 동의, 휴대폰 번호 입력</span> 후<br>
+				인증 번호를 입력해 주세요.
+            </div>
+        </div>
+        
+        
+        
+        <div class="slider">
+        	<ul>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_3_1"></div>
+                        <div class="item_1_3_1_line_box">
+                            <div class="item_1_3_1_line1"></div>
+                            <div class="item_1_3_1_line2"></div>
+                            <div class="item_1_3_1_line3"></div>
+                            <div class="item_1_3_1_line4"></div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_3_2"></div>
+                        <div class="item_1_3_2_line_box">
+                            <div class="item_1_3_2_line1"></div>
+                            <div class="item_1_3_2_line2"></div>
+                            <div class="item_1_3_2_line3"></div>
+                            <div class="item_1_3_2_line4"></div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_3_3"></div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+		
+    </div>
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no04"></div></div>
+            <div class="step_text">
+            	<span class="brown">이메일 주소 인증</span> 후<span class="brown"> 회원 정보</span>와<br>
+				비밀번호를 입력하면 ID 생성 완료! 	
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_4_1"></div>
+                    	<div class="phone_screen screen_1_4_1a"></div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_4_2"></div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_4_3"></div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+		
+		<div class="step_notice pc_notice_2line">
+        	설정한 간편비밀번호는 원격제어를 이용할 때 사용됩니다.
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no05"></div></div>
+            <div class="step_text">
+            	<span class="brown">'개인 차량 등록하기'</span>를 선택하면<br>
+                서비스에 가입할 <span class="brown">차량 명</span>을<br> 
+                <span class="brown">확인</span>할 수 있습니다.<br>
+                <span class="brown">이용 약관 동의</span> 후 가입 완료!
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_5_1"></div>
+                    	<div class="item_1_5_1_line_box">
+                            <div class="item_1_5_1_line1"></div>
+                            <div class="item_1_5_1_line2"></div>
+                            <div class="item_1_5_1_line3"></div>
+                            <div class="item_1_5_1_line4"></div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle_mask">
+                    	
+                        <div class="phone_screen screen_1_5_2_1">
+                            <div class="item_1_5_2_popup"></div>
+                            <div class="item_1_5_2_btn"></div>
+                            <div class="screen_1_5_2_block"></div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_5_3"></div>
+                    	<div class="item_1_5_3_line_box">
+                        	<div class="item_1_5_3_check"></div>
+                            <div class="item_1_5_3_check1"></div>
+                            <div class="item_1_5_3_check2"></div>
+                            <div class="item_1_5_3_check3"></div>
+                            <div class="item_1_5_3_check4"></div>
+                            <div class="item_1_5_3_line1"></div>
+                            <div class="item_1_5_3_line2"></div>
+                            <div class="item_1_5_3_line3"></div>
+                            <div class="item_1_5_3_line4"></div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_5_4"></div>
+                    	<div class="item_1_5_4_line_box">
+                            <div class="item_1_5_4_line1"></div>
+                            <div class="item_1_5_4_line2"></div>
+                            <div class="item_1_5_4_line3"></div>
+                            <div class="item_1_5_4_line4"></div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="step_notice pc_notice_4line">
+        	서비스에 가입할 차량 명 확인이 불가할 경우,<br>
+            QR 코드 등록하기를 이용해 주세요.
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no"><div class="no06"></div></div>
+            <div class="step_text">
+            	<span class="brown">블루링크 계정을 연동</span>하면<br>
+                더 많은 연동 서비스를<br>
+                이용할 수 있어요!
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_6_1"></div>
+                    	<div class="item_1_6_1_line_box">
+                            <div class="item_1_6_1_line1"></div>
+                            <div class="item_1_6_1_line2"></div>
+                            <div class="item_1_6_1_line3"></div>
+                            <div class="item_1_6_1_line4"></div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_6_2"></div>
+                    	<div class="item_1_6_2_line_box">
+                            <div class="item_1_6_2_line1"></div>
+                            <div class="item_1_6_2_line2"></div>
+                            <div class="item_1_6_2_line3"></div>
+                            <div class="item_1_6_2_line4"></div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_6_3" style="overflow:hidden;">
+                            <div class="screen_1_6_3_box1"></div>
+                            <div class="screen_1_6_3_box2"></div>
+                            <div class="screen_1_6_3_popup"></div>
+                            <div class="screen_1_6_3_1_block"></div>
+                            <div class="screen_1_6_3_2_block"></div>
+                            <div class="screen_1_6_3_2"></div>
+                            <div class="screen_1_6_3_1"></div>
+                        </div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no" style="margin-left:22px;"><div class="noT1"></div></div>
+            <div class="step_text" style="width:calc(100% - 87px);">
+            	차량 내 서비스 활성을 위해<br>
+                <span class="brown">차량 제어 기능을<br>
+                최소 한 번 실행</span>해 주세요.
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                    <div class="circle_mask">
+                        <div class="phone_screen screen_1_7_1"></div>
+                        <div class="phone"></div>
+                        <div class="circle"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="step_notice pc_notice_3line m01st1_notice">
+        	반드시 차량을 인도 받으신 후, 원격제어를 사용해 주세요.
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="step_top"></div>
+        <div class="step">
+            <div class="step_no" style="margin-left:22px;"><div class="noT2"></div></div>
+			<div class="step_text" style="width:calc(100% - 87px);">
+            	차량 제어에 실패했다면,<br>
+                <span class="brown">내비게이션 홈 화면</span>에서<span class="brown"> '블루링크'</span><br>
+                메뉴를 선택해 활성화해보세요.
+            </div>
+        </div>
+        
+        <div class="slider">
+            <ul>
+                <li>
+                	<div class="circle_mask round">
+                    	<div class="item_1_t1_1_line_box">
+                            <div class="item_1_t1_1_line1"></div>
+                            <div class="item_1_t1_1_line2"></div>
+                            <div class="item_1_t1_1_line3"></div>
+                            <div class="item_1_t1_1_line4"></div>
+                        </div>
+                        <div class="circle screen_1_t1_1"></div>
+                    </div>
+                </li>
+                <li>
+                	<div class="circle_mask round">
+                        <div class="item_1_t1_2_line_box">
+                            <div class="item_1_t1_2_line1"></div>
+                            <div class="item_1_t1_2_line2"></div>
+                            <div class="item_1_t1_2_line3"></div>
+                            <div class="item_1_t1_2_line4"></div>
+                        </div>
+                        <div class="item_1_t1_2_line_box2">
+                            <div class="item_1_t1_2_line21"></div>
+                            <div class="item_1_t1_2_line22"></div>
+                            <div class="item_1_t1_2_line23"></div>
+                            <div class="item_1_t1_2_line24"></div>
+                        </div>
+                        <div class="circle screen_1_t1_2"></div>
+                        <div class="circle screen_1_t1_2a"></div>
+                    </div>
+                </li>
+                <li>
+                	<div class="circle_mask">
+                    	<div class="item_1_t1_3_line_box">
+                            <div class="item_1_t1_3_line1"></div>
+                            <div class="item_1_t1_3_line2"></div>
+                            <div class="item_1_t1_3_line3"></div>
+                            <div class="item_1_t1_3_line4"></div>
+                        </div>
+                        <div class="circle screen_1_t1_3"></div>
+                    </div>
+                </li>
+                <li>
+                	<div class="circle_mask">
+                        <div class="circle screen_1_t1_4"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+		<div class="notice_bottom">※ 제공 이미지는 일부 상이할 수 있습니다.</div>
+        <div class="main_bottom" style="position:absolute;">
+            <button class="prev">지도뷰 설정</button>
+            <button class="next">회원가입 (법인)</button>
+        </div>
+    </div>
+    
+    <div class="section footer">
+    	<div class="footer_logo"></div>
+        <div class="footer_text">
+        	<!-- js에서 설정 -->
+        </div>
+    </div>
+</div>
+
+<script src="quickguide/js/pageControl.js"></script>
+
+<!-- content end -->    
+
+	</div>
+</div>
+
+
+</body>
+</html>

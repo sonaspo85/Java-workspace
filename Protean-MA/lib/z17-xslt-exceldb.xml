@@ -1,0 +1,21 @@
+<root>
+    <path
+        in="final-lang.dita"
+        out="temp\01-extractSrcTar.xml"
+        xslt="htmlExcelDB\01-extractSrcTar.xsl"/>
+
+    <path
+        in="temp\01-extractSrcTar.xml"
+        out="temp\02-insert-number.xml"
+        xslt="htmlExcelDB\02-insert-number.xsl"/>
+
+    <path
+        in="temp\02-insert-number.xml"
+        out="temp\03-matchingSrcTar.xml"
+        xslt="htmlExcelDB\03-matchingSrcTar.xsl"/>
+
+    <path
+        in="temp\03-matchingSrcTar.xml"
+        out="ExcelDB\exceldb.xml"
+        xslt="htmlExcelDB\04-ExcelDB.xsl"/>
+</root>

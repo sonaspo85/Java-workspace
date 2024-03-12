@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root filename="template1.xlsx">
+   <listitem>
+      <Key class="4:2">Video_C</Key>
+      <KO class="4:3">동영상자료</KO>
+      <EN class="4:4">Video material</EN>
+      <FR class="4:5">Matériel vidéo</FR>
+      <FR_AM class="4:6">Matériel vidéo</FR_AM>
+      <DE class="4:7">Videomaterial</DE>
+      <IT class="4:8">Materiale video</IT>
+      <PL class="4:9">Materiał wideo</PL>
+      <ES class="4:10">Material de vídeo</ES>
+      <ES_AM class="4:11">Material de video</ES_AM>
+      <TH class="4:12">สื่อแบบวิดีโอ</TH>
+      <VI class="4:13">Tài liệu video</VI>
+      <TC class="4:14">影片資料</TC>
+   </listitem>
+   <listitem>
+      <Key class="5:2">Video_H1</Key>
+      <KO class="5:3">동영상링크</KO>
+      <EN class="5:4">Video link</EN>
+      <FR class="5:5">Lien vidéo</FR>
+      <FR_AM class="5:6">Lien vidéo</FR_AM>
+      <DE class="5:7">Video-Link</DE>
+      <IT class="5:8">Link al video</IT>
+      <PL class="5:9">Łącze wideo</PL>
+      <ES class="5:10">Enlace de vídeo</ES>
+      <ES_AM class="5:11">Enlace de video</ES_AM>
+      <TH class="5:12">ลิงก์วิดีโอ</TH>
+      <VI class="5:13">Liên kết video</VI>
+      <TC class="5:14">影片連結</TC>
+   </listitem>
+</root>

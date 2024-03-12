@@ -1,0 +1,36 @@
+<root>
+    <path
+        in="master-final.dita"
+        out="idmlTemp/01-preview.dita"
+        xslt="idml-module/01-preview.xsl"/>
+
+    <path
+        in="idmlTemp/01-preview.dita"
+        out="idmlTemp/02-blocked.xml"
+        xslt="idml-module/02-block.xsl"/>
+
+    <path
+        in="idmlTemp/02-blocked.xml"
+        out="idmlTemp/03-setImgWidthHeight.xml"
+        xslt="idml-module/03-setImgWidthHeight.xsl"/>
+
+    <path
+        in="idmlTemp/03-setImgWidthHeight.xml"
+        out="idmlTemp/04-groupingChapter.xml"
+        xslt="idml-module/04-groupingChapter.xsl"/>
+
+    <path
+        in="idmlTemp/04-groupingChapter.xml"
+        out="idmlTemp/05-dfinedInline.xml"
+        xslt="idml-module/05-dfinedInline.xsl"/>
+
+    <path
+        in="idmlTemp/05-dfinedInline.xml"
+        out="dummy.xml"
+        xslt="idml-module/06-pagebuilder.xsl"/>
+
+    <path
+        in="dummy.xml"
+        out="dummy.xml"
+        xslt="idml-module/07-package.xsl"/>
+</root>

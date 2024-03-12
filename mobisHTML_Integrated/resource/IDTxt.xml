@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root ccncVer="ccnc" fileName="Kia_ID_KA4_6th_RUS_EE.xlsx" version="6th">
+   <listitem>
+      <fileName>000_Video</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Video</shortcutID>
+      <floating/>
+      <contents_string>Kia ccNC infotainment system</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>001_Systemoverview</fileName>
+      <Depth>1</Depth>
+      <shortcutID>intro</shortcutID>
+      <floating/>
+      <contents_string>Read before use</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>001_Systemoverview</fileName>
+      <Depth>1</Depth>
+      <shortcutID>component</shortcutID>
+      <floating/>
+      <contents_string>Component names and functions</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>001_Systemoverview</fileName>
+      <Depth>1</Depth>
+      <shortcutID>touchscreen</shortcutID>
+      <floating/>
+      <contents_string>Using the touch screen</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>001_Systemoverview</fileName>
+      <Depth>1</Depth>
+      <shortcutID>home</shortcutID>
+      <floating/>
+      <contents_string>Using the home screen</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>001_Systemoverview</fileName>
+      <Depth>1</Depth>
+      <shortcutID>quickcontrol</shortcutID>
+      <floating/>
+      <contents_string>Using quick control</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>001_Systemoverview</fileName>
+      <Depth>1</Depth>
+      <shortcutID>widget</shortcutID>
+      <floating/>
+      <contents_string>Using split screen</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>001_Systemoverview</fileName>
+      <Depth>1</Depth>
+      <shortcutID>search</shortcutID>
+      <floating/>
+      <contents_string>Using search</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>002_Manual</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Manual</shortcutID>
+      <floating/>
+      <contents_string>Viewing the online manual</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>003_Userprofile</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Userprofile</shortcutID>
+      <floating/>
+      <contents_string>Registering user profile settings</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>004_Voicerecognition</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Voicerecognition</shortcutID>
+      <floating/>
+      <contents_string>Voice recognition (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>004_Voicerecognition</fileName>
+      <Depth>1</Depth>
+      <shortcutID>commands</shortcutID>
+      <floating/>
+      <contents_string>List of voice commands</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>005_Connectedservice</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Connectedservice</shortcutID>
+      <floating/>
+      <contents_string>Kia Connect service (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>005_Connectedservice</fileName>
+      <Depth>1</Depth>
+      <shortcutID>subscribe</shortcutID>
+      <floating/>
+      <contents_string>Subscribing to the service (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>005_Connectedservice</fileName>
+      <Depth>1</Depth>
+      <shortcutID>remotecontrol</shortcutID>
+      <floating/>
+      <contents_string>Remote control service (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>005_Connectedservice</fileName>
+      <Depth>1</Depth>
+      <shortcutID>safetysecurity</shortcutID>
+      <floating/>
+      <contents_string>Safety/security services (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>005_Connectedservice</fileName>
+      <Depth>1</Depth>
+      <shortcutID>vehiclecare</shortcutID>
+      <floating/>
+      <contents_string>Vehicle care service (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>005_Connectedservice</fileName>
+      <Depth>1</Depth>
+      <shortcutID>routeguidance</shortcutID>
+      <floating/>
+      <contents_string>Route guidance service</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>006_Map</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Map</shortcutID>
+      <floating/>
+      <contents_string>Using the navigation functions</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>006_Map</fileName>
+      <Depth>1</Depth>
+      <shortcutID>search</shortcutID>
+      <floating/>
+      <contents_string>Finding a route easily</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>006_Map</fileName>
+      <Depth>1</Depth>
+      <shortcutID>previousdestination</shortcutID>
+      <floating/>
+      <contents_string>Searching for a previous destination</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>006_Map</fileName>
+      <Depth>1</Depth>
+      <shortcutID>poicategories</shortcutID>
+      <floating/>
+      <contents_string>Searching for nearby points of interest</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>006_Map</fileName>
+      <Depth>1</Depth>
+      <shortcutID>savedplaces</shortcutID>
+      <floating/>
+      <contents_string>Using saved favourite places</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>006_Map</fileName>
+      <Depth>1</Depth>
+      <shortcutID>routeoption</shortcutID>
+      <floating/>
+      <contents_string>Changing the route search option</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>006_Map</fileName>
+      <Depth>1</Depth>
+      <shortcutID>editroute</shortcutID>
+      <floating/>
+      <contents_string>Editing the route</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>006_Map</fileName>
+      <Depth>1</Depth>
+      <shortcutID>eula</shortcutID>
+      <floating/>
+      <contents_string>END USER LICENCE AGREEMENT</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>006_Map</fileName>
+      <Depth>1</Depth>
+      <shortcutID>groupdriving</shortcutID>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>006_Map</fileName>
+      <Depth>1</Depth>
+      <shortcutID>accidentalerts</shortcutID>
+      <floating/>
+      <contents_string>Viewing traffic</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>007_Media</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Media</shortcutID>
+      <floating/>
+      <contents_string>Using media</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>007_Media</fileName>
+      <Depth>1</Depth>
+      <shortcutID>radiofm</shortcutID>
+      <floating/>
+      <contents_string>Turning on the FM radio</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>007_Media</fileName>
+      <Depth>1</Depth>
+      <shortcutID>radioam</shortcutID>
+      <floating/>
+      <contents_string>Turning on the AM radio</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>007_Media</fileName>
+      <Depth>1</Depth>
+      <shortcutID>hdradio</shortcutID>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>007_Media</fileName>
+      <Depth>1</Depth>
+      <shortcutID>siriusxm</shortcutID>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>007_Media</fileName>
+      <Depth>1</Depth>
+      <shortcutID>btmusic</shortcutID>
+      <floating/>
+      <contents_string>Playing music via Bluetooth</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>007_Media</fileName>
+      <Depth>1</Depth>
+      <shortcutID>musicstreaming</shortcutID>
+      <floating/>
+      <contents_string>Using the music streaming service</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>007_Media</fileName>
+      <Depth>1</Depth>
+      <shortcutID>soundsofnature</shortcutID>
+      <floating/>
+      <contents_string>Playing sounds of nature</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>007_Media</fileName>
+      <Depth>1</Depth>
+      <shortcutID>usbmusic</shortcutID>
+      <floating/>
+      <contents_string>Playing music from a USB device</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>007_Media</fileName>
+      <Depth>1</Depth>
+      <shortcutID>usbvideo</shortcutID>
+      <floating/>
+      <contents_string>Playing video from a USB device</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>008_Phone</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Phone</shortcutID>
+      <floating/>
+      <contents_string>Using a phone via Bluetooth</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>008_Phone</fileName>
+      <Depth>1</Depth>
+      <shortcutID>btconnect</shortcutID>
+      <floating/>
+      <contents_string>Connecting a Bluetooth device</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>008_Phone</fileName>
+      <Depth>1</Depth>
+      <shortcutID>callhistory</shortcutID>
+      <floating/>
+      <contents_string>Dialling from the recent call list</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>008_Phone</fileName>
+      <Depth>1</Depth>
+      <shortcutID>contacts</shortcutID>
+      <floating/>
+      <contents_string>Dialling from the contacts</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>008_Phone</fileName>
+      <Depth>1</Depth>
+      <shortcutID>keypad</shortcutID>
+      <floating/>
+      <contents_string>Dialling using the dial pad</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>008_Phone</fileName>
+      <Depth>1</Depth>
+      <shortcutID>messages</shortcutID>
+      <floating/>
+      <contents_string>Checking new messages over Bluetooth</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>008_Phone</fileName>
+      <Depth>1</Depth>
+      <shortcutID>accept</shortcutID>
+      <floating/>
+      <contents_string>Answering a call</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>009_Jobinstructions</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Jobinstructions</shortcutID>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>010_Qibla</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Qibla</shortcutID>
+      <floating/>
+      <contents_string>Using the QIBLA</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>011_Phoneprojection</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Phoneprojection</shortcutID>
+      <floating/>
+      <contents_string>Using the phone projection function</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>011_Phoneprojection</fileName>
+      <Depth>1</Depth>
+      <shortcutID>wirelessandroidauto</shortcutID>
+      <floating/>
+      <contents_string>Using Android Auto wirelessly</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>011_Phoneprojection</fileName>
+      <Depth>1</Depth>
+      <shortcutID>wirelessapplecarplay</shortcutID>
+      <floating/>
+      <contents_string>Using Apple CarPlay wirelessly</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>011_Phoneprojection</fileName>
+      <Depth>1</Depth>
+      <shortcutID>wiredandroidauto</shortcutID>
+      <floating/>
+      <contents_string>Using Android Auto with a USB cable</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>011_Phoneprojection</fileName>
+      <Depth>1</Depth>
+      <shortcutID>wiredapplecarplay</shortcutID>
+      <floating/>
+      <contents_string>Using Apple CarPlay with a USB cable</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>011_Phoneprojection</fileName>
+      <Depth>1</Depth>
+      <shortcutID>solution</shortcutID>
+      <floating/>
+      <contents_string>Resolving a phone projection connection error</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>012_EV</fileName>
+      <Depth>1</Depth>
+      <shortcutID>EV</shortcutID>
+      <floating/>
+      <contents_string>Using the electric vehicle menu (EV only)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>013_HEV</fileName>
+      <Depth>1</Depth>
+      <shortcutID>HEV</shortcutID>
+      <floating/>
+      <contents_string>Using the hybrid menu (HEV only)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>014_PHEV</fileName>
+      <Depth>1</Depth>
+      <shortcutID>PHEV</shortcutID>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>015_FCEV</fileName>
+      <Depth>1</Depth>
+      <shortcutID>FCEV</shortcutID>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>016_Nmode</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Nmode</shortcutID>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>017_TVING</fileName>
+      <Depth>1</Depth>
+      <shortcutID>TVING</shortcutID>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>018_YouTube</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Youtube</shortcutID>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>019_WATCHA</fileName>
+      <Depth>1</Depth>
+      <shortcutID>WATCHA</shortcutID>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>020_Wavve</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Wavve</shortcutID>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>021_Voicememo</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Voicememo</shortcutID>
+      <floating/>
+      <contents_string>Running the voice memo</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>021-1_Climate</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Climate</shortcutID>
+      <floating/>
+      <contents_string>Using the climate control (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>021-1_Climate</fileName>
+      <Depth>1</Depth>
+      <shortcutID>rearclimate</shortcutID>
+      <floating/>
+      <contents_string>Using the rear-seat climate control (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>022_Seat</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Seat</shortcutID>
+      <floating/>
+      <contents_string>Adjusting a seat (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>022-1_Passengerview</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Passengerview</shortcutID>
+      <floating/>
+      <contents_string>Using the passenger view mode (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>023_Memoryseat</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Memoryseat</shortcutID>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>026_Washmode</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Washmode</shortcutID>
+      <floating/>
+      <contents_string>Using the car wash mode (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>027_Diagnosis</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Diagnosis</shortcutID>
+      <floating/>
+      <contents_string>Diagnosing the vehicle (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>029_Weather</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Weather</shortcutID>
+      <floating/>
+      <contents_string>Weather forecast (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>030_Calendar</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Calendar</shortcutID>
+      <floating/>
+      <contents_string>Schedule check(if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>031_Sports</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Sports</shortcutID>
+      <floating/>
+      <contents_string>Checking sports event updates (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>032_Valetmode</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Valetmode</shortcutID>
+      <floating/>
+      <contents_string>Using the valet mode (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>035_Passengertalk</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Passengertalk</shortcutID>
+      <floating/>
+      <contents_string>Using the passenger talk (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>036_Quietmode</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Quietmode</shortcutID>
+      <floating/>
+      <contents_string>Using the quiet mode</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>038_Cameraview</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Cameraview</shortcutID>
+      <floating/>
+      <contents_string>Viewing the parking assistance screen</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>038_Cameraview</fileName>
+      <Depth>1</Depth>
+      <shortcutID>rvm</shortcutID>
+      <floating/>
+      <contents_string>Rear View Monitor</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>038_Cameraview</fileName>
+      <Depth>1</Depth>
+      <shortcutID>svm</shortcutID>
+      <floating/>
+      <contents_string>Surround View Monitor (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>038_Cameraview</fileName>
+      <Depth>1</Depth>
+      <shortcutID>camerasettings</shortcutID>
+      <floating/>
+      <contents_string>Configuring the camera</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>039_Notification</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Notification</shortcutID>
+      <floating/>
+      <contents_string>Viewing notifications (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>Settings</shortcutID>
+      <floating/>
+      <contents_string>Configuring the system settings</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>vehicle</shortcutID>
+      <floating/>
+      <contents_string>Configuring the vehicle settings</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>ev</shortcutID>
+      <floating/>
+      <contents_string>Configuring the electric vehicle settings (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>navigation</shortcutID>
+      <floating/>
+      <contents_string>Configuring the navigation settings</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>sound</shortcutID>
+      <floating/>
+      <contents_string>Configuring the sound settings</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>connection</shortcutID>
+      <floating/>
+      <contents_string>Configuring the phone connections settings</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>userprofile</shortcutID>
+      <floating/>
+      <contents_string>Configuring the user profile settings</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>voice</shortcutID>
+      <floating/>
+      <contents_string>Configuring the voice recognition settings (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>screenlayout</shortcutID>
+      <floating/>
+      <contents_string>Configuring the screen layout settings</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>display</shortcutID>
+      <floating/>
+      <contents_string>Configuring the display settings</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>button</shortcutID>
+      <floating/>
+      <contents_string>Configuring the button settings</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>clusterhud</shortcutID>
+      <floating/>
+      <contents_string>Configuring the cluster/head-up display settings</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>connectedservice</shortcutID>
+      <floating/>
+      <contents_string>Configuring the Kia Connect settings (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>040_Settings</fileName>
+      <Depth>1</Depth>
+      <shortcutID>general</shortcutID>
+      <floating/>
+      <contents_string>Configuring the general settings</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>041_OTA</fileName>
+      <Depth>1</Depth>
+      <shortcutID>OTA</shortcutID>
+      <floating/>
+      <contents_string>OTA update (if equipped)</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>042_Appendix</fileName>
+      <Depth>1</Depth>
+      <shortcutID>troubleshooting</shortcutID>
+      <floating/>
+      <contents_string>Troubleshooting guide</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>042_Appendix</fileName>
+      <Depth>1</Depth>
+      <shortcutID>indicatoricon</shortcutID>
+      <floating/>
+      <contents_string>System status indicator icons</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>042_Appendix</fileName>
+      <Depth>1</Depth>
+      <shortcutID>faq</shortcutID>
+      <floating/>
+      <contents_string>FAQ</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>042_Appendix</fileName>
+      <Depth>1</Depth>
+      <shortcutID>spec</shortcutID>
+      <floating/>
+      <contents_string>Product specifications</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>042_Appendix</fileName>
+      <Depth>1</Depth>
+      <shortcutID>trademarks</shortcutID>
+      <floating/>
+      <contents_string>Trademarks</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName>042_Appendix</fileName>
+      <Depth>1</Depth>
+      <shortcutID>opensource</shortcutID>
+      <floating/>
+      <contents_string>Open source information</contents_string>
+      <비고/>
+   </listitem>
+   <listitem>
+      <fileName/>
+      <Depth/>
+      <shortcutID/>
+      <floating/>
+      <contents_string/>
+      <비고/>
+   </listitem>
+</root>

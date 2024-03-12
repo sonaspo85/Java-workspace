@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet 
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" 
+    xmlns:ast="http://www.astkorea.net/"
+    xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" 
+    exclude-result-prefixes="xs idPkg ast dita-ot"
+    version="2.0">
+	
+    <xsl:output method="xml" encoding="UTF-8" indent="no" />
+	
+    <xsl:param name="srcDirs" />
+    
+    <xsl:variable name="srcDirs0" select="concat('file:////', replace($srcDirs, '\\', '/'))"  />
+    <xsl:variable name="directory" select="collection(concat($srcDirs0, '/?select=', '*.xml;recurse=yes'))" />
+    
+    
+	<xsl:template match="@* | node()" mode="#all">
+		<xsl:copy>
+			<xsl:apply-templates select="@*, node()" mode="#current" />
+		</xsl:copy>
+	</xsl:template>
+    
+    <xsl:variable name="engCollection">
+        <xsl:for-each select="root/*">
+            <xsl:variable name="name" select="name()" />
+            <xsl:copy>
+                <xsl:apply-templates select="@*" />
+                
+                <xsl:for-each select="items[@lang='Eng']">
+                    <xsl:copy>
+                        <xsl:apply-templates select="@*, node()" />
+                    </xsl:copy>
+                </xsl:for-each>
+            </xsl:copy>
+        </xsl:for-each>
+    </xsl:variable>
+    
+    <xsl:template match="packages">
+        <xsl:copy>
+            <xsl:apply-templates select="@*" />
+            
+            <xsl:for-each select="items">
+                <xsl:variable name="cur" select="." />
+                <xsl:variable name="fileName" select="@fileName" />
+                <xsl:variable name="lang" select="@lang" />
+                
+                <xsl:copy>
+                    <xsl:apply-templates select="@*" />
+                    <xsl:attribute name="lang" select="$lang" />
+                    <xsl:attribute name="apply">
+                        <xsl:value-of select="'true'" />
+                    </xsl:attribute>
+                    
+                    <xsl:attribute name="exc">
+                        <xsl:value-of select="''" />
+                    </xsl:attribute>
+                    
+                    <xsl:for-each select="item">
+                        <xsl:variable name="rowNum" select="tokenize(@class, ':')[1]" />
+                        <xsl:variable name="colNum" select="tokenize(@class, ':')[2]" />
+                        
+                        <xsl:variable name="sID">
+                            <xsl:variable name="str" select="$engCollection/packages/items/item[tokenize(@class, ':')[1] = $rowNum]" />
+                            <xsl:value-of select="lower-case(replace(replace($str, '\s+', ''), '[()]', '_'))" />
+                        </xsl:variable>
+                        
+                        <xsl:copy>
+                            <xsl:apply-templates select="@*" />
+                            <xsl:attribute name="id" select="$sID" />
+                            <xsl:apply-templates select="node()" />
+                        </xsl:copy>
+                    </xsl:for-each>
+                </xsl:copy>
+            </xsl:for-each>
+        </xsl:copy>
+    </xsl:template>
+    
+</xsl:stylesheet>

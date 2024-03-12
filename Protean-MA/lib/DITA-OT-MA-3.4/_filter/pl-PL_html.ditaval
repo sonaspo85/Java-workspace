@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+	<prop action="exclude" att="platform" val="pdf"/>
+	<prop action="include" att="platform"/>
+
+	<prop action="include" att="audience" val="pl-PL"/>
+	<prop action="include" att="audience" val="en-GB-ex"/>
+    <prop action="include" att="audience" val="en-AR-ex"/>
+    <prop action="include" att="audience" val="en-HK-ex"/>
+	<prop action="include" att="audience" val="en-CN-ex"/>
+    <prop action="include" att="audience" val="en-TW-ex"/>
+	<prop action="include" att="audience" val="sq-AL-ex"/>
+	<prop action="include" att="audience" val="bg-BG-ex"/>
+	<prop action="include" att="audience" val="hr-HR-ex"/>
+	<prop action="include" att="audience" val="cs-CZ-ex"/>
+	<prop action="include" att="audience" val="da-DK-ex"/>
+	<prop action="include" att="audience" val="nl-NL-ex"/>
+	<prop action="include" att="audience" val="et-EE-ex"/>
+	<prop action="include" att="audience" val="fi-FI-ex"/>
+	<prop action="include" att="audience" val="fr-FR-ex"/>
+	<prop action="include" att="audience" val="de-DE-ex"/>
+	<prop action="include" att="audience" val="el-GR-ex"/>
+	<prop action="include" att="audience" val="hu-HU-ex"/>
+	<prop action="include" att="audience" val="it-IT-ex"/>
+	<prop action="include" att="audience" val="lv-LV-ex"/>
+	<prop action="include" att="audience" val="lt-LT-ex"/>
+	<prop action="include" att="audience" val="mk-MK-ex"/>
+	<prop action="include" att="audience" val="nb-NO-ex"/>
+	<prop action="include" att="audience" val="pt-PT-ex"/>
+	<prop action="include" att="audience" val="ro-RO-ex"/>
+	<prop action="include" att="audience" val="sr-latn-RS-ex"/>
+	<prop action="include" att="audience" val="sk-SK-ex"/>
+	<prop action="include" att="audience" val="sl-SI-ex"/>
+	<prop action="include" att="audience" val="es-ES-ex"/>
+	<prop action="include" att="audience" val="sv-SE-ex"/>
+	<prop action="include" att="audience" val="kk-KZ-ex"/>
+	<prop action="include" att="audience" val="mn-MN-ex"/>
+	<prop action="include" att="audience" val="ru-RU-ex"/>
+	<prop action="include" att="audience" val="uk-UA-ex"/>
+	<prop action="include" att="audience" val="uz-latn-UZ-ex"/>
+	<prop action="include" att="audience" val="ar-SA-ex"/>
+	<prop action="include" att="audience" val="he-IL-ex"/>
+	<prop action="include" att="audience" val="tr-TR-ex"/>
+	<prop action="include" att="audience" val="ur-PK-ex"/>
+	<prop action="include" att="audience" val="id-ID-ex"/>
+	<prop action="include" att="audience" val="km-KH-ex"/>
+	<prop action="include" att="audience" val="lo-LA-ex"/>
+	<prop action="include" att="audience" val="my-MM-ex"/>
+	<prop action="include" att="audience" val="zh-SG-ex"/>
+	<prop action="include" att="audience" val="th-TH-ex"/>
+	<prop action="include" att="audience" val="vi-VN-ex"/>
+	<prop action="include" att="audience" val="bn-IN-ex"/>
+	<prop action="include" att="audience" val="es-AR-ex"/>
+	<prop action="include" att="audience" val="zh-CN-ex"/>
+	<prop action="include" att="audience" val="zh-HK-ex"/>
+	<prop action="include" att="audience" val="zh-TW-ex"/>
+	<prop action="exclude" att="audience"/>
+</val>

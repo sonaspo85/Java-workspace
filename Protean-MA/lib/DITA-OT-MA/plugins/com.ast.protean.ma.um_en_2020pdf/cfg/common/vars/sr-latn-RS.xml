@@ -1,0 +1,25 @@
+﻿<vars xmlns="http://www.idiominc.com/opentopic/vars">
+	<variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/notice.svg</variable>
+	<variable id="warning Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+	<variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/caution.svg</variable>
+	<variable id="service Note Image Path">Customization/OpenTopic/common/artwork/M-service.ai</variable>
+	<variable id="recycle Note Image Path">Customization/OpenTopic/common/artwork/M-recycle.ai</variable>
+	<variable id="basics Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_getting.ai</variable>
+	<variable id="apps_and_features Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_apps.ai</variable>
+	<variable id="settings Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_settings.ai</variable>
+	<variable id="usage_notices Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_usage.ai</variable>
+	<variable id="appendix Chapter Image Path">Customization/OpenTopic/common/artwork/I-chapter_appendix.ai</variable>
+	<variable id="admonition note">Note</variable>
+	<variable id="admonition warning">Warning</variable>
+	<variable id="Unordered List bullet">•</variable>
+	<variable id="Unordered List bullet 1">•</variable>
+	<!-- <variable id="Unordered List bullet 2">&#x2013;</variable> en dash -->
+	<variable id="Unordered List bullet 2">&#x2013;</variable>
+	<variable id="On the page"></variable>
+	
+	<variable id="frontmatter-title">UPUTSTVO ZA UPOTREBU</variable>
+	<variable id="frontmatter-language">Serbian</variable>
+	<variable id="frontmatter-toc-contents">Sadržaj</variable>
+
+	<!-- frontmatter variables -->
+</vars>

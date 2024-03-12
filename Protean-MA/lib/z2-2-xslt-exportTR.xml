@@ -1,0 +1,12 @@
+<root>
+    <path
+        in="lang.dita"
+        out="4_TR\TR1-lang.xml"
+        xslt="tr-export.xsl"/>
+
+    <path
+        in="lang.dita"
+        out="4_TR\TR2-lang.xml"
+        xslt="multi-export.xsl"/>
+
+</root>

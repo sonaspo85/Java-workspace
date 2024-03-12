@@ -1,0 +1,147 @@
+﻿<root>
+    <chapter company="kia" type="common">
+        <topic idml="018_Content" />
+        <topic idml="004_Basic" />
+        <topic idml="005_Features" />
+        <topic idml="005_Features_1_hev" />
+        <topic idml="005_Features_2_phev" />
+        <topic idml="005_Features_3_ev" />
+        <topic idml="005_Features_0_nmode" />
+        <topic idml="006_Radio" />
+        <topic idml="007_DMB" />
+        <topic idml="008_Media" />
+        <topic idml="009_Navigation" />
+        <topic idml="010_Calling" />
+        <topic idml="011_VR" />
+        <topic idml="012_UVO" />
+        <topic idml="016_Kiapay" />
+        <topic idml="013_Settings" />
+        <topic idml="017_SWUpdate" />
+        <topic idml="014_Assistance" />
+        <topic idml="015_Appendix">
+            <topic idml="017_Trademarks" />
+            <topic idml="018_Opensource" />
+            <topic idml="019_Servicecenter" />
+        </topic>
+    </chapter>
+    <chapter company="hyun" type="common">
+        <topic idml="018_Content" />
+        <topic idml="004_Basic" />
+        <topic idml="005_Features" />
+        <topic idml="005_Features_1_hev" />
+        <topic idml="005_Features_2_phev" />
+        <topic idml="005_Features_3_ev" />
+        <topic idml="005_Features_0_nmode" />
+        <topic idml="006_Radio" />
+        <topic idml="007_DMB" />
+        <topic idml="008_Media" />
+        <topic idml="009_Navigation" />
+        <topic idml="010_Calling" />
+        <topic idml="011_VR" />
+        <topic idml="012_BlueLink" />
+        <topic idml="016_Hyundaicarpay" />
+        <topic idml="013_Settings" />
+        <topic idml="017_SWUpdate" />
+        <topic idml="014_Assistance" />
+        <topic idml="015_Appendix">
+            <topic idml="017_Trademarks" />
+            <topic idml="018_Opensource" />
+            <topic idml="019_Servicecenter" />
+        </topic>
+    </chapter>
+    <chapter company="hyun" type="INDIA">
+        <topic idml="002_Readmefirst" />
+        <topic idml="004_Basic" />
+        <topic idml="005_Features" />
+        <topic idml="005_Features_3_ev" />
+        <topic idml="006_Radio" />
+        <topic idml="008_Media" />
+        <topic idml="009_Navigation" />
+        <topic idml="010_Calling" />
+        <topic idml="011_VR" />
+        <topic idml="012_BlueLink" />
+        <topic idml="013_Settings" />
+        <topic idml="017_SWUpdate" />
+        <topic idml="015_Appendix">
+            <topic idml="017_Trademarks" />
+            <topic idml="018_Opensource" />
+        </topic>
+    </chapter>
+    <chapter company="kia" type="INDIA">
+        <topic idml="002_Readmefirst" />
+        <topic idml="004_Basic" />
+        <topic idml="005_Features" />
+        <topic idml="005_Features_3_ev" />
+        <topic idml="006_Radio" />
+        <topic idml="008_Media" />
+        <topic idml="009_Navigation" />
+        <topic idml="010_Calling" />
+        <topic idml="011_VR" />
+        <topic idml="012_UVO" />
+        <topic idml="013_Settings" />
+        <topic idml="017_SWUpdate" />
+        <topic idml="015_Appendix">
+            <topic idml="017_Trademarks" />
+            <topic idml="018_Opensource" />
+        </topic>
+    </chapter>
+    <chapter company="kia" type="IND">
+        <topic idml="018_Content" />
+        <topic idml="004_Basic" />
+        <topic idml="005_Features" />
+        <topic idml="006_Radio" />
+        <topic idml="008_Media" />
+        <topic idml="009_Navigation" />
+        <topic idml="010_Calling" />
+        <topic idml="011_VR" />
+        <topic idml="012_UVO" />
+        <topic idml="017_Others" />
+        <topic idml="013_Settings" />
+        <topic idml="019_SWUpdate" />
+        <topic idml="015_Appendix">
+            <topic idml="017_Trademarks" />
+            <topic idml="018_Opensource" />
+        </topic>
+    </chapter>
+    <chapter company="hyun" type="IND">
+        <topic idml="018_Content" />
+        <topic idml="004_Basic" />
+        <!-- <topic idml="005_Features" /> -->
+        <topic idml="006_Radio" />
+        <topic idml="008_Media" />
+        <topic idml="009_Navigation" />
+        <topic idml="010_Calling" />
+        <topic idml="011_VR" />
+        <topic idml="012_BlueLink" />
+        <topic idml="017_Others" />
+        <topic idml="005_Features" />
+        <topic idml="013_Settings" />
+        <topic idml="019_SWUpdate" />
+        <topic idml="015_Appendix">
+            <topic idml="017_Trademarks" />
+            <topic idml="018_Opensource" />
+        </topic>
+    </chapter>
+    <chapter company="genesis" type="common">
+        <topic idml="018_Content" />
+        <topic idml="002_Readmefirst" />
+        <topic idml="004_Basic" />
+        <topic idml="005_Features" />
+        <topic idml="006_Radio" />
+        <topic idml="007_DMB" />
+        <topic idml="008_Media" />
+        <topic idml="009_Navigation" />
+        <topic idml="010_Calling" />
+        <topic idml="011_VR" />
+        <topic idml="012_GCS" />
+        <topic idml="016_GenesisCarpay" />
+        <topic idml="013_Settings" />
+        <topic idml="017_SWUpdate" />
+        <topic idml="014_Assistance" />
+        <topic idml="015_Appendix">
+            <topic idml="017_Trademarks" />
+            <topic idml="018_Opensource" />
+            <topic idml="019_Servicecenter" />
+        </topic>
+    </chapter>
+</root>

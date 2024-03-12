@@ -1,0 +1,21 @@
+<root>
+    <path
+        in="04-reviewed-TMX.tmx"
+        out="convertTMX\05-changeTagsName.xml"
+        xslt="convertTMX\05-changeTagsName.xsl"/>
+
+    <path
+        in="convertTMX\05-changeTagsName.xml"
+        out="convertTMX\06-groupingByKeys.xml"
+        xslt="convertTMX\06-groupingByKeys.xsl"/>
+
+    <path
+        in="convertTMX\06-groupingByKeys.xml"
+        out="convertTMX\07-copyOriginalAttr.xml"
+        xslt="convertTMX\07-copyOriginalAttr.xsl"/>
+
+    <path
+        in="convertTMX\07-copyOriginalAttr.xml"
+        out="convertTMX\dummy.xml"
+        xslt="convertTMX\08-splitLang.xsl"/>
+</root>

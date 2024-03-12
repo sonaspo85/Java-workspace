@@ -1,0 +1,57 @@
+<codes>
+    <companies>
+        <code name="Hyundai" data="Hyun" />
+        <code name="Kia" data="Kia" />
+        <code name="Genesis" data="Genesis" />
+    </companies>
+    <version>
+        <code name="5th" />
+        <code name="6th" />
+    </version>
+    <langs>
+        <code ISO="AR" Fullname="Arabic" twoLetter="ar" />
+        <code ISO="EG,EU,EC,EA,EE" Fullname="English" twoLetter="en" />
+        <code ISO="SG,SE,SM" Fullname="Spanish" twoLetter="es" />
+        <code ISO="FG,FE" Fullname="French" twoLetter="fr" />
+        <code ISO="KO" Fullname="Korean" twoLetter="ko" />
+        <code ISO="PB,PE" Fullname="Portuguese" twoLetter="pt" />
+        <code ISO="JP" Fullname="Japanese" twoLetter="jp" />
+        <code ISO="HI" Fullname="Hindi" twoLetter="hi" />
+        <code ISO="BN" Fullname="Bengali" twoLetter="bn" />
+        <code ISO="MR" Fullname="Marathi" twoLetter="mr" />
+        <code ISO="TE" Fullname="Telugu" twoLetter="te" />
+        <code ISO="TA" Fullname="Tamil" twoLetter="ta" />
+        <code ISO="GU" Fullname="Gujarati" twoLetter="gu" />
+        <code ISO="KN" Fullname="Kannada" twoLetter="kn" />
+        <code ISO="OR" Fullname="Odia" twoLetter="or" />
+        <code ISO="ML" Fullname="Malayalam" twoLetter="ml" />
+        <code ISO="PA" Fullname="Punjabi" twoLetter="pa" />
+        <code ISO="ID" Fullname="Indonesian" twoLetter="id" />
+        <code ISO="CH" Fullname="Czech" twoLetter="cz" />
+        <code ISO="DE" Fullname="Danish" twoLetter="da" />
+        <code ISO="GE" Fullname="German" twoLetter="de" />
+        <code ISO="IT" Fullname="Italian" twoLetter="it" />
+        <code ISO="HU" Fullname="Hungarian" twoLetter="hu" />
+        <code ISO="HO" Fullname="Dutch" twoLetter="nl" />
+        <code ISO="NR" Fullname="Norwegian" twoLetter="no" />
+        <code ISO="PO" Fullname="Polish" twoLetter="pl" />
+        <code ISO="RU" Fullname="Russian" twoLetter="ru" />
+        <code ISO="SK" Fullname="Slovak" twoLetter="sk" />
+        <code ISO="FI" Fullname="Finnish" twoLetter="fi" />
+        <code ISO="SW" Fullname="Swedish" twoLetter="sv" />
+        <code ISO="TU" Fullname="Turkish" twoLetter="tr" />
+        <code ISO="UR" Fullname="Ukrainian" twoLetter="uk" />
+        <code ISO="SV" Fullname="Slovene" twoLetter="sl" />
+        <code ISO="GR" Fullname="Greek" twoLetter="el" />
+        <code ISO="CR" Fullname="Croatian" twoLetter="hr" />
+        <code ISO="RO" Fullname="Romanian" twoLetter="ro" />
+        <code ISO="BG" Fullname="Bulgarian" twoLetter="bg" />
+        <code ISO="IL,IW" Fullname="Hebrew" twoLetter="he" />
+        <code ISO="ZH" Fullname="TraditionalChinese" twoLetter="tw" />
+        <code ISO="ZH" Fullname="SimplifiedChinese" twoLetter="sc" />
+    </langs>
+    <Inches>
+        <code name="8-inches" data="8inch" />
+        <code name="10-inches" data="10inch" />
+    </Inches>
+</codes>

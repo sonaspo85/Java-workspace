@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="dita.merged.build" basedir="." xmlns:if="ant:if" xmlns:unless="ant:unless">
+    <property name="build.log.dir" location="${output.dir}${file.separator}..${file.separator}" />
+    <!--<property name="axf.path" value="C:\AHFormatterV63"/> -->
+    <target name="dita2merged" depends="dita2merged.init, build-init, preprocess, map2merge" />
+    <target name="dita2merged.init">
+        <property name="preprocess.copy-image.skip" value="true" />
+        <condition property="args.rellinks" value="nofamily">
+            <not>
+                <isset property="args.rellinks" />
+            </not>
+        </condition>
+    </target>
+    <!--<property name="sonaspo" value=""/>-->
+    <target name="map2merge">
+        <basename property="outputname" file="${args.input}" suffix=".ditamap" />
+        <dirname property="dita.temp.dir.fullpath" file="${dita.temp.dir}${file.separator}dummy.file" />
+        <property name="args.filter" value="none" />
+        <!--<condition property="a.set" else="false">
+            <not>
+                <equals arg1="${args.filter}" arg2=""/>
+            </not>
+        </condition>
+        
+        <echo message="a set ? ${a.set}"/>-->
+        <copy overwrite="yes" encoding="UTF-8" outputencoding="UTF-8" file="${dita.plugin.com.oxygenxml.merged.dir}/astkeyword.xsl" toFile="${dita.plugin.com.oxygenxml.merged.dir}/astkeyword-copy.xsl">
+            <filterset begintoken="@" endtoken="@">
+                <filter token="projectName" value="${args.filter}" />
+            </filterset>
+        </copy>
+        <!-- <echo message="dita.temp.dir => ${dita.temp.dir}" />
+        <echo message="base.temp.dir => ${base.temp.dir}" /> -->
+        <pipeline message="topicmerge" taskname="topic-merge" inputmap="${dita.temp.dir.fullpath}${file.separator}${user.input.file}" tempdir="${dita.temp.dir.fullpath}">
+            <module class="org.dita.dost.module.TopicMergeModule">
+                <param name="output" location="${dita.temp.dir.fullpath}${file.separator}${dita.map.filename.root}_MERGED.xml" />
+                <param name="style" location="${dita.plugin.com.oxygenxml.merged.dir}${file.separator}astkeyword-copy.xsl" />
+            </module>
+        </pipeline>
+        <mkdir dir="${dita.map.output.dir}" />
+        <copy file="${dita.temp.dir.fullpath}${file.separator}${dita.map.filename.root}_MERGED.xml" tofile="${dita.map.output.dir}/${dita.map.filename.root}.xml" />
+        <delete file="${dita.plugin.com.oxygenxml.merged.dir}${file.separator}astkeyword-copy.xsl" />
+    </target>
+    <!-- <target name="filterSet" if="${b.set}">
+        <echo message="1" />
+        <property name="sonaspo" value="${args.filter}"/>
+        <echo message="${sonaspo}" />
+    </target>
+    
+    <target name="filterNull" unless="${a.set}">
+        <echo message="2"></echo>
+        <property name="sonaspo" value="nnnn"/>
+    </target> -->
+</project>
