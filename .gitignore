@@ -3,3 +3,7 @@ target/
 /.metadata/
 temp/
 output/
+resources/
+jre/
+*.zip
+*.idml
