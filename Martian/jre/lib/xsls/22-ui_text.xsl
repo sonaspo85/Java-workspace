@@ -31,7 +31,7 @@
         </xsl:variable>
 
         <xsl:result-document href="{$filename}">
-            <xsl:text>var model2 = ""</xsl:text>
+            <xsl:text>var model_2 = "</xsl:text>
             <xsl:value-of select="$type" />
             <xsl:text>"</xsl:text>
             <xsl:text>&#xa;</xsl:text>

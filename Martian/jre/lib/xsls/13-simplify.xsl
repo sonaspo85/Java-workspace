@@ -85,6 +85,16 @@
                             child::image[matches(@class, 'C_Note')]">
                 <xsl:apply-templates />
             </xsl:when>
+
+            <xsl:when test="@class = 'C_URL'">
+                <xsl:copy>
+                    <xsl:apply-templates select="@*"/>
+                    <a>
+                        <xsl:attribute name="href" select="." />
+                        <xsl:apply-templates select="node()" />
+                    </a>
+                </xsl:copy>
+            </xsl:when>
         
             <xsl:otherwise>
                 <xsl:copy>

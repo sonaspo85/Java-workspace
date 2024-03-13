@@ -1,2 +1,5 @@
 Backup/
 target/
+/.metadata/
+temp/
+output/

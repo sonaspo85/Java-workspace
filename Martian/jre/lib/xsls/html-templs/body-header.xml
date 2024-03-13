@@ -45,7 +45,7 @@
 			<link rel="stylesheet" href="../contents/fonts/samsungOneKorea/fonts.css" />
 			<link rel="stylesheet" href="../contents/lib/fontAwesome/css/font-awesome.min.css" />
 			<link rel="stylesheet" href="../contents/css/common.css" />
-			<link rel="stylesheet" href="../contents/css/contents.css" />
+			<link rel="stylesheet" href="../contents/css/search.css" />
 			<script src="../js/jquery.js">&#xFEFF;</script>
 			<script src="../contents/lib/jQuery/jquery-1.12.4.min.js">&#xFEFF;</script>
 			<script src="../contents/lib/touchSwipe/jquery.touchSwipe.min.js">&#xFEFF;</script>

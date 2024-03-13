@@ -35,7 +35,7 @@
         </xsl:variable>
         
         <xsl:result-document href="{$filename}">
-            <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html></xsl:text>
+            <!-- <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html></xsl:text> -->
             <html>
                 <xsl:attribute name="data-key" select="'search-page'" />
                 <xsl:attribute name="data-language" select="$isocode" />
@@ -87,6 +87,14 @@
             <xsl:when test="matches(name(.), '(href|src)') and 
                             parent::*[matches(local-name(), '^(a|img)$')]">
                 <xsl:attribute name="{name()}" select="concat('.', .)" />
+            </xsl:when>
+
+            <xsl:when test="matches(name(.), 'id') and . = 'id_search_page'">
+                <xsl:attribute name="{name()}" select="'id_search'" />
+            </xsl:when>
+
+            <xsl:when test="matches(name(.), 'id') and . = 'id_search_button_page'">
+                <xsl:attribute name="{name()}" select="'id_search_button'" />
             </xsl:when>
         
             <xsl:otherwise>

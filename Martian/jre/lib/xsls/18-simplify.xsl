@@ -101,4 +101,25 @@
         </xsl:copy>
     </xsl:template>
 
+    <xsl:template match="*" priority="5">
+        <xsl:choose>
+            <xsl:when test="count(node()) = 1 and 
+                            child::img">
+                <div class="Noteobject">
+                    <xsl:apply-templates select="node()" />
+                </div>
+            </xsl:when>
+        
+            <xsl:otherwise>
+                <xsl:copy>
+                    <xsl:apply-templates select="@*, node()" />
+                </xsl:copy>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="@id">
+        <xsl:attribute name="id" select="replace(., '^#', '')" />
+    </xsl:template>
+
 </xsl:stylesheet>

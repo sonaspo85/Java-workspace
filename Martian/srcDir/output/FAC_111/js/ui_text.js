@@ -1,4 +1,4 @@
-var model2 = ""FAC"
+var model_2 = "FAC"
 var message = {
 	"EN": {
 		language: "English",

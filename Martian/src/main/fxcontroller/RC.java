@@ -147,7 +147,7 @@ public class RC implements Initializable {
         cb1.getSelectionModel().selectFirst();
         rb2.setSelected(true);
 
-        tf1.setText("G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java-workspace/Martian/srcDir");
+        tf1.setText("H:/Workspace/Java-workspace/Martian/srcDir");
         tf2.setText("111");
         
         bt4.setOnAction(e -> exedExcel());

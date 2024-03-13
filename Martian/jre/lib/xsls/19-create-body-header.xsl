@@ -38,8 +38,8 @@
                             </div>
                             <div class="search_box">
                                 <div class="search_wrap">
-                                    <input type="text" id="id_search" placeholder="search" />
-                                    <button type="button" class="search_btn" id="id_search_button">
+                                    <input type="text" id="id_search_page" placeholder="search" />
+                                    <button type="button" class="search_btn" id="id_search_button_page">
                                         <img src="./img/search_btn.png" alt="search" />
                                     </button>
                                 </div>

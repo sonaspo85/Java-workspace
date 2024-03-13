@@ -58,7 +58,7 @@
     
     <xsl:template match="br">
         <xsl:choose>
-            <xsl:when test="not(ancestor::*[matches(@class, '^(Orderlist|Unorderlist)')])">
+            <xsl:when test="not(ancestor::*[matches(@class, '^(OrderList|UnorderList)')])">
                 <xsl:choose>
                     <xsl:when test="count(parent::*/node()) = 1" />
 

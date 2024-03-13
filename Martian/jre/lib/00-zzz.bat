@@ -18,10 +18,10 @@ set transform=net.sf.saxon.Transform
 rem rem rem ----------------------------------------------------------------------------------
 set langcode=EN
 
-set docinfoF="G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java-workspace/Martian/jre/lib/resource/docInfo.xml"
-set resourcdDir="G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java-workspace/Martian/resource"
-set xslDir="G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java-workspace/Martian/jre/lib/xsls"
-set tempDir="G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java-workspace/Martian/srcDir/temp"
+set docinfoF="H:/Workspace/Java-workspace/Martian/jre/lib/resource/docInfo.xml"
+set resourcdDir="H:/Workspace/Java-workspace/Martian/jre/lib/resource"
+set xslDir="H:/Workspace/Java-workspace/Martian/jre/lib/xsls"
+set tempDir="H:/Workspace/Java-workspace/Martian/srcDir/temp"
 rem set srcDirs="G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java-workspace/Martian/resource/output/EN"
 rem set excelTemplsDir="G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java-workspace/Martian/srcDir/temp/excelTempls"
 
@@ -32,7 +32,7 @@ rem java %transform%  -s:"G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/ja
 rem java %transform%  -s:%xslDir%\dummy.xml  -o:%tempDir%\00-videolinkF-group.xml  -xsl:%xslDir%\01-videolinkF-group.xsl
 rem java %transform%  -s:"G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java-workspace/Martian/srcDir/temp/eachSrc/aaa.xml"  -o:%tempDir%\01-simplify.xml  -xsl:%xslDir%\01-simplify.xsl
 rem java %transform%  -s:%tempDir%\01-simplify.xml  -o:%tempDir%\02-simplify.xml  -xsl:%xslDir%\02-simplify.xsl
-rem java %transform%  -s:%tempDir%\02-simplify.xml  -o:%tempDir%\03-define-BrType.xml  -xsl:%xslDir%\03-define-BrType.xsl
+java %transform%  -s:%tempDir%\02-simplify.xml  -o:%tempDir%\03-define-BrType.xml  -xsl:%xslDir%\03-define-BrType.xsl
 rem java %transform%  -s:%tempDir%\03-define-BrType.xml  -o:%tempDir%\04-cleanAttrs.xml  -xsl:%xslDir%\04-cleanAttrs.xsl
 rem java %transform%  -s:%tempDir%\04-cleanAttrs.xml  -o:%tempDir%\05-grouping-br.xml  -xsl:%xslDir%\05-grouping-br.xsl
 rem java %transform%  -s:%tempDir%\05-grouping-br.xml  -o:%tempDir%\06-groupingTR.xml  -xsl:%xslDir%\06-groupingTR.xsl
@@ -56,7 +56,7 @@ rem java %transform%  -s:%tempDir%\17-4-strip-img.xml  -o:%tempDir%\18-simplify.
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\19-create-body-header.xml  -xsl:%xslDir%\19-create-body-header.xsl
 
 rem **************************************************************************************
-java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\20-split-html.xsl
+rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\20-split-html.xsl
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\21-search-db.xsl
 rem java %transform%  -s:%tempDir%\00-messageF-groupLang.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\22-ui_text.xsl
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\23-search-html.xsl

@@ -34,7 +34,7 @@
         </xsl:variable>
         
         <xsl:result-document href="{$filename}">
-            <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html></xsl:text>
+            <!-- <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html></xsl:text> -->
             <html>
                 <xsl:attribute name="data-key" select="'search-page'" />
                 <xsl:attribute name="data-language" select="$isocode" />
