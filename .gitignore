@@ -7,3 +7,4 @@ resources/
 jre/
 *.zip
 *.idml
+Martian/jre/lib/resource/docInfo.xml
