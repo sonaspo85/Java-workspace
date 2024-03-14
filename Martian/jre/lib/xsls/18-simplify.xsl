@@ -18,7 +18,92 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="ul">
+    <xsl:template match="table">
+        <xsl:copy>
+            <xsl:apply-templates select="@*" />
+            <xsl:attribute name="class" select="replace(@class, 'Empty_Indent1', 'Empty')" />
+
+            <xsl:apply-templates select="node()" />
+        </xsl:copy>
+    </xsl:template>
+
+    <xsl:template match="*" priority="5">
+        <xsl:choose>
+            <xsl:when test="count(node()) = 1 and 
+                            child::img">
+                <xsl:choose>
+                    <xsl:when test="not(ancestor::td) and 
+                                    self::*[name()='p']">
+                        <div>
+                            <xsl:apply-templates select="@*" />
+                            <xsl:apply-templates select="node()" />
+                        </div>
+                    </xsl:when>
+
+                    <xsl:otherwise>
+                        <xsl:copy>
+                            <xsl:apply-templates select="@*, node()" />
+                        </xsl:copy>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+
+            <xsl:when test="self::ul">
+                <xsl:call-template name="defineul" />
+            </xsl:when>
+
+            <xsl:when test="self::ol">
+                <xsl:call-template name="defineol" />
+            </xsl:when>
+        
+            <xsl:otherwise>
+                <xsl:copy>
+                    <xsl:apply-templates select="@*, node()" />
+                </xsl:copy>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="@id">
+        <xsl:attribute name="id" select="replace(., '^#', '')" />
+    </xsl:template>
+
+    <xsl:template name="defineol">
+        <xsl:variable name="cur" select="." />
+        <xsl:variable name="class" select="*[2]/@class" />
+
+        <xsl:copy>
+            <xsl:apply-templates select="@*" />
+            <xsl:attribute name="class" select="$class" />
+
+            <xsl:for-each select="node()">
+                <xsl:variable name="pos" select="count(preceding-sibling::li) + 1" />
+                
+                <xsl:choose>
+                    <xsl:when test="self::li">
+                        <xsl:copy>
+                            <xsl:apply-templates select="@* except @class"/>
+                            <span>
+                                <xsl:attribute name="class" select="concat('numbered_', $pos)" />
+                                <xsl:value-of select="if (matches($class, '_0\d')) then format-number($pos, '00') else $pos" />
+                            </span>
+                            
+                            <xsl:apply-templates select="node()" />
+                        </xsl:copy>
+                    </xsl:when>
+                
+                    <xsl:otherwise>
+                        <xsl:copy>
+                            <xsl:attribute name="son222" select="''" />
+                            <xsl:apply-templates select="@* | node()"/>
+                        </xsl:copy>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:copy>
+    </xsl:template>
+
+    <xsl:template name="defineul">
         <xsl:variable name="cur" select="." />
         <xsl:variable name="class" select="@class" />
         <xsl:variable name="symbol">
@@ -56,70 +141,7 @@
                 
             </xsl:for-each>
         </xsl:copy>
-    </xsl:template>
-    
-    <xsl:template match="ol">
-        <xsl:variable name="cur" select="." />
-        <xsl:variable name="class" select="*[2]/@class" />
 
-        <xsl:copy>
-            <xsl:apply-templates select="@*" />
-            <xsl:attribute name="class" select="$class" />
-
-            <xsl:for-each select="node()">
-                <xsl:variable name="pos" select="count(preceding-sibling::li) + 1" />
-                
-                <xsl:choose>
-                    <xsl:when test="self::li">
-                        <xsl:copy>
-                            <xsl:apply-templates select="@* except @class"/>
-                            <span>
-                                <xsl:attribute name="class" select="concat('numbered_', $pos)" />
-                                <xsl:value-of select="if (matches($class, '_0\d')) then format-number($pos, '00') else $pos" />
-                            </span>
-                            
-                            <xsl:apply-templates select="node()" />
-                        </xsl:copy>
-                    </xsl:when>
-                
-                    <xsl:otherwise>
-                        <xsl:copy>
-                            <xsl:apply-templates select="@* | node()"/>
-                        </xsl:copy>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:for-each>
-        </xsl:copy>
-    </xsl:template>
-
-    <xsl:template match="table">
-        <xsl:copy>
-            <xsl:apply-templates select="@*" />
-            <xsl:attribute name="class" select="replace(@class, 'Empty_Indent1', 'Empty')" />
-
-            <xsl:apply-templates select="node()" />
-        </xsl:copy>
-    </xsl:template>
-
-    <xsl:template match="*" priority="5">
-        <xsl:choose>
-            <xsl:when test="count(node()) = 1 and 
-                            child::img">
-                <div class="Noteobject">
-                    <xsl:apply-templates select="node()" />
-                </div>
-            </xsl:when>
-        
-            <xsl:otherwise>
-                <xsl:copy>
-                    <xsl:apply-templates select="@*, node()" />
-                </xsl:copy>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-
-    <xsl:template match="@id">
-        <xsl:attribute name="id" select="replace(., '^#', '')" />
     </xsl:template>
 
 </xsl:stylesheet>

@@ -32,7 +32,7 @@ rem java %transform%  -s:"G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/ja
 rem java %transform%  -s:%xslDir%\dummy.xml  -o:%tempDir%\00-videolinkF-group.xml  -xsl:%xslDir%\01-videolinkF-group.xsl
 rem java %transform%  -s:"G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java-workspace/Martian/srcDir/temp/eachSrc/aaa.xml"  -o:%tempDir%\01-simplify.xml  -xsl:%xslDir%\01-simplify.xsl
 rem java %transform%  -s:%tempDir%\01-simplify.xml  -o:%tempDir%\02-simplify.xml  -xsl:%xslDir%\02-simplify.xsl
-java %transform%  -s:%tempDir%\02-simplify.xml  -o:%tempDir%\03-define-BrType.xml  -xsl:%xslDir%\03-define-BrType.xsl
+rem java %transform%  -s:%tempDir%\02-simplify.xml  -o:%tempDir%\03-define-BrType.xml  -xsl:%xslDir%\03-define-BrType.xsl
 rem java %transform%  -s:%tempDir%\03-define-BrType.xml  -o:%tempDir%\04-cleanAttrs.xml  -xsl:%xslDir%\04-cleanAttrs.xsl
 rem java %transform%  -s:%tempDir%\04-cleanAttrs.xml  -o:%tempDir%\05-grouping-br.xml  -xsl:%xslDir%\05-grouping-br.xsl
 rem java %transform%  -s:%tempDir%\05-grouping-br.xml  -o:%tempDir%\06-groupingTR.xml  -xsl:%xslDir%\06-groupingTR.xsl
@@ -52,7 +52,7 @@ rem java %transform%  -s:%tempDir%\17-1-insert-videolink.xml  -o:%tempDir%\17-2-
 rem java %transform%  -s:%tempDir%\17-2-data-preORnext.xml  -o:%tempDir%\17-3-connect-href.xml  -xsl:%xslDir%\17-3-connect-href.xsl
 rem java %transform%  -s:%tempDir%\17-3-connect-href.xml  -o:%tempDir%\17-4-strip-img.xml  -xsl:%xslDir%\17-4-strip-img.xsl
 
-rem java %transform%  -s:%tempDir%\17-4-strip-img.xml  -o:%tempDir%\18-simplify.xml  -xsl:%xslDir%\18-simplify.xsl
+java %transform%  -s:%tempDir%\17-4-strip-img.xml  -o:%tempDir%\18-simplify.xml  -xsl:%xslDir%\18-simplify.xsl
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\19-create-body-header.xml  -xsl:%xslDir%\19-create-body-header.xsl
 
 rem **************************************************************************************
