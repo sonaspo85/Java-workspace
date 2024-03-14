@@ -119,9 +119,5 @@
         <dummy />
     </xsl:template>
 
-    
-
-
-
 
 </xsl:stylesheet>

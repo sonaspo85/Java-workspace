@@ -18,15 +18,6 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="table">
-        <xsl:copy>
-            <xsl:apply-templates select="@*" />
-            <xsl:attribute name="class" select="replace(@class, 'Empty_Indent1', 'Empty')" />
-
-            <xsl:apply-templates select="node()" />
-        </xsl:copy>
-    </xsl:template>
-
     <xsl:template match="*" priority="5">
         <xsl:choose>
             <xsl:when test="count(node()) = 1 and 
@@ -55,6 +46,10 @@
             <xsl:when test="self::ol">
                 <xsl:call-template name="defineol" />
             </xsl:when>
+
+            <xsl:when test="self::table">
+                <xsl:call-template name="definetable" />
+            </xsl:when>
         
             <xsl:otherwise>
                 <xsl:copy>
@@ -66,6 +61,15 @@
 
     <xsl:template match="@id">
         <xsl:attribute name="id" select="replace(., '^#', '')" />
+    </xsl:template>
+
+    <xsl:template name="definetable">
+        <xsl:copy>
+            <xsl:apply-templates select="@*" />
+            <xsl:attribute name="class" select="replace(@class, 'Empty_Indent1', 'Empty')" />
+
+            <xsl:apply-templates select="node()" />
+        </xsl:copy>
     </xsl:template>
 
     <xsl:template name="defineol">
@@ -94,7 +98,6 @@
                 
                     <xsl:otherwise>
                         <xsl:copy>
-                            <xsl:attribute name="son222" select="''" />
                             <xsl:apply-templates select="@* | node()"/>
                         </xsl:copy>
                     </xsl:otherwise>
@@ -141,7 +144,6 @@
                 
             </xsl:for-each>
         </xsl:copy>
-
     </xsl:template>
 
 </xsl:stylesheet>
