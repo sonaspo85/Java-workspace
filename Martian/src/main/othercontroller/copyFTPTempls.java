@@ -49,7 +49,9 @@ public class copyFTPTempls {
                     
                     
                     try {
-                        String ftpdir = "/tcs/confidential/Martian/Templates/html_templates";
+//                        String ftpdir = "/tcs/confidential/Martian/Templates/html_templates";
+                        String ftpdir = "/tcs/confidential/Martian/Templates/" + obj.ver;
+                        System.out.println("ftpdir: " + ftpdir);
                         
                         ftpDownLoad ftpD = new ftpDownLoad(ftpdir, outputpath, "htmlTempls");
                         ftpD.runFTP();

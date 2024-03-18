@@ -70,6 +70,7 @@ import main.othercontroller.copyFTPTempls;
 import main.othercontroller.docInfo;
 import main.othercontroller.readlangxml;
 import main.othercontroller.readtypexml;
+import main.othercontroller.readverxml;
 import main.othercontroller.srcRunRepeat;
 import main.zipcontroller.unZip;
 import javafx.scene.control.ToggleButton;
@@ -81,6 +82,7 @@ public class RC implements Initializable {
     @FXML private Button bt3;
     @FXML private Button bt4;
     @FXML private ComboBox<String> cb1;
+    @FXML private ComboBox<String> cb2;
     @FXML private TextField tf1;
     @FXML private TextField tf2;
 
@@ -110,6 +112,7 @@ public class RC implements Initializable {
     List<String> langL = new ArrayList<>();
     List<String> langL2 = new ArrayList<>();
     List<String> typeL = new ArrayList<>();
+    List<String> verL = new ArrayList<>();
     Map<String, String> langMap = new HashMap<>();
     Path srcP = null;
     List<String> srcFullPath = new ArrayList<>();
@@ -136,6 +139,7 @@ public class RC implements Initializable {
         loadLangs();
         
         cb1.setItems(FXCollections.observableArrayList(typeL));
+        cb2.setItems(FXCollections.observableArrayList(verL));
         
         // 언어 선택 팝업창 출력
         bt2.setOnAction(e -> langPop());
@@ -147,6 +151,8 @@ public class RC implements Initializable {
         bt1.setOnAction(e -> stWork());
      
         cb1.getSelectionModel().selectFirst();
+        cb2.getSelectionModel().select(2);
+        cb2.setStyle("-fx-font-family: consolas");
         
 
         tf1.setText("H:/Workspace/Java-workspace/Martian/srcDir");
@@ -322,13 +328,14 @@ public class RC implements Initializable {
         
         else if(tf1.getText() != "" && cb1.getValue() != null) {
             DisabledControl();
-            
-            
-            
+
             
             // type 목록 추출
             String type = cb1.getValue().toString();
             obj.type = type;
+            // ver 추출            
+            String ver = cb2.getValue().toString();
+            obj.ver = ver;
             
             // Radio 선택 목록 추출
             String radioTxt = videoonOff; 
@@ -954,6 +961,17 @@ public class RC implements Initializable {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+        
+        try {
+            // 3. version.xml 파일 읽기
+            readverxml rt = new readverxml();
+            verL = rt.runverReadF();
+            
+            
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 
         
     }
@@ -1183,6 +1201,7 @@ public class RC implements Initializable {
         langL.clear();
         langL2.clear();
         typeL.clear();
+        verL.clear();
         srcFullPath.clear();
         srcDirFullpath.clear();
         isocurpath.clear();
