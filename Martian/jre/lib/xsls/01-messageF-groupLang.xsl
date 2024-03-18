@@ -80,7 +80,7 @@
             </xsl:matching-substring>
 
             <xsl:non-matching-substring>
-                <xsl:value-of select="." />
+                <xsl:value-of select="replace(., '&quot;', '&amp;quot;')" />
             </xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:template>

@@ -526,10 +526,8 @@ public class RC implements Initializable {
                         throw new RuntimeException(msg);
                     }
                     
-                    updateProgress(100, 100);
-                    updateMessage(String.valueOf(100));
-                    // 버튼 활성화
-//                    activateControl();
+                    updateProgress(0, 100);
+                    updateMessage(String.valueOf(0));
                     
                     return;
                 }
@@ -615,7 +613,7 @@ public class RC implements Initializable {
                 
                 // 1. 각 소스 경로 생성
                 Path fullpathP = Paths.get(obj.srcPathP + File.separator + isocode);
-//                System.out.println("fullpathP: " + fullpathP);
+                System.out.println("fullpathP: " + fullpathP);
                 srcDirFullpath.add(fullpathP);
                 
             });
@@ -668,12 +666,12 @@ public class RC implements Initializable {
                 if(k.equals(lang)) {
                     obj.matchlangMap.put(lang, v);
                     
-//                    System.out.println("lang:" + lang);
+                    System.out.println("lang:" + lang);
                 }
             });
         });
         
-        System.out.println(obj.langL2.toString());
+//        System.out.println("obj.matchlangMap" + obj.matchlangMap.toString());
 
         
     }
@@ -917,7 +915,10 @@ public class RC implements Initializable {
             readlangxml rl = new readlangxml();
             rl.runReadF();
                         
+//            System.out.println("rl.langMap000:" + rl.langMap);
+            
             langMap.putAll(rl.langMap);
+//            System.out.println("langMap111:" + langMap.toString());
 
         } catch (Exception e) {
             String msg = "loadLangs 언어 목록 호출 실패";
@@ -1029,6 +1030,28 @@ public class RC implements Initializable {
             stage.setResizable(false);
             stage.show();
             
+            stage.setOnCloseRequest(event -> {
+                if(Files.exists(obj.tempDir)) {
+                    // Temp 폴더 삭제
+                    try {
+                        System.out.println("temp 폴더 삭제");
+                        obj.recursDel(obj.tempDir);
+                           
+                    } catch (Exception e3) {
+                        msg = "temp 폴더 삭제 실패";
+                        System.out.println("msg: " + msg);
+                        throw new RuntimeException(msg);
+                        
+                    }
+                }
+                activateControl();
+                
+                //------------------------------
+                System.out.println("완료 팝업창");
+                finishedPop();
+                
+            });
+            
         } catch(Exception e) {
             e.printStackTrace();
         }
@@ -1080,6 +1103,9 @@ public class RC implements Initializable {
 
                 //------------------------------
                 System.out.println("완료 팝업창");
+                
+                
+                
                 finishedPop();
                 
             } catch (Exception e) {
@@ -1335,8 +1361,28 @@ public class RC implements Initializable {
             });
             
             stopBt.setOnAction(e -> {
+//                activateControl();
+//                dg.close();
+                System.out.println("stopBt 클릭!!!");
+                
+                if(Files.exists(obj.tempDir)) {
+                    // Temp 폴더 삭제
+                    try {
+                        System.out.println("temp 폴더 삭제");
+                        obj.recursDel(obj.tempDir);
+                           
+                    } catch (Exception e3) {
+                        msg = "temp 폴더 삭제 실패";
+                        System.out.println("msg: " + msg);
+                        throw new RuntimeException(msg);
+                        
+                    }
+                }
                 activateControl();
-                dg.close();
+                
+                //------------------------------
+                System.out.println("완료 팝업창");
+                finishedPop();
             });
             
            

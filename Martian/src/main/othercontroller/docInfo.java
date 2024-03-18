@@ -32,6 +32,7 @@ public class docInfo {
         System.out.println("runExtractXML() 시작");
 
         String docInfoS = obj.resourceDir + File.separator + "docInfo.xml";
+        System.out.println("docInfoS: " + docInfoS);
         Path path = Paths.get(docInfoS);
 
         // 파일이 존재 한다면 삭제
@@ -201,7 +202,7 @@ public class docInfo {
             }
         }
         
-//        System.out.println("item8data: "+ item8data);
+        System.out.println("item8data: "+ item8data);
         
         
         return item8data;

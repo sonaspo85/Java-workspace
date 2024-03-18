@@ -28,7 +28,7 @@ rem set excelTemplsDir="G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java
 
 
 rem rem rem rem rem rem *************************************************************
-rem java %transform%  -s:"G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java-workspace/Martian/srcDir/temp/eachSrc/RAC113-00_IB_23Y AR9500T GEO_EU_EN-WEB_.xml"  -o:%tempDir%\00-messageF-groupLang.xml  -xsl:%xslDir%\01-messageF-groupLang.xsl docinfoF=%docinfoF%
+java %transform%  -s:"H:/Workspace/Java-workspace/Martian/srcDir/temp/eachSrc/aaa.xml"  -o:%tempDir%\00-messageF-groupLang.xml  -xsl:%xslDir%\01-messageF-groupLang.xsl docinfoF=%docinfoF%
 rem java %transform%  -s:%xslDir%\dummy.xml  -o:%tempDir%\00-videolinkF-group.xml  -xsl:%xslDir%\01-videolinkF-group.xsl
 rem java %transform%  -s:"G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java-workspace/Martian/srcDir/temp/eachSrc/aaa.xml"  -o:%tempDir%\01-simplify.xml  -xsl:%xslDir%\01-simplify.xsl
 rem java %transform%  -s:%tempDir%\01-simplify.xml  -o:%tempDir%\02-simplify.xml  -xsl:%xslDir%\02-simplify.xsl
@@ -52,7 +52,7 @@ rem java %transform%  -s:%tempDir%\17-1-insert-videolink.xml  -o:%tempDir%\17-2-
 rem java %transform%  -s:%tempDir%\17-2-data-preORnext.xml  -o:%tempDir%\17-3-connect-href.xml  -xsl:%xslDir%\17-3-connect-href.xsl
 rem java %transform%  -s:%tempDir%\17-3-connect-href.xml  -o:%tempDir%\17-4-strip-img.xml  -xsl:%xslDir%\17-4-strip-img.xsl
 
-java %transform%  -s:%tempDir%\17-4-strip-img.xml  -o:%tempDir%\18-simplify.xml  -xsl:%xslDir%\18-simplify.xsl
+rem java %transform%  -s:%tempDir%\17-4-strip-img.xml  -o:%tempDir%\18-simplify.xml  -xsl:%xslDir%\18-simplify.xsl
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\19-create-body-header.xml  -xsl:%xslDir%\19-create-body-header.xsl
 
 rem **************************************************************************************
