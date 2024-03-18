@@ -72,6 +72,7 @@ import main.othercontroller.readlangxml;
 import main.othercontroller.readtypexml;
 import main.othercontroller.srcRunRepeat;
 import main.zipcontroller.unZip;
+import javafx.scene.control.ToggleButton;
 
 
 public class RC implements Initializable {
@@ -83,9 +84,8 @@ public class RC implements Initializable {
     @FXML private TextField tf1;
     @FXML private TextField tf2;
 
-    @FXML private ToggleGroup videoGroup;
-    @FXML private RadioButton rb1;
-    @FXML private RadioButton rb2;
+    
+    
     @FXML private ProgressBar pbar1;
     @FXML private Text pbart1;
     String userName = System.getProperty("user.name");  // SMC
@@ -93,6 +93,8 @@ public class RC implements Initializable {
     @FXML private ContextMenu cm1;
     @FXML private MenuItem mi1;
     @FXML private MenuItem mi2;
+    @FXML private ToggleButton tobt1;
+    
     
     
     private boolean stop = false;
@@ -145,7 +147,7 @@ public class RC implements Initializable {
         bt1.setOnAction(e -> stWork());
      
         cb1.getSelectionModel().selectFirst();
-        rb2.setSelected(true);
+        
 
         tf1.setText("H:/Workspace/Java-workspace/Martian/srcDir");
         tf2.setText("111");
@@ -173,6 +175,25 @@ public class RC implements Initializable {
                 
             }
         });
+        
+        
+        tobt1.selectedProperty().addListener(((observable, oldValue, newValue) -> {
+            System.out.println(tobt1.getText() + " changed from " + oldValue + " to " + newValue);
+            
+            if (tobt1.isSelected()) {
+                tobt1.setStyle(
+                    "-fx-border-color: red;" +  
+                    "-fx-background-color: ANTIQUEWHITE;"
+                );
+                
+            } else {
+                tobt1.setStyle(
+                    "-fx-border-color: inherit;" +  
+                    "-fx-background-color: inherit;"
+                );
+            }
+            
+        }));
 
     }
     
@@ -284,37 +305,33 @@ public class RC implements Initializable {
         obj.modelNumber = tf2.getText();
         System.out.println("obj.modelNumber: " + obj.modelNumber);
         
+        String videoonOff = "off";
+        if(tobt1.isSelected()) {
+            videoonOff = "on";
+        }
         
-        /*
-        // type 목록 추출
-        String type = cb1.getValue().toString();
-        obj.type = type;
-        // Radio 선택 목록 추출
-        RadioButton selectedRadio = (RadioButton) videoGroup.getSelectedToggle();
-        String radioTxt = selectedRadio.getText(); 
-//        obj.ridioTxt = radioTxt;
-          */      
-        
-        RadioButton selectedRadio = (RadioButton) videoGroup.getSelectedToggle();
-        if(tf1.getText() == "" || cb1.getValue() == null || selectedRadio == null) {
+        if(tf1.getText() == "" || cb1.getValue() == null) {
             System.out.println("tf1.getText(): " + tf1.getText());
             System.out.println("cb1.getValue(): " + cb1.getValue().toString());
-            System.out.println("selectedRadio: " + selectedRadio);
+            System.out.println("videoonOff: " + videoonOff);
             
             msg = "type / 경로 / video on/off를 모두 선택해 주세요.";                    
             bt1.setDisable(false);
             customException(msg);
         } 
         
-        else if(tf1.getText() != "" && cb1.getValue() != null && selectedRadio != null) {
+        else if(tf1.getText() != "" && cb1.getValue() != null) {
             DisabledControl();
+            
+            
+            
             
             // type 목록 추출
             String type = cb1.getValue().toString();
             obj.type = type;
             
             // Radio 선택 목록 추출
-            String radioTxt = selectedRadio.getText(); 
+            String radioTxt = videoonOff; 
             obj.ridioTxt = radioTxt;
             
             Task<Void> task2 = new Task<Void>() {

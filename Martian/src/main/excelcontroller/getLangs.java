@@ -98,6 +98,13 @@ public class getLangs {
                                     
                                 }
                                 
+                            } else if(getSheetName.equals("version")) {
+                                if (j == 1) {
+                                    listitem.setAttribute("version", str1);
+//                                    System.out.println("language: " + str1);
+                                    
+                                }
+                                
                             }
 
                         }

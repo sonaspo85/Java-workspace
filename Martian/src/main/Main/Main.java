@@ -15,7 +15,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         // 1. FXMLLoader 객체 생성
-        FXMLLoader loader = new FXMLLoader(Main.class.getClassLoader().getResource("main/fxcontroller/root.fxml"));
+        FXMLLoader loader = new FXMLLoader(Main.class.getClassLoader().getResource("main/fxcontroller/root2.fxml"));
 
         // load() 인스턴스 메소드 호출하여, root.fxml 파일 로딩
         Parent root = loader.load();
