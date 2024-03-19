@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/* main section */
+
+#mainSection .wrap {
+    max-width: 100%;
+}
+
+#mainSection .container {
+    padding: 0;
+}
+
+#mainSection .content {
+    width: 100%;
+    height: calc(100vh - 96px);
+    margin-top: 96px;
+}
+
+
+.main_bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background: url(../img/ACR_1.jpg) no-repeat 50% 20%; */
+    background-size: cover;
+}
+[objtype="FAC"] .main_bg {
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.main_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: rgba(0, 0, 0, .15);
+    z-index: 9;
+}
+
+.main_content .cont_wrap {
+    position: relative;
+    width: calc(100% - 140px);
+    max-width: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_content .txt_wrap {
+    margin-bottom: 100px;
+    transition: margin .3s;
+}
+
+.main_content .txt_wrap h1 {
+    font-size: 63px;
+    transition: font-size .2s;
+}
+
+.main_content .txt_wrap h2 {
+    font-size: 30px;
+    transition: font-size .2s;
+}
+
+.main_content .btn_wrap .download_btn {
+    display: inline-block;
+    position: relative;
+    padding: 10px 15px;
+    color: #fff;
+    background: #00adec;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all .2s;
+}
+
+.main_content .btn_wrap .download_btn:hover,
+.main_content .btn_wrap .download_btn:focus {
+    background: #8cd3f5;
+}
+
+
+/* start section */
+
+#startSection {
+    padding: 50px 0;
+}
+
+.before_use {
+    background: #eeefef;
+    padding: 10px;
+}
+
+.before_use h4 {
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.before_use li {
+    font-size: 17px;
+}
+
+
+/* responsive */
+
+@media all and (max-width: 1303px) {
+    .main_content .txt_wrap {
+        margin-bottom: 40px;
+    }
+    .main_content .txt_wrap h1 {
+        font-size: 35px;
+    }
+    .main_content .txt_wrap h2 {
+        font-size: 23px;
+    }
+    .main_content .btn_wrap .download_btn {
+        padding: 7px 10px;
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    #mainSection .content {
+        height: calc(100vh - 48px);
+        margin-top: 48px;
+    }
+    html[objtype="DHM"] .main_bg {
+        background-position: 80%;
+    }
+}
+
+@media all and (max-width: 540px) {
+    #mainSection .content {
+        height: calc(100vh - 96px);
+        margin-top: 96px;
+    }
+    .main_content .cont_wrap {
+        width: calc(100% - 60px);
+    }
+}
