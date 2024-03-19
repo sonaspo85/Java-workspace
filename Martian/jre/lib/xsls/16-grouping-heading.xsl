@@ -56,7 +56,7 @@
                                 <xsl:apply-templates select="@*"/>
                                 
                                 <xsl:if test="$level = 1">
-                                    <img src="./img/title_icon.png" alt="" />
+                                    <img src="./img/title_icon.png" />
                                 </xsl:if>
 
                                 <xsl:if test="$level = 2">

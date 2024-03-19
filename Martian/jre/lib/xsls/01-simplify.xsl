@@ -127,6 +127,11 @@
 
         <xsl:element name="Image" inherit-namespaces="no">
             <xsl:attribute name="href" select="$href"/>
+
+            <xsl:if test="parent::Rectangle/ObjectExportOption[not(matches(@CustomAltText, '^\$ID'))]">
+                <xsl:attribute name="alt" select="parent::Rectangle/ObjectExportOption/@CustomAltText" />
+            </xsl:if>
+
             <xsl:attribute name="class" select="replace(replace($class, 'HTML%3a', ''), 'Cover%3a', '')"/>
         </xsl:element>
     </xsl:template>

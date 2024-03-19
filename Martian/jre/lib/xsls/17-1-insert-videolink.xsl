@@ -65,7 +65,7 @@
 
         <section file="{concat('content', $fileNum + 1, '.html')}">
             <h1 class="Chapter" id="Video_C">
-                <img src="./img/title_icon.png" alt="" />
+                <img src="./img/title_icon.png" />
                 <xsl:value-of select="$vcTxt" />
             </h1>
 

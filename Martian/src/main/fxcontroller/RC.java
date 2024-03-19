@@ -139,7 +139,7 @@ public class RC implements Initializable {
         loadLangs();
         
         cb1.setItems(FXCollections.observableArrayList(typeL));
-        cb2.setItems(FXCollections.observableArrayList(verL));
+//        cb2.setItems(FXCollections.observableArrayList(verL));
         
         // 언어 선택 팝업창 출력
         bt2.setOnAction(e -> langPop());
@@ -151,12 +151,13 @@ public class RC implements Initializable {
         bt1.setOnAction(e -> stWork());
      
         cb1.getSelectionModel().selectFirst();
-        cb2.getSelectionModel().select(2);
-        cb2.setStyle("-fx-font-family: consolas");
+        cb2.setDisable(true);
+//        cb2.getSelectionModel().select(2);
+//        cb2.setStyle("-fx-font-family: consolas");
         
 
-        tf1.setText("H:/Workspace/Java-workspace/Martian/srcDir");
-        tf2.setText("111");
+//        tf1.setText("H:/Workspace/Java-workspace/Martian/srcDir");
+//        tf2.setText("111");
         
         bt4.setOnAction(e -> exedExcel());
         
@@ -334,7 +335,8 @@ public class RC implements Initializable {
             String type = cb1.getValue().toString();
             obj.type = type;
             // ver 추출            
-            String ver = cb2.getValue().toString();
+//            String ver = cb2.getValue().toString();
+            String ver = "Ver003";
             obj.ver = ver;
             
             // Radio 선택 목록 추출
@@ -563,11 +565,11 @@ public class RC implements Initializable {
                                         
                     // Progressbar 초기 상태로 변경
                     updateProgress(0, 100);
-/*
+
                     if(!userName.matches("SMC") && Files.isDirectory(obj.xslsDir)) {
                         delXSLT();
                         
-                        // Temp 폴더 삭제
+                        /*// Temp 폴더 삭제
                         try {
                             obj.recursDel(obj.tempDir);
                             
@@ -576,9 +578,9 @@ public class RC implements Initializable {
                             System.out.println("msg: " + msg);
                             throw new RuntimeException(msg);
                             
-                        }
+                        }*/
                     }
-                    */
+                    
                     activateControl();
                     
                     return;
@@ -1068,17 +1070,9 @@ public class RC implements Initializable {
             stage.setOnCloseRequest(event -> {
                 if(Files.exists(obj.tempDir)) {
                     // Temp 폴더 삭제
-                    try {
-                        System.out.println("temp 폴더 삭제");
-                        obj.recursDel(obj.tempDir);
-                           
-                    } catch (Exception e3) {
-                        msg = "temp 폴더 삭제 실패";
-                        System.out.println("msg: " + msg);
-                        throw new RuntimeException(msg);
-                        
-                    }
+                    removeTemp();
                 }
+                
                 activateControl();
                 
                 //------------------------------
@@ -1123,26 +1117,15 @@ public class RC implements Initializable {
 
                 if(Files.exists(obj.tempDir)) {
                     // Temp 폴더 삭제
-                    try {
-                        System.out.println("temp 폴더 삭제");
-                        obj.recursDel(obj.tempDir);
-                           
-                    } catch (Exception e3) {
-                        msg = "temp 폴더 삭제 실패";
-                        System.out.println("msg: " + msg);
-                        throw new RuntimeException(msg);
-                        
-                    }
+                    removeTemp();
+                    
                     activateControl();
+                    finishedPop();
                 }
 
                 //------------------------------
                 System.out.println("완료 팝업창");
-                
-                
-                
-                finishedPop();
-                
+
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -1373,17 +1356,10 @@ public class RC implements Initializable {
 
                     if(Files.exists(obj.tempDir)) {
                         // Temp 폴더 삭제
-                        try {
-                            System.out.println("temp 폴더 삭제");
-                            obj.recursDel(obj.tempDir);
-                               
-                        } catch (Exception e3) {
-                            msg = "temp 폴더 삭제 실패";
-                            System.out.println("msg: " + msg);
-                            throw new RuntimeException(msg);
-                            
-                        }
+                        removeTemp();
+                        
                     }
+                    
                     activateControl();
                     
                     //------------------------------
@@ -1403,17 +1379,10 @@ public class RC implements Initializable {
                 
                 if(Files.exists(obj.tempDir)) {
                     // Temp 폴더 삭제
-                    try {
-                        System.out.println("temp 폴더 삭제");
-                        obj.recursDel(obj.tempDir);
-                           
-                    } catch (Exception e3) {
-                        msg = "temp 폴더 삭제 실패";
-                        System.out.println("msg: " + msg);
-                        throw new RuntimeException(msg);
-                        
-                    }
+                    removeTemp();
+                    
                 }
+                
                 activateControl();
                 
                 //------------------------------
@@ -1437,6 +1406,23 @@ public class RC implements Initializable {
         } catch(Exception e1) {
             e1.printStackTrace();
         }
+    }
+    
+    public void removeTemp() {
+        System.out.println("removeTemp() 시작");
+        
+        try {
+            System.out.println("temp 폴더 삭제");
+            obj.recursDel(obj.tempDir);
+               
+        } catch (Exception e3) {
+            msg = "temp 폴더 삭제 실패";
+            System.out.println("msg: " + msg);
+            throw new RuntimeException(msg);
+            
+        }
+        
+        
     }
     
     
