@@ -68,7 +68,16 @@
                                                     <xsl:variable name="id" select="@ast-id" />
                                                     <li>
                                                         <a class="sub_btn">
-                                                            <xsl:attribute name="href" select="concat('#', $id)" />
+                                                            <xsl:choose>
+                                                                <xsl:when test="child::a/@href">
+                                                                    <xsl:attribute name="href" select="child::a/@href" />
+                                                                </xsl:when>
+                                                            
+                                                                <xsl:otherwise>
+                                                                    <xsl:attribute name="href" select="concat('#', $id)" />
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
+                                                            
                                                             <xsl:value-of select="$cur" />
                                                         </a>
                                                     </li>

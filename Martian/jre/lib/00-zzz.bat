@@ -47,14 +47,14 @@ rem java %transform%  -s:%tempDir%\12-nested-tags.xml  -o:%tempDir%\13-simplify.
 rem java %transform%  -s:%tempDir%\13-simplify.xml  -o:%tempDir%\14-connect-link.xml  -xsl:%xslDir%\14-connect-link.xsl
 rem java %transform%  -s:%tempDir%\14-connect-link.xml  -o:%tempDir%\15-simplify.xml  -xsl:%xslDir%\15-simplify.xsl
 rem java %transform%  -s:%tempDir%\15-simplify.xml  -o:%tempDir%\16-grouping-heading.xml  -xsl:%xslDir%\16-grouping-heading.xsl
-java %transform%  -s:%tempDir%\16-grouping-heading.xml  -o:%tempDir%\17-1-insert-videolink.xml  -xsl:%xslDir%\17-1-insert-videolink.xsl
+rem java %transform%  -s:%tempDir%\16-grouping-heading.xml  -o:%tempDir%\17-1-insert-videolink.xml  -xsl:%xslDir%\17-1-insert-videolink.xsl
 rem java %transform%  -s:%tempDir%\17-1-insert-videolink.xml  -o:%tempDir%\17-2-data-preORnext.xml  -xsl:%xslDir%\17-2-data-preORnext.xsl
 
 rem java %transform%  -s:%tempDir%\17-2-data-preORnext.xml  -o:%tempDir%\17-3-connect-href.xml  -xsl:%xslDir%\17-3-connect-href.xsl
 rem java %transform%  -s:%tempDir%\17-3-connect-href.xml  -o:%tempDir%\17-4-strip-img.xml  -xsl:%xslDir%\17-4-strip-img.xsl
 
 rem java %transform%  -s:%tempDir%\17-4-strip-img.xml  -o:%tempDir%\18-simplify.xml  -xsl:%xslDir%\18-simplify.xsl
-rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\19-create-body-header.xml  -xsl:%xslDir%\19-create-body-header.xsl
+java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\19-create-body-header.xml  -xsl:%xslDir%\19-create-body-header.xsl
 
 rem **************************************************************************************
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\20-split-html.xsl

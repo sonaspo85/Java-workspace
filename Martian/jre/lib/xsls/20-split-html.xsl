@@ -49,7 +49,7 @@
     <xsl:template match="root">
         <xsl:variable name="isocode" select="@isocode" />
 
-        <xsl:for-each select="section">
+        <xsl:for-each select="section[not(matches(@class, 'nonhtml'))]">
             <xsl:variable name="cur" select="." />
             
             <xsl:variable name="filename">

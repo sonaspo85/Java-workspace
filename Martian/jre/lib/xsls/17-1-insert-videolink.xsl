@@ -88,7 +88,7 @@
     </xsl:template>
 
     <xsl:template name="remoconLink">
-        <xsl:variable name="getLinkNode">
+        <!-- <xsl:variable name="getLinkNode">
             <xsl:for-each select="$remoteurlPath03/listitem[@type=$type]/div">
                 <xsl:variable name="remote_key" select="@key" />
                 <xsl:variable name="remote_href" select="$remoteurl" />
@@ -103,7 +103,7 @@
                     </p>
                 </xsl:for-each>
             </xsl:for-each>
-        </xsl:variable>
+        </xsl:variable> -->
 
         <xsl:variable name="fileNum">
             <xsl:choose>
@@ -117,8 +117,9 @@
             </xsl:choose>
         </xsl:variable>
         
+        <xsl:variable name="relatedurl" select="concat('/../', $remoteurl, '/start_here.html')" />
 
-        <section file="{concat('content', $fileNum + 1, '.html')}">
+        <section file="{concat('content', $fileNum + 1, '.html')}" class="nonhtml">
             <h1 class="Chapter" id="remote_C">
                 <img src="./img/title_icon.png" />
                 <xsl:value-of select="$remoteurlPath03/listitem[@type=$type]/div[@key = 'Remote_1']/*[local-name()=upper-case($isocode)]" />
@@ -126,7 +127,10 @@
 
             <div class="Heading1">
                 <h2 class="Heading1 shap-target remove-space" ast-id="remote_H1">
-                    <xsl:value-of select="$remoteurlPath03/listitem[@type=$type]/div[@key = 'Remote_2']/*[local-name()=upper-case($isocode)]" />
+
+                    <a href="{$relatedurl}">
+                        <xsl:value-of select="$remoteurlPath03/listitem[@type=$type]/div[@key = 'Remote_2']/*[local-name()=upper-case($isocode)]" />
+                    </a>
                 </h2>
             </div>
         </section>
