@@ -21,7 +21,7 @@
         <tabs>
           <Tab text="Martian">
             <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="335.0" prefWidth="534.0">
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="316.0" prefWidth="526.0">
                      <children>
                         <Pane layoutX="6.0" layoutY="7.0" prefHeight="59.0" prefWidth="520.0" style="-fx-border-style: solid; -fx-border-color: black;">
                            <children>

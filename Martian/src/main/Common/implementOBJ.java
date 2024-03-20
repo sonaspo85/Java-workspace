@@ -45,7 +45,9 @@ public class implementOBJ implements commonOBJ {
 	public static String type = "";
 	public static String ver = "";
 	public static String ridioTxt = "";
+	public static String remoteswitch = "";
 	public static String remoconTxt = "";
+	public static String manualType = "";
 	public static String modelNumber = "";
 	public static List<String> langL2 = new ArrayList<>();
 	

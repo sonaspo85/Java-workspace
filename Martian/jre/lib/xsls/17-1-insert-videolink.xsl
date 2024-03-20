@@ -31,7 +31,7 @@
                     <xsl:call-template name="videoLink" />
                 </xsl:if>
 
-                <xsl:if test="string-length($remoconswitch) &gt; 2">
+                <xsl:if test="matches($remoteswitch, '^on$')">
                     <xsl:call-template name="remoconLink" />
                 </xsl:if>
             </xsl:when>

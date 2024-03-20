@@ -210,7 +210,7 @@ public class RC implements Initializable {
                     @Override
                     public void handle(MouseEvent e) {
                         if (e.getButton() == MouseButton.SECONDARY) {
-                            if(e.getClickCount() == 1){
+                            if(e.getClickCount() == 2){
                                 String tobt2Txt = tobt2.getText(); 
                                 
                                 if (tobt2Txt.contains("제품")) {
@@ -235,36 +235,7 @@ public class RC implements Initializable {
             }
             
         }));
-        
-        /*
-        lb1.setOnMouseClicked(new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent mouseEvent) {
-                if(mouseEvent.getButton().equals(MouseButton.PRIMARY)){
-                    if(mouseEvent.getClickCount() == 2){
-                        System.out.println("Double clicked");
-                        tf3.setDisable(false);
-                        tf3.setStyle("-fx-border-color: #c1c3c9;" + 
-                                     "-fx-background-color: #f0eece;");
-                    }
-                }
-            }
-        });*/
-        
-        /*tf3.setOnMouseClicked(new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent mouseEvent) {
-                if(mouseEvent.getButton().equals(MouseButton.PRIMARY)){
-                    if(mouseEvent.getClickCount() == 2){
-                        System.out.println("Double clicked");
-                        tf3.setStyle("-fx-border-color: none;");
-                        tf3.clear();
-                        tf3.setDisable(true);
-                    }
-                }
-            }
-        });*/
-        
+
     }
     
     // 예외 발생시 호출될 메소드
@@ -363,11 +334,8 @@ public class RC implements Initializable {
         System.out.println("stWork() 시작");
 
         String tfTxt = tf1.getText();
-//        System.out.println("tfTxt: " + tfTxt);
         if(tfTxt == "") {
-            // textfield 값 추출
             tfTxt = tf1.getText();
-
         }
         
         obj.srcPathP = Paths.get(tfTxt);
@@ -379,7 +347,7 @@ public class RC implements Initializable {
         if(tobt1.isSelected()) {
             videoonOff = "on";
         }
-        
+                
         if(tf1.getText() == "" || cb1.getValue() == null) {
             System.out.println("tf1.getText(): " + tf1.getText());
             System.out.println("cb1.getValue(): " + cb1.getValue().toString());
@@ -405,10 +373,21 @@ public class RC implements Initializable {
             String radioTxt = videoonOff; 
             obj.ridioTxt = radioTxt;
             
-            // 리모컨 텍스트 추출
-            String remoconTxt = tf3.getText();
-            obj.remoconTxt = remoconTxt; 
+            String remoteswitch = "off";
+            String remoconTxt = "";
+            String manualType = tobt2.getText();
+            obj.manualType = manualType;
             
+            if(tobt2.isSelected()) {
+                remoteswitch = "on";
+                obj.remoteswitch = remoteswitch; 
+                // 리모컨 텍스트 추출
+                remoconTxt = tf3.getText();
+                obj.remoconTxt = remoconTxt;
+
+            }
+            
+
             Task<Void> task2 = new Task<Void>() {
                 @Override
                 protected Void call() {
@@ -1244,6 +1223,11 @@ public class RC implements Initializable {
         bt2.setDisable(true);
         bt3.setDisable(true);
         bt4.setDisable(true);
+        tf2.setDisable(true);
+        tf3.setDisable(true);
+        tobt1.setDisable(true);
+        tobt2.setDisable(true);
+        
     }
     
     public void activateControl() {
@@ -1255,6 +1239,10 @@ public class RC implements Initializable {
         bt2.setDisable(false);
         bt3.setDisable(false);
         bt4.setDisable(false);
+        tf2.setDisable(false);
+        tf3.setDisable(false);
+        tobt1.setDisable(false);
+        tobt2.setDisable(true);
         
         langL.clear();
         langL2.clear();

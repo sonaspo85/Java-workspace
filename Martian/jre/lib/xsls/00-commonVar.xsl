@@ -24,7 +24,9 @@
     <xsl:variable name="modelcode" select="$docinfo/root/@modelNumber" />
     <xsl:variable name="langmapCnt" select="count(tokenize($docinfo/root/item[@id = 'langsMap']/@sequence, ','))" />
     <xsl:variable name="videoswitch" select="$docinfo/root/@videoSwitch" />
-    <xsl:variable name="remoconswitch" select="$docinfo/root/@remocon" />
+    <xsl:variable name="remoteswitch" select="$docinfo/root/@remoteswitch" />
+    <xsl:variable name="remoteurl" select="$docinfo/root/@remoconURL" />
+    
     
     <!-- <xsl:variable name="navF" select="document(concat($tempDir, '/19-create-body-header.xml'))/root" /> -->
     <xsl:variable name="navF" select="document(iri-to-uri(concat($tempDir, '/19-create-body-header.xml')))/root" />
