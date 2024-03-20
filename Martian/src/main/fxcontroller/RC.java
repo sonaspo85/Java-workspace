@@ -96,6 +96,7 @@ public class RC implements Initializable {
     @FXML private MenuItem mi1;
     @FXML private MenuItem mi2;
     @FXML private ToggleButton tobt1;
+    @FXML private ToggleButton tobt2;
     
     
     
@@ -183,15 +184,33 @@ public class RC implements Initializable {
             }
         });
         
+//        tobt2.selectedProperty().set(true);
+//        boolean tobt2flag = tobt2.isSelected();
         
-        tobt1.selectedProperty().addListener(((observable, oldValue, newValue) -> {
-            System.out.println(tobt1.getText() + " changed from " + oldValue + " to " + newValue);
-            
-            if (tobt1.isSelected()) {
-                tobt1.setStyle(
+        tobt2.selectedProperty().addListener(((observable, oldValue, newValue) -> {
+            System.out.println(tobt2.getText() + " changed from " + oldValue + " to " + newValue);
+
+            if (newValue == true) {
+                /*tobt2.setStyle(
                     "-fx-border-color: #c1c3c9;" +  
                     "-fx-background-color: #f0eece;"
-                );
+                );*/
+                
+                tobt2.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
+                    @Override
+                    public void handle(MouseEvent e) {
+                        if (e.getButton() == MouseButton.SECONDARY) {
+                            if(e.getClickCount() == 1){
+//                                System.out.println("한번클릭 했음");
+                                
+                                System.out.println("tobt2Txt: " + tobt2.getText());
+                                
+                            }
+                        }
+                        
+                    }
+                });
+                
                 
             } else {
                 tobt1.setStyle(
@@ -202,6 +221,10 @@ public class RC implements Initializable {
             }
             
         }));
+        
+        
+        
+        
         
 
         lb1.setOnMouseClicked(new EventHandler<MouseEvent>() {
@@ -231,6 +254,8 @@ public class RC implements Initializable {
                 }
             }
         });
+        
+        
 
 
     }

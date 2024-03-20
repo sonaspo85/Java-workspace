@@ -30,6 +30,10 @@
                 <xsl:if test="matches($videoswitch, '^on$')">
                     <xsl:call-template name="videoLink" />
                 </xsl:if>
+
+                <xsl:if test="string-length($remoconswitch) &gt; 2">
+                    <xsl:call-template name="remoconLink" />
+                </xsl:if>
             </xsl:when>
         
             <xsl:otherwise>
@@ -82,5 +86,46 @@
             </div>
         </section>
     </xsl:template>
+
+    <xsl:template name="remoconLink">
+        <xsl:variable name="getLinkNode">
+            <xsl:for-each select="$videolinkPath03/listitem[@type=$type]/div">
+                <xsl:variable name="video_key" select="@key" />
+                <xsl:variable name="video_href" select="@href" />
+                
+                <xsl:for-each select="*[local-name()=upper-case($isocode)]">
+                    <p id="{$video_key}">
+                        <span class="see-page">
+                            <a href="{$video_href}" target="_blank">
+                                <xsl:value-of select="concat('• ', .)" />
+                            </a>
+                        </span>
+                    </p>
+                </xsl:for-each>
+            </xsl:for-each>
+        </xsl:variable>
+
+        <xsl:variable name="fileNum" select="xs:integer(replace(@file, '(content)(\d)(.html)', '$2'))" />
+
+        <section file="{concat('content', $fileNum + 1, '.html')}">
+            <h1 class="Chapter" id="Video_C">
+                <img src="./img/title_icon.png" />
+                <xsl:value-of select="$vcTxt" />
+            </h1>
+
+            <div class="Heading1">
+                <h2 class="Heading1 shap-target remove-space" ast-id="video_H1">
+                    <xsl:value-of select="$vhTxt" />
+                </h2>
+
+                <div class="UnorderList_1" id="video_list">
+                    <p id="video_list-1">
+                        <xsl:copy-of select="$getLinkNode" />
+                    </p>
+                </div>
+            </div>
+        </section>
+    </xsl:template>
+
 
 </xsl:stylesheet>
