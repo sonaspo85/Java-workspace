@@ -42,6 +42,7 @@ public class transformXSLT {
         try {
             list.add(new InOutPathClas(srcDir, obj.tempDir + "/00-messageF-groupLang.xml", obj.xslsDir + "/01-messageF-groupLang.xsl"));
             list.add(new InOutPathClas(obj.xslsDir + "/dummy.xml", obj.tempDir + "/00-videolinkF-group.xml", obj.xslsDir + "/01-videolinkF-group.xsl"));
+            list.add(new InOutPathClas(obj.xslsDir + "/dummy.xml", obj.tempDir + "/00-remoteurlF-group.xml", obj.xslsDir + "/01-remoteurlF-group.xsl"));
             list.add(new InOutPathClas(srcDir, obj.tempDir + "/01-simplify.xml", obj.xslsDir + "/01-simplify.xsl"));
             list.add(new InOutPathClas(obj.tempDir + "/01-simplify.xml", obj.tempDir + "/02-simplify.xml", obj.xslsDir + "/02-simplify.xsl"));
             list.add(new InOutPathClas(obj.tempDir + "/02-simplify.xml", obj.tempDir + "/03-define-BrType.xml", obj.xslsDir + "/03-define-BrType.xsl"));

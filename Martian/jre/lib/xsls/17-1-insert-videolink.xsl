@@ -89,14 +89,14 @@
 
     <xsl:template name="remoconLink">
         <xsl:variable name="getLinkNode">
-            <xsl:for-each select="$videolinkPath03/listitem[@type=$type]/div">
-                <xsl:variable name="video_key" select="@key" />
-                <xsl:variable name="video_href" select="@href" />
+            <xsl:for-each select="$remoteurlPath03/listitem[@type=$type]/div">
+                <xsl:variable name="remote_key" select="@key" />
+                <xsl:variable name="remote_href" select="$remoteurl" />
                 
                 <xsl:for-each select="*[local-name()=upper-case($isocode)]">
-                    <p id="{$video_key}">
+                    <p id="{$remote_key}">
                         <span class="see-page">
-                            <a href="{$video_href}" target="_blank">
+                            <a href="{$remote_href}" target="_blank">
                                 <xsl:value-of select="concat('• ', .)" />
                             </a>
                         </span>
@@ -105,24 +105,29 @@
             </xsl:for-each>
         </xsl:variable>
 
-        <xsl:variable name="fileNum" select="xs:integer(replace(@file, '(content)(\d)(.html)', '$2'))" />
+        <xsl:variable name="fileNum">
+            <xsl:choose>
+                <xsl:when test="matches($videoswitch, '^on$')">
+                    <xsl:value-of select="xs:integer(replace(@file, '(content)(\d)(.html)', '$2')) + 1" />
+                </xsl:when>
+            
+                <xsl:otherwise>
+                    <xsl:value-of select="xs:integer(replace(@file, '(content)(\d)(.html)', '$2'))" />
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        
 
         <section file="{concat('content', $fileNum + 1, '.html')}">
-            <h1 class="Chapter" id="Video_C">
+            <h1 class="Chapter" id="remote_C">
                 <img src="./img/title_icon.png" />
-                <xsl:value-of select="$vcTxt" />
+                <xsl:value-of select="$remoteurlPath03/listitem[@type=$type]/div[@key = 'Remote_1']/*[local-name()=upper-case($isocode)]" />
             </h1>
 
             <div class="Heading1">
-                <h2 class="Heading1 shap-target remove-space" ast-id="video_H1">
-                    <xsl:value-of select="$vhTxt" />
+                <h2 class="Heading1 shap-target remove-space" ast-id="remote_H1">
+                    <xsl:value-of select="$remoteurlPath03/listitem[@type=$type]/div[@key = 'Remote_2']/*[local-name()=upper-case($isocode)]" />
                 </h2>
-
-                <div class="UnorderList_1" id="video_list">
-                    <p id="video_list-1">
-                        <xsl:copy-of select="$getLinkNode" />
-                    </p>
-                </div>
             </div>
         </section>
     </xsl:template>

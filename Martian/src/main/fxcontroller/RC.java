@@ -1252,13 +1252,10 @@ public class RC implements Initializable {
         srcDirFullpath.clear();
         isocurpath.clear();
         
-//        obj.projectDir = "";
         obj.srcPathP = null;
-//        obj.resourceDir = null;
         obj.tempDir = null;
         obj.zipDirP = null;
         obj.eachSrcP = null;
-//        obj.excelTemplsPathP = null;
         obj.srcDirFullpath.clear();
         obj.workISO.clear();
         obj.matchlangMap.clear();
@@ -1276,11 +1273,8 @@ public class RC implements Initializable {
             @Override
             protected Void call() {
                 try {
-
                     uploadExcel(excelfile);
-                    
-                    
-                    
+
                 } catch (Exception e1) {
                     e1.getMessage();
                 }

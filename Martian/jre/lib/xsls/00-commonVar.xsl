@@ -37,11 +37,17 @@
     <xsl:variable name="videolinkDirs02" select="iri-to-uri(concat('file:////', $tempDir, '/excelTempls/video_link.xml'))" />
     <xsl:variable name="videolinkPath" select="document($videolinkDirs02)" />
 
+    <xsl:variable name="remoteDirs02" select="iri-to-uri(concat('file:////', $tempDir, '/excelTempls/remote.xml'))" />
+    <xsl:variable name="remoteurlPath" select="document($remoteDirs02)" />
+
     <xsl:variable name="videokeyDirs02" select="iri-to-uri(concat('file:////', $tempDir, '/excelTempls/video_key.xml'))" />
     <xsl:variable name="videokeyPath" select="document($videokeyDirs02)/root" />
 
     <xsl:variable name="videolinkDirs03" select="iri-to-uri(concat('file:////', $tempDir, '/00-videolinkF-group.xml'))" />
     <xsl:variable name="videolinkPath03" select="document($videolinkDirs03)/root" />
+
+    <xsl:variable name="remoteurlDirs03" select="iri-to-uri(concat('file:////', $tempDir, '/00-remoteurlF-group.xml'))" />
+    <xsl:variable name="remoteurlPath03" select="document($remoteurlDirs03)/root" />
 
     <xsl:variable name="linkDirs02" select="iri-to-uri(concat('file:////', $tempDir, '/linkCollection.xml'))" />
     <xsl:variable name="linkPath" select="document($linkDirs02)/root" />

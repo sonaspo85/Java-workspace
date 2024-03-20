@@ -30,7 +30,8 @@ rem set excelTemplsDir="G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java
 rem rem rem rem rem rem *************************************************************
 rem java %transform%  -s:"H:/Workspace/Java-workspace/Martian/srcDir/temp/eachSrc/aaa.xml"  -o:%tempDir%\00-messageF-groupLang.xml  -xsl:%xslDir%\01-messageF-groupLang.xsl docinfoF=%docinfoF%
 rem java %transform%  -s:%xslDir%\dummy.xml  -o:%tempDir%\00-videolinkF-group.xml  -xsl:%xslDir%\01-videolinkF-group.xsl
-java %transform%  -s:"H:/Workspace/Java-workspace/Martian/srcDir/temp/eachSrc/aaa.xml"  -o:%tempDir%\01-simplify.xml  -xsl:%xslDir%\01-simplify.xsl
+rem java %transform%  -s:%xslDir%\dummy.xml  -o:%tempDir%\00-remoteurlF-group.xml  -xsl:%xslDir%\01-remoteurlF-group.xsl
+rem java %transform%  -s:"H:/Workspace/Java-workspace/Martian/srcDir/temp/eachSrc/aaa.xml"  -o:%tempDir%\01-simplify.xml  -xsl:%xslDir%\01-simplify.xsl
 rem java %transform%  -s:%tempDir%\01-simplify.xml  -o:%tempDir%\02-simplify.xml  -xsl:%xslDir%\02-simplify.xsl
 rem java %transform%  -s:%tempDir%\02-simplify.xml  -o:%tempDir%\03-define-BrType.xml  -xsl:%xslDir%\03-define-BrType.xsl
 rem java %transform%  -s:%tempDir%\03-define-BrType.xml  -o:%tempDir%\04-cleanAttrs.xml  -xsl:%xslDir%\04-cleanAttrs.xsl
@@ -46,7 +47,7 @@ rem java %transform%  -s:%tempDir%\12-nested-tags.xml  -o:%tempDir%\13-simplify.
 rem java %transform%  -s:%tempDir%\13-simplify.xml  -o:%tempDir%\14-connect-link.xml  -xsl:%xslDir%\14-connect-link.xsl
 rem java %transform%  -s:%tempDir%\14-connect-link.xml  -o:%tempDir%\15-simplify.xml  -xsl:%xslDir%\15-simplify.xsl
 rem java %transform%  -s:%tempDir%\15-simplify.xml  -o:%tempDir%\16-grouping-heading.xml  -xsl:%xslDir%\16-grouping-heading.xsl
-rem java %transform%  -s:%tempDir%\16-grouping-heading.xml  -o:%tempDir%\17-1-insert-videolink.xml  -xsl:%xslDir%\17-1-insert-videolink.xsl
+java %transform%  -s:%tempDir%\16-grouping-heading.xml  -o:%tempDir%\17-1-insert-videolink.xml  -xsl:%xslDir%\17-1-insert-videolink.xsl
 rem java %transform%  -s:%tempDir%\17-1-insert-videolink.xml  -o:%tempDir%\17-2-data-preORnext.xml  -xsl:%xslDir%\17-2-data-preORnext.xsl
 
 rem java %transform%  -s:%tempDir%\17-2-data-preORnext.xml  -o:%tempDir%\17-3-connect-href.xml  -xsl:%xslDir%\17-3-connect-href.xsl
