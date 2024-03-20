@@ -46,10 +46,10 @@
                               </Label>
                               <ComboBox fx:id="cb1" layoutX="65.0" layoutY="13.0" prefHeight="30.0" prefWidth="150.0" style="-fx-border-color: #c1c3c9;" />
                               <TextField fx:id="tf1" layoutX="65.0" layoutY="56.0" prefHeight="30.0" prefWidth="322.0" style="-fx-border-color: #c1c3c9;" />
-                              <Button fx:id="bt1" layoutX="409.0" layoutY="101.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-border-color: #c1c3c9;" text="변환 시작" />
-                              <Button fx:id="bt2" layoutX="409.0" layoutY="13.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-border-color: #c1c3c9;" text="언어 선택" />
+                              <Button fx:id="bt1" layoutX="409.0" layoutY="144.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-border-color: #c1c3c9;" text="변환 시작" />
+                              <Button fx:id="bt2" layoutX="409.0" layoutY="99.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-border-color: #c1c3c9;" text="언어 선택" />
                               <Button fx:id="bt3" layoutX="409.0" layoutY="57.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-border-color: #c1c3c9;" text="폴더 선택" />
-                              <Button fx:id="bt4" layoutX="409.0" layoutY="144.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-border-color: #c1c3c9;" text="Video Ecel DB">
+                              <Button fx:id="bt4" layoutX="287.0" layoutY="99.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-border-color: #c1c3c9;" text="Video Ecel DB">
                                  <contextMenu>
                                     <ContextMenu fx:id="cm1">
                                       <items>

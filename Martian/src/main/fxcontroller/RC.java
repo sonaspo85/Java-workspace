@@ -198,14 +198,12 @@ public class RC implements Initializable {
                     "-fx-border-color: #c8c9cc;"  
                     
                 );
-                
-                
+                                
             }
             
         }));
         
-        
-        
+
         lb1.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent mouseEvent) {
@@ -391,6 +389,10 @@ public class RC implements Initializable {
             // Radio 선택 목록 추출
             String radioTxt = videoonOff; 
             obj.ridioTxt = radioTxt;
+            
+            // 리모컨 텍스트 추출
+            String remoconTxt = tf3.getText();
+            obj.remoconTxt = remoconTxt; 
             
             Task<Void> task2 = new Task<Void>() {
                 @Override
@@ -754,20 +756,26 @@ public class RC implements Initializable {
     public void openDialog() {
         System.out.println("openDialog() 시작");
         
-        // 디렉토리를 선택 하는 다이얼로그 띄우기
         DirectoryChooser dc = new DirectoryChooser();
         
         // 다이얼로그 띄우기 - showDialog(primaryStage) 메소드
         File selectedDir = dc.showDialog(primaryStage);
         
-        String selectedDirPath = selectedDir.getPath();
-//        System.out.println(selectedDirPath);
         
-        if (selectedDirPath != null) {
-            // textField에 경로 삽입하기
-            tf1.setText(selectedDirPath);
-            srcP = Paths.get(selectedDirPath);
-            obj.srcPathP = srcP; 
+        try {
+            String selectedDirPath = selectedDir.getPath();
+            
+            if (selectedDirPath != null) {
+                // textField에 경로 삽입하기
+                tf1.setText(selectedDirPath);
+                srcP = Paths.get(selectedDirPath);
+                obj.srcPathP = srcP;
+                
+            }
+            
+        } catch(Exception e) {
+//            e.printStackTrace();
+
         }
         
         
@@ -908,8 +916,12 @@ public class RC implements Initializable {
             
             dg.setOnCloseRequest(event -> {
                 langL2.clear();
-              langL2.addAll(plv2.getItems());
-              obj.langL2.addAll(langL2);
+                langL2.addAll(plv2.getItems());
+                obj.langL2.addAll(langL2);
+                bt2.setStyle(
+                    "-fx-border-color: #c1c3c9;" +  
+                    "-fx-background-color: #f0eece;"
+                );
               
 //              System.out.println("langL2: " + langL2.toString());
                 
@@ -1459,7 +1471,7 @@ public class RC implements Initializable {
     
     public void removeTemp() {
         System.out.println("removeTemp() 시작");
-        
+        /*
         try {
             System.out.println("temp 폴더 삭제");
             obj.recursDel(obj.tempDir);
@@ -1470,7 +1482,7 @@ public class RC implements Initializable {
             throw new RuntimeException(msg);
             
         }
-        
+        */
         
     }
     

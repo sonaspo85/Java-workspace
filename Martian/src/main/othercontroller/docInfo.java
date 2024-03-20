@@ -51,6 +51,7 @@ public class docInfo {
         ele.setAttribute("type", obj.type);
         ele.setAttribute("videoSwitch", obj.ridioTxt);
         ele.setAttribute("modelNumber", obj.modelNumber);
+        ele.setAttribute("remocon", obj.remoconTxt);
 
         Element item = doc.createElement("item");
         item.setAttribute("id", "projectDir");
