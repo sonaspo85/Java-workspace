@@ -95,7 +95,7 @@ public class ftpUpLoad {
         // 디렉토리 생성
         // 컬렉션의 마지막 부터 호출해서 디렉토리 생성해야함
         Collections.reverse(directoryList);
-        for (String directory: directoryList) {
+        for (String directory : directoryList) {
             client.makeDirectory(directory);
         }
 
