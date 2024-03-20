@@ -55,7 +55,6 @@
                     <xsl:when test="current-grouping-key()">
                         <listitem>
                             <xsl:attribute name="lang" select="current-group()[1]/@lang" />
-                            <!-- <xsl:apply-templates select="current-group()" /> -->
                             <xsl:for-each select="current-group()">
                                 <xsl:copy>
                                     <xsl:apply-templates select="@* except @lang"/>

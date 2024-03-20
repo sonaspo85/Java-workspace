@@ -11,7 +11,7 @@
     <xsl:output method="xml" encoding="UTF-8" indent="no" />
     <xsl:strip-space elements="*"/>
 
-    
+    <xsl:import href="00-commonVar.xsl" />
     <xsl:template match="@* | node()" mode="#all">
         <xsl:copy inherit-namespaces="no" copy-namespaces="no">
             <xsl:apply-templates select="@*, node()" mode="#current"/>
@@ -44,11 +44,15 @@
                                     </button>
                                 </div>
                             </div>
-                            <div id="language" class="language">
-                                <button type="button" class="language_btn" data-target="#selectLanguage">
-                                    <span class="selected_lang">language</span>
-                                </button>
-                            </div>
+
+                            <xsl:if test="$langmapCnt &gt; 1">
+                                <div id="language" class="language">
+                                    <button type="button" class="language_btn" data-target="#selectLanguage">
+                                        <span class="selected_lang">language</span>
+                                    </button>
+                                </div>
+                            </xsl:if>
+                            
                         </div>
 
                         <div class="header_bottom">

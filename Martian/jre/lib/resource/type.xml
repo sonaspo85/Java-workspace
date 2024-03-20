@@ -5,4 +5,14 @@
    <listitem type="RAC"/>
    <listitem type="WAC"/>
    <listitem type="VCN"/>
+   <listitem type="FJM"/>
+   <listitem type="CAC"/>
+   <listitem type="DVM"/>
+   <listitem type="PAC"/>
+   <listitem type="SOL"/>
+   <listitem type="ERV"/>
+   <listitem type="EHS"/>
+   <listitem type="DHM"/>
+   <listitem type="ACC"/>
+   <listitem type="BIoT"/>
 </root>

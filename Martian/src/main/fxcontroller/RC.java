@@ -517,6 +517,7 @@ public class RC implements Initializable {
                         createEachIdmlFiles eif = new createEachIdmlFiles(eachIdmlCollect); 
                         eif.runEachIdmlFiles();
                         
+                        eachIdmlCollect.clear();
                     } catch(Exception e) {
                         msg = "";
                         System.out.println("msg: " + msg);
@@ -1262,9 +1263,15 @@ public class RC implements Initializable {
         obj.srcDirFullpath.clear();
         obj.workISO.clear();
         obj.matchlangMap.clear();
+        
+        
         obj.type = "";
         obj.ridioTxt = "";
         obj.modelNumber = "";
+        obj.ver = "";
+        obj.remoteswitch = "";
+        obj.remoconTxt = "";
+        obj.manualType = "";
         obj.langL2.clear();
         
         tobt1.setStyle("-fx-border-color: #c1c3c9;");
@@ -1475,7 +1482,7 @@ public class RC implements Initializable {
     
     public void removeTemp() {
         System.out.println("removeTemp() 시작");
-        /*
+        
         try {
             System.out.println("temp 폴더 삭제");
             obj.recursDel(obj.tempDir);
@@ -1486,7 +1493,7 @@ public class RC implements Initializable {
             throw new RuntimeException(msg);
             
         }
-        */
+        
         
     }
     

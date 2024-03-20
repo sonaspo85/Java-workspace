@@ -54,12 +54,12 @@ rem java %transform%  -s:%tempDir%\17-2-data-preORnext.xml  -o:%tempDir%\17-3-co
 rem java %transform%  -s:%tempDir%\17-3-connect-href.xml  -o:%tempDir%\17-4-strip-img.xml  -xsl:%xslDir%\17-4-strip-img.xsl
 
 rem java %transform%  -s:%tempDir%\17-4-strip-img.xml  -o:%tempDir%\18-simplify.xml  -xsl:%xslDir%\18-simplify.xsl
-java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\19-create-body-header.xml  -xsl:%xslDir%\19-create-body-header.xsl
+rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\19-create-body-header.xml  -xsl:%xslDir%\19-create-body-header.xsl
 
 rem **************************************************************************************
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\20-split-html.xsl
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\21-search-db.xsl
-rem java %transform%  -s:%tempDir%\00-messageF-groupLang.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\22-ui_text.xsl
+java %transform%  -s:%tempDir%\00-messageF-groupLang.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\22-ui_text.xsl
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\23-search-html.xsl
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\24-start-here.xsl
 rem java %transform%  -s:%resourcdDir%\docInfo.xml  -o:%resourcdDir%\docInfo.xml  -xsl:%xslDir%\25-set-docinfo.xsl

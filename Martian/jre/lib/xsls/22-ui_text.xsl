@@ -16,8 +16,10 @@
     <xsl:output method="xml" encoding="UTF-8" indent="no" omit-xml-declaration="yes" />
     
     <xsl:variable name="isocode" select="root()/root/@isocode" />
-    
+
     <xsl:template match="/">
+        <xsl:variable name="cur" select="." />
+
         <xsl:variable name="filename">
             <xsl:choose>
                 <xsl:when test="number($langmapCnt) &gt; 1">
@@ -37,43 +39,48 @@
             <xsl:text>&#xa;</xsl:text>
             <xsl:text>var message = {</xsl:text>
 
-            <xsl:for-each select="root/listitem">
-                <xsl:text>&#xa;</xsl:text>
-                <xsl:variable name="langcode" select="@lang" />
-                <xsl:text disable-output-escaping="yes">&#x9;"</xsl:text>
-                <xsl:value-of select="$langcode" />
-                <xsl:text disable-output-escaping="yes">"</xsl:text>
-                <xsl:text>: {&#xa;</xsl:text>
-                
-                <xsl:for-each select="*">
-                    <xsl:variable name="name" select="local-name()" />
-                    <xsl:variable name="value" select="." />
-                    <xsl:text disable-output-escaping="yes">&#x9;&#x9;</xsl:text>
-                    <xsl:value-of select="$name" />
-                    <xsl:text disable-output-escaping="yes">: "</xsl:text>
-                    <xsl:value-of select="$value" disable-output-escaping="yes" />
+            <xsl:for-each select="tokenize($langmap, ', ')">
+                <xsl:variable name="lang2" select="substring-after(., '=')" />
+
+                <xsl:for-each select="$cur/root()/root/listitem[@lang = $lang2]">
+                    <xsl:text>&#xa;</xsl:text>
+                    <xsl:variable name="langcode" select="@lang" />
+                    <xsl:text disable-output-escaping="yes">&#x9;"</xsl:text>
+                    <xsl:value-of select="$langcode" />
+                    <xsl:text disable-output-escaping="yes">"</xsl:text>
+                    <xsl:text>: {&#xa;</xsl:text>
+                    
+                    <xsl:for-each select="*">
+                        <xsl:variable name="name" select="local-name()" />
+                        <xsl:variable name="value" select="." />
+                        <xsl:text disable-output-escaping="yes">&#x9;&#x9;</xsl:text>
+                        <xsl:value-of select="$name" />
+                        <xsl:text disable-output-escaping="yes">: "</xsl:text>
+                        <xsl:value-of select="$value" disable-output-escaping="yes" />
+                        
+                        <xsl:choose>
+                            <xsl:when test="position() = last()">
+                                <xsl:text disable-output-escaping="yes">"</xsl:text>
+                            </xsl:when>
+                        
+                            <xsl:otherwise>
+                                <xsl:text disable-output-escaping="yes">",</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:text>&#xa;</xsl:text>
+                    </xsl:for-each>
                     
                     <xsl:choose>
-                        <xsl:when test="position() = last()">
-                            <xsl:text disable-output-escaping="yes">"</xsl:text>
+                        <xsl:when test="following-sibling::listitem">
+                            <xsl:text>&#x9;}, </xsl:text>
                         </xsl:when>
                     
                         <xsl:otherwise>
-                            <xsl:text disable-output-escaping="yes">",</xsl:text>
+                            <xsl:text>&#x9;} </xsl:text>
                         </xsl:otherwise>
                     </xsl:choose>
-                    <xsl:text>&#xa;</xsl:text>
                 </xsl:for-each>
                 
-                <xsl:choose>
-                    <xsl:when test="following-sibling::listitem">
-                        <xsl:text>&#x9;}, </xsl:text>
-                    </xsl:when>
-                
-                    <xsl:otherwise>
-                        <xsl:text>&#x9;} </xsl:text>
-                    </xsl:otherwise>
-                </xsl:choose>
             </xsl:for-each>
             <xsl:text>&#xa;};</xsl:text>
         </xsl:result-document>

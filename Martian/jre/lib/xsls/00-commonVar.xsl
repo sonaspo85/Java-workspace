@@ -22,7 +22,8 @@
     <xsl:variable name="tempDir" select="replace(replace(replace(replace($tempDir0, ' ', '%20'), '\\', '/'), '\[', '%5B'), '\]', '%5D')" as="xs:string" />
     <xsl:variable name="type" select="$docinfo/root/@type" />
     <xsl:variable name="modelcode" select="$docinfo/root/@modelNumber" />
-    <xsl:variable name="langmapCnt" select="count(tokenize($docinfo/root/item[@id = 'langsMap']/@sequence, ','))" />
+    <xsl:variable name="langmap" select="$docinfo/root/item[@id = 'langsMap']/@sequence" />
+    <xsl:variable name="langmapCnt" select="count(tokenize($langmap, ','))" />
     <xsl:variable name="videoswitch" select="$docinfo/root/@videoSwitch" />
     <xsl:variable name="remoteswitch" select="$docinfo/root/@remoteswitch" />
     <xsl:variable name="remoteurl" select="$docinfo/root/@remoconURL" />
