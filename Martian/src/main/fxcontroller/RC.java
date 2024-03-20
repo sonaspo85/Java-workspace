@@ -1242,7 +1242,10 @@ public class RC implements Initializable {
         tf2.setDisable(false);
         tf3.setDisable(false);
         tobt1.setDisable(false);
-        tobt2.setDisable(true);
+        tobt1.setSelected(false);
+        tobt2.setDisable(false);
+        tobt2.setSelected(false);
+        tf3.setDisable(true);
         
         langL.clear();
         langL2.clear();
@@ -1264,6 +1267,11 @@ public class RC implements Initializable {
         obj.modelNumber = "";
         obj.langL2.clear();
         
+        tobt1.setStyle("-fx-border-color: #c1c3c9;");
+        
+        tobt2.setStyle("-fx-border-color: #c1c3c9;");
+        tf3.setStyle("-fx-border-color: #c1c3c9;");
+        bt2.setStyle("-fx-border-color: #c1c3c9;");
     }
     
     public void workStartMi1(String excelfile) {
