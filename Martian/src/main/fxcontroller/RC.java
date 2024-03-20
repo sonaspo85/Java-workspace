@@ -43,10 +43,9 @@ import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.ProgressBar;
-import javafx.scene.control.RadioButton;
 import javafx.scene.control.SelectionMode;
 import javafx.scene.control.TextField;
-import javafx.scene.control.ToggleGroup;
+import javafx.scene.control.ToggleButton;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseButton;
@@ -57,7 +56,6 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import main.Common.implementOBJ;
-
 import main.excelcontroller.excelMain;
 import main.excelcontroller.getLangs;
 import main.ftpcontroller.ftpRemoveDir;
@@ -73,7 +71,6 @@ import main.othercontroller.readtypexml;
 import main.othercontroller.readverxml;
 import main.othercontroller.srcRunRepeat;
 import main.zipcontroller.unZip;
-import javafx.scene.control.ToggleButton;
 
 
 public class RC implements Initializable {
@@ -85,6 +82,9 @@ public class RC implements Initializable {
     @FXML private ComboBox<String> cb2;
     @FXML private TextField tf1;
     @FXML private TextField tf2;
+    @FXML private TextField tf3;
+    @FXML private Label lb1;
+    
 
     
     
@@ -190,7 +190,7 @@ public class RC implements Initializable {
             if (tobt1.isSelected()) {
                 tobt1.setStyle(
                     "-fx-border-color: red;" +  
-                    "-fx-background-color: ANTIQUEWHITE;"
+                    "-fx-background-color: #f0f2d3;"
                 );
                 
             } else {
@@ -201,7 +201,54 @@ public class RC implements Initializable {
             }
             
         }));
+        
+        
+        
+        lb1.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent mouseEvent) {
+                if(mouseEvent.getButton().equals(MouseButton.PRIMARY)){
+                    if(mouseEvent.getClickCount() == 2){
+                        System.out.println("Double clicked");
+                        tf3.setDisable(false);
+                        tf3.setStyle("-fx-border-color: black;" + 
+                                     "-fx-background-color: #f0f2d3;");
+                    }
+                }
+            }
+        });
+        
+        tf3.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent mouseEvent) {
+                if(mouseEvent.getButton().equals(MouseButton.PRIMARY)){
+                    if(mouseEvent.getClickCount() == 2){
+                        System.out.println("Double clicked");
+                        tf3.setStyle("-fx-border-color: none;");
+                        tf3.clear();
+                        tf3.setDisable(true);
+                    }
+                }
+            }
+        });
 
+
+    }
+    
+    public void hideTf3() {
+        System.out.println("hideTf3() 시작");
+        
+        tf3.setDisable(true);
+        
+        
+    }
+    
+    public void createTextField() {
+        System.out.println("createTextField() 시작");
+        
+        tf3.setDisable(false);
+        
+        
     }
     
     // 예외 발생시 호출될 메소드
