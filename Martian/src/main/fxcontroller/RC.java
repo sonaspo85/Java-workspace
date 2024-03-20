@@ -83,7 +83,7 @@ public class RC implements Initializable {
     @FXML private TextField tf1;
     @FXML private TextField tf2;
     @FXML private TextField tf3;
-    @FXML private Label lb1;
+//    @FXML private Label lb1;
     
 
     
@@ -202,12 +202,15 @@ public class RC implements Initializable {
                 tobt2.setStyle("-fx-border-color: #c8c9cc;" + 
                                 "-fx-background-color: #f0eece;");
                 
+                tf3.setDisable(false);
+                tf3.setStyle("-fx-border-color: #c1c3c9;" + 
+                        "-fx-background-color: #f0eece;");
+                
                 tobt2.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
                     @Override
                     public void handle(MouseEvent e) {
                         if (e.getButton() == MouseButton.SECONDARY) {
                             if(e.getClickCount() == 1){
-//                                System.out.println("한번클릭 했음");
                                 String tobt2Txt = tobt2.getText(); 
                                 
                                 if (tobt2Txt.contains("제품")) {
@@ -225,16 +228,15 @@ public class RC implements Initializable {
 
             } else {
                 tobt2.setStyle("-fx-border-color: #c1c3c9;");
-                
+                tf3.setDisable(true);
+                tf3.clear();
+                tf3.setStyle("-fx-border-color: #c1c3c9;" + 
+                            "-fx-background-color: inherit;");
             }
             
         }));
         
-        
-        
-        
-        
-
+        /*
         lb1.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent mouseEvent) {
@@ -247,9 +249,9 @@ public class RC implements Initializable {
                     }
                 }
             }
-        });
+        });*/
         
-        tf3.setOnMouseClicked(new EventHandler<MouseEvent>() {
+        /*tf3.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent mouseEvent) {
                 if(mouseEvent.getButton().equals(MouseButton.PRIMARY)){
@@ -261,26 +263,7 @@ public class RC implements Initializable {
                     }
                 }
             }
-        });
-        
-        
-
-
-    }
-    
-    public void hideTf3() {
-        System.out.println("hideTf3() 시작");
-        
-        tf3.setDisable(true);
-        
-        
-    }
-    
-    public void createTextField() {
-        System.out.println("createTextField() 시작");
-        
-        tf3.setDisable(false);
-        
+        });*/
         
     }
     
@@ -380,7 +363,7 @@ public class RC implements Initializable {
         System.out.println("stWork() 시작");
 
         String tfTxt = tf1.getText();
-        System.out.println("tfTxt: " + tfTxt);
+//        System.out.println("tfTxt: " + tfTxt);
         if(tfTxt == "") {
             // textfield 값 추출
             tfTxt = tf1.getText();
@@ -409,7 +392,6 @@ public class RC implements Initializable {
         
         else if(tf1.getText() != "" && cb1.getValue() != null) {
             DisabledControl();
-
             
             // type 목록 추출
             String type = cb1.getValue().toString();
@@ -467,8 +449,7 @@ public class RC implements Initializable {
                     
                     updateProgress(10, 100);
                     updateMessage(String.valueOf(10));
-                    
-                    
+
                     // 2. 인터페이스 상의 선택한 언어 목록만으로 srcDir 경로 생성
                     try {
                         SelectedLangFullPath();
