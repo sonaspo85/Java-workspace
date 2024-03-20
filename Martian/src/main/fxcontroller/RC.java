@@ -189,15 +189,17 @@ public class RC implements Initializable {
             
             if (tobt1.isSelected()) {
                 tobt1.setStyle(
-                    "-fx-border-color: red;" +  
-                    "-fx-background-color: #f0f2d3;"
+                    "-fx-border-color: #c1c3c9;" +  
+                    "-fx-background-color: #f0eece;"
                 );
                 
             } else {
                 tobt1.setStyle(
-                    "-fx-border-color: inherit;" +  
-                    "-fx-background-color: inherit;"
+                    "-fx-border-color: #c8c9cc;"  
+                    
                 );
+                
+                
             }
             
         }));
@@ -211,8 +213,8 @@ public class RC implements Initializable {
                     if(mouseEvent.getClickCount() == 2){
                         System.out.println("Double clicked");
                         tf3.setDisable(false);
-                        tf3.setStyle("-fx-border-color: black;" + 
-                                     "-fx-background-color: #f0f2d3;");
+                        tf3.setStyle("-fx-border-color: #c1c3c9;" + 
+                                     "-fx-background-color: #f0eece;");
                     }
                 }
             }
