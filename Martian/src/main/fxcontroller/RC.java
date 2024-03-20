@@ -184,17 +184,23 @@ public class RC implements Initializable {
             }
         });
         
-//        tobt2.selectedProperty().set(true);
-//        boolean tobt2flag = tobt2.isSelected();
+        tobt1.selectedProperty().addListener((observable, oldValue, newValue) -> {
+            if (newValue == true) {
+                tobt1.setStyle("-fx-border-color: #c8c9cc;" + 
+                                "-fx-background-color: #f0eece;");
+                
+            } else {
+                tobt1.setStyle("-fx-border-color: #c1c3c9;");
+                
+            }  
+        });
         
         tobt2.selectedProperty().addListener(((observable, oldValue, newValue) -> {
             System.out.println(tobt2.getText() + " changed from " + oldValue + " to " + newValue);
 
             if (newValue == true) {
-                /*tobt2.setStyle(
-                    "-fx-border-color: #c1c3c9;" +  
-                    "-fx-background-color: #f0eece;"
-                );*/
+                tobt2.setStyle("-fx-border-color: #c8c9cc;" + 
+                                "-fx-background-color: #f0eece;");
                 
                 tobt2.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
                     @Override
@@ -202,22 +208,24 @@ public class RC implements Initializable {
                         if (e.getButton() == MouseButton.SECONDARY) {
                             if(e.getClickCount() == 1){
 //                                System.out.println("한번클릭 했음");
+                                String tobt2Txt = tobt2.getText(); 
                                 
-                                System.out.println("tobt2Txt: " + tobt2.getText());
-                                
+                                if (tobt2Txt.contains("제품")) {
+                                    tobt2.setText("리모컨 매뉴얼");
+                                    
+                                } else if(tobt2Txt.contains("리모컨")) {
+                                    tobt2.setText("제품 매뉴얼");
+                                }
+                                 
                             }
                         }
                         
                     }
                 });
-                
-                
+
             } else {
-                tobt1.setStyle(
-                    "-fx-border-color: #c8c9cc;"  
-                    
-                );
-                                
+                tobt2.setStyle("-fx-border-color: #c1c3c9;");
+                
             }
             
         }));

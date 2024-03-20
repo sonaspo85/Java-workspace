@@ -74,7 +74,7 @@
                               </Label>
                               <Label fx:id="lb1" layoutX="144.0" layoutY="144.0" prefHeight="30.0" prefWidth="121.0" style="-fx-border-color: #c1c3c9;" />
                               <TextField fx:id="tf3" depthTest="DISABLE" disable="true" layoutX="143.0" layoutY="144.0" prefHeight="30.0" prefWidth="122.0" style="-fx-border-style: none;" />
-                              <ToggleButton fx:id="tobt2" layoutX="287.0" layoutY="144.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="제품 매뉴얼" />
+                              <ToggleButton fx:id="tobt2" layoutX="287.0" layoutY="144.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-border-color: #c1c3c9;" text="제품 매뉴얼" />
                            </children>
                         </Pane>
                         <Pane layoutX="7.0" layoutY="269.0" prefHeight="43.0" prefWidth="520.0" style="-fx-border-style: solid; -fx-border-color: black;">
