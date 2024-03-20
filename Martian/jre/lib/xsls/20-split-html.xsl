@@ -55,11 +55,11 @@
             <xsl:variable name="filename">
                 <xsl:choose>
                     <xsl:when test="number($langmapCnt) &gt; 1">
-                        <xsl:value-of select="concat('file:////', $srcDir, '/output/', upper-case(concat($type, '_', $modelcode)), '/', upper-case(concat($type, '_', $isocode)), '/', @data-id)" />
+                        <xsl:value-of select="concat('file:////', $srcDir, '/output/', upper-case(concat($type, $modelcode)), '/', upper-case(concat($type, '_', $isocode)), '/', @data-id)" />
                     </xsl:when>
                 
                     <xsl:otherwise>
-                        <xsl:value-of select="concat('file:////', $srcDir, '/output/', upper-case(concat($type, '_', $modelcode)), '/', @data-id)" />
+                        <xsl:value-of select="concat('file:////', $srcDir, '/output/', upper-case(concat($type, $modelcode)), '/', @data-id)" />
                         <!-- <xsl:value-of select="concat('file:////', 'G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java-workspace/Martian/srcDir/output/', upper-case(concat($type, '_', $modelcode)), '/', @data-id)" /> -->
                     </xsl:otherwise>
                 </xsl:choose>

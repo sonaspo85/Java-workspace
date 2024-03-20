@@ -59,10 +59,10 @@ rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\19-create-body-
 rem **************************************************************************************
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\20-split-html.xsl
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\21-search-db.xsl
-java %transform%  -s:%tempDir%\00-messageF-groupLang.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\22-ui_text.xsl
+rem java %transform%  -s:%tempDir%\00-messageF-groupLang.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\22-ui_text.xsl
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\23-search-html.xsl
 rem java %transform%  -s:%tempDir%\18-simplify.xml  -o:%tempDir%\dummy.xml  -xsl:%xslDir%\24-start-here.xsl
-rem java %transform%  -s:%resourcdDir%\docInfo.xml  -o:%resourcdDir%\docInfo.xml  -xsl:%xslDir%\25-set-docinfo.xsl
+java %transform%  -s:%resourcdDir%\docInfo.xml  -o:%resourcdDir%\docInfo.xml  -xsl:%xslDir%\25-set-docinfo.xsl
 
 
 

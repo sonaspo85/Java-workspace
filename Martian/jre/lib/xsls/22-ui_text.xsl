@@ -23,11 +23,11 @@
         <xsl:variable name="filename">
             <xsl:choose>
                 <xsl:when test="number($langmapCnt) &gt; 1">
-                    <xsl:value-of select="concat('file:////', $srcDir, '/output/', upper-case(concat($type, '_', $modelcode)), '/', upper-case(concat($type, '_', $isocode)), '/', 'js/ui_text.js')" />
+                    <xsl:value-of select="concat('file:////', $srcDir, '/output/', upper-case(concat($type, $modelcode)), '/', upper-case(concat($type, '_', $isocode)), '/', 'js/ui_text.js')" />
                 </xsl:when>
             
                 <xsl:otherwise>
-                    <xsl:value-of select="concat('file:////', $srcDir, '/output/', upper-case(concat($type, '_', $modelcode)), '/', 'js/ui_text.js')" />
+                    <xsl:value-of select="concat('file:////', $srcDir, '/output/', upper-case(concat($type, $modelcode)), '/', 'js/ui_text.js')" />
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>

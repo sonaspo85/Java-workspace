@@ -157,8 +157,8 @@ public class RC implements Initializable {
 //        cb2.setStyle("-fx-font-family: consolas");
         
 
-//        tf1.setText("H:/Workspace/Java-workspace/Martian/srcDir");
-//        tf2.setText("111");
+        tf1.setText("H:/Workspace/Java-workspace/Martian/srcDir");
+        tf2.setText("111");
         
         bt4.setOnAction(e -> exedExcel());
         
@@ -1483,7 +1483,7 @@ public class RC implements Initializable {
     public void removeTemp() {
         System.out.println("removeTemp() 시작");
         
-        try {
+        /*try {
             System.out.println("temp 폴더 삭제");
             obj.recursDel(obj.tempDir);
                
@@ -1492,7 +1492,7 @@ public class RC implements Initializable {
             System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
             
-        }
+        }*/
         
         
     }
