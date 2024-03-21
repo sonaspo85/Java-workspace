@@ -41,7 +41,6 @@ public class docInfo {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         dbf.setNamespaceAware(true);
         DocumentBuilder db = dbf.newDocumentBuilder();
-
         Document doc = db.newDocument();
 
         // 루트 요소 만들기

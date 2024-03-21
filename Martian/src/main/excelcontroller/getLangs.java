@@ -62,59 +62,76 @@ public class getLangs {
                 String getSheetName = wb.getSheetName(y);
                 getSheetName = getSheetName.replace(" ", "_").toLowerCase();
                 
-                // 시트에 접근
-                Sheet sheet = wb.getSheetAt(y);
-                
-                int totalCellCnt = 0;
-                
-                Iterator<Row> rowIt = sheet.iterator();
-                
-                while(rowIt.hasNext()) {
-                    Row row = rowIt.next();
-                    Element listitem = doc.createElement("listitem");
+                if (!getSheetName.equals("type-lang")) {
+                    // 시트에 접근
+                    Sheet sheet = wb.getSheetAt(y);
                     
-                    if(row.getRowNum() == 1) {
-                        totalCellCnt = row.getPhysicalNumberOfCells();
+                    int totalCellCnt = 0;
+                    
+                    Iterator<Row> rowIt = sheet.iterator();
+                    
+                    while(rowIt.hasNext()) {
+                        Row row = rowIt.next();
+                        Element listitem = doc.createElement("listitem");
                         
-                    } else if(row.getRowNum() > 1) {
-                        for(int j=1; j<=totalCellCnt; j++) {
-                            Cell cellVal = row.getCell(j);
-                            String str1 = cellVal.toString().replace(" ", "_");
+                        if(row.getRowNum() == 1) {
+                            totalCellCnt = row.getPhysicalNumberOfCells();
                             
-                            if (getSheetName.equals("language")) {
-                                if (j == 1) {
-                                    listitem.setAttribute("language", str1);
-//                                    System.out.println("language: " + str1);
+                        } else if(row.getRowNum() > 1) {
+                            for(int j=1; j<=totalCellCnt; j++) {
+                                Cell cellVal = row.getCell(j);
+                                String str1 = cellVal.toString().replace(" ", "_");
+                                
+                                if (getSheetName.equals("language")) {
+                                    if (j == 1) {
+                                        listitem.setAttribute("language", str1);
+    //                                    System.out.println("language: " + str1);
+                                        
+                                    } else if (j == 2) {
+                                        listitem.setAttribute("ISOCode", str1);
+    //                                    System.out.println("ISOCode: " + str1);
+                                        
+                                    }  
+                                } else if(getSheetName.equals("type")) {
+                                    if (j == 1) {
+                                        listitem.setAttribute("type", str1);
+    //                                    System.out.println("language: " + str1);
+                                        
+                                    }
                                     
-                                } else if (j == 2) {
-                                    listitem.setAttribute("ISOCode", str1);
-//                                    System.out.println("ISOCode: " + str1);
-                                    
-                                }  
-                            } else if(getSheetName.equals("type")) {
-                                if (j == 1) {
-                                    listitem.setAttribute("type", str1);
-//                                    System.out.println("language: " + str1);
+                                } else if(getSheetName.equals("version")) {
+                                    if (j == 1) {
+                                        listitem.setAttribute("version", str1);
+    //                                    System.out.println("language: " + str1);
+                                        
+                                    }
                                     
                                 }
-                                
-                            } else if(getSheetName.equals("version")) {
-                                if (j == 1) {
-                                    listitem.setAttribute("version", str1);
-//                                    System.out.println("language: " + str1);
-                                    
-                                }
-                                
+    
                             }
-
+                            
+                            rootEle.appendChild(listitem);
                         }
-                        
-                        rootEle.appendChild(listitem);
-                    }
+    
+                    }  // row 반복 닫기
+                    exportXML(doc, getSheetName);
+                    
+                } else if(getSheetName.equals("type-lang")) {
+                    System.out.println("type-lang 시트 작업중 입니다.");
+                    
+                    Sheet sheet = wb.getSheet("Type-lang");
+//                    int rowcnt = sheet.getPhysicalNumberOfRows();
+//                    System.out.println("rowcnt: " + rowcnt);
+                    
+                    
+                    callfac(sheet, doc, rootEle);
+                    callrac(sheet, doc, rootEle);
+                    
 
-                }  // row 반복 닫기
+                    exportXML(doc, getSheetName);
+    
+                }
                 
-                exportXML(doc, getSheetName);
             }
             
         } catch(Exception e) {
@@ -186,6 +203,76 @@ public class getLangs {
         }
         
         return doc;
+        
+    }
+    
+    public void callfac(Sheet sheet, Document doc, Element rootEle) {
+        System.out.println("callfac() 시작");
+        
+        int fac = 5;
+        
+        for(int q=1; q<fac; q++) {
+            Row row = sheet.getRow(q);
+            
+            if (q==1) {
+                Cell cell = row.getCell(1);
+
+                System.out.println(cell.toString());
+                
+                Element listitem = doc.createElement("listitem");
+                
+                listitem.setAttribute("type", cell.toString());
+                
+                for(int e=2; e<fac; e++) {
+                    cell = sheet.getRow(e).getCell(1);
+                    
+                    Element item = doc.createElement("item");
+                    item.setAttribute("lang", cell.toString());
+                    
+                    listitem.appendChild(item);
+                    
+                }
+
+
+                rootEle.appendChild(listitem);
+            } 
+
+        }
+        
+    }
+    
+    public void callrac(Sheet sheet, Document doc, Element rootEle) {
+        System.out.println("callfac() 시작");
+        
+        int rac = 4;
+        
+        for(int q=1; q<rac; q++) {
+            Row row = sheet.getRow(q);
+            
+            if (q==1) {
+                Cell cell = row.getCell(3);
+
+                System.out.println(cell.toString());
+                
+                Element listitem = doc.createElement("listitem");
+                
+                listitem.setAttribute("type", cell.toString());
+                
+                for(int e=2; e<rac; e++) {
+                    cell = sheet.getRow(e).getCell(3);
+                    
+                    Element item = doc.createElement("item");
+                    item.setAttribute("lang", cell.toString());
+                    
+                    listitem.appendChild(item);
+                    
+                }
+
+
+                rootEle.appendChild(listitem);
+            } 
+
+        }
         
     }
     

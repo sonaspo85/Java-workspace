@@ -87,6 +87,10 @@ public class excelMain {
                             // 6. 시트 이름 추출
                             String getSheetName = wb.getSheetName(i).replace(" ", "_").toLowerCase();
                             
+                            if(!getSheetName.equals("type-lang")) {
+                                
+                            
+                            
                             // 7. 시트에 접근
                             Sheet sheet = wb.getSheetAt(i);
                             
@@ -160,7 +164,7 @@ public class excelMain {
                             
                             exportXML(doc, getSheetName);
                             System.out.println("exportXML 완료!!!");
-                                
+                            }   
                         }
                         
                     } catch (Exception e) {

@@ -67,6 +67,7 @@ import main.idmlcontroller.storyesMerged;
 import main.othercontroller.copyFTPTempls;
 import main.othercontroller.docInfo;
 import main.othercontroller.readlangxml;
+import main.othercontroller.readtlxml;
 import main.othercontroller.readtypexml;
 import main.othercontroller.readverxml;
 import main.othercontroller.srcRunRepeat;
@@ -84,9 +85,6 @@ public class RC implements Initializable {
     @FXML private TextField tf2;
     @FXML private TextField tf3;
 //    @FXML private Label lb1;
-    
-
-    
     
     @FXML private ProgressBar pbar1;
     @FXML private Text pbart1;
@@ -114,6 +112,7 @@ public class RC implements Initializable {
     List<String> langL2 = new ArrayList<>();
     List<String> typeL = new ArrayList<>();
     List<String> verL = new ArrayList<>();
+    Map<String, List<String>> typelangMap = new HashMap<>();
     Map<String, String> langMap = new HashMap<>();
     Path srcP = null;
     List<String> srcFullPath = new ArrayList<>();
@@ -347,7 +346,8 @@ public class RC implements Initializable {
         if(tobt1.isSelected()) {
             videoonOff = "on";
         }
-                
+        
+        
         if(tf1.getText() == "" || cb1.getValue() == null) {
             System.out.println("tf1.getText(): " + tf1.getText());
             System.out.println("cb1.getValue(): " + cb1.getValue().toString());
@@ -791,12 +791,32 @@ public class RC implements Initializable {
             // 3. 버튼 찾기
             Button pbt1 = (Button) parent.lookup("#pbt1");
             Button pbt2 = (Button) parent.lookup("#pbt2");
+            ComboBox<String> pcb1 = (ComboBox) parent.lookup("#pcb1");
+            
+            List<String> pcbL = new ArrayList<String>();
+            List<String> pcbL2 = new ArrayList<String>();
+            
+            
+            typelangMap.forEach((k,v) -> {
+                String type = k;
+                List<String> langL = v;
+                
+                pcbL.add(type);
+                
+//                langL.forEach(a -> {
+//                    pcbL2.add(a);
+//                });
+                
+                
+            });
+            
+            pcb1.setItems(FXCollections.observableArrayList(pcbL));
+ 
+            
             ListView<String> plv1 = (ListView) parent.lookup("#plv1");
             ListView<String> plv2 = (ListView) parent.lookup("#plv2");
-            
-            
+
             Set<String> keyset = langMap.keySet();
-            
             List<String> langL = new ArrayList<>(keyset);
 
             
@@ -808,13 +828,25 @@ public class RC implements Initializable {
             langL.add(0, "English");
             langL.add(1, "Korean");
             
-            plv1.setItems(FXCollections.observableArrayList(langL));
             
+            pcb1.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
+                @Override
+                public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+                    System.out.println("Selected value : " + newValue);
+                    
+                    if(typelangMap.containsKey(newValue)) {
+                        System.out.println("해당 타입이 존재 합니다.");
+                        
+                        plv2.setItems(FXCollections.observableArrayList(typelangMap.get(newValue)));
+                        
+                    }   
+                    
+                }
+            });
+            
+            plv1.setItems(FXCollections.observableArrayList(langL));
             plv1.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             plv2.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
-            
-//            plv2.setItems(FXCollections.observableArrayList("English"));
-            
             pbt1.setOnAction(e -> addList(dg, langL2, plv1, plv2));
             pbt2.setOnAction(e -> removeList(dg, langL2, plv1, plv2));
             
@@ -835,10 +867,7 @@ public class RC implements Initializable {
                         System.out.println("itemidx: " + itemidx + ", item:" + curitem);
                         System.out.println("previtem: " + previtem);
                         
-                        // 현재 목록을 앞으로 이동
                         plv2.getItems().set(itemidx-1, curitem);
-                      
-                        // 앞쪽 목록을 현재 목록 위치로 이동
                         plv2.getItems().set(itemidx, previtem);
                         
                     } else {
@@ -916,8 +945,6 @@ public class RC implements Initializable {
                     "-fx-border-color: #c1c3c9;" +  
                     "-fx-background-color: #f0eece;"
                 );
-              
-//              System.out.println("langL2: " + langL2.toString());
                 
             });
             
@@ -995,11 +1022,8 @@ public class RC implements Initializable {
             // 2. language.xml 파일 읽기
             readlangxml rl = new readlangxml();
             rl.runReadF();
-                        
-//            System.out.println("rl.langMap000:" + rl.langMap);
-            
+
             langMap.putAll(rl.langMap);
-//            System.out.println("langMap111:" + langMap.toString());
 
         } catch (Exception e) {
             String msg = "loadLangs 언어 목록 호출 실패";
@@ -1023,6 +1047,24 @@ public class RC implements Initializable {
             // 3. version.xml 파일 읽기
             readverxml rt = new readverxml();
             verL = rt.runverReadF();
+            
+            
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        
+        try {
+            // 3. type-lang.xml 파일 읽기
+            readtlxml rt = new readtlxml();
+            typelangMap = rt.runtlReadF();
+            
+            /*
+            typelangMap.forEach((k,v) -> {
+                System.out.println("k: " + k + ", v: " + v);
+                
+            });*/
+            
             
             
         } catch (Exception e) {
