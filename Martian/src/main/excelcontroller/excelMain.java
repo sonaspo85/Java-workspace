@@ -64,106 +64,83 @@ public class excelMain {
                         
                         // 1. 엑셀 파일 읽기
                         FileInputStream fis = new FileInputStream(abpath);
-                        
-                        // Zip bomb~ 에러 방지
-                        // Workbook 객체를 생성하기전에 추가 해야 한다.
                         ZipSecureFile.setMinInflateRatio(0);
                         Workbook wb = WorkbookFactory.create(fis);
                         
-                        // 2. sheet 의 총 개수 파악
                         int sheetCnt = wb.getNumberOfSheets();
                         System.out.println("sheetCnt: " + sheetCnt);
                         
                         // 3. 시트 반복
                         for(int i=0; i<sheetCnt; i++) {
-                            // 4. 새로운 XML DOM 객체 생성
                             Document doc = createDOM();
                             
                             // 5. root 요소 생성
                             Element rootEle = doc.createElement("root");
                             rootEle.setAttribute("filename", filename);
                             doc.appendChild(rootEle);
-                            
-                            // 6. 시트 이름 추출
                             String getSheetName = wb.getSheetName(i).replace(" ", "_").toLowerCase();
                             
                             if(!getSheetName.equals("type-lang")) {
+                                // 7. 시트에 접근
+                                Sheet sheet = wb.getSheetAt(i);
+                                Iterator<Row> rowIt = sheet.iterator();
                                 
-                            
-                            
-                            // 7. 시트에 접근
-                            Sheet sheet = wb.getSheetAt(i);
-                            
-                            // 8. 시트의 각 행을 Iterator 반복자를 사용하여 각 Row를 하나씩 반복
-                            Iterator<Row> rowIt = sheet.iterator();
-                            
-                            int startRowNum = 2;
-                            int startColNum = 1;
-                            
-                            List<String> headCellList = new ArrayList<>();
-                            int totalCellCnt = 0;
-                            // 9. 각 row 를 반복
-                            while(rowIt.hasNext()) {
-                                // 10. 각 row를 하나씩 추출
-                                Row row = rowIt.next();
+                                int startRowNum = 2;
+                                int startColNum = 1;
                                 
-                                // 11. header row를 찾아 각셀 반복
-                                if(row.getRowNum() == 2) {
-                                    // 12. getPhysicalNumberOfCells() : 실제 셀에 값이 채워져 있는 셀의 총 개수를 반환 
-                                    totalCellCnt = row.getPhysicalNumberOfCells();
-                                    
-                                    // 13. head row의 각 셀을 반복하여 firstCellList 컬렉션으로 수집
-                                    // c가 1부터 시작하는 이유는 두번째 col 부터 데이터가 채워져 있기 때문에
-                                    for(int c=1; c<=totalCellCnt; c++) {
-                                        // 14. 각 셀의 값 추출
-                                        Cell headCell = row.getCell(c);
+                                List<String> headCellList = new ArrayList<>();
+                                int totalCellCnt = 0;
+                                // 9. 각 row 를 반복
+                                while(rowIt.hasNext()) {
+                                    Row row = rowIt.next();
+                                    if(row.getRowNum() == 2) { 
+                                        totalCellCnt = row.getPhysicalNumberOfCells();
                                         
-                                        String str1 = formatCell(headCell);
-                                        // 특수문자인 경우 삭제
-//                                        String str2 = str1.replaceAll("[\\(\\)&/]", "").replaceAll("_$", "");
-                                        String str2 = str1.replaceAll("[\\(\\)]", "_").replaceAll("[&/]", "").replaceAll("_$", "");
-                                        String str3 = StringEscapeUtils.escapeXml11(str2);
-//                                        System.out.println("str3: " + str3);
-
-                                        headCellList.add(str3);
-                                        
-                                    }
-                                     
-                                } else {  // row 가 head 행이 아닌 경우
-                                    // isEmpty() 메소드를 호출하여 row 전체 셀이 비어 있지 않는 경우
-                                    if (!isEmpty(row, totalCellCnt) && row.getRowNum() > startRowNum) {
-                                        // row 한번씩 돌때마다 listitem 태그 생성 
-                                        Element listitem = doc.createElement("listitem");
-                                        rootEle.appendChild(listitem);
-                                        
-                                        for(int j=1; j<=totalCellCnt; j++) {
-                                           Cell cellVal = row.getCell(j);
-
-                                           String cellTxt0 = formatCell(cellVal);
-
-//                                           String cellTxt = StringEscapeUtils.escapeXml11(cellTxt0).replaceAll("[\n\r]", "&lt;br/&gt;");
-                                           String cellTxt = StringEscapeUtils.unescapeXml(cellTxt0).replaceAll("[\n\r]", "&lt;br/&gt;");
-                                           
-                                           String rowNum0 = String.valueOf(row.getRowNum()+1);
-                                           String colNum0 = String.valueOf(j+1);
-                                           
-                                           // 한번씩 돌때마다 header의 각 셀값들로 요소들 생성
-                                           Element listitemSub = doc.createElement(headCellList.get(j-1));
-                                           listitemSub.setAttribute("class", rowNum0 + ":" + colNum0);
-                                           // cell값 채우기
-                                           listitemSub.appendChild(doc.createTextNode(cellTxt)); 
-                                           listitem.appendChild(listitemSub);
-                                           
+                                        // 13. head row의 각 셀을 반복하여 firstCellList 컬렉션으로 수집
+                                        for(int c=1; c<=totalCellCnt; c++) {
+                                            // 14. 각 셀의 값 추출
+                                            Cell headCell = row.getCell(c);
+                                            
+                                            String str1 = formatCell(headCell);
+                                            String str2 = str1.replaceAll("[\\(\\)]", "_").replaceAll("[&/]", "").replaceAll("_$", "");
+                                            String str3 = StringEscapeUtils.escapeXml11(str2);
+    //                                        System.out.println("str3: " + str3);
+    
+                                            headCellList.add(str3);
+                                            
                                         }
-                                        
+                                         
+                                    } else {
+                                        if (!isEmpty(row, totalCellCnt) && row.getRowNum() > startRowNum) { 
+                                            Element listitem = doc.createElement("listitem");
+                                            rootEle.appendChild(listitem);
+                                            
+                                            for(int j=1; j<=totalCellCnt; j++) {
+                                               Cell cellVal = row.getCell(j);
+    
+                                               String cellTxt0 = formatCell(cellVal);
+                                               String cellTxt = StringEscapeUtils.unescapeXml(cellTxt0).replaceAll("[\n\r]", "&lt;br/&gt;");
+                                               
+                                               String rowNum0 = String.valueOf(row.getRowNum()+1);
+                                               String colNum0 = String.valueOf(j+1);
+                                               
+                                               // 한번씩 돌때마다 header의 각 셀값들로 요소들 생성
+                                               Element listitemSub = doc.createElement(headCellList.get(j-1));
+                                               listitemSub.setAttribute("class", rowNum0 + ":" + colNum0);
+                                               // cell값 채우기
+                                               listitemSub.appendChild(doc.createTextNode(cellTxt)); 
+                                               listitem.appendChild(listitemSub);
+                                               
+                                            }
+                                            
+                                        }
+    
                                     }
-
-                                }
+                                    
+                                } 
                                 
-                            } // row 반복 닫기 
-                            
-                            exportXML(doc, getSheetName);
-                            System.out.println("exportXML 완료!!!");
+                                exportXML(doc, getSheetName);
+                                System.out.println("exportXML 완료!!!");
                             }   
                         }
                         
@@ -204,8 +181,6 @@ public class excelMain {
             // 1. Transformer 객체 생성
             TransformerFactory ttf = TransformerFactory.newInstance(); 
             Transformer tf = ttf.newTransformer();
-            
-            // 2. 출력 속성 설정
             tf.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
             tf.setOutputProperty(OutputKeys.INDENT, "yes");
             tf.setOutputProperty(OutputKeys.METHOD, "xml");
@@ -213,8 +188,6 @@ public class excelMain {
             
             // 3. DOMSource 객체 생성
             DOMSource source = new DOMSource(doc);
-            
-            // 출력 결과를 스트림으로 생성
             StreamResult result = new StreamResult(excelPathP.toUri().toString());
             
             tf.transform(source, result);
@@ -233,13 +206,9 @@ public class excelMain {
     
     
     public boolean isEmpty(Row row, int totalCellCnt) {
-//        System.out.println("isEmpty() 시작");
-        
-        // 셀 개수 파악
         String str = "";
         
         for(int c=1; c<=totalCellCnt; c++) {
-            // 행의 각 셀의 값 추출
             Cell cellVal = row.getCell(c);
             str += cellVal;
             
@@ -270,7 +239,6 @@ public class excelMain {
         Optional<Cell> op = Optional.ofNullable(cell);
         
         if (!op.isPresent()) {
-            // op 객체가 null을 반환 하는 경우 제로 텍스트 입력
             return "";
             
         } else {

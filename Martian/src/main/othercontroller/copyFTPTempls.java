@@ -133,8 +133,7 @@ public class copyFTPTempls {
                             
                             e.printStackTrace();
                         }
-                        
-                        
+
                     }
                     
                     

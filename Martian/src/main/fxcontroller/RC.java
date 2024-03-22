@@ -158,10 +158,8 @@ public class RC implements Initializable {
         
         bt4.setOnAction(e -> exedExcel());
         
-        
         String template1F = obj.resourceDir + "/excel-template/template1.xlsx";
         String language1F = obj.resourceDir + "/excel-template/language.xlsx";
-        
         
         bt4.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
             @Override
@@ -227,7 +225,7 @@ public class RC implements Initializable {
                 tf3.setDisable(true);
                 tf3.clear();
                 tf3.setStyle("-fx-border-color: #c1c3c9;" + 
-                            "-fx-background-color: inherit;");
+                             "-fx-background-color: inherit;");
             }
             
         }));
@@ -286,8 +284,6 @@ public class RC implements Initializable {
             // 버튼 속성을 가진 객체를 찾기 - lookup() 메소드
             Button bt = (Button) parent.lookup("#bt1");
             bt.setOnAction(event -> dg.close());
-            
-            // Label 컨트롤 찾기
             Label lb22 = (Label) parent.lookup("#txtTitle");
             lb22.setText("작업이 완료 되었습니다.");
             
@@ -749,15 +745,12 @@ public class RC implements Initializable {
             Set<String> keyset = langMap.keySet();
             List<String> langL = new ArrayList<>(keyset);
 
-            
             langL.sort(Comparator.naturalOrder());
             
             langL.remove("English");
             langL.remove("Korean");
-
             langL.add(0, "English");
             langL.add(1, "Korean");
-            
             
             pcb1.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
                 @Override
@@ -959,15 +952,7 @@ public class RC implements Initializable {
             // 3. type-lang.xml 파일 읽기
             readtlxml rt = new readtlxml();
             typelangMap = rt.runtlReadF();
-            
-            /*
-            typelangMap.forEach((k,v) -> {
-                System.out.println("k: " + k + ", v: " + v);
-                
-            });*/
-            
-            
-            
+
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -985,22 +970,14 @@ public class RC implements Initializable {
             // 패키지 경로
             projectDir = file.getAbsolutePath();
             obj.projectDir = projectDir;
-//            System.out.println("projectDir: " + projectDir);
-             
-            
-            // resource 경로
-//            String resourceDir = projectDir + File.separator + "resource";
+
             String resourceDir = projectDir + File.separator + "jre/lib/resource";
             obj.resourceDir = Paths.get(resourceDir);
-//            System.out.println("resourceDir: " + resourceDir);
-            
-            
-            // xsls 경로
+
             String xslsDir = projectDir + File.separator + "jre/lib/xsls";
             obj.xslsDir = Paths.get(xslsDir);
             System.out.println("xslsDir: " + xslsDir);
-            
-            // Excel 템플릿 경로
+
             String excelTemplsPathS = resourceDir + File.separator + "excel-template"; 
             obj.excelTemplsPathP = Paths.get(excelTemplsPathS);
             
@@ -1018,24 +995,18 @@ public class RC implements Initializable {
         System.out.println("saveDirs() 메소드 시작");
 
         try {
-            // 1. FXMLLoader.load() 메소드로 fxml 파일 로드
             Parent parent = FXMLLoader.load(getClass().getClassLoader().getResource("main/fxcontroller/saveDir.fxml"));
     
-            // 커스텀 다이얼로그 생성하기
             // 2. Stage 객체 생성
             Stage stage = new Stage(StageStyle.UTILITY);
             stage.initModality(Modality.WINDOW_MODAL);
             stage.initOwner(primaryStage);
             stage.setTitle("FTP 서버에 저장될 경로를 입력 하세요.");
     
-            // Label 컨트롤 찾기
             TextField saveLabel = (TextField) parent.lookup("#saveTF");
-            
-            // Button 컨트롤 찾기
             Button saveBT = (Button) parent.lookup("#saveBt");
 //            saveBT.setDisable(true);
             
-            // TextField 필드에 입력받은 텍스트가 2개 이상인 경우 Button 컨트롤 활성화
             saveLabel.textProperty().addListener(new ChangeListener<String>() {
                 @Override
                 public void changed(ObservableValue<? extends String> observalble, String oldValue, String newValue) {
@@ -1049,8 +1020,7 @@ public class RC implements Initializable {
                     } else {
                         saveBT.setDisable(true);
                     }
-                    
-                  
+
                 }
     
             });
@@ -1336,10 +1306,7 @@ public class RC implements Initializable {
         dg.setTitle("작업이 완료 되었습니다.");
         
         try {
-            // FXMLLoader.load() 메소드로 popup.fxml 파일 로드
             Parent parent = FXMLLoader.load(getClass().getClassLoader().getResource("main/fxcontroller/checkingftp.fxml"));
-            
-            // 버튼 속성을 가진 객체를 찾기 - lookup() 메소드
             Button continueBt = (Button) parent.lookup("#continueBt");
             Button stopBt = (Button) parent.lookup("#stopBt");
             
