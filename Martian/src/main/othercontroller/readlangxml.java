@@ -22,16 +22,12 @@ public class readlangxml {
     
     public void runReadF() throws Exception {
         System.out.println("runReadF() 시작");
-        
         String langF = obj.resourceDir + File.separator + "language.xml";
-        
         
         // 1. InputSource로 읽기
         Document doc = obj.readFile(langF);
-        
         // 2. 문서의 루트 요소에 접근
         Element root = doc.getDocumentElement();
-        
         NodeList nl = root.getChildNodes(); 
         
         for(int i=0; i<nl.getLength(); i++) {
@@ -42,16 +38,13 @@ public class readlangxml {
                 
                 String ISOCode = child.getAttribute("ISOCode").replaceAll("\\(", "_").replaceAll("\\)", "");
                 String lang = child.getAttribute("language");
-                        
-//                langL.add(lang);
-                
+
                 langMap.put(lang, ISOCode);
                 
             }
                 
         }
         
-//        return langL;
     }
     
     

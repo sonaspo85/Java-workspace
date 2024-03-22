@@ -28,7 +28,6 @@ public class srcRunRepeat {
             
             ds.forEach(a -> {
                 String absSrcpath = a.toAbsolutePath().toString();
-//                System.out.println("absSrcpath: " + absSrcpath);
                 String filename = a.getFileName().toString();
                 
                 transformXSLT tf = new transformXSLT();

@@ -23,12 +23,7 @@ public class readtypexml {
         System.out.println("runReadF() 시작");
         
         String langF = obj.resourceDir + File.separator + "type.xml";
-        
-        
-        // 1. InputSource로 읽기
         Document doc = obj.readFile(langF);
-        
-        // 2. 문서의 루트 요소에 접근
         Element root = doc.getDocumentElement();
         
         NodeList nl = root.getChildNodes(); 
@@ -38,9 +33,7 @@ public class readtypexml {
             
             if (node1.getNodeType() == Node.ELEMENT_NODE) {
                 Element child = (Element) node1;
-                
                 String typestr = child.getAttribute("type");
-                
                         
                 typeL.add(typestr);
             }

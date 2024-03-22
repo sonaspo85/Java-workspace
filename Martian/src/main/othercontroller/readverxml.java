@@ -35,11 +35,9 @@ public class readverxml {
             Node node1 = nl.item(i);
             
             if (node1.getNodeType() == Node.ELEMENT_NODE) {
-                Element child = (Element) node1;
-                
+                Element child = (Element) node1;                
                 String verstr = child.getAttribute("version");
-                
-                        
+
                 verL.add(verstr);
             }
                 

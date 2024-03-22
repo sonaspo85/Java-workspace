@@ -24,14 +24,9 @@ public class readtlxml {
     
     public Map<String, List<String>> runtlReadF() throws Exception {
         System.out.println("runReadF() 시작");
-        
         String langF = obj.resourceDir + File.separator + "type-lang.xml";
         
-        
-        // 1. InputSource로 읽기
         Document doc = obj.readFile(langF);
-        
-        // 2. 문서의 루트 요소에 접근
         Element root = doc.getDocumentElement();
         NodeList nl = root.getChildNodes(); 
         
