@@ -291,19 +291,13 @@ public class RC implements Initializable {
             Label lb22 = (Label) parent.lookup("#txtTitle");
             lb22.setText("작업이 완료 되었습니다.");
             
-            
-            
-            // 이미지 교체
             InputStream imgStream = RC.class.getClassLoader().getResourceAsStream("main/fxcontroller/complete.png");
             Image image = new Image(imgStream);
             
             ImageView iv = (ImageView) parent.lookup("#imm");
             iv.setImage(image);
             
-            // Scene 객체 생성
             Scene scenePop = new Scene(parent);
-          
-            // 다이얼로그에 Scene 올리기
             dg.setScene(scenePop);
             dg.setResizable(false);
             dg.show();
@@ -589,17 +583,7 @@ public class RC implements Initializable {
 
                     if(!userName.matches("SMC") && Files.isDirectory(obj.xslsDir)) {
                         delXSLT();
-                        
-                        /*// Temp 폴더 삭제
-                        try {
-                            obj.recursDel(obj.tempDir);
-                            
-                        } catch (Exception e) {
-                            msg = "temp 폴더 삭제 실패";
-                            System.out.println("msg: " + msg);
-                            throw new RuntimeException(msg);
-                            
-                        }*/
+
                     }
                     
                     activateControl();
@@ -1083,7 +1067,6 @@ public class RC implements Initializable {
             
             stage.setOnCloseRequest(event -> {
                 if(Files.exists(obj.tempDir)) {
-                    // Temp 폴더 삭제
                     removeTemp();
                 }
                 
@@ -1127,10 +1110,7 @@ public class RC implements Initializable {
                 ftpTemp.ftpRemoveFolder();
                 ftpUpLoad();
                 
-//                obj.tempDir = Paths.get("G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/PYTHON/python-workspace/AIR_Html_Converter/srcDir/temp");
-
                 if(Files.exists(obj.tempDir)) {
-                    // Temp 폴더 삭제
                     removeTemp();
                     
                     activateControl();
@@ -1383,10 +1363,7 @@ public class RC implements Initializable {
                     ftpTemp.ftpRemoveFolder();
                     ftpUpLoad();
                     
-//                    obj.tempDir = Paths.get("G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/PYTHON/python-workspace/AIR_Html_Converter/srcDir/temp");
-
                     if(Files.exists(obj.tempDir)) {
-                        // Temp 폴더 삭제
                         removeTemp();
                         
                     }
@@ -1409,7 +1386,6 @@ public class RC implements Initializable {
                 System.out.println("stopBt 클릭!!!");
                 
                 if(Files.exists(obj.tempDir)) {
-                    // Temp 폴더 삭제
                     removeTemp();
                     
                 }
@@ -1441,7 +1417,7 @@ public class RC implements Initializable {
     
     public void removeTemp() {
         System.out.println("removeTemp() 시작");
-        
+        /*
         try {
             obj.recursDel(obj.tempDir);
                
@@ -1450,7 +1426,7 @@ public class RC implements Initializable {
             System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
             
-        }
+        }*/
 
     }
     
