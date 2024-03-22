@@ -1272,17 +1272,12 @@ public class RC implements Initializable {
             
             // ftp 접속 주소 설정
             client.connect("10.10.10.2", 21);
-            
-            // 올바르게 접속이 되었는지 확인하기
             int resultCode = client.getReplyCode();
-            
-            // 만약, 올바르게 접속이되지 않았다면, 에러 출력
             if(!FTPReply.isPositiveCompletion(resultCode)) {
                 System.out.println("FTP server refused connection!!");
                 return;
                 
-            } else {  // 올바르게 접속이 되었다면
-                // 파일 전송간 접속 딜레이 설정 (1ms 단위이기 때문에, 1000 이면 1초)
+            } else {
                 client.setSoTimeout(1000);
                 
                 // 로그인 하기
@@ -1297,13 +1292,9 @@ public class RC implements Initializable {
                     System.out.println("로그인 완료");
                 }
                 
-                // ftp 파일 업로드 하기
                 String exceltemplsF = excelfile;
-                
                 Path path = Paths.get(excelfile);
                 String filename = path.getFileName().toString();
-                
-                
                 String ftppath = "/tcs/confidential/Martian/resource/excel-template/" + filename;
                 
                 // 파일 InputStream을 가져온다.
@@ -1311,8 +1302,6 @@ public class RC implements Initializable {
                 client.setFileType(client.BINARY_FILE_TYPE);
                 client.storeFile(ftppath, fis);
                 System.out.println("Upload - " + exceltemplsF);
-
-                // ftp를 로그아웃한다.
                 client.logout();
                 System.out.println("ftpDownload 끝");
 
@@ -1323,7 +1312,6 @@ public class RC implements Initializable {
 //            throw new Exception("서버에 접속할 수 없습니다.");
             
         } finally {
-            // ftp 커넥션이 연결되어 있으면 종료한다.
             try {
                 if (client.isConnected()) {
                     System.out.println("서버 연결 해제 성공");
@@ -1337,11 +1325,10 @@ public class RC implements Initializable {
         
     }
     
- // 최종 작업 처리 후, 팝업창으로 경과 초를 출력
+
     public void checkingPopup(ftpRemoveDir ftpTemp) {
         System.out.println("checkingPop() 시작");
 
-        // 커스텀 다이얼로그 생성
         Stage dg = new Stage(StageStyle.UTILITY);
         dg.initModality(Modality.WINDOW_MODAL);
         dg.initOwner(primaryStage);
