@@ -24,7 +24,10 @@
          <font>
             <Font name="Candara Bold" size="15.0" />
          </font></Button>
-      <Label layoutX="134.0" layoutY="24.0" text="Label" />
-      <ComboBox fx:id="pcb1" layoutX="204.0" layoutY="20.0" prefWidth="150.0" />
+      <Label layoutX="54.0" layoutY="16.0" prefHeight="30.0" prefWidth="150.0" text="타입 언어 일괄 선택 : ">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <ComboBox fx:id="pcb1" layoutX="206.0" layoutY="16.0" prefHeight="30.0" prefWidth="150.0" />
    </children>
 </AnchorPane>

@@ -326,22 +326,16 @@ public class RC implements Initializable {
         }
         
         obj.srcPathP = Paths.get(tfTxt);
-        System.out.println("obj.srcPathP: " + obj.srcPathP);
         obj.modelNumber = tf2.getText();
-        System.out.println("obj.modelNumber: " + obj.modelNumber);
         
         String videoonOff = "off";
         if(tobt1.isSelected()) {
             videoonOff = "on";
         }
         
-        
-        if(tf1.getText() == "" || cb1.getValue() == null) {
-            System.out.println("tf1.getText(): " + tf1.getText());
-            System.out.println("cb1.getValue(): " + cb1.getValue().toString());
-            System.out.println("videoonOff: " + videoonOff);
-            
-            msg = "type / 경로 / video on/off를 모두 선택해 주세요.";                    
+
+        if(tf1.getText() == "" || cb1.getValue() == null | obj.langL2.size() < 1 ) {
+            msg = "type / 경로 / video on/off를 모두 선택해 주세요.";
             bt1.setDisable(false);
             customException(msg);
         } 
@@ -379,18 +373,15 @@ public class RC implements Initializable {
             Task<Void> task2 = new Task<Void>() {
                 @Override
                 protected Void call() {
-                    // 1. 인터페이스에서 선택한 언어 목록의 ISO 코드를 절대 경로로 변환 후 실제 디렉토리가 있는 경로만 반복 진행
                     getISO();
                     
                     // temp 경로 설정
                     String tempDir = obj.srcPathP.toAbsolutePath() + File.separator + "temp";
                     obj.tempDir = Paths.get(tempDir);
-//                    System.out.println("tempDir111: " + tempDir);
                     
                     // zipDir 경로 설정
                     String zipDirPathS = tempDir + File.separator + "zipDir"; 
                     obj.zipDirP = Paths.get(zipDirPathS);
-//                    System.out.println("obj.zipDirP: " + obj.zipDirP);
                     
                     // output폴더 삭제 하기
                     try {
@@ -398,12 +389,10 @@ public class RC implements Initializable {
                         Path outputP = Paths.get(outputpath);
                         
                         if (Files.isDirectory(outputP)) {
-                            System.out.println("outputP 폴더 삭제");
                             obj.recursDel(outputP);
                             
                         } 
                         if (Files.isDirectory(obj.tempDir)) {
-                            System.out.println("tempDir 폴더 삭제");
                             obj.recursDel(obj.tempDir);
                             
                         } 
@@ -435,7 +424,6 @@ public class RC implements Initializable {
                     try {
                         docInfo docinfo = new docInfo();
                         docinfo.runExtractXML();
-                        
                         
                     } catch (Exception e) {
                         msg = e.getMessage();
@@ -670,9 +658,7 @@ public class RC implements Initializable {
                 String lang = k;
                 String isocode = v;
                 
-                // 1. 각 소스 경로 생성
                 Path fullpathP = Paths.get(obj.srcPathP + File.separator + isocode);
-                System.out.println("fullpathP: " + fullpathP);
                 srcDirFullpath.add(fullpathP);
                 
             });
@@ -690,14 +676,11 @@ public class RC implements Initializable {
     
     
     public void exedExcel() {
-        System.out.println("외부 엑셀 파일 실행 하기");
-        
         String command = obj.resourceDir + "/excel-template/template1.xlsx";        
         ProcessBuilder builder = new ProcessBuilder();
         
         Process process = null;
         builder.redirectErrorStream(false);
-        
         builder.command("cmd.exe", "/c", command);
         try {
             process = builder.start();
@@ -707,9 +690,6 @@ public class RC implements Initializable {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        
-
-        System.out.println("끝!!!");
         
     }
     
@@ -746,7 +726,7 @@ public class RC implements Initializable {
             }
             
         } catch(Exception e) {
-            e.printStackTrace();
+
         }
         
         
@@ -879,7 +859,6 @@ public class RC implements Initializable {
             
             dg.setOnCloseRequest(event -> {
                 langL.clear();
-                
                 langL2.addAll(plv2.getItems());
                 obj.langL2.addAll(langL2);
                 bt2.setStyle(
@@ -1463,8 +1442,7 @@ public class RC implements Initializable {
     public void removeTemp() {
         System.out.println("removeTemp() 시작");
         
-        /*try {
-            System.out.println("temp 폴더 삭제");
+        try {
             obj.recursDel(obj.tempDir);
                
         } catch (Exception e3) {
@@ -1472,9 +1450,8 @@ public class RC implements Initializable {
             System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
             
-        }*/
-        
-        
+        }
+
     }
     
     

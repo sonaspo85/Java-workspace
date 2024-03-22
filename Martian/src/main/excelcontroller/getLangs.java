@@ -36,38 +36,24 @@ public class getLangs {
         System.out.println("runLangs() 시작");
         
         try {
-            // 
             String langExcelF = obj.excelTemplsPathP + "/language.xlsx";
-            
-            // 1. 엑셀 파일 읽기
             FileInputStream fis = new FileInputStream(langExcelF);
-            
-            // Zip bomb 에러 방지
             ZipSecureFile.setMinInflateRatio(0);
-            
-            // 2. 엑셀 파일 접근
             Workbook wb = WorkbookFactory.create(fis);
             
-            // 3. 시트 접근
             // 시트 총 개수 파악
             int sheetCnt = wb.getNumberOfSheets();
             
             for(int y=0; y<sheetCnt; y++) {
                 Document doc = createDOM();
-                
                 Element rootEle = doc.createElement("root");
                 doc.appendChild(rootEle);
-                
-                // 시트 이름 추출
                 String getSheetName = wb.getSheetName(y);
                 getSheetName = getSheetName.replace(" ", "_").toLowerCase();
                 
                 if (!getSheetName.equals("type-lang")) {
-                    // 시트에 접근
                     Sheet sheet = wb.getSheetAt(y);
-                    
                     int totalCellCnt = 0;
-                    
                     Iterator<Row> rowIt = sheet.iterator();
                     
                     while(rowIt.hasNext()) {
@@ -85,24 +71,20 @@ public class getLangs {
                                 if (getSheetName.equals("language")) {
                                     if (j == 1) {
                                         listitem.setAttribute("language", str1);
-    //                                    System.out.println("language: " + str1);
                                         
                                     } else if (j == 2) {
                                         listitem.setAttribute("ISOCode", str1);
-    //                                    System.out.println("ISOCode: " + str1);
                                         
                                     }  
                                 } else if(getSheetName.equals("type")) {
                                     if (j == 1) {
                                         listitem.setAttribute("type", str1);
-    //                                    System.out.println("language: " + str1);
                                         
                                     }
                                     
                                 } else if(getSheetName.equals("version")) {
                                     if (j == 1) {
                                         listitem.setAttribute("version", str1);
-    //                                    System.out.println("language: " + str1);
                                         
                                     }
                                     
@@ -113,17 +95,13 @@ public class getLangs {
                             rootEle.appendChild(listitem);
                         }
     
-                    }  // row 반복 닫기
+                    }
                     exportXML(doc, getSheetName);
                     
                 } else if(getSheetName.equals("type-lang")) {
                     System.out.println("type-lang 시트 작업중 입니다.");
                     
                     Sheet sheet = wb.getSheet("Type-lang");
-//                    int rowcnt = sheet.getPhysicalNumberOfRows();
-//                    System.out.println("rowcnt: " + rowcnt);
-                    
-                    
                     callfac(sheet, doc, rootEle);
                     callrac(sheet, doc, rootEle);
                     

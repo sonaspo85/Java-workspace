@@ -34,8 +34,6 @@ public class docInfo {
         String docInfoS = obj.resourceDir + File.separator + "docInfo.xml";
         System.out.println("docInfoS: " + docInfoS);
         Path path = Paths.get(docInfoS);
-
-        // 파일이 존재 한다면 삭제
         Files.deleteIfExists(path);
 
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -45,8 +43,6 @@ public class docInfo {
 
         // 루트 요소 만들기
         Element ele = doc.createElement("root");
-
-
         ele.setAttribute("type", obj.type);
         ele.setAttribute("videoSwitch", obj.ridioTxt);
         ele.setAttribute("modelNumber", obj.modelNumber);
@@ -58,7 +54,6 @@ public class docInfo {
         item.setAttribute("id", "projectDir");
         item.setAttribute("path", obj.projectDir);
         ele.appendChild(item);
-
 
         Element item2 = doc.createElement("item");
         item2.setAttribute("id", "srcDir");
@@ -85,30 +80,16 @@ public class docInfo {
         item6.setAttribute("path", obj.excelTemplsPathP.toString());
         ele.appendChild(item6);
 
-        /*
-        Element item7 = doc.createElement("item");
-        item7.setAttribute("id", "langsMap");
-        
-        String langsMap = obj.matchlangMap.toString().replaceAll("[\\{\\}]", "");
-        item7.setAttribute("path", langsMap);
-        ele.appendChild(item7);*/
-        
         Element item8 = doc.createElement("item");
         
         String item8data = getItem8();
         
-//        String sequenceLang = obj.langL2.toString();
         item8.setAttribute("id", "langsMap");
         item8.setAttribute("sequence", item8data);
         ele.appendChild(item8);
-        
 
-        
         doc.appendChild(ele);
         obj.xmlTransform(docInfoS, doc);
-        
-        
-        
 
     }
     
@@ -121,7 +102,6 @@ public class docInfo {
             ds.forEach(a -> {
                 String isocode = a.getFileName().toString();
                 Path abspath = a.toAbsolutePath();
-//                System.out.println("uuu: " + a.toAbsolutePath().toString());
                 
                 if(Files.isDirectory(a) && !isocode.contains("temp")) {
                     List<String> list = new ArrayList<>();
@@ -142,18 +122,9 @@ public class docInfo {
                             } else if(Files.isRegularFile(b) && getName2.contains(".idml")) {
                                 filename = getName2.replace(".idml", "");
                             }
-                            
-                            
-                            
-//                            System.out.println("wwww: " + getName2);
+
                             list.add(filename);
                             list.add(srcimgpath);
-                            
-//                            list.forEach(d -> {
-//                                System.out.println(d);
-//                            });
-                            
-                            
                             
                             workinglngMap.put(isocode, list);
                         });
@@ -161,7 +132,6 @@ public class docInfo {
                     } catch(Exception e2) {
                         e2.printStackTrace();
                     }
-                    
                     
                 }
                 
@@ -171,9 +141,6 @@ public class docInfo {
         } catch(Exception e) {
             e.printStackTrace();
         }
-        
-        
-        
         
     }
     
@@ -204,13 +171,7 @@ public class docInfo {
             }
         }
         
-        System.out.println("item8data: "+ item8data);
-        
-        
         return item8data;
     }
-    
-    
-    
     
 }

@@ -28,10 +28,7 @@ public class changeExtIdmltZip {
         
         obj.srcDirFullpath.forEach(c -> {
             String fullpath = c.toAbsolutePath().toString();
-            System.out.println("fullpath: " + fullpath);
-            
-            
-            // idml 디렉토리가 존재 한다면 루프
+
             if(Files.exists(c)) {
                 try {
                     DirectoryStream<Path> ds = Files.newDirectoryStream(c);
@@ -46,14 +43,10 @@ public class changeExtIdmltZip {
                             // 확장자 추출
                             int lastDot = fileName.lastIndexOf(".");
                             String extension = fileName.substring(lastDot);
-//                            System.out.println("extension: " + extension);
                             
                             // zip 확장자로 이름 변경
                             String newIdmlZipF = fileName.replace(extension, ".zip");
                             Path idmlZipP = Paths.get(obj.zipDirP + File.separator + newIdmlZipF);
-//                            System.out.println("idmlZipP: " + idmlZipP.toString());
-
-                            // zipDir 폴더로 zip 확장자로 변경한 후 파일 복사
                             copyFiles(a, idmlZipP);
 
                         }
@@ -76,10 +69,8 @@ public class changeExtIdmltZip {
         
         String fullpath = a.toAbsolutePath().toString();
         String srcDirS = obj.srcPathP.toAbsolutePath().toString();
-        
         String getTxt = fullpath.replace(srcDirS, "").replaceAll("^[\\\\]", "").replace(".idml", "");
         String[] splitTxt = getTxt.split("\\\\");
-        
         isocurpath.put(splitTxt[1], splitTxt[0]);
         
     }
@@ -89,8 +80,7 @@ public class changeExtIdmltZip {
         
         try {
             Files.copy(a, idmlZipP, StandardCopyOption.COPY_ATTRIBUTES, StandardCopyOption.REPLACE_EXISTING);
-            
-            
+
         } catch(Exception e) {
             msg = "idml 파일 zipDir 폴더로 복사 실패";
             System.out.println("msg: " + msg);
