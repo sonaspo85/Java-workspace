@@ -200,7 +200,7 @@ public class RC implements Initializable {
                 
                 tf3.setDisable(false);
                 tf3.setStyle("-fx-border-color: #c1c3c9;" + 
-                        "-fx-background-color: #f0eece;");
+                             "-fx-background-color: #f0eece;");
                 
                 tobt2.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
                     @Override
