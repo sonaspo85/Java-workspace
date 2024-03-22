@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root filename="template1.xlsx">
+   <listitem>
+      <Type class="4:2">FAC</Type>
+      <Key class="4:3">Remote_1</Key>
+      <KO class="4:4">제품매뉴얼 바로가기</KO>
+      <EN class="4:5">aaaaa</EN>
+      <FR class="4:6"></FR>
+      <FR_AM class="4:7"></FR_AM>
+      <DE class="4:8"></DE>
+      <IT class="4:9"></IT>
+      <PL class="4:10"></PL>
+      <ES class="4:11"></ES>
+      <ES_AM class="4:12"></ES_AM>
+      <TH class="4:13"></TH>
+      <VI class="4:14"></VI>
+      <TC class="4:15"></TC>
+   </listitem>
+   <listitem>
+      <Type class="5:2">FAC</Type>
+      <Key class="5:3">Remote_2</Key>
+      <KO class="5:4">리모컨 매뉴얼 바로가기</KO>
+      <EN class="5:5">bbbbb</EN>
+      <FR class="5:6"></FR>
+      <FR_AM class="5:7"></FR_AM>
+      <DE class="5:8"></DE>
+      <IT class="5:9"></IT>
+      <PL class="5:10"></PL>
+      <ES class="5:11"></ES>
+      <ES_AM class="5:12"></ES_AM>
+      <TH class="5:13"></TH>
+      <VI class="5:14"></VI>
+      <TC class="5:15"></TC>
+   </listitem>
+</root>

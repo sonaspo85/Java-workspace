@@ -88,7 +88,7 @@ public class RC implements Initializable {
     
     @FXML private ProgressBar pbar1;
     @FXML private Text pbart1;
-    String userName = System.getProperty("user.name");  // SMC
+    String userName = System.getProperty("user.name");
     
     @FXML private ContextMenu cm1;
     @FXML private MenuItem mi1;
@@ -131,15 +131,13 @@ public class RC implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         System.out.println("RC 시작");
-        
-        // 초기 디렉토리 설정
+
         setDirectoryPath();
         
         // 언어 목록 엑셀을 xml로 변환
         loadLangs();
         
         cb1.setItems(FXCollections.observableArrayList(typeL));
-//        cb2.setItems(FXCollections.observableArrayList(verL));
         
         // 언어 선택 팝업창 출력
         bt2.setOnAction(e -> langPop());
@@ -155,7 +153,6 @@ public class RC implements Initializable {
 //        cb2.getSelectionModel().select(2);
 //        cb2.setStyle("-fx-font-family: consolas");
         
-
         tf1.setText("H:/Workspace/Java-workspace/Martian/srcDir");
         tf2.setText("111");
         
@@ -237,7 +234,6 @@ public class RC implements Initializable {
 
     }
     
-    // 예외 발생시 호출될 메소드
     public void customException(String msg) {
         System.out.println("customException() 메소드 호출");
         selectedPopup(msg);
@@ -251,22 +247,14 @@ public class RC implements Initializable {
         dg.initModality(Modality.WINDOW_MODAL);
         dg.initOwner(primaryStage);
         
-        // FXMLLoader.load() 메소드로 팝업 로드
         try {
             Parent parent = FXMLLoader.load(getClass().getClassLoader().getResource("main/fxcontroller/selectedException.fxml"));
             
-            //버튼 찾기 
             Button sebt = (Button) parent.lookup("#sebt");
             sebt.setOnAction(ev -> dg.close());
-            
-            // 라벨 컨트롤 찾기
             Label selb = (Label) parent.lookup("#seLabel");
             selb.setText(msg);
-            
-            // Scene 객체 생성
             Scene scenePop = new Scene(parent);
-            
-            // 다이얼로그에 Scene 올리기
             dg.setScene(scenePop);
             dg.setResizable(false);
             dg.show();
@@ -731,19 +719,13 @@ public class RC implements Initializable {
         
         langL2.forEach(a -> {
             String lang = a;
-//            System.out.println("lang: " + lang);
             
             langMap.forEach((k,v) -> {
                 if(k.equals(lang)) {
                     obj.matchlangMap.put(lang, v);
-                    
-                    System.out.println("lang:" + lang);
                 }
             });
         });
-        
-//        System.out.println("obj.matchlangMap" + obj.matchlangMap.toString());
-
         
     }
     
@@ -751,16 +733,12 @@ public class RC implements Initializable {
         System.out.println("openDialog() 시작");
         
         DirectoryChooser dc = new DirectoryChooser();
-        
-        // 다이얼로그 띄우기 - showDialog(primaryStage) 메소드
         File selectedDir = dc.showDialog(primaryStage);
-        
         
         try {
             String selectedDirPath = selectedDir.getPath();
             
             if (selectedDirPath != null) {
-                // textField에 경로 삽입하기
                 tf1.setText(selectedDirPath);
                 srcP = Paths.get(selectedDirPath);
                 obj.srcPathP = srcP;
@@ -768,8 +746,7 @@ public class RC implements Initializable {
             }
             
         } catch(Exception e) {
-//            e.printStackTrace();
-
+            e.printStackTrace();
         }
         
         
@@ -787,28 +764,17 @@ public class RC implements Initializable {
         try {
             Parent parent = FXMLLoader.load(getClass().getClassLoader().getResource("main/fxcontroller/langpop.fxml"));
             
-            
-            // 3. 버튼 찾기
             Button pbt1 = (Button) parent.lookup("#pbt1");
             Button pbt2 = (Button) parent.lookup("#pbt2");
             ComboBox<String> pcb1 = (ComboBox) parent.lookup("#pcb1");
             
             List<String> pcbL = new ArrayList<String>();
-            List<String> pcbL2 = new ArrayList<String>();
-            
-            
             typelangMap.forEach((k,v) -> {
                 String type = k;
                 List<String> langL = v;
                 
                 pcbL.add(type);
-                
-//                langL.forEach(a -> {
-//                    pcbL2.add(a);
-//                });
-                
-                
-            });
+            });            
             
             pcb1.setItems(FXCollections.observableArrayList(pcbL));
  
@@ -835,15 +801,13 @@ public class RC implements Initializable {
                     System.out.println("Selected value : " + newValue);
                     
                     if(typelangMap.containsKey(newValue)) {
-                        System.out.println("해당 타입이 존재 합니다.");
-                        
                         plv2.setItems(FXCollections.observableArrayList(typelangMap.get(newValue)));
                         
-                    }   
+                    }
                     
                 }
             });
-            
+            langL2.clear();
             plv1.setItems(FXCollections.observableArrayList(langL));
             plv1.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             plv2.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
@@ -870,8 +834,6 @@ public class RC implements Initializable {
                         plv2.getItems().set(itemidx-1, curitem);
                         plv2.getItems().set(itemidx, previtem);
                         
-                    } else {
-                        System.out.println("0번째 인덱스");
                     }
 
                 });
@@ -886,22 +848,13 @@ public class RC implements Initializable {
 
                     if (itemidx+1 != lastidx) {
                         String nextitem = plv2.getItems().get(itemidx+1);
-                        System.out.println("itemidx: " + itemidx + ", item:" + curitem);
-                        System.out.println("nextitem: " + nextitem);
-                        
-                        // 현재 목록을 뒤로 이동
                         plv2.getItems().set(itemidx+1, curitem);
-                      
-                        // 뒤쪽 목록을 현재 목록 위치로 이동
                         plv2.getItems().set(itemidx, nextitem);
 
-                    } else  {
-                        System.out.println("마지막 인덱스");
-                    }
+                    } 
 
                 });
                 
-                // contextMenu 컨트롤에 MenuItem 목록 추가 하기
                 contextMenu.getItems().addAll(prevItem, nextItem);
                 
                 cell.textProperty().bind(cell.itemProperty());
@@ -916,35 +869,24 @@ public class RC implements Initializable {
                 return cell;
             });
 
-            
-            // 4. Scene 객체 생성
-            // 모달 다이얼로그 객체를 실행하기 위해서는 getContent() 메소드가 아니라,
-            // Scene() 생성자의 매개값으로 popup 객체를 할당 해야 한다.
             Scene scenePop = new Scene(parent);
-            
-            // 5. 다이얼로그에 Scene 올리기
             dg.setScene(scenePop);
-            
-            // 6. 윈도우창을 수정할 수 없도록 하기
             dg.setResizable(false);
-            
-            // 7. popup 객체 실행
             dg.show();
-            
-            // 8. popup 객체의 위치 조정
             Point2D point = parent.localToScene(100, 100);
             dg.setX(primaryStage.getX() + point.getX());
             dg.setY(primaryStage.getY() + point.getY());
             
-            
             dg.setOnCloseRequest(event -> {
-                langL2.clear();
+                langL.clear();
+                
                 langL2.addAll(plv2.getItems());
                 obj.langL2.addAll(langL2);
                 bt2.setStyle(
                     "-fx-border-color: #c1c3c9;" +  
                     "-fx-background-color: #f0eece;"
                 );
+                pcbL.clear();
                 
             });
             
@@ -958,9 +900,7 @@ public class RC implements Initializable {
     public void removeList(Stage e, List<String> langL2, ListView<String> plv1, ListView<String> plv2) {
         System.out.println("removeList() 시작");
         
-        // plv2 의 선택한 목록들을 langL2 목록에서 삭제 
         langL2.removeAll(plv2.getSelectionModel().getSelectedItems());
-        // plv2 의 listview 항목들 다시 세팅
         plv2.setItems(FXCollections.observableArrayList(langL2));
             
     }
@@ -969,16 +909,15 @@ public class RC implements Initializable {
         System.out.println("addList() 시작");
 
         if (langL2.size() > 1) {
+            System.out.println("언어가 하나 이상 입니다.");
             List<String> list3 = new ArrayList<>();
             
             list3.addAll(plv1.getSelectionModel().getSelectedItems());
-            
-            // ArrayList 원소 빈도수 출력        
             Set<String> set = new HashSet<String>(list3);        
             for (String str : set) {            
                 int cnt = Collections.frequency(langL2, str);
                 
-                if(cnt == 1) {                    
+                if(cnt == 1) {
                     for(int u=0;u<plv2.getItems().size(); u++) {
                         String item = plv2.getItems().get(u);
                         
@@ -990,21 +929,20 @@ public class RC implements Initializable {
                     }
                         
                 } else if(cnt < 1) {
-                    System.out.println("한개도 없음, 중복 없음");
                     System.out.println(str + " : " + Collections.frequency(langL2, str));
                     langL2.add(str);
                 }
                
             }
             
+            list3.clear();
             
-        } else {
-            // plv1 listview 에서 선택한 목록들을 langL2 List 컬렉션으로 수집 
+        } else { 
+            System.out.println("언어가 하나 입니다.");
             langL2.addAll(plv1.getSelectionModel().getSelectedItems());
             
         }
 
-        // plv2 listview 의 항목으로 추가하기
         plv2.setItems(FXCollections.observableArrayList(langL2)); 
         
     }

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root filename="template1.xlsx">
+   <listitem>
+      <Key class="4:2">language</Key>
+      <EN class="4:3">English</EN>
+      <AR class="4:4">العربية</AR>
+      <BG class="4:5">български</BG>
+      <FR class="4:6">Français</FR>
+      <DE class="4:7">Deutsch</DE>
+      <IT class="4:8">Italiano</IT>
+      <PL class="4:9">Polski</PL>
+      <ES class="4:10">Español</ES>
+   </listitem>
+   <listitem>
+      <Key class="5:2">language_code</Key>
+      <EN class="5:3">EN</EN>
+      <AR class="5:4">AR</AR>
+      <BG class="5:5">BG</BG>
+      <FR class="5:6">FR</FR>
+      <DE class="5:7">DE</DE>
+      <IT class="5:8">IT</IT>
+      <PL class="5:9">PL</PL>
+      <ES class="5:10">ES</ES>
+   </listitem>
+   <listitem>
+      <Key class="6:2">user_manual</Key>
+      <EN class="6:3">User manual</EN>
+      <AR class="6:4">دليل الاستخدام</AR>
+      <BG class="6:5">Ръководство за потребителя</BG>
+      <FR class="6:6">Manuel de l’utilisateur</FR>
+      <DE class="6:7">Benutzerhandbuch</DE>
+      <IT class="6:8">Manuale dell'utente</IT>
+      <PL class="6:9">Instrukcja obsługi</PL>
+      <ES class="6:10">Manual de usuario</ES>
+   </listitem>
+   <listitem>
+      <Key class="7:2">model_acr</Key>
+      <EN class="7:3">Air purifier</EN>
+      <AR class="7:4">أسماء المكونات</AR>
+      <BG class="7:5">Пречиствател за въздух</BG>
+      <FR class="7:6">Purificateur d'air</FR>
+      <DE class="7:7">Luftreiniger</DE>
+      <IT class="7:8">Purificatore d'aria</IT>
+      <PL class="7:9">Oczyszczacz powietrza</PL>
+      <ES class="7:10">Purificador de aire</ES>
+   </listitem>
+   <listitem>
+      <Key class="8:2">model_fac</Key>
+      <EN class="8:3">Floor standing air-conditioner</EN>
+      <AR class="8:4">مكيف هواء يُثبَّت على الأرض</AR>
+      <BG class="8:5">Подов климатик</BG>
+      <FR class="8:6">Climatiseur au sol</FR>
+      <DE class="8:7">Stand-Klimaanlage</DE>
+      <IT class="8:8">Condizionatore a pavimento</IT>
+      <PL class="8:9">Klimatyzator stojący</PL>
+      <ES class="8:10">Aire acondicionado de montaje en suelo</ES>
+   </listitem>
+   <listitem>
+      <Key class="9:2">model_rac</Key>
+      <EN class="9:3">Wall-mount air-conditioner</EN>
+      <AR class="9:4">مكيف هواء يُثبَّت على الحائط</AR>
+      <BG class="9:5">Стенен климатик</BG>
+      <FR class="9:6">Climatiseur mural</FR>
+      <DE class="9:7">Wandmontierte Klimaanlage</DE>
+      <IT class="9:8">Condizionatore montato a parete</IT>
+      <PL class="9:9">Klimatyzator do montażu ściennego</PL>
+      <ES class="9:10">Aire acondicionado de montaje en pared</ES>
+   </listitem>
+   <listitem>
+      <Key class="10:2">model_wac</Key>
+      <EN class="10:3">Window Fit</EN>
+      <AR class="10:4">مناسب للنوافذ</AR>
+      <BG class="10:5">Подходящ за прозорец</BG>
+      <FR class="10:6">Montage sur fenêtre</FR>
+      <DE class="10:7">Fenster-Installation</DE>
+      <IT class="10:8">Adatta a finestra</IT>
+      <PL class="10:9">Dopasowanie do okna</PL>
+      <ES class="10:10">Ajuste a la ventana</ES>
+   </listitem>
+   <listitem>
+      <Key class="11:2">model_vcn</Key>
+      <EN class="11:3">Vacuum cleaner</EN>
+      <AR class="11:4">المكنسة الكهربائية</AR>
+      <BG class="11:5">Прахосмукачка</BG>
+      <FR class="11:6">Aspirateur</FR>
+      <DE class="11:7">Staubsauger</DE>
+      <IT class="11:8">Aspirapolvere</IT>
+      <PL class="11:9">Odkurzacz</PL>
+      <ES class="11:10">Aspirador</ES>
+   </listitem>
+   <listitem>
+      <Key class="12:2">select_language</Key>
+      <EN class="12:3">Select Language</EN>
+      <AR class="12:4">حدد اللغة</AR>
+      <BG class="12:5">Избор на език</BG>
+      <FR class="12:6">Sélectionner la langue</FR>
+      <DE class="12:7">Sprache auswählen</DE>
+      <IT class="12:8">Selezionare lingua</IT>
+      <PL class="12:9">Wybierz język</PL>
+      <ES class="12:10">Seleccionar idioma</ES>
+   </listitem>
+   <listitem>
+      <Key class="13:2">search</Key>
+      <EN class="13:3">Search</EN>
+      <AR class="13:4">بحث</AR>
+      <BG class="13:5">Търсене</BG>
+      <FR class="13:6">Rechercher</FR>
+      <DE class="13:7">Suchen</DE>
+      <IT class="13:8">Ricerca</IT>
+      <PL class="13:9">Wyszukaj</PL>
+      <ES class="13:10">Buscar</ES>
+   </listitem>
+   <listitem>
+      <Key class="14:2">keyword</Key>
+      <EN class="14:3">Enter your search keyword.</EN>
+      <AR class="14:4">أدخل الكلمة الأساسية للبحث.</AR>
+      <BG class="14:5">Въведете ключова дума за търсене.</BG>
+      <FR class="14:6">Saisissez votre mot-clé de recherche.</FR>
+      <DE class="14:7">Geben Sie Ihren Suchbegriff ein.</DE>
+      <IT class="14:8">Digitare la parola chiave di ricerca.</IT>
+      <PL class="14:9">Wprowadź wyszukiwane słowa kluczowe.</PL>
+      <ES class="14:10">Introduzca la palabra clave de búsqueda.</ES>
+   </listitem>
+   <listitem>
+      <Key class="15:2">result_toc</Key>
+      <EN class="15:3">Search Table of Contents</EN>
+      <AR class="15:4">البحث في جدول المحتويات</AR>
+      <BG class="15:5">Търсене в съдържанието</BG>
+      <FR class="15:6">Rechercher dans la table des matières</FR>
+      <DE class="15:7">Inhaltsverzeichnis durchsuchen</DE>
+      <IT class="15:8">Ricerca nel Sommario</IT>
+      <PL class="15:9">Wyszukaj spis treści</PL>
+      <ES class="15:10">Buscar en tabla de contenido</ES>
+   </listitem>
+   <listitem>
+      <Key class="16:2">search_short</Key>
+      <EN class="16:3">Keyword is too short.</EN>
+      <AR class="16:4">الكلمة الأساسية قصيرة جدًا.</AR>
+      <BG class="16:5">Ключовата дума е твърде кратка.</BG>
+      <FR class="16:6">Le mot-clé est trop court.</FR>
+      <DE class="16:7">Suchbegriff ist zu kurz.</DE>
+      <IT class="16:8">La parola chiave è troppo breve.</IT>
+      <PL class="16:9">Słowo kluczowe jest za krótkie.</PL>
+      <ES class="16:10">La palabra clave es demasiado corta.</ES>
+   </listitem>
+   <listitem>
+      <Key class="17:2">search_more</Key>
+      <EN class="17:3">More</EN>
+      <AR class="17:4">المزيد</AR>
+      <BG class="17:5">Повече</BG>
+      <FR class="17:6">Plus</FR>
+      <DE class="17:7">Mehr</DE>
+      <IT class="17:8">Altro</IT>
+      <PL class="17:9">Więcej</PL>
+      <ES class="17:10">Más</ES>
+   </listitem>
+   <listitem>
+      <Key class="18:2">search_less</Key>
+      <EN class="18:3">Hide</EN>
+      <AR class="18:4">إخفاء</AR>
+      <BG class="18:5">Скриване</BG>
+      <FR class="18:6">Masquer</FR>
+      <DE class="18:7">Ausblenden</DE>
+      <IT class="18:8">Nascondi</IT>
+      <PL class="18:9">Ukryj</PL>
+      <ES class="18:10">Ocultar</ES>
+   </listitem>
+   <listitem>
+      <Key class="19:2">close</Key>
+      <EN class="19:3">Close</EN>
+      <AR class="19:4">مغلق</AR>
+      <BG class="19:5">Затваряне</BG>
+      <FR class="19:6">Fermer</FR>
+      <DE class="19:7">Schließen</DE>
+      <IT class="19:8">Chiusa</IT>
+      <PL class="19:9">Zamknij</PL>
+      <ES class="19:10">Cerrado</ES>
+   </listitem>
+   <listitem>
+      <Key class="20:2">find_err</Key>
+      <EN class="20:3">No search results found.&lt;br/&gt;Press the Close button to go to the main page.</EN>
+      <AR class="20:4">لم يتم العثور على نتائج بحث. &lt;br/&gt; اضغط على زر "إغلاق" للانتقال إلى الصفحة الرئيسية.</AR>
+      <BG class="20:5">Няма намерени резултати от търсенето.&lt;br/&gt;Натиснете бутона „Затваряне“, за да преминете към главната страница.</BG>
+      <FR class="20:6">Aucun résultat de recherche trouvé.&lt;br/&gt;Appuyez sur le bouton Fermer pour revenir à la page principale.</FR>
+      <DE class="20:7">Keine Suchergebnisse gefunden.&lt;br/&gt;Drücken Sie die Schließen-Taste, um zur Hauptseite zurückzukehren.</DE>
+      <IT class="20:8">La ricerca non ha prodotto risultati.&lt;br/&gt;Premere il pulsante di chiusura per passare alla pagina principale.</IT>
+      <PL class="20:9">Nie znaleziono wyników wyszukiwania.&lt;br/&gt;Naciśnij przycisk Zamknij, aby przejść do strony głównej.</PL>
+      <ES class="20:10">No se han encontrado resultados de búsqueda.&lt;br/&gt;Pulse el botón Cerrar para ir a la página principal.</ES>
+   </listitem>
+   <listitem>
+      <Key class="21:2">Link_Refer</Key>
+      <EN class="21:3"></EN>
+      <AR class="21:4"></AR>
+      <BG class="21:5"></BG>
+      <FR class="21:6"></FR>
+      <DE class="21:7"></DE>
+      <IT class="21:8"></IT>
+      <PL class="21:9"></PL>
+      <ES class="21:10"></ES>
+   </listitem>
+</root>

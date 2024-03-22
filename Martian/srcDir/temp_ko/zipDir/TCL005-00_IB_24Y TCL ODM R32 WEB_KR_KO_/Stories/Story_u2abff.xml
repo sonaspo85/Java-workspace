@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="18.0">
+	<Story Self="u2abff" AppliedTOCStyle="TOCStyle/목차 스타일" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3adbb" Name=".241083" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>안전을 위한 주의사항	3</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3adc5" Name=".241093" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>사용 전 확인사항	8</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3adc9" Name=".241097" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="사용 전 알아두기" TocEntryPageNumberString="&#x9;8" TocEntryLevel="2" />
+					</Properties>
+					<Content>사용 전 알아두기	8</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3adcd" Name=".241101" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>제품 살펴보기	9</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3add1" Name=".241105" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>제품 사용방법	11</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3add5" Name=".241109" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>에어컨 사용하기	11</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3add9" Name=".241113" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>모드 선택	11</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3addd" Name=".241117" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>희망 온도	11</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3ade1" Name=".241121" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>바람 세기	11</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3ade5" Name=".241125" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>바람 방향	12</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ade9" Name=".241129" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>기본 기능 사용하기	13</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3aded" Name=".241133" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>자동 모드	13</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3adf1" Name=".241137" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>냉방 모드	13</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3adf5" Name=".241141" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>제습 모드	14</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3adf9" Name=".241145" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>송풍 모드	14</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3adfd" Name=".241149" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>부가 기능 사용하기	15</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ae01" Name=".241153" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>실내기 내부 청소건조 (세균 번식 억제)	15</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3ae05" Name=".241157" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>스피드 기능	16</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ae0a" Name=".241162" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>라이팅 꺼짐 기능	16</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3ae0e" Name=".241166" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>절전 기능	16</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3ae12" Name=".241170" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>켜짐/꺼짐 예약	17</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3ae16" Name=".241174" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>열대야 쾌면 기능	17</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ae1a" Name=".241178" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>관리방법	18</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ae1e" Name=".241182" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="청소 및 관리하기" TocEntryPageNumberString="&#x9;18" TocEntryLevel="2" />
+					</Properties>
+					<Content>청소 및 관리하기	18</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ae22" Name=".241186" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>실외기 열교환기 외관 청소하기	18</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3ae26" Name=".241190" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>실내기 외관 청소하기	18</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ae2a" Name=".241194" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="필터 청소 및 관리하기" TocEntryPageNumberString="&#x9;19" TocEntryLevel="2" />
+					</Properties>
+					<Content>필터 청소 및 관리하기	19</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ae2e" Name=".241198" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>실내기에서 필터 분리하기	19</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3ae33" Name=".241203" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>먼지거름 필터 세척하기	19</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3ae37" Name=".241207" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>먼지거름 필터 건조하기	19</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3ae3c" Name=".241212" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>실내기에 먼지거름 필터 장착하기	19</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ae40" Name=".241216" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>문제해결방법	20</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ae44" Name=".241220" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>고장 신고 전 확인하기	20</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC1">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ae48" Name=".241224" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>부록	27</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TOC2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<HyperlinkTextSource Self="u3ae4c" Name=".241228" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>제품 규격	27</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3ae50" Name=".241232" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>폐 전자 제품 처리 방법	28</Content>
+				</HyperlinkTextSource>
+				<Br />
+				<HyperlinkTextSource Self="u3ae54" Name=".241236" Hidden="true" AppliedCharacterStyle="n">
+					<Properties>
+						<AlternativeDestination Type="TocTextAnchor" IndexMarkerId="0" TextAnchorName="" TocEntryPageNumberString="" TocEntryLevel="0" />
+					</Properties>
+					<Content>제품 보증서	29</Content>
+				</HyperlinkTextSource>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

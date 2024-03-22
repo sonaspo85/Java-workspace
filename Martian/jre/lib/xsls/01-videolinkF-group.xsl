@@ -12,7 +12,6 @@
     <xsl:strip-space elements="*"/>
     
     <xsl:import href="00-commonVar.xsl" />
-    <!-- <xsl:variable name="videokeyF" select="document(concat($tempDir, '/19-create-body-header.xml'))/root" /> -->
 
     
     <xsl:template match="@* | node()" mode="#all">

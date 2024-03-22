@@ -20,13 +20,12 @@
 
 	<xsl:template match="ParagraphStyleRange">
         <xsl:choose>
-            <xsl:when test="matches(@class, '^(TOC\d|PageLang|PageNumber|Heading\d_NoTOC$)')" />
+            <xsl:when test="matches(@class, '^(TOC\d|PageLang|PageNumber|Heading\d_NoTOC$|Chapter_TOC)')" />
 
             <!-- <xsl:when test=" not(descendant::text())" /> -->
             
             <xsl:when test="matches(@class, 'NoTOC$') and 
                             ancestor::Story[last()]/following-sibling::*[1]/descendant::ParagraphStyleRange[1][matches(@class, '^TOC')]">
-                <!-- TOC 페이지의 Contents 목차 삭제 -->
             </xsl:when>
 
             <xsl:when test="matches(@class, '_Cover$')" />

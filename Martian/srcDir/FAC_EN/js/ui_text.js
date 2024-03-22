@@ -1,0 +1,43 @@
+var model_2 = "FAC"
+var message = {
+	"EN": {
+		language: "English",
+		language_code: "EN",
+		user_manual: "User manual",
+		model_acr: "Air purifier",
+		model_fac: "Floor standing air-conditioner",
+		model_rac: "Wall-mount air-conditioner",
+		model_wac: "Window Fit",
+		model_vcn: "Vacuum cleaner",
+		select_language: "Select Language",
+		search: "Search",
+		keyword: "Enter your search keyword.",
+		result_toc: "Search Table of Contents",
+		search_short: "Keyword is too short.",
+		search_more: "More",
+		search_less: "Hide",
+		close: "Close",
+		find_err: "No search results found.<br/>Press the Close button to go to the main page.",
+		Link_Refer: ""
+	}, 
+	"EN": {
+		language: "English",
+		language_code: "EN",
+		user_manual: "User manual",
+		model_acr: "Air purifier",
+		model_fac: "Floor standing air-conditioner",
+		model_rac: "Wall-mount air-conditioner",
+		model_wac: "Window Fit",
+		model_vcn: "Vacuum cleaner",
+		select_language: "Select Language",
+		search: "Search",
+		keyword: "Enter your search keyword.",
+		result_toc: "Search Table of Contents",
+		search_short: "Keyword is too short.",
+		search_more: "More",
+		search_less: "Hide",
+		close: "Close",
+		find_err: "No search results found.<br/>Press the Close button to go to the main page.",
+		Link_Refer: ""
+	}, 
+};

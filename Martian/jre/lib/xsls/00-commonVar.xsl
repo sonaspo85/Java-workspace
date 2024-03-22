@@ -7,17 +7,11 @@
     exclude-result-prefixes="xs idPkg ast"
     version="2.0">
 
-    
-    
-    <!-- <xsl:variable name="docinfo" select="document(concat(ast:getPath(base-uri(document('')), '/'), '/../', 'docInfo.xml'))" /> -->
-    <xsl:variable name="docinfo" select="document(resolve-uri(concat(ast:getPath(base-uri(document('')), '/'), '/../resource/', 'docInfo.xml')))" />
 
-    <!-- <xsl:variable name="docinfo0" select="replace(replace(replace(replace($docinfoF, ' ', '%20'), '\\', '/'), '\[', '%5B'), '\]', '%5D')" as="xs:string" />
-    <xsl:variable name="docinfo" select="document(iri-to-uri($docinfo0))" /> -->
+    <xsl:variable name="docinfo" select="document(resolve-uri(concat(ast:getPath(base-uri(document('')), '/'), '/../resource/', 'docInfo.xml')))" />
 
     <xsl:variable name="srcDirs0" select="$docinfo/root/item[@id = 'srcDir']/@path" />
     <xsl:variable name="srcDir" select="replace(replace(replace(replace($srcDirs0, ' ', '%20'), '\\', '/'), '\[', '%5B'), '\]', '%5D')" as="xs:string" />
-
     <xsl:variable name="tempDir0" select="$docinfo/root/item[@id = 'tempDir']/@path" />
     <xsl:variable name="tempDir" select="replace(replace(replace(replace($tempDir0, ' ', '%20'), '\\', '/'), '\[', '%5B'), '\]', '%5D')" as="xs:string" />
     <xsl:variable name="type" select="$docinfo/root/@type" />
@@ -27,9 +21,6 @@
     <xsl:variable name="videoswitch" select="$docinfo/root/@videoSwitch" />
     <xsl:variable name="remoteswitch" select="$docinfo/root/@remoteswitch" />
     <xsl:variable name="remoteurl" select="$docinfo/root/@remoconURL" />
-    
-    
-    <!-- <xsl:variable name="navF" select="document(concat($tempDir, '/19-create-body-header.xml'))/root" /> -->
     <xsl:variable name="navF" select="document(iri-to-uri(concat($tempDir, '/19-create-body-header.xml')))/root" />
 
     <xsl:variable name="msgDirs02" select="iri-to-uri(concat('file:////', $tempDir, '/excelTempls/message.xml'))" />
@@ -52,8 +43,6 @@
 
     <xsl:variable name="linkDirs02" select="iri-to-uri(concat('file:////', $tempDir, '/linkCollection.xml'))" />
     <xsl:variable name="linkPath" select="document($linkDirs02)/root" />
-
-
 
     <xsl:variable name="body-header" select="document(concat(ast:getPath(base-uri(document('')), '/'), '/html-templs/', 'body-header.xml'))" />
     <xsl:variable name="body-footer" select="document(concat(ast:getPath(base-uri(document('')), '/'), '/html-templs/', 'body-footer.xml'))" />
