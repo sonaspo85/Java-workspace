@@ -865,7 +865,6 @@ public class RC implements Initializable {
         System.out.println("addList() 시작");
 
         if (langL2.size() > 1) {
-            System.out.println("언어가 하나 이상 입니다.");
             List<String> list3 = new ArrayList<>();
             
             list3.addAll(plv1.getSelectionModel().getSelectedItems());
@@ -894,7 +893,6 @@ public class RC implements Initializable {
             list3.clear();
             
         } else { 
-            System.out.println("언어가 하나 입니다.");
             langL2.addAll(plv1.getSelectionModel().getSelectedItems());
             
         }
