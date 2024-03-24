@@ -30,9 +30,7 @@ public class inOutObj {
         String up2Dirs = mergedPath + "../../../";
         Path path = Paths.get(up2Dirs);
         Path up2Path = path.normalize();
-        // up2Path: D:\GitProject\JAVA\java-workspace\mobisHTML
-        
-        // temp / output 폴더 삭제 및 재생성
+       
         createTempOutFolder(up2Path);
         
         list.add(new InOutPathClas(mergedPath, tempFolder.toString() + "\\01-simplified.xml", up2Path.toString() + "\\xsls\\01-simplify.xsl"));
@@ -97,10 +95,6 @@ public class inOutObj {
         list.add(new InOutPathClas(up2Dirs + "\\resource\\htmlBase.xml", tempFolder.toString() + "\\dummy.xml", up2Path.toString() + "\\xsls\\50-makeSearchJson.xsl"));
         list.add(new InOutPathClas(up2Dirs + "\\resource\\tocBase.xml", tempFolder.toString() + "\\dummy.xml", up2Path.toString() + "\\xsls\\51-makeSearchHtml.xsl"));
         list.add(new InOutPathClas(up2Path.toString() + "\\xsls\\dummy.xml", tempFolder.toString() + "\\dummy.xml", up2Path.toString() + "\\xsls\\52-makeEOupdate.xsl"));
-        
-        
-        
-        // xslt 실행
         executeXslt();
     }
     

@@ -37,17 +37,6 @@ public class exportComboList {
     
     public void getCodes() throws Exception {
         Document doc = accessFile();
-        /*File file = new File("");
-        String codePath = file.getAbsolutePath() + "\\resource\\dataTemplate\\codes.xml";
-        
-        FileInputStream fis = new FileInputStream(codePath);
-        Reader reader = new InputStreamReader(fis, "UTF-8");
-        BufferedReader br = new BufferedReader(reader);
-        
-        // xml 문서를 DOM 객체 타입으로 생성
-        Document doc = coj.createDomObj(br);*/
-        
-        // XPath 객체 생성
         XPath xpath = XPathFactory.newInstance().newXPath();
         
         // Company 이름 얻기
@@ -70,8 +59,6 @@ public class exportComboList {
         FileInputStream fis = new FileInputStream(codePath);
         Reader reader = new InputStreamReader(fis, "UTF-8");
         BufferedReader br = new BufferedReader(reader);
-        
-        // xml 문서를 DOM 객체 타입으로 생성
         Document doc = coj.createDomObj(br);
         return doc;
     }

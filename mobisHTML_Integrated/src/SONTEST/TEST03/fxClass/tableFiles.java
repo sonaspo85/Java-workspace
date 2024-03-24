@@ -15,8 +15,6 @@ public class tableFiles {
     private File abfile;
     
     
-    
-    // s
     public tableFiles(String files, String size, String date, File ab) {
         this.files = new SimpleStringProperty(files);
         this.filesize = new SimpleStringProperty(size);
@@ -55,13 +53,9 @@ public class tableFiles {
     public String getExtension() {
         String fileName = files.getName();
         System.out.println("eee: " + fileName);
-
-        // Optional 객체 생성 - ofNullable() 메소드 사용
         Optional<String> optional = Optional.ofNullable(fileName);
         
-        // 확장자 추출
         String extension = optional.map(a -> a.substring(fileName.lastIndexOf(".") + 1)).get();
-//        String extension = fileName;
         return extension;
     }
     

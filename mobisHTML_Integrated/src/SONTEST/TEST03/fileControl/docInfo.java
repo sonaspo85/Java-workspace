@@ -86,16 +86,14 @@ public class docInfo {
         
         
         if(getCarTypeVar.getLength() > 1) {
-            // CarType 속성이 있는 var 인 경우
             isCarTyperVar(xpath, getCarTypeVar);
-            return;  // 현재 메소드 종료
+            return;
             
         } else if(commonObj.lang.equals("Arabic") || commonObj.lang.equals("Hebrew")) {
             express = "root/div[matches(@class, " + version + ")]/div[matches(@class, 'cssUpdate')]/var[matches(@except, " + lang + ")]";
             
         } 
         else if(commonObj.lang.equals("TraditionalChinese")) {
-//            express = "root/div[matches(@class, " + version + ")]/div[matches(@class, 'cssUpdate')]/var[matches(@except, 'Chinese')]";
             express = "root/div[matches(@class, " + version + ")]/div[matches(@class, 'cssUpdate')]/var[not(@except)] | root/div[matches(@class, " + version + ")]/div[matches(@class, 'cssUpdate')]/var[matches(@except, 'Chinese')]";
         }
         else {
@@ -143,9 +141,6 @@ public class docInfo {
     }        
     
     public void getHtmlTemplate(Element rootEle, Document doc) throws Exception {
-        System.out.println("getHtmlTemplate() 시작");
-        
-        // region=Common 이고, English인 var 추출하기
         System.setProperty("javax.xml.xpath.XPathFactory:" + NamespaceConstant.OBJECT_MODEL_SAXON, "net.sf.saxon.xpath.XPathFactoryImpl");
         
         XPathFactory factory = XPathFactory.newInstance(NamespaceConstant.OBJECT_MODEL_SAXON);
@@ -157,12 +152,6 @@ public class docInfo {
         String express = "";
         express = "root/div[matches(@class, " + version + ")]/div[matches(@class, 'htmlTemplate')]/var[matches(@region, 'Common')][matches(@lang, 'English')][matches(@company, " + comp + ")]";
         
-        /*if(commonObj.lang.equals("TraditionalChinese")) {
-            express = "root/div[matches(@class, " + version + ")]/div[matches(@class, 'htmlTemplate')]/var[matches(@region, 'Common')][matches(@lang, 'Chinese')][matches(@company, " + comp + ")]";
-        } else {
-            express = "root/div[matches(@class, " + version + ")]/div[matches(@class, 'htmlTemplate')]/var[matches(@region, 'Common')][matches(@lang, 'English')][matches(@company, " + comp + ")]";
-        }*/
-        
         NodeList nl = (NodeList) xpath.compile(express).evaluate(doc, XPathConstants.NODESET);
         
         Element engEle = null; 
@@ -171,7 +160,6 @@ public class docInfo {
             engEle = (Element) node2;
         }
 
-        // styleApplier 의 var와 company, lang 을 비교하여 srcDir 값 추출하기
         String region = "'"+ commonObj.region + "'";
         System.out.println("region: " + region);
         String inch = "'"+ commonObj.inch + "'";
@@ -185,7 +173,6 @@ public class docInfo {
             for(int j=0; j< nl2.getLength(); j++) {
                 Node node2 = nl2.item(j);
                 Element ele2 = (Element) node2; 
-//                System.out.println("aaa:" + ele2.getAttribute("srcDir"));
                 result = sameCompanyNLang(ele2, engEle);
                   
                 if(result.length() > 1) { 
@@ -219,42 +206,30 @@ public class docInfo {
         System.out.println("sameCompanyNLang 시작");
         String regExg = "(Arabic|Hebrew|English|Korean)"; 
         String srcDir = "";
-        System.out.println("lang: " + commonObj.lang);
-        System.out.println("carName: " + coj.carName);
-        System.out.println("company: " + commonObj.company);
         
         if(ele.getAttribute("company").equals(commonObj.company)) {
             System.out.println("일치 회사 존재");
             if(ele.getAttribute("lang").equals(commonObj.lang) && 
                ele.getAttribute("carType").equals(coj.carName)) {
-                System.out.println("111");
                 srcDir = ele.getAttribute("srcDir");
                 
             } else if(ele.getAttribute("lang").equals(commonObj.lang) && 
                      !ele.hasAttribute("carType")) {
-                System.out.println("222");
-                System.out.println(ele.getAttribute("srcDir"));
                 srcDir = ele.getAttribute("srcDir");
 
             } else if(!Pattern.matches(regExg, commonObj.lang)) {
                 if(commonObj.region.equals(ele.getAttribute("region"))) {
-                    System.out.println("333");
                     srcDir = ele.getAttribute("srcDir");
                     
                 } else if(ele.getAttribute("carType").equals(coj.carName)) {
-                    System.out.println("444");
                     srcDir = ele.getAttribute("srcDir");
                     
                 } else {
-                    System.out.println("555");
                     srcDir = engEle.getAttribute("srcDir");
-//                    System.out.println("srcDir: " + srcDir);
                 }
 
             } else if(Pattern.matches(regExg, commonObj.lang)) {
                 if(!ele.getAttribute("lang").equals(commonObj.lang)) {
-                    System.out.println("666");
-                    System.out.println("같지 않음!!");
                 } 
                 
             }

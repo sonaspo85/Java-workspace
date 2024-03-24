@@ -28,8 +28,6 @@ public class menuTableRowCreate {
                 File file = selectedFiles.get(i);
                 // 구현 객체
                 coj = new commonObj();
-                
-                // 파일 날짜
                 String formatDate = createDate(file);
                 
                 // 파일 사이즈 

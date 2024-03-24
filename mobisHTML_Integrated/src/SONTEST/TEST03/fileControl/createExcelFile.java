@@ -30,40 +30,30 @@ import SONTEST.TEST03.subWorkClass.commonObj;
         
 public class createExcelFile {
     static DecimalFormat df = new DecimalFormat("#");
-    
-    // 구현 객체 생성
     commonObj coj = new commonObj();
 
     public void createExcelFile(File absolutePath) throws Exception {
         List<String> list = new ArrayList<>();
-
-        // 확장자 추출
         String extention = coj.getExt(absolutePath);
         String fileName = absolutePath.getName();
         
         if(fileName.contains("_UI_")) {
-//            fileName = fileName.toLowerCase().replace(extention, ".xml");
             fileName = "UITxt.xml";
             
         } else if(fileName.contains("_ID_")) {
             String originalName = fileName;
-//            fileName = fileName.toLowerCase().replace(extention, ".xml");
             fileName = "IDTxt.xml";
         } 
         
-        // 엑셀의 확장자를 xml 로 변경
         String ExcelFileName = coj.exePath + "\\resource\\" + fileName;
         System.out.println("ExcelFileName: " + ExcelFileName);
-        // D:\GitProject\JAVA\java-workspace\mobisHTML\resource\links_id_float.xml
-        
-        //------------------------------------
+       
         // 1. 파일 입력 스트림 생성
         FileInputStream fis = new FileInputStream(absolutePath); 
         
         // 엑셀 로드, Workbook 객체 생성
         Workbook wb = WorkbookFactory.create(fis);
 
-        //------------------
         // 빈 DOM 트리 객체 생성 하기
         Document doc = coj.createDomObj(null);
         
@@ -72,31 +62,22 @@ public class createExcelFile {
         rootEle.setAttribute("version", coj.version);
         rootEle.setAttribute("ccncVer", coj.ccncVer);
         doc.appendChild(rootEle);
-        
-        // 첫번째 시트 로드
         Sheet sheet = wb.getSheetAt(0);
         
         boolean firstRow = true;
         int rowCellCnt = 0;
-        
-        int rowIndex = 0;        
-
-        // 시트의 마지막 Row
+        int rowIndex = 0;
         int lastRowNum = sheet.getLastRowNum()+1;
         
         // 행을 하나씩 출력
         for(int k= 0; k<lastRowNum; k++) {
             Row row = sheet.getRow(k);
             
-            // 첫번째 행인 경우
             if(row.getRowNum() == 0) {
-                // 첫번째 행의 셀수 파악
                 rowCellCnt = row.getPhysicalNumberOfCells();
                 
                 for(int i=0; i<rowCellCnt; i++) {
-                    // 첫번째 행의 각 셀값 추출
                     Cell firstCell = row.getCell(i);
-                    
                     String replace01 = formatCell(firstCell).replace(" ", "_");
                     String replace02 = replace01.replaceAll("contents_string\\(.*\\)", "contents_string");
                     String replace03 = textReplaceing(replace02);
@@ -104,13 +85,11 @@ public class createExcelFile {
                     list.add(replace04);
                 }
                 
-            } else {  // 첫번째 행 이후의 행들
-                // 행의 각셀 모두 비어 있지 않은 행의 경우
+            } else {
                 if(isEmpty(row) == false) {
                     Element listitem = doc.createElement("listitem");
                     rootEle.appendChild(listitem);
-                    
-                    // 첫번째 행의 셀수 만큼 반복
+
                     for(int i=0; i<rowCellCnt; i++) {
                         Cell currCell = row.getCell(i);
                         
@@ -138,17 +117,12 @@ public class createExcelFile {
         // Transformer 생성
         TransformerFactory tf = TransformerFactory.newInstance();
         Transformer trans = tf.newTransformer();
-        trans.setOutputProperty(OutputKeys.ENCODING, "UTF-8");  // 출력 인코딩 방식은 UTF-8 
-        trans.setOutputProperty(OutputKeys.INDENT, "yes");  // 정렬 스페이스 4칸
+        trans.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+        trans.setOutputProperty(OutputKeys.INDENT, "yes");
         trans.setOutputProperty(OutputKeys.DOCTYPE_PUBLIC, "yes");
         
-        // 저장할 doc 객체를 Source 객체로 생성 한다.
         DOMSource source = new DOMSource(doc);
-        
-        // 저장할 위치 정보를 가지고 있는 StreamResult 객체 생성
         Result result = new StreamResult(u.toString());
-        
-        // transform() 메소드를 호출하여 파일로 출력
         trans.transform(source, result);
     }
     

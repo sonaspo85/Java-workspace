@@ -20,7 +20,6 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         try {
-//            FXMLLoader loader = new FXMLLoader(getClass().getResource("/SONTEST/TEST03/fxml/root.fxml"));
             FXMLLoader loader = new FXMLLoader(Main.class.getClassLoader().getResource("SONTEST/TEST03/fxml/root.fxml"));
             
             Parent root = loader.load();
@@ -28,9 +27,6 @@ public class Main extends Application {
             con.setPrimaryStage(primaryStage);
             
             Scene scene = new Scene(root);
-            
-            // 외부 css 파일을 Scene 객체에 연결
-//            scene.getStylesheets().add(getClass().getResource("/SONTEST/TEST03/fxml/app.css").toString());
             
             primaryStage.setTitle("mobisHTML 변환기");
             primaryStage.setScene(scene);

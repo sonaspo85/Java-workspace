@@ -72,7 +72,6 @@ public class RC implements Initializable {
     @FXML private MenuItem exit;
     @FXML private MenuItem menuOpen;
     @FXML private Button bt1;
-//    @FXML private Label lb1;
     @FXML private Label lbTime;
     @FXML private ComboBox<String> ccncVer;
     @FXML private ComboBox<Object> comboVer;
@@ -137,7 +136,6 @@ public class RC implements Initializable {
         // tableView 의 Row에 들어갈 목록 생성하기
         CreateTableColumn();
         
-        // 키보드의 키를 눌렀을때, 키코드와 일치하는 목록으로 커서 옮기기
         comboVer.setOnKeyPressed(new selectionKeyCode(comboVer));
         comboInch.setOnKeyPressed(new selectionKeyCode(comboInch));
         comboCompany.setOnKeyPressed(new selectionKeyCode(comboCompany));
@@ -147,32 +145,26 @@ public class RC implements Initializable {
     // 회사, 언어, 인치 콤보 목록 채우기
     public void exportComboList() {
         try {
-        	// ccncVer----------------------
         	ccncVer.setItems(FXCollections.observableArrayList("none", "ccnc", "ccncLite"));
         	setStyle(ccncVer);
-        	//----------------------
             exportComboList.getCodes();
             
             List<String> verList = new ArrayList<>();
             verList.addAll(exportComboList.listVer);
             comboVer.setItems(FXCollections.observableArrayList(verList.toArray()));
-//            comboVer.setDisable(true);
             setStyle(comboVer);
             
-            //----------------------
             List<String> langList = new ArrayList<>();
             String[] str1 = (String[]) exportComboList.listLang.toArray(new String[0]);
             Arrays.sort(str1);
             langList.addAll(Arrays.asList(str1));
 
-            //----------------------
             comboLang.setItems(FXCollections.observableArrayList(langList.toArray()));
             setStyle(comboLang);
             
             List<String> companyList = new ArrayList<>();
             companyList.addAll(exportComboList.listCompany);
             
-            // company Combo 밖스의 목록 첫 문자 대문자로 변경
             Stream<String> companyList01 = companyList.stream().map(a -> {
                 String firstStr = a.substring(0, 1).toUpperCase();
                 String remainStr = a.substring(1).toLowerCase();
@@ -182,7 +174,6 @@ public class RC implements Initializable {
             comboCompany.setItems(FXCollections.observableArrayList(companyList01.toArray()));
             setStyle(comboCompany);
             
-            //----------------------
             List<String> inchList = new ArrayList<>();
             inchList.addAll(exportComboList.listInch);
             comboInch.setItems(FXCollections.observableArrayList(inchList.toArray()));
@@ -245,7 +236,6 @@ public class RC implements Initializable {
         e.consume();
     } 
     
-    // 드래그 드랍한 경우
     public void dragDrop(DragEvent e) {
         boolean success = false;
         
@@ -253,11 +243,9 @@ public class RC implements Initializable {
             List<File> list = e.getDragboard().getFiles();
             
             list.removeIf(a -> a.isDirectory());
-            
             dragDrop dragDrop = new dragDrop(list);
             dragDrop.runDragDrop();
             
-            // dragDrop 객체에서 tableView 의 각 목록을 생성 한 것을 호출
             fileList.addAll(dragDrop.getFileList());
             success = true;
         }
@@ -273,10 +261,7 @@ public class RC implements Initializable {
         System.out.println("getComboInfo() 시작");
         
         Optional<List<tableFiles>> opList = getTableList();
-        
-        // tableView 의 모든 파일 목록을 map 컬렉션으로 생성
         opList.ifPresent(d -> fileCollect.setMap(d));
-        
         
         fileCollect.exportExcelName();
 
@@ -304,8 +289,6 @@ public class RC implements Initializable {
     public Optional<List<tableFiles>> getTableList() {
         // 선택된 항목 선택 해제
         tableView.getSelectionModel().clearSelection();
-
-        // tableView 컨트롤의 항목 추출하기
         ObservableList<tableFiles> tableList = tableView.getItems();
         List<tableFiles> viewList = new ArrayList<tableFiles>(tableList);
         Optional<List<tableFiles>> opList = Optional.ofNullable(viewList);
@@ -321,7 +304,6 @@ public class RC implements Initializable {
     public void menuOpen(ActionEvent e) {
         FileChooser fc = new FileChooser();  
         
-        // 파일 확장자 필터 설정 - getExtensionFilters()
         fc.getExtensionFilters().addAll(
             new ExtensionFilter("all Files", "*.xlsx", "*.idml")
         );
@@ -331,8 +313,6 @@ public class RC implements Initializable {
         
         menuTableRowCreate mtrc = new menuTableRowCreate(selectedFiles);
         mtrc.runMenuTableRowCreate();
-        
-        // dragDrop 객체에서 tableView 의 각 목록을 생성 한 것을 호출
         fileList.addAll(mtrc.getFileList());
     }
     
@@ -344,10 +324,8 @@ public class RC implements Initializable {
     public void btStart() throws Exception {
         stop = false;
         System.out.println("btStart 시작");
-//        bt1.setDisable(true);
         
         controllerDisable();
-        
         ltStart = LocalTime.now();
         
         Object getInch = comboInch.getValue();
@@ -365,7 +343,7 @@ public class RC implements Initializable {
         // 선택된 항목 선택 해제
         tableView.getSelectionModel().clearSelection();
 
-        // tableView 컨트롤의 항목 추출하기
+        // tableView 컨트롤의 항목 추출
         ObservableList<tableFiles> tableList = tableView.getItems();
         List<tableFiles> viewList = new ArrayList<tableFiles>(tableList);
         Optional<List<tableFiles>> opList = Optional.ofNullable(viewList);
@@ -374,13 +352,8 @@ public class RC implements Initializable {
             msg = "입력된 문서가 0개 입니다.";
         }
         
-        // tableView 의 모든 파일 목록을 map 컬렉션으로 생성
         opList.ifPresent(d -> fileCollect.setMap(d));
-
-        // Excel 파일 이름 추출
         fileCollect.exportExcelName();
-//        excelLang = fileCollect.excelLang;
-//        uiTxt = fileCollect.uiTxt;
         
         if(getccncVer == null || getInch == null || getCompany == null || getLang == null) {
             msg = "인치 / 회사 / 언어를 모두 선택해 주세요.";                    
@@ -388,13 +361,7 @@ public class RC implements Initializable {
             customException(msg);
             
         } 
-        /*else if (getLang.toString().toLowerCase().indexOf(excelLang) == -1) {
-            msg = "언어가 다릅니다.";
-            customException(msg);
-            return;
-        }*/
         
-        // idml 파일들만 추출하여, List<String> 컬렉션에 삽입
         tableList.stream().forEach(a -> {
             File filePath = new File(a.getAbfile());
             list.add(a.getAbfile());
@@ -416,7 +383,6 @@ public class RC implements Initializable {
         return;
     }
     
-    // 최종 작업 처리 후, 팝업창으로 경과 초를 출력
     public void finishedPop(long durationTime) {
         // 커스텀 다이얼로그 생성
         Stage dg = new Stage(StageStyle.UTILITY);
@@ -426,14 +392,10 @@ public class RC implements Initializable {
         dg.setTitle("작업이 완료 되었습니다.");
         
         try {
-            // FXMLLoader.load() 메소드로 popup.fxml 파일 로드
             Parent parent = FXMLLoader.load(getClass().getResource("/SONTEST/TEST03/fxml/complePop.fxml"));
-            
-            // 버튼 속성을 가진 객체를 찾기 - lookup() 메소드
             Button bt = (Button) parent.lookup("#bt1");
             bt.setOnAction(event -> dg.close());
-            
-            // Label 컨트롤 찾기
+
             Label lb22 = (Label) parent.lookup("#txtTitle");
             lb22.setText("작업이 완료 되었습니다.");
             
@@ -448,7 +410,6 @@ public class RC implements Initializable {
             ImageView iv = (ImageView) parent.lookup("#imm");
             iv.setImage(image);
             
-            // Scene 객체 생성
             Scene scenePop = new Scene(parent);
           
             // 다이얼로그에 Scene 올리기
@@ -472,19 +433,14 @@ public class RC implements Initializable {
         dg.initModality(Modality.WINDOW_MODAL);
         dg.initOwner(primaryStage);
         
-        // FXMLLoader.load() 메소드로 팝업 로드
         try {
             Parent parent = FXMLLoader.load(getClass().getResource("/SONTEST/TEST03/fxml/selectedException.fxml"));
-            parent.setStyle("-fx-background-color: ANTIQUEWHITE");
-            //버튼 찾기 
+            parent.setStyle("-fx-background-color: ANTIQUEWHITE"); 
             Button sebt = (Button) parent.lookup("#sebt");
             sebt.setOnAction(ev -> dg.close());
-            
-            // 라벨 컨트롤 찾기
             Label selb = (Label) parent.lookup("#seLabel");
             selb.setText(msg);
             
-            // Scene 객체 생성
             Scene scenePop = new Scene(parent);
             
             // 다이얼로그에 Scene 올리기
@@ -502,26 +458,18 @@ public class RC implements Initializable {
     }
     
     public void readFiles() {
-        System.out.println("readFiles 시작");
-        // 작업 스레드를 통해 파일 읽기
-        
         fileCollect.setMap(list);
         Map<groupByext.Ext, List<groupByext>> map = fileCollect.mapT;
-        
-        // idml 파일들을 zip 확장자로 변경
         fileGroupCreateZip fr = new fileGroupCreateZip(map, coj.exePath); 
         fr.runCreateZip();
-        
-        // zip 파일 언집 후, 새로운 폴더에 파일들 복사
         createUnzipFolder();
         
     }
     
     private void createUnzipFolder() {
-        // for문을 돌면서 zip 파일 압축 풀기        
         String zipPath = coj.exePath + "\\resource\\temp\\idmlZip";
-        
         unZip unzip = new unZip();
+        
         try {
             unzip.runUnzip();
         } catch (Exception e) {
@@ -531,13 +479,10 @@ public class RC implements Initializable {
             return;
         }
         
-     // Stories 를 map 컬렉션 형식으로 추출
         extractStories(zipPath);
     }
     
     private void extractStories(String zipPath) {
-        System.out.println("extractStories 시작");
-        
         extractStories extractStories = new extractStories(zipPath);
         extractStories.runExctractStory();
 
@@ -581,13 +526,12 @@ public class RC implements Initializable {
         }
         
         delXSLT();
-        
         docInfo();
     }
     
     private void docInfo() {
-        System.out.println("docInfo() 시작");
         docInfo ve = new docInfo(coj.mergedPath);
+        
         try {
             ve.runVarExtract();
             
@@ -595,17 +539,13 @@ public class RC implements Initializable {
             e.printStackTrace();
         }
         
-        // FTP 서버 경로를 추출 했으니, 서버로 부터 로컬로 다운로드 하기
         List<String> srcList = ve.getsrcDir();
-        
-        srcList.forEach(a -> System.out.println("templates 경로: " + a));
+        srcList.forEach(a -> System.out.println("templates: " + a));
         
         tempCopy(srcList);
     }
             
     public void delXSLT() {
-        System.out.println("delXSLT() 시작");
-
         if(!userName.matches("SMC")) {
             try {
                 coj.delteFolder(xsltPath);
@@ -621,8 +561,6 @@ public class RC implements Initializable {
     }
     
     private void tempCopy(List<String> srcList) {
-        System.out.println("tempCopy 시작");
-        
         ftpDownLoad ftpD = new ftpDownLoad(srcList);
         try {
             ftpD.runFTP();
@@ -631,8 +569,6 @@ public class RC implements Initializable {
             msg = "xslt를 다운받지 못했습니다.";
             System.out.println("msg: " + msg);
         }
-        
-        System.out.println("tempCopy 끝");
         
         // 종료 시간
         ltEnd = LocalTime.now();
@@ -736,21 +672,16 @@ public class RC implements Initializable {
         // 1. FXMLLoader.load() 메소드로 fxml 파일 로드
         Parent parent = FXMLLoader.load(getClass().getResource("/SONTEST/TEST03/fxml/saveDir.fxml"));
         
-        // 커스텀 다이얼로그 생성하기
         // 2. Stage 객체 생성
         Stage stage = new Stage(StageStyle.UTILITY);
         stage.initModality(Modality.WINDOW_MODAL);
         stage.initOwner(primaryStage);
         stage.setTitle("FTP 서버에 저장될 경로를 입력 하세요.");
 
-        // Label 컨트롤 찾기
         TextField saveLabel = (TextField) parent.lookup("#saveTF");
-        
-        // Button 컨트롤 찾기
         Button saveBT = (Button) parent.lookup("#saveBt");
         saveBT.setDisable(true);
         
-        // TextField 필드에 입력받은 텍스트가 2개 이상인 경우 Button 컨트롤 활성화
         saveLabel.textProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue<? extends String> observalble, String oldValue, String newValue) {
@@ -764,7 +695,6 @@ public class RC implements Initializable {
         
         saveBT.setOnAction(e -> saveBT(stage, saveLabel));
         
-        // 4. Scene 객체 생성
         Scene scene = new Scene(parent);
         
         // 5. 다이얼로그에 Scene 객체 올리기
@@ -781,25 +711,20 @@ public class RC implements Initializable {
         return null;
     }
     
-    // ftp 서버 디렉토리 삭제
     public void saveBT(Stage stage, TextField saveLabel) {
         labelTxt =  saveLabel.getText();
-//        System.out.println("labelTxt: "+labelTxt);
         stage.close();
         
         ftpRemoveDir ftpTemp = new ftpRemoveDir(labelTxt);
         try {
-            // ftp 폴더 삭제
             ftpTemp.ftpRemoveFolder();
-//            Platform.exit();
+            
             // ftp 서버에 파일 업로드
             ftpUpLoad();
         } catch (Exception e1) {
             e1.getMessage();
         }
         
-        //------------------------------
-        System.out.println("완료 팝업창");
         long durationTime = ltStart.until(ltEnd, ChronoUnit.SECONDS);
           
         finishedPop(durationTime);
@@ -809,28 +734,23 @@ public class RC implements Initializable {
     }
     
     public void ftpUpLoad() throws Exception {
-        System.out.println("ftpUpLoad() 시작");
         ftpUpLoad ftpU = new ftpUpLoad(labelTxt);
         
         ftpU.runFTP();
 
     }
 
-    // 키보드의 키코드로 tableView의 목록 삭제하기
     public void keyCodeDelete(KeyEvent keyevent) {
-//        tableFiles selectedItem = tableView.getSelectionModel().getSelectedItem();
         ObservableList<tableFiles> selectedFiles = tableView.getSelectionModel().getSelectedItems();
         
         if (selectedFiles != null) {
             if(keyevent.getCode().equals(KeyCode.DELETE)) {
-//                tableView.getItems().remove(selectedItem);
                 ArrayList<tableFiles> rows = new ArrayList<tableFiles>(selectedFiles);
                 rows.forEach(row -> tableView.getItems().remove(row));
             }
         }
     }
     
-    // Button 컨트롤 클릭시, 선택된 멀티 파일 삭제하기
     public void deleteFiles(ActionEvent e) {
       ObservableList<tableFiles> selectedFiles = tableView.getSelectionModel().getSelectedItems();
       ArrayList<tableFiles> rows = new ArrayList<tableFiles>(selectedFiles); 
