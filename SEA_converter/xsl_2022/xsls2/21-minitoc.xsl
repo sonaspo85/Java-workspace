@@ -100,8 +100,6 @@
                                 </div>
                             </div>
                         </section>
-
-                        <!-- calculate prev -->
                         <xsl:variable name="id" select="@id" />
                         <xsl:variable name="prev" select="key('htmls', $ids[index-of($ids, $id) - 1])" />
                         <xsl:variable name="prev-filename" select="$prev/@filename"/>
@@ -109,8 +107,6 @@
                         <xsl:variable name="data-prev" select="if ( $prev-filename ) 
                                                                 then concat($prev-filename, '_', $prev-fid)
                                                                 else 'start_here'" />
-                        
-                        <!-- calculate next -->
                         <xsl:variable name="next" select="key('htmls', $ids[index-of($ids, $id) + 1])" />
                         <xsl:variable name="next-filename" select="$next/@filename" />
                         <xsl:variable name="next-fid" select="$next/*[1]/@id" />

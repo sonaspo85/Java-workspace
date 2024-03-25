@@ -15,25 +15,19 @@ public class fileLooping {
     public void runFLP(Stream<File> filterStream) {
         filterStream.forEach(f -> {
             File file = f;
-            // ÆÄÀÏÀÇ Àı´ë °æ·Î ÃßÃâ
             File abFile = f.getAbsoluteFile();
-            
-            // ÆÄÀÏ ÀÌ¸§ ÃßÃâ
             String fileName = f.getName();
-//            System.out.println("ÆÄÀÏ ÀÌ¸§: " + fileName);
-            
             String size = "";
+            
             try {
-                // ÆÄÀÏ »çÀÌÁî ÃßÃâ - size() ¸Ş¼ÒµåÀÇ ¹İÈ¯ Å¸ÀÔÀº kb Å¸ÀÔÀÇ »çÀÌÁî·Î ¹İÈ¯
                 long byteSize = Files.size(f.toPath());
                 size = fileSize(byteSize);
-//                System.out.println("»çÀÌÁî: " + size);
             } catch (IOException e) {
                 String message = e.getMessage();
                 System.out.println(message);
             }
             
-            // createTableColumn °´Ã¼ È£ÃâÇÏ¿© tableViewÀÇ °¢ Ä®·³ÀÇ ¸ñ·Ï »ı¼ºÇÏ±â
+            // createTableColumn ï¿½ï¿½Ã¼ È£ï¿½ï¿½ï¿½Ï¿ï¿½ tableViewï¿½ï¿½ ï¿½ï¿½ Ä®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½
             createTableColumn ctc = new createTableColumn(fileName, size, abFile);
             fileList.add(ctc);
             

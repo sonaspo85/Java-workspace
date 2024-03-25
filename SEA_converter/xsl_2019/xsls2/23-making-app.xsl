@@ -33,7 +33,6 @@
     </xsl:template>
 
     <xsl:template match="body">
-        <!-- <xsl:variable name="file2" select="'../output/app.html'" /> -->
         <xsl:variable name="file" select="concat($sourcePath, '/output/', 'app.html')" />
 
         <xsl:result-document href="{$file}" method="xml" use-character-maps="a">

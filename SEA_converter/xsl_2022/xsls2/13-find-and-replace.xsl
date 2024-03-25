@@ -27,8 +27,6 @@
 
     <xsl:param name="language" as="xs:string" required="yes"/>
     <xsl:param name="model" as="xs:string" required="yes"/>
-    <!-- <xsl:param name="code" as="xs:anyAtomicType*" required="yes"/> -->
-    <!--<xsl:variable name="data-language" select="if ($language='en') then 'English' else 'Spanish_LA'" />-->
     <xsl:variable name="data-language" select="if (matches($language, '(English|en)')) then 'English' else 'Spanish_LA'" />
 
     <xsl:template match="@* | node()">

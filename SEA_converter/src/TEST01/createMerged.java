@@ -37,13 +37,9 @@ public class createMerged {
     }
     
     public File runMerged() throws Exception {
-        System.out.println("runMerged() 시작");
-        
         String sourcePath = passList.get(0).getParent();
         File defaultDir = new File("");
         String mergedDir = defaultDir.getAbsolutePath() + "\\temp\\merged.xml";
-        System.out.println("mergedDir: " + mergedDir);
-        
         File strMergedPath = new File(mergedDir);
         URI u = strMergedPath.toURI();
         
@@ -59,39 +55,19 @@ public class createMerged {
             
             for(File file : passList) {
                 try {
-//                    System.out.println("file: " + file);
                     FileInputStream fis = new FileInputStream(file);
-                    // 2. InputStreamReader ���� ��Ʈ���� ����Ͽ�, ���ڼ� �Ҵ�
                     Reader reader = new InputStreamReader(fis, StandardCharsets.UTF_8);
-                    
-                    // xml ������ ���ڼ��� �����ϱ� ���� InputSource ��ü�� �̿��Ͽ� �ٽ� ���ڼ��� �����ؾ� �Ѵ�.
-                    // 3. org.xml.sax ��Ű���� InputSource Ŭ���� ��ü�� �����Ͽ�, ���ڼ� �����ϱ�
                     InputSource is = new InputSource(reader);
-                    is.setEncoding("UTF_8");
-
-                    
-                    // 4. �� xml�� �����Ͽ� DOM ������ ���� �Ľ��ϱ�
-                    // DocumentBuilderFactory �� xml ������ DOM ��ü ������ �Ľ��ϱ� ���� 
-                    // parser�� �̿��Ͽ�, DocumentBuilder ��ü�� ���� �Ѵ�. 
+                    is.setEncoding("UTF_8"); 
                     DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-                    
-                    // xml�� �Ľ��Ҷ����� namespace ���� ���θ� ���� �ؾ� �Ѵ�
                     dbf.setNamespaceAware(true);
-                    
-                    // 5. DocumentBuilder ��ü�� DOM ������ �Ľ� �ϱ�
                     DocumentBuilder db = dbf.newDocumentBuilder();
                     
                     try {
-                        // 6. DOM ��ü ��ȯ �ϱ�
                         Document doc1 = db.parse(is);
-                        
-                        // ��Ʈ ��ҿ� �����Ͽ� ���� ���
                         Element root1 = doc1.getDocumentElement();
                         root1.setAttribute("fileName", file.getName());
-                        // adoptNode(): doc �������� �ܺ� ������ ��带 ���� �´�.
-                        // �Ű������� ������ ��带 ���� �Ͽ� ��ȯ �޴´�.
                         root.appendChild(doc.adoptNode(root1.cloneNode(true)));
-                        
                         
                     } catch (Exception e3) {
                         String msg = e3.getMessage();
@@ -105,30 +81,18 @@ public class createMerged {
                     String result1 = MessageFormat.format(result, msg);
                     throw new Exception(result1);
                 } 
-            } // for�� �ݱ�
+            }
             
-            // DOM ��ü ������ Transformer Ŭ������ ����Ͽ� ����ϱ�
-            // 1. Transformer ��ü ����
             TransformerFactory tf = TransformerFactory.newInstance();
             try {
                 Transformer transf = tf.newTransformer();
-                
-                // 2. ��� ���� ����
-                // OutputKeys�� ��� �Ӽ��� �����ϴµ� ���Ǵ� ����� ���� �Ѵ�.
                 transf.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
                 transf.setOutputProperty(OutputKeys.INDENT, "yes");
                 transf.setOutputProperty(OutputKeys.DOCTYPE_PUBLIC, "yes");
-                
-                // 3. DOMSource ��ü ����
-                // ���� ����� ���� xml ������ Source ��ü�� ����
                 DOMSource source = new DOMSource(doc);
-                
-                // 4. StreamResult ��ü ����
-                // ���� ������ ������ �ִ� StreamResult ��ü ����
                 StreamResult result = new StreamResult(u.toString());
                 
                 try {
-                    // 5. transform() �޼ҵ带 ȣ���Ͽ�, ���Ϸ� �����ϱ�
                     transf.transform(source, result);
                 } catch (Exception e1) {
                     String msg = e1.getMessage();

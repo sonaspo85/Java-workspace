@@ -53,23 +53,13 @@ public class xslTransform {
             File outFile = new File(eachVal.out);
             File xslFile = new File(eachVal.xslt);
             
-            /*System.out.println("inFile: " + inFile);
-            System.out.println("outFile: " + outFile);
-            System.out.println("xslFile: " + xslFile);*/
-            
-            // 1. xml 문서를 입력 스트림으로 사용하는 StreamSource 객체를 Source 객체로 할당
             Source inXml = new StreamSource(inFile);
-            
-            // 2. StreamResult 스트림을 사용하여 출력 결과물을 저장할 경로를 지정
             Result outXml = new StreamResult(outFile);
-            
-            // 3. xslt 템플릿을 StreamSource객체로 할당
             Source xslt = new StreamSource(xslFile);
             
             System.setProperty("javax.xml.transform.TransformereFactory", "net.sf.saxon.TransformerFactoryImpl");
             
-            // DOM 트리 객체를 Transformer 클래스를 사용하여 출력하기
-            // 4. TransformerFactory 클래스를 사용하여 Transformer 객체 생성 하기 
+            // TransformerFactory 클래스를 사용하여 Transformer 객체 생성 하기 
             TransformerFactory factory = TransformerFactory.newInstance();
             
             try {
@@ -95,7 +85,6 @@ public class xslTransform {
                     }
                     
                 } catch(Exception e2) {
-//                    e2.printStackTrace();
                     String msg = e2.getMessage();
                     String result = "xslTransform.java: {0} 예외 발생";
                     String result1 = MessageFormat.format(result, msg);
@@ -110,17 +99,13 @@ public class xslTransform {
             }
 
             if(outFile.getName().equals("finalize.html")) {
-                System.out.println("finalize.html src 폴더로 복사 하기");
-//                System.out.println("outFile: " + outFile);
                 defaultOutFolder = outFile.getParent();
                 
                 Path from = Paths.get(outFile.toURI());
-                Path to = Paths.get(srcPath + "/finalize.html");
-                System.out.println("srcPath: "+ to);                
+                Path to = Paths.get(srcPath + "/finalize.html");                
                 
                 try {
                     Files.copy(from, to, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES);
-                    System.out.println("복사 완료");
                     
                     // temp 폴더내 final 파일 삭제
                     Files.delete(from);
@@ -138,22 +123,15 @@ public class xslTransform {
     
     // resource 폴더 복사
     public void copyTemplates(File eachF) throws Exception {
-        System.out.println("copyTemplates() 시작");
-        
         File file = new File("");
         String templatesDir = file.getAbsolutePath() + "\\templates\\";
-        
-        
-//        String fromTemplateF = defaultOutFolder + "\\..\\templates";
         String fromTemplateF = templatesDir;
         Path fromTemplateF01 = Paths.get(fromTemplateF).normalize();
-
         String toTemplateF = null;
-        
         File[] fromF = null;
+        
         if(eachF == null) {
             fromF = new File(fromTemplateF01.toString()).listFiles();
-//            System.out.println("fromF: " + fromF.toString());
             
         } else {
             Path eachFAb = Paths.get(eachF.toURI()).normalize();
@@ -167,12 +145,7 @@ public class xslTransform {
         
         for(File eachFF : fromF) {
             String relativeFolder = eachFF.toString().replace(fromTemplateF01.toString(), "");
-//            System.out.println("relativeFolder: " + relativeFolder);
-            
-            
-            
             toTemplateF = srcPath + "\\output\\" + relativeFolder;
-//            System.out.println("toTemplateF: " + toTemplateF);
             File toCopy = new File(toTemplateF);
             
             if(eachFF.isDirectory()) {

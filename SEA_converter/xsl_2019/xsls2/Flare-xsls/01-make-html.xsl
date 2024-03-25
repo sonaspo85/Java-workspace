@@ -133,7 +133,6 @@
 
     <xsl:template match="root">
        <html>
-           <!--<xsl:apply-templates select="*[2]/@*" />-->
            <xsl:apply-templates select="@sourcePath" />
            <head>
                <title>User Manual</title>

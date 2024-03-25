@@ -33,7 +33,6 @@
     <xsl:key name="xrefs" match="h1 | h2 | h3 | h4 | h5 | h6 | p[matches(@class, 'heading3')]" use="@id" />
 
     <xsl:template match="/">
-        <!-- <xsl:variable name="file" select="concat('../output/', 'header.html')" /> -->
         <xsl:variable name="file" select="concat($sourcePath, '/output/', 'header.html')" />
         <xsl:result-document method="xml" href="{$file}">
             <a href="start_here.html"><span>home</span></a>
@@ -178,7 +177,6 @@
     </xsl:template>
     
     <xsl:template match="topic[@filename]">
-        <!-- <xsl:variable name="file" select="concat('../output/', @filename, '_', *[1]/@id, '.html')" /> -->
         <xsl:variable name="file" select="concat($sourcePath, '/output/', @filename, '_', *[1]/@id, '.html')" />
         <xsl:variable name="title" select="concat(*[1], ' - ', $model-name)" />
 
@@ -253,8 +251,6 @@
                         <div w3-include-html="header.html">&#xFEFF;</div>
                         <xsl:text>&#xA;&#x9;&#x9;</xsl:text>
                     </header>
-
-                    <!-- calculate prev -->
                     <xsl:variable name="id" select="@id" />
                     <xsl:variable name="prev" select="key('htmls', $ids[index-of($ids, $id) - 1])" />
                     <xsl:variable name="prev-filename" select="$prev/@filename"/>
@@ -262,8 +258,6 @@
                     <xsl:variable name="data-prev" select="if ( $prev-filename )
                                                            then concat($prev-filename, '_', $prev-fid)
                                                            else 'start_here'" />
-
-                    <!-- calculate next -->
                     <xsl:variable name="next" select="key('htmls', $ids[index-of($ids, $id) + 1])" />
                     <xsl:variable name="next-filename" select="$next/@filename" />
                     <xsl:variable name="next-fid" select="$next/*[1]/@id" />

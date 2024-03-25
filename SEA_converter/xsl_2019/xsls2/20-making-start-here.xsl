@@ -18,7 +18,6 @@
     </xsl:template>
 
     <xsl:template match="body">
-        <!-- <xsl:variable name="file" select="concat('../output/', 'start_here.html')" /> -->
         <xsl:variable name="file" select="concat($sourcePath, '/output/', 'start_here.html')" />
         <xsl:result-document href="{$file}">
             <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html></xsl:text>

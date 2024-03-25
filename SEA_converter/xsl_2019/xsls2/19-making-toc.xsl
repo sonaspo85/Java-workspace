@@ -26,7 +26,6 @@
     </xsl:template>
 
     <xsl:template match="body">
-        <!-- <xsl:variable name="file" select="concat('../output/', 'toc.html')" /> -->
         <xsl:variable name="file" select="concat($sourcePath, '/output/', 'toc.html')" />
 
         <xsl:result-document href="{$file}">
@@ -142,7 +141,6 @@
                                                                 <xsl:value-of select="$crt5" />
                                                                 <ul>
                                                                     <xsl:for-each select="$cur/node()">
-                                                                        <!-- 2topic 라인  -->
                                                                         <xsl:choose>
 
                                                                             <xsl:when test="self::*[matches(@class, 'heading3')]">
@@ -176,7 +174,7 @@
                                                                         </xsl:choose>
                                                                     </xsl:for-each>
                                                                     
-                                                                    <xsl:for-each select="topic">   <!-- 3 topic  'h4' -->
+                                                                    <xsl:for-each select="topic">
                                                                         <xsl:variable name="filename" select="@filename" />
                                                                         <xsl:variable name="fid" select="*[1]/@id" />
                                                                         <xsl:variable name="href" select="concat($filename, '_', $fid, '.html')" />

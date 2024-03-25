@@ -17,7 +17,6 @@
     </xsl:template>
     
     <xsl:template match="body">
-        <!-- <xsl:variable name="file" select="concat('../output/search/', 'search.html')" /> -->
         <xsl:variable name="file" select="concat($sourcePath, '/output/search/', 'search.html')" />
 
         <xsl:result-document href="{$file}">

@@ -247,7 +247,7 @@ public class RC implements Initializable {
                 updateMessage(String.valueOf(95));
 
                 // temp 폴더 삭제
-//                DeletefinalTempDirs();
+                DeletefinalTempDirs();
                 
                 try {
                     Thread.sleep(500);

@@ -54,7 +54,7 @@
                             <xsl:value-of select="chapter[1]/toc_link[1]/h1" />
                         </a>
                     </li>
-                    <xsl:for-each select="chapter[position() &gt; 1]">   <!-- for-each chapter  -->
+                    <xsl:for-each select="chapter[position() &gt; 1]">
                         <xsl:value-of select="$crt2" />
                         <li>
                             <a>
@@ -105,8 +105,8 @@
                                             </xsl:if>
                                             
                                             <xsl:choose>
-                                                <xsl:when test="topic">   <!-- 2 topic -->
-                                                    <xsl:for-each select="topic">   <!-- 2 topic  'h3' -->
+                                                <xsl:when test="topic">
+                                                    <xsl:for-each select="topic">
                                                         <xsl:variable name="filename" select="@filename" />
                                                         <xsl:variable name="fid" select="*[1]/@id" />
                                                         <xsl:variable name="href" select="concat($filename, '_', $fid, '.html')" />
@@ -152,11 +152,10 @@
                                                                 </ul>
                                                             </xsl:if>
 
-                                                            <xsl:if test="topic">   <!-- 3 topic -->
+                                                            <xsl:if test="topic">
                                                                 <xsl:value-of select="$crt5" />
                                                                 <ul>
                                                                     <xsl:for-each select="$cur/node()">
-                                                                        <!-- 2topic 라인  -->
                                                                         <xsl:choose>
                                                                             <xsl:when test="self::*[matches(@class, 'heading3')]">
                                                                                 <xsl:variable name="cur_pos" select="." />
@@ -189,7 +188,7 @@
                                                                         </xsl:choose>
                                                                     </xsl:for-each>
                                                                     
-                                                                    <xsl:for-each select="topic">   <!-- 3 topic  'h4' -->
+                                                                    <xsl:for-each select="topic">
                                                                         <xsl:variable name="filename" select="@filename" />
                                                                         <xsl:variable name="fid" select="*[1]/@id" />
                                                                         <xsl:variable name="href" select="concat($filename, '_', $fid, '.html')" />

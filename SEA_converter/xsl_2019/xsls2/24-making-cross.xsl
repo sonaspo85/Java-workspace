@@ -16,7 +16,6 @@
     <xsl:output method="xml" indent="yes" encoding="UTF-8" omit-xml-declaration="yes" />
     <xsl:strip-space elements="*" />
     <xsl:variable name="apphtml" select="document(concat(ast:getName(base-uri(.), '/'), '/xsl_2019/xsls2/', 'app.html'))" />
-    <!--<xsl:variable name="deeplinks" select="document(concat(ast:getName(base-uri(.), '/'), '/', 'deeplinks.xml'))" />-->
     <xsl:variable name="data-language" select="/body/@data-language" />
     <xsl:variable name="sourcePath" select="body/@sourcePath" />
 
@@ -66,20 +65,6 @@
     <xsl:template name="applink">
         <xsl:param name="heading"/>
         <xsl:param name="chapterName" />
-        <!--<xsl:variable name="title" select="$deeplinks/deeplinks/item/title[heading[@language=$data-language][lower-case(.)=$heading]]" />
-        <xsl:choose>
-            <xsl:when test="$title">
-                <xsl:for-each select="$title/following-sibling::app_links/app_link[@language=$data-language]">
-                    <xsl:if test="ancestor::item/chapter/name[@language=$data-language][lower-case(.)=$chapterName]">
-                        <xsl:copy>
-                            <xsl:value-of select="lower-case(replace(normalize-space(replace(., '[!@#$%&amp;();:.,’?]', '')), '[&#xA0;]', '_'))" />
-                        </xsl:copy>
-                    </xsl:if>
-                </xsl:for-each>
-            </xsl:when>
-            <xsl:otherwise>
-            </xsl:otherwise>
-        </xsl:choose>-->
     </xsl:template>
 
     <xsl:template match="body">

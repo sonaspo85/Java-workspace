@@ -27,23 +27,16 @@ public class BomtoNormal {
     public void bomCheck() throws Exception {
         System.out.println("bomCheck 시작");
         for(File eachF : list) {
-            // 1. 파일을 읽어 bom 파일인지 확인 하기
             try {
                 FileInputStream fis = new FileInputStream(eachF);
-                
-                // common.io 패키지의 BomInputStream 클래스를 사용하여 BOM 매개값으로 제공된 타입일 경우 스트림으로 래핑하여 읽는다.
-                // 즉 bom 파일을 감지 하고 읽고 수정할수 있게 해준다.
                 BOMInputStream bomIn = new BOMInputStream(fis, ByteOrderMark.UTF_8, ByteOrderMark.UTF_16BE,
                         ByteOrderMark.UTF_16LE, ByteOrderMark.UTF_32BE, ByteOrderMark.UTF_32LE); 
                 Reader reader = new InputStreamReader(bomIn, "UTF-8");
-                // BOM 입력스트림 읽기
                 int fristNonBOMByte = reader.read();
                 
                 if(bomIn.hasBOM()) {
-//                    System.out.println("BOM 타입입니다.");
                     removeBom(eachF, bomIn);
                 } else {
-//                    System.out.println("BOM 타입이 아닙니다." + eachF.getName());
                     continue;
                 }
 

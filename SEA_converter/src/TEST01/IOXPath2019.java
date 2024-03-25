@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IOXPath2019 {
-    // ÃÊ±â html ÆÄÀÏ
+    // ï¿½Ê±ï¿½ html ï¿½ï¿½ï¿½ï¿½
     private File mergedFile;
     private List<IOXclasses> list = new ArrayList<>();  
     
@@ -15,8 +15,7 @@ public class IOXPath2019 {
     }
     
     public List<IOXclasses> setList() {
-        // temp °æ·Î »ý¼º****
-        
+        // temp ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½****
         File file = new File("");
         
         String tempDir = file.getAbsolutePath() + "\\temp\\"; 

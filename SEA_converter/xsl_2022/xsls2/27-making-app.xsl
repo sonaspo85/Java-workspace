@@ -16,7 +16,6 @@
 	<xsl:output method="xml" indent="yes" encoding="UTF-8" omit-xml-declaration="yes" />
 	<xsl:strip-space elements="*" />
 	<xsl:variable name="apphtml" select="document(concat(ast:getName(base-uri(.), '/'), '/../xsls2/', 'app.html'))" />
-	<!--<xsl:variable name="deeplinks" select="document(concat(ast:getName(base-uri(.), '/'), '/', 'deeplinks.xml'))" />-->
 	<xsl:variable name="data-language" select="/body/@data-language" />
 	<xsl:variable name="sourcePath" select="body/@sourcePath" />
 

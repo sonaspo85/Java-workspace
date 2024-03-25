@@ -20,14 +20,10 @@ public class IOXPath {
     }
     
     public List<IOXclasses> setList() {
-        System.out.println("setList() 시작");
-        // D:\GitProject\JAVA\java-workspace\SEA_converter
-        File file = new File("");
-        
+        File file = new File("");        
         String tempDir = file.getAbsolutePath() + "\\temp\\"; 
         String xsltDir = file.getAbsolutePath() + "\\xsl_2022\\xsls2\\Flare-xsls";
-        
-        
+
         list.add(new IOXclasses(mergedFile.toString(), tempDir + "\\00-make-one-html.html", xsltDir + "\\00-make-one-html.xsl"));
         list.add(new IOXclasses(tempDir + "\\00-make-one-html.html", tempDir + "01-make-html.html", xsltDir + "\\01-make-html.xsl"));
         list.add(new IOXclasses(tempDir + "01-make-html.html", tempDir + "02-href_define.html", xsltDir + "\\02-href_define.xsl"));
@@ -46,7 +42,6 @@ public class IOXPath {
     }
 
     public List<IOXclasses> setList02() {
-        System.out.println("setList02() 시작");
         File file = new File("");
         String tempDir = file.getAbsolutePath() + "\\temp\\"; 
         String xsltDir = file.getAbsolutePath() + "\\xsl_2022\\xsls2";
@@ -76,9 +71,7 @@ public class IOXPath {
         
         try {
             Files.copy(srcPath, tarPath, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES);
-            System.out.println("finalize 복사 성공");
         } catch (IOException e) {
-            System.out.println("finalize 복사 실패");
         }
     }
     
