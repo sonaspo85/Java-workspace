@@ -71,10 +71,7 @@ public class dbFiles {
     
     public void runDbFiles() throws Exception {
     	System.out.println("runDbFiles() 시작");
-        // template 엑셀 파일을 새로운 경로로 복사
         copyExcel();
-        
-        // db.xml 파일 읽기
         File file = new File(dbFile);
         FileInputStream fis = new FileInputStream(file);
         
@@ -83,14 +80,10 @@ public class dbFiles {
         InputSource is = new InputSource(reader);
         is.setEncoding("UTF-8");
         
-        // DocumentBuilderFactory 객체를 생성 하고, xml DOM 트리 구조로 파일 읽기
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = factory.newDocumentBuilder();
         Document doc = documentBuilder.parse(is);
-        
-        // XPath 객체 생성
         XPath xpath = XPathFactory.newInstance().newXPath();
-        
         String expression = "root/items";
         
         NodeList nl = (NodeList) xpath.compile(expression).evaluate(doc, XPathConstants.NODESET);
@@ -99,21 +92,16 @@ public class dbFiles {
         for(int i=0; i<nl.getLength(); i++) {
             Node node = nl.item(i);
             Element ele = (Element) node;
-            
-            // ID 값으로 사용할 번호 추출
+
             String pos = ele.getAttribute("pos");
             String chapName = ele.getAttribute("chapName");
-//            System.out.println("chapName: " + chapName);
-            
-            // items 요소 밑에 item 요소 찾아 들어가기
             NodeList nl2 = ele.getElementsByTagName("item");
             List<String> mapList = new ArrayList<>();
             
             for(int j=0; j<nl2.getLength(); j++) {
                 Node node2 = nl2.item(j);
                 Element ele2 = (Element) node2;
-                
-                // ISO 언어코드 얻기
+
                 String lang = ele2.getAttribute("lang");
                 String icon = "";
                 String parastyle = "";
@@ -135,7 +123,6 @@ public class dbFiles {
                 mapList.add(titleTxt);
                
                 if(Integer.parseInt(pos) == 1 && j == 1) {
-//                    System.out.println("lang: " + lang);
                     tarLang = lang;
                 }
                 
@@ -145,7 +132,6 @@ public class dbFiles {
             
         }
         
-        // 템플릿으로 사용할 엑셀 파일 읽기
         getExcelTemplate();
 
     }
@@ -158,44 +144,31 @@ public class dbFiles {
         
         try {
             Files.copy(from, to, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES);
-            System.out.println("파일 복사 완료");
             
         } catch (IOException e) {
-            System.out.println("파일 복사 실패");
             e.printStackTrace();
         }
 
     }
        
-    // Cell에 스타일 추가 하기
     public CellStyle addCellStyle(Workbook workbook) {
-        // cell에 스타일 추가
         CellStyle style = workbook.createCellStyle();
         
-        // 세로 중앙 정렬
         style.setVerticalAlignment(VerticalAlignment.CENTER);
-        
-        // 가로 중앙 정렬
         style.setAlignment(HorizontalAlignment.CENTER);
         
         // Cell background 설정
         style.setFillForegroundColor(IndexedColors.GREY_25_PERCENT.getIndex());
         style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
-        
-        // Cell 에 border 설정
         setBorderSyle(style);
         
         // 폰트 설정 하기
-        // workbook 을 XSSFWorkbook 객체로 변환 
         XSSFWorkbook xssfWork = (XSSFWorkbook) workbook;
-
-        // 폰트 설정
         XSSFFont font = xssfWork.createFont();
-        font.setBold(true);  // bold체 설정
-//        font.setFontHeight((short) (20*20));  // 20pt로 설정
-        font.setFontName("Arial"); // font-family 설정
-//        font.setFontHeightInPoints((short) 12);  // font size 설정
-        style.setFont(font);  // style에 font 지정
+        
+        font.setBold(true);
+        font.setFontName("Arial");
+        style.setFont(font);
         
         return style;
     }
@@ -217,7 +190,6 @@ public class dbFiles {
     private void autoSizeColumns(Sheet sheet, Row eachRow) {
         int rowCount = sheet.getPhysicalNumberOfRows();
 
-//        eachRow = sheet.getRow(2);
         Iterator<Cell> cellIterator = eachRow.cellIterator();
         
         while (cellIterator.hasNext()) {
@@ -229,28 +201,16 @@ public class dbFiles {
      }
     
     public void getExcelTemplate() {
-    	System.out.println("getExcelTemplate() 시작");
         File xlsxFile = new File(templateExcel);
 
         try {
-            //Creating input stream
             FileInputStream inputStream = new FileInputStream(xlsxFile);
-             
-            //Creating workbook from input stream
             Workbook workbook = WorkbookFactory.create(inputStream);
-            
-            // 엑셀의 각 Cell에 데이터 입력 하기
             setCellValues(workbook);
-
-            //Close input stream
             inputStream.close();
-            
             outExcelF(workbook);
-
-            System.out.println("Excel file has been updated successfully.");
             
         } catch (Exception e) {
-            System.err.println("Exception while updating an existing excel file.");
             e.printStackTrace();
         }
         
@@ -258,16 +218,12 @@ public class dbFiles {
     }
     
     public void setCellValues(Workbook workbook) {
-    	//Reading first sheet of excel file
         Sheet sheet = workbook.getSheetAt(0);
-        
-        // Header Cell 생성하기
         setHeaderCell(sheet, workbook);
 	    
         //Getting the count of existing records
         int rowCount = 2;
-
-        // Map 컬렉션으로 모은 데이터를 하나씩 추출하기
+        
         Set<Map.Entry<Integer, List<String>>> entrySet = map.entrySet();
         Iterator<Map.Entry<Integer, List<String>>> iterator1 = entrySet.iterator();
         
@@ -279,7 +235,6 @@ public class dbFiles {
             Cell idCell = eachRow.createCell(1);
             idCell.setCellValue(key);
             
-            // 각 Cell에 스타일 추가
             CellStyle style = addCellStyle(workbook);
             idCell.setCellStyle(style);
             
@@ -288,39 +243,30 @@ public class dbFiles {
             
             for(int t=0; t<listVal.size(); t++) {
                 Cell cell = eachRow.createCell(t+2);
-                
-                //	cell에 스타일 추가
                 CellStyle bodyStyle = workbook.createCellStyle();
                 setBorderSyle(bodyStyle);
                 cell.setCellStyle(bodyStyle);
                 
                 // Cell 자동 줄바꿈
                 bodyStyle.setWrapText(true); 
-                // Cell 새로 정렬
                 bodyStyle.setVerticalAlignment(VerticalAlignment.TOP);
                 cell.setCellValue(listVal.get(t));
                 
                 
             }
             
-            // Recommend 셀 만들기
             for(int t=0; t<listVal.size(); t++) {
                 Cell cell = eachRow.createCell(8);
-                
-                //	cell에 스타일 추가
+
                 CellStyle bodyStyle = workbook.createCellStyle();
                 setBorderSyle(bodyStyle);
                 cell.setCellStyle(bodyStyle);
                 
                 // Cell 자동 줄바꿈
                 bodyStyle.setWrapText(true); 
-                // Cell 새로 정렬
                 bodyStyle.setVerticalAlignment(VerticalAlignment.TOP);
                 
             }
-            
-            // 각 Cell 사이즈 자동 조절 하기
-//            autoSizeColumns(sheet, eachRow);
         }  	
     	
     }
@@ -332,11 +278,8 @@ public class dbFiles {
 	    
 	    Cell recommemdCell = headRow.createCell(8);
 	    recommemdCell.setCellValue("Recommend");
-	    
-	    // Row 의 첫번째 행(head row) 을 반복 하여 스타일 추가 하기
 	    Iterator<Cell> it2 = headRow.cellIterator();
 	    
-	    // Head row의 각 cell을 반복하여 스타일 추가
 	    while(it2.hasNext()) {
 	    	Cell cellVal = it2.next();
 	    	
@@ -369,8 +312,4 @@ public class dbFiles {
         
     }
     
-    
-//    public List<String> getList() {
-//        return list;
-//    } 
 }

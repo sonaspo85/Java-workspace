@@ -19,12 +19,9 @@ public class zipNunZipController {
     public zipNunZipController(File selectedExcelF) {
         this.selectedExcelF = selectedExcelF;
         excelDir = selectedExcelF.getParent();
-        System.out.println("excelDir: " + excelDir);
     } 
     
     public void runZip(Path zipDirP) {
-        System.out.println("runZip() 시작");
-        
         try {
             DirectoryStream<Path> ds = Files.newDirectoryStream(zipDirP);
             
@@ -43,7 +40,6 @@ public class zipNunZipController {
                         System.out.println("newZipF: " + newZipF);
                         
                         try {
-                            // zip으로 압출될 이름 지정
                             ZipFile zf = new ZipFile(newZipF);
 
                             // 압축할 파일 지정
@@ -80,13 +76,9 @@ public class zipNunZipController {
                 String fullPath = a.toAbsolutePath().toString();
                 String parPath = a.getParent().toString();
                 String newZipF = parPath.concat(".zip");
-                
-                System.out.println("newZipF: " + newZipF);
-                
-                // zip으로 압출될 이름 지정
+
                 ZipFile zf = new ZipFile(newZipF);
-                
-                
+                                
                 if(Files.isDirectory(a)) {
                     try {
                         zf.addFolder(new File(fullPath));
@@ -117,8 +109,6 @@ public class zipNunZipController {
     }
     
     public void delTempDir(Path zipDirP) {
-        System.out.println("delTempDir() 시작");
-        
         try {
             DirectoryStream<Path> ds = Files.newDirectoryStream(zipDirP);
             

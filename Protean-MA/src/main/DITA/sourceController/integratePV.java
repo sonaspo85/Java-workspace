@@ -62,7 +62,6 @@ public class integratePV {
 	
 	
 	public void runPvUpdate() {
-		System.out.println("runPvUpdate() 시작");
 		try {
 			String inF = obj.libDir + File.separator + "z14-xslt-integrate-pv.xml";
 			System.out.println("inF: " + inF);
@@ -75,14 +74,12 @@ public class integratePV {
             
 		} catch (Exception e) {
 		    msg = "mmiExportUpdate -> z14-xslt-integrate-pv.xml 예외 발생";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
         }
 
 	}
 
 	public void runReadPath(String inF, String switch1) throws Exception {
-	    System.out.println("runReadPath() 시작");
 	    runList.clear();
 	    
 	    try {
@@ -116,26 +113,17 @@ public class integratePV {
                         	in = obj.ditaxsls + File.separator + "dummy.xml";
                         	text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} selectedDir={5}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, selectedDir);
-
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else if(xslt.contains("04-indent.xsl")) {
                             out = newPvPath;
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-                            
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else {
                         	text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-                        	
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } 

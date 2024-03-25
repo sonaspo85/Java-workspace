@@ -74,12 +74,10 @@ public class xsltreadPath {
     
     
     public void runReadPath(String inF, String switch1) throws Exception {
-        System.out.println("runReadPath() 시작");
         list.clear();
         
         this.inF = inF;
         this.switch1 = switch1;
-        System.out.println("strlb1111111: " + lb1);
         ditaMa = obj.ditaotS + File.separator + "plugins/com.ast.protean.ma.um_en_2020pdf/cfg/common/vars" + File.separator + lb1 + ".xml";
         langsF = obj.languagesF;
         
@@ -93,9 +91,7 @@ public class xsltreadPath {
             dbf.setNamespaceAware(true);
             DocumentBuilder db = dbf.newDocumentBuilder();
             Document doc = db.parse(is);
-            
             Element rootEle = doc.getDocumentElement();
-            
             NodeList nl =  rootEle.getChildNodes();
             
             for(int i=0; i<nl.getLength(); i++) {
@@ -130,22 +126,17 @@ public class xsltreadPath {
             
         } catch (FileNotFoundException e) {
             msg = e.getMessage();
-            System.out.println("msg: " + msg);
             throw new RuntimeException(e);
         }
     }
     
     public void formattingXslt() {
-        System.out.println("formattingXslt() 시작");
-        
         String ditaMa = obj.ditaotS + File.separator + "plugins/com.ast.protean.ma.um_en_2020pdf/cfg/common/vars" + File.separator + lb1 + ".xml";
         String langsF = obj.languagesF;
         
         if(xslt.contains("master.xsl")) {
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} pvPath={5} lang={6} name={7} template={8} prodtype={9} htmlVer={10} ditaMa={11} langsF={12}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, pvPath, lb1, cb1, cb2, cb4, cb3, ditaMa, langsF);
-            System.out.println("result: " + result);
-            
             list.add(result);
             
         } else if(xslt.contains("target.xsl")) {
@@ -153,8 +144,6 @@ public class xsltreadPath {
             
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} pvPath={5} ditaMa={6} langsF={7}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, pvPath, ditaMa, langsF);
-//            System.out.println("result: " + result);
-            
             list.add(result);
             
         } else if(xslt.contains("final.xsl")) {
@@ -169,35 +158,24 @@ public class xsltreadPath {
             
         } else if(xslt.contains("04-ExcelDB.xsl")) {
             out = outMapDir + File.separator + "ExcelDB" + File.separator + lb1 + File.separator + "exceldb.xml";
-            
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} outMapDir={5}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, outMapDir);
-            
-            System.out.println("result: " + result);
             list.add(result);
             
         } else if(xslt.contains("extractSrcTar.xsl")) {
             in = outMapDir + File.separator + "final-" + lb1 + ".dita" + " ";
-            
-            
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} outMapDir={5}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, outMapDir);
-            
-            System.out.println("result: " + result);
             list.add(result);
             
         } else if(xslt.contains("insert-number.xsl")) {
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} outMapDir={5}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, outMapDir);
-            
-            System.out.println("result: " + result);
             list.add(result);
             
         } else {
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-            
-            System.out.println("result: " + result);
             list.add(result);
         }
         
@@ -205,8 +183,6 @@ public class xsltreadPath {
     }
     
     public void formattingIdml() {
-        System.out.println("formattingIdml() 시작");
-        
         if(xslt.contains("02-block.xsl") | 
            xslt.contains("03-setImgWidthHeight.xsl") | 
            xslt.contains("04-groupingChapter.xsl") | 
@@ -231,8 +207,6 @@ public class xsltreadPath {
             String idmlTemplsDir = obj.DiridmlTempls;
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} outMapDir={5} idmlTemplsDir={6}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, outMapDir, idmlTemplsDir);
-            
-            System.out.println("result: " + result);
             list.add(result);
             
         } 
@@ -240,38 +214,28 @@ public class xsltreadPath {
         else {
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-            
-            System.out.println("result: " + result);
             list.add(result);
         }
         
     }
     
     public void formattingHtml() {
-        System.out.println("formattingHtml() 시작");
-        
         String htmlDirS = outMapDir + File.separator + "3_HTML" + File.separator + lb1;
         
         if(xslt.contains("preview.xsl")) {
             in = outMapDir + File.separator + "final-" + lb1 + ".dita";
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-//            System.out.println("result: " + result);
-            
             list.add(result);
             
         } else if(xslt.contains("make-skeleton.xsl")) {
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} pvPath={5} ditaMa={6} langsF={7}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, pvPath, ditaMa, langsF);
-//            System.out.println("result: " + result);
-            
             list.add(result);
             
         } else if(xslt.contains("heading-grouping.xsl")) {
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} htmlDirS={5}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, htmlDirS);
-//            System.out.println("result: " + result);
-            
             list.add(result);
             
         } 
@@ -280,8 +244,6 @@ public class xsltreadPath {
             in = outMapDir + File.separator + "ExcelDB" + File.separator + lb1 + File.separator + "recommend.xml";
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} outMapDir={5} lang={6}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, outMapDir, lb1);
-            System.out.println("result: " + result);
-            
             list.add(result);
             
             
@@ -289,15 +251,11 @@ public class xsltreadPath {
             in = outMapDir + File.separator + "ExcelDB" + File.separator + lb1 + File.separator + "Message.xml";
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} outMapDir={5} lang={6}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, outMapDir, lb1);
-            System.out.println("result: " + result);
-            
             list.add(result);
             
         }  else {
             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-            System.out.println("result: " + result);
-            
             list.add(result);
             
         }

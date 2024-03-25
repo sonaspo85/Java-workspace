@@ -53,13 +53,11 @@ public class migrateTmx {
     }
     
     public void runMigrateTmx() {
-        System.out.println("runMigrateTmx() 시작");
         String inF = obj.libDir + File.separator + "z13-xslt-migrate-tmx.xml";
         String switch1 = "xslt";
         
         try {
             Path tmxP = Paths.get(selectedDir.toString());
-            
             DirectoryStream<Path> ds = Files.newDirectoryStream(tmxP);
             
             ds.forEach(a -> {
@@ -76,7 +74,6 @@ public class migrateTmx {
                         
                     } catch (Exception e) {
                         msg = "migrateTmx -> runMigrateTmx() 예외 발생";
-                        System.out.println("msg: " + msg);
                         throw new RuntimeException(msg);
                     }
                     
@@ -86,7 +83,6 @@ public class migrateTmx {
             
         } catch(Exception e) {
             msg = "migrateTmx -> runMigrateTmx() 예외 발생";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
         }
 
@@ -107,9 +103,7 @@ public class migrateTmx {
             dbf.setNamespaceAware(true);
             DocumentBuilder db = dbf.newDocumentBuilder();
             Document doc = db.parse(is);
-            
             Element rootEle = doc.getDocumentElement();
-            
             NodeList nl =  rootEle.getChildNodes();
             
             for(int i=0; i<nl.getLength(); i++) {
@@ -129,17 +123,11 @@ public class migrateTmx {
                             
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else {
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         }
@@ -153,7 +141,6 @@ public class migrateTmx {
             
         } catch (FileNotFoundException e) {
             msg = e.getMessage();
-            System.out.println("msg: " + msg);
             throw new RuntimeException(e);
         }
     }

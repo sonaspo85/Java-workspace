@@ -75,12 +75,9 @@ public class mmiExportUpdate {
 	
 	
 	public void runmmiUpdate() {
-		System.out.println("runmmiUpdate() 시작");
 		try {
 			String inF = obj.libDir + File.separator + "z9-xslt-mmiUpdate.xml";
-			System.out.println("inF: " + inF);
 	        String switch1 = "xslt";
-	        
 	        runReadPath(inF, switch1);
 			
 	        processBuilder pb = new processBuilder(runList, switch1);
@@ -88,14 +85,12 @@ public class mmiExportUpdate {
             
 		} catch (Exception e) {
 		    msg = "mmiExportUpdate -> z9-mmiUpdate.xml 예외 발생";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
         }
 
 	}
 
 	public void runReadPath(String inF, String switch1) throws Exception {
-	    System.out.println("runReadPath() 시작");
 	    runList.clear();
 	    
 	    try {
@@ -122,26 +117,17 @@ public class mmiExportUpdate {
                         in = outMapDir + File.separator + ele.getAttribute("in") + " ";
                         out = outMapDir + File.separator + ele.getAttribute("out") + " ";
                         xslt = obj.ditaxsls + File.separator + ele.getAttribute("xslt") + " ";
-                        
-                        System.out.println("xslt:  " + xslt);
                         catalog = obj.catalogDir + " ";
-                        
                         
                         if(xslt.contains("01-only-mmiSeg.xsl")) {
                         	in = obj.ditaxsls + File.separator + "dummy.xml";
                         	text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} sMapDir={5} keyword={6} lang={7}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, sMapDir, keyword, strlb1);
-
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else if(xslt.contains("02-unique-only-mmiSeg.xsl"))  {
                         	text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} sMapDir={5}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, sMapDir);
-                        	
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else if(xslt.contains("03-groupingHash.xsl"))  {
@@ -149,7 +135,6 @@ public class mmiExportUpdate {
                             out = newPvTemP + File.separator + ele.getAttribute("out") + " "; 
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} selectedDir={5}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, selectedDir);
-                            System.out.println("result: " + result);
                             runList.add(result);
                             
                         } else if(xslt.contains("04-export-uniqueSeg.xsl"))  {
@@ -157,7 +142,6 @@ public class mmiExportUpdate {
                             out = newPvTemP + File.separator + ele.getAttribute("out") + " "; 
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-                            System.out.println("result: " + result);
                             runList.add(result);
                             
                         } else if(xslt.contains("05-pv-mmi-update.xsl"))  {
@@ -165,7 +149,6 @@ public class mmiExportUpdate {
                             out = newPvPath; 
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} newPvTemP={5}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, newPvTemP);
-                            System.out.println("result: " + result);
                             runList.add(result);
                             
                         } 
@@ -177,7 +160,6 @@ public class mmiExportUpdate {
             }
         } catch (FileNotFoundException e) {
             msg = "mmiExportUpdate -> runReadPath() 메소드 예외 발생";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
         }
 	    
@@ -185,8 +167,6 @@ public class mmiExportUpdate {
 	
 	
 	public void runmmiExportxsl() {
-        System.out.println("runmmiExportxsl() 시작");
-        
         String inF = obj.libDir + File.separator + "z6-xslt-mmi-Export.xml";
         String switch1 = "xslt";
 
@@ -198,7 +178,6 @@ public class mmiExportUpdate {
             
         } catch (Exception e1) {
             msg = "mmiExportUpdate -> runmmiExportxsl() 메소드 예외 발생";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
         }
     }

@@ -22,30 +22,16 @@ public class readOptionF {
 	Document doc = null;
 	
 	public void runReadOptionF() {
-		System.out.println("runReadOptionF() 시작");
-		
 		try {
-			// 파일 읽기
 	        doc = obj.readFile(obj.optionListF);
 	        
 	        // root 요소에 접근
 	        Element rootTag = doc.getDocumentElement();
-//	        System.out.println("tagName: " + rootTag.getTagName());
-	        
-	        // XPath 객체 생성
 	        XPathFactory xpathfactory = XPathFactory.newInstance();
 	        XPath xpath = xpathfactory.newXPath();
-	        
-	        // template 요소들 얻기
 	        getTemplateList(xpath);
-	        
-	        // html 요소들 얻기
 	        getHtmlList(xpath);
-	        
-	        // prodtype 얻기
 	        getProdList(xpath);
-			
-			// obj 로 할당하기
 	        obj.templateList = templateList;
 	        obj.htmlList = htmlList;
 	        obj.prodList = prodList; 
@@ -80,8 +66,6 @@ public class readOptionF {
 	}
 	
 	public void getHtmlList(XPath xpath) {
-		System.out.println("getHtmlList() 시작");
-		
 		String express = "root/div[@class = 'html']/option/@vals";
 		try {
 			NodeList nl = (NodeList) xpath.compile(express).evaluate(doc, XPathConstants.NODESET);
@@ -89,20 +73,15 @@ public class readOptionF {
 			for (int i = 0; i < nl.getLength(); i++) {
                 String curItem = nl.item(i).getTextContent();
                 htmlList.add(curItem);
-//                System.out.println("htmlList: " + curItem);
-
             }
 			
 		} catch (Exception e) {
-			// 
 			e.printStackTrace();
 		}
 		
 	}
 	
 	public void getProdList(XPath xpath) {
-		System.out.println("getProdList() 시작");
-		
 		String express = "root/div[@class = 'prodtype']/option/@vals";
 		try {
 			NodeList nl = (NodeList) xpath.compile(express).evaluate(doc, XPathConstants.NODESET);
@@ -110,12 +89,10 @@ public class readOptionF {
 			for (int i = 0; i < nl.getLength(); i++) {
 				String curItem = nl.item(i).getTextContent();
                 prodList.add(curItem);
-//                System.out.println("prodList: " + curItem);
 
             }
 			
 		} catch (Exception e) {
-			// 
 			e.printStackTrace();
 		}
 		

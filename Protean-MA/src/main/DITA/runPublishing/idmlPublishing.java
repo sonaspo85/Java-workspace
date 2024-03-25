@@ -34,8 +34,6 @@ public class idmlPublishing {
 
 
     public void runIdmlPublishing() {
-        System.out.println("runIdmlPublishing() 시작");
-
         String inF = obj.libDir + File.separator + "z4-xslt-idml-publishing.xml";
 
         String switch1 = "idml";
@@ -49,14 +47,11 @@ public class idmlPublishing {
 
         } catch (Exception e1) {
             msg = e1.getMessage();
-            System.out.println("msg: " + msg);
             throw new RuntimeException(e1);
         }
     }
     
     public void copyIdml(String idmlout, String newIdmlS) {
-        System.out.println("copyIdml() 시작");
-
         Path oldIdmlP = Paths.get(idmlout);
         
         try {
@@ -66,12 +61,10 @@ public class idmlPublishing {
                 String fileName = a.getFileName().toString();
 
                 if (Files.isRegularFile(a)) {
-                    // 저장될 경로 지정
                     String newIdmlS2 = newIdmlS + File.separator + fileName;
                     Path newImageP = Paths.get(newIdmlS2);
                     
                     try {
-                        System.out.println("파일 복사!!!");
                         Files.copy(a, newImageP, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES);
                         
                     } catch (IOException e) {

@@ -50,15 +50,8 @@ public class tempHtml {
         Path tempP = null;
         
         try {
-            // 엑셀 이름 추출
             String excelName = selectedExcelF.getName();
-            System.out.println("excelPath: " + excelName);
-            
-            // 엑셀파일 읽기
             FileInputStream fis = new FileInputStream(selectedExcelF.toString());
-            
-            // Zip bomb~ 에러 방지
-            // Workbook 객체를 생성하기 전에 추가 해야 한다.
             ZipSecureFile.setMinInflateRatio(0);
             Workbook wb = WorkbookFactory.create(fis);
             
@@ -67,7 +60,6 @@ public class tempHtml {
             
             // 시트를 반복
             for(int i=0; i<sheetCnt; i++) {
-                // 새로운 XML DIM 객체 생성
                 Document doc = createDOM();
                 
                 // 시트이름 추출
@@ -80,30 +72,20 @@ public class tempHtml {
                 doc.appendChild(rootEle);
 
                 if (i == 0 | i == 1) {
-                    // Header 셀값을 추출하여 담기 위해 list 컬렉션 생성
                     List<String> firstCellList = new ArrayList<>();
-                    
                     Sheet sheet = wb.getSheet(getSheetName);
-                    
-                    // 시트에 접근하여 시트의 각 행을 Iterator 반복자를 사용하여 각 Row를 하나씩 반복
                     Iterator<Row> rowIt = sheet.iterator();
-                    
-                    // 첫번째 row의 셀 개수 할당
                     int totalCellCnt = 0;
                     
                     // 각 row를 반복
                     while(rowIt.hasNext()) {
                         // 각 row를 하나씩 추출
                         Row row = rowIt.next();
-                        
-                        // 엑셀에서 header 행의 위치가 첫번째 행인 경우 
+                         
                         if(row.getRowNum() == 0) {
-                            // getPhysicalNumberOfCells(): 실제 셀에 값이 있는 경우의 셀 개수 반환
                             totalCellCnt = row.getPhysicalNumberOfCells();
                             System.out.println("totalCellCnt: " + totalCellCnt);
                             
-                            // 0번째 행의 셀을 한번씩 돌아 셀의 값을 firstCellList 컬렉션으로 수집
-                            // 수집하여 나중에 태그 이름으로 사용하기 위해..
                             for(int c=0; c<totalCellCnt; c++) {
                                 // 첫번째 행의 각 셀의 값 추출
                                 Cell firstCell = row.getCell(c);
@@ -111,29 +93,21 @@ public class tempHtml {
                                 String str1 = formatCell(firstCell);
                                 String str2 = str1.replace(" ", "_").replace(".", "");
                                 String str3 = StringEscapeUtils.escapeXml11(str2);
-                                
-//                                System.out.println("str3: " + str3);
+
                                 firstCellList.add(str3);
                             }
 
-                        } else {  // 첫번째 행이 아닌 경우
-                            // isEmpty() 메소드를 호출하여, row의 전체 셀이 비어 있지 않는 경우 확인
+                        } else {
                             if (!isEmpty(row) && row.getRowNum() > 0) {
-                                // row 한번씩 돌때마다 cellval listitem 태그 생성
                                 Element listitem = doc.createElement("listitem");
                                 rootEle.appendChild(listitem);
                                 
                                 for (int j = 0; j < totalCellCnt; j++) {
                                     Cell curCell = row.getCell(j);
-                                    
-                                    // 추출한 셀값을 포맷팅
                                     String cellTxt0 = formatCell(curCell);
                                     String cellTxt = StringEscapeUtils.escapeXml11(cellTxt0).replaceAll("[\n\r]", "&lt;br/&gt;");
-                                    
                                     String rowNum = String.valueOf(row.getRowNum() + 1);
                                     String colNum = String.valueOf(j+1);
-                                    
-                                    // 셀을 한번씩 돌때마다 header값으로 태그를 만들고 값을 셀값으로 넣기
                                     Element listitemSub = doc.createElement(firstCellList.get(j).toString());
                                     listitemSub.setAttribute("class", rowNum + ":" + colNum);
                                     listitemSub.appendChild(doc.createTextNode(cellTxt));
@@ -156,11 +130,10 @@ public class tempHtml {
                         Files.createDirectories(tempP);
                     }
                     
-                    // excel 을 xml로 변환 추출        
                     Path tarXML = Paths.get(tempP + File.separator + getSheetName + ".xml");
                     exportXML(doc, tarXML);
                     
-                }  // 1번째 시트, 2버째 시트 반복 닫기
+                }
                                 
             }
 
@@ -184,11 +157,8 @@ public class tempHtml {
             tf.setOutputProperty(OutputKeys.INDENT, "no");
             tf.setOutputProperty(OutputKeys.METHOD, "xml");
             tf.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "no");
-            
-            // DOMSource 객체 생성
+
             DOMSource source = new DOMSource(doc);
-    
-            // 출력결과를 스트림으로 생성
             StreamResult result = new StreamResult(tarXML.toUri().toString());
     
             tf.transform(source, result);
@@ -201,7 +171,6 @@ public class tempHtml {
     }
     
     public boolean isEmpty(Row row) {
-        // 셀 개수 파악
         int cellCnt = row.getPhysicalNumberOfCells();
 
         String str = "";
@@ -244,7 +213,6 @@ public class tempHtml {
         Optional<Cell> op = Optional.ofNullable(cell);
         
         if(!op.isPresent()) {
-            // null인 경우, 임의의 텍스트 입력
             return "";
         } else {
             Cell cell1 = op.get(); 
@@ -259,7 +227,6 @@ public class tempHtml {
                     return "*error*";
                   
                 case NUMERIC:
-//                  // 셀의 값이 날짜 타입일 경우
                     if(DateUtil.isCellDateFormatted(cell1)) {
                         return String.valueOf(cell1.getLocalDateTimeCellValue()).split("T")[0];
                         
@@ -268,11 +235,8 @@ public class tempHtml {
                     }
                     
                 case STRING:
-//                    return cell.getStringCellValue();
                     return dfm.formatCellValue(cell1);
-                    
-                
-                    
+
                 default:
                     return "<unknown value>";
             }

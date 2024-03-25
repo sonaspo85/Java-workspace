@@ -76,27 +76,22 @@ public class tmxExportUpdate {
 	
 	
 	public void runtmxExport() {
-		System.out.println("runtmxExport() 시작");
 		try {
 			String inF = obj.libDir + File.separator + "z11-xslt-create-tmx.xml";
 			System.out.println("inF: " + inF);
 	        String switch1 = "xslt";
-	        
 	        runReadPath(inF, switch1);
-			
 	        processBuilder pb = new processBuilder(runList, switch1);
             pb.runProcessBuilder();
             
 		} catch (Exception e) {
 		    msg = e.getMessage();
-            System.out.println("msg: " + msg);
             throw new RuntimeException(e);
         }
 		
 	}
 	
 	public void runtmxUpdate() {
-        System.out.println("runtmxUpdate() 시작");
         try {
             String inF = obj.libDir + File.separator + "z12-xslt-split-tmx.xml";
             System.out.println("inF: " + inF);
@@ -109,7 +104,6 @@ public class tmxExportUpdate {
             
         } catch (Exception e) {
             msg = e.getMessage();
-            System.out.println("msg: " + msg);
             throw new RuntimeException(e);
         }
         
@@ -118,7 +112,6 @@ public class tmxExportUpdate {
 	
 
 	public void runReadPath(String inF, String switch1) throws Exception {
-	    System.out.println("runReadPath() 시작");
 	    runList.clear();
 	    
 	    try {
@@ -152,34 +145,21 @@ public class tmxExportUpdate {
                             in = outMapDir + File.separator + strlb1 + ".dita";
                         	text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} manualPath={5}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, sMapDir);
-
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else if(xslt.contains("08-splitLang.xsl")) {
-//                            in = outMapDir + File.separator + strlb1 + ".dita";
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} manualPath={5}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, outMapDir);
-
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else if(xslt.contains("05-changeTagsName.xsl")) {
                             out = outMapDir + File.separator + ele.getAttribute("out") + " ";
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else {
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                             
@@ -192,7 +172,6 @@ public class tmxExportUpdate {
             }
         } catch (FileNotFoundException e) {
             msg = e.getMessage();
-            System.out.println("msg: " + msg);
             throw new RuntimeException(e);
         }
 	    

@@ -33,14 +33,8 @@ public class imgDBTxml {
     }
     
     public void runimgDBTxml() {
-        System.out.println("runimgDBTxml() 시작");
-        
-        // idmlTemp 폴더 파일 생성
         createIdmlTemp();
-        
-        // 출력 파일 이름 생성
         String imgsizeF = outMapDir + File.separator + "image_size.xml";
-//        String imgsizeF = "H:/DITA/Mobile/Bat/mobile-source/out/image_size.xml";
         System.out.println("imgsizeF: " + imgsizeF);
         imgsizeP = Paths.get(imgsizeF);
         
@@ -53,8 +47,7 @@ public class imgDBTxml {
             // root 노드 생성
             Element rootEle = doc.createElement("Document");
             doc.appendChild(rootEle);
-            
-            // 데이터 읽기
+
             imgMap.forEach((k, v) -> {
                 String fileName = k;
                 List<String> list = v;
@@ -99,18 +92,13 @@ public class imgDBTxml {
             // Transformer 생성
             TransformerFactory ttf = TransformerFactory.newInstance();
             Transformer tf = ttf.newTransformer();
-    
-            // 출력 속성 설정
             tf.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
             tf.setOutputProperty(OutputKeys.INDENT, "yes");
             tf.setOutputProperty(OutputKeys.METHOD, "xml");
             tf.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "no");
             
-    
             // DOMSource 객체 생성
             DOMSource source = new DOMSource(doc);
-            
-            // 출력결과를 스트림으로 생성
             StreamResult result = new StreamResult(imgsizeP.toUri().toString());
     
             tf.transform(source, result);
@@ -122,13 +110,9 @@ public class imgDBTxml {
     }
     
     public void createIdmlTemp() {
-        System.out.println("createIdmlTemp() 시작");
-        
-        // idmlTemp 폴더 파일 생성
         String idmlTempS = outMapDir  + File.separator + "idmlTemp";
         Path idmlTempP = Paths.get(idmlTempS); 
         try {
-            // idml 저장 경로 생성
             obj.createNewDir(idmlTempP);
             
         } catch (Exception e1) {

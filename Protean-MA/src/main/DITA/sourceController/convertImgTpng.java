@@ -36,8 +36,6 @@ public class convertImgTpng {
     }
     
     public void runImgTpng() {
-        System.out.println("runImgTpng() 시작");
-        
         try {
             // 저장 경로 설정
             String out1 = newImagePathS + File.separator + "out1";
@@ -56,18 +54,13 @@ public class convertImgTpng {
                 
                 if(fileName.endsWith(".ai")) {
                     String fullPath = a.toAbsolutePath().toString();
-                    
-                    // 새롭게 저장될 파일 이름 지정
                     String newFileName = out1P + File.separator + fileName.replace(".ai", ".png");
-
                     String gsDir = obj.gsDir;
                     String optionTxt = "-sDEVICE=png16m -dBATCH -dNOPAUSE -dNOPROMPT -dQUIET -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -dInterpolateControl=-1 -r300";
                     String sOutputFile = newFileName;
                     String srcFile = a.toString();
-
                     String text = "{0} {1} -sOutputFile={2} {3}";
                     String result = MessageFormat.format(text, gsDir, optionTxt, sOutputFile, srcFile);
-//                    System.out.println("result: " + result);
                     
                     runList.add(result);
                     
@@ -112,20 +105,15 @@ public class convertImgTpng {
         System.out.println("oldImagePathS: " + oldImagePathS);
         Path oldImagePathP = Paths.get(oldImagePathS);
 
-        // 새로 저장될 경로 설정
-//            String newImagePathS = sMapDir + File.separator + "BASIC/images";
-
         // 언어별 폴더 존재하는지 확인
         if (Files.exists(oldImagePathP)) {
             System.out.println("언어별 폴더 존재 함");
 
             try {
-                // 언어별 images 폴더가 있다면 복사함
                 obj.dirCopy(newImagePathP, oldImagePathP);
 
 
             } catch (Exception e) {
-                // 재귀적 파일 복사 실패
                 msg = "BASIC/images" + strcb1 + " 폴더 복사 실패!!";
                 throw new RuntimeException(msg);
 

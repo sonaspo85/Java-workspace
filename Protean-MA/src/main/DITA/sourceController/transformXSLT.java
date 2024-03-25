@@ -50,29 +50,12 @@ public class transformXSLT {
         System.out.println("executeXslt() 시작");
         
         list.stream().forEach(a -> {
-            
-            
             InOutPathClas iopc = a;
-            
             File inFile = new File(iopc.getinFile());
             File outFile = new File(iopc.getoutFile());
             File xslFile = new File(iopc.getxslFile());
-
-//              System.out.println("inFile: " + inFile);
-//              System.out.println("outFile: " + outFile);
-//              System.out.println("xslFile: " + xslFile);
-//              System.out.println("tempP: " + tempP);
-          
-            // 1. xml 문서를 구현하는 StreamSource 객체를 Source 구현 객체로 할당
-            // StreamSource: xml 문서를 입력 스트림으로 사용하기 위한 객체
             Source inxml = new StreamSource(inFile);
-            
-            // 출력 스트림을 통해 생성될 파일 지정
-            // transform한 결과 문서를 저장하는데 필요한 정보를 포함하고 있다.
-            // StreamResult: xml, txt, html 로 변환되는 결과물을 저장할 객체로 사용
             Result outxml = new StreamResult(outFile);
-
-            // xslt 지정
             Source xsltF = new StreamSource(xslFile);
             
             System.setProperty("javax.xml.xpath.XPathFactory:" + NamespaceConstant.OBJECT_MODEL_SAXON, "net.sf.saxon.xpath.XPathFactoryImpl");

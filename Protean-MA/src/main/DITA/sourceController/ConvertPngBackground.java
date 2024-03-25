@@ -38,18 +38,10 @@ public class ConvertPngBackground {
     }
     
     public void forEachImg() {
-        System.out.println("forEachImg() 시작");
-        
         Path path = Paths.get(collectPngS);
-        
-        // 새로 저장할 경로 생성
         out2S = outMapDir + File.separator + strlb1 + File.separator + "contents/images";
-        
-//        out2S = outMapDir + File.separator + strlb1;
-        
         Path out2P = Paths.get(out2S);
         
-        // 폴더 생성
         if(Files.notExists(out2P)) {
             try {
                 Files.createDirectories(out2P);
@@ -58,8 +50,6 @@ public class ConvertPngBackground {
                 e.printStackTrace();
             }
         }
-        
-//        System.out.println("out2S: " + out2S);
         
         DirectoryStream<Path> ds;
         try {
@@ -73,7 +63,6 @@ public class ConvertPngBackground {
                     File oriF = new File(fullPath);
                     File newF = new File(out2S + File.separator + fileName);
                     
-                    // png 이미지 배경화면 흰색으로 만든 후, out/언어코드 폴더 로 이미지 복사 시키기
                     runChangeBackground(oriF, newF);
                 }
                             
@@ -87,34 +76,21 @@ public class ConvertPngBackground {
     }
     
     public void runChangeBackground(File oriF, File newF) {
-//        System.out.println("runChangeBackground() 시작");
-        
         try {
-            // 1. 이미지 로드
             BufferedImage image = ImageIO.read(oriF);
-            
-            // 2.같은 크기의 새 이미지 만들기
             BufferedImage result = new BufferedImage(image.getWidth(), image.getHeight(), BufferedImage.TYPE_INT_RGB);
-            
-            // Graphics2D 객체 생성 
             Graphics2D g2d = result.createGraphics();
 
-            // warning, caution, notice 이미지일 경우 배경색 투명하게 하기
             if(oriF.toString().contains("M-warning")|
                oriF.toString().contains("M-caution")|
                oriF.toString().contains("M-notice")) {
-                System.out.println("newF: " + newF.toString());
                 String fileName = oriF.getName();
                 int color = image.getRGB(0, 0);
 
                 Image image2 = makeColorTransparent(image, new Color(color));
-
-//                BufferedImage transparent = imageToBufferedImage(image2);
                 BufferedImage bufferedImage = new BufferedImage(image.getWidth(), image.getHeight(), BufferedImage.TYPE_INT_ARGB);
                 Graphics2D g2 = bufferedImage.createGraphics();
                 g2.drawImage(image2, 0, 0, null);
-
-//                File out = new File("H:/WORK/MA/DITA/mobile-source/out/en-AR/contents/" + fileName);
                 ImageIO.write(bufferedImage, "PNG", newF);
                 
                 Thumbnails.of(newF)
@@ -132,9 +108,6 @@ public class ConvertPngBackground {
             
             // 자원 해제
             g2d.dispose();
-            
-            // 이미지 추출
-//            ImageIO.write(result, "png", newF);
 
         }  catch (IOException e) {
             e.printStackTrace();

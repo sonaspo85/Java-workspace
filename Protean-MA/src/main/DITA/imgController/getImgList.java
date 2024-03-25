@@ -33,8 +33,6 @@ public class getImgList {
     
     
     public void runGetImgList() {
-        System.out.println("runGetImgList() 시작");
-        
         try {
             DirectoryStream<Path> ds = Files.newDirectoryStream(newImagePathP);
             
@@ -43,14 +41,11 @@ public class getImgList {
                     String fileName = a.getFileName().toString();
                     
                     if(fileName.endsWith(".png")) {
-                        // Sanselan API를 사용하여 이미지 정보 추출
                         getImgInfo(a);
                         
                         
                     } else if(fileName.endsWith(".ai")) {
                         getAiInfo(a);
-                        
-                        
                     }
 
                 } 
@@ -62,39 +57,23 @@ public class getImgList {
             
             
         }
-        /*
-        imgMap.forEach((k, v) -> {
-            String fileName = k;
-            List<String> list = v;
-           
-            System.out.println("fileName: " + fileName);
-            list.forEach(a -> {
-               System.out.println("aa: " + a); 
-            });
-        });
-        */
         
     }
     
     public void getAiInfo(Path a) {
-//        System.out.println("getAiInfo() 시작");
         String fileName = a.getFileName().toString();
         try {
             FileInputStream fis = new FileInputStream(a.toString());
             Reader reader = new InputStreamReader(fis, "UTF-8");
-            
-            // BufferedReader 문자 입력 스트림을 사용하여 한라인씩 읽기
             BufferedReader br = new BufferedReader(reader);
             
-            
-            int readCharNo;  // read() 메소드가 반환 하는 총 바이트 수 저장
-            char[] cbuf = new char[100];  // 읽은 데이터를 저장할 배열
+            int readCharNo;
+            char[] cbuf = new char[100];
             
             String s = "";
             String width = "";
             String height = "";
             String unit = "";
-            // while 반복문을 이용하여 -1을 반환할때까지 데이터 읽기
             while((s = br.readLine()) != null) {
                 if(s.contains("<stDim:w>")) {
                     width = s;
@@ -104,8 +83,6 @@ public class getImgList {
                 } else if(s.contains("<stDim:unit>")) {
                     unit = s;
                 }
-                
-//                System.out.println(data);
             }
             
             reader.close();
@@ -136,11 +113,6 @@ public class getImgList {
                 height = "14.731";
             }
             
-            
-//          System.out.println("a.getFileName(): " + a.getFileName());
-//          System.out.println("width: " + width);
-//          System.out.println("height: " + height);
-//          System.out.println("unit: " + unit);
           String unit2 = "";
           if(unit.contains("Millimeters")) {
               unit2 = "mm";
@@ -179,18 +151,14 @@ public class getImgList {
     
     
     public void getImgInfo(Path a) {
-//        System.out.println("getImgInfo() 시작");
         List<String> list = new ArrayList<>();
         try {
             File file = a.toFile();
             ImageInfo imageInfo = Sanselan.getImageInfo(file);
             String imgWidth = String.valueOf(imageInfo.getWidth());
             String imgHeight = String.valueOf(imageInfo.getHeight());
-            
             String imgdpi = String.valueOf(imageInfo.getPhysicalWidthDpi());
             
-            
-//            System.out.println("imgWidth: " + imgWidth + ", " + "imgHeight: "  + imgHeight + ", " + "imgdpi2: " + imgdpi);
             list.add(imgWidth);
             list.add(imgHeight);
             list.add(imgdpi);

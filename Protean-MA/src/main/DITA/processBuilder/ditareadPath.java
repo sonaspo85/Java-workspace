@@ -109,8 +109,6 @@ public class ditareadPath {
             text = "{0}  --input={1} --output={2} --transtype={3} --args.filter={4} -Denv.ANT_OPTS={5}";
             
             result = MessageFormat.format(text, calldita, in, out, transtype, filter, ANT_OPTS);
-//            System.out.println("result: " + result);
-            
             list.add(result);
             
         } else if(in.contains("master-final.dita")) {

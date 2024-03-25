@@ -76,21 +76,18 @@ public class pvEportUpdate {
 	
 	
 	public void runPvUpdate() {
-		System.out.println("runPvUpdate() 시작");
 		try {
 			String inF = obj.libDir + File.separator + "z5-xslt-pvUpdate.xml";
 			System.out.println("inF: " + inF);
 	        String switch1 = "xslt";
 	        
 	        runReadPath(inF, switch1);
-			
 	        processBuilder pb = new processBuilder(runList, switch1);
             pb.runProcessBuilder();
             
             
 		} catch (Exception e) {
 		    msg = e.getMessage();
-            System.out.println("msg: " + msg);
             throw new RuntimeException(e);
         }
 		
@@ -98,7 +95,6 @@ public class pvEportUpdate {
 	}
 
 	public void runReadPath(String inF, String switch1) throws Exception {
-	    System.out.println("runReadPath() 시작");
 	    runList.clear();
 	    
 	    try {
@@ -116,7 +112,6 @@ public class pvEportUpdate {
             NodeList nl =  rootEle.getChildNodes();
             
             String ditaMa = obj.ditaotS + File.separator + "plugins/com.ast.protean.ma.um_en_2020pdf/cfg/common/vars" + File.separator + strlb1 + ".xml";
-//          String langsF = obj.ditaotS + File.separator + "plugins/com.ast.protean.ma.um_en_2020pdf/cfg/common" + File.separator + "languages.xml";
             String langsF = obj.languagesF;
             
             for(int i=0; i<nl.getLength(); i++) {
@@ -129,42 +124,30 @@ public class pvEportUpdate {
                         in = outMapDir + File.separator + ele.getAttribute("in") + " ";
                         out = newPvTemP + File.separator + ele.getAttribute("out") + " ";
                         xslt = obj.ditaxsls + File.separator + ele.getAttribute("xslt") + " ";
-                        
                         catalog = obj.catalogDir + " ";
-                        
                         
                         if(xslt.contains("pv-update00.xsl")) {
                         	in = obj.ditaxsls + File.separator + "dummy.xml";
-//                        	out = newPvPath;
-                        	
                         	text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} trPath={5}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, selectedDir);
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else if(xslt.contains("pv-update01.xsl"))  {
                         	in = newPvTemP + File.separator + "pv-update00.xml";
                         	text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else if(xslt.contains("pv-update02.xsl"))  {
                             in = newPvTemP + File.separator + "pv-update01.xml";
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else if(xslt.contains("pv-update03.xsl"))  {
                             in = pvPath + " ";
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}  newPvTemP={5}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, newPvTemP);
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else if(xslt.contains("depth-indent.xsl"))  {
@@ -173,19 +156,13 @@ public class pvEportUpdate {
                             
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog);
-                            
-                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else if(xslt.contains("multi-export.xsl")) {
                             in = outMapDir + File.separator + strlb1 + ".dita";
                             out = outMapDir + File.separator + "4_TR" + File.separator + strlb1 + File.separator + "TR2-" + strlb1 + ".xml" + " ";
-                            
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} pvPath={5} ditaMa={6} langsF={7}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, pvPath, ditaMa, langsF);
-//                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } else if(xslt.contains("tr-export.xsl")) {
@@ -194,8 +171,6 @@ public class pvEportUpdate {
                             
                             text = "{0}  -s:{1} -o:{2} -xsl:{3} -catalog:{4} pvPath={5} lang={6} sMapDir={7}  ditaMa={8} langsF={9}";
                             String result = MessageFormat.format(text, transform, in, out, xslt, catalog, pvPath, strlb1, sMapDir, ditaMa, langsF);
-//                            System.out.println("result: " + result);
-                            
                             runList.add(result);
                             
                         } 

@@ -14,8 +14,6 @@ public class pdfPublishing {
     String msg ="";
     
     public void runCreateEngPDF(String outMapDir, String strlb1) {
-        System.out.println("runCreateEngPDF() 시작");
-        
         String switch1 = "dita";
         String inF = obj.libDir + File.separator + "z3-dita-outEngPDF.xml";
         
@@ -32,18 +30,14 @@ public class pdfPublishing {
             
         } catch (Exception e1) {
             msg = "z3 dita 변환 실패!!";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(e1);
         }
         
     }
     
     public void runCreateMultiPDF(String outMapDir, String strlb1) {
-        System.out.println("runCreateEngPDF() 시작");
-        
         String switch1 = "dita";
         String inF = obj.libDir + File.separator + "z3-dita-outMultiPDF.xml";
-        
         
         String transtype = "protean_ma_um_en_2020pdf";
         ditareadPath ditaPath = new ditareadPath(outMapDir, outMapDir, transtype, strlb1);
@@ -57,7 +51,6 @@ public class pdfPublishing {
             
         } catch (Exception e1) {
             msg = "z3 dita 변환 실패!!";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(e1);
         }
         
