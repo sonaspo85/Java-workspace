@@ -19,7 +19,7 @@ public class recursiveFiles {
     public void deleteAndCreateFolder() {        
         // 파일을 복사시킬 하위 디렉토리 생성
         File createSubDir = new File(exePath + "\\resource\\temp\\idmlZip");
-        System.out.println("createSubDir: " + createSubDir);
+        
         if(createSubDir.exists()) {
             deleteFilesRecursively(createSubDir);            
         }

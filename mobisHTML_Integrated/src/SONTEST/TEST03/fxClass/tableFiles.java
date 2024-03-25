@@ -52,10 +52,9 @@ public class tableFiles {
     
     public String getExtension() {
         String fileName = files.getName();
-        System.out.println("eee: " + fileName);
         Optional<String> optional = Optional.ofNullable(fileName);
-        
         String extension = optional.map(a -> a.substring(fileName.lastIndexOf(".") + 1)).get();
+        
         return extension;
     }
     

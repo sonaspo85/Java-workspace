@@ -23,9 +23,7 @@ import javafx.application.Platform;
 
 public class ftpUpLoad {
     String msg = "";
-    commonObj coj = new commonObj();
-    
-    // FTP 접속을 위한 FTPClient 객체 선언 
+    commonObj coj = new commonObj(); 
     FTPClient client = new FTPClient();
     List<String> filesList = new ArrayList<>();
     List<String> directoryList = new ArrayList<>();
@@ -46,7 +44,6 @@ public class ftpUpLoad {
             int resultCode = client.getReplyCode();
             
             if(!FTPReply.isPositiveCompletion(resultCode)) {
-                System.out.println("FTP server refused connection!!");
                 return;
                 
             } else {
@@ -76,8 +73,6 @@ public class ftpUpLoad {
     }
     
     public void ftpUpload() throws Exception {
-        System.out.println("ftpUpload() 시작");
-        
         outDir = coj.exePath + "\\output";
         getUploadList(outDir, filesList, directoryList);
         Collections.reverse(directoryList);
@@ -90,14 +85,12 @@ public class ftpUpLoad {
         for (String file: filesList) {
             FileInputStream fis = new FileInputStream(file);
             client.storeFile(file.replace(outDir, iniDir), fis);
-            System.out.println("Upload - " + file);
         }
 
         
     }
     
     private void getUploadList(String localDir, List<String> files, List<String> directories) throws Exception {
-        System.out.println("getUploadList 시작");
         Path path = Paths.get(localDir);
         
         if(Files.exists(path)) {
@@ -126,7 +119,6 @@ public class ftpUpLoad {
 
     // 로그인 하기
     public void accessLogin() throws Exception {
-        System.out.println("accessLogin 시작");
         String id = "mchtml";
         String pw = "ast141#";
         

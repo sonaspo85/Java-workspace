@@ -48,15 +48,10 @@ public class createExcelFile {
         String ExcelFileName = coj.exePath + "\\resource\\" + fileName;
         System.out.println("ExcelFileName: " + ExcelFileName);
        
-        // 1. 파일 입력 스트림 생성
+        // 파일 입력 스트림 생성
         FileInputStream fis = new FileInputStream(absolutePath); 
-        
-        // 엑셀 로드, Workbook 객체 생성
         Workbook wb = WorkbookFactory.create(fis);
-
-        // 빈 DOM 트리 객체 생성 하기
         Document doc = coj.createDomObj(null);
-        
         Element rootEle = doc.createElement("root");
         rootEle.setAttribute("fileName", absolutePath.getName());
         rootEle.setAttribute("version", coj.version);
@@ -92,7 +87,6 @@ public class createExcelFile {
 
                     for(int i=0; i<rowCellCnt; i++) {
                         Cell currCell = row.getCell(i);
-                        
                         String values ="";
                         values = new DataFormatter().formatCellValue(currCell);
 

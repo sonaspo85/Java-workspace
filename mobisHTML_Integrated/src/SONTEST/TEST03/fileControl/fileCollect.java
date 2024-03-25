@@ -58,13 +58,11 @@ public class fileCollect<T> {
         if(!mapT.isEmpty()) {
             mapT.get(groupByext.Ext.idml).forEach(a -> {
                 String getPath = a.getName();
-                System.out.println("getPath: " + getPath);
             });
         }
     }
     
     public static void exportExcelName() {
-        System.out.println("exportExcelName() 시작");
         if(!mapT.isEmpty()) {
             mapT.get(groupByext.Ext.xlsx).forEach(a -> {
                 String fileName = a.getName();
@@ -121,9 +119,8 @@ public class fileCollect<T> {
         String express = "codes/langs/code[matches(@ISO," + isoLang + ")]";
         
         NodeList nl = (NodeList) xpath.compile(express).evaluate(doc, XPathConstants.NODESET);
-        System.out.println("nl 개수: " + nl.getLength());
-        
         String excelLang = "";
+        
         for(int i=0; i< nl.getLength(); i++) {
             Node node = nl.item(i);
             Element ele = (Element) node;
@@ -135,7 +132,6 @@ public class fileCollect<T> {
     }
     
     public void fileCollection(Stream<T> stream, String type) {
-        System.out.println("fileCollection() 시작");
         if(type.equals("tableFiles")) {
             stream.forEach(a -> {
                 String getfileName = ((tableFiles) a).getFiles();

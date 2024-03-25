@@ -21,7 +21,6 @@ public class ftpRemoveDir {
     boolean result;
     String msg = "";
     commonObj coj = new commonObj();
-     
     FTPClient client = new FTPClient();
     List<String> filesList = new ArrayList<>();
     List<String> directoryList = new ArrayList<>();
@@ -78,7 +77,6 @@ public class ftpRemoveDir {
             filesList.stream().forEach(a -> {
                 String curPath = Paths.get(a).toString();
                 curPath = curPath.replaceAll("\\\\", "/");
-                System.out.println("파일 삭제: " + curPath);
                 
                 try {
                     client.deleteFile(curPath);
@@ -132,7 +130,6 @@ public class ftpRemoveDir {
     
     // 로그인 하기
     public void accessLogin() throws Exception {
-        System.out.println("accessLogin 시작");
         String id = "mchtml";
         String pw = "ast141#";
         

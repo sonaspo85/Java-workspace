@@ -13,8 +13,6 @@ import javafx.collections.ObservableList;
 public class menuTableRowCreate {
     List<File> selectedFiles;
     public ObservableList<tableFiles> fileList = FXCollections.observableArrayList();
-    
-    // 구현 객체 생성
     public commonObj coj;
     
     public menuTableRowCreate(List<File> fileList) {

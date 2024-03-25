@@ -19,25 +19,22 @@ import javafx.collections.ObservableList;
 public class dragDrop {
     private List<File> list;
     public ObservableList<tableFiles> fileList = FXCollections.observableArrayList();
-    
-    // 구현 객체 생성
     commonObj coj = new commonObj();
     
-    // s
+    
     public dragDrop(List<File> list) {
         this.list = list;
     }
     
     
     public void runDragDrop() {
-        System.out.println("runDragDrop() 시작");
         Stream<File> stream = list.stream();
         Stream<File> filterStream = stream.filter(a -> getExtensionCheck(a.getName()) == true);
         filterStream.forEach(a -> createRow(a.getAbsoluteFile()));
 
     }
     
-    // 파일의 확장자를 정규식으로 체크하여, 해당하는 확장파 파일일 경우 true 반환
+    // 파일의 확장자를 체크
     public boolean getExtensionCheck(String str) {
         return coj.getExtensionCheck(str);
     }

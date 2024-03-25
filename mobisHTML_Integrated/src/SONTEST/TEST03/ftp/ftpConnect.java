@@ -25,7 +25,6 @@ public class ftpConnect {
     
     
     public void runFTP() {
-        System.out.println("runFTP 시작");
         try {
             client.setControlEncoding("EUC-KR");
             client.connect("10.10.10.6", 21);
@@ -92,7 +91,6 @@ public class ftpConnect {
             System.out.println("File search Error!");
             return;
         }
-//        client.logout();
     }
     
     private static boolean getFileList(FTPClient client, String cw, List < String > files, List < String > directories) throws Exception {

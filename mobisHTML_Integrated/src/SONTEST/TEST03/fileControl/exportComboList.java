@@ -55,7 +55,6 @@ public class exportComboList {
     public Document accessFile() throws Exception {
         File file = new File("");
         String codePath = file.getAbsolutePath() + "\\resource\\dataTemplate\\codes.xml";
-        System.out.println("codePath:" + codePath);
         FileInputStream fis = new FileInputStream(codePath);
         Reader reader = new InputStreamReader(fis, "UTF-8");
         BufferedReader br = new BufferedReader(reader);

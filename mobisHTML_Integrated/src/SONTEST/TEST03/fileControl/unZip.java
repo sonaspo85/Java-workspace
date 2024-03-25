@@ -49,16 +49,12 @@ public class unZip {
                             Path newPath = Paths.get(newUnzipDir + File.separator + zeFileName);
                             Files.createDirectories(newPath.getParent());
                             
-                            // Entry 목록으로 추출된 파일들을 새로운 디렉토리로 복사 시키기
+                            // Entry 목록으로 추출된 파일들을 새로운 디렉토리로 복사
                             FileOutputStream fos = new FileOutputStream(newPath.toFile()); 
                             BufferedOutputStream bos = new BufferedOutputStream(fos); 
                             
                             byte[] buffer = new byte[(int) ze.getSize()];
                             int byteCnt;
-                            
-//                            while((byteCnt = zis.read(buffer)) != -1) {
-//                                fos.write(buffer, 0, byteCnt);
-//                            }
                             
                             while(true) {
                                 byteCnt = zis.read(buffer);

@@ -115,8 +115,6 @@ public class RC implements Initializable {
     
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        System.out.println("userName: " + userName);
-        System.out.println("xsltPath: " + xsltPath);
         String logPath = coj.exePath + File.separator + "log" + File.separator;
         System.setProperty("logFilename", logPath);
         
@@ -133,7 +131,7 @@ public class RC implements Initializable {
         // 콤보 목록 채우기
         exportComboList();
      
-        // tableView 의 Row에 들어갈 목록 생성하기
+        // tableView 의 Row에 들어갈 목록 생성
         CreateTableColumn();
         
         comboVer.setOnKeyPressed(new selectionKeyCode(comboVer));
@@ -258,8 +256,6 @@ public class RC implements Initializable {
     } 
     
     public void getComboInfo() {
-        System.out.println("getComboInfo() 시작");
-        
         Optional<List<tableFiles>> opList = getTableList();
         opList.ifPresent(d -> fileCollect.setMap(d));
         
@@ -272,9 +268,8 @@ public class RC implements Initializable {
         String excelCompany = map.get("company");
         uiTxt = fileCollect.uiTxt;
         
-        // default combo 목록 선택 하기
+        // default combo 목록 선택
         String excelver = map.get("ver") + "th";
-        System.out.println("excelver: " + excelver);
         
         comboVer.getSelectionModel().select(excelver);
         comboInch.getSelectionModel().select(excelInch);
@@ -317,13 +312,11 @@ public class RC implements Initializable {
     }
     
     public void Hexit(ActionEvent e) {
-        System.out.println("종료");
         Platform.exit();
     }
     
     public void btStart() throws Exception {
         stop = false;
-        System.out.println("btStart 시작");
         
         controllerDisable();
         ltStart = LocalTime.now();
@@ -378,7 +371,6 @@ public class RC implements Initializable {
     
     // 예외 발생시 호출될 메소드
     public void customException(String msg) {
-        System.out.println("customException() 메소드 호출");
         selectedPopup(msg);
         return;
     }
@@ -406,10 +398,8 @@ public class RC implements Initializable {
             // 이미지 교체
             InputStream imgStream = RC.class.getClassLoader().getResourceAsStream("SONTEST/TEST03/fxml/complete.png");
             Image image = new Image(imgStream);
-            
             ImageView iv = (ImageView) parent.lookup("#imm");
             iv.setImage(image);
-            
             Scene scenePop = new Scene(parent);
           
             // 다이얼로그에 Scene 올리기
@@ -427,8 +417,6 @@ public class RC implements Initializable {
     }
 
     private void selectedPopup(String msg) {
-        System.out.println("selectedPopup() 메소드 호출");
-        // 커스텀 다이얼로그 생성
         Stage dg = new Stage(StageStyle.UTILITY);
         dg.initModality(Modality.WINDOW_MODAL);
         dg.initOwner(primaryStage);
@@ -503,16 +491,12 @@ public class RC implements Initializable {
                 System.out.println("msg: " + msg);
             }
         } else {
-            System.out.println("SMC 사용자 입니다.");
         }
         
-        System.out.println("copyXslt 끝");
         XsltTransform();
     }
     
     public void XsltTransform() {
-        System.out.println("XsltTransform 시작");
-        
         inOutObj ioo = new inOutObj(coj.mergedPath, uiTxt);
         try {
             ioo.setList();
@@ -552,7 +536,6 @@ public class RC implements Initializable {
                 
             } catch (Exception e) {
                 msg = "xsls 삭제 예외가 발생되었습니다.";
-                System.out.println(msg);
                 customException(msg);
                 return;
             }
@@ -567,7 +550,6 @@ public class RC implements Initializable {
             
         } catch (Exception e) {
             msg = "xslt를 다운받지 못했습니다.";
-            System.out.println("msg: " + msg);
         }
         
         // 종료 시간
@@ -593,7 +575,6 @@ public class RC implements Initializable {
             
             @Override
             protected void succeeded() {
-                System.out.println("pb 종료 하기");
                 pb.setOpacity(0.0);
             }
             
@@ -645,7 +626,6 @@ public class RC implements Initializable {
             
             @Override
             protected void failed() {
-                System.out.println("task2 failed 예외 발생");
                 selectedPopup(msg);
 
                 if(!userName.matches("SMC") && Files.isDirectory(xsltPath)) {
@@ -666,13 +646,11 @@ public class RC implements Initializable {
     }
     
     public String saveDirs() {
-        System.out.println("saveDirs() 메소드 시작");
-
         try {
-        // 1. FXMLLoader.load() 메소드로 fxml 파일 로드
+        // FXMLLoader.load() 메소드로 fxml 파일 로드
         Parent parent = FXMLLoader.load(getClass().getResource("/SONTEST/TEST03/fxml/saveDir.fxml"));
         
-        // 2. Stage 객체 생성
+        // Stage 객체 생성
         Stage stage = new Stage(StageStyle.UTILITY);
         stage.initModality(Modality.WINDOW_MODAL);
         stage.initOwner(primaryStage);
@@ -694,10 +672,9 @@ public class RC implements Initializable {
         
         
         saveBT.setOnAction(e -> saveBT(stage, saveLabel));
-        
         Scene scene = new Scene(parent);
         
-        // 5. 다이얼로그에 Scene 객체 올리기
+        // 다이얼로그에 Scene 객체 올리기
         stage.setScene(scene);
         stage.setResizable(false);
         stage.show();
@@ -721,6 +698,7 @@ public class RC implements Initializable {
             
             // ftp 서버에 파일 업로드
             ftpUpLoad();
+            
         } catch (Exception e1) {
             e1.getMessage();
         }
@@ -735,7 +713,6 @@ public class RC implements Initializable {
     
     public void ftpUpLoad() throws Exception {
         ftpUpLoad ftpU = new ftpUpLoad(labelTxt);
-        
         ftpU.runFTP();
 
     }
@@ -758,8 +735,6 @@ public class RC implements Initializable {
     }
     
     public void controllerDisable() {
-        System.out.println("controllerDisable() 시작");
-        
         bt1.setDisable(true);
         ccncVer.setDisable(true);
         comboVer.setDisable(true);

@@ -16,7 +16,6 @@ public class createIdmlFile {
         String extention = coj.getExt(absolutePath);
         String fileName = absolutePath.getName();
         String zipFileName = coj.exePath + "\\resource\\temp\\idmlZip\\" + fileName.replace(extention, ".zip");
-        
         Path from = absolutePath.toPath();
         Path to = Paths.get(zipFileName);
         

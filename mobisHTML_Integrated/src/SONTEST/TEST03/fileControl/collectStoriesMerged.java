@@ -54,7 +54,6 @@ public class collectStoriesMerged {
     }
     
     public void runCollectStories() throws Exception {
-//        System.out.println("runCollectStories 시작");
         Document doc = coj.createDomObj(null);
         Element rootEle = doc.createElement("doc1");
         rootEle.setAttribute("doc-name", chapterName);
@@ -72,11 +71,9 @@ public class collectStoriesMerged {
             try {
                 Charset charset = Charset.forName("UTF-8");
 
-                // 1. InputStream 으로 파일 읽기
+                // InputStream 으로 파일 로드
                 BufferedReader br = Files.newBufferedReader(path, charset);
-
                 Document storyDoc = coj.createDomObj(br);
-                
                 Element root = storyDoc.getDocumentElement();
                 NodeList nList = storyDoc.getElementsByTagName("Contents");
                 
@@ -89,8 +86,6 @@ public class collectStoriesMerged {
                         Node childNode = childList.item(j);
                         
                         if(childNode.getNodeType() == Node.CDATA_SECTION_NODE) {
-//                            String cdataTxt = childNode.getTextContent().trim();
-
                             childNode.setNodeValue("");
                             Element toInsert = storyDoc.createElement("CDATA");
                             ele.appendChild(toInsert);
@@ -119,7 +114,6 @@ public class collectStoriesMerged {
         
         storeList.stream().forEach(a -> {
             Element nodeList = a;
-            
             rootEle.appendChild(doc.adoptNode(nodeList.cloneNode(true)));
         });
         
@@ -134,14 +128,14 @@ public class collectStoriesMerged {
         Path tarPath = Paths.get(mergedFilePath);
         URI tarURI = tarPath.toUri();
         
-        // 1. Transformer 실행
+        // Transformer 실행
         TransformerFactory tf = TransformerFactory.newInstance();
         Transformer transformer = tf.newTransformer();
         transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
         transformer.setOutputProperty(OutputKeys.INDENT, "yes");
         transformer.setOutputProperty(OutputKeys.DOCTYPE_PUBLIC, "yes");
         
-        // 3. DOMSource 객체 생성
+        // DOMSource 객체 생성
         DOMSource source = new DOMSource(doc);
         Result result = new StreamResult(tarURI.toString());
         transformer.transform(source, result);

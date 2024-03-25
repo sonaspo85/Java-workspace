@@ -31,12 +31,9 @@ public class DmapAttr {
     private Path file;
     List<String> sListArr = new ArrayList<>();
     Map<Integer, String> map = new HashMap<>();
-    
     commonObj coj = new commonObj();
-    
     static int cnt = 0;
     
-    // s
     public DmapAttr(Path file) {
         this.file = file;
     }
@@ -45,7 +42,7 @@ public class DmapAttr {
     public void extractAttrName() throws Exception {
         Charset charset = Charset.forName("UTF-8");
 
-        // 1. InputStream 으로 파일 읽기
+        // InputStream 으로 파일 읽기
         BufferedReader br = Files.newBufferedReader(file, charset);
         Document doc = coj.createDomObj(br);
         Element root = doc.getDocumentElement();

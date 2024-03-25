@@ -99,19 +99,15 @@ public class inOutObj {
     }
     
     public void executeXslt() throws Exception {
-        System.out.println("executeXslt 시작");
         XsltTransform xtf = new XsltTransform(list, uiTxt);
-        
         xtf.runXslTranform();        
     }
     
     private void createTempOutFolder(Path path) throws Exception {
-        System.out.println("createTempOutFolder() 시작");
         tempFolder = Paths.get(path + "\\temp");
         outFolder = Paths.get(path + "\\output");
         
         if(Files.exists(outFolder)) {
-            System.out.println("output폴더 존재함");
             coj.delteFolder(outFolder);
             Files.createDirectories(outFolder);
             

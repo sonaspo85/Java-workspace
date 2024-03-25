@@ -27,23 +27,17 @@ public class docInfo {
     Path verExract = null;
     Path styleApplier = null;
     commonObj coj = new commonObj();
-    
     String result = "";
-    
     List<String> srcList = new ArrayList<>();
     
     public docInfo(String mergedPath) {
-        System.out.println("docInfo() 시작");
         this.mergedPath = mergedPath;
         
     }
     
     public void runVarExtract() throws Exception {
-        System.out.println("runVarExtract() 시작");
-        
         Path path = Paths.get(mergedPath);
         styleApplier = Paths.get(path.getParent() + File.separator + "dataTemplate" + File.separator + "StyleApplier.xml");
-        
         File file = styleApplier.toFile();
         readDocInfo(file);
 
@@ -52,16 +46,13 @@ public class docInfo {
     public void readDocInfo(File file) throws Exception {
         FileInputStream fis = new FileInputStream(file);
         Reader reader = new InputStreamReader(fis, "UTF-8");
-        
         Document doc = coj.createDomObj(reader); 
-        
         Element rootEle = doc.getDocumentElement();
         
         // root 요소의 자식요소에 접근
         NodeList childNode = rootEle.getChildNodes();
         
         if(file.getName().equals("StyleApplier.xml")) {
-            System.out.println("styleApplier() 메소드 호출");
             getHtmlTemplate(rootEle, doc);
             getCssUpdate(rootEle, doc);
         }
@@ -69,8 +60,6 @@ public class docInfo {
     }
     
     public void getCssUpdate(Element rootEle, Document doc) throws Exception {
-        System.out.println("getCssUpdate 시작");
-        
         System.setProperty("javax.xml.xpath.XPathFactory:" + NamespaceConstant.OBJECT_MODEL_SAXON, "net.sf.saxon.xpath.XPathFactoryImpl");
         XPathFactory factory = XPathFactory.newInstance(NamespaceConstant.OBJECT_MODEL_SAXON);
         XPath xpath = factory.newXPath();
@@ -79,11 +68,8 @@ public class docInfo {
         String lang = "'"+ commonObj.lang + "'";
         String express = "";
         
-        
         express = "root/div[matches(@class, " + version + ")]/div[matches(@class, 'cssUpdate')]/var[matches(@carType, '" + coj.carName + "')]/var";
-        
         NodeList getCarTypeVar = (NodeList) xpath.compile(express).evaluate(doc, XPathConstants.NODESET);
-        
         
         if(getCarTypeVar.getLength() > 1) {
             isCarTyperVar(xpath, getCarTypeVar);
@@ -101,8 +87,8 @@ public class docInfo {
         } 
         
         NodeList nl = (NodeList) xpath.compile(express).evaluate(doc, XPathConstants.NODESET);
-        
         Element engEle = null; 
+        
         for(int j=0; j< nl.getLength(); j++) {
             Node node2 = nl.item(j);
             engEle = (Element) node2;

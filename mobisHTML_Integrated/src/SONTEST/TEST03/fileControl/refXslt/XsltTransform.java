@@ -47,31 +47,19 @@ public class XsltTransform {
     }
         
     public void runXslTranform() throws Exception {
-        System.out.println("runXslTranform 시작");
-        
         list.stream().forEach(a -> {
             InOutPathClas iopc = a;
             
             File inFile = new File(iopc.getinFile());
             File outFile = new File(iopc.getoutFile());
             File xslFile = new File(iopc.getxslFile());
-            
-//            System.out.println("inFile: " + inFile);
-//            System.out.println("outFile: " + outFile);
-//            System.out.println("xslFile: " + xslFile);
-            
-            
-          // 1. xml 문서를 구현하는 StreamSource 객체를 Source 구현 객체로 할당
-          // StreamSource: xml 문서를 입력 스트림으로 사용하기 위한 객체
+
           Source inXml = new StreamSource(inFile);
-          
-          // transform한 결과 문서를 저장하는데 필요한 정보를 포함하고 있다.
+
           // StreamResult: xml, txt, html 로 변환되는 결과물을 저장할 객체로 사용 
           Result outXml = new StreamResult(outFile);
           
           Source xslt = new StreamSource(xslFile);
-          
-//          System.setProperty("javax.xml.transform.TransformereFactory", "net.sf.saxon.TransformerFactoryImpl");
           System.setProperty("javax.xml.xpath.XPathFactory:" + NamespaceConstant.OBJECT_MODEL_SAXON, "net.sf.saxon.xpath.XPathFactoryImpl");
           TransformerFactory factory = TransformerFactory.newInstance();
 
@@ -84,7 +72,6 @@ public class XsltTransform {
             
         });
         
-        // internal 이고, 10in 이며, Kor 인 경우 Quickguide를 output 폴더로 복사
         copyquickguide();
     }
         
@@ -105,42 +92,16 @@ public class XsltTransform {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        
-        //if(uiTxt.contains("internal") && getLang.contains("Kor") && getInch.equals("10in")) {
-        /*if(coj.region.contains("internal") && coj.lang.contains("Kor") && coj.inch.equals("10inch") && !coj.version.equals("6th")) {
-            String QDirs ="";
-            
-            if (getCompany.contains("Hyun")) {
-                QDirs = coj.exePath + "\\resource\\Quickguide\\Hyundai";
-            } else if(getCompany.contains("Kia")) {
-                QDirs = coj.exePath + "\\resource\\Quickguide\\Kia";
-            } else {
-                System.out.println("해당 사항 없음");
-                return;
-            }
-            String Qto = coj.exePath + "\\output";
-            File from = new File(QDirs);
-            File to = new File(Qto);
-            System.out.println("QDirs: " + from.getAbsolutePath());
-            System.out.println("Qto: " + to.getAbsolutePath());
-                
-            coj.copyFolder(from, to);
-        }*/
-   
-            System.out.println("완료!!");
+
     }
     
     public void getVarExtract() throws Exception {
         Path path = Paths.get(coj.mergedPath);
         Path verExract = Paths.get(path.getParent() + File.separator + "varExract.xml");
-        
         File file = verExract.toFile();
-        
         FileInputStream fis = new FileInputStream(file);
         Reader reader = new InputStreamReader(fis, "UTF-8");
-        
         Document doc = coj.createDomObj(reader); 
-        
         Element rootEle = doc.getDocumentElement();
         
         // root 요소의 자식요소에 접근
@@ -149,14 +110,12 @@ public class XsltTransform {
         for(int i=0; i<childNode.getLength(); i++) {
             Node node = childNode.item(i);
             
-            // varExact.xml에서 값 추출하기
+            // varExact.xml에서 값 추출
             getValues(node);
         }
-        
-        
+
     }
     
-    // varExact.xml에서 값 추출하기
     public void getValues(Node node) {
         if(node.getNodeType() == Node.ELEMENT_NODE) {
             Element eleNode = (Element) node;

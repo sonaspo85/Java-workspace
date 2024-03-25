@@ -21,13 +21,10 @@ public class Main extends Application {
     public void start(Stage primaryStage) {
         try {
             FXMLLoader loader = new FXMLLoader(Main.class.getClassLoader().getResource("SONTEST/TEST03/fxml/root.fxml"));
-            
             Parent root = loader.load();
             RC con = loader.getController();
             con.setPrimaryStage(primaryStage);
-            
             Scene scene = new Scene(root);
-            
             primaryStage.setTitle("mobisHTML 변환기");
             primaryStage.setScene(scene);
             primaryStage.setResizable(false);

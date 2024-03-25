@@ -29,7 +29,6 @@ public class ftpCopyXslt {
     }
     
     public void runFTP() throws Exception {
-        System.out.println("runFTP 시작");
         try {
             client.setControlEncoding("EUC-KR");
             
@@ -47,12 +46,10 @@ public class ftpCopyXslt {
                 
                 // 로그인
                 accessLogin();
-             
                 ftpDownload();
                    
                 // ftp를 로그아웃
                 client.logout();
-                System.out.println("ftpDownload 끝");
 
             }
             
@@ -146,7 +143,6 @@ public class ftpCopyXslt {
     
     // 로그인 하기
     public void accessLogin() throws Exception {
-        System.out.println("accessLogin 시작");
         String id = "mchtml";
         String pw = "ast141#";
         
@@ -155,7 +151,6 @@ public class ftpCopyXslt {
             msg = "로그인 정보(ID, PW)가 잘못 되었습니다.";
             return;
         } else {
-            System.out.println("로그인 완료");
         }
     }
     

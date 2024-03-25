@@ -22,7 +22,6 @@ public class ftpDownLoad {
     boolean result;
     String msg = "";
     commonObj coj = new commonObj();
-    
     FTPClient client = new FTPClient();
     List<String> filesList = new ArrayList<>();
     List<String> directoryList = new ArrayList<>();
@@ -39,7 +38,6 @@ public class ftpDownLoad {
     }
     
     public void runFTP() throws Exception {
-        System.out.println("runFTP 시작");
         try {
             client.setControlEncoding("EUC-KR");
             
@@ -79,7 +77,6 @@ public class ftpDownLoad {
     
     
     private void ftpDownload() throws Exception {
-        System.out.println("ftpDownload() 시작");
         root = coj.exePath + "\\output";
 
         getFileList(client, File.separator, filesList, directoryList);
@@ -114,7 +111,6 @@ public class ftpDownLoad {
     }
     
     private void createDir() {
-        System.out.println("디렉토리 생성");
         directoryList.stream().forEach(a -> {
             iniDir = a.replaceAll("\\\\", "/");
             
@@ -125,7 +121,7 @@ public class ftpDownLoad {
             
             // 디렉토리 생성
             File file = new File(root + File.separator + iniDir);
-            System.out.println("Directory - " + file.getAbsolutePath());
+            
             if(!file.exists()) {
                 file.mkdirs();
             }
@@ -191,7 +187,6 @@ public class ftpDownLoad {
     
     // 로그인 하기
     public void accessLogin() throws Exception {
-        System.out.println("accessLogin 시작");
         String id = "mchtml";
         String pw = "ast141#";
         
