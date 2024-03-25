@@ -99,7 +99,7 @@
   </build>
   <properties>
     <main.class>main.java.zipController.Main.newMain</main.class>
-    <filename>SpecChecker-5.3.2</filename>
+    <filename>SpecChecker-5.4.1</filename>
     <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <javafx.version>18.0.1</javafx.version>

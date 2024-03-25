@@ -80,7 +80,7 @@ public class ftpUpLoad {
         }
 
         // 파일 업로드
-        for (String file: filesList) {.
+        for (String file: filesList) {
             FileInputStream fis = new FileInputStream(file);
             client.storeFile(file.replace(outDir, iniDir), fis);
             System.out.println("Upload - " + file);
