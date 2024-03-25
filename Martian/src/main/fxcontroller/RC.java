@@ -130,19 +130,13 @@ public class RC implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        System.out.println("RC 시작");
-
         setDirectoryPath();
         
         // 언어 목록 엑셀을 xml로 변환
         loadLangs();
         
         cb1.setItems(FXCollections.observableArrayList(typeL));
-        
-        // 언어 선택 팝업창 출력
         bt2.setOnAction(e -> langPop());
-        
-        // 폴더 선택 다이얼로그
         bt3.setOnAction(e -> openDialog());
         
         // html 변환 시작 버튼
@@ -233,14 +227,11 @@ public class RC implements Initializable {
     }
     
     public void customException(String msg) {
-        System.out.println("customException() 메소드 호출");
         selectedPopup(msg);
         return;
     }
     
     private void selectedPopup(String msg) {
-        System.out.println("selectedPopup() 메소드 호출");
-        // 커스텀 다이얼로그 생성
         Stage dg = new Stage(StageStyle.UTILITY);
         dg.initModality(Modality.WINDOW_MODAL);
         dg.initOwner(primaryStage);
@@ -267,9 +258,6 @@ public class RC implements Initializable {
     }
     
     public void finishedPop() {
-        System.out.println("finishedPop() 시작");
-
-        // 커스텀 다이얼로그 생성
         Stage dg = new Stage(StageStyle.UTILITY);
         dg.initModality(Modality.WINDOW_MODAL);
         dg.initOwner(primaryStage);
@@ -385,7 +373,6 @@ public class RC implements Initializable {
                         
                     } catch(Exception e) {
                         msg = "";
-                        System.out.println("msg: " + msg);
                         throw new RuntimeException(msg);
                     }
                     
@@ -397,7 +384,6 @@ public class RC implements Initializable {
                         
                     } catch(Exception e) {
                         msg = e.getMessage();
-                        System.out.println("msg: " + msg);
                         throw new RuntimeException(msg);
                         
                     }
@@ -420,10 +406,8 @@ public class RC implements Initializable {
                     updateMessage(String.valueOf(30));
                     
                     try {
-                        // 3. 새롭게 저장될 zipDir 폴더 생성
+                        // 새롭게 저장될 zipDir 폴더 생성
                         obj.createNewDir(obj.zipDirP);
-                        
-                        // 4. idml 폴더를 루프하여, idml 파일을 zip 확장자로 변경, zipDir 폴더로 복사하기 
                         changeExtIdmltZip ceiz = new changeExtIdmltZip();
                         ceiz.loopIdml();
                         
@@ -440,16 +424,14 @@ public class RC implements Initializable {
                     updateMessage(String.valueOf(40));
                     
                     try {
-                        // 4. zipDir 폴더내 zip 파일을 unzip 하기
                         unZip unzip = new unZip(); 
                         unzip.runUnzip();
                         
-                        // 5. zipDir 폴더내 zip 파일 삭제
+                        // zipDir 폴더내 zip 파일 삭제
                         deleteZipF();
                         
                     } catch(Exception e) {
                         msg = "";
-                        System.out.println("msg: " + msg);
                         throw new RuntimeException(msg);
                     }
                     
@@ -457,13 +439,12 @@ public class RC implements Initializable {
                     updateMessage(String.valueOf(50));
                     
                     try {
-                        // 6. unzip한 idml 폴더내의 designmap.xml 파일에 접근
+                        // unzip한 idml 폴더내의 designmap.xml 파일에 접근
                         accessDesignmap ad = new accessDesignmap();
                         ad.eachDirs(isocurpath);
                         
                     } catch(Exception e) {
                         msg = "";
-                        System.out.println("msg: " + msg);
                         throw new RuntimeException(msg);
                     }
                     
@@ -471,10 +452,10 @@ public class RC implements Initializable {
                     updateMessage(String.valueOf(60));
                     
                     try {
-                        // 7. map 컬렉션으로 'idml 이름 : doc0 객체' 형태로 모은 eachIdmlCollect 컬렉션을 가져와 Map 컬렉션으로 모음
+                        // map 컬렉션으로 'idml 이름 : doc0 객체' 형태로 모은 eachIdmlCollect 컬렉션을 가져와 Map 컬렉션으로 모음
                         Map<String, Element> eachIdmlCollect = storyesMerged.getIdmlCollect();
                         
-                        // 8. 7번에서 모은 Map 컬렉션을 idml별로 파일로 추출
+                        // Map 컬렉션을 idml별로 파일로 추출
                         createEachIdmlFiles eif = new createEachIdmlFiles(eachIdmlCollect); 
                         eif.runEachIdmlFiles();
                         
@@ -489,13 +470,12 @@ public class RC implements Initializable {
                     updateMessage(String.valueOf(70));
                     
                     try {
-                        // 2. Excel 데이터 추출
+                        // Excel 데이터 추출
                         excelMain excelmain = new excelMain();
                         excelmain.runExcelMain();
                         
                     } catch(Exception e) {
                         msg = "";
-                        System.out.println("msg: " + msg);
                         throw new RuntimeException(msg);
                     }
                     
@@ -503,7 +483,7 @@ public class RC implements Initializable {
                     updateMessage(String.valueOf(80));
 
                     try {            
-                        // 3. 각 소스 반복 하여 XSLT 돌리기
+                        // 각 소스 반복 하여 XSLT 돌리기
                         String eachSrcS = obj.tempDir + File.separator + "eachSrc";
                         Path eachSrcP = Paths.get(eachSrcS);
                         
@@ -512,7 +492,6 @@ public class RC implements Initializable {
                         
                     } catch(Exception e) {
                         msg = "";
-                        System.out.println("msg: " + msg);
                         throw new RuntimeException(msg);
                     }
                     
@@ -526,21 +505,15 @@ public class RC implements Initializable {
                          
                     } catch (Exception e) {
                         msg = "ftp templates 복사 실패";
-                        System.out.println("msg: " + msg);
                         throw new RuntimeException(msg);
                         
                     }
-
-                    System.out.println("작업 끝");
-                    
                     
                     return null;
                 }
                 
                 @Override
                 protected void succeeded() {
-                    System.out.println("succeeded(): 최종 완료");
-                    
                     updateProgress(95, 100);
                     updateMessage(String.valueOf(95));
                     
@@ -554,7 +527,6 @@ public class RC implements Initializable {
                         
                     } catch (Exception e) {
                         msg = "ftp 저장 실패";
-                        System.out.println("msg: " + msg);
                         throw new RuntimeException(msg);
                     }
                     
@@ -566,7 +538,6 @@ public class RC implements Initializable {
                 
                 @Override
                 protected void failed() {
-                    System.out.println("failed(): " + msg);
                     customException(msg);
                                         
                     // Progressbar 초기 상태로 변경
@@ -578,7 +549,6 @@ public class RC implements Initializable {
                     }
                     
                     activateControl();
-                    
                     return;
                     
                 }
@@ -704,7 +674,6 @@ public class RC implements Initializable {
         dg.initOwner(primaryStage);
         dg.setTitle("언어 선택 팝업창");
         
-        
         try {
             Parent parent = FXMLLoader.load(getClass().getClassLoader().getResource("main/fxcontroller/langpop.fxml"));
             
@@ -721,11 +690,8 @@ public class RC implements Initializable {
             });            
             
             pcb1.setItems(FXCollections.observableArrayList(pcbL));
- 
-            
             ListView<String> plv1 = (ListView) parent.lookup("#plv1");
             ListView<String> plv2 = (ListView) parent.lookup("#plv2");
-
             Set<String> keyset = langMap.keySet();
             List<String> langL = new ArrayList<>(keyset);
 
@@ -754,7 +720,6 @@ public class RC implements Initializable {
             plv2.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             pbt1.setOnAction(e -> addList(dg, langL2, plv1, plv2));
             pbt2.setOnAction(e -> removeList(dg, langL2, plv1, plv2));
-            
             
             plv2.setCellFactory(lv -> {
                 ListCell<String> cell = new ListCell<>();
@@ -836,16 +801,12 @@ public class RC implements Initializable {
     }
     
     public void removeList(Stage e, List<String> langL2, ListView<String> plv1, ListView<String> plv2) {
-        System.out.println("removeList() 시작");
-        
         langL2.removeAll(plv2.getSelectionModel().getSelectedItems());
         plv2.setItems(FXCollections.observableArrayList(langL2));
             
     }
     
     public void addList(Stage e, List<String> langL2, ListView<String> plv1, ListView<String> plv2) {
-        System.out.println("addList() 시작");
-
         if (langL2.size() > 1) {
             List<String> list3 = new ArrayList<>();
             
@@ -887,13 +848,12 @@ public class RC implements Initializable {
     public void loadLangs() {
         System.out.println("loadLangs() 시작");
 
-        // 1. 언어 목록 엑셀을 xml로 변환
+        // 언어 목록 엑셀을 xml로 변환
         getLangs gl = new getLangs();
         gl.runLangs();
         
-        
         try {
-            // 2. language.xml 파일 읽기
+            // language.xml 파일 로드
             readlangxml rl = new readlangxml();
             rl.runReadF();
 
@@ -906,7 +866,7 @@ public class RC implements Initializable {
         
 
         try {
-            // 3. type.xml 파일 읽기
+            // type.xml 파일 로드
             readtypexml rt = new readtypexml();
             typeL = rt.runtypeReadF();
             
@@ -917,7 +877,7 @@ public class RC implements Initializable {
         }
         
         try {
-            // 3. version.xml 파일 읽기
+            // version.xml 파일 읽기
             readverxml rt = new readverxml();
             verL = rt.runverReadF();
             
@@ -928,7 +888,7 @@ public class RC implements Initializable {
         }
         
         try {
-            // 3. type-lang.xml 파일 읽기
+            // type-lang.xml 파일 읽기
             readtlxml rt = new readtlxml();
             typelangMap = rt.runtlReadF();
 
@@ -971,12 +931,10 @@ public class RC implements Initializable {
     }
     
     public String saveDirs() {
-        System.out.println("saveDirs() 메소드 시작");
-
         try {
             Parent parent = FXMLLoader.load(getClass().getClassLoader().getResource("main/fxcontroller/saveDir.fxml"));
     
-            // 2. Stage 객체 생성
+            // Stage 객체 생성
             Stage stage = new Stage(StageStyle.UTILITY);
             stage.initModality(Modality.WINDOW_MODAL);
             stage.initOwner(primaryStage);
@@ -984,7 +942,6 @@ public class RC implements Initializable {
     
             TextField saveLabel = (TextField) parent.lookup("#saveTF");
             Button saveBT = (Button) parent.lookup("#saveBt");
-//            saveBT.setDisable(true);
             
             saveLabel.textProperty().addListener(new ChangeListener<String>() {
                 @Override
@@ -1006,10 +963,10 @@ public class RC implements Initializable {
             
             saveBT.setOnAction(e -> saveBT(stage, saveLabel));
             
-            // 4. Scene 객체 생성
+            // Scene 객체 생성
             Scene scene = new Scene(parent);
             
-            // 5. 다이얼로그에 Scene 객체 올리기
+            // 다이얼로그에 Scene 객체 올리기
             stage.setScene(scene);
             stage.setResizable(false);
             stage.show();
@@ -1020,7 +977,6 @@ public class RC implements Initializable {
                 }
                 
                 activateControl();
-                System.out.println("완료 팝업창");
                 finishedPop();
                 
             });
@@ -1028,9 +984,7 @@ public class RC implements Initializable {
         } catch(Exception e) {
             e.printStackTrace();
         }
-            
-        
-        
+
         return null;
     }
     
@@ -1040,14 +994,10 @@ public class RC implements Initializable {
         labelTxt =  saveLabel.getText();
         
         stage.close();
-        
         ftpRemoveDir ftpTemp = new ftpRemoveDir(labelTxt);
-        
         ftpTemp.accessFTP();
         
         boolean stop = ftpTemp.checkingExists();
-        System.out.println("stop: " + stop);
-        
         
         if(stop == true) {
             checkingPopup(ftpTemp);
@@ -1064,9 +1014,6 @@ public class RC implements Initializable {
                     finishedPop();
                 }
 
-                //------------------------------
-                System.out.println("완료 팝업창");
-
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -1076,17 +1023,12 @@ public class RC implements Initializable {
     }
     
     public void ftpUpLoad() throws Exception {
-        System.out.println("ftpUpLoad() 시작");
-        ftpUpLoad ftpU = new ftpUpLoad(labelTxt);
-        
+        ftpUpLoad ftpU = new ftpUpLoad(labelTxt);        
         ftpU.runFTP();
-        
         
     }
     
     public void delXSLT() {
-        System.out.println("delXSLT() 시작");
-
         if(!userName.matches("SMC")) {
             try {
                 obj.recursDel(obj.xslsDir);
@@ -1150,7 +1092,6 @@ public class RC implements Initializable {
         obj.workISO.clear();
         obj.matchlangMap.clear();
         
-        
         obj.type = "";
         obj.ridioTxt = "";
         obj.modelNumber = "";
@@ -1185,18 +1126,12 @@ public class RC implements Initializable {
             
             @Override
             protected void succeeded() {
-                System.out.println("succeeded(): 최종 완료");
-                
                 finishedPop();
             }
             
             @Override
             protected void failed() {
-                System.out.println("failed(): " + msg);
                 customException(msg);
-                
-                
-                
             }
         };
                 
@@ -1208,13 +1143,10 @@ public class RC implements Initializable {
     
         
     public void uploadExcel(String excelfile) {
-        System.out.println("uploadExcel() 시작");
-        
         // FTP 접속을 위한 FTPClient 객체 선언 
         FTPClient client = new FTPClient();
         
         try {
-            // connection 환경에서 인코딩 타입 설정
             client.setControlEncoding("EUC-KR");
             
             // ftp 접속 주소 설정
@@ -1227,16 +1159,14 @@ public class RC implements Initializable {
             } else {
                 client.setSoTimeout(1000);
                 
-                // 로그인 하기
+                // 로그인
                 String id = "sonminchan";
                 String pw = "astkorea1234";
                 
                 if(!client.login(id, pw)) {
-                    System.out.println("접속 실패");
                     msg = "로그인 정보(ID, PW)가 잘못 되었습니다.";
                     return;
                 } else {
-                    System.out.println("로그인 완료");
                 }
                 
                 String exceltemplsF = excelfile;
@@ -1244,7 +1174,7 @@ public class RC implements Initializable {
                 String filename = path.getFileName().toString();
                 String ftppath = "/tcs/confidential/Martian/resource/excel-template/" + filename;
                 
-                // 파일 InputStream을 가져온다.
+                // 파일 InputStream 로드
                 FileInputStream fis = new FileInputStream(exceltemplsF);
                 client.setFileType(client.BINARY_FILE_TYPE);
                 client.storeFile(ftppath, fis);
@@ -1256,12 +1186,10 @@ public class RC implements Initializable {
             
         } catch (Exception e1) { 
             e1.printStackTrace();
-//            throw new Exception("서버에 접속할 수 없습니다.");
             
         } finally {
             try {
                 if (client.isConnected()) {
-                    System.out.println("서버 연결 해제 성공");
                     client.disconnect();
                 }
                 
@@ -1274,8 +1202,6 @@ public class RC implements Initializable {
     
 
     public void checkingPopup(ftpRemoveDir ftpTemp) {
-        System.out.println("checkingPop() 시작");
-
         Stage dg = new Stage(StageStyle.UTILITY);
         dg.initModality(Modality.WINDOW_MODAL);
         dg.initOwner(primaryStage);
@@ -1300,11 +1226,7 @@ public class RC implements Initializable {
                     }
                     
                     activateControl();
-                    
-                    //------------------------------
-                    System.out.println("완료 팝업창");
                     finishedPop();
-                    
                     
                 } catch (Exception e2) {
                     e2.printStackTrace();
@@ -1312,19 +1234,12 @@ public class RC implements Initializable {
             });
             
             stopBt.setOnAction(e -> {
-//                activateControl();
-//                dg.close();
-                System.out.println("stopBt 클릭!!!");
-                
                 if(Files.exists(obj.tempDir)) {
                     removeTemp();
                     
                 }
                 
                 activateControl();
-                
-                //------------------------------
-                System.out.println("완료 팝업창");
                 finishedPop();
             });
             
