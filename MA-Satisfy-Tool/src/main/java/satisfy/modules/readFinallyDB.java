@@ -34,12 +34,9 @@ public class readFinallyDB {
     public Map<Integer, Map<String, List<String>>> totalDBmap2 = new HashMap<>();
     
     public void runDBxml(String dbFStr) {
-        System.out.println("runDBxml() 시작");
-        
         Map<Integer, Map<String, List<String>>> totalDBmap = new HashMap<>();
         
         try {
-            System.out.println("runDBxml => dbFStr: " + dbFStr);
             File file = new File(dbFStr);
             FileInputStream fis = new FileInputStream(file);
             Reader reader = new InputStreamReader(fis, "UTF-8");
@@ -204,7 +201,6 @@ public class readFinallyDB {
                 list.add(ele.getAttribute("ranking"));
                 
                 finalDBmap.put(type, list);
-//                obj.finalDBmap.put(o, finalDBmap);
                 totalDBmap.put(o, finalDBmap);
                 o += 1;
             }
@@ -218,8 +214,6 @@ public class readFinallyDB {
     }
     
     public Map<Integer, Map<String, List<String>>> getFinalMap() {
-        System.out.println("getFinalMap() 시작");
-        System.out.println("totalDBmap2 개수: " + totalDBmap2.size());
         return totalDBmap2;
         
         

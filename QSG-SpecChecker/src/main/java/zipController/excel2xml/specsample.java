@@ -46,12 +46,8 @@ public class specsample {
     int rowNum = 0;
     int colIndex = 0;
 
-    public specsample(String path) {
-        System.out.println("excelTxml() 시작");
-//        path = "C:/Users/SMC/Desktop/IMAGE/qsg/test/SM-A5460_대만_SPEC_Sample_v.4.3_230203.xlsx"; 
+    public specsample(String path) { 
         this.excelPath = path;
-
-        // 엑셀 경로를 Path 객체로 생성
         excelP = Paths.get(excelPath);
 
         // 엑셀 이름 추출
@@ -61,9 +57,6 @@ public class specsample {
 
 
     public String runexcel() throws Exception {
-        System.out.println("runexcel 시작");
-
-        // xml을 저장할 폴더 생성
         try {
             Path newPath = createFolder(excelP.getParent());
             
@@ -83,15 +76,11 @@ public class specsample {
         }
         
         try {
-            // Zip bomb~ 에러발생 방지
-            // Workbook 객체를 생성하기 전에 추가 해야 한다.
             ZipSecureFile.setMinInflateRatio(0);
-            
             Workbook wb = WorkbookFactory.create(fis);
 
             // sheet의 총 개수 파악
             int sheetCnt = wb.getNumberOfSheets();
-            System.out.println("sheetCnt: " + sheetCnt);
             int switchModel = 0;
 
             for (int i = 0; i < sheetCnt; i++) {
@@ -103,28 +92,15 @@ public class specsample {
                 rootEle.setAttribute("fileName", excelName);
                 doc.appendChild(rootEle);
 
-                // 시트 이름 추출
                 String getSheetName = wb.getSheetName(i);
                 getSheetName = getSheetName.replace(" ", "_").toLowerCase();
-                System.out.println("getSheetName: " + getSheetName);
 
                 List <String> firstCellList = new ArrayList <>();
-                // 시트에 접근
                 Sheet sheet = wb.getSheetAt(i);
                 String sheetName = sheet.getSheetName();
 
-                // if(sheetName.equals("RED Band Mode") | sheetName.equals("SAR") | sheetName.equals("MEA_Turkish") | sheetName.equals("SEA_Indonesian") | sheetName.equals("Package contents")| sheetName.equals("Device")) {
                 if (!sheetName.equals("aaa")) {
-                    // 시트의 각 행을 Iterator 반복자를 사용하여 각 Row를 하나씩 반복
                     Iterator <Row> rowIt = sheet.iterator();
-
-                    // 첫번째 row의 셀 개수 할당
-//                    int totalCellCnt = 0;
-                    /*if (sheetName.equals("RED Band Mode")) {
-                        String devModel = sheet.getRow(1).getCell(1).getStringCellValue();
-                        String replaceTxt = devModel.replaceAll("[\\s]+", "_");
-                        rootEle.setAttribute("devModel", replaceTxt);
-                    }*/
 
                     int startNum = 0;
                     if (sheetName.contains("RED Band Mode")) {
@@ -154,7 +130,6 @@ public class specsample {
                         switchModel = 1;
                     }
 
-                    // Device, SEA_Indonesian 시트는 header 가 없음
                     if (switchModel == 0) {
                         callNoHeader(rowIt, sheetName, doc, rootEle, sheet);
                     }
@@ -163,9 +138,8 @@ public class specsample {
                     while (rowIt.hasNext()) {
                         // 각 row를 하나씩 추출
                         Row row = rowIt.next();
-
-                        // Row 의 header 행에서 실질적으로 가지고올 마지막 Cell 위치 지정
                         int lastCell = 0;
+                        
                         if (sheetName.contains("RED Band Mode")) {
                             lastCell = 4;
                             
@@ -180,9 +154,6 @@ public class specsample {
                             
                         } else if (sheetName.equals("Charging_support")) {
                             lastCell = 3;
-//                            Row headerRow = sheet.getRow(0);
-//                            lastCell = headerRow.getLastCellNum() - 1;
-//                            System.out.println("Charging-support: " + lastCell);
                         }
 
                         if (switchModel == 1) {
@@ -206,9 +177,7 @@ public class specsample {
                                     
                                 } 
 
-                                // 1번째 행의 셀을 한번씩 돌아 셀의 값을 firstCellList 컬렉션에 수집
                                 for (; c <= lastCell; c++) {
-                                    // 첫번째 행의 각 셀의 값 추출
                                     Cell firstCell = row.getCell(c);
                                     String str1 = formatCell(firstCell);
                                     String str2 = str1.replace(" ", "_");
@@ -216,19 +185,15 @@ public class specsample {
                                     String str4 = str3.replaceAll("[\\(\\)&/]", "");
                                     String str5 = str4.replaceAll("(_)+", "_").replaceAll("[\n\r]", "");
                                     String str6 = StringEscapeUtils.escapeXml11(str5);
-                                    System.out.println("str6: " + str6);
                                     firstCellList.add(str6);
                                 }
 
-                            } else { // row 행 인덱스가 2번째 행이 아닌 경우, 즉 header가 아닌 경우                     
-                                // isEmpty() 메소드를 호출하여, row의 전체 셀이 비어 있지 않는 경우
-                                // row.getRowNum() > 2 : 2번째 이후의 행에 대해서 for문 진행
+                            } else {                     
                                 if (!isEmpty(row) && row.getRowNum() > startNum) {
-                                    // row 한번씩 돌때마다 cellVal listitem 태그 생성
                                     Element listitem = doc.createElement("listitem");
                                     rootEle.appendChild(listitem);
 
-                                    outter: // 라벨을 사용하여, 병합된 첫번째 셀 작업후, 바로 바깥 for문으로 빠져나오기 위해 사용
+                                    outter:
                                     for (int j = 0; j < lastCell; j++) {
                                         Cell cellVal = null;
                                         String mergedRange = "";
@@ -252,15 +217,10 @@ public class specsample {
                                         }
 
                                         String cellTxt0 = formatCell(cellVal);
-//                                        System.out.println("cellTxt000: " + formatCell(cellVal));
-                                        
                                         String cellTxt = StringEscapeUtils.escapeXml11(cellTxt0).replaceAll("[\n\r]", "&lt;br/&gt;");
-
                                         String rowNum0 = String.valueOf(row.getRowNum() + 1);
                                         String colNum0 = String.valueOf(j + 1);
-                                        // System.out.println("rowNum0: " + rowNum0 + " = " + "colNum0: " + colNum0);
 
-                                        // 한번씩 돌때마다 header 의 각 셀값들로 요소들을 생성
                                         // header 셀의 각 요소들로 태그 생성
                                         Element listitemSub = doc.createElement(firstCellList.get(j).toString());
                                         listitemSub.setAttribute("class", rowNum0 + ":" + colNum0);
@@ -268,35 +228,20 @@ public class specsample {
 
                                         // Cell 값이 null이 아닌 경우
                                         if (cellVal != null) {
-                                            // getNumMergedRegions(): '시트내 모든 병합'된 영역의 개수를 반환
-                                            for (int k = 0; k < sheet.getNumMergedRegions(); k++) {
-                                                // getMergedRegion(): 한번씩 반복될 때마다, '시트 전체 영역 내에서 찾은' 병합된 영역의 행과 열 인데스 반환  
+                                            for (int k = 0; k < sheet.getNumMergedRegions(); k++) {  
                                                 CellRangeAddress region = sheet.getMergedRegion(k);
-
-                                                // formatAsString(): 병합된 영역의 위치의 행과열을 반환 받기
-                                                // [B3:B5] 형태로 반환 됨
                                                 mergedRange = region.formatAsString();
-//                                                String[] arrays = mergedRange.split(":");
-                                                
-                                                // getFirstRow(): 병합된 영역에서 첫번째 행의 왼쪽 행 번호 반환
-                                                // getFirstColumn(): 병합된 영역에서 첫번째 Cell의 상단 열번호 반환
                                                 rowNum = region.getFirstRow();
                                                 colIndex = region.getFirstColumn();
                                                 
-                                                // 병합된 영역의 첫번째 Cell 인지 확인 하는 if문
-                                                // 확인 하는 이유는, 병합된 셀의 데이터는 항상 첫번째 Cell에 채워져 있다.
-                                                // 만약, 병합된 영역의 첫번째 cell인 경우, 해당셀의 값을 전역 변수 mergedCellVal에 할당하여,
-                                                // 병합된 영역의 첫번째 셀이 아닌 cell들일 경우 해당 값을 삽입하기 위해 사용 
+                                                // 병합된 영역의 첫번째 Cell 인지 확인 하는 if문 
                                                 if (rowNum == cellVal.getRowIndex() && colIndex == cellVal.getColumnIndex()) {
                                                     // 병합된 셀의 첫번째 셀인 경우 값 추출
                                                     String getCellVal = sheet.getRow(rowNum).getCell(colIndex).getStringCellValue();
                                                     mergedCellVal = StringEscapeUtils.escapeXml11(getCellVal);
-                                                    // System.out.println("mergedCellVal: " + mergedCellVal);
-                                                    
                                                     listitemSub.appendChild(doc.createTextNode(mergedCellVal));
                                                     listitem.appendChild(listitemSub);
-
-                                                    // continue outer; 없을 경우, 다음 for문을 돌기 때문에 빠져 나와야 한다.
+                                                    
                                                     continue outter;
                                                 }
 
@@ -317,17 +262,9 @@ public class specsample {
 
                                                     list.add(checkedRange);
                                                 } // for문 닫기
-
-//                                                System.out.println("curAddr: " + curAddr);
-                                                
-//                                                list.forEach(a -> {
-//                                                   System.out.println("list: " + a); 
-//                                                });
                                                 
                                                 for (int t = 0; t < list.size(); t++) {
                                                     String[] arrays = list.get(t).split(":");
-                                                    
-                                                    // replaceAll() 메소드로 정규식을 이용하여, 현재 column의 셀 알파벳 뽑아 내기
                                                     String rowAlphabet = arrays[0];
                                                     String tRowAlphabet = rowAlphabet.replaceAll(("(\\d+)"), "");
                                                     int tRowNum = Integer.valueOf(rowAlphabet.replaceAll(("([a-zA-Z])"), ""));
@@ -341,9 +278,6 @@ public class specsample {
                                                         
                                                         if (curAlphabet.equals(tColAlphabet)) {
                                                             if (curRowNum > tRowNum & curRowNum <= tColNum) {
-//                                                                System.out.println("curRowNum: " + curRowNum);
-//                                                                System.out.println("tRowNum: " + tRowNum);
-//                                                                System.out.println("aaa: " + list.get(t));
                                                                 listitemSub.appendChild(doc.createTextNode(mergedCellVal));
                                                                 listitem.appendChild(listitemSub);
 
@@ -372,13 +306,10 @@ public class specsample {
 
                                             }
 
-                                            // 병합된 cell이 아닌 (1행:1열)로 생성된 cell 일 경우
                                             listitemSub.appendChild(doc.createTextNode(cellTxt));
                                             listitem.appendChild(listitemSub);
 
                                         } else {
-                                            // cellVal이 null일 경우 else문이 없다면, <Tag /> 형태로 출력된다.
-                                            // <Tag></Tag> 형태로 출력 하기 위해서 하기 구문 추가
                                             listitemSub.appendChild(doc.createTextNode(cellTxt));
                                             listitem.appendChild(listitemSub);
                                         }
@@ -406,16 +337,11 @@ public class specsample {
             throw new Exception(msg);
         }
 
-        System.out.println("excel To xml 변환 완료!!");
         return obj.srcDir + "/temp/specSample";
     }
     
     public Path createFolder(Path newDirs) throws Exception {
-        System.out.println("createFolder() 시작");
-
         String newDir = obj.srcDir + "/temp/specSample";
-        System.out.println("newDir: " + newDir);
-        
         Path newPath = Paths.get(newDir);
         obj.createNewDir(newPath);
         
@@ -430,6 +356,7 @@ public class specsample {
         
         int pos = 0;
         Iterator <Row> rowIt2 = sheet.iterator();
+
         // row의 첫번째 셀이 값이 채워져 있는 셀의 개수 구하기
         try {
             while (rowIt2.hasNext()) {
@@ -439,7 +366,6 @@ public class specsample {
                 if(firstCell != null) {
                     if(firstCell.getStringCellValue().length() > 1) {
                         pos++;
-//                        System.out.println("firstCell111: " + firstCell.getStringCellValue());
                     }
                 }
 
@@ -448,14 +374,10 @@ public class specsample {
         }
 
         if (sheetName.equals("SEA_Indonesian")) {
-//            lastRow = 1;
             lastRow = pos;
-            System.out.println("lastRow: " + lastRow);
             
         } else if (sheetName.equals("Device")) {
-//            lastRow = 3;
             lastRow = pos;
-            System.out.println("Device lastRow: " + lastRow);
 
         }
 
@@ -484,7 +406,6 @@ public class specsample {
                     if (c == 1) {
                         Cell firstCell = row.getCell(1);
                         String getCellVal = firstCell.getStringCellValue();
-
                         String str1 = formatCell(firstCell);
                         String str2 = str1.replace(" ", "_");
                         String str3 = str2.replaceAll("(\\(.*\\))", "").replaceAll("_$", "");
@@ -492,7 +413,6 @@ public class specsample {
                         String str5 = str4.replaceAll("(_)+", "_").replaceAll("[\n\r]", "");
                         String str6 = StringEscapeUtils.escapeXml11(str5);
                         firstCellList.add(str6);
-                        System.out.println("callNoHeader: " + str6);
                         curRow++;
 
                     } else {
@@ -510,60 +430,43 @@ public class specsample {
                             cellVal = row.getCell(c);
                             String cellTxt0 = formatCell(cellVal);
                             cellTxt = StringEscapeUtils.escapeXml11(cellTxt0).replaceAll("[\n\r]", "&lt;br/&gt;");
-                            System.out.println("cellTxt: " + cellTxt);
 
                             rowNum0 = String.valueOf(row.getRowNum() + 1);
                             colNum0 = String.valueOf(c + 1);
-                            // System.out.println(rowNum0 + ":" + colNum0);
-
                             Element listitemSub = doc.createElement(firstCellList.get(r).toString());
                             listitemSub.setAttribute("class", rowNum0 + ":" + colNum0);
                             listitem.appendChild(listitemSub);
                             r++;
+                            
                             if (cellVal != null) {
-                                // getNumMergedRegions(): '시트내 모든 병합'된 영역의 개수를 반환
-                                for (int k = 0; k < sheet.getNumMergedRegions(); k++) {
-                                    // getMergedRegion(): 한번씩 반복될 때마다, '시트 전체 영역 내에서 찾은' 병합된 영역의 행과 열 인데스 반환  
+                                for (int k = 0; k < sheet.getNumMergedRegions(); k++) {  
                                     CellRangeAddress region = sheet.getMergedRegion(k);
-
-                                    // getFirstRow(): 병합된 영역에서 첫번째 행의 왼쪽 행 번호 반환
-                                    // getFirstColumn(): 병합된 영역에서 첫번째 Cell의 상단 열번호 반환
                                     int rowNum = region.getFirstRow();
                                     int colIndex = region.getFirstColumn();
 
-                                    // 병합된 영역의 첫번째 Cell 인지 확인 하는 if문
-                                    // 확인 하는 이유는, 병합된 셀의 데이터는 항상 첫번째 Cell에 채워져 있다.
-                                    // 만약, 병합된 영역의 첫번째 cell인 경우, 해당셀의 값을 전역 변수 mergedCellVal에 할당하여,
-                                    // 병합된 영역의 첫번째 셀이 아닌 cell들일 경우 해당 값을 삽입하기 위해 사용 
+                                    // 병합된 영역의 첫번째 Cell 인지 확인 하는 if문 
                                     if (rowNum == cellVal.getRowIndex() && colIndex == cellVal.getColumnIndex()) {
                                         // 병합된 셀의 첫번째 셀인 경우 값 추출
                                         String getCellVal = sheet.getRow(rowNum).getCell(colIndex).getStringCellValue();
                                         mergedCellVal = StringEscapeUtils.escapeXml11(getCellVal);
-
                                         listitemSub.appendChild(doc.createTextNode(mergedCellVal));
                                         listitem.appendChild(listitemSub);
 
-                                        // continue outer; 없을 경우, 다음 for문을 돌기 때문에 빠져 나와야 한다.
                                         continue outter1;
                                     }
                                 }
 
-                                // BLANK, null이라는 의미는 병합된 첫번째 Cell이 아닌 나머지 인덱스 위치의 셀을 의미한다
                                 if (cellVal.getCellType() == CellType.BLANK || cellVal == null) {
-                                    // 병합된 첫번째 cell에서 추출한 값을 병합된 셀에서 가져와 사용
                                     listitemSub.appendChild(doc.createTextNode(mergedCellVal));
                                     listitem.appendChild(listitemSub);
 
                                     continue;
                                 }
                                 
-                                // 병합된 cell이 아닌 (1행:1열)로 생성된 cell 일 경우
                                 listitemSub.appendChild(doc.createTextNode(cellTxt));
                                 listitem.appendChild(listitemSub);
                                 
                             } else {
-                                // cellVal이 null일 경우 else문이 없다면, <Tag /> 형태로 출력된다.
-                                // <Tag></Tag> 형태로 출력 하기 위해서 하기 구문 추가
                                 listitemSub.appendChild(doc.createTextNode(cellTxt));
                                 listitem.appendChild(listitemSub);
                             }
@@ -583,18 +486,13 @@ public class specsample {
             // Transformer 생성
             TransformerFactory ttf = TransformerFactory.newInstance();
             Transformer tf = ttf.newTransformer();
-
-            // 출력 속성 설정
             tf.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
             tf.setOutputProperty(OutputKeys.INDENT, "yes");
             tf.setOutputProperty(OutputKeys.METHOD, "xml");
             tf.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "no");
 
-
             // DOMSource 객체 생성
             DOMSource source = new DOMSource(doc);
-
-            // 출력결과를 스트림으로 생성
             StreamResult result = new StreamResult(tarXML.toUri().toString());
 
             tf.transform(source, result);
@@ -640,7 +538,6 @@ public class specsample {
         Optional <Cell> op = Optional.ofNullable(cell);
 
         if (!op.isPresent()) {
-            // null인 경우, 임의의 텍스트 입력
             return "";
         } else {
             Cell cell1 = op.get();
@@ -658,7 +555,6 @@ public class specsample {
                     return df.format(cell1.getNumericCellValue());
 
                 case STRING:
-                    // return cell.getStringCellValue();
                     return dfm.formatCellValue(cell1);
                 default:
                     return "<unknown value>";

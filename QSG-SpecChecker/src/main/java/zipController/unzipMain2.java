@@ -16,25 +16,16 @@ import main.java.zipController.Common.implementOBJ;
 public class unzipMain2 {
     implementOBJ obj = new implementOBJ(); 
     String srcPathStr = "";   
-//    String destFolder = "";
     
     public unzipMain2(String srcPathStr) {
         this.srcPathStr = srcPathStr;
-//        destFolder = srcPathStr + File.separator + "out/";
     }
     
     public void unZipFile() throws Exception {
-        System.out.println("unZipFile() 시작");
-        
         File srcfile = new File(srcPathStr);
         String getDirs = srcfile.getParent();
-        System.out.println("getDirs: " + getDirs);
         String getfileName = srcfile.getName().replace(".zip", "");
-        System.out.println("getfileName: " + getfileName);
-        
         String destFolder = getDirs + File.separator + getfileName + File.separator;
-        System.out.println("destFolder: " + destFolder);
-        
         Path destPath = Paths.get(destFolder);
         obj.createNewDir(destPath);
         
@@ -48,23 +39,16 @@ public class unzipMain2 {
 
             ZipArchiveEntry entry;
             while ((entry = archive.getNextZipEntry()) != null) {
-                // Print values from entry.
-//                System.out.println(entry.getName());
-//                System.out.println(entry.getMethod()); // ZipEntry.DEFLATED is int 8
                 if(entry.isDirectory()) {
-//                    System.out.println("entry: " + entry);
                     File file = new File(destFolder + entry.getName());
                     String dir = file.toPath().toString().substring(0, file.toPath().toString().lastIndexOf("\\"));
-//                    System.out.println("dir: " + dir);
                     File newDir = new File(dir + File.separator + entry);
-                    System.out.println("newDir: " + newDir);
+                    
                     newDir.mkdirs();
                     
                 } else {
                     File file = new File(destFolder + entry.getName());
-                    System.out.println("Unzipping - " + file);
-                  // Stream file content
-                  IOUtils.copy(archive, new FileOutputStream(file));
+                    IOUtils.copy(archive, new FileOutputStream(file));
                     
                 }
                   
@@ -79,8 +63,6 @@ public class unzipMain2 {
             throw new Exception(msg);
         }
         
-        System.out.println("zipDir 압축 해제 완료!!");
-       
     }
     
 }

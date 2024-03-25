@@ -43,24 +43,18 @@ public class unzipMain {
         
         // 경로 추출
         getsrcNtarDirs();
-
         String curFName = srcPath.getFileName().toString();
-        
-        // 마지막 위치의 "." 마침표 인덱스 위치 찾기
         int LastDot = curFName.lastIndexOf(".");
         curFName = curFName.substring(0, LastDot);
         
         // 압축 해제 경로 설정
-        // 프로젝트의 기본 디렉토리에 출력 하기
         File projectDir = new File(""); 
         String curfirstZipDirs = projectDir.getAbsolutePath() + File.separator + "temp" + File.separator + curFName + "_" + lang;
-
         obj.curFirstZipDirs = curfirstZipDirs; 
         
         File in = new File(curSrcPathStr);
         File out = new File(curfirstZipDirs);
         
-        // 프로젝트 실행 경로에 압축 해제할 경로 생성
         if(!out.exists()) {
             // 경로 생성
             out.mkdirs();
@@ -68,8 +62,6 @@ public class unzipMain {
         } else {
             // 폴더가 존재 한다면 삭제
             obj.recursDel(Paths.get(out.toString()));
-            
-            // 폴더 새로 생성
             out.mkdirs();
         }
 
@@ -80,17 +72,12 @@ public class unzipMain {
             eachPath.unZipFile();
             
         } catch (Exception e) {
-            System.out.println("압축 해제 실패");
             msg = "압축 해제 실패";
             throw new Exception(msg);
         }
-        
-        System.out.println("압축 해제 완료!!");
     }
     
-    // 새로운 폴더로 복사한 zip 파일들을 압축 풀기 *****
     public void runLoop(String newtarPath) throws Exception {
-        System.out.println("runLoop() 시작");
         Path path = Paths.get(newtarPath);
         
         if (Files.exists(path)) {
@@ -109,19 +96,15 @@ public class unzipMain {
                     try {
                         fis = new FileInputStream(a.toString());
                         Charset charset = Charset.forName("UTF-8");
-                        // ZipInputStream을 사용하여 zip 파일 읽기
                         ZipInputStream zis = new ZipInputStream(fis, charset);
                         
                         try {
-                            // 다음 zip 항목을 읽어 데이터의 시작 부분에 스트림을 배치
                             ZipEntry ze = zis.getNextEntry();
                             
                             while (ze != null) {
                                 // zip 파일의 이름 추출
                                 String zeName = ze.getName();
                                 Path parentDirs = path.getParent();
-                                
-                                // zip 파일을 unzip하여 새롭게 저장될 디렉토리로 출력하기 위해 fullPath 생성
                                 String newDirs = a.getParent() + File.separator + fileName.replace(extension, "") + File.separator + zeName;
                                 
                                 // 새로운 디렉토리내 각 파일들을 저장하기 위해 먼저 하위 디렉토리 생성
@@ -129,30 +112,21 @@ public class unzipMain {
                                 
                                 // zip목록내 하위 디렉토리 생성
                                 Files.createDirectories(newDirsPath);
-                                
-                                // 파일 출력 스트림
                                 FileOutputStream fos = new FileOutputStream(newDirs);
                                 
                                 int length;
                                 byte[] buffer = new byte[1024];
                                 
-                                // 데이터를 끝에 도달할때까지 반복
                                 while ((length = zis.read(buffer)) != -1) {
                                     fos.write(buffer, 0, length);
                                 }
                                 
                                 fos.flush();
                                 fos.close();
-                                // 현재 파일의 목록을 데이터 끝까지 추출 완료 했으므로,
-                                // 현재 목록을 닫고 다음 목록 읽기
-                                // closeEntry(): 현재 zip 항목을 닫고, 다음 항목을 읽을수 있도록 스트림을 배치
                                 zis.closeEntry();
-                                
-                                // 다음 zip 항목을 읽고, 데이터의 시작 부분에 스트림을 배치
                                 ze = zis.getNextEntry();
                             }
                             
-                            // zip 파일의 모든 목록을 읽고 작업이 모두 완료된 경우 현재 zip 파일 닫기
                             zis.closeEntry();
                             zis.close();
                             fis.close();
@@ -180,13 +154,9 @@ public class unzipMain {
         }
     }
     
-    // .zip 확장자로된 파일 삭제
     public void deleteZip() {
-        System.out.println("deleteZip 시작");
-        
         zipList.forEach(a -> {
             try {
-//                String changeList = a.toString().replace(".zip", "");
                 Files.delete(a);
                 
             } catch (IOException e) {
@@ -200,11 +170,8 @@ public class unzipMain {
     
     public void getsrcNtarDirs() {
       Path srcPath = Paths.get(curSrcPathStr);
-        
-      // 소스 경로 및 파일이름 추출
       Path parDirs = srcPath.getParent();
       String zipname = srcPath.getFileName().toString();
-      
       
       if(lang.equals("Eng")) {
           obj.srcDir = parDirs;

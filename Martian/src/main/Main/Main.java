@@ -48,7 +48,6 @@ public class Main extends Application {
 
             } catch (Exception e) {
                 String msg = "ftp 서버 접속 실패!";
-//                e.printStackTrace();
                 throw new RuntimeException(msg);
                 
             }
@@ -62,7 +61,6 @@ public class Main extends Application {
 
             } catch (Exception e) {
                 String msg = "ftp 서버 접속 실패!";
-//                e.printStackTrace();
                 throw new RuntimeException(msg);
                 
             }

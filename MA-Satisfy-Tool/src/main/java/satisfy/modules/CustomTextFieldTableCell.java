@@ -31,16 +31,8 @@ public class CustomTextFieldTableCell extends TextFieldTableCell<Company, String
             setStyle("");
             
         } else {
-//            if (value % 2 == 0)
-//                setBorder(new Border(new BorderStroke(Color.BLUE, BorderStrokeStyle.DASHED, new CornerRadii(4), new BorderWidths(1))));
-//            setStyle("-fx-text-fill: blue; -fx-border-color: blue; -fx-border-width: 0.2; -fx-font-size: 10pt; -fx-alignment: CENTER_LEFT;");
-//            setText(value.toString());
-            
             // 텍스트 줄바꿈 하기
             Text text = new Text(value);
-            
-            
-            // text를 감싸고 있는 TableColumn의 id 얻기
             String tcid = getTableColumn().getId();
             if(tcid.contains("cell1")) {
                 text.setTextAlignment(TextAlignment.LEFT);

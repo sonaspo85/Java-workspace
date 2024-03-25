@@ -8,32 +8,16 @@ public class ColumnCommitHandler {
     String dbFStr = "";
     
     public void setDBpath(String dbFStr) {
-        System.out.println("setDBpath() 시작");
-        
         this.dbFStr = dbFStr;
-        
         dbf.setDBpath(dbFStr);
     }
     
     public void handleClickEdit(TableColumn.CellEditEvent<Company, String> cellEditEvent, String tabpos) {
-        System.out.println("handleClickEdit() 시작");
-        
-        // 칼럼 이름 추출
         String columnName = cellEditEvent.getTableColumn().getText();
-        
-        // TableColumn 의 ID값 추출
         String tcid = cellEditEvent.getTableColumn().getId();
-
-        // TableColumn 현재값
         String oldValue = cellEditEvent.getOldValue();
-        
-        // TableColumn 에 새롭게 입력한 값
         String newValue = cellEditEvent.getNewValue();
-
-        // 현재 TableColumn의 위치 
         int index = cellEditEvent.getTablePosition().getRow();
-//        System.out.println("index가 다르게 찍히나 확인: " + index);
-
         Company company = cellEditEvent.getTableView().getItems().get(index);
         
         String curCellStr = "";
@@ -66,7 +50,6 @@ public class ColumnCommitHandler {
             String curCellpos = curCellStr + i;
             
             if (tcid.equals(curCellpos)) {
-              // 셀에 새로운 입력값으로 할당
               getCellVal(company, i, newValue, curCellStr);
               
 //               파일로 저장하기

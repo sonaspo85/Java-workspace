@@ -22,26 +22,18 @@ public class excelMain extends Application {
     @Override
     public void start(Stage primaryStage) {
     	try {
-	    	// FXMLLoader 객체 생성
-//	    	FXMLLoader loader = new FXMLLoader(excelMain.class.getResource("/main/fxml/root.fxml"));
     		FXMLLoader loader = new FXMLLoader(excelMain.class.getClassLoader().getResource("main/fxml/root.fxml"));
 	    	// 장면에 올라갈 레이아웃 객체 생성
 	    	Parent root = loader.load();
-	    	
-	    	// Stage를 컨트롤러로 보내기
 	    	RC controller = loader.getController();
 	    	controller.setPrimaryStage(primaryStage);
 	    	
 	    	// 레이아웃을 Scene객체로 올림
 	        Scene scene = new Scene(root);
-	    	
-	    	// 윈도우에 장면추가
 	    	primaryStage.setTitle("원클릭 보조 도구");
 	    	primaryStage.setScene(scene);
 	    	primaryStage.setResizable(false);
 	        primaryStage.show();
-//	    	primaryStage.setOnCloseRequest(e -> System.out.println("종료"));
-	    	    	
     	} catch(Exception e1) {
     		e1.printStackTrace();
     	}

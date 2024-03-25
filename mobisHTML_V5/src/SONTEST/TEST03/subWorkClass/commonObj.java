@@ -28,7 +28,6 @@ public class commonObj implements commonInterface {
     public String exePath = new File("").getAbsolutePath();
     public static String mergedPath = null;
     
-    // 파일 사이즈 생성
     @Override
     public String createSize(File file) {
         long fileSize = file.length();
@@ -53,7 +52,6 @@ public class commonObj implements commonInterface {
         return size;
     }
     
-    // 날짜 생성
     @Override
     public String createDate(File file) {
         long lastEditDate = file.lastModified();
@@ -65,18 +63,11 @@ public class commonObj implements commonInterface {
         return formatDate;
     }
     
-    // 확장자 체크
     @Override
     public boolean getExtensionCheck(String str) {
         String fileName = str;
-        
-        // Optional 객체 생성 - ofNullable() 메소드 사용
         Optional<String> optional = Optional.ofNullable(fileName); 
-        
-        // 파일객체들만 필터링
         Optional<String> optFilter = optional.filter(a -> a.contains("."));
-        
-        // 확장자 추출
         String extention = optFilter.map(a -> a.substring(fileName.lastIndexOf(".") + 1)).get();
         
         if(extention.equals("xml") || extention.equals("xlsx") || extention.equals("xls") || extention.equals("idml")) {
@@ -86,27 +77,18 @@ public class commonObj implements commonInterface {
         }
     }
     
-    // 확장자만 추출
     @Override
     public String getExt(File absolutePath) {
-        // Optional 객체 생성 - ofNullable() 메소드 사용
         Optional<File> optional = Optional.ofNullable(absolutePath); 
-        
-        // 파일 객체들만 필터링
         Optional<File> optFilter = optional.filter(a -> a.getName().contains("."));
-        
-        // 확장자 위치 
         int pos = absolutePath.getName().lastIndexOf(".") + 1;
         
         // 확장자 추출
         String extention = optFilter.map(a -> a.getName().substring(pos)).get();
-
-//        String extention = optFilter.map(a -> a.substring(fileName.lastIndexOf(".") + 1)).get();
         
         return "." + extention;
     }
     
-    // 재귀적 폴더/파일 복사
     @Override
     public void copyFolder(File QDirs, File Qto) {
         File[] Qfiles = QDirs.listFiles();
@@ -134,7 +116,6 @@ public class commonObj implements commonInterface {
         
     }
     
-    // 재귀적 폴더/파일 삭제
     @Override
     public void delteFolder(Path delFolder) throws Exception {
         DirectoryStream<Path> subEntry = Files.newDirectoryStream(delFolder);

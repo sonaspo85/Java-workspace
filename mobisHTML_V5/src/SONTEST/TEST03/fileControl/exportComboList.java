@@ -42,10 +42,7 @@ public class exportComboList {
         Reader reader = new InputStreamReader(fis, "UTF-8");
         BufferedReader br = new BufferedReader(reader);
         
-        // xml 문서를 DOM 객체 타입으로 생성
         Document doc = coj.createDomObj(br);
-        
-        // XPath 객체 생성
         XPath xpath = XPathFactory.newInstance().newXPath();
         
         // Company 이름 얻기

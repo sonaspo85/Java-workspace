@@ -87,10 +87,4 @@
 		</tag>
 	</xsl:template>
 	
-	<!--<xsl:template match="*[matches(name(), 'Recommand2')]">
-		<xsl:copy>
-			<xsl:apply-templates select="@*, node()" />
-		</xsl:copy>
-	</xsl:template>-->
-	
 </xsl:stylesheet>

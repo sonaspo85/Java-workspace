@@ -52,8 +52,7 @@ public class CompressionUtil {
             target = new File (destDir, name);
             
             if (entry.isDirectory()){
-                target.mkdirs(); /*  does it always work? */
-//                debug ("dir  : " + name);
+                target.mkdirs();
                 
             } else {
                 target.createNewFile();
@@ -62,7 +61,6 @@ public class CompressionUtil {
                     bos.write(buf, 0, nWritten);
                 }
                 bos.close();
-//                debug ("file : " + name);
             }
         }
         zis.close();

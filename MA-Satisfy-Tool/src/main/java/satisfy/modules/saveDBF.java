@@ -32,15 +32,11 @@ public class saveDBF {
     String dbFStr = "";
     
     public void setDBpath(String dbFStr) {
-        System.out.println("setDBpath() 시작");
-        
         this.dbFStr = dbFStr;
         
     }
     
     public void updateXMLFile(Company company, String oldValue, String newValue, String tcid, int index, int stop, String tabpos) {
-        System.out.println("updateXMLFile() 시작");
-        
         try {
             // 1. xml 파일 읽기
             File file = new File(dbFStr);
@@ -51,10 +47,7 @@ public class saveDBF {
             Element rootEle = doc.getDocumentElement();
             
             XPathFactory factory = XPathFactory.newInstance(NamespaceConstant.OBJECT_MODEL_SAXON);
-            
-            // 1. xapth 객체 생성
             XPath xpath = factory.newXPath();
-            
             String curCellStr = "";
             
             if(tabpos.equals("tab1Field")) {
@@ -92,31 +85,15 @@ public class saveDBF {
                 Element ele = (Element) node;
                 
                 // 현재 TableColumn의 Row 위치의 요소만 수정하기 위해 index 사용
-                // i == index 하지 않으면, 모든 태그가 수정되어 버림
                 if(i == index) {
                     for(int j=1; j<stop; j++) {
                         String curCellpos = curCellStr + j;
-//                        System.out.println("curCellpos: " + curCellpos);
-                        // xml의 값과 newValue의 값이 다른 경우에만 파일에 저장
+
+                     // 셀에 새로운 입력값으로 할당
                         if (tcid.equals(curCellpos)) {
-                          // 셀에 새로운 입력값으로 할당
                           setAttr(company, j, oldValue, newValue, ele, curCellpos);
-                          
                         } 
-                        /*
-                        else {  // 현재 수정한 tcid가 아닌 다른 TableColumn인 경우에는 기존값을 넣어주기 위해 하기 코드 진행
-                            for(int k=1; k<stop; k++) {
-                                if(k != j) {
-                                    String curCellpos2 = curCellStr + k;
-                                    System.out.println("curCellpos2: " + curCellpos2);
-                                    otherAttr(k, company, ele, curCellpos2);
-                                    
-                                }
-                                
-                            }
-                            
-                        }*/
-                        
+
                     }
 
                 } 
@@ -162,7 +139,6 @@ public class saveDBF {
             
         }
         else if(!oldValue.equals(newValue) && !oldValue.equals("")) {
-            // xml의 값과 newValue의 값이 다른 경우에만 파일에 저장
             ele.setAttribute(curCellpos, newValue);
 
         } else {
@@ -173,31 +149,20 @@ public class saveDBF {
     }
     
     public void setTransformer(Document doc) {
-        System.out.println("setTransformer() 시작");
-        
         try {
-            // 출력 파일 지정
             File outF = new File(dbFStr);
             URI out2 = outF.toURI();
             
-            // 1. TransformerFactory 객체 생성
+            // TransformerFactory 객체 생성
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
-            // 2. Transformer 객체 생성 
             Transformer trans = transformerFactory.newTransformer();
-            
-            // 3. 출력 포맷 설정
             trans.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
             trans.setOutputProperty(OutputKeys.INDENT, "no");
             trans.setOutputProperty(OutputKeys.DOCTYPE_PUBLIC, "yes");
-            
-            // 4. DOMSource 객체 생성
             DOMSource source = new DOMSource(doc);
-            
-            // 5. 출력 결과를 스트림으로 생성
             Result result = new StreamResult(out2.toString());
             trans.transform(source, result);
-              
-            System.out.println("XML file updated successfully!");
+
         
         } catch(Exception e) {
             System.out.println("Transformer 진행 실패");
@@ -208,10 +173,9 @@ public class saveDBF {
     }
     
     public void otherAttr(int k, Company company, Element ele, String curCellpos) {
-//        System.out.println("otherAttr() 시작");
-        
         String curCellpos2 = curCellpos;
         String val = "";
+        
         switch(curCellpos2) {
             case "t1cell1":
                 val = company.getT1cell1();
@@ -231,7 +195,6 @@ public class saveDBF {
                 val = company.getT1cell4();
                 ele.setAttribute(curCellpos2, val);
                 break;
-            //--------------------------------------------------
             
             case "t2cell1":
                 val = company.getT2cell1();
@@ -257,8 +220,7 @@ public class saveDBF {
                 val = company.getT2cell5();
                 ele.setAttribute(curCellpos2, val);
                 break;
-            //--------------------------------------------------
-                
+
             case "t3cell1":
                 val = company.getT3cell1();
                 ele.setAttribute(curCellpos2, val);
@@ -278,8 +240,7 @@ public class saveDBF {
                 val = company.getT3cell4();
                 ele.setAttribute(curCellpos2, val);
                 break;
-            //--------------------------------------------------
-                
+
             case "t4cell1":
                 val = company.getT4cell1();
                 ele.setAttribute(curCellpos2, val);
@@ -305,8 +266,6 @@ public class saveDBF {
                 ele.setAttribute(curCellpos2, val);
                 break;
                 
-            //--------------------------------------------------
-                
             case "t5cell1":
                 val = company.getT5cell1();
                 ele.setAttribute(curCellpos2, val);
@@ -331,8 +290,6 @@ public class saveDBF {
                 val = company.getT5cell5();
                 ele.setAttribute(curCellpos2, val);
                 break;
-                
-            //--------------------------------------------------
                 
             case "t6cell1":
                 val = company.getT6cell1();

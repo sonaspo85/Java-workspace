@@ -38,21 +38,16 @@ public class fileGroupCreateZip {
     createExcelFile createExcel = new createExcelFile();
     commonObj coj = new commonObj();
     
-    // s
     public fileGroupCreateZip(Map<groupByext.Ext, List<groupByext>> list, String exePath) {
         this.list = list;
         this.exePath = exePath;
     }
     
     public void runCreateZip() {
-        // System.out.println("exePath: " + exePath);  D:\GitProject\JAVA\java-workspace\mobisHTML
-        // recursiveFiles 객체를 호출하여, 디렉토리 삭제 및 생성 작업 진행
         recursiveFiles recurFiles = new recursiveFiles(); 
         recurFiles.setPath(exePath);
-        
-        // 기존에 존재 하고 있던 폴더 삭제, 후 새롭게 생성
         recurFiles.deleteAndCreateFolder();
-//        
+
         list.forEach((k, v) -> {
             Ext keys = k; 
             List<groupByext> vals = v;
@@ -63,7 +58,6 @@ public class fileGroupCreateZip {
 
                 fNameStream.forEach(b -> {
                     try {
-//                        System.out.println("aaa111: " + b.getPath());
                         // Excel을 xml로 추출
                         createExcel.createExcelFile(b);
                         
@@ -78,7 +72,6 @@ public class fileGroupCreateZip {
                 Stream<groupByext> stream = vals.stream();
                 Stream<File> fNameStream = stream.map(a -> a.getFullPath());
 
-                // 반복문을 돌면서 idml 파일을 새로운 디렉토리에 zip 확장자만 변경하여 복사 하기
                 fNameStream.forEach(b -> {
                     try {
                         createIdmlFile createIDML = new createIdmlFile(); 

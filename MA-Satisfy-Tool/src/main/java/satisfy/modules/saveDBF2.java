@@ -45,7 +45,6 @@ public class saveDBF2 {
         System.out.println("updateXMLFile() 시작");
         
         try {
-            // 1. xml 파일 읽기
             File file = new File(dbFStr);
             
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -54,8 +53,6 @@ public class saveDBF2 {
             Element rootEle = doc.getDocumentElement();
             
             XPathFactory factory = XPathFactory.newInstance(NamespaceConstant.OBJECT_MODEL_SAXON);
-            
-            // 1. xapth 객체 생성
             XPath xpath = factory.newXPath();
             
             if(lbid.equals("per1")) {
@@ -98,23 +95,16 @@ public class saveDBF2 {
                 TransformerFactory transformerFactory = TransformerFactory.newInstance();
                 // 2. Transformer 객체 생성 
                 Transformer trans = transformerFactory.newTransformer();
-                
-                // 3. 출력 포맷 설정
                 trans.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
                 trans.setOutputProperty(OutputKeys.INDENT, "no");
                 trans.setOutputProperty(OutputKeys.DOCTYPE_PUBLIC, "yes");
                 
                 // 4. DOMSource 객체 생성
                 DOMSource source = new DOMSource(doc);
-                
-                // 5. 출력 결과를 스트림으로 생성
                 Result result = new StreamResult(out2.toString());
                 trans.transform(source, result);
-                  
-                System.out.println("XML file updated successfully!");
-            
+
             } catch(Exception e4) {
-                System.out.println("Transformer 진행 실패");
                 e4.printStackTrace();
                 
             }

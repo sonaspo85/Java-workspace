@@ -9,39 +9,32 @@ public class Company {
     private StringProperty t1cell2;
     private StringProperty t1cell3;
     private StringProperty t1cell4;
-    //---------------------------------------------
     private StringProperty t2cell1;
     private StringProperty t2cell2;
     private StringProperty t2cell3;
     private StringProperty t2cell4;
     private StringProperty t2cell5;
-    //---------------------------------------------
     private StringProperty t3cell1;
     private StringProperty t3cell2;
     private StringProperty t3cell3;
     private StringProperty t3cell4;
-    //---------------------------------------------
     private StringProperty t4cell1;
     private StringProperty t4cell2;
     private StringProperty t4cell3;
     private StringProperty t4cell4;
     private StringProperty t4cell5;
-    //---------------------------------------------
     private StringProperty t5cell1;
     private StringProperty t5cell2;
     private StringProperty t5cell3;
     private StringProperty t5cell4;
     private StringProperty t5cell5;
-    //---------------------------------------------
     private StringProperty t6cell1;
     private StringProperty t6cell2;
     private StringProperty t6cell3;
     private StringProperty t6cell4;
     private StringProperty t6cell5;
     private StringProperty t6cell6;
-    //---------------------------------------------
 
-    
     public Company(String t1cell1, String t1cell2, String t1cell3, String t1cell4, 
             String t2cell1, String t2cell2, String t2cell3, String t2cell4, String t2cell5,
             String t3cell1, String t3cell2, String t3cell3, String t3cell4, 
@@ -51,31 +44,26 @@ public class Company {
         this.t1cell1 = new SimpleStringProperty(t1cell1);
         this.t1cell2 = new SimpleStringProperty(t1cell2);
         this.t1cell3 = new SimpleStringProperty(t1cell3);
-        this.t1cell4 = new SimpleStringProperty(t1cell4);
-        //--------------------------------------------- 
+        this.t1cell4 = new SimpleStringProperty(t1cell4); 
         this.t2cell1 = new SimpleStringProperty(t2cell1);
         this.t2cell2 = new SimpleStringProperty(t2cell2);
         this.t2cell3 = new SimpleStringProperty(t2cell3);
         this.t2cell4 = new SimpleStringProperty(t2cell4);
         this.t2cell5 = new SimpleStringProperty(t2cell5);
-        //--------------------------------------------- 
         this.t3cell1 = new SimpleStringProperty(t3cell1);
         this.t3cell2 = new SimpleStringProperty(t3cell2);
         this.t3cell3 = new SimpleStringProperty(t3cell3);
         this.t3cell4 = new SimpleStringProperty(t3cell4);
-        //--------------------------------------------- 
         this.t4cell1 = new SimpleStringProperty(t4cell1);
         this.t4cell2 = new SimpleStringProperty(t4cell2);
         this.t4cell3 = new SimpleStringProperty(t4cell3);
         this.t4cell4 = new SimpleStringProperty(t4cell4);
         this.t4cell5 = new SimpleStringProperty(t4cell5);
-        //--------------------------------------------- 
         this.t5cell1 = new SimpleStringProperty(t5cell1);
         this.t5cell2 = new SimpleStringProperty(t5cell2);
         this.t5cell3 = new SimpleStringProperty(t5cell3);
         this.t5cell4 = new SimpleStringProperty(t5cell4);
         this.t5cell5 = new SimpleStringProperty(t5cell5);
-        //--------------------------------------------- 
         this.t6cell1 = new SimpleStringProperty(t6cell1);
         this.t6cell2 = new SimpleStringProperty(t6cell2);
         this.t6cell3 = new SimpleStringProperty(t6cell3);
@@ -115,8 +103,6 @@ public class Company {
     public void setT1cell4(String str) {
         this.t1cell4.set(str);
     }
-    
-    //---------------------------------------------
     
     public String getT2cell1() {
         return t2cell1.get();
@@ -158,8 +144,6 @@ public class Company {
         this.t2cell5.set(str);
     }
     
-    //---------------------------------------------
-    
     public String getT3cell1() {
         return t3cell1.get();
     }
@@ -191,9 +175,7 @@ public class Company {
     public void setT3cell4(String str) {
         this.t3cell4.set(str);
     }
-    
-    //---------------------------------------------
-    
+        
     public String getT4cell1() {
         return t4cell1.get();
     }
@@ -234,8 +216,6 @@ public class Company {
         this.t4cell5.set(str);
     }
     
-    //---------------------------------------------
-     
     public String getT5cell1() {
         return t5cell1.get();
     }
@@ -275,8 +255,6 @@ public class Company {
     public void setT5cell5(String str) {
         this.t5cell5.set(str);
     }
-    
-    //---------------------------------------------
     
     public String getT6cell1() {
         return t6cell1.get();

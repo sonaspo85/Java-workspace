@@ -123,7 +123,7 @@
                                           $lang = 'Rus'">
                                 <xsl:choose>
                                     <!--CIS_TYPE_A의 경우 검증하지 않음-->
-                                    <xsl:when test="matches($zipName, '(CIS_TYPE_A|HHP_KAZAKHSTAN_ONLY|Rus\(CAU\))')">
+                                    <xsl:when test="matches($zipName, '(CIS_TYPE_A|HHP_KAZAKHSTAN_ONLY|CIS\(CAU\)_Rus)')">
                                     </xsl:when>
                                     
                                     <xsl:otherwise>
@@ -144,7 +144,7 @@
                                           matches($lang, '(Rus|Kaz)')">
                                 <xsl:choose>
                                     <!--HHP_KAZAKHSTAN_ONLY의 경우, CIS_TYPE_B - Rus 검증하지 않음-->
-                                    <xsl:when test="matches($zipName, '(HHP_KAZAKHSTAN_ONLY|CIS_TYPE_B|UKRAINE_ONLY)') and 
+                                    <xsl:when test="matches($zipName, '(HHP_KAZAKHSTAN_ONLY|CIS_TYPE_B|UKRAINE_ONLY|CIS\(CAU\)_Rus)') and 
                                                     $lang = 'Rus'">
                                     </xsl:when>
                                     

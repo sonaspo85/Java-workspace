@@ -54,15 +54,12 @@ public class extractStories {
   
     public void runExctractStory() {
         File zipDir = new File(zipPath);
-        // zipDir: C:\workspace\SONTEST\resource\temp\idmlZip
         
         if(Files.exists(zipDir.toPath())) {
             
             try {
                 // idmlZip디렉토리내 각 하위 챕터 디렉토리에 접근
                 accessDir(zipDir);
-                
-                // merged.xml 생성하기
                 collectStoriesMerged.createMerged();
             } catch(Exception e1) {
                 
@@ -70,8 +67,7 @@ public class extractStories {
         }
         
     }
-    
-    // idmlZip 디렉토리의 하위 디렉토리에 접근 
+     
     private void accessDir(File zipDir) throws Exception {
         DirectoryStream<Path> ds = Files.newDirectoryStream(zipDir.toPath());
         
@@ -81,9 +77,7 @@ public class extractStories {
             
             if(Files.isDirectory(a)) {
                 Path DirName = a.getFileName();
-//                System.out.println("aaa: " + a.toString());
                 try {
-                    // Stories 및 designmap.xml 을 제외한 파일 모두 삭제
                     deleteChapterDir(a);
                     
                 } catch(Exception e1) {
@@ -91,7 +85,7 @@ public class extractStories {
                 }
                 
             } 
-            else if(Files.isRegularFile(a) && extenstion.equals("zip")) {  // chapter별 zip파일 삭제, 압축을 풀었으니 더이상 필요 없기 때문에,  
+            else if(Files.isRegularFile(a) && extenstion.equals("zip")) {  
                 try {
                     Files.delete(a);
                     
@@ -103,7 +97,6 @@ public class extractStories {
 
     }
     
-    // Stories 및 designmap.xml 제외한 파일 모두 삭제
     private void deleteChapterDir(Path chapterFile) throws Exception {
         DirectoryStream<Path> subEntry = Files.newDirectoryStream(chapterFile);
         
@@ -119,21 +112,13 @@ public class extractStories {
                     // designmap 파일에서 @StoryList 값 추출
                     Path designMapPath = a;
                     dmapAttr = new DmapAttr(a);
-                    
-                    // Stories 파일들을 mapStory 컬렉션 객체 목록으로 수집하기
                     dmapAttr.extractAttrName();
                     mapStory = dmapAttr.getMapList();
 
                     // chapter 이름 추출
                     int pathNameCnt = a.getParent().getNameCount()-1;
                     chapterName = a.getName(pathNameCnt).toString();
-                    
-                    // designmap.xml 파일에서 HyperlinkURLDestination, Hyperlink 만 걸러내기
                     NodeList designMapNodeL = extractMap(designMapPath);
-                    
-                    //---------------------------------
-                    // mapStory 맵 컬렉션으로 모은 모든 Stories.xml 파일에 접근하여, 
-                    // 파일의 root 엘리먼트를 챕터 마다 Stories를 그룹화
                     collectStoriesMerged.setItems(mapStory, chapterName, zipPath, designMapNodeL); 
                     collectStoriesMerged.runCollectStories();
                     
@@ -146,22 +131,15 @@ public class extractStories {
 
     }
             
-    // designmap.xml 파일에서 쓸모있는 정보인 HyperlinkURLDestination, Hyperlink 만 걸러내기
     public NodeList extractMap(Path designMapPath) throws Exception {
         Charset charset = Charset.forName("UTF-8");
-        // 1. InputStream 으로 파일 읽기
+        // InputStream 으로 파일 읽기
         BufferedReader br = Files.newBufferedReader(designMapPath, charset);
-        
-        // DOM 트리 객체 생성 하기
         Document doc = coj.createDomObj(br);
         
-        // 5. 문서의 root 요소에 접근하기
+        // root 요소에 접근하기
         Element root = doc.getDocumentElement();
-        
-        // XPath 객체 생성
         XPath xpath = XPathFactory.newInstance().newXPath();
-        
-        // 찾을 정규식
         String express = "Document/HyperlinkURLDestination | Document/Hyperlink";
         NodeList nodeList = (NodeList) xpath.compile(express).evaluate(doc, XPathConstants.NODESET);
         

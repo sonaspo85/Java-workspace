@@ -45,14 +45,11 @@ public class excelMain {
     static DataFormatter dfm = new DataFormatter(); 
     
     
-    public void runExcelMain() {
-        System.out.println("runExcelMain() 시작");
-        
-        // 1. Excel 템플릿 경로 얻기
+    public void runExcelMain() {        
+        // Excel 템플릿 경로 얻기
         excelTemplsDirP = Paths.get(obj.resourceDir + File.separator + "excel-template");
         System.out.println("excelTemplsDirP: " + excelTemplsDirP);
         
-        // 2. Excel 템플릿 경로내 Excel 파일 접근하기
         try {
             DirectoryStream<Path> ds = Files.newDirectoryStream(excelTemplsDirP);
             
@@ -61,8 +58,6 @@ public class excelMain {
                     try {
                         String abpath = a.toAbsolutePath().toString();
                         String filename = a.getFileName().toString();
-                        
-                        // 1. 엑셀 파일 읽기
                         FileInputStream fis = new FileInputStream(abpath);
                         ZipSecureFile.setMinInflateRatio(0);
                         Workbook wb = WorkbookFactory.create(fis);
@@ -70,18 +65,17 @@ public class excelMain {
                         int sheetCnt = wb.getNumberOfSheets();
                         System.out.println("sheetCnt: " + sheetCnt);
                         
-                        // 3. 시트 반복
+                        // 시트 반복
                         for(int i=0; i<sheetCnt; i++) {
                             Document doc = createDOM();
                             
-                            // 5. root 요소 생성
+                            // root 요소 생성
                             Element rootEle = doc.createElement("root");
                             rootEle.setAttribute("filename", filename);
                             doc.appendChild(rootEle);
                             String getSheetName = wb.getSheetName(i).replace(" ", "_").toLowerCase();
                             
                             if(!getSheetName.equals("type-lang")) {
-                                // 7. 시트에 접근
                                 Sheet sheet = wb.getSheetAt(i);
                                 Iterator<Row> rowIt = sheet.iterator();
                                 
@@ -90,17 +84,14 @@ public class excelMain {
                                 
                                 List<String> headCellList = new ArrayList<>();
                                 int totalCellCnt = 0;
-                                // 9. 각 row 를 반복
+                                // 각 row 를 반복
                                 while(rowIt.hasNext()) {
                                     Row row = rowIt.next();
                                     if(row.getRowNum() == 2) { 
                                         totalCellCnt = row.getPhysicalNumberOfCells();
                                         
-                                        // 13. head row의 각 셀을 반복하여 firstCellList 컬렉션으로 수집
                                         for(int c=1; c<=totalCellCnt; c++) {
-                                            // 14. 각 셀의 값 추출
                                             Cell headCell = row.getCell(c);
-                                            
                                             String str1 = formatCell(headCell);
                                             String str2 = str1.replaceAll("[\\(\\)]", "_").replaceAll("[&/]", "").replaceAll("_$", "");
                                             String str3 = StringEscapeUtils.escapeXml11(str2);
@@ -123,10 +114,9 @@ public class excelMain {
                                                
                                                String rowNum0 = String.valueOf(row.getRowNum()+1);
                                                String colNum0 = String.valueOf(j+1);
-                                               
-                                               // 한번씩 돌때마다 header의 각 셀값들로 요소들 생성
                                                Element listitemSub = doc.createElement(headCellList.get(j-1));
                                                listitemSub.setAttribute("class", rowNum0 + ":" + colNum0);
+
                                                // cell값 채우기
                                                listitemSub.appendChild(doc.createTextNode(cellTxt)); 
                                                listitem.appendChild(listitemSub);
@@ -140,14 +130,11 @@ public class excelMain {
                                 } 
                                 
                                 exportXML(doc, getSheetName);
-                                System.out.println("exportXML 완료!!!");
                             }   
                         }
                         
                     } catch (Exception e) {
                         msg = "Excel load 실패1";
-                        System.out.println("msg: " + msg);
-//                        throw new RuntimeException(msg);
                         e.printStackTrace();
                     }
                 }
@@ -156,28 +143,21 @@ public class excelMain {
             
         } catch(Exception e) {
             msg = "Excel load 실패2";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
         }
     }
     
     public void exportXML(Document doc, String getSheetName) {
-        System.out.println("exportXML() 시작");
-        
         try {
-            // excel을 xml로 추출
             String excelPathS = obj.tempDir + File.separator + "excelTempls/" + getSheetName + ".xml";
             Path excelDirs = Paths.get(obj.tempDir + File.separator + "excelTempls");
+            Path excelPathP = Paths.get(excelPathS);
             
-            // excelTempls 폴더 생성 
             if(!Files.exists(excelDirs)) {
                 Files.createDirectories(excelDirs);
                 
             }
-            
-            Path excelPathP = Paths.get(excelPathS);
-            
-            
+
             // 1. Transformer 객체 생성
             TransformerFactory ttf = TransformerFactory.newInstance(); 
             Transformer tf = ttf.newTransformer();
@@ -234,8 +214,6 @@ public class excelMain {
     }
     
     public String formatCell(Cell cell) {
-//        System.out.println("formatCell() 시작");
-        
         Optional<Cell> op = Optional.ofNullable(cell);
         
         if (!op.isPresent()) {
@@ -243,8 +221,7 @@ public class excelMain {
             
         } else {
             Cell cellVal = op.get();
-            
-            // Cell 타입 확인
+
             switch (cellVal.getCellType()) {
                 case BLANK:
                     return "";
@@ -258,8 +235,7 @@ public class excelMain {
                 case NUMERIC:
                     return df.format(cellVal.getNumericCellValue());
 
-                case STRING: // 날짜 타입인 경우 문자열 형태로 출력
-                    // return cell.getStringCellValue();
+                case STRING:
                     return dfm.formatCellValue(cellVal);
                     
                 default:

@@ -29,7 +29,6 @@ public class QRcode {
         Result result = new MultiFormatReader().decode(binaryBitmap);
 
         fis.close();
-//        System.out.println("result.getText(): " + result.getText());
         return result.getText();
         
     }
@@ -46,7 +45,6 @@ public class QRcode {
         Result codeResult = new DataMatrixReader().decode(binaryBitmap, hashMap);
         
         fis.close();
-//        System.out.println("codeResult.getText(): " + codeResult.getText());
         return codeResult.getText();
      }
     

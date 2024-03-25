@@ -81,7 +81,7 @@ public class implementOBJ implements commonOBJ {
             Files.createDirectories(newPath);
             System.out.println("폴더 생성 완료!");
             
-        } else {  // 폴더가 존재 한다면 재귀적 삭제 후, 폴더 재생성
+        } else {
             recursDel(newPath);
             Files.createDirectories(newPath);
         }
@@ -108,46 +108,27 @@ public class implementOBJ implements commonOBJ {
             
             ds.forEach(a -> {
                 if(Files.isDirectory(a)) {                    
-                    // 파일 이름 추출
                     String getName = a.getFileName().toString();
-                    
-                    // 새로운 경로에 저장하기 위해 새 디렉토리 경로 생성
                     Path newDir = Paths.get(newPath + File.separator + getName);
-                    System.out.println("newDir: " + newDir);
                     
                     try {
-                        System.out.println("폴더 생성");
-                        
-                        // 폴더 생성
                         Files.createDirectories(newDir);
-                        
-                        // 재귀적 호출
                         dirCopy(newDir, a);
                         
                     } catch (Exception e) {
-                        System.out.println("폴더 생성 실패");
                         e.printStackTrace();
                     }
                     
                 } else if(Files.isRegularFile(a)) {
-                    // 파일 이름 추출
                     String getName = a.getFileName().toString();
-//                    System.out.println("getName222:" + getName);
-                    
                     Path parDir = a.getParent();
-                    
-                    // 새로운 경로에 파일 복사 시키기 위해 새로운 경로 이름 생성
                     String newDir =  newPath + File.separator + getName;
-
                     Path qto = Paths.get(newDir);
                     
                     try {
-                        //System.out.println("aa: " + a);
-                        // System.out.println("bb: " + qto);
                         Files.copy(a, qto, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES);
                         
                     } catch (IOException e) {
-                        
                         e.printStackTrace();
                     }
                 }
@@ -156,8 +137,6 @@ public class implementOBJ implements commonOBJ {
             });
             
         } catch(Exception e) {
-            System.out.println("implementObj -> dirCopy() 메소드 에러");
-//            throw new Exception("implementObj -> dirCopy() 메소드 에러");
             e.printStackTrace();
         }
         

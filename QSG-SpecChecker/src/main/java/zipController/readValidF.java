@@ -19,14 +19,10 @@ public class readValidF {
     
     
     public void runReadxml() throws Exception {
-        System.out.println("runReadxml() 시작");
-        
-//        File file = new File("C:/Users/SMC/Desktop/IMAGE/230410/test/230418_idml/temp/Validation.xml");
         File file = new File(obj.validationF);
         
         if(file.exists()) {
             FileInputStream fis = new FileInputStream(file);
-            
             InputSource is = new InputSource(fis);
             is.setEncoding("UTF-8");
             
@@ -58,7 +54,6 @@ public class readValidF {
             fis.close();
               
         } else {
-            System.out.println("파일 존재 하지 않음");
             return;
         }
     }

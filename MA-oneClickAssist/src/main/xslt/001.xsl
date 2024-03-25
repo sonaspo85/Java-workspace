@@ -12,12 +12,7 @@
 	<xsl:strip-space elements="*"/>
 	<xsl:preserve-space elements="String file_name Style"/>
 	
-<!--	<xsl:param name="tempPath" />
-	
-	<xsl:variable name="tempPath1" select="concat('file:////', replace(replace($tempPath, ' ', '%20'), '^(file:/?)(.*)', '$2'))" />
-	<xsl:variable name="QRcodes" select="document(concat(replace($tempPath1, '\\', '/'), '/temp/tagsValue.xml'))/root" />-->
-	
-	
+
 	<xsl:template match="@* | node()">
 		<xsl:copy>
 			<xsl:apply-templates select="@*, node()"  />

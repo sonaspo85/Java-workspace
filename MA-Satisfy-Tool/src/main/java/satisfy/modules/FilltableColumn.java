@@ -88,30 +88,25 @@ public class FilltableColumn {
         this.t1cell2 = t1cell2;
         this.t1cell3 = t1cell3;
         this.t1cell4 = t1cell4;
-        //------------------------------------------------
         this.t2cell1 = t2cell1;
         this.t2cell2 = t2cell2;
         this.t2cell3 = t2cell3;
         this.t2cell4 = t2cell4;
         this.t2cell5 = t2cell5;
-        //------------------------------------------------
         this.t3cell1 = t3cell1;
         this.t3cell2 = t3cell2;
         this.t3cell3 = t3cell3;
         this.t3cell4 = t3cell4;
-        //------------------------------------------------
         this.t4cell1 = t4cell1;
         this.t4cell2 = t4cell2;
         this.t4cell3 = t4cell3;
         this.t4cell4 = t4cell4;
         this.t4cell5 = t4cell5;
-        //------------------------------------------------
         this.t5cell1 = t5cell1;
         this.t5cell2 = t5cell2;
         this.t5cell3 = t5cell3;
         this.t5cell4 = t5cell4;
         this.t5cell5 = t5cell5;
-        //------------------------------------------------
         this.t6cell1 = t6cell1;
         this.t6cell2 = t6cell2;
         this.t6cell3 = t6cell3;
@@ -122,8 +117,6 @@ public class FilltableColumn {
     
 
     public void setSatisTcolumn(String tabpos) {
-        System.out.println("setSatisTcolumn() 시작");
-        
         if (tabpos.equals("tab1Field")) {
           tab1CellFactory("tab1Field");
           
@@ -163,19 +156,12 @@ public class FilltableColumn {
             listfour.add(val.get(3));
             
         });
-        
-        // **************************************
-        // 항목 칼럼 만들기 **************************
-        // 1. Cell을 생성 하는데 TableColumn을 편집 가능한 Cell로 만들기 위한 Factory 객체 생성
-//        t1cell1.setCellFactory(TextFieldTableCell.<Company>forTableColumn());
-        
-        // 2. setOnEditCommit() 메소드로 Cell을 편집가능 하도록 설정
+
         t1cell1.setOnEditCommit(cellEditEvent -> {
             cch.handleClickEdit(cellEditEvent, tabpos);
             
         });
         
-        // 3. Cell을 채우는 방법을 지정
         t1cell1.setCellValueFactory(a -> new SimpleStringProperty(a.getValue().getT1cell1()));
         
         for (int i=0; i<tab1List.size(); i++) {
@@ -184,11 +170,7 @@ public class FilltableColumn {
             company.setT1cell2(listtwo.get(i));
             company.setT1cell3(listthree.get(i));
             company.setT1cell4(listfour.get(i));
-            
-            // 각 TableColumn에 대해 이벤트 핸들러 하기
             SortByTablecolumn(i, tabpos);
-
-            // company 객체로 모은 모든 객체를 ObservableList<Company> 컬렉션의 요소로 추가
             totalList1.add(company);
 
         }
@@ -214,17 +196,12 @@ public class FilltableColumn {
             listfive.add(val.get(4));
         });
         
-        // **************************************
         // 항목 칼럼 만들기 **************************
-        // 1. Cell을 생성 하는데 TableColumn을 편집 가능한 Cell로 만들기 위한 Factory 객체 생성
-//        t2cell1.setCellFactory(TextFieldTableCell.<Company> forTableColumn());
-
-        // 2. setOnEditCommit() 메소드로 Cell을 편집가능 하도록 설정
+        // Cell을 생성 하는데 TableColumn을 편집 가능한 Cell로 만들기 위한 Factory 객체 생성
         t2cell1.setOnEditCommit(cellEditEvent -> {
             cch.handleClickEdit(cellEditEvent, tabpos);
         });
         
-        // 3. Cell을 채우는 방법을 지정
         t2cell1.setCellValueFactory(a -> new SimpleStringProperty(a.getValue().getT2cell1()));
         
         for (int i=0; i<tab2List.size(); i++) {
@@ -235,7 +212,6 @@ public class FilltableColumn {
             company.setT2cell4(listfour.get(i));
             company.setT2cell5(listfive.get(i));
             
-            // 각 TableColumn에 대해 이벤트 핸들러 하기
             SortByTablecolumn(i, tabpos);
 
             // company 객체로 모은 모든 객체를 ObservableList<Company> 컬렉션의 요소로 추가
@@ -248,9 +224,6 @@ public class FilltableColumn {
     }
 
     public void tab3CellFactory(String tabpos) {
-        System.out.println("tab3CellFactory() 시작");
-        System.out.println("tabpos: " + tabpos);
-        
         List<String> listtwo = new ArrayList<String>();
         List<String> listthree = new ArrayList<String>();
         List<String> listfour = new ArrayList<String>();
@@ -267,30 +240,20 @@ public class FilltableColumn {
         
         // **************************************
         // 항목 칼럼 만들기 **************************
-        // 1. Cell을 생성 하는데 TableColumn을 편집 가능한 Cell로 만들기 위한 Factory 객체 생성
-//        t3cell1.setCellFactory(TextFieldTableCell.<Company>forTableColumn());
-
-        // 2. setOnEditCommit() 메소드로 Cell을 편집가능 하도록 설정
         t3cell1.setOnEditCommit(cellEditEvent -> {
             cch.handleClickEdit(cellEditEvent, tabpos);
 
         });
-
-        // 3. Cell을 채우는 방법을 지정
+        
         t3cell1.setCellValueFactory(a -> new SimpleStringProperty(a.getValue().getT3cell1()));
 
         for (int i=0; i<tab3List.size(); i++) {
             company = new Company(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
             company.setT3cell1(tab3List.get(i));
-            
             company.setT3cell2(listtwo.get(i));
             company.setT3cell3(listthree.get(i));
             company.setT3cell4(listfour.get(i));
-            
-            // 각 TableColumn에 대해 이벤트 핸들러 하기
             SortByTablecolumn(i, tabpos);
-
-            // company 객체로 모은 모든 객체를 ObservableList<Company> 컬렉션의 요소로 추가
             totalList3.add(company);
 
         }
@@ -298,9 +261,6 @@ public class FilltableColumn {
     }
     
     public void tab4CellFactory(String tabpos) {
-        System.out.println("tab4CellFactory() 시작");
-        System.out.println("tabpos: " + tabpos);
-        
         List<String> listtwo = new ArrayList<String>();
         List<String> listthree = new ArrayList<String>();
         List<String> listfour = new ArrayList<String>();
@@ -318,18 +278,13 @@ public class FilltableColumn {
         });
         
         
-        // **************************************
         // 항목 칼럼 만들기 **************************
-        // 1. Cell을 생성 하는데 TableColumn을 편집 가능한 Cell로 만들기 위한 Factory 객체 생성
-//        t4cell1.setCellFactory(TextFieldTableCell.<Company>forTableColumn());
-
-        // 2. setOnEditCommit() 메소드로 Cell을 편집가능 하도록 설정
         t4cell1.setOnEditCommit(cellEditEvent -> {
             cch.handleClickEdit(cellEditEvent, tabpos);
 
         });
 
-        // 3. Cell을 채우는 방법을 지정
+        // Cell을 채우는 방법을 지정
         t4cell1.setCellValueFactory(a -> new SimpleStringProperty(a.getValue().getT4cell1()));
 
         for (int i=0; i<tab4List.size(); i++) {
@@ -339,12 +294,7 @@ public class FilltableColumn {
             company.setT4cell3(listthree.get(i));
             company.setT4cell4(listfour.get(i));
             company.setT4cell5(listfive.get(i));
-            
-            
-            // 각 TableColumn에 대해 이벤트 핸들러 하기
             SortByTablecolumn(i, tabpos);
-
-            // company 객체로 모은 모든 객체를 ObservableList<Company> 컬렉션의 요소로 추가
             totalList4.add(company);
 
         }
@@ -352,11 +302,6 @@ public class FilltableColumn {
     } 
     
     public void tab5CellFactory(String tabpos) {
-        System.out.println("tab5CellFactory() 시작");
-        System.out.println("tabpos: " + tabpos);
-        
-//        tab5List.add("직전과제 납기 지연건 / 연간 진행 종수");
-        
         List<String> listtwo = new ArrayList<String>();
         List<String> listthree = new ArrayList<String>();
         List<String> listfour = new ArrayList<String>();
@@ -373,33 +318,23 @@ public class FilltableColumn {
             listfive.add(val.get(4));
         });
 
-        // **************************************
         // 항목 칼럼 만들기 **************************
-        // 1. Cell을 생성 하는데 TableColumn을 편집 가능한 Cell로 만들기 위한 Factory 객체 생성
-//        t4cell1.setCellFactory(TextFieldTableCell.<Company>forTableColumn());
-
-        // 2. setOnEditCommit() 메소드로 Cell을 편집가능 하도록 설정
         t5cell1.setOnEditCommit(cellEditEvent -> {
             cch.handleClickEdit(cellEditEvent, tabpos);
 
         });
 
-        // 3. Cell을 채우는 방법을 지정
         t5cell1.setCellValueFactory(a -> new SimpleStringProperty(a.getValue().getT5cell1()));
 
         for (int i=0; i<tab5List.size(); i++) {
             company = new Company(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
-            company.setT5cell1(tab5List.get(i));
-            
+            company.setT5cell1(tab5List.get(i));            
             company.setT5cell2(listtwo.get(i));
             company.setT5cell3(listthree.get(i));
             company.setT5cell4(listfour.get(i));
             company.setT5cell5(listfive.get(i));
             
-            // 각 TableColumn에 대해 이벤트 핸들러 하기
             SortByTablecolumn(i, tabpos);
-
-            // company 객체로 모은 모든 객체를 ObservableList<Company> 컬렉션의 요소로 추가
             totalList5.add(company);
 
         }
@@ -409,9 +344,6 @@ public class FilltableColumn {
     
     
     public void tab6CellFactory(String tabpos) {
-        System.out.println("tab6CellFactory() 시작");
-        System.out.println("tabpos: " + tabpos);
-        
         List<String> listtwo = new ArrayList<String>();
         List<String> listthree = new ArrayList<String>();
         List<String> listfour = new ArrayList<String>();
@@ -431,36 +363,24 @@ public class FilltableColumn {
             
         });
         
-        // **************************************
         // 항목 칼럼 만들기 **************************
-        // 1. Cell을 생성 하는데 TableColumn을 편집 가능한 Cell로 만들기 위한 Factory 객체 생성
-//        t4cell1.setCellFactory(TextFieldTableCell.<Company>forTableColumn());
-
-        
-        // 2. setOnEditCommit() 메소드로 Cell을 편집가능 하도록 설정
         t6cell1.setOnEditCommit(cellEditEvent -> {
             cch.handleClickEdit(cellEditEvent, tabpos);
 
         });
 
-        // 3. Cell을 채우는 방법을 지정
+        // Cell을 채우는 방법을 지정
         t6cell1.setCellValueFactory(a -> new SimpleStringProperty(a.getValue().getT6cell1()));
 
         for (int i=0; i<tab6List.size(); i++) {
             company = new Company(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
             company.setT6cell1(tab6List.get(i));
-            
             company.setT6cell2(listtwo.get(i));
             company.setT6cell3(listthree.get(i));
             company.setT6cell4(listfour.get(i));
             company.setT6cell5(listfive.get(i));
             company.setT6cell6(listsix.get(i));
-            
-            
-            // 각 TableColumn에 대해 이벤트 핸들러 하기
             SortByTablecolumn(i, tabpos);
-
-            // company 객체로 모은 모든 객체를 ObservableList<Company> 컬렉션의 요소로 추가
             totalList6.add(company);
             
         }
@@ -517,20 +437,11 @@ public class FilltableColumn {
     }
 
     public void CreateTablecolumnArea(TableColumn<Company, String> column, int i, String tabpos) {
-//        System.out.println("CreateTablecolumnArea() 시작");
         // 현재 tablecolumn 이름 추출
         String columnName = column.getText();
-        
-        // tablecolumn id 추출
         String tcid = column.getId();
         
-        // 1. Cell을 생성 하는데 TableColumn을 편집 가능한 Cell로 만들기 위한 Factory 객체 생성
-//        column.setCellFactory(TextFieldTableCell.<Company>forTableColumn());
-        
-        // 입력 TableColumn 스타일, 텍스트 스타일, 줄바꿈 적용
         column.setCellFactory(getTextFieldCellFactoryId(column));
-        
-        // 2. setOnEditCommit() 메소드로 Cell을 편집가능 하도록 설정
         column.setOnEditCommit(cellEditEvent -> {
             cch.handleClickEdit(cellEditEvent, tabpos);
         });
@@ -539,7 +450,7 @@ public class FilltableColumn {
             List<String> list = new ArrayList<String>();
 
             if (tcid.equals("t1cell2")) {
-                // 3. Cell을 채우는 방법을 지정
+                // Cell을 채우는 방법을 지정
                 column.setCellValueFactory(a -> new SimpleStringProperty(a.getValue().getT1cell2()));
                 
             } else if (tcid.equals("t1cell3")) {
@@ -556,7 +467,7 @@ public class FilltableColumn {
             List<String> list = new ArrayList<String>();
 
             if (tcid.equals("t2cell2")) {
-                // 3. Cell을 채우는 방법을 지정
+                // Cell을 채우는 방법을 지정
                 column.setCellValueFactory(a -> new SimpleStringProperty(a.getValue().getT2cell2()));
                 
             } else if (tcid.equals("t2cell3")) {
@@ -622,20 +533,7 @@ public class FilltableColumn {
             
         } else if(tabpos.equals("tab6Field")) {
             List<String> list = new ArrayList<String>();
-            /*
-            // satisfyList 의 요소 개수만큼 요소 만들기
-            for(int j=0; j<tab6List.size(); j++) {
-//                list.add(String.valueOf(j));
-                list.add("");
-                
-            }
             
-            // 만든 요소를 company 객체에 할당
-            for(int j=0; j<tab6List.size(); j++) {
-                company.setT6cell2(list.get(i));
-                
-            }
-            */
             if (tcid.equals("t6cell2")) {
                 column.setCellValueFactory(a -> new SimpleStringProperty(a.getValue().getT6cell2()));
                 
@@ -661,8 +559,6 @@ public class FilltableColumn {
     
     // 입력 TableColumn 셀 border 및 텍스트 스타일 변경
     private Callback<TableColumn<Company, String>, TableCell<Company, String>> getTextFieldCellFactoryId(TableColumn<Company, String> column) {
-        System.out.println("getTextFieldCellFactoryId() 시작");
-
         return CustomTextFieldTableCell.<Company, String>forTableColumn(
                 new StringConverter<String>() {
                     @Override
@@ -682,10 +578,7 @@ public class FilltableColumn {
     }
     
     public void setDBpath(String dbFStr) {
-        System.out.println("setDBpath() 시작");
-        
         this.dbFStr = dbFStr;
-        
         cch.setDBpath(dbFStr);
     }
     

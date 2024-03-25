@@ -30,9 +30,6 @@ public class inOutObj {
         String up2Dirs = mergedPath + "../../../";
         Path path = Paths.get(up2Dirs);
         Path up2Path = path.normalize();
-        // path: D:\GitProject\JAVA\java-workspace\mobisHTML
-        
-        // temp / output 폴더 삭제 및 재생성
         createTempOutFolder(up2Path);
         
         list.add(new InOutPathClas(mergedPath, tempFolder.toString() + "\\01-simplified.xml", up2Path.toString() + "\\xsls\\01-simplify.xsl"));
@@ -78,7 +75,6 @@ public class inOutObj {
         list.add(new InOutPathClas(tempFolder.toString() + "\\37_2-warning-group-nest.xml", tempFolder.toString() + "\\38-created-topic-map.xml", up2Path.toString() + "\\xsls\\38-create-topic-map.xsl"));
         list.add(new InOutPathClas(tempFolder.toString() + "\\38-created-topic-map.xml", up2Dirs + "\\resource\\toc-base.xml", up2Path.toString() + "\\xsls\\39-make-toc-base.xsl"));
         list.add(new InOutPathClas(tempFolder.toString() + "\\37_2-warning-group-nest.xml", up2Path + "\\resource\\html-base.xml", up2Path.toString() + "\\xsls\\40-make-html-base.xsl"));
-        
         list.add(new InOutPathClas(up2Dirs + "\\resource\\html-base.xml", tempFolder.toString() + "\\dummy.xml", up2Path.toString() + "\\xsls\\42-split-into-html.xsl"));
         list.add(new InOutPathClas(up2Dirs + "\\resource\\toc-base.xml", tempFolder.toString() + "\\dummy.xml", up2Path.toString() + "\\xsls\\43-make-toc.xsl"));
         list.add(new InOutPathClas(up2Dirs + "\\resource\\toc-base.xml", tempFolder.toString() + "\\dummy.xml", up2Path.toString() + "\\xsls\\44-make-index.xsl"));
@@ -87,9 +83,7 @@ public class inOutObj {
         list.add(new InOutPathClas(up2Dirs + "\\resource\\toc-base.xml", tempFolder.toString() + "\\dummy.xml", up2Path.toString() + "\\xsls\\47-make-mini-toc.xsl"));
         list.add(new InOutPathClas(up2Dirs + "\\resource\\toc-base.xml", tempFolder.toString() + "\\dummy.xml", up2Path.toString() + "\\xsls\\48-make-search-html.xsl"));
         list.add(new InOutPathClas(up2Dirs + "\\resource\\ui_text.xml", tempFolder.toString() + "\\dummy.xml", up2Path.toString() + "\\xsls\\49-make-ui_text-json.xsl"));
-        
-        
-        // xslt 실행
+
         executeXslt();
     }
     

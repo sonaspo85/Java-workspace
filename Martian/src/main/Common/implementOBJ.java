@@ -100,7 +100,7 @@ public class implementOBJ implements commonOBJ {
             Files.createDirectories(newPath);
             System.out.println("폴더 생성 완료!");
             
-        } else {  // 폴더가 존재 한다면 재귀적 삭제 후, 폴더 재생성
+        } else {
             recursDel(newPath);
             Files.createDirectories(newPath);
         }
@@ -128,7 +128,6 @@ public class implementOBJ implements commonOBJ {
 			// implementObj -> readFile() 메소드 에러
 			System.out.println("implementObj -> readFile() 메소드 에러");
 			throw new Exception("implementObj -> readFile() 메소드 에러");
-//			e.printStackTrace();
 		}
 		
         
@@ -147,7 +146,6 @@ public class implementOBJ implements commonOBJ {
         return doc;
     }
     
-    // 재귀적 파일 복사
     @Override
     public void dirCopy(Path newPath, Path oldPath) throws Exception {
         System.out.println("dirCopy() 시작");
@@ -176,16 +174,12 @@ public class implementOBJ implements commonOBJ {
                     
                 } else if(Files.isRegularFile(a)) {
                     String getName = a.getFileName().toString();
-//                    System.out.println("getName222:" + getName);
-                    
                     Path parDir = a.getParent();
                     String newDir =  newPath + File.separator + getName;
 
                     Path qto = Paths.get(newDir);
                     
                     try {
-                        //System.out.println("aa: " + a);
-                        // System.out.println("bb: " + qto);
                         Files.copy(a, qto, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES);
                         
                     } catch (IOException e) {
@@ -198,8 +192,6 @@ public class implementOBJ implements commonOBJ {
             });
             
         } catch(Exception e) {
-            System.out.println("implementObj -> dirCopy() 메소드 에러");
-//            throw new Exception("implementObj -> dirCopy() 메소드 에러");
             e.printStackTrace();
         }
         

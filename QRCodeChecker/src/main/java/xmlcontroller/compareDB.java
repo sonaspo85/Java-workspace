@@ -51,25 +51,15 @@ public class compareDB {
     
     public compareDB() {
       mergedNewStr = obj.tempDir + File.separator + "merged_new.xml";
-      System.out.println("mergedNewStr: " + mergedNewStr);
     }
     
     public void runCompare() {
-        System.out.println("compareDB > runCompare() 시작");
-        
         try {
-            // 1. merged_new.xml 읽기
             Document doc = createDOM();
-            
-            // 2. merged.xml 문서내 최상위 요소 접근하기
             Element rootEle = doc.getDocumentElement();
-
-            // 3. 최상위 요소 이름 및 속성 추출
-            System.out.println("최상위 요소 이름: " + rootEle.getNodeName());
-            
             NodeList nl = (NodeList) rootEle.getChildNodes();
             
-            // 4. 데이터 추출하기
+            // 데이터 추출
             for(int i=0; i<nl.getLength(); i++) {
                 Node node = nl.item(i);
                 
@@ -99,21 +89,20 @@ public class compareDB {
 
             }
             
-            // 5. 영문 modelname 과 url 비교
+            // 영문 modelname 과 url 비교
             if(tarTagName != "" & srcModelname != "" & srcQrUrl != "") {
             	srcModelurlC = obj.compareModelName(srcModelname, srcQrUrl);
             	System.out.println("srcModelurlC: " + srcModelurlC);
             	
             }
             
-            // 6. 다국어 modelname 과 url 비교
             if(tarModelname != "" & tarQrUrl != "") {
             	tarModelurlC = obj.compareModelName(tarModelname, tarQrUrl);
             	System.out.println("srcModelurlC: " + tarModelurlC);
             	
             }
             
-            // 7.다국어 Tar 가 있는 경우 
+            // 다국어 Tar 가 있는 경우 
             if(srcModelurlC.equals("True") & tarModelurlC.equals("True")) {
                 if(srcModelname.equals(tarModelname)) {
                     STmodelNameC = "True";
@@ -126,7 +115,7 @@ public class compareDB {
                 STmodelNameC = "Fail";
             }
             
-            // 8. 영문 QRcodeUrl 과 다국어 QRcodeUrl 비교
+            // 영문 QRcodeUrl 과 다국어 QRcodeUrl 비교
             if(STmodelNameC.equals("True")) {
                 if(srcQrUrl.equals(tarQrUrl)) {
                     STurlC = "Ture";
@@ -138,21 +127,17 @@ public class compareDB {
                 STurlC = "Fail";
             }
             
-            // 9. 비교 결과값 속성으로 넣기
             addCompareData(nl);
-            
-            // src와 tar 비교 결과값 추가하기
             Element div = doc.createElement("total");
             div.setAttribute("nameC", STmodelNameC);
             div.setAttribute("urlC", STurlC);
             
             rootEle.appendChild(div);
             
-            // 10. 파일로 추출
+            // 파일로 추출
             setTransformer(doc);
             
         } catch(Exception e1) {
-            System.out.println("compareDB >mergedNew 파일 읽기 실패");
             msg = "compareDB >mergedNew 파일 읽기 실패";
             throw new RuntimeException(msg);
         }
@@ -160,17 +145,13 @@ public class compareDB {
     } 
     
     public void compareModelName() {
-    	System.out.println("compareModelName() 시작");
-    	
-    	// 5. 영문 modelname 과 url 비교
     	if(srcModelname != "" & srcQrUrl != "") {
     	    if(srcModelname.contains(", ")) {
-    	        // 1. StringTokenizer 클래스로 문자열 분리 하기
+    	        // StringTokenizer 클래스로 문자열 분리
     	        StringTokenizer st = new StringTokenizer(srcModelname, ", "); 
     	        
     	        int cnt = st.countTokens();
-    	        for(int i=0; i< cnt; i++) {
-    	            // 토큰 꺼내기 - nextToken() 메소드 
+    	        for(int i=0; i< cnt; i++) { 
     	            String token = st.nextToken();
     	            System.out.println("token: " + token);
     	            
@@ -184,7 +165,7 @@ public class compareDB {
     	                
     	        }
     	        
-    	    } else {  // 모델 이름이 1개만 존재 하는 경우
+    	    } else {
     	        if(srcQrUrl.contains(srcModelname)) {
     	            srcModelurlC = "True";
     	            
@@ -199,11 +180,8 @@ public class compareDB {
     }
     
     public void addCompareData(NodeList nl) {
-        System.out.println("addCompareData() 시작");
-        
         for(int i=0; i<nl.getLength(); i++) {
             Node node = nl.item(i);
-            
             
             if(node.getNodeType() == Node.ELEMENT_NODE) {
                 Element ele = (Element) node;
@@ -225,38 +203,26 @@ public class compareDB {
     }
     
     public void setTransformer(Document doc) {
-        System.out.println("setTransformer() 시작");
         try {
             // 출력 파일 지정
-          String mergedFinalStr = obj.tempDir + File.separator + "merged_final.xml";
-//            String mergedFinalStr = "H:/JAVA/java-workspace/QRCodeChecker/temp" + File.separator + "merged_final.xml";
-            
+            String mergedFinalStr = obj.tempDir + File.separator + "merged_final.xml";
             File outF = new File(mergedFinalStr);
             URI out2 = outF.toURI();
             
-            // 3. TransformerFactory 객체 생성
+            // TransformerFactory 객체 생성
             TransformerFactory tff = TransformerFactory.newInstance();
-            
-            // 4. Transformer 객체 생성        
             Transformer trans = tff.newTransformer();
-            
-            // 5. 출력 포멧 설정
             trans.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
             trans.setOutputProperty(OutputKeys.INDENT, "no");
             trans.setOutputProperty(OutputKeys.DOCTYPE_PUBLIC, "yes");
-            
-            // 6. DOMSource 객체 생성
             DOMSource source = new DOMSource(doc);
             
-            // 7. 출력 결과를 스트림을 생성
+            // 출력 결과를 스트림을 생성
             Result result = new StreamResult(out2.toString());
             
             trans.transform(source, result);
-            System.out.println("끝");
-            
             
         } catch (Exception e) {
-            System.out.println("compareDB > Transformer 진행 실패");
             msg = "compareDB > Transformer 진행 실패";
             throw new RuntimeException(msg);
             
@@ -265,22 +231,11 @@ public class compareDB {
     }
     
     public Document createDOM() throws Exception {
-        
-        // 1. FileInputStream 바이트 기반 입력 스트림으로 파일 읽기
         FileInputStream fis = new FileInputStream(mergedNewStr);
-
-        // 2. 문자 기반 입력스트림으로 변환 하여 "UTF-8" 인코딩 방식으로 읽기
         Reader reader = new InputStreamReader(fis, "UTF-8");
-
-        // 3. xml 문서를 UTF-8 기반으로 DOM 트리구조로 읽기 위해 InputSource 객체 사용
         InputSource is = new InputSource(reader);
         is.setEncoding("UTF-8");
-
-        // 4. DocumnetBuilderFactory 객체로 xml 문서를 DOM 트리 구조로 읽기
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-
-        // 4-1 xml문서를 파싱할때 namespace 지원 여부 설정하기
-        // xslt를 사용하기 위해서는 필수 옵션이다.
         dbf.setNamespaceAware(true);
 
         DocumentBuilder db = dbf.newDocumentBuilder();

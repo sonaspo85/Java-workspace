@@ -60,26 +60,4 @@
 		</xsl:choose>
 	</xsl:template>
 	
-	<!--<xsl:template match="div[matches(@class, 'h1Group')]">
-		<xsl:variable name="cur" select="." />
-		<xsl:variable name="sharpTerm" select="replace(listitem[1]/*[matches(name(), 'Recommand2')]/text(), '^#', '')" />
-		<xsl:variable name="cnt" select="count(tokenize($sharpTerm, '#'))" />
-		
-		<xsl:choose>
-			<xsl:when test="$cnt &gt; 1">
-				<xsl:for-each select="1 to $cnt">
-					<xsl:copy-of select="$cur" />
-				</xsl:for-each>
-			</xsl:when>
-			
-			<xsl:otherwise>
-				<xsl:copy>
-					<xsl:apply-templates select="@*, node()" />
-				</xsl:copy>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>-->
-	
-	
-	
 </xsl:stylesheet>

@@ -293,9 +293,6 @@ public class ExcelOutput {
                             itemData.put("result", result);
                             itemData.put("score", score);
                             itemData.put("ranking", ranking);
-
-                            // Add more attributes as needed
-
                             itemList.add(itemData);
                         }
                         HashMap<String, Object> itemsClassData = new HashMap<>();
@@ -344,7 +341,6 @@ public class ExcelOutput {
 
         int rowNum = 2; // Start from the next row after the header
         Sheet biddingSheet = workbook.createSheet("Bidding 금액");
-        //가격 경쟁력
         Row priceHeaderRowP = biddingSheet.createRow(rowNum++);
         priceHeaderRowP.createCell(1).setCellValue("구분");
         priceHeaderRowP.getCell(1).setCellStyle(headerStyle);
@@ -367,7 +363,6 @@ public class ExcelOutput {
         biddingSheet.addMergedRegion(biddingRegion);
         setRegionBorder(BorderStyle.THIN, biddingRegion, biddingSheet, workbook);
 
-        //수행도(만족도)
         int satisfyRowP = 2;
         Sheet satisfySheet = workbook.createSheet("만족도");
         Row satisfyHeaderRow = satisfySheet.createRow(satisfyRowP++);
@@ -389,7 +384,6 @@ public class ExcelOutput {
         satisfySheet.addMergedRegion(satisfyRegion);
         setRegionBorder(BorderStyle.THIN, satisfyRegion, satisfySheet, workbook);
 
-        //수행도(만족도 항목)
         int satisfyRowP2 = 8;
         Row satisfyHeaderRow2 = satisfySheet.createRow(satisfyRowP2++);
         satisfyHeaderRow2.createCell(1).setCellValue("ID");
@@ -401,7 +395,6 @@ public class ExcelOutput {
         satisfySheet.addMergedRegion(satisfy2Region);
         setRegionBorder(BorderStyle.THIN, satisfy2Region, satisfySheet, workbook);
 
-        //자동화(現 보유중인 자동화툴/프로그램 개수)
         int automationRowP = 2;
         Sheet automationSheet = workbook.createSheet("자동화");
         Row automationHeaderRow = automationSheet.createRow(automationRowP++);
@@ -428,7 +421,6 @@ public class ExcelOutput {
         automationSheet.addMergedRegion(automationRegion1);
         setRegionBorder(BorderStyle.THIN, automationRegion1, automationSheet, workbook);
 
-        //자동화(직전 과제 대비 자동화 툴/프로그램 추가 개수)
         int automationRowP2 = 8;
         Row automationHeaderRow2 = automationSheet.createRow(automationRowP2++);
         automationHeaderRow2.createCell(1).setCellValue("구분");
@@ -454,7 +446,6 @@ public class ExcelOutput {
         automationSheet.addMergedRegion(automationRegion2);
         setRegionBorder(BorderStyle.THIN, automationRegion2, automationSheet, workbook);
 
-        //결과물 품질
         Sheet qualitySheet = workbook.createSheet("결과물 품질");
         int qualityRowP = 2;
         Row qualityHeaderRow = qualitySheet.createRow(qualityRowP++);
@@ -530,7 +521,6 @@ public class ExcelOutput {
         delivery_complianceSheet.addMergedRegion(delivery_complianceRegion1);
         setRegionBorder(BorderStyle.THIN, delivery_complianceRegion1, delivery_complianceSheet, workbook);
 
-        //보안(보안룸 별도 운영 및 관리 여부)
         Sheet securitySheet = workbook.createSheet("보안");
         int securityRowP1 = 2;
         Row securityHeaderRow = securitySheet.createRow(securityRowP1++);
@@ -554,7 +544,6 @@ public class ExcelOutput {
         securitySheet.addMergedRegion(securityRegion1);
         setRegionBorder(BorderStyle.THIN, securityRegion1, securitySheet, workbook);
 
-        //보안(보안룸 별도 운영 및 관리)
         int securityRowP2 = 8;
         Row securityHeaderRow2 = securitySheet.createRow(securityRowP2++);
         securityHeaderRow2.createCell(1).setCellValue("구분");
@@ -577,7 +566,6 @@ public class ExcelOutput {
         securitySheet.addMergedRegion(securityRegion2);
         setRegionBorder(BorderStyle.THIN, securityRegion2, securitySheet, workbook);
 
-        //보안(보안룸 별도 운영 및 관리 여부)
         int securityRowP3 = 14;
         Row securityHeaderRow3 = securitySheet.createRow(securityRowP3++);
         securityHeaderRow3.createCell(1).setCellValue("구분");
@@ -600,8 +588,6 @@ public class ExcelOutput {
         securitySheet.addMergedRegion(securityRegion3);
         setRegionBorder(BorderStyle.THIN, securityRegion3, securitySheet, workbook);
 
-        //----------------------------------------------------------
-        //보안(보안룸내 별도 네트워크 운영 및 관리)(네트워크 분리 운영 여부)
         int security2RowP1 = 20;
         Row security2HeaderRow = securitySheet.createRow(security2RowP1++);
         security2HeaderRow.createCell(1).setCellValue("구분");
@@ -624,7 +610,6 @@ public class ExcelOutput {
         securitySheet.addMergedRegion(securityRegion4);
         setRegionBorder(BorderStyle.THIN, securityRegion4, securitySheet, workbook);
 
-        //보안(보안룸내 별도 네트워크 운영 및 관리)(방화벽 여부)
         int security2RowP2 = 26;
         Row security2HeaderRow2 = securitySheet.createRow(security2RowP2++);
         security2HeaderRow2.createCell(1).setCellValue("구분");
@@ -647,7 +632,6 @@ public class ExcelOutput {
         securitySheet.addMergedRegion(securityRegion5);
         setRegionBorder(BorderStyle.THIN, securityRegion5, securitySheet, workbook);
 
-        //보안(보안룸내 별도 네트워크 운영 및 관리)(보안룸내 별도 네트워크 운영 및 관리)
         int security2RowP3 = 32;
         Row security2HeaderRow3 = securitySheet.createRow(security2RowP3++);
         security2HeaderRow3.createCell(1).setCellValue("구분");
@@ -670,7 +654,6 @@ public class ExcelOutput {
         securitySheet.addMergedRegion(securityRegion6);
         setRegionBorder(BorderStyle.THIN, securityRegion6, securitySheet, workbook);
 
-        //보안(보안 교육 및 관리)(보안 교육 유뮤)
         int security3RowP1 = 38;
         Row security3HeaderRow = securitySheet.createRow(security3RowP1++);
         security3HeaderRow.createCell(1).setCellValue("구분");
@@ -693,7 +676,6 @@ public class ExcelOutput {
         securitySheet.addMergedRegion(securityRegion7);
         setRegionBorder(BorderStyle.THIN, securityRegion7, securitySheet, workbook);
 
-        //보안(보안 교육 및 관리)(개인 저장매체 관리 방안여부)
         int security3RowP2 = 44;
         Row security3HeaderRow2 = securitySheet.createRow(security3RowP2++);
         security3HeaderRow2.createCell(1).setCellValue("구분");
@@ -716,7 +698,6 @@ public class ExcelOutput {
         securitySheet.addMergedRegion(securityRegion8);
         setRegionBorder(BorderStyle.THIN, securityRegion8, securitySheet, workbook);
 
-        //보안(보안 교육 및 관리)(입출문 시 보안절차 여부)
         int security3RowP3 = 50;
         Row security3HeaderRow3 = securitySheet.createRow(security3RowP3++);
         security3HeaderRow3.createCell(1).setCellValue("구분");
@@ -1126,7 +1107,6 @@ public class ExcelOutput {
 
             }
             else {
-                System.out.println("Key 'items' not found in groupData map for '보안룸 별도 운영 및 관리 여부'");
             }
         }
 
@@ -1144,7 +1124,7 @@ public class ExcelOutput {
             e.printStackTrace();
         }
     }
-    //셀을 글자 크기에 맞게 자동 맞춤
+
     private static void setWidthAsPerCellContent(Sheet sheet) {
         for (int rowIndex = 0; rowIndex <= sheet.getLastRowNum(); rowIndex++) {
             Row row = sheet.getRow(rowIndex);
@@ -1164,7 +1144,6 @@ public class ExcelOutput {
                                 cellValue = ""; // 기본값 설정 혹은 예외 처리
                         }
 
-                        // 한글 문자가 포함된 경우 너비를 2배로 설정
                         int cellLength = (int) (cellValue.length() + cellValue.chars().filter(Character::isLetter).count());
                         int cellWidth = sheet.getColumnWidth(colIndex); // 기본 셀 폭
                         int preferredWidth = (cellLength + 2) * 256;
@@ -1185,7 +1164,6 @@ public class ExcelOutput {
         RegionUtil.setBorderRight(border, region, sheet);
     }
     private static CellStyle createHeaderStyle(Workbook workbook) {
-        //배경색 관련 된 작업
         CellStyle headerStyle = workbook.createCellStyle();
         headerStyle.setAlignment(HorizontalAlignment.CENTER);
         headerStyle.setVerticalAlignment(VerticalAlignment.CENTER);
@@ -1200,7 +1178,6 @@ public class ExcelOutput {
     }
 
     private static CellStyle createCellStyle(Workbook workbook) {
-        //테두리 관련 된 작업
         CellStyle style = workbook.createCellStyle();
         style.setAlignment(HorizontalAlignment.CENTER);
         style.setVerticalAlignment(VerticalAlignment.CENTER);
@@ -1236,8 +1213,6 @@ public class ExcelOutput {
         style.setBorderTop(BorderStyle.THIN);
         style.setBorderLeft(BorderStyle.THIN);
         style.setBorderRight(BorderStyle.THIN);
-        //style.setAlignment(HorizontalAlignment.CENTER);
-        //style.setVerticalAlignment(VerticalAlignment.CENTER);
 
         // Cell style for headers
         CellStyle headerStyle = workbook.createCellStyle();
@@ -1315,14 +1290,10 @@ public class ExcelOutput {
 
         CellRangeAddress footerEmptyMerged = new CellRangeAddress(16, 16, 2, 6);
         sheet.addMergedRegion(footerEmptyMerged);
-
-        //footerEmpty에 대한 테두리 작업
         RegionUtil.setBorderTop(BorderStyle.MEDIUM, footerEmptyMerged, sheet);
         RegionUtil.setBorderBottom(BorderStyle.MEDIUM, footerEmptyMerged, sheet);
         RegionUtil.setBorderLeft(BorderStyle.MEDIUM, footerEmptyMerged, sheet);
         RegionUtil.setBorderRight(BorderStyle.MEDIUM, footerEmptyMerged, sheet);
-
-        //headerEmpty에 대한 테두리 작업
         RegionUtil.setBorderBottom(BorderStyle.THIN, new CellRangeAddress(4, 4, 2, 6), sheet);
         RegionUtil.setBorderTop(BorderStyle.MEDIUM, new CellRangeAddress(4, 4, 2, 6), sheet);
         RegionUtil.setBorderLeft(BorderStyle.MEDIUM, new CellRangeAddress(4, 4, 2, 6), sheet);

@@ -46,7 +46,6 @@ public class RC implements Initializable {
     String selectedFile = "";
     Path srcDir = null;
     String getsheet = "";
-    // FileChooser 객체 생성
  	FileChooser fc = new FileChooser();
  	DirectoryChooser dc = new DirectoryChooser();
     public static File jarPath = new File("").getAbsoluteFile();
@@ -55,19 +54,15 @@ public class RC implements Initializable {
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 		tags.setOnAction(e -> excelTxml());
-//		search.setOnAction(e -> createSearch());
-//		startHere.setOnAction(e -> createStartHere());
 		newContents.setOnAction(e -> createNewContents());
 		search.setDisable(true);
 		startHere.setDisable(true);
 	}
 	
 	public void createNewContents() {
-	    System.out.println("createNewContens 시작");
-	    
 	    File selectedDir = dc.showDialog(primaryStage);
 	    Path srcDir = Paths.get(selectedDir.toString());
-	    System.out.println("srcDir: " + srcDir);
+	    
 	    try {          
 	        Path conPath = Paths.get("contents");
 	        
@@ -88,17 +83,13 @@ public class RC implements Initializable {
 	public void createStartHere() {
 		fc.getExtensionFilters().addAll(
 			new ExtensionFilter("Excel", "*.html")
-		);
-			
+		);			
 			// 다이얼로그 띄우기
 			File selectF = fc.showOpenDialog(primaryStage);
-			
 			selectedFile = selectF.getPath();
-			
 			Path searchDir = Paths.get(selectedFile);
 
 			try {          
-			    // xslt 실행하여 tags.xml 추출 하기
 			    xsltExecute(searchDir);
 	            
 	        } catch(Exception e1) {
@@ -109,7 +100,6 @@ public class RC implements Initializable {
 	            return;
 	        }
 			
-			
 			// 종료 팝업
 			finishedPop();
 	}
@@ -119,20 +109,15 @@ public class RC implements Initializable {
 			new ExtensionFilter("Excel", "*.html")
 		);
 		
-		// 다이얼로그 띄우기
 		File selectF = fc.showOpenDialog(primaryStage);
-		
 		selectedFile = selectF.getPath();
-		
 		Path searchDir = Paths.get(selectedFile);
 		
 		try {	      
-		    // xslt 실행하여 tags.xml 추출 하기
 	        xsltExecute(searchDir);
 	        
 		} catch(Exception e1) {
             String msg = "예외가 발생되었습니다. 작업이 중지 됩니다.";
-            System.out.println(msg);
             selectedPopup(msg);
             return;
 		}
@@ -142,16 +127,11 @@ public class RC implements Initializable {
 	}
 	
 	public void excelTxml() {
-		// FileChooser 객체 생성
-		
-		// 파일 확장명으로 필터링 정보 추가
 		fc.getExtensionFilters().addAll(
 			new ExtensionFilter("Excel", "*.xlsx")
 		);
 		
-		// 다이얼로그 띄우기
 		File selectF = fc.showOpenDialog(primaryStage);
-		
 		selectedFile = selectF.getPath();
         srcDir = Paths.get(selectedFile).getParent();
         
@@ -159,17 +139,11 @@ public class RC implements Initializable {
         
 		excelTxml et = new excelTxml(selectedFile);
 		try {
-//		    getsheet = "cross";
-		    
 		    List<String> getsheet = Arrays.asList("Cross", "tagsValue");
-//			Path tarDir = et.runexcel(getsheet);
 		    et.runexcel(getsheet);
-//			System.out.println("hhh: " + excelTxml.crossF);
-			// xslt 실행하여 tags.xml 추출 하기
 			xsltExecute(excelTxml.crossF);
 
 			// 작업 끝났으면 temp 폴더 삭제
-//	`		System.out.println("fff: " + excelTxml.crossF.getParent());
 			deleteTemp(excelTxml.crossF.getParent());
 	        
 		} catch (Exception e) {
@@ -184,16 +158,11 @@ public class RC implements Initializable {
 	}
 	
 	public void xsltExecute(Path tarDir) throws Exception {
-	    System.out.println("xsltExecute 시작");
-		System.out.println("tarDir: " + tarDir);
-		System.out.println("jarPath: " + jarPath);
 		executeOrder eo = new executeOrder(tarDir, jarPath, srcDir);		
 		eo.setList();
 	}
 	
 	public void finishedPop() {
-		System.out.println("finishedPop 시작");
-        // 커스텀 다이얼로그 생성
         Stage dg = new Stage(StageStyle.UTILITY);
         dg.initModality(Modality.WINDOW_MODAL);
         dg.initOwner(primaryStage);
@@ -201,13 +170,9 @@ public class RC implements Initializable {
         dg.setTitle("작업이 완료 되었습니다.");
         
         try {
-            // FXMLLoader.load() 메소드로 popup.fxml 파일 로드
             Parent parent = FXMLLoader.load(getClass().getResource("/main/fxml/finishPopup.fxml"));
-            
-            // Button 컨트롤이 ok인 컨트롤을 찾기 - lookup()
             Button bt = (Button) parent.lookup("#ok");
             bt.setOnAction(e -> dg.close());
-            
             
             // Scene 객체 생성
             Scene scenePop = new Scene(parent);
@@ -232,8 +197,8 @@ public class RC implements Initializable {
 	    
 	    if(Files.exists(tempPath)) {
 	        try {
-	            deleteTemp(tempPath);  // 삭제 
-	            Files.createDirectories(tempPath);  // 생성
+	            deleteTemp(tempPath); 
+	            Files.createDirectories(tempPath);
 	            
 	        } catch(Exception e1) {
 	            e1.getMessage();
@@ -265,20 +230,15 @@ public class RC implements Initializable {
 	
 	public void selectedPopup(String msg) {
         System.out.println("selectedPopup() 메소드 호출");
-        // 커스텀 다이얼로그 생성
         Stage dg = new Stage(StageStyle.UTILITY);
         dg.initModality(Modality.WINDOW_MODAL);
         dg.initOwner(primaryStage);
         
-        // FXMLLoader.load() 메소드로 팝업 로드
         try {
             Parent parent = FXMLLoader.load(getClass().getResource("/main/fxml/selectedException.fxml"));
             parent.setStyle("-fx-background-color: ANTIQUEWHITE");
-            //버튼 찾기 
             Button sebt = (Button) parent.lookup("#sebt");
             sebt.setOnAction(ev -> dg.close());
-            
-            // 라벨 컨트롤 찾기
             Label selb = (Label) parent.lookup("#seLabel");
             selb.setText(msg);
             

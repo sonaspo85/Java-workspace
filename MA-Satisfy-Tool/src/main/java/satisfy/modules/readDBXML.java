@@ -57,23 +57,11 @@ public class readDBXML {
             Element rootEle = doc.getDocumentElement();
             
             xpath = XPathFactory.newInstance().newXPath();
-            
-            // competitive_price 가져오기
             getTV1(doc);
-            
-            // automation 가져오기
             getTV2(doc);
-            
-            // safety 가져 오기
             getTV3(doc);
-            
-            // quality 가져오기
             getTV4(doc);
-            
-            // delivery_compliance 가져오기
             getTV5(doc);
-            
-            // delivery_compliance 가져오기
             getTV6(doc);
             
             // obj에 저장
@@ -94,8 +82,6 @@ public class readDBXML {
     }
     
     public void getTV1(Document doc) {
-        System.out.println("getTV1() 시작");
-        
         try {
             String express = "root//competitive_price//item";
             
@@ -125,7 +111,6 @@ public class readDBXML {
     }
     
     public List<String> percentage(String dbFStr) {
-        System.out.println("percentage() 시작");
         List<String> perList = new ArrayList<>();
         
         try {
@@ -152,8 +137,7 @@ public class readDBXML {
                 Node node = nl1.item(i);
                 Element ele = (Element) node;
                 String percent = ele.getAttribute("percentage");
-//                System.out.println("www: " + percent);
-                
+
                 perList.add(percent);
             }
 
@@ -170,8 +154,6 @@ public class readDBXML {
     }
     
     public void getTV2(Document doc) {
-        System.out.println("getTV2() 시작");
-        
         try {
             String express = "root//automation//items//item";
             
@@ -201,8 +183,6 @@ public class readDBXML {
     }
     
     public void getTV3(Document doc) {
-        System.out.println("getTV3() 시작");
-        
         try {
             String express = "root//safety//items//item";
             
@@ -232,8 +212,6 @@ public class readDBXML {
     }
     
     public void getTV4(Document doc) {
-        System.out.println("getTV4() 시작");
-        
         try {
             String express = "root//quality//items//item";
             
@@ -264,8 +242,6 @@ public class readDBXML {
     }
     
     public void getTV5(Document doc) {
-        System.out.println("getTV5() 시작");
-        
         try {
             String express = "root//delivery_compliance//items//item";
             
@@ -296,8 +272,6 @@ public class readDBXML {
     }
     
     public void getTV6(Document doc) {
-        System.out.println("getTV6() 시작");
-        
         try {
             String express = "root//satisfy//items//item";
             
@@ -316,7 +290,6 @@ public class readDBXML {
                 tv6list.add(ele.getAttribute("t6cell5"));
                 tv6list.add(ele.getAttribute("t6cell6"));
                 
-
                 tv6Map.put(id, tv6list);
                 
             }
