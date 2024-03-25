@@ -18,17 +18,13 @@ public class readverxml {
     
     
     public List<String> runverReadF() throws Exception {
-        System.out.println("runReadF() 시작");
-        
         String langF = obj.resourceDir + File.separator + "version.xml";
         
-        
-        // 1. InputSource로 읽기
+        // 1. InputSource로 로드
         Document doc = obj.readFile(langF);
         
         // 2. 문서의 루트 요소에 접근
         Element root = doc.getDocumentElement();
-        
         NodeList nl = root.getChildNodes(); 
         
         for(int i=0; i<nl.getLength(); i++) {

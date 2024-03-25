@@ -266,7 +266,6 @@ public class RC implements Initializable {
         }
     }
     
-    // 최종 작업 처리 후, 팝업창으로 경과 초를 출력
     public void finishedPop() {
         System.out.println("finishedPop() 시작");
 
@@ -278,10 +277,7 @@ public class RC implements Initializable {
         dg.setTitle("작업이 완료 되었습니다.");
         
         try {
-            // FXMLLoader.load() 메소드로 popup.fxml 파일 로드
             Parent parent = FXMLLoader.load(getClass().getClassLoader().getResource("main/fxcontroller/complePop.fxml"));
-            
-            // 버튼 속성을 가진 객체를 찾기 - lookup() 메소드
             Button bt = (Button) parent.lookup("#bt1");
             bt.setOnAction(event -> dg.close());
             Label lb22 = (Label) parent.lookup("#txtTitle");
@@ -396,7 +392,6 @@ public class RC implements Initializable {
                     updateProgress(10, 100);
                     updateMessage(String.valueOf(10));
 
-                    // 2. 인터페이스 상의 선택한 언어 목록만으로 srcDir 경로 생성
                     try {
                         SelectedLangFullPath();
                         
@@ -603,8 +598,6 @@ public class RC implements Initializable {
     
     
     public void deleteZipF() {
-        System.out.println("deleteZipF() 시작");
-        
         try {
             DirectoryStream<Path> ds = Files.newDirectoryStream(obj.zipDirP);
             
@@ -614,7 +607,6 @@ public class RC implements Initializable {
                         Files.delete(a);
                     } catch (IOException e) {
                         msg = "zipDir 폴더내 zip 파일 삭제 실패";
-                        System.out.println("msg: " + msg);
                         throw new RuntimeException(msg);
                     }
                 }
@@ -623,7 +615,6 @@ public class RC implements Initializable {
             
         } catch(Exception e) {
             msg = "zipDir 폴더내 zip 파일 삭제 실패";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
         }
         
@@ -647,7 +638,6 @@ public class RC implements Initializable {
             
         } catch(Exception e) {
             msg = "언어목록 추출 실패";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
         }
         
@@ -675,8 +665,6 @@ public class RC implements Initializable {
     
     
     public void getISO() {
-        System.out.println("getISO() 시작");
-        
         langL2.forEach(a -> {
             String lang = a;
             
@@ -690,8 +678,6 @@ public class RC implements Initializable {
     }
     
     public void openDialog() {
-        System.out.println("openDialog() 시작");
-        
         DirectoryChooser dc = new DirectoryChooser();
         File selectedDir = dc.showDialog(primaryStage);
         
@@ -713,8 +699,6 @@ public class RC implements Initializable {
     }
     
     public void langPop() {
-        System.out.println("langPop 시작");
-        
         Stage dg = new Stage(StageStyle.UTILITY);
         dg.initModality(Modality.WINDOW_MODAL);
         dg.initOwner(primaryStage);
@@ -785,8 +769,6 @@ public class RC implements Initializable {
                     
                     if (itemidx != 0) {
                         String previtem = plv2.getItems().get(itemidx-1);
-                        System.out.println("itemidx: " + itemidx + ", item:" + curitem);
-                        System.out.println("previtem: " + previtem);
                         
                         plv2.getItems().set(itemidx-1, curitem);
                         plv2.getItems().set(itemidx, previtem);
@@ -919,7 +901,6 @@ public class RC implements Initializable {
 
         } catch (Exception e) {
             String msg = "loadLangs 언어 목록 호출 실패";
-//            customException(msg);
             e.printStackTrace();
         }
         
@@ -1039,8 +1020,6 @@ public class RC implements Initializable {
                 }
                 
                 activateControl();
-                
-                //------------------------------
                 System.out.println("완료 팝업창");
                 finishedPop();
                 

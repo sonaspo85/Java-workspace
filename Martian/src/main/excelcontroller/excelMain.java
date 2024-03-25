@@ -95,7 +95,6 @@ public class excelMain {
                                             String str1 = formatCell(headCell);
                                             String str2 = str1.replaceAll("[\\(\\)]", "_").replaceAll("[&/]", "").replaceAll("_$", "");
                                             String str3 = StringEscapeUtils.escapeXml11(str2);
-    //                                        System.out.println("str3: " + str3);
     
                                             headCellList.add(str3);
                                             
@@ -175,8 +174,6 @@ public class excelMain {
             
         } catch(Exception e) {
             msg = "Excel load 실패1";
-            System.out.println("msg: " + msg);
-//            throw new RuntimeException(msg);
             e.printStackTrace();
         }
 

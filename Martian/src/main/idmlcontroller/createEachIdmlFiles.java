@@ -26,8 +26,6 @@ public class createEachIdmlFiles {
 	}
 	
 	public void runEachIdmlFiles() {
-		System.out.println("runEachIdmlFiles() 시작");
-		
 		try {
 			createXMLDirs();
 			
@@ -45,9 +43,7 @@ public class createEachIdmlFiles {
 					obj.xmlTransform(idmlS, doc);
 					
 				} catch (Exception e) {
-//					e.printStackTrace();
 				    msg = "idml별 xml 파일 생성 실패";
-		            System.out.println("msg: " + msg);
 		            throw new RuntimeException(msg);
 				}
 
@@ -55,7 +51,6 @@ public class createEachIdmlFiles {
 			
 		} catch(Exception e) {
 			msg = "idml별 xml 파일 생성 실패";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
 			
 		}
@@ -63,8 +58,6 @@ public class createEachIdmlFiles {
 	}
 	
 	public void createXMLDirs() {
-		System.out.println("createXMLDirs() 시작");
-		
 		// xml 파일이 저장될 폴더 생성
 		String eachSrcS = obj.tempDir + File.separator + "eachSrc";
 		Path eachSrcP = Paths.get(eachSrcS);

@@ -16,15 +16,13 @@ import main.Common.implementOBJ;
 public class readlangxml {
     implementOBJ obj = new implementOBJ();
     String msg = "";
-//    List<String> langL = new ArrayList<>();
     public Map<String, String> langMap = new HashMap<>();
     
     
     public void runReadF() throws Exception {
-        System.out.println("runReadF() 시작");
         String langF = obj.resourceDir + File.separator + "language.xml";
         
-        // 1. InputSource로 읽기
+        // 1. InputSource로 로드
         Document doc = obj.readFile(langF);
         // 2. 문서의 루트 요소에 접근
         Element root = doc.getDocumentElement();

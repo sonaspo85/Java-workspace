@@ -76,8 +76,6 @@ public class storyesMerged {
 						for(int q=0; q<nl2.getLength(); q++) {
 							Node node = nl2.item(q);
 							Element ele = (Element) node;
-							
-							// true : 자식 노드 포함
 							Node importnode = doc0.importNode(node, true);
 							linkEle.appendChild(importnode);
 							
@@ -127,9 +125,7 @@ public class storyesMerged {
 							
 						} catch(Exception e) {
 							msg = "collectStoryByTopic() -> vals.forEach 에러";
-			                System.out.println("msg: " + msg);
 			                throw new RuntimeException(msg);
-//			                e.printStackTrace();
 							
 						}
 						
@@ -137,14 +133,10 @@ public class storyesMerged {
 
 				});
 				
-				// map 컬렉션으로 'idml 이름 : doc0 객체' 형태로 모음
-				// 이렇게 모은 eachIdmlCollect 컬렉션을 파일로 추출할 것임
 				eachIdmlCollect.put(keys, ele0);
 				
-    			
     		} catch(Exception e) {
     			msg = "collectStoryByTopic() 메소드 에러";
-                System.out.println("msg: " + msg);
                 throw new RuntimeException(msg);
     		}
     		
@@ -153,7 +145,6 @@ public class storyesMerged {
     }
     
     public static Map<String, Element> getIdmlCollect() {
-    	System.out.println("getIdmlCollect() 시작");
     	return eachIdmlCollect;
     }
     

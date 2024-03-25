@@ -19,11 +19,8 @@ public class transformXSLT {
     String msg = "";
     String iniDir = "";
     String idmlDir = "";
-    
     implementOBJ obj = new implementOBJ();
-    
     String packageDir = obj.projectDir;
-    
     public ArrayList<InOutPathClas> list = new ArrayList<>();
     
     
@@ -31,12 +28,8 @@ public class transformXSLT {
     public transformXSLT() {
         
     }
-    
-    
 
     public void runConvertHTMLBat(String absSrcpath) throws Exception {
-        System.out.println("runMobilebatch() 시작");
-        
         String srcDir = absSrcpath;
         
         try {
@@ -56,7 +49,6 @@ public class transformXSLT {
             list.add(new InOutPathClas(obj.tempDir + "/10-grouping-list.xml", obj.tempDir + "/11-grouping-note.xml", obj.xslsDir + "/11-grouping-note.xsl"));
             list.add(new InOutPathClas(obj.tempDir + "/11-grouping-note.xml", obj.tempDir + "/12-nested-tags.xml", obj.xslsDir + "/12-nested-tags.xsl"));
             list.add(new InOutPathClas(obj.tempDir + "/12-nested-tags.xml", obj.tempDir + "/13-simplify.xml", obj.xslsDir + "/13-simplify.xsl"));
-            
             list.add(new InOutPathClas(obj.tempDir + "/13-simplify.xml", obj.tempDir + "/14-connect-link.xml", obj.xslsDir + "/14-connect-link.xsl"));
             list.add(new InOutPathClas(obj.tempDir + "/14-connect-link.xml", obj.tempDir + "/15-simplify.xml", obj.xslsDir + "/15-simplify.xsl"));
             list.add(new InOutPathClas(obj.tempDir + "/15-simplify.xml", obj.tempDir + "/16-grouping-heading.xml", obj.xslsDir + "/16-grouping-heading.xsl"));
@@ -84,14 +76,8 @@ public class transformXSLT {
         executeXslt("htmlconvert");
         
     }
-    
-    
-    
-    
+
     public void executeXslt(String flagStr) {
-        System.out.println("executeXslt() 시작");
-        
-        
         list.stream().forEach(a -> {
             System.setProperty("javax.xml.xpath.XPathFactory:" + NamespaceConstant.OBJECT_MODEL_SAXON, "net.sf.saxon.xpath.XPathFactoryImpl");
             
@@ -100,19 +86,12 @@ public class transformXSLT {
             File inFile = new File(iopc.getinFile());
             File outFile = new File(iopc.getoutFile());
             File xslFile = new File(iopc.getxslFile());
-            
 
-//          System.out.println("inFile: " + inFile);
-//          System.out.println("outFile: " + outFile);
             System.out.println("xslFile: " + xslFile);
-//          System.out.println("para0: " + paraStrPath);
-            
             Source inxml = new StreamSource(inFile.toURI().toString());
             
             // 출력 스트림을 통해 생성될 파일 지정
             StreamResult result = new StreamResult(outFile.toURI().toString());
-
-            // xslt 지정
             Source xsltF = new StreamSource(xslFile.toURI().toString());
             
             TransformerFactory factory = TransformerFactory.newInstance();
@@ -122,16 +101,13 @@ public class transformXSLT {
                 tf.transform(inxml, result);
                 
             } catch(Exception tf) {
-                System.out.println("xslt 변환 실패");
                 msg = tf.getMessage();
                 tf.printStackTrace();
-//                throw new RuntimeException(msg);
             }
             
             
         });
         
-        System.out.println("변환 완료!!");
     }
 
     

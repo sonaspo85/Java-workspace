@@ -24,8 +24,6 @@ public class changeExtIdmltZip {
     }
     
     public void loopIdml() {
-        System.out.println("loopIdml() 시작");
-        
         obj.srcDirFullpath.forEach(c -> {
             String fullpath = c.toAbsolutePath().toString();
 
@@ -55,7 +53,6 @@ public class changeExtIdmltZip {
                     
                 } catch(Exception e) {
                     msg = "idml 폴더 읽기 실패";
-                    System.out.println("msg: " + msg);
                     throw new RuntimeException(msg);
                 }
             }
@@ -65,8 +62,6 @@ public class changeExtIdmltZip {
     }
     
     public void setisocurpath(Path a) {
-        System.out.println("setisocurpath() 시작");
-        
         String fullpath = a.toAbsolutePath().toString();
         String srcDirS = obj.srcPathP.toAbsolutePath().toString();
         String getTxt = fullpath.replace(srcDirS, "").replaceAll("^[\\\\]", "").replace(".idml", "");
@@ -76,14 +71,11 @@ public class changeExtIdmltZip {
     }
     
     public void copyFiles(Path a, Path idmlZipP) {
-        System.out.println("copyFiles() 시작");
-        
         try {
             Files.copy(a, idmlZipP, StandardCopyOption.COPY_ATTRIBUTES, StandardCopyOption.REPLACE_EXISTING);
 
         } catch(Exception e) {
             msg = "idml 파일 zipDir 폴더로 복사 실패";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
             
         }

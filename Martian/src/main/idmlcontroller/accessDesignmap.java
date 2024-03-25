@@ -34,8 +34,6 @@ public class accessDesignmap {
     
     
     public void eachDirs(Map<String, String> isocurpath) {
-        System.out.println("eachDirs() 시작");
-        
         this.isocurpath = isocurpath;
         System.setProperty("javax.xml.xpath.XPathFactory:" + NamespaceConstant.OBJECT_MODEL_SAXON, "net.sf.saxon.xpath.XPathFactoryImpl");
         
@@ -50,15 +48,12 @@ public class accessDesignmap {
             
         } catch(Exception e) {
             msg = "각 idml 폴더 접근 실패";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
         }
         
     }
     
     public void accessSubLists(Path a) {
-        System.out.println("accessSubLists() 시작");
-        
         try {
             DirectoryStream<Path> ds = Files.newDirectoryStream(a);
             
@@ -71,7 +66,6 @@ public class accessDesignmap {
             
         } catch(Exception e) {
             msg = "designmap.xml 읽기 실패1";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
         }
         
@@ -79,8 +73,6 @@ public class accessDesignmap {
     }
     
     public void accessDMapF(Path dmap) {
-        System.out.println("accessDMapF() 시작");
-        
         String idmlName = dmap.getParent().getFileName().toString();
         String parDir = dmap.getParent().toString();
         String fullPath = dmap.toAbsolutePath().toString();
@@ -115,8 +107,6 @@ public class accessDesignmap {
     }
     
     public void createStoryPath(String parDir) {
-        System.out.println("createStoryPath 시작");
-        
         String idmlName = Paths.get(parDir).getFileName().toString();
         List<String> storyFullPath = new ArrayList<>();
         
@@ -132,8 +122,6 @@ public class accessDesignmap {
     }
     
     public void gethyperNode(XPath xpath, Document doc, String idmlName) {
-        System.out.println("gethyperNode() 시작");
-        
         String express = "Document/Hyperlink | Document/HyperlinkURLDestination";
         
         try {
@@ -142,7 +130,6 @@ public class accessDesignmap {
             
         } catch (Exception e) {
             msg = "Hyperlink 추출 실패";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
         } 
         

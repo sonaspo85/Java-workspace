@@ -20,12 +20,9 @@ public class readtypexml {
     
     
     public List<String> runtypeReadF() throws Exception {
-        System.out.println("runReadF() 시작");
-        
         String langF = obj.resourceDir + File.separator + "type.xml";
         Document doc = obj.readFile(langF);
         Element root = doc.getDocumentElement();
-        
         NodeList nl = root.getChildNodes(); 
         
         for(int i=0; i<nl.getLength(); i++) {

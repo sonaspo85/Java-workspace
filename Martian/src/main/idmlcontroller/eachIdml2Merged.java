@@ -28,11 +28,8 @@ public class eachIdml2Merged {
 	}
 	
 	public void runEachIdmlMerged() {
-		System.out.println("runEachIdmlMerged() 시작");
-		
 		try {
 			String finalMergedS = obj.tempDir + File.separator + "finalmerged.xml";
-			System.out.println("finalMergedS: " + finalMergedS);
 			Path finalMergedP = Paths.get(finalMergedS);
 			Document doc = obj.createDOM();
 			Element rootEle = doc.createElement("root");
@@ -58,21 +55,17 @@ public class eachIdml2Merged {
 					
 				} catch (Exception e) {
 					msg = "zipDir/xml 폴더내 파일 읽기 실패";
-		            System.out.println("msg: " + msg);
 		            throw new RuntimeException(msg);
-//		            e.printStackTrace();
 				}
 				
 			});
 			
-			// Transformer 객체로 merged.xml 파일로 출력하기
 			obj.xmlTransform(finalMergedS, doc);
 			
 		} catch(Exception e) {
 			msg = "eachIdml2Merged -> runEachIdmlMerged() 에러";
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
-//            e.printStackTrace();
+
 		}
 
 	}

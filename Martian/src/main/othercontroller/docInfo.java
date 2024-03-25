@@ -24,15 +24,11 @@ import main.Common.implementOBJ;
 
 public class docInfo {
     implementOBJ obj = new implementOBJ();
-    //    Map<String, Path> map = new HashMap<>();
     Map<String, List<String>> workinglngMap = new HashMap<>();
 
 
     public void runExtractXML() throws Exception {
-        System.out.println("runExtractXML() 시작");
-
         String docInfoS = obj.resourceDir + File.separator + "docInfo.xml";
-        System.out.println("docInfoS: " + docInfoS);
         Path path = Paths.get(docInfoS);
         Files.deleteIfExists(path);
 
@@ -94,8 +90,6 @@ public class docInfo {
     }
     
     public void workinglngs() {
-        System.out.println("workinglngs() 시작");
-        
         try {
             DirectoryStream<Path> ds = Files.newDirectoryStream(obj.srcPathP);
             
@@ -145,8 +139,6 @@ public class docInfo {
     }
     
     public String getItem8() {
-        System.out.println("getItem8() 시작");
-        
         String item8data = "";
         
         for(int y=0; y< obj.langL2.size(); y++) {

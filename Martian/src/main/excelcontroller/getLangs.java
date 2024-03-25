@@ -139,8 +139,6 @@ public class getLangs {
             
         } catch(Exception e) {
             msg = "Excel load 실패1";
-            System.out.println("msg: " + msg);
-//            throw new RuntimeException(msg);
             e.printStackTrace();
             
         }

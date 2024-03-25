@@ -18,12 +18,10 @@ import main.Common.implementOBJ;
 public class readtlxml {
     implementOBJ obj = new implementOBJ();
     String msg = "";
-//    List<String> typeL = new ArrayList<>();
     Map<String, List<String>> typelangMap = new HashMap<>();
     
     
     public Map<String, List<String>> runtlReadF() throws Exception {
-        System.out.println("runReadF() 시작");
         String langF = obj.resourceDir + File.separator + "type-lang.xml";
         
         Document doc = obj.readFile(langF);
@@ -45,11 +43,9 @@ public class readtlxml {
                     
                     if (node2.getNodeType() == Node.ELEMENT_NODE) {
                         Element child2 = (Element) node2;
-                        
                         String langStr = child2.getAttribute("lang");
                         list.add(langStr);
 
-                        
                         typelangMap.put(typestr, list);
 
                     }
@@ -60,7 +56,6 @@ public class readtlxml {
                 
         }
 
-        
         return typelangMap;
     }
     

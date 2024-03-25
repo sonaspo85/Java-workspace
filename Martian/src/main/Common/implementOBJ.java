@@ -54,8 +54,6 @@ public class implementOBJ implements commonOBJ {
 
     @Override
     public void recursDel(Path path) throws Exception {
-        System.out.println("recursDel() 시작");
-        
         try {
             DirectoryStream<Path> ds = Files.newDirectoryStream(path);
             
@@ -66,7 +64,6 @@ public class implementOBJ implements commonOBJ {
                         
                     } catch (Exception e) {
                         String msg = e.getMessage();
-                        System.out.println("msg: " + msg);
                         throw new RuntimeException(msg);
                     }
                     
@@ -76,7 +73,6 @@ public class implementOBJ implements commonOBJ {
                         
                     } catch (IOException e) {
                         String msg = e.getMessage();
-                        System.out.println("msg: " + msg);
                         throw new RuntimeException(msg);
                     }
                 }
@@ -88,7 +84,6 @@ public class implementOBJ implements commonOBJ {
             
         } catch(Exception e) {
             String msg = e.getMessage();
-            System.out.println("msg: " + msg);
             throw new RuntimeException(msg);
         }
         
@@ -98,7 +93,6 @@ public class implementOBJ implements commonOBJ {
     public void createNewDir(Path newPath) throws Exception {
         if(Files.notExists(newPath)) {
             Files.createDirectories(newPath);
-            System.out.println("폴더 생성 완료!");
             
         } else {
             recursDel(newPath);
@@ -117,16 +111,12 @@ public class implementOBJ implements commonOBJ {
 			
 			InputSource is = new InputSource(reader);
 	        is.setEncoding("UTF-8");
-
-	        // DocumentBuilderFactory 객체를 생성하고, XML DOM 트리 구조로 파일 읽기
 	        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 	        DocumentBuilder db = dbf.newDocumentBuilder();
 	        doc = db.parse(is);
 			
 			
 		} catch (Exception e) {
-			// implementObj -> readFile() 메소드 에러
-			System.out.println("implementObj -> readFile() 메소드 에러");
 			throw new Exception("implementObj -> readFile() 메소드 에러");
 		}
 		
@@ -139,7 +129,6 @@ public class implementOBJ implements commonOBJ {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         dbf.setNamespaceAware(true);
         DocumentBuilder db = dbf.newDocumentBuilder();
-
         Document doc = db.newDocument();
         doc.setXmlStandalone(true);
 
@@ -148,8 +137,6 @@ public class implementOBJ implements commonOBJ {
     
     @Override
     public void dirCopy(Path newPath, Path oldPath) throws Exception {
-        System.out.println("dirCopy() 시작");
-        
         try {
             DirectoryStream<Path> ds = Files.newDirectoryStream(oldPath);
             
@@ -157,18 +144,12 @@ public class implementOBJ implements commonOBJ {
                 if(Files.isDirectory(a)) {                    
                     String getName = a.getFileName().toString();
                     Path newDir = Paths.get(newPath + File.separator + getName);
-                    System.out.println("newDir: " + newDir);
                     
                     try {
-                        System.out.println("폴더 생성");
-                        
                         Files.createDirectories(newDir);
-                        
-                        // 재귀적 호출
                         dirCopy(newDir, a);
                         
                     } catch (Exception e) {
-                        System.out.println("폴더 생성 실패");
                         e.printStackTrace();
                     }
                     
@@ -183,7 +164,6 @@ public class implementOBJ implements commonOBJ {
                         Files.copy(a, qto, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES);
                         
                     } catch (IOException e) {
-                        
                         e.printStackTrace();
                     }
                 }
@@ -200,42 +180,31 @@ public class implementOBJ implements commonOBJ {
     
     @Override
     public String getDateTime() {
-		System.out.println("getDateTime() 시작");
-		
 		LocalDateTime curDateTime = LocalDateTime.now();
         
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddHHmmss"); 
         String str1 = curDateTime.format(dtf);
-        System.out.println("str1: " + str1);
-        
 		return str1;
 	}
     
     @Override
     public void moveFiles(Path form, Path to) {
-        System.out.println("modeFiles() 시작");
-        
         try {
             DirectoryStream<Path> ds = Files.newDirectoryStream(form);
             
             ds.forEach(a -> {
                 if(Files.isRegularFile(a)) {
                     String getName = a.getFileName().toString();
-//                  System.out.println("getName222:" + getName);
                   
                   Path parDir = a.getParent();
                   String newDir = to + File.separator + getName;
                   System.out.println("newDir: " + newDir);
-                  
-//                  File qdir = new File(a.toString());
                   Path qto = Paths.get(newDir);
                   
                   try {
-//                      System.out.println("파일 복사!!!");
-//                      Files.move(a, qto, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.ATOMIC_MOVE);
                       Files.copy(a, qto, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES);
-                  } catch (IOException e) {
                       
+                  } catch (IOException e) {
                       e.printStackTrace();
                   }
                     
@@ -256,24 +225,15 @@ public class implementOBJ implements commonOBJ {
 		try {
 			// 1. TransformerFactory 객체 생성
 			TransformerFactory tff = TransformerFactory.newInstance();
-			
-			// 2. Transformer 객체 생성
 			Transformer trans = tff.newTransformer();
-			
-			// 출력 속성 설정
 			trans.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
 			trans.setOutputProperty(OutputKeys.INDENT, "no");
 			trans.setOutputProperty(OutputKeys.DOCTYPE_PUBLIC, "yes");
 			
 			// 3. DOMSource 객체 생성
 			DOMSource source = new DOMSource(doc);
-			
 			File outFile = new File(filePath);
-			
-			// 4. 출력 결과를 스트림으로 생성
 			StreamResult result = new StreamResult(outFile); 
-
-			// 4. transform() 메소드 호출
 			trans.transform(source, result);
 			result.getOutputStream().close();
 
