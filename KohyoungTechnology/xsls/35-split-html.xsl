@@ -26,8 +26,6 @@
     </xsl:variable>
     
     <xsl:variable name="outputPath" select="root/body/@outputPath" />
-    <!--<xsl:variable name="sourceName0" select="replace(root/@sourcename, '\\', '/')" />
-    <xsl:variable name="sourceName" select="replace(ast:last($sourceName0, '/'), '.htm', '')"/>-->
     
     <xsl:variable name="coverContent">
         <xsl:for-each select="//div[matches(@class, 'coverContent')]/*">

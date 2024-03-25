@@ -123,17 +123,14 @@
             
             <xsl:when test="matches($lowCaseVal, '글머리기호1')">
                 <xsl:value-of select="'UL1_bullet'" />
-                <!--<xsl:value-of select="'disc'" />-->
             </xsl:when>
 
             <xsl:when test="matches($lowCaseVal, '글머리기호2')">
                 <xsl:value-of select="'UL2_hyphen'" />
-                <!--<xsl:value-of select="'hyphen'" />-->
             </xsl:when>
 
             <xsl:when test="matches($lowCaseClass, 'msolistbullet2cxsp')">
                 <xsl:value-of select="'UL2_hyphen'" />
-                <!--<xsl:value-of select="'hyphen'" />-->
             </xsl:when>
 
             <xsl:when test="matches($lowCaseVal, '글머리기호3')">
@@ -143,10 +140,6 @@
             <xsl:when test="matches($lowCaseClass, 'msolistbullet3cxsp')">
                 <xsl:value-of select="'UL3_square'" />
             </xsl:when>
-
-            <!--<xsl:when test="$lowCaseClass = 'a0'">
-                <xsl:value-of select="'heading2_midtitle'" />
-            </xsl:when>-->
             
             <xsl:when test="matches($lowCaseVal, '설명')">
                 <xsl:value-of select="'description'" />
@@ -208,7 +201,6 @@
 
             <xsl:when test="matches($lowCaseVal, '목록단락')">
                 <xsl:value-of select="'UL1_bullet'" />
-                <!--<xsl:value-of select="'disc'" />-->
             </xsl:when>
 
             <xsl:when test="matches($lowCaseVal, 'bullet2')">

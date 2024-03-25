@@ -81,14 +81,10 @@ public class Varietyfunction {
 	        InputSource is = new InputSource(reader);
 	        is.setEncoding("UTF-8");
 	        
-	        // 2. DocumentBuilderFactory 객체를 생성하고, XML DOM 트리 구조로 파일 읽기
 	        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 	        DocumentBuilder db = dbf.newDocumentBuilder();
 	        Document doc = db.parse(is);
-
-	        // 3. root 태그에 접근
 	        Element rootTag = doc.getDocumentElement();
-	        
 	        NodeList nList = doc.getElementsByTagName("option");
 	        
 	        for(int i = 0; i < nList.getLength(); i++) {
@@ -101,20 +97,6 @@ public class Varietyfunction {
 	            }
 	        }
 	        
-	        
-	        
-	        /*
-			//TransformerFactory transformerFactory = TransformerFactory.newInstance();
-			TransformerFactory transformerFactory = new com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl ();
-	        Transformer transformer = transformerFactory.newTransformer();
-	        DOMSource source = new DOMSource(doc);
-	        //StreamResult result = new StreamResult(new File(f.getAbsolutePath() + "\\template\\codes.xml"));
-	        StreamResult result = new StreamResult(new File("language\\codes.xml"));
-
-	        // Output to console for testing
-	        // StreamResult result = new StreamResult(System.out);
-
-	        transformer.transform(source, result);*/
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -122,9 +104,6 @@ public class Varietyfunction {
 	}
 	
 	public static void domParserWrite(String getLang) throws ParserConfigurationException, SAXException, IOException {
-//		File inputFile = new File("language\\codes.xml");
-	    System.out.println("domParserWrite() 시작");
-	    
 		try {
 		    // 파일 읽기
 	        FileInputStream fis = new FileInputStream(codesF.toString());
@@ -133,17 +112,12 @@ public class Varietyfunction {
 	        InputSource is = new InputSource(reader);
 	        is.setEncoding("UTF-8");
 	        
-	        // 2. DocumentBuilderFactory 객체를 생성하고, XML DOM 트리 구조로 파일 읽기
 	        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 	        DocumentBuilder db = dbf.newDocumentBuilder();
 	        Document doc = db.parse(is);
-
-	        // 3. root 태그에 접근
 	        Element rootTag = doc.getDocumentElement();			
-			
-			
-			
 			Node codesNode = doc.getFirstChild();
+			
 			if(codesNode.getNodeType() == Node.ELEMENT_NODE) {
 				Element cElement = (Element) codesNode;				
 				cElement.setAttribute("TotalLang", getLang);
@@ -160,7 +134,6 @@ public class Varietyfunction {
 	}
 	
 	public static void setTransformer(Document doc) {
-        System.out.println("setTransformer() 시작");
         try {
             codesF.delete();
             
@@ -174,23 +147,16 @@ public class Varietyfunction {
             
             // 4. Transformer 객체 생성        
             Transformer trans = tff.newTransformer();
-            
-            // 5. 출력 포멧 설정
             trans.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
             trans.setOutputProperty(OutputKeys.INDENT, "no");
             trans.setOutputProperty(OutputKeys.DOCTYPE_PUBLIC, "yes");
-            
-            // 6. DOMSource 객체 생성
             DOMSource source = new DOMSource(doc);
-            
-            // 7. 출력 결과를 스트림을 생성
             Result result = new StreamResult(out2.toString());
             
             trans.transform(source, result);
             System.out.println("끝");
             
         } catch (Exception e) {
-            System.out.println("Transformer 진행 실패");
             String msg = "Transformer 진행 실패";
             throw new RuntimeException(msg);
         }
@@ -227,7 +193,6 @@ public class Varietyfunction {
 			transformer.transform(new StreamSource(new File(sourcePath)), new StreamResult(new File(resultDir)));
 		} catch (TransformerException e) {
 			e.printStackTrace();
-//			Logger.getLogger(DeltaView.class.getName()).log(Level.DEBUG, null, e);
 		}
 	}
 	
@@ -241,7 +206,6 @@ public class Varietyfunction {
 			transformer.transform(new StreamSource(new File(sourcePath)), new StreamResult(new File(resultDir)));
 		} catch (TransformerException e) {
 			e.printStackTrace();
-//			Logger.getLogger(DeltaView.class.getName()).log(Level.DEBUG, null, e);
 		}
 	}
 	
@@ -262,10 +226,6 @@ public class Varietyfunction {
 	        isr.close();
 	        br.close();
 	        int waitFor = p.waitFor();
-//	        if(waitFor != 0) {
-//	        	System.out.println("waitFor != 0");
-//	        	return;
-//	        }
 	        result = p.exitValue();	      
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -305,8 +265,6 @@ public class Varietyfunction {
                     
                     int idx = childName.lastIndexOf(".");
                     String fileExtensionRemove = childName.substring(0,idx);    
-//                    System.out.println("fileExtensionRemove: " + fileExtensionRemove);
-                    
                     // 하위폴더와 필요없는 파일들을 제외하고 필요한 파일들만 출력한다.
                     if((childName.endsWith(".docx"))) {
                        getExtensionRemoveList().add(fileExtensionRemove);
@@ -320,14 +278,12 @@ public class Varietyfunction {
                         
                         ds2.forEach(c -> {
                             String childName2 = c.toAbsolutePath().toString();
-//                            System.out.println("childName2: " + childName2);
-                            
+
                             if(Files.isRegularFile(c)) {
-//                                System.out.println("childName002: " + childName2);
                                 getArrFileLanguageName().add(childName2.substring(childName2.lastIndexOf("_")+1, childName2.lastIndexOf(".")));
                                 int idx = childName2.lastIndexOf(".");
                                 String fileExtensionRemove2 = childName2.substring(0,idx);
-//                                System.out.println("fileExtensionRemove2: " + fileExtensionRemove2);
+                                
                                 if((childName2.toLowerCase().endsWith(".docx"))) {
                                     getExtensionRemoveList().add(fileExtensionRemove2);                      
                                     getArrFileList().add(childName2);    
@@ -431,7 +387,6 @@ public class Varietyfunction {
 	}
 	
 	public static void templateCopy(File sourceF, File targetF){
-		//languageFolderSearch("F:\\Project\\kohyoung\\최종테스트파일2\\Output");
 		File[] ff = sourceF.listFiles(new FileFilter() {
 			
 			@Override
@@ -475,11 +430,9 @@ public class Varietyfunction {
 	}
 	
 	public static void templateFontCopy(File sourceF, File targetF){
-		//languageFolderSearch("F:\\Project\\kohyoung\\최종테스트파일2\\Output");
 		File[] ff = sourceF.listFiles();
 
 		for (File file : ff) {			
-			//File temp = new File(targetF.getAbsolutePath() + File.separator + file.getName());
 			File newFonts = new File(targetF.getAbsolutePath()+"\\css\\fonts");
 			if(!newFonts.exists()) {
 				newFonts.mkdir();
@@ -659,7 +612,6 @@ public class Varietyfunction {
 	}
 
 	
-	//해당 클래스 파일이 위치한 곳을 불러옴.
 	public static File getResourceAsFile(String resourcePath) {
 		try {
 			InputStream in = ClassLoader.getSystemClassLoader().getResourceAsStream(resourcePath);			
@@ -667,10 +619,9 @@ public class Varietyfunction {
 				return null;
 			}
 			File tempFile = File.createTempFile(String.valueOf(in.hashCode()), ".tmp");
-			tempFile.deleteOnExit(); // 해당 경로된 디렉토리 파일을 삭제함 (컴파일이 종료 되는 시점에)
+			tempFile.deleteOnExit();
 
 			try (FileOutputStream out = new FileOutputStream(tempFile)) {
-				// copy stream
 				byte[] buffer = new byte[1024];
 				int bytesRead;
 				while ((bytesRead = in.read(buffer)) != -1) {
@@ -690,12 +641,10 @@ public class Varietyfunction {
         Path target = Paths.get(targetPath);
 
         try {
-            // 복사할 대상 폴더가 있는지 체크해서 없으면 생성
             if (!Files.exists(target.getParent())) {
                 Files.createDirectories(target.getParent());
             }
 
-            // StandardCopyOption.REPLACE_EXISTING : 파일이 이미 존재할 경우 덮어쓰기
             Files.copy(source, target, StandardCopyOption.REPLACE_EXISTING);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -704,7 +653,7 @@ public class Varietyfunction {
 	}
 	
 	public static void deleteAllFiles(String path) {
-		File file = new File(path); // 폴더내 파일을 배열로 가져온다.
+		File file = new File(path);
 		File[] tempFile = file.listFiles();
 
 		if (tempFile.length > 0) {
@@ -712,7 +661,6 @@ public class Varietyfunction {
 				if (tempFile[i].isFile()) {
 					tempFile[i].delete();
 				} else {
-					// 재귀함수
 					deleteAllFiles(tempFile[i].getPath());
 				}
 				tempFile[i].delete();
@@ -742,7 +690,7 @@ public class Varietyfunction {
             Files.createDirectories(newPath);
             System.out.println("폴더 생성 완료!");
             
-        } else {  // 폴더가 존재 한다면 재귀적 삭제 후, 폴더 재생성
+        } else {
             recursDel(newPath);
             Files.createDirectories(newPath);
         }
@@ -778,12 +726,9 @@ public class Varietyfunction {
 	
 	
 	public static void CreateTempF(String folderPath){
-	       //생성할 파일경로 지정
 	     String path = folderPath;
-	     //파일 객체 생성
 	     File file = new File(path);
 	     
-	     //!표를 붙여주어 파일이 존재하지 않는 경우의 조건을 걸어줌
 	     if(!file.exists()){
 	         //디렉토리 생성 메서드
 	         file.mkdirs();

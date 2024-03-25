@@ -26,10 +26,6 @@ public class InOutPathClas {
         return out;
     }
     
-//    public String getxslFile() {
-//        return xslt;
-//    }
-    
     public InputStream getxslFile() {
         return is;
     }

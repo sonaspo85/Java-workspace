@@ -35,7 +35,6 @@
         <xsl:variable name="startNum">
             <xsl:choose>
                 <xsl:when test="matches(*[1], '(^[&#x2460;-&#x2469;])')">
-                    <!--<xsl:value-of select="replace(*[1], '(^[&#x2460;-&#x2469;])(\s+)(.*)', '$1')"/>-->
                     <xsl:call-template name="circleConvert">
                         <xsl:with-param name="Num">
                             <xsl:value-of select="replace(*[1], '(^[&#x2460;-&#x2469;])(\s+)(.*)', '$1')"/>

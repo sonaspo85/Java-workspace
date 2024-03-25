@@ -98,7 +98,6 @@
                 <xsl:copy>
                     <xsl:apply-templates select="@* except @class" />
                     <xsl:if test="not(ancestor::table) and @*[matches(name(), 'alt$')]">
-                        <!--<xsl:attribute name="otherprops">excNote</xsl:attribute>-->
                         <xsl:attribute name="class">
                             <xsl:choose>
                                 <xsl:when test="@class">

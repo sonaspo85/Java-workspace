@@ -145,7 +145,6 @@
 
             <xsl:when test="matches($str0, 'MsoListBullet2CxSp')">
                 <xsl:value-of select="'UL2_hyphen'" />
-                <!--<xsl:value-of select="'hyphen'" />-->
             </xsl:when>
 
             <xsl:when test="matches($str0, 'MsoListBullet3CxSp')">

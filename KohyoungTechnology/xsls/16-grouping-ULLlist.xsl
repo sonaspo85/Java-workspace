@@ -94,7 +94,6 @@
         </xsl:copy>
     </xsl:template>
 
-    <!-- grouping UL within td -->
     <xsl:template match="*[not(matches(name(), '(body|^UL|ListIndent)'))][*[matches(@class, '^UL\d')]]">
         <xsl:copy>
             <xsl:apply-templates select="@*" />

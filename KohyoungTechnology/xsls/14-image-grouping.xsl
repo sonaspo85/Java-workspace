@@ -51,8 +51,6 @@
         </xsl:copy>
     </xsl:template>
     
-    <!-- grouping UL within td -->
-    
 
     
     <xsl:function name="ast:getPath">

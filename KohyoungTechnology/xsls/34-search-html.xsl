@@ -60,11 +60,8 @@
                     <script src="js\jquery-3.0.0.js" type="text/javascript">&#xfeff;</script>
                     <script src="js\toc.js">&#xfeff;</script>
                     <script type="text/javascript" src="js/search_db.js">&#xfeff;</script>
-                    <!-- 변경 포인트 -->
                     <script type="text/javascript" src="js/jquery-1.9.1.min.js">&#xfeff;</script>
-                    <!-- 변경 포인트 -->
                     <script type="text/javascript" src="js/ui_text.js">&#xfeff;</script>
-                    <!-- 변경 포인트 -->
                     <script type="text/javascript" src="js/search.js">&#xfeff;</script>
                 </head>
                 <body>

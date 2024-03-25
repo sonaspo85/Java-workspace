@@ -37,26 +37,20 @@ public class executeOrder {
         String tarStr = tarF.toString();
 
         ClassLoader cl = executeOrder.class.getClassLoader();
-//        Path rrr = Paths.get("H:/Batch/CE/Aircon/Bat/insertQRcode/resources/temp/QRcodes1.xml");
-//        list.add(new InOutPathClas(rrr.toString(), tarDir + "\\001.xml", cl.getResourceAsStream("main/xslt/001.xsl")));
         list.add(new InOutPathClas(tarF.toAbsolutePath(), tarDir + "\\001.xml", cl.getResourceAsStream("main/xslt/001.xsl")));
-//        System.out.println("qqqqqq: " + tarF.toAbsolutePath());
+        
         if (Files.exists(tarDir)) {
             try {
                 recursDel(tarDir);
 
             } catch (Exception e2) {
-                System.out.println("temp 폴더 삭제 실패");
                 e2.printStackTrace();
             }
 
         }
 
         try {
-            // xslt 실행
             executeXslt();
-            
-            // 오리지날 파일에 다시 덮어쓰기
             moveSrcPath(tarDir);
             list.clone();
             // temp 폴더 삭제
@@ -79,7 +73,6 @@ public class executeOrder {
                     Path newPath = Paths.get(newFile);
                     
                     Files.copy(a, newPath, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES);
-//                    Files.move(a, newPath, StandardCopyOption.REPLACE_EXISTING);
                     
                 }
                 
@@ -93,7 +86,6 @@ public class executeOrder {
         
     }
 
-    // temp 폴더내 재귀적 삭제
     public void recursDel(Path toPath) throws Exception {
 
         DirectoryStream<Path> ds = Files.newDirectoryStream(toPath);
@@ -138,8 +130,6 @@ public class executeOrder {
     }
 
     public void executeXslt() {
-        System.out.println("executeXslt 시작");
-
         try {
             list.forEach(a -> {
                 System.setProperty("javax.xml.xpath.XPathFactory:" + NamespaceConstant.OBJECT_MODEL_SAXON,
@@ -150,34 +140,20 @@ public class executeOrder {
                 File out = new File(a.getoutFile());
                 InputStream xslt = a.getxslFile();
                 
-                /*
-                URI in1 = in.toURI();
-                URI out1 = out.toURI();
-                System.out.println("aaa: " + in1.getPath());
-                System.out.println("bbb: " + out1.getPath());
-                */
                 // 1. xml 파일을 스트림으로 얻어 Source 객체로 생성
                 Source inxml = new StreamSource(in);
-                
-                // 출력 스트림을 통해 생성될 파일 지정
                 StreamResult outxml = new StreamResult(out);
-
-                // xslt 지정
                 Source xsltF = new StreamSource(xslt);
 
                 try {
-                    // Transformer 객체를 생성하는데 매개 변수로 xslt 파일을 입력스트림으로 사용하고 있는 변수 할당
                     Transformer tf = factory.newTransformer(xsltF);
                     File srcFile = new File(srcPath);
                     URI srcFile1 = srcFile.toURI();
                     
-                    // srcFile1: file:/H:/Batch/CE/Aircon/Bat/insertQRcode/dddr%20esources/
-                    System.out.println("srcFile1: " + srcFile1);
                     tf.setParameter("srcPath", srcFile1.toString());
                     tf.transform(inxml, outxml);
                     
                     xslt.close();
-//                    outxml.getOutputStream().close();
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }

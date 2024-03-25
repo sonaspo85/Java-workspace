@@ -81,7 +81,6 @@
         </xsl:variable>
 
         <xsl:value-of select="replace(ast:tokenAttr($str0, '&#xFCA;&#xFCA;&#xFCA;'), ';', '')" />
-        <!--<xsl:value-of select="$str0" />-->
     </xsl:template>
 
     <xsl:template match="text()" mode="deliver">

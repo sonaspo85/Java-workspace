@@ -8,11 +8,9 @@ public class AutoCloseableImpl implements AutoCloseable {
     }
 
     public void read() {
-        System.out.println(this.file + "를 읽습니다.");
     }
 
     @Override
     public void close() throws Exception {
-        System.out.println("리소스를 닫습니다.");
     }
 }

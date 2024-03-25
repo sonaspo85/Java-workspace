@@ -8,8 +8,6 @@
     version="2.0">
 	
     <xsl:output method="html" encoding="UTF-8" indent="no" omit-xml-declaration="yes" include-content-type="no"/>
-	<!--<xsl:strip-space elements="IMG-FileName URL-Path"/>-->
-	<!--<xsl:preserve-space elements="script div a i meta link title"/>-->
 	<xsl:preserve-space elements="*"/>
 	
 	<xsl:param name="srcPath" />
@@ -17,12 +15,6 @@
 	<xsl:variable name="srcDir" select="collection(concat(replace($srcPath11, '\\', '/'), '/?select=*.html;'))" />
 	<xsl:variable name="QRcodes" select="document(concat(replace($srcPath11, '\\', '/'), '/temp/QRcodes.xml'))/root" />
 	
-	
-	<!--<xsl:template match="@*">
-		<xsl:attribute name="{name()}">
-			<xsl:value-of select="." />
-		</xsl:attribute>
-	</xsl:template>-->
 	
 	<xsl:template match="@* | node()">
 		<xsl:copy>
@@ -41,20 +33,6 @@
 			</xsl:result-document>
 		</xsl:for-each>
 	</xsl:template>
-
-	<!--<xsl:template match="/">
-		<xsl:for-each select="$srcDir/*">
-			<xsl:variable name="fileName" select="ast:getLast(base-uri(.), '/')" />
-
-			<xsl:if test="not(matches($fileName, 'start_here'))">
-				<xsl:result-document href="{$fileName}">
-					<xsl:copy>
-						<xsl:apply-templates select="@*, node()" />
-					</xsl:copy>
-				</xsl:result-document>
-			</xsl:if>
-		</xsl:for-each>
-	</xsl:template>-->
 	
 	<xsl:template match="img">
 		<xsl:variable name="src" select="tokenize(@src, '/')[last()]" />
@@ -89,36 +67,6 @@
 			<xsl:apply-templates select="@*, node()" />
 		</xsl:copy>
 	</xsl:template>
-	
-	
-	<!--<xsl:template match="*">
-		<xsl:choose>
-			<xsl:when test="ancestor::*[matches(name(), '^(head|footer|script)$')] or 
-							ancestor::div[matches(@id, 'selectLanguage')] or 
-							matches(name(), '^(script)$')">
-				
-				<xsl:copy>
-					<xsl:apply-templates select="@*" />
-					
-					<xsl:choose>
-						<xsl:when test="not(node())">
-							<xsl:value-of select="concat('&#xFEFF;', .)" />
-						</xsl:when>
-						
-						<xsl:otherwise>
-							<xsl:apply-templates select="node()" />
-						</xsl:otherwise>
-					</xsl:choose>
-				</xsl:copy>
-			</xsl:when>
-			
-			<xsl:otherwise>
-				<xsl:copy>
-					<xsl:apply-templates select="@*, node()" />
-				</xsl:copy>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>-->
 	
 	<xsl:function name="ast:getLast">
 		<xsl:param name="str"/>

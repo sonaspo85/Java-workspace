@@ -48,7 +48,6 @@
         </xsl:choose>
     </xsl:template>
 
-    <!--  테이블 내 tr이 한개고 td의 ^&#xfeff;$ 아닌 노드를 카운트 하였을 때 1개 인 경우  -->
     <xsl:template match="tr">
         <xsl:variable name="cur" select="." />
 

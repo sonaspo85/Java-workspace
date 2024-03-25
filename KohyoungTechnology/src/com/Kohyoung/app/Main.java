@@ -88,11 +88,8 @@ public class Main extends JFrame{
 	    
 	    File projectdir = new File("");
         packageDir = projectdir.getAbsoluteFile().toString(); 
-//        codesF = new File(packageDir + File.separator + "language/codes.xml");
         
-	    setFont(new Font("Dialog", Font.BOLD, 12));
-		
-//		DOMConfigurator.configure(Varietyfunction.getResourceAsFile("log4j.xml").getPath());						
+	    setFont(new Font("Dialog", Font.BOLD, 12));						
 		
 		initComponents();				
 		
@@ -103,10 +100,6 @@ public class Main extends JFrame{
 			textPane.setText("");	
 		}
 		textPane.setDropTarget(new DropTarget(){
-			/**
-			 * 
-			 */
-			
 			private static final long serialVersionUID = 1L;
 
 			@Override
@@ -119,9 +112,7 @@ public class Main extends JFrame{
 					int s = droppedFiles.size();                    
                     if(s != 1){
                         evt.rejectDrag();
-                    }/*else if(!droppedFiles.get(0).getName().endsWith(".pdf")){
-                        evt.rejectDrag();
-                	}*/
+                    }
 				} catch (UnsupportedFlavorException | IOException ex) {					
                     JOptionPane.showOptionDialog(dialog, "Error", "Error", JOptionPane.ERROR_MESSAGE, JOptionPane.ERROR_MESSAGE, null, new Object[] { "   OK   "}, JOptionPane.ERROR_MESSAGE);
 				}			
@@ -140,9 +131,7 @@ public class Main extends JFrame{
                     	return;
                     }else {
                     	for (File file : droppedFiles) {
-                    		//Varietyfunction.getArrFileList().remove(textPane.getText());
-                        	textPane.setText(file.getAbsolutePath());
-                        	//Varietyfunction.showFilesInDIr((file.getAbsolutePath()));                    	
+                        	textPane.setText(file.getAbsolutePath());                    	
                         }	
                     }
                     
@@ -173,7 +162,6 @@ public class Main extends JFrame{
 		panel_1.setBounds(7, 108, 566, 156);
 		getContentPane().add(panel_1);
 		panel_1.setLayout(null);
-		//panel_1.setBackground(Color.black);
 		
 		JLabel lblLanguage = new JLabel("Languages");
 		lblLanguage.setFont(new Font("굴림", Font.BOLD, 12));
@@ -258,9 +246,7 @@ public class Main extends JFrame{
 					int s = droppedFiles.size();                    
                     if(s != 1){
                         evt.rejectDrag();
-                    }/*else if(!droppedFiles.get(0).getName().endsWith(".pdf")){
-                        evt.rejectDrag();
-                	}*/
+                    }
 				} catch (UnsupportedFlavorException | IOException ex) {					
                     JOptionPane.showOptionDialog(dialog, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE, JOptionPane.ERROR_MESSAGE, null, new Object[] { "   OK   "}, JOptionPane.ERROR_MESSAGE);
 				}			
@@ -311,30 +297,18 @@ public class Main extends JFrame{
 	}
 	
 	private void initComponents() throws FileNotFoundException, IOException{
-		//해당 구문은 word에 대한 레지스트리 값을 구별 해주기 위한 구문
-//		try {
-//			winValue = WinRegistry.valueForKey(WinRegistry.HKEY_CLASSES_ROOT, "Word.Application\\CurVer","");
-//			System.out.println("winValue ====" + winValue);
-//		} catch (IllegalArgumentException | IllegalAccessException | InvocationTargetException ie ) {
-//			ie.printStackTrace();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}			
-				
 		outputFolderNameSetFrame = new JFrame("Settings");
 		outputFolderNameLabel = new JLabel("Output Folder Name");
 		outputFolderNameJText = new JTextPane();
 		outputFolderNameButton = new JButton("Apply");
 		
 		List<File> templateList = Varietyfunction.getDirs(new File("template"), 0);
-	
 		String[] temparray = new String[templateList.size()];
 
 		for(int i = 0; i < templateList.size(); i++)
 		{
 			temparray[i] = templateList.get(i).getName();	
 			comboBoxButton = new JComboBox<String>(temparray);		
-			//System.out.println("comboBoxButton == =: " + comboBoxButton.getSelectedItem());
 		}
 		
 		
@@ -451,16 +425,6 @@ public class Main extends JFrame{
 
 					@Override
 					public void keyReleased(KeyEvent e) {
-//						if(e.getKeyCode() == 10) {
-//							outputFolderName = outputFolderNameJText.getText();
-//							try {
-//		    					prop.setProperty("outputFolderName", outputFolderName);
-//		    					prop.store(new FileOutputStream("Kohyoung-Word2HTML.ini"), null);
-//							} catch (Exception e2) {
-//								e2.printStackTrace();
-//							}
-//							System.out.println("keyReleased e getKeyCode=========== : "  + e.getKeyCode());
-//						}
 					}
 
 				});
@@ -542,7 +506,6 @@ public class Main extends JFrame{
 			JFileChooser jc = new JFileChooser(FileSystemView.getFileSystemView());
 			jc.setAcceptAllFileFilterUsed(false);
 			jc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);				
-			//jc.setCurrentDirectory(new File(System.getProperty("user.dir")));
 			jc.setCurrentDirectory(new File(textPane.getText()));
 			int returnVal = jc.showOpenDialog(this);
 			if(returnVal == JFileChooser.APPROVE_OPTION){	
@@ -566,7 +529,6 @@ public class Main extends JFrame{
 		int returnVal = jc.showSaveDialog(this);
 		if(returnVal == JFileChooser.APPROVE_OPTION){	
 			templateExplorer = jc.getSelectedFile().getAbsolutePath();	
-			//System.out.println("templateExplorer ==== : " + templateExplorer);
 			textPane_1.setText(templateExplorer);
 			
 			if(obj == folderSelectBtn_1) {
@@ -575,7 +537,7 @@ public class Main extends JFrame{
 					JOptionPane.showMessageDialog(dialog, "The folder does not exist.", "Execution Fail", JOptionPane.ERROR_MESSAGE);
 					return;				
 				}				
-				//templateExplorer = textPane_1.getText();
+
 				Varietyfunction.showFilesInDIr3(templateExplorer);				
 				if(!new File("template\\"+comboBoxButton.getSelectedItem().toString()).exists()) {					
 					JOptionPane.showMessageDialog(dialog, "Template folder does not exist.", "Copy Fail", JOptionPane.ERROR_MESSAGE);
@@ -583,15 +545,11 @@ public class Main extends JFrame{
 				}else if(Varietyfunction.getArrTempFilepath().size() == 0 || Varietyfunction.getArrTempFilepath().isEmpty()) {	
 					Varietyfunction.templateCopy(new File((String)"template\\" + comboBoxButton.getSelectedItem()), new File(templateExplorer));
 					Varietyfunction.templateFontCopy(new File((String)"template\\" + comboBoxButton.getSelectedItem()), new File(templateExplorer));
-//					Varietyfunction.templateCopy(new File("template"), new File(templateExplorer));
-//					Varietyfunction.templateFontCopy(new File("template"), new File(templateExplorer));
 
 				}else{							
 					for(int j = 0; j < Varietyfunction.getDirs(new File(templateExplorer), 0).size(); j++){
 						Varietyfunction.templateCopy(new File((String)"template\\" + comboBoxButton.getSelectedItem()), Varietyfunction.getDirs(new File(templateExplorer), 0).get(j));						
 						Varietyfunction.templateFontCopy(new File((String)"template\\" + comboBoxButton.getSelectedItem() + "\\css\\fonts"), Varietyfunction.getDirs(new File(templateExplorer), 0).get(j));
-//						Varietyfunction.templateCopy(new File("template"), Varietyfunction.getDirs(new File(templateExplorer), 0).get(j));						
-//						Varietyfunction.templateFontCopy(new File("template\\css\\fonts"), Varietyfunction.getDirs(new File(templateExplorer), 0).get(j));
 					}					
 				
 				}
@@ -620,15 +578,11 @@ public class Main extends JFrame{
 			
 		}else {						
 			if(textPane != null) {
-				//jf2 = new JFrame("Converting...");
 				progressFrame = null;
-				progressFrame = new JFrame("Conversion process");	
-				
+				progressFrame = new JFrame("Conversion process");					
 				prop.setProperty("sourceFilePath", textPane.getText());
 				prop.store(new FileOutputStream("Kohyoung-Word2HTML.ini"), null);
-				
-//				_logger.info("Processing starts.");
-				
+
 				outputFolderName = prop.getProperty("outputFolderName");
 
 				if(outputFolderName.isEmpty() || outputFolderName == null || outputFolderName.equals("")) {
@@ -646,13 +600,7 @@ public class Main extends JFrame{
 												
 					}						
 				});	
-				//break ;
-							
-//				while(!mysw.isCancelled()) {
-//					mysw.execute();	
-//				}				
 				
-				//worker.execute();								
 				return;
 
 			}else {				
@@ -685,11 +633,6 @@ public class Main extends JFrame{
 				progressFrame.setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
 				progressFrame.setLayout(new FlowLayout());
 				progressFrame.setSize(290,80);	
-				
-				//jf2.setLocation(325, 21);
-				//progressFrame.setAlwaysOnTop(true);						
-				//jf2.setBounds(300,100, 325, 21);
-				//jf2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);			
 				progressFrame.setResizable(false);
 								
 				ImageIcon ImageIcon = new ImageIcon(Varietyfunction.getResourceAsFile("logo.jpg").getPath());
@@ -697,7 +640,6 @@ public class Main extends JFrame{
 				progressFrame.setIconImage(Image);						
 
 				jProgressBar1 = new JProgressBar();
-				//jProgressBar1.setIndeterminate(true);
 				label = new JLabel("");	
 				
 				progressFrame.add(label);
@@ -715,11 +657,9 @@ public class Main extends JFrame{
 
 					getLang = chkArray.toString().replaceAll("\\[", "").replaceAll("\\]", "");
 					System.out.println("convertArr: " + getLang);
-					// ------------------------------------------
 					Varietyfunction.domParserWrite(getLang);								
 					
 					codesF = new File(packageDir + File.separator + "language/codes.xml");
-					// codes 파일 복사
 					String newcodeF = packageDir + File.separator + "xsls/codes.xml";
 					Path from = Paths.get(codesF.toString());
 					Path to = Paths.get(newcodeF);
@@ -737,17 +677,13 @@ public class Main extends JFrame{
 					Varietyfunction.showFilesInDIr(srcDir);	
 					
 					// 확장자를 제외한 파일 전체 경로
-					// 11: C:\Users\sonas\Desktop\Image\230603\ko\test\AOI 2.8.0.0_Release Notes_Attachments_Internal_ENG
 					extensionRemoveVar = Varietyfunction.getExtensionRemoveList();
 					
 					// 확장자 포함 전체 경로
-					// 22: C:\Users\sonas\Desktop\Image\230603\ko\test\AOI 2.8.0.0_Release Notes_Attachments_Internal_ENG.docx
 					arrFileNameListVar = Varietyfunction.getarrFileNameList();
 					
 					// 언어명
 					arrFileLanguageNameVar = Varietyfunction.getArrFileLanguageName();				
-					
-//					int nPrint = 0;					
 					
 					// xsl 실행하기
 					String outDir = outputFolderNameJText.getText();					
@@ -767,7 +703,6 @@ public class Main extends JFrame{
 					
 					for(int w = 0; w < Varietyfunction.getArrFileList().size(); w++) {
 						String fullPath = Varietyfunction.getArrFileList().get(w);
-						System.out.println("fullPath000: " + fullPath);
 						File word2htmlF = new File(word2htmlDirS  + " " + Varietyfunction.getArrFileList().get(w));
 						
 						label.setText("word2HTML");
@@ -779,8 +714,6 @@ public class Main extends JFrame{
 					for(int i = 0; i < Varietyfunction.getArrFileList().size(); i++) {
 						nPrint++;
 						String fullPath = Varietyfunction.getArrFileList().get(i);
-						System.out.println("fullPath: " + fullPath);
-						
 						String lang = arrFileLanguageNameVar.get(i);
 						
                         label.setText("word2HTML");
@@ -789,20 +722,11 @@ public class Main extends JFrame{
                         	nPrint++;
                             
                             label.setText("Waiting ..");
-                        	
-                            // xslt 실행
     					    transxslt.runSpec2xml(i);
-//    					    System.out.println("111: " + arrFileNameListVar.get(i).replaceAll(".docx", "_files"));
-//    					    System.out.println("222: " + srcDir);
-//    					    System.out.println("333: " + outputFolderName);
-//    					    System.out.println("444: " + arrFileLanguageNameVar.get(i));
     					    
     					    // 폴더 및 파일 복제
     					    File qdir = new File(fullPath.replace(".docx", ".files"));
     					    File qto = new File(srcDir + File.separator + outputFolderName + File.separator + lang + File.separator + "/images");
-    					    
-//    					    System.out.println("111: " + qdir.toString());
-//    					    System.out.println("222: " + qto.toString());
     					    
     					    if(!qto.exists()) {
     					    	qto.mkdirs();
@@ -835,8 +759,6 @@ public class Main extends JFrame{
                         }
 						
 					}
-				
-					
 
 					//reset Line
 					arrFileLanguageNameVar.clear();
@@ -847,36 +769,23 @@ public class Main extends JFrame{
 					Varietyfunction.deleteAllFiles("temp");
 					setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
 					progressFrame.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
-					//=======reset Line Done========
 
 				}
 				catch (Exception e2) {
 					Logger.getLogger(Main.class.getName()).log(Level.INFO, null, e2);
 					e2.printStackTrace();				
 				} 
-//				finally {
-//					Varietyfunction.deleteAllFiles("temp");
-//					setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
-//					jf2.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
-//				}	
-				
+                //이쪽부분다시볼겄
 				if(cancelWhether == true) {	
 					questionTemplate(JOptionPane.showOptionDialog(null, "The conversion has been \ncompleted successfully.", "Conversion Success", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, new Object[] { "   OK   "}, JOptionPane.YES_OPTION));
 					Varietyfunction.openFolder(new File(textPane.getText()));
 					progressFrame.dispose();					
-				}else {
-					//Varietyfunction.deleteAllFiles(textPane.getText()+"\\output");	
-//					_logger.info("The processing has been canceled." + textPane.getText());	
+				}else {	
 					JOptionPane.showOptionDialog(null, "This process has been stopped.\n Process interruption can affect conversion operations.", "It's been canceled", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, new Object[] { "   OK   "}, JOptionPane.INFORMATION_MESSAGE);									
 				}
 				setEnabled(true);
 				cancelWhether = true;			
-				//이쪽부분다시볼겄
-//				jf2.removeAll();//or remove(JComponent)
-//				jf2.revalidate();
-//				jf2.repaint();
-//				label.setText("");
-//				jProgressBar1.setValue(0);	
+
 				
 				return null;
 				 
@@ -886,7 +795,7 @@ public class Main extends JFrame{
 				e.printStackTrace();
 			}
 			
-			progressFrame.removeAll();//or remove(JComponent)
+			progressFrame.removeAll();
 			progressFrame.revalidate();
 			progressFrame.repaint();
 			
@@ -942,8 +851,6 @@ public class Main extends JFrame{
 	public void questionTemplate(int res) {
 		questionTemplateFrame = new JFrame();			
 		
-		//System.out.println("questionTemplate ==== : "+ (String) comboBoxButton.getSelectedItem().toString());
-		//int res = JOptionPane.showOptionDialog(null, "The conversion has been \ncompleted successfully.", "Conversion Success", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, new Object[] { "   OK   "}, JOptionPane.YES_OPTION);		
 		if(res == 0) {
 		     int res2 = JOptionPane.showOptionDialog(new JFrame(), "Do you want to apply the template to \nthe output folder now?","Apply Template",
 	         JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null,
@@ -958,19 +865,14 @@ public class Main extends JFrame{
 				}else if(Varietyfunction.getArrTempFilepath().size() == 0 || Varietyfunction.getArrTempFilepath().isEmpty()) {						
 					Varietyfunction.templateCopy(new File((String)"template\\" + comboBoxButton.getSelectedItem().toString()), new File(templateOutfolderPath));
 					Varietyfunction.templateFontCopy(new File((String)"template\\" + comboBoxButton.getSelectedItem().toString()), new File(templateOutfolderPath));
-//					Varietyfunction.templateCopy(new File("template"), new File(templateOutfolderPath));
-//					Varietyfunction.templateFontCopy(new File("template"), new File(templateOutfolderPath));
+
 				}else{							
-					//for(int j = 0; j < Varietyfunction.getDirs(new File((String) comboBoxButton.getSelectedItem().toString()), 0).size(); j++){
 					for(int j = 0; j < Varietyfunction.getDirs(new File(templateOutfolderPath), 0).size(); j++){
 					    System.out.println("uuuuuuuuuuuuuuuuuuuuuuuuu");
 						Varietyfunction.templateCopy(new File((String)"template\\" + comboBoxButton.getSelectedItem().toString()), Varietyfunction.getDirs(new File(templateOutfolderPath), 0).get(j));							
 						Varietyfunction.templateFontCopy(new File((String)"template\\" + comboBoxButton.getSelectedItem().toString() + "\\css\\fonts"), Varietyfunction.getDirs(new File(templateOutfolderPath), 0).get(j));
-//						Varietyfunction.templateCopy(new File("template"), Varietyfunction.getDirs(new File(templateOutfolderPath), 0).get(j));	
-//						Varietyfunction.templateFontCopy(new File("template\\css\\fonts"), Varietyfunction.getDirs(new File(templateOutfolderPath), 0).get(j));
 					}										
-				}
-//				_logger.info("The template has been copied successfully. \n File Path :" + templateExplorer);	
+				}	
 				JOptionPane.showOptionDialog(questionTemplateFrame, "The template has been copied successfully", "Copy Success", JOptionPane.INFORMATION_MESSAGE, JOptionPane.INFORMATION_MESSAGE, null, new Object[] { "   OK   "}, JOptionPane.INFORMATION_MESSAGE);
 				//System.exit(0);
 		     }
@@ -990,13 +892,7 @@ public class Main extends JFrame{
 			Logger.getLogger(Main.class.getName()).log(Level.INFO, null, e);
 			e.printStackTrace();
 		}
-		//System.out.println("경로 == : " + Varietyfunction.getDirs(new File("F:\\Project\\Kohyoung\\template"), 0));		
-		
-//		Varietyfunction.languageFolderSearch("F:\\Project\\kohyoung\\최종테스트파일2\\Output\\KOR\\css\\fonts");
-//		Varietyfunction.domParser();
-//		new Main();	
-		
-		
+
 	}
 	
 	private JTextPane textPane;
