@@ -792,10 +792,7 @@ public class RC implements Initializable {
                 obj.langL2.clear();
                 
                 langL2.addAll(plv2.getItems());
-                System.out.println("aaa: " + langL2.toString());
-                
                 obj.langL2.addAll(langL2);
-                System.out.println("bbb: " + obj.langL2.toString());
                 
                 bt2.setStyle(
                     "-fx-border-color: #c1c3c9;" +  

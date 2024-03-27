@@ -99,8 +99,10 @@ public class getLangs {
                     Sheet sheet = wb.getSheet("Type-lang");
                     calleucommon(sheet, doc, rootEle);
                     calleu(sheet, doc, rootEle);
+                    callturcommon(sheet, doc, rootEle);
+                    callus(sheet, doc, rootEle);
+                    callcis(sheet, doc, rootEle);
                     
-
                     exportXML(doc, getSheetName);
     
                 }
@@ -166,6 +168,87 @@ public class getLangs {
         return doc;
         
     }
+    
+    public void callcis(Sheet sheet, Document doc, Element rootEle) {
+        int fac = 6;
+        
+        for(int q=1; q<fac; q++) {
+            Row row = sheet.getRow(q);
+            
+            if (q==1) {
+                Cell cell = row.getCell(9);
+                Element listitem = doc.createElement("listitem");
+                listitem.setAttribute("type", cell.toString());
+                
+                for(int e=2; e<fac; e++) {
+                    cell = sheet.getRow(e).getCell(9);
+                    Element item = doc.createElement("item");
+                    item.setAttribute("lang", cell.toString());
+                    listitem.appendChild(item);
+                    
+                }
+
+                rootEle.appendChild(listitem);
+            } 
+
+        }
+        
+    }
+    
+    public void callus(Sheet sheet, Document doc, Element rootEle) {
+        int fac = 7;
+        
+        for(int q=1; q<fac; q++) {
+            Row row = sheet.getRow(q);
+            
+            if (q==1) {
+                Cell cell = row.getCell(7);
+                Element listitem = doc.createElement("listitem");
+                listitem.setAttribute("type", cell.toString());
+                
+                for(int e=2; e<fac; e++) {
+                    cell = sheet.getRow(e).getCell(7);
+                    Element item = doc.createElement("item");
+                    item.setAttribute("lang", cell.toString());
+                    listitem.appendChild(item);
+                    
+                }
+
+                rootEle.appendChild(listitem);
+            } 
+
+        }
+        
+    }
+    
+    
+    
+    public void callturcommon(Sheet sheet, Document doc, Element rootEle) {
+        int fac = 11;
+        
+        for(int q=1; q<fac; q++) {
+            Row row = sheet.getRow(q);
+            
+            if (q==1) {
+                Cell cell = row.getCell(5);
+                Element listitem = doc.createElement("listitem");
+                listitem.setAttribute("type", cell.toString());
+                
+                for(int e=2; e<fac; e++) {
+                    cell = sheet.getRow(e).getCell(5);
+                    Element item = doc.createElement("item");
+                    item.setAttribute("lang", cell.toString());
+                    listitem.appendChild(item);
+                    
+                }
+
+                rootEle.appendChild(listitem);
+            } 
+
+        }
+        
+    }
+    
     
     public void calleucommon(Sheet sheet, Document doc, Element rootEle) {
         int fac = 28;
