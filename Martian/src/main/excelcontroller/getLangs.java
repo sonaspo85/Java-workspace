@@ -97,8 +97,8 @@ public class getLangs {
                     
                 } else if(getSheetName.equals("type-lang")) {
                     Sheet sheet = wb.getSheet("Type-lang");
-                    callfac(sheet, doc, rootEle);
-                    callrac(sheet, doc, rootEle);
+                    calleucommon(sheet, doc, rootEle);
+                    calleu(sheet, doc, rootEle);
                     
 
                     exportXML(doc, getSheetName);
@@ -167,8 +167,8 @@ public class getLangs {
         
     }
     
-    public void callfac(Sheet sheet, Document doc, Element rootEle) {
-        int fac = 5;
+    public void calleucommon(Sheet sheet, Document doc, Element rootEle) {
+        int fac = 28;
         
         for(int q=1; q<fac; q++) {
             Row row = sheet.getRow(q);
@@ -193,8 +193,8 @@ public class getLangs {
         
     }
     
-    public void callrac(Sheet sheet, Document doc, Element rootEle) {
-        int rac = 4;
+    public void calleu(Sheet sheet, Document doc, Element rootEle) {
+        int rac = 12;
         
         for(int q=1; q<rac; q++) {
             Row row = sheet.getRow(q);

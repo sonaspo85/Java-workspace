@@ -28,11 +28,11 @@ rem set excelTemplsDir="G:/MS-Drive/OneDrive - UOU/WORK/Workspace/WORK/JAVA/java
 
 
 rem rem rem rem rem rem *************************************************************
-rem java %transform%  -s:"H:/Workspace/Java-workspace/Martian/srcDir/temp/eachSrc/aaa.xml"  -o:%tempDir%\00-messageF-groupLang.xml  -xsl:%xslDir%\01-messageF-groupLang.xsl docinfoF=%docinfoF%
+java %transform%  -s:"C:/Users/SMC/Desktop/EN_ACR044/temp/eachSrc/aaa.xml"  -o:%tempDir%\00-messageF-groupLang.xml  -xsl:%xslDir%\01-messageF-groupLang.xsl docinfoF=%docinfoF%
 rem java %transform%  -s:%xslDir%\dummy.xml  -o:%tempDir%\00-videolinkF-group.xml  -xsl:%xslDir%\01-videolinkF-group.xsl
 rem java %transform%  -s:%xslDir%\dummy.xml  -o:%tempDir%\00-remoteurlF-group.xml  -xsl:%xslDir%\01-remoteurlF-group.xsl
 rem java %transform%  -s:"H:/Workspace/Java-workspace/Martian/srcDir/temp/eachSrc/aaa.xml"  -o:%tempDir%\01-simplify.xml  -xsl:%xslDir%\01-simplify.xsl
-java %transform%  -s:%tempDir%\01-simplify.xml  -o:%tempDir%\02-simplify.xml  -xsl:%xslDir%\02-simplify.xsl
+rem java %transform%  -s:%tempDir%\01-simplify.xml  -o:%tempDir%\02-simplify.xml  -xsl:%xslDir%\02-simplify.xsl
 rem java %transform%  -s:%tempDir%\02-simplify.xml  -o:%tempDir%\03-define-BrType.xml  -xsl:%xslDir%\03-define-BrType.xsl
 rem java %transform%  -s:%tempDir%\03-define-BrType.xml  -o:%tempDir%\04-cleanAttrs.xml  -xsl:%xslDir%\04-cleanAttrs.xsl
 rem java %transform%  -s:%tempDir%\04-cleanAttrs.xml  -o:%tempDir%\05-grouping-br.xml  -xsl:%xslDir%\05-grouping-br.xsl

@@ -1194,10 +1194,8 @@ public class RC implements Initializable {
                 boolean success = client.rename(oldFilepath, newFilepath);
                 
                 if (success != true) {
-                    System.out.println("파일 이동에 실패 했습니다.");
                     return;
                 } else {
-                    System.out.println("파일이동 성공");
                 }
 
             }
@@ -1252,10 +1250,8 @@ public class RC implements Initializable {
                 boolean success = client.rename(existingFilepath, newFilepath);
                 
                 if (success != true) {
-                    System.out.println("파일 이동에 실패 했습니다.");
                     return;
                 } else {
-                    System.out.println("파일이동 성공");
                 }
 
             }
