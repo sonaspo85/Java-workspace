@@ -9,9 +9,11 @@ import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -1124,6 +1126,10 @@ public class RC implements Initializable {
             @Override
             protected Void call() {
                 try {
+                    Path path = Paths.get(excelfile);
+                    String filename = path.getFileName().toString();
+                    
+                    moveExcel(filename);
                     uploadExcel(excelfile);
 
                 } catch (Exception e1) {
@@ -1150,6 +1156,124 @@ public class RC implements Initializable {
 
     }
     
+    public void moveExcel(String filename) {
+        FTPClient client = new FTPClient();
+        
+        Date date = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd-hhmmss");
+        String strNow2 = sdf.format(date);
+        String defaultFTP = "tcs/confidential/Martian/resource/excel-template/";
+        String oldFilepath = defaultFTP + filename;
+        
+        String newfilename = filename.replace(".xlsx", "") + "_" + strNow2 + ".xlsx";
+        String newFilepath = defaultFTP + "Backup/" + newfilename;
+        
+        try {
+            client.setControlEncoding("EUC-KR");
+            
+            // ftp 접속 주소 설정
+            client.connect("10.10.10.2", 21);
+            int resultCode = client.getReplyCode();
+            
+            if(!FTPReply.isPositiveCompletion(resultCode)) {
+                return;
+                
+            } else {
+                client.setSoTimeout(1000);
+                
+                // 로그인
+                String id = "sonminchan";
+                String pw = "astkorea1234";
+                
+                if(!client.login(id, pw)) {
+                    msg = "로그인 정보(ID, PW)가 잘못 되었습니다.";
+                    return;
+                } else {
+                }
+                
+                boolean success = client.rename(oldFilepath, newFilepath);
+                
+                if (success != true) {
+                    System.out.println("파일 이동에 실패 했습니다.");
+                    return;
+                } else {
+                    System.out.println("파일이동 성공");
+                }
+
+            }
+            
+        } catch (Exception e1) { 
+            e1.printStackTrace();
+            
+        } finally {
+            try {
+                if (client.isConnected()) {
+                    client.disconnect();
+                }
+                
+            } catch (Exception e2) { 
+            }
+        }
+        
+    }
+    
+    public void moveExcel2() {
+        FTPClient client = new FTPClient();
+        
+        Date date = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-mm-dd-hhmmss");
+        String strNow2 = sdf.format(date);
+        String existingFilepath = "tcs/confidential/Martian/resource/excel-template/language.xlsx";
+        String newFilepath = "tcs/confidential/Martian/resource/excel-template/Backup/language_" + strNow2 + ".xlsx";
+        
+        try {
+            client.setControlEncoding("EUC-KR");
+            
+            // ftp 접속 주소 설정
+            client.connect("10.10.10.2", 21);
+            int resultCode = client.getReplyCode();
+            
+            if(!FTPReply.isPositiveCompletion(resultCode)) {
+                return;
+                
+            } else {
+                client.setSoTimeout(1000);
+                
+                // 로그인
+                String id = "sonminchan";
+                String pw = "astkorea1234";
+                
+                if(!client.login(id, pw)) {
+                    msg = "로그인 정보(ID, PW)가 잘못 되었습니다.";
+                    return;
+                } else {
+                }
+                
+                boolean success = client.rename(existingFilepath, newFilepath);
+                
+                if (success != true) {
+                    System.out.println("파일 이동에 실패 했습니다.");
+                    return;
+                } else {
+                    System.out.println("파일이동 성공");
+                }
+
+            }
+            
+        } catch (Exception e1) { 
+            e1.printStackTrace();
+            
+        } finally {
+            try {
+                if (client.isConnected()) {
+                    client.disconnect();
+                }
+                
+            } catch (Exception e2) { 
+            }
+        }
+        
+    }
         
     public void uploadExcel(String excelfile) {
         // FTP 접속을 위한 FTPClient 객체 선언 

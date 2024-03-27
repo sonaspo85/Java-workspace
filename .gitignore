@@ -8,4 +8,5 @@ jre/
 *.zip
 *.idml
 Martian/jre/lib/resource/docInfo.xml
-Martian/jre/lib/resource/docInfo.xml
+srcDir/
+
