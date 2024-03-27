@@ -55,7 +55,7 @@
             <xsl:variable name="filename">
                 <xsl:choose>
                     <xsl:when test="number($langmapCnt) &gt; 1">
-                        <xsl:value-of select="concat('file:////', $srcDir, '/output/', upper-case(concat($type, $modelcode)), '/', upper-case(concat($type, '_', $isocode)), '/', @data-id)" />
+                        <xsl:value-of select="concat('file:////', $srcDir, '/output/', upper-case(concat($type, $modelcode)), '/', upper-case(concat($type, $modelcode, '_', $isocode)), '/', @data-id)" />
                     </xsl:when>
                 
                     <xsl:otherwise>

@@ -391,6 +391,9 @@ public class RC implements Initializable {
                     updateProgress(20, 100);
                     updateMessage(String.valueOf(20));
                     
+                    System.out.println(obj.langL2.toString());
+                    
+                    
                     // 문서 정보를 파일로 추출
                     try {
                         docInfo docinfo = new docInfo();
@@ -509,7 +512,7 @@ public class RC implements Initializable {
                         
                     }
                     
-                    return null;
+                    return null; 
                 }
                 
                 @Override
@@ -783,8 +786,15 @@ public class RC implements Initializable {
             
             dg.setOnCloseRequest(event -> {
                 langL.clear();
+                langL2.clear();
+                obj.langL2.clear();
+                
                 langL2.addAll(plv2.getItems());
+                System.out.println("aaa: " + langL2.toString());
+                
                 obj.langL2.addAll(langL2);
+                System.out.println("bbb: " + obj.langL2.toString());
+                
                 bt2.setStyle(
                     "-fx-border-color: #c1c3c9;" +  
                     "-fx-background-color: #f0eece;"
@@ -837,7 +847,6 @@ public class RC implements Initializable {
             
         } else { 
             langL2.addAll(plv1.getSelectionModel().getSelectedItems());
-            
         }
 
         plv2.setItems(FXCollections.observableArrayList(langL2)); 

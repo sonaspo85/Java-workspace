@@ -23,7 +23,7 @@
         <xsl:variable name="filename">
             <xsl:choose>
                 <xsl:when test="number($langmapCnt) &gt; 1">
-                    <xsl:value-of select="concat('file:////', $srcDir, '/output/', upper-case(concat($type, $modelcode)), '/', upper-case(concat($type, '_', $isocode)), '/', 'js/ui_text.js')" />
+                    <xsl:value-of select="concat('file:////', $srcDir, '/output/', upper-case(concat($type, $modelcode)), '/', upper-case(concat($type, $modelcode, '_', $isocode)), '/', 'js/ui_text.js')" />
                 </xsl:when>
             
                 <xsl:otherwise>
@@ -37,6 +37,12 @@
             <xsl:value-of select="$type" />
             <xsl:text>"</xsl:text>
             <xsl:text>&#xa;</xsl:text>
+            
+            <xsl:text>var modelnumber = "</xsl:text>
+            <xsl:value-of select="$modelcode" />
+            <xsl:text>"</xsl:text>
+            <xsl:text>&#xa;</xsl:text>
+            
             <xsl:text>var message = {</xsl:text>
 
             <xsl:for-each select="tokenize($langmap, ', ')">

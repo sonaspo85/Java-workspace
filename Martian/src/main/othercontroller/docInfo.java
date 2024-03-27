@@ -161,6 +161,7 @@ public class docInfo {
                 item8data += ", ";
                 
             }
+            
         }
         
         return item8data;

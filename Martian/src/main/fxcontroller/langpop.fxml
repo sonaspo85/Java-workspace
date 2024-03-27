@@ -16,11 +16,11 @@
             <ListView fx:id="plv2" prefHeight="200.0" prefWidth="200.0" style="-fx-fixed-cell-size: 27; -fx-font-family: consolas;" />
          </children>
       </HBox>
-      <Button fx:id="pbt1" layoutX="4.0" layoutY="285.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="200.0" text="Move Left">
+      <Button fx:id="pbt1" layoutX="4.0" layoutY="285.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="200.0" text="Move Right">
          <font>
             <Font name="Candara Bold" size="15.0" />
          </font></Button>
-      <Button fx:id="pbt2" layoutX="204.0" layoutY="285.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="200.0" text="Move Right">
+      <Button fx:id="pbt2" layoutX="204.0" layoutY="285.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="200.0" text="Move Left">
          <font>
             <Font name="Candara Bold" size="15.0" />
          </font></Button>
