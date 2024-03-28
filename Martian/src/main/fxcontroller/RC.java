@@ -713,13 +713,19 @@ public class RC implements Initializable {
                     System.out.println("Selected value : " + newValue);
                     
                     if(typelangMap.containsKey(newValue)) {
+                        
                         plv2.setItems(FXCollections.observableArrayList(typelangMap.get(newValue)));
                         
+                        langL2.clear();
+                        langL2.addAll(typelangMap.get(newValue));
                     }
                     
                 }
             });
+            
+
             langL2.clear();
+                        
             plv1.setItems(FXCollections.observableArrayList(langL));
             plv1.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             plv2.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
